@@ -102,15 +102,69 @@ function buildWalls(t: Terrain, rings: [number, number][][]) {
   return { wall: mk(pos, nor), band: mk(band, bandN) }
 }
 
+/** Tileable ground grain (soil / grass speckle), multiplied into the satellite colour at close range. */
+function groundDetail() {
+  const n = 256
+  const c = document.createElement('canvas')
+  c.width = c.height = n
+  const ctx = c.getContext('2d')!
+  const img = ctx.createImageData(n, n)
+  // periodic value noise (wraps at the tile edges)
+  const lattice = (p: number, seed: number) => {
+    const g = new Float32Array(p * p)
+    let s = seed
+    for (let i = 0; i < g.length; i++) {
+      s = (s * 16807) % 2147483647
+      g[i] = s / 2147483647
+    }
+    return (x: number, y: number) => {
+      const xi = Math.floor(x) % p
+      const yi = Math.floor(y) % p
+      const xf = x - Math.floor(x)
+      const yf = y - Math.floor(y)
+      const u = xf * xf * (3 - 2 * xf)
+      const v = yf * yf * (3 - 2 * yf)
+      const a = g[yi * p + xi]
+      const b = g[yi * p + ((xi + 1) % p)]
+      const cc = g[((yi + 1) % p) * p + xi]
+      const d = g[((yi + 1) % p) * p + ((xi + 1) % p)]
+      return a + (b - a) * u + (cc - a) * v + (a - b - cc + d) * u * v
+    }
+  }
+  const o1 = lattice(8, 11)
+  const o2 = lattice(32, 23)
+  const o3 = lattice(128, 37)
+  for (let y = 0; y < n; y++)
+    for (let x = 0; x < n; x++) {
+      const v = 0.55 * o1((x / n) * 8, (y / n) * 8) + 0.3 * o2((x / n) * 32, (y / n) * 32) + 0.15 * o3((x / n) * 128, (y / n) * 128)
+      const k = 0.84 + v * 0.3
+      const i = (y * n + x) * 4
+      img.data[i] = Math.min(255, k * 236)
+      img.data[i + 1] = Math.min(255, k * 240)
+      img.data[i + 2] = Math.min(255, k * 228)
+      img.data[i + 3] = 255
+    }
+  ctx.putImageData(img, 0, 0)
+  const t = new THREE.CanvasTexture(c)
+  t.wrapS = t.wrapT = THREE.RepeatWrapping
+  t.colorSpace = THREE.SRGBColorSpace
+  t.anisotropy = 8
+  return t
+}
+
 export function TerrainModel({ terrain, quality }: { terrain: Terrain; quality: 'high' | 'low' }) {
   const group = useRef<THREE.Group>(null!)
+  // colour: the Sentinel-2 satellite mosaic when baked (scripts/build-satellite.py), else the ivory relief print
+  const tx = terrain.meta.textures
+  const colourFile = tx.satellite ? (quality === 'high' ? tx.satellite : tx.satelliteLow ?? tx.satellite) : tx.shade
   const [shade, normal, mask, table] = useLoader(THREE.TextureLoader, [
-    BASE + terrain.meta.textures.shade,
-    BASE + terrain.meta.textures.normal,
-    BASE + terrain.meta.textures.mask,
-    BASE + terrain.meta.table.file,
+    BASE + colourFile,
+    BASE + tx.normal,
+    BASE + tx.mask,
+    BASE + (terrain.meta.table.satFile ?? terrain.meta.table.file),
   ])
   const context = useStore((s) => s.context)
+  const theme = useStore((s) => s.theme)
 
   const geometry = useMemo(() => buildTerrainGeometry(terrain, quality === 'high' ? 1 : 2), [terrain, quality])
   const walls = useMemo(() => buildWalls(terrain, runtime.vectors?.border ?? []), [terrain])
@@ -121,6 +175,7 @@ export function TerrainModel({ terrain, quality }: { terrain: Terrain; quality: 
       uSite: { value: new THREE.Vector3(0, 0, 0) },
       uFlat: { value: 0 },
       uFlatR: { value: new THREE.Vector2(0.25, 0.9) },
+      detailMap: { value: groundDetail() },
     }),
     [mask],
   )
@@ -145,25 +200,37 @@ export function TerrainModel({ terrain, quality }: { terrain: Terrain; quality: 
         .replace(
           '#include <common>',
           `#include <common>
-          uniform vec3 uSite; uniform float uFlat; uniform vec2 uFlatR; varying float vFlatK;`,
+          uniform vec3 uSite; uniform float uFlat; uniform vec2 uFlatR; varying float vFlatK; varying vec2 vGround;`,
         )
         .replace(
           '#include <begin_vertex>',
           `#include <begin_vertex>
           float dd = distance(position.xz, uSite.xz);
           vFlatK = uFlat * (1.0 - smoothstep(uFlatR.x, uFlatR.y, dd));
-          transformed.y = mix(transformed.y, uSite.y, vFlatK);`,
+          transformed.y = mix(transformed.y, uSite.y, vFlatK);
+          vGround = position.xz;`,
         )
       shader.fragmentShader = shader.fragmentShader
         .replace(
           '#include <common>',
           `#include <common>
-          uniform sampler2D maskMap; varying float vFlatK;`,
+          uniform sampler2D maskMap; uniform sampler2D detailMap; varying float vFlatK; varying vec2 vGround;`,
         )
         .replace(
           '#include <clipping_planes_fragment>',
           `#include <clipping_planes_fragment>
           if (texture2D(maskMap, vMapUv).r < 0.5) discard;`,
+        )
+        .replace(
+          '#include <map_fragment>',
+          `#include <map_fragment>
+          // close range: fine ground grain over the (coarse) satellite colour
+          float gk = 1.0 - smoothstep(0.25, 1.6, length(vViewPosition));
+          if (gk > 0.0) {
+            vec3 g1 = texture2D(detailMap, vGround / 0.007).rgb;
+            vec3 g2 = texture2D(detailMap, vGround / 0.041 + 0.37).rgb;
+            diffuseColor.rgb *= mix(vec3(1.0), g1 * g2 * 1.12, gk);
+          }`,
         )
         .replace(
           '#include <normal_fragment_maps>',
@@ -181,6 +248,11 @@ export function TerrainModel({ terrain, quality }: { terrain: Terrain; quality: 
     table.anisotropy = 8
     return new THREE.MeshStandardMaterial({ map: table, roughness: 1, metalness: 0, envMapIntensity: 0.2 })
   }, [table])
+  useEffect(() => {
+    const dark = theme === 'dark'
+    wallMat.color.set(dark ? '#3a3b40' : '#d8d1c3')
+    tableMat.color.set(dark ? '#5d5f66' : '#ffffff')
+  }, [theme, wallMat, tableMat])
 
   useEffect(
     () => () => {
@@ -207,8 +279,11 @@ export function TerrainModel({ terrain, quality }: { terrain: Terrain; quality: 
     if (m) {
       site.current.set(m.center.x, terrain.y(m.center.x, m.center.z), m.center.z)
       uniforms.uSite.value.copy(site.current)
-      const r = Math.max(0.12, (Math.max(m.sizeM.x, m.sizeM.z) / 1000) * m.scale * 1.1)
-      uniforms.uFlatR.value.set(r, r * 3 + 0.6)
+      // the plateau must cover whole mesh cells around the site, otherwise the rendered (linearly
+      // interpolated) slope stays above the site height and buries the building / the walking figure
+      const cell = terrain.meta.grid.spacingKm * (quality === 'high' ? 1 : 2)
+      const r = Math.max(0.12, (Math.max(m.sizeM.x, m.sizeM.z) / 1000) * m.scale * 1.1, cell * 2.2)
+      uniforms.uFlatR.value.set(r, r + cell * 2.5)
     }
   })
 

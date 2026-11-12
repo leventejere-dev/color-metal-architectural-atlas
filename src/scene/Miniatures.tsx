@@ -33,7 +33,9 @@ const TARGET_PX = 54 // on-screen plinth diameter at small map scales
 const MAX_PX = 170 // on-screen plinth diameter just before true scale takes over
 const FULL_PX = 150 // switch to the full-detail model above this on-screen size
 const FAR_MIN_FEATURE = 1.3 // metres
-const FULL_CACHE = 6
+const FULL_CACHE = 10
+/** ids that want full detail this frame (eviction never removes them) */
+const wantedNow = new Set<string>()
 const QA = typeof location !== 'undefined' && new URLSearchParams(location.search).has('qa')
 
 export interface Mini {
@@ -48,6 +50,8 @@ export interface Mini {
   full: THREE.Group | null
   centreOffset: THREE.Vector3
   size: THREE.Vector3
+  /** centre of the model's footprint in the base frame (ensembles may extend far from the origin) */
+  foot: THREE.Vector2
   plinthR: number
   mod: ModelModule | null
   extra: Mats
@@ -90,8 +94,8 @@ function prioOf(p: Project) {
 const plinthGeo = new THREE.CylinderGeometry(1, 1, 1, 72).translate(0, -0.5, 0)
 const skirtGeo = new THREE.CylinderGeometry(0.985, 1.03, 1, 72, 1, true).translate(0, -0.5, 0)
 const ringGeo = new THREE.RingGeometry(0.975, 1, 96).rotateX(-Math.PI / 2)
-const plinthTop = new THREE.MeshStandardMaterial({ color: '#efebe3', roughness: 0.85, metalness: 0 })
-const plinthSide = new THREE.MeshStandardMaterial({ color: '#e1dbcf', roughness: 0.9, metalness: 0 })
+const plinthTop = new THREE.MeshStandardMaterial({ color: '#dcd6ca', roughness: 0.85, metalness: 0 })
+const plinthSide = new THREE.MeshStandardMaterial({ color: '#c6bfb1', roughness: 0.9, metalness: 0 })
 const brass = new THREE.MeshStandardMaterial({ color: '#b99a5e', roughness: 0.3, metalness: 1 })
 const PLINTH_H = 0.8 // m
 
@@ -121,6 +125,17 @@ export function getMini(id: string | null | undefined) {
   return id ? minis.get(id) : undefined
 }
 
+/** The visible 3D miniature nearest to a ground point (km), with its real size (km). */
+export function nearestMini(x: number, z: number) {
+  let best: { id: string; distKm: number; sizeKm: number } | null = null
+  for (const m of minis.values()) {
+    if (m.hidden || m.state !== 'ready' || !m.p.model.module || !m.root.visible) continue
+    const d = Math.hypot(m.tx + m.disp.x - x, m.tz + m.disp.y - z)
+    if (!best || d < best.distKm) best = { id: m.p.id, distKm: d, sizeKm: Math.max(m.size.x, m.size.z, 12) / 1000 }
+  }
+  return best
+}
+
 function disposeGroup(g: THREE.Group | null) {
   g?.traverse((o) => {
     const m = o as THREE.Mesh
@@ -148,6 +163,11 @@ async function buildFar(m: Mini) {
     finishMaterials(g)
     m.size = box.getSize(new THREE.Vector3())
     m.plinthR = Math.hypot(m.size.x, m.size.z) * 0.62 + 7
+    // centre the presentation base under the whole composition (turn-local → base frame)
+    const bc = box.getCenter(new THREE.Vector3())
+    const th = m.turn.rotation.y
+    m.foot.set(bc.x * Math.cos(th) + bc.z * Math.sin(th), -bc.x * Math.sin(th) + bc.z * Math.cos(th))
+    m.plinth.position.set(m.foot.x, 0, m.foot.y)
     m.far = g
     m.modelHolder.add(g)
     m.plinth.scale.set(m.plinthR, 1, m.plinthR)
@@ -169,11 +189,13 @@ async function buildFull(m: Mini) {
   m.full = g
   m.modelHolder.add(g)
   m.fullState = 'ready'
-  // LRU eviction of full-detail models
-  const withFull = [...minis.values()].filter((x) => x.full).sort((a, b) => a.lastFullUse - b.lastFullUse)
+  // LRU eviction of full-detail models — never the selected one or one wanted this frame
+  // (evicting a wanted model makes it fall back to the far version and flicker while it rebuilds)
+  const keep = (x: Mini) => x === m || x.p.id === useStore.getState().selectedId || wantedNow.has(x.p.id)
+  const withFull = [...minis.values()].filter((x) => x.full).sort((a, b) => Number(keep(a)) - Number(keep(b)) || a.lastFullUse - b.lastFullUse)
   while (withFull.length > FULL_CACHE) {
     const old = withFull.shift()!
-    if (old === m) continue
+    if (keep(old)) break
     old.modelHolder.remove(old.full!)
     disposeGroup(old.full)
     old.full = null
@@ -275,6 +297,7 @@ export function Miniatures({ projects }: { projects: Project[] }) {
         full: null,
         centreOffset: new THREE.Vector3(),
         size: new THREE.Vector3(30, 15, 30),
+        foot: new THREE.Vector2(),
         plinthR: 26,
         mod: null,
         extra: {},
@@ -393,6 +416,7 @@ export function Miniatures({ projects }: { projects: Project[] }) {
       const fT = ok ? 1 : m.instanced ? CHIP_COMPACT : COMPACT
       m.f += (fT - m.f) * Math.min(1, dt * 5)
     }
+    const fullCands: [Mini, number][] = []
     for (const m of list) {
       const diaKm = (2 * m.plinthR) / 1000
       let s = Math.max(1, m.sT * m.f)
@@ -401,9 +425,16 @@ export function Miniatures({ projects }: { projects: Project[] }) {
       m.s += (s - m.s) * Math.min(1, dt * 10)
       const screenPx = (diaKm * m.s) / m.wpp
       if (!m.hidden && (m.p.id === selectedId || screenPx > FULL_PX) && m.state === 'ready' && m.p.model.module) {
-        wantFull.current.add(m.p.id)
-        m.lastFullUse = now
+        fullCands.push([m, m.p.id === selectedId ? Infinity : screenPx])
       }
+    }
+    // only the largest on-screen miniatures get full detail (bounded by the cache → no rebuild thrash)
+    fullCands.sort((a, b) => b[1] - a[1])
+    wantedNow.clear()
+    for (const [m] of fullCands.slice(0, FULL_CACHE - 1)) {
+      wantFull.current.add(m.p.id)
+      wantedNow.add(m.p.id)
+      m.lastFullUse = now
     }
 
     // 3) declutter: push overlapping 3D miniatures apart in screen-like space, relax towards the true site;
@@ -490,7 +521,10 @@ export function Miniatures({ projects }: { projects: Project[] }) {
       if (m.p.id === selectedId && m.s < 1.5) hi = lo = inside ? t.y(m.tx, m.tz) : -SLAB
       const baseY = hi * yS
       const ease = 1 - Math.pow(1 - m.appear, 3)
-      m.root.position.set(x, baseY + 0.0004 * m.s * PLINTH_H, z)
+      // walking / driving: the building stands directly on the (levelled) ground, without its base
+      const grounded = st.walk.active && m.p.id === selectedId
+      m.plinth.visible = !grounded
+      m.root.position.set(x, baseY + (grounded ? 0 : 0.0004 * m.s * PLINTH_H), z)
       m.root.scale.setScalar(0.001 * m.s * Math.max(ease, 1e-4))
       // skirt reaches down to the lowest ground under the plinth
       const depthM = Math.max(6, ((hi - lo) * yS) / (0.001 * m.s) + 4)
@@ -552,7 +586,7 @@ export function Miniatures({ projects }: { projects: Project[] }) {
         runtime.model = {
           id: m.p.id,
           sizeM: m.size,
-          center: new THREE.Vector3(x, baseY, z),
+          center: new THREE.Vector3(x + m.foot.x * 0.001 * m.s, baseY, z + m.foot.y * 0.001 * m.s),
           rotY: m.turn.rotation.y,
           front: m.mod?.front ?? [0, 1],
           materialFocus: m.mod?.materialFocus,

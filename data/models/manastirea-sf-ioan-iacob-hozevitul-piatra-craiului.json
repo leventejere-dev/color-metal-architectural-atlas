@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 90.0,
+ "bearingSource": "Assumed: no OSM building outline exists (only node 1316063333). Orthodox altar to the east: +X = 90° towards the altar apse, the narthex and the west bell tower at −X.",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Interpreted massing: the new masonry church is taken as the building that received the copper (not documented). Plan (triconch with a 10 m central bay, three polygonal apses, western narthex; ≈ 20 × 16.5 m) and all heights (cornice ≈ 9.5 m, blind-arcade attic ≈ 11.6 m, drum to ≈ 25.7 m, cross ≈ 33 m; west tower ≈ 24 m) are estimated from one small photograph of the finished church (2023, at dusk, cropped from a poster) and two winter photographs taken during construction (c. 2016/17, under scaffolding), with the adjacent 3-storey cell block as yardstick. Orientation, window counts, the friezes and the west front are interpreted. The domes, tower caps and narthex roof read dark grey-brown in the 2023 photograph and are shown in weathered copper, the material supplied by COLOR METAL according to its records (2020); which surfaces received it is not documented.",
+ "note": {
+  "ro": "Machetă de volumetrie interpretată după puținele fotografii publice disponibile (una a bisericii terminate, două din timpul construcției); planul, orientarea și înălțimile sunt estimate. Cupolele și acoperișurile sunt redate în cuprul livrat de COLOR METAL, conform evidențelor firmei, cu patina închisă la culoare din fotografia din 2023.",
+  "hu": "A kevés nyilvános fotó (egy a kész templomról, kettő az építkezés idejéből) alapján értelmezett tömegmakett; az alaprajz, a tájolás és a magasságok becsültek. A kupolák és tetők a COLOR METAL nyilvántartása szerint szállított rézzel, a 2023-as fotó sötét árnyalatában jelennek meg.",
+  "en": "Massing model interpreted from the few public photographs available (one of the finished church, two from the construction period); plan, orientation and heights are estimated. The domes and roofs are shown in the copper supplied by COLOR METAL according to its records, in the dark tone of the 2023 photograph."
+ }
+}

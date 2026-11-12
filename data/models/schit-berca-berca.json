@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 93.4,
+ "bearingSource": "OSM way 217354519 long axis 93.4°; +X points to the polygonal altar end (east) and the west front with the door faces −X, as in the OSM outline and photos 01–04 (01, 02, 04 show the north side, 03 the south side).",
+ "cover": null,
+ "photosUsed": 5,
+ "approximations": "OSM outline (24.2 × 11.7 m) symmetrised about the axis. Heights estimated from the photographs (eave ≈ 6.4 m, cable band ≈ 3.7 m, roof ≈ 25°, cross on the tower ≈ 17.7 m). Lobed blind arches simplified to round arches with small lobes; drum panel archivolts, tower cap profile and the roof valleys around the tower base estimated. Roof and tower cap shown in elZinc Slate: the 2015–2016 photographs predate the 2020 works and show an older grey sheet roof; which surfaces were re-covered is not documented (main roof, tower skirt and cap assumed).",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice din 2015–2016 și conturul OSM; înălțimile sunt estimate, iar arcadele oarbe și ornamentele turlei sunt simplificate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișul și coiful turlei sunt redate în titan-zinc prepatinat elZinc Slate, livrat de COLOR METAL conform evidențelor firmei; suprafețele exacte nu sunt documentate.",
+  "hu": "A 2015–2016-os nyilvános fotók és az OSM-körvonal alapján értelmezett makett; a magasságok becsültek, a vakárkádok és a torony díszítése egyszerűsített. A fotók a munkálatok előtt készültek, ezért a tető és a toronysisak a COLOR METAL nyilvántartása szerint szállított elZinc Slate előpatinázott titáncinkkel jelenik meg; a pontos felületek nem dokumentáltak.",
+  "en": "Scale model interpreted from public photographs of 2015–2016 and the OSM outline; heights are estimated and the blind arcades and tower ornament are simplified. The photographs predate the works, so the roof and the tower cap are shown in the elZinc Slate pre-weathered titanium-zinc supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+ }
+}

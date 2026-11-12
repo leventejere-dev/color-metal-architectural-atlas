@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 62.7,
+ "bearingSource": "OSM way 289907743 long axis 62.7°; the polygonal end of the outline lies at the ENE (altar), the open porch at the WSW (drone photos 01–03). +X = 62.7° towards the altar, the porch faces −X.",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Plan after the OSM outline, symmetrised (the trace is slightly skewed): porch 4.3 m, nave 16.3 m, five-sided altar end, width 9.5 m. Only small-scale drone views (July 2023) exist: heights (eave ≈ 6 m, ridge ≈ 9.9 m, tower ≈ 22 m), the porch arcade, the window count, the north side and the drum/helm profile are interpreted. The nave roof reads light orange-brown in the photographs and is shown as photographed, in copper as supplied by COLOR METAL according to its records (2022); the tower skirt and helm read silver-grey and are shown as light grey sheet metal.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință (vederi din dronă); înălțimile, ferestrele și detaliile pridvorului sunt aproximate. Acoperișul bisericii este redat așa cum apare în fotografiile din 2023, în cuprul livrat de COLOR METAL, conform evidențelor firmei; coiful turnului este gri-argintiu, ca în fotografii.",
+  "hu": "Nyilvános referenciafotók (drónfelvételek) alapján értelmezett makett; a magasságok, az ablakok és a tornác részletei közelítőek. A templom tetője a 2023-as fotók szerint, a COLOR METAL nyilvántartása szerint szállított rézzel jelenik meg; a toronysisak a fotóknak megfelelően ezüstszürke.",
+  "en": "Scale model interpreted from public reference photographs (drone views); heights, windows and porch details are approximate. The church roof is shown as photographed in 2023, in the copper supplied by COLOR METAL according to its records; the tower helm is silver-grey, as photographed."
+ }
+}

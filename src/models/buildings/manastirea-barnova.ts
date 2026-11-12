@@ -29,6 +29,11 @@
  * Approximations: niche count and window positions simplified; north side
  * mirrored from the south; buttress layout and the roof intersections around
  * the lateral apses idealised.
+ * Ensemble: the gate tower of the west precinct wall (OSM way 1095381777, 53 m west
+ * on the church axis) has a helm in the same dark copper as the church helms and is
+ * included (photos 05, 07, 10, 11); the precinct wings and the well kiosk (grey
+ * roofs of a different finish), the shingle-roofed house and the stone-capped enclosure wall
+ * do not carry the same metal and are not modelled.
  */
 import * as THREE from 'three'
 import { Builder, V, mat, metricBox, facet, loft, extrude, opening, frameShape, prism, ringBand, hippedRoof, seams, faceFrame } from '../kit'
@@ -54,6 +59,8 @@ const APSE = { x: W.x1, r: 5.6 }
 const LAT = { x: 5.8, r: 2.4 }
 const WT = { x: -13.1, hw: 4.6, top: 17.0, band: 1.1 } // west tower
 const NT = { x: 6.9 } // naos tower
+// precinct gate tower: OSM way 1095381777 centre in model metres, turned with the west wall
+const GT = { x: -53.1, z: -0.06, ry: (6 * Math.PI) / 180, hw: 4.45, top: 13.0, helmA: 4.8, helmH: 6.0, gate: { w: 3.4, h: 3.95 } }
 
 const mul = (a: THREE.Matrix4, c: THREE.Matrix4) => new THREE.Matrix4().multiplyMatrices(a, c)
 const wallAt = (x: number, z: number, a: number) => mat(x, 0, z, Math.PI / 2 - a)
@@ -390,7 +397,69 @@ function build(): Builder {
     finial(b, x, tip - 0.05, 0, 1.1)
   }
 
+  /* ---------------- precinct gate tower (west, same dark copper helm) ---------------- */
+  gateTower(b)
+
   return b
+}
+
+/**
+ * Gate tower in the west precinct wall, on the church axis (OSM way 1095381777,
+ * ≈ 9.8 × 9.6 m over the helm, centre 53 m west of the church, turned ≈ 6° like the wall).
+ * Light stone body ≈ 8.9 m square, ≈ 13 m high, round-arched passage on the axis with
+ * white stone surrounds, pointed and small square windows (photos 05, 07, 10, 11);
+ * flared bell helm in the same dark copper as the church helms, onion knob and cross.
+ */
+function gateTower(b: Builder) {
+  const g = new Builder()
+  const hw = GT.hw
+  const top = GT.top
+  // body with a through passage along x (section with an arched notch, extruded across the tower)
+  const gw = GT.gate.w / 2
+  const ys = GT.gate.h - gw
+  const sec = [new THREE.Vector2(-hw, 0), new THREE.Vector2(-gw, 0)]
+  for (let i = 12; i >= 0; i--) sec.push(new THREE.Vector2(Math.cos((i / 12) * Math.PI) * gw, ys + Math.sin((i / 12) * Math.PI) * gw))
+  sec.push(new THREE.Vector2(gw, 0), new THREE.Vector2(hw, 0), new THREE.Vector2(hw, top), new THREE.Vector2(-hw, top))
+  g.add(STONE, extrude(new THREE.Shape(sec), 2 * hw, 10), mat(-hw, 0, 0, Math.PI / 2))
+  g.block(STONE, 2 * hw + 0.3, 0.28, 2 * hw + 0.3, 0, top - 0.28, 0)
+  g.block('stoneGrey', 2 * hw + 0.2, 0.06, 2 * hw + 0.2, 0, 0, 0)
+  for (const face of ['-x', '+x', '+z', '-z'] as const) {
+    const plane = face[0] === '+' ? hw : -hw
+    const fm = faceFrame(face, plane, 0, 0, 0)
+    if (face.endsWith('x')) {
+      // gate: white stone archivolt, imposts and keystone
+      g.add(WALL, extrude(frameShape('round', GT.gate.w, GT.gate.h, 0.32, 0, 0), 0.1, 10), mul(fm, mat(0, 0, 0.01)))
+      for (const s of [-1, 1]) g.add(WALL, metricBox(0.55, 0.22, 0.16), mul(fm, mat(s * (GT.gate.w / 2 + 0.16), GT.gate.h - GT.gate.w / 2, 0.06)))
+      g.add(WALL, metricBox(0.42, 0.55, 0.16), mul(fm, mat(0, GT.gate.h + 0.1, 0.06)))
+      // two small square windows and the tall pointed window above the gate
+      for (const u of [-1.75, 1.75]) win(g, fm, { u, w: 0.42, h: 0.62, y0: 5.95, type: 'rect', f: 0.12, off: 0.01 })
+      win(g, fm, { w: 0.85, h: 1.85, y0: 9.3, type: 'pointed', f: 0.16, off: 0.01 })
+    } else {
+      // side faces: tall narrow pointed slit and a small window
+      win(g, fm, { w: 0.4, h: 1.7, y0: 9.4, type: 'pointed', f: 0.1, off: 0.01 })
+      win(g, fm, { w: 0.35, h: 0.55, y0: 5.95, type: 'rect', f: 0.1, off: 0.01 })
+    }
+  }
+  // flared bell helm (square with chamfered corners at the eave, round at the top)
+  const a = GT.helmA
+  const H = GT.helmH
+  const st: [number, number, number][] = [
+    // [apothem / a, height / H, roundness]; helmRing's round section is ≈ 1.2 × the apothem
+    [1.0, 0, 0],
+    [0.88, 0.04, 0.1],
+    [0.755, 0.1, 0.3],
+    [0.66, 0.18, 0.55],
+    [0.6, 0.3, 0.8],
+    [0.565, 0.45, 1],
+    [0.535, 0.6, 1],
+    [0.45, 0.74, 1],
+    [0.31, 0.86, 1],
+    [0.15, 0.95, 1],
+    [0.04, 1.0, 1],
+  ]
+  const tip = bellHelm(g, 0, 0, st.map(([rr, y, k]) => [rr * a, top + 0.02 + y * H, k] as [number, number, number]), 1.36)
+  finial(g, 0, tip - 0.05, 0, 0.95)
+  b.merge(g, mat(GT.x, 0, GT.z, GT.ry))
 }
 
 const model: ModelModule = {

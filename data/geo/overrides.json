@@ -151,6 +151,10 @@
   "biserica-pecica-pecica": {
    "exclude": true,
    "reason": "Not executed in metal according to COLOR METAL's project records."
+  },
+  "schitul-sf-apostoli-petru-si-pavel-cornereva": {
+   "exclude": true,
+   "reason": "No photograph of the church itself (the available images show other structures of the skete) — not shown (client decision)."
   }
  }
 }

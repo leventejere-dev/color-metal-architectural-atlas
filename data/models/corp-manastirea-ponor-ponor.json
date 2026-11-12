@@ -1,0 +1,15 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 3.0,
+ "bearingSource": "Assumed: the wings are not mapped in OSM. The church (way 221250606) runs at ≈ 93° and drone photo 02 looks along its axis from the altar end, so the photographed outer wing is taken as the east wing, perpendicular to the church: +X = 3° (north, towards the corner pavilion), the stone outer façade faces +Z (≈ 93°, east).",
+ "cover": null,
+ "photosUsed": 2,
+ "identification": "The register entry names only a 'corp' (building block / wing) of Mănăstirea Ponor. Modelled: the long outer wing of the monks' monastery (Înălțarea Domnului) seen frontally in drone photo 02 (May 2023), with its corner pavilion and lantern turret — the wing that best fits a single 'corp'. The nuns' monastery of St Spyridon (photos 03–04) remains an equal alternative candidate for the site and is not modelled.",
+ "approximations": "Wing chosen by interpretation (not documented). Length (≈ 60 m incl. the 13 m corner pavilion), depth (12 m incl. a 3 m courtyard gallery), eave ≈ 6.6 m and roof pitch ≈ 36° are scaled from the church width in distant drone photographs; window rhythm, the courtyard arcades, roof windows and vents are interpreted; the end abutting the next wing is shown closed with a hip. All roofs of the monastery read uniformly dark in the 2023 photographs; the roof, the pavilion roof and the turret cap of this wing are shown in dark weathered copper, the material supplied by COLOR METAL according to its records (2021) — which wing and which surfaces actually received it is not documented.",
+ "note": {
+  "ro": "Machetă de volumetrie interpretată după fotografii publice din dronă. Evidențele indică doar un „corp” al mănăstirii; este redată aripa exterioară cea mai vizibilă, cu pavilionul de colț. Acoperișul este redat în cuprul livrat de COLOR METAL, conform evidențelor firmei, în nuanța închisă din fotografii; aripa exactă nu este documentată.",
+  "hu": "Nyilvános drónfotók alapján értelmezett tömegmakett. A nyilvántartás csak a kolostor egy épületszárnyát említi; a makett a legjobban látható külső szárnyat mutatja a sarokpavilonnal. A tető a COLOR METAL nyilvántartása szerint szállított rézzel, a fotók sötét árnyalatában jelenik meg; hogy pontosan melyik szárnyról van szó, nem dokumentált.",
+  "en": "Massing model interpreted from public drone photographs. The records mention only one wing of the monastery; the model shows the most visible outer wing with its corner pavilion. The roof is shown in the copper supplied by COLOR METAL according to its records, in the dark tone seen in the photographs; which wing exactly is not documented."
+ }
+}

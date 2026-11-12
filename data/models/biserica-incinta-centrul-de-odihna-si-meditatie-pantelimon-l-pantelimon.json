@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 48.1,
+ "bearingSource": "OSM way 1309357327 long axis 48.1°; +X points to the polygonal apse end of the outline (NE); the porch front faces the access road (SW) as in photos 01 and 03.",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "The front and one long side are photographed (2026); the apse and the north-east half are inferred from the OSM outline. Heights scaled from the 14 m front (eave ≈ 9.4 m, cross ≈ 20.8 m); the drum position along the axis, the arch counts and the roof pitch (the roof is hardly visible in the photographs) are estimated.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință din 2026. Cupola, fusta turlei și acoperișurile joase sunt redate în cupru deja patinat spre brun închis, așa cum apar în fotografii — material livrat de COLOR METAL conform evidențelor sale. Absida și latura nefotografiată sunt deduse din conturul clădirii.",
+  "hu": "2026-os nyilvános referenciafotók alapján értelmezett makett. A kupola, a dob alatti tetőszoknya és a lapos tetők sötétbarnára patinásodott rézként jelennek meg, ahogy a fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. Az apszis és a nem fotózott oldal az épület körvonalából következtetett.",
+  "en": "Scale model interpreted from public reference photographs taken in 2026. The dome, the drum skirt and the low roofs are shown in copper already weathered to dark brown, as photographed — the material supplied by COLOR METAL according to its records. The apse and the unphotographed side are inferred from the building outline."
+ }
+}

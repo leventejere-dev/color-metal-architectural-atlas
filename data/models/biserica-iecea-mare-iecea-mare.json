@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 90,
+ "bearingSource": "Assumed: the church is not mapped and its position in the village is not known. +X = liturgical east (apse end) with the tower at the west end; the photographed side (+Z, with the solar panels) is taken as the south side.",
+ "cover": null,
+ "photosUsed": 1,
+ "approximations": "One near-orthogonal side photograph (Commons, May 2026). Scale from a camera model fitted to the photo with the wall height taken as ≈ 6.8 m: nave 20 m long; the width (9 m) is not visible and is assumed; flat east end and hipped clay-tile roof (25°) as seen; the west front with its door, the east window and the north side are assumed / mirrored. Tower heights from the same camera model (bell-cast roof eaves ≈ 10.9 m, cross ≈ 18.4 m). Icon medallions and coloured lights simplified. Metal as photographed: the tower roof, onion, lantern and spire show brown, weathered copper (supplied by COLOR METAL in 2023 according to its records); gutters and downpipes, brown in the photo, are also shown in copper. The nave roof is clay tile with solar panels, as photographed.",
+ "note": {
+  "ro": "Machetă interpretată după o singură fotografie publică de referință (latura lungă, 2026): biserică-sală cu acoperiș în patru ape din țiglă, ferestre grupate câte trei și turn cu acoperiș evazat, bulb, lanternă și flèche, îmbrăcate în cupru patinat brun, așa cum se vede în fotografie — cuprul a fost livrat de COLOR METAL conform evidențelor sale. Lățimea, fațada de vest, latura de nord și orientarea sunt presupuse.",
+  "hu": "Egyetlen nyilvános referenciafotó (hosszanti oldal, 2026) alapján értelmezett makett: cserépfedésű, kontyolt tetős teremtemplom hármas ablakcsoportokkal és toronnyal, amelynek ívelt tetőjét, hagymáját, laternáját és sisakját barnára patinásodott réz borítja, ahogy a fotón látszik — a rezet a COLOR METAL nyilvántartása szerint szállította. A szélesség, a nyugati homlokzat, az északi oldal és a tájolás feltételezett.",
+  "en": "Scale model interpreted from a single public reference photograph (long side, 2026): a hall church with a hipped clay-tile roof, windows grouped in threes and a tower whose flared roof, onion, lantern and spire are clad in brown weathered copper, as photographed — copper supplied by COLOR METAL according to its records. The width, the west front, the north side and the orientation are assumed."
+ }
+}

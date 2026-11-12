@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 90,
+ "bearingSource": "No OSM outline or published address for the new church; +X is assumed to point east (tower at the west end, as usual for Reformed churches of the region) — not verified on imagery.",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "The church was under construction (brick shell) in the April 2026 photographs; the model shows the finished state as far as the published design elevation (photo 04) and the photographs show it: white render, stone-clad plinth, clay-tile nave roof, dark timber belfry, zinc spire. No outline: nave ≈ 20.3 × 9.2 m (length scaled on the elevation, width from the gable slope in photo 01), eaves ≈ +4.4 m and ridge +10.10 m above the floor, tower ≈ 4.3 m square to +12.75 m, belfry to ≈ +14.3 m, spire to +20.5 m, star ≈ +21.9 m. Orientation, porch widths, tower openings and gable windows estimated; the sloping site with the basement storey exposed at one end is not reproduced (uniform 0.9 m stone plinth). Metal as photographed: the spire, skirt and corner pinnacles in bright natural titanium-zinc (horizontal seams on the spire), plus zinc gutters, downpipes and copings; the nave roof keeps the clay tiles of the design.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice (aprilie 2026, în construcție) și după desenul de fațadă publicat; este redată starea finalizată așa cum reiese din aceste surse. Coiful-ac, fusta și pinaclurile sunt din titan-zinc natural furnizat de COLOR METAL conform evidențelor sale, așa cum apare în fotografii; acoperișul navei rămâne din țiglă, conform proiectului. Dimensiunile și orientarea sunt estimate.",
+  "hu": "Nyilvános referenciafotók (2026. április, építés közben) és a közzétett homlokzatterv alapján értelmezett makett; a források szerinti elkészült állapotot mutatja. A tűsisak, a szoknya és a sarokfiatornyok a COLOR METAL nyilvántartása szerint általa szállított natúr titáncinkből készültek, ahogy a fotókon látszik; a hajó tetője a terv szerinti cserépfedés. A méretek és a tájolás becsültek.",
+  "en": "Scale model interpreted from public reference photographs (April 2026, under construction) and the published design elevation; it shows the finished state as far as these sources show it. The needle spire, its skirt and the corner pinnacles are in the natural titanium-zinc supplied by COLOR METAL according to its records, as photographed; the nave roof keeps the clay tiles of the design. Dimensions and orientation are estimated."
+ }
+}

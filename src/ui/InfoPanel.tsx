@@ -79,7 +79,15 @@ export function InfoPanel() {
             </span>
           </button>
         ) : (
-          <p className="muted small">{p.photoStatus === 'reference' ? t.photosReference : p.photoStatus === 'none' ? t.noPhotosArchive : t.noPhotos}</p>
+          <>
+            {p.thumb && (
+              <div className="hero model-hero">
+                <img src={p.thumb} alt={name} loading="lazy" />
+                <span className="hero-count">{t.modelRender}</span>
+              </div>
+            )}
+            <p className="muted small">{p.photoStatus === 'reference' ? t.photosReference : p.photoStatus === 'none' ? t.noPhotosArchive : t.noPhotos}</p>
+          </>
         )}
 
         <div className="actions">

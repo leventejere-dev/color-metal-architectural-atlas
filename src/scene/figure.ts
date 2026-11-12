@@ -73,7 +73,7 @@ function torsoR(y: number) {
 }
 
 /** COLOR METAL wordmark, stacked ("COLOR" over "METAL"), on a transparent canvas. */
-function logoTexture(onReady: () => void) {
+export function logoTexture(onReady: () => void) {
   const c = document.createElement('canvas')
   c.width = 1024
   c.height = 400
@@ -165,7 +165,7 @@ function backPatch(y0: number, y1: number, halfAngle: number) {
 
 export interface Figure {
   root: THREE.Group
-  pose: (phase: number, gait: number, t: number) => void
+  pose: (phase: number, gait: number, t: number, run?: number) => void
   dispose: () => void
 }
 
@@ -358,32 +358,34 @@ export function makeFigure(): Figure {
     a.elbow.rotation.x = -0.2
   }
 
-  const pose = (phase: number, gait: number, t: number) => {
+  /** run: 0 = walk … 1 = full run (longer stride, knee lift, forward lean, bent arms, more bounce) */
+  const pose = (phase: number, gait: number, t: number, run = 0) => {
     const sw = Math.sin(phase)
     const cw = Math.cos(phase)
     const g = gait
     const idle = 1 - g
+    const R = run * g
     const legPose = (l: typeof legL, ph: number) => {
       const s = Math.sin(ph)
       const c = Math.cos(ph)
-      l.hip.rotation.x = -s * 0.46 * g
-      l.knee.rotation.x = Math.max(0, c) * 0.9 * g + 0.04
-      l.ankle.rotation.x = (-Math.max(0, -s) * 0.28 + Math.max(0, s) * 0.16) * g
+      l.hip.rotation.x = -s * (0.46 + 0.32 * R) * g - 0.12 * R
+      l.knee.rotation.x = Math.max(0, c) * (0.9 + 0.75 * R) * g + 0.04 + 0.15 * R
+      l.ankle.rotation.x = (-Math.max(0, -s) * 0.28 + Math.max(0, s) * (0.16 + 0.2 * R)) * g
     }
     legPose(legL, phase)
     legPose(legR, phase + Math.PI)
-    armL.shoulder.rotation.x = sw * 0.42 * g
-    armR.shoulder.rotation.x = -sw * 0.42 * g
-    armL.elbow.rotation.x = -0.2 - Math.max(0, sw) * 0.5 * g
-    armR.elbow.rotation.x = -0.2 - Math.max(0, -sw) * 0.5 * g
+    armL.shoulder.rotation.x = sw * (0.42 + 0.38 * R) * g
+    armR.shoulder.rotation.x = -sw * (0.42 + 0.38 * R) * g
+    armL.elbow.rotation.x = -0.2 - 1.05 * R - Math.max(0, sw) * 0.5 * g
+    armR.elbow.rotation.x = -0.2 - 1.05 * R - Math.max(0, -sw) * 0.5 * g
     pelvis.rotation.y = sw * 0.08 * g
     pelvis.rotation.z = cw * 0.025 * g
-    chest.rotation.y = -sw * 0.14 * g
-    chest.rotation.x = 0.05 * g
+    chest.rotation.y = -sw * (0.14 + 0.08 * R) * g
+    chest.rotation.x = 0.05 * g + 0.2 * R
     // idle: breathing and slow glances around the building
     headG.rotation.y = sw * 0.06 * g + Math.sin(t * 0.35) * 0.45 * idle * Math.max(0, Math.sin(t * 0.13))
-    headG.rotation.x = Math.sin(t * 0.21) * 0.05 * idle
-    body.position.y = -Math.abs(cw) * 0.03 * g + 0.015 * g
+    headG.rotation.x = Math.sin(t * 0.21) * 0.05 * idle - 0.12 * R
+    body.position.y = -Math.abs(cw) * (0.03 + 0.05 * R) * g + 0.015 * g
     chest.scale.setScalar(1 + Math.sin(t * 1.6) * 0.006 * idle)
   }
   pose(0, 0, 0)

@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 72,
+ "bearingSource": "No OSM outline (node 2424275140 only): the roof axis of the church at the node, measured on Esri World Imagery, is ≈ 72° (±5°); +X towards the semicircular apse (ENE), the west front with the tower faces the village street as in photo 01.",
+ "cover": null,
+ "photosUsed": 1,
+ "approximations": "Only the west front is photographed (Commons, April 2012). Footprint ≈ 18.6 × 9.6 m (walls) taken from the satellite roof outline (≈ 19.3 × 10.6 m with eaves) and the photo scale; full-width semicircular apse after the satellite outline. Heights scaled from the door and corrected for the upward camera angle (cornice 6.8 m, tower cornice 15.8 m, cross ≈ 21.5 m). Side and apse elevations (three windows per side between pilasters, two in the apse), roof pitch (40°) and the north side follow the regional Banat type; helm profile and icon niches simplified. The photograph predates the works, so the nave and apse roofs and the tower helm are shown in natural titanium-zinc (elZinc natural), supplied by COLOR METAL in 2022 according to its records; which surfaces were done is not documented.",
+ "note": {
+  "ro": "Machetă interpretată după singura fotografie publică de referință (fațada de vest, 2012) și după imaginea satelitară: biserică-sală bănățeană cu turn încorporat în fațadă, fronton baroc, coif octogonal cu lanternă și absidă semicirculară. Fotografia este anterioară lucrărilor, de aceea acoperișul și coiful sunt redate în titan-zinc natural elZinc, livrat de COLOR METAL conform evidențelor sale. Fațadele laterale și absida sunt reconstituite după tipul regional.",
+  "hu": "Az egyetlen nyilvános referenciafotó (nyugati homlokzat, 2012) és a műholdkép alapján értelmezett makett: bánsági teremtemplom homlokzatba épített toronnyal, barokk oromzattal, laternás nyolcszögű sisakkal és félköríves apszissal. A fénykép a munkák előtt készült, ezért a tetőt és a sisakot a COLOR METAL nyilvántartása szerint szállított natúr elZinc titáncinkkel ábrázoljuk. Az oldalhomlokzatok és az apszis a tájegységre jellemző típus alapján készültek.",
+  "en": "Scale model interpreted from the only public reference photograph (west front, 2012) and satellite imagery: a Banat hall church with a tower built into the front, a baroque gable, an octagonal helm with lantern and a semicircular apse. The photograph predates the works, so the roof and the helm are shown in the natural elZinc titanium-zinc supplied by COLOR METAL according to its records. The side elevations and the apse follow the regional type."
+ }
+}

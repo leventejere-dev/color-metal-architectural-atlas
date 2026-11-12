@@ -54,7 +54,28 @@ export class Builder {
     }
     geo.morphAttributes = {}
     geo.clearGroups()
-    if (m) geo.applyMatrix4(m)
+    if (m) {
+      geo.applyMatrix4(m)
+      // a mirroring matrix reverses the triangle winding: restore it so faces stay outward
+      if (m.determinant() < 0) {
+        for (const name of ['position', 'normal', 'uv']) {
+          const a = geo.attributes[name] as THREE.BufferAttribute | undefined
+          if (!a) continue
+          const n = a.itemSize
+          const arr = a.array as Float32Array
+          for (let t = 0; t + 2 < a.count; t += 3) {
+            for (let c = 0; c < n; c++) {
+              const i1 = (t + 1) * n + c
+              const i2 = (t + 2) * n + c
+              const tmp = arr[i1]
+              arr[i1] = arr[i2]
+              arr[i2] = tmp
+            }
+          }
+          a.needsUpdate = true
+        }
+      }
+    }
     const list = this.parts.get(key)
     if (list) list.push(geo)
     else this.parts.set(key, [geo])

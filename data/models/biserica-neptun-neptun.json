@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 87.8,
+ "bearingSource": "OSM way 358120845 long axis 87.8°; +X points east to the altar apse, the portal front with the two towers faces west (photos 01-02).",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "The OSM outline is a plain 27.8 × 11.6 m rectangle; the side apses are added beyond it from photo 03 and the parish description (≈ 16 m across the strane). West front scaled from photo 01; the east end and the south side are not photographed (mirrored/inferred); naos and chancel lengths, roof pitches and the naos drum height are estimated.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință. Acoperișurile, semicalotele absidelor și bulbii turlelor sunt redate în tablă de aluminiu naturală, așa cum apar în fotografii — material livrat de COLOR METAL conform evidențelor sale. Latura de sud, absida altarului și înălțimile sunt estimate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett. A tetők, az apszisok félkupolái és a tornyok hagymasisakjai natúr alumíniumlemezként jelennek meg, ahogy a fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. A déli oldal, az oltárapszis és a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs. The roofs, the apse half-domes and the onion cupolas are shown in natural aluminium sheet as photographed — the material supplied by COLOR METAL according to its records. The south side, the altar apse and the heights are estimated."
+ }
+}

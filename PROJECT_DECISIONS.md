@@ -111,3 +111,22 @@
 * GitHub repository `color-metal-architectural-atlas`, published from the `gh-pages`
   branch (same method as the exhibition table; the GitHub token has no `workflow` scope,
   so an Actions workflow is provided in `deploy/` for later use).
+
+## Client decisions of 12 Nov 2026 (second round)
+
+* **Realistic world**: the ivory relief print is replaced by satellite imagery (EOxCloudless 2016,
+  Sentinel-2, CC BY 4.0 — the only commercially usable year of that mosaic) on the slab and the
+  context table, with the baked normal map keeping the sculpted relief lighting; map labels use light
+  text with a dark halo. The ivory print stays as a fallback when no satellite texture is baked.
+* **Zoom-driven mode switch** (like Street View): near a building the map enters its model view;
+  zooming out beyond ≈2.6× the model view distance returns to the map (with hysteresis).
+* **Drive mode**: a COLOR METAL car (arcade bicycle model, handbrake drift, turbo, skid marks) next to
+  the walking figure; while walking/driving the building stands on the levelled ground without its
+  base, and the terrain levelling covers whole mesh cells so nothing sinks into the relief.
+* **Only modelled buildings with photographs are shown**; no placeholder markers.
+* **Romanian-only interface**, hideable project list, light/dark mode (follows the system on first
+  visit), no slogan in the header.
+* **Sepsi Arena complete**: the exhibition half-section plus its mirror image (opposite stand
+  approximated as symmetric).
+* **Ensembles**: ancillary buildings with the same metal are modelled with the main building
+  (e.g. Tazlău, Văratec, Rohia, Secu); base and camera centre on the whole composition.

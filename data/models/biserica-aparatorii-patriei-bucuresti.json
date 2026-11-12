@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 107.1,
+ "bearingSource": "OSM way 80540040 long axis 107.1°; +X points to the three-sided apse (ESE) visible in the outline, the entrance front faces the street (WNW) as in photo 01.",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "Only the entrance front (photo 01, slightly oblique) and part of one side (photo 04) are photographed. Plan from the OSM outline (21 × 13.2 m plus apse); the width of the upper nave body (≈ 9.6 m), all heights, the positions of the two towers along the axis and the window counts are estimated from photo 01; the apse and the second long side are inferred; roof pitch ≈ 24° assumed.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință (fațada de intrare și o latură). Acoperișurile și coifurile turnurilor sunt redate în titan-zinc prepatinat gri, așa cum apar în fotografiile din 2019, făcute imediat după lucrări — material livrat de COLOR METAL conform evidențelor sale. Absida, latura nefotografiată și înălțimile sunt estimate.",
+  "hu": "Nyilvános referenciafotók (a bejárati homlokzat és az egyik oldal) alapján értelmezett makett. A tetők és a toronysisakok szürke, előpatinázott titáncinkként jelennek meg, ahogy a közvetlenül a munkák után, 2019-ben készült fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. Az apszis, a nem fotózott oldal és a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs (the entrance front and one side). The roofs and tower caps are shown in grey pre-weathered titanium-zinc as photographed in 2019, just after the works — the material supplied by COLOR METAL according to its records. The apse, the unphotographed side and the heights are estimated."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 14.4,
+ "bearingSource": "OSM way 672363695 long axis 14.4°; +X = NNE towards the polygonal end of the outline (altar apse), tower front at −X (SSW); orientation of the front checked only on the single partial photograph",
+ "cover": null,
+ "photosUsed": 1,
+ "approximations": "Only one partial exterior photograph (2019: the west front and tower at an angle, part of the nave side and roof). The OSM outline is simplified (13.9 m wide with a step near the apse); the model is symmetrical and 13.0 m wide. Eave ≈7.5 m, tower cornice ≈19.6 m, bay rhythm, the half-octagon apse and the baroque helm (not visible on the photograph) are estimated from the Banat type. The photograph predates the copper works recorded by COLOR METAL (2022 and 2023): nave and apse roofs and the tower helm are shown in new copper standing seam (latest phase 2023) — which surfaces were done is not documented.",
+ "note": {
+  "ro": "Machetă interpretată după singura fotografie publică de referință găsită (fațada de vest și turnul, 2019), completată cu conturul OSM și tipul regional al bisericilor bănățene de la 1900: absida, coiful turnului și înălțimile sunt estimate. Acoperișurile și coiful sunt redate din cupru, materialul livrat de COLOR METAL conform evidențelor sale, deoarece fotografia disponibilă este anterioară lucrărilor.",
+  "hu": "Az egyetlen fellelt nyilvános referenciafotó (nyugati homlokzat és torony, 2019) alapján értelmezett makett, az OSM-körvonallal és az 1900 körüli bánsági templomok típusával kiegészítve: az apszis, a toronysisak és a magasságok becsültek. A tetők és a sisak rézfedéssel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal –, mert az elérhető fotó a munkák előtt készült.",
+  "en": "Scale model interpreted from the only public reference photograph found (west front and tower, 2019), completed with the OSM outline and the regional type of Banat churches around 1900: the apse, the tower helm and the heights are estimated. The roofs and the helm are shown in copper, the material supplied by COLOR METAL according to its records, because the available photograph predates the works."
+ }
+}

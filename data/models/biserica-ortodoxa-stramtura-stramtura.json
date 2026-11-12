@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 224.5,
+ "bearingSource": "OSM way 816480176: the outline's walls run at ≈ 44.5° (the computed long axis, 39.4°, is skewed by the irregular outline); +X = 224.5° towards the polygonal altar apse at the south-west end, the three-tower front faces north-east towards the road (photos 01–02).",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Only two frontal 2009 photographs exist: the three-tower front is modelled from them, with heights scaled from the OSM façade width (≈ 15.2 m): side-tower shafts ≈ 12.9 m, linking walls ≈ 11.7 m, central shaft ≈ 16.4 m, crosses ≈ 19.9 m and ≈ 23 m (±10–15 %); the central tower is assumed to project ≈ 3.8 m as in the outline. Everything behind the front — nave, trefoil naos with polygonal lateral apses, altar apse, eaves ≈ 8.5 m, roof shapes and windows — is reconstructed from the OSM outline and the typology only; a possible dome over the naos is not documented and not modelled. The photographs predate the 2023 works and show grey sheet roofs; the covered surfaces are not documented, so the three tower helms and the main roofs are shown in new copper. The carved wooden gate and the fence are not part of the model.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice (2009), care arată doar fațada cu trei turnuri; corpul bisericii din spate este reconstituit după conturul OSM, fără fotografii. Fotografiile sunt anterioare lucrărilor, de aceea coifurile turnurilor și acoperișurile sunt redate în cuprul furnizat de COLOR METAL conform evidențelor sale; înălțimile sunt estimate.",
+  "hu": "Nyilvános referenciafotók (2009) alapján értelmezett makett; a fotók csak a háromtornyos homlokzatot mutatják, a mögötte lévő templomtestet fotók nélkül, az OSM-körvonal alapján rekonstruáltuk. A fotók a munkálatok előttiek, ezért a toronysisakok és a tetők a COLOR METAL nyilvántartása szerint általa szállított rézzel jelennek meg; a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs (2009) that show only the three-tower front; the church body behind it is reconstructed from the OSM outline without photographs. The photographs predate the works, so the tower helms and the roofs are shown in the copper supplied by COLOR METAL according to its records; heights are estimated."
+ }
+}

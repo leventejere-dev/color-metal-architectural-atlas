@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 71.4,
+ "bearingSource": "OSM way 356032358 long axis 71.4°; +X towards the full-width five-sided altar apse at the east-north-east end, the square bell tower stands at the opposite (west) end of the outline (photos 01–02).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Plan from the OSM outline (nave 18.45 × 10.5 m, apse 5.45 m deep, tower 5.3 m square). Heights estimated from three 2010 ground photographs (no survey): nave eaves ≈ 4.4 m, roof ≈ 45° (ridge ≈ 9.7 m), tower eaves ≈ 14.8 m, cross ≈ 23.5 m — possibly ±10–15 %. Openings of both long sides as photographed (positions corrected for perspective); apse windows and the west wall beside the tower not photographed and assumed. Brick-relief ornament of the tower simplified to square ribs; the painted icon frieze rendered as coloured panels. The photographs predate the 2022 works and show a clay-tile nave roof and a grey helm; which surfaces were re-covered is not documented, so the nave/apse roof, the tower skirt and the whole helm (bulb, lantern, small onion) are shown in natural titanium-zinc standing seam, with zinc gutters and downpipes.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice (2010): biserica veche de zid, cu absidă poligonală cât lățimea navei și turn-clopotniță de vest cu ornamente în relief din cărămidă și coif în formă de bulb cu lanternă. Fotografiile sunt anterioare lucrărilor, de aceea acoperișul navei și coiful turnului sunt redate în titan-zinc natural furnizat de COLOR METAL conform evidențelor sale (pe fotografii acoperișul este din țiglă); înălțimile sunt estimate.",
+  "hu": "Nyilvános referenciafotók (2010) alapján értelmezett makett: régi kőtemplom a hajóval azonos szélességű, sokszögű szentélyapszissal és téglarelief-díszes nyugati haranglábbal, lámpásos hagymasisakkal. A fotók a munkálatok előttiek, ezért a hajó tetője és a toronysisak a COLOR METAL nyilvántartása szerint általa szállított natúr titáncinkkel jelenik meg (a fotókon a hajót cserép fedi); a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs (2010): the old stone church with a full-width polygonal apse and a west bell tower with brick-relief ornament and an onion helm with a lantern. The photographs predate the works, so the nave roof and the tower helm are shown in the natural titanium-zinc supplied by COLOR METAL according to its records (the photographs show a tiled nave roof); heights are estimated."
+ }
+}

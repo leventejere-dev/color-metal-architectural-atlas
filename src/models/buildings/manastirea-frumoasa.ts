@@ -2,8 +2,8 @@
  * Frumoasa Monastery, Iași — main church "Sf. Voievozi" (1836–1839), OSM way 203267860.
  *
  * Modelling specification derived from the 12 reference photographs (drone views
- * 01–08 of the church; 04/05 show the separate gate bell tower, 09–12 the
- * precinct — not modelled), calibrated on the OSM outline (44.6 × 16.9 m,
+ * 01–08 of the church; 04/05 show the gate bell tower, 09–12 the precinct),
+ * calibrated on the OSM outline (44.6 × 16.9 m,
  * long axis 74.8°). Real metres. +X = main axis towards the altar apse (east),
  * the western tetrastyle portico (main entrance) at −X.
  *
@@ -26,6 +26,11 @@
  *    cross) over the nave and two small lobed ones at the west hip and over
  *    the apse. The photographs show the copper aged dark brown (roof slightly
  *    greyer than the towers).
+ *  - ENSEMBLE: the gate bell tower of the west precinct wall (OSM way 203267858,
+ *    ≈ 103 m west on the church axis) carries the same dark brown copper on its
+ *    bell roof, bulb dome and lantern and is included (photos 04, 05, 09). The
+ *    precinct houses (anthracite roofs) and the enclosure wall (stone coping) do
+ *    not show the same metal and are not modelled.
  * Approximations: wall/socle heights and roof pitch estimated from the photos,
  * tower stations measured on photo 06 (±0.5 m), axial tower positions ±1 m,
  * relief frieze and capitals simplified, north side assumed like the south.
@@ -45,6 +50,22 @@ const NAVE = { x0: -20.0, x1: 14.7, hw: 8.4 }
 const APSE = { xc: 16.05, a: 6.3 } // octagon centre and apothem (walls)
 const H = { socle: 3.0, band: 3.2, frieze0: 12.7, frieze1: 13.4, eave: 14.1 }
 const PORT = { xf: -22.3, colTop: 12.6, floor: 1.2 }
+// precinct gate bell tower (OSM way 203267858), model metres; turned ≈ 4.5° with the west wall
+const GB = {
+  x: -103.0,
+  z: 3.9,
+  ry: (-4.5 * Math.PI) / 180,
+  hw: 5.0, // stone lower stage half width
+  stone: 7.2,
+  band: 8.0,
+  ledge: 9.0,
+  bel0: 9.6,
+  bel1: 17.3,
+  ent: 20.2,
+  belfry: 4.2,
+  gate: { w: 3.3, h: 5.9 },
+  open: { w: 1.8, h: 4.3, y0: 10.4 },
+}
 
 const out = (face: Face, plane: number, n: number) => plane + (face[0] === '+' ? n : -n)
 const U = (face: Face, x: number, z: number) => (face === '+z' ? x : face === '-z' ? -x : face === '+x' ? -z : z)
@@ -255,7 +276,121 @@ function build(): Builder {
   roofTower(b, 8.2, 15.7, 16, BIG, [0.6, 14.7], 2.4)
   roofTower(b, APSE.xc, 16.2, 8, SMALL, [0.4, 10.25], 1.8)
 
+  /* ---------------- precinct gate bell tower (west, same copper as the towers) ---------------- */
+  gateBellTower(b)
+
   return b
+}
+
+/**
+ * Gate bell tower in the west precinct wall (OSM way 203267858, ≈ 103 m west of the church).
+ * Rusticated stone lower stage ≈ 10 m square with the round-arched gate passage, white
+ * frieze and a sloped copper ledge; plastered belfry with groups of three engaged columns
+ * at each corner and a tall arched louvred opening per face, entablature; flared copper
+ * bell roof, tall bulb dome, lantern, ball and cross — the bell roof and dome in the same
+ * dark brown copper as the church towers (photos 04, 05, 09).
+ */
+function gateBellTower(b: Builder) {
+  const g = new Builder()
+  const { hw, stone, band, ledge, bel0, bel1, ent } = GB
+  // lower stage: section with an arched notch, extruded across the tower along x
+  const gw = GB.gate.w / 2
+  const ys = GB.gate.h - gw
+  const sec = [new THREE.Vector2(-hw, 0), new THREE.Vector2(-gw, 0)]
+  for (let i = 12; i >= 0; i--) sec.push(new THREE.Vector2(Math.cos((i / 12) * Math.PI) * gw, ys + Math.sin((i / 12) * Math.PI) * gw))
+  sec.push(new THREE.Vector2(gw, 0), new THREE.Vector2(hw, 0), new THREE.Vector2(hw, stone), new THREE.Vector2(-hw, stone))
+  g.add('stoneLight', extrude(new THREE.Shape(sec), 2 * hw, 12), mat(-hw, 0, 0, Math.PI / 2))
+  // rustication joints on the two side faces (the gate faces keep their archivolts)
+  for (const y of [1.6, 3.2, 4.8, 6.4]) for (const s of [-1, 1]) g.block('stoneGrey', 2 * hw, 0.05, 0.04, 0, y, s * (hw + 0.01))
+  g.block(WALL, 2 * hw + 0.1, band - stone, 2 * hw + 0.1, 0, stone, 0)
+  g.block(TRIM, 2 * hw + 0.6, 0.4, 2 * hw + 0.6, 0, band, 0)
+  for (const face of ['-x', '+x'] as Face[]) {
+    const plane = face === '+x' ? hw : -hw
+    const fm = faceFrame(face, plane, 0, 0, 0)
+    g.add('stoneWarm', extrude(new THREE.Shape(archFrame(GB.gate.w, GB.gate.h, 0.45)), 0.12, 12), new THREE.Matrix4().multiplyMatrices(fm, mat(0, 0, 0.01)))
+    g.add(TRIM, metricBox(0.55, 0.8, 0.18), new THREE.Matrix4().multiplyMatrices(fm, mat(0, GB.gate.h + 0.2, 0.08)))
+  }
+  // sloped copper ledge from the cornice to the belfry plinth
+  helm(g, CUT, { n: 4, phase: Math.PI / 4, stations: [[(hw + 0.3) * Math.SQRT2, band + 0.4], [(GB.belfry + 0.85) * Math.SQRT2, ledge]], flat: true })
+  // belfry
+  const bw = GB.belfry
+  g.block(TRIM, 2 * bw + 1.6, bel0 - ledge, 2 * bw + 1.6, 0, ledge, 0)
+  g.block(WALL, 2 * bw, bel1 - bel0, 2 * bw, 0, bel0, 0)
+  const r = 0.42
+  const o = bw + 0.3
+  for (const sx of [-1, 1])
+    for (const sz of [-1, 1]) {
+      const pts: [number, number][] = [
+        [sx * o, sz * o],
+        [sx * o, sz * (bw - 0.9)],
+        [sx * (bw - 0.9), sz * o],
+      ]
+      for (const [x, z] of pts) column(g, x, z, bel0, bel1 - bel0, r)
+    }
+  for (const face of ['-x', '+x', '-z', '+z'] as Face[]) {
+    const plane = face[0] === '+' ? bw : -bw
+    window_(g, face, plane, 0, GB.open.y0, { type: 'round', w: GB.open.w, h: GB.open.h, frame: 0.28, frameKey: TRIM, glassKey: 'wood', bars: [2, 1], sill: true })
+  }
+  // entablature: architrave, frieze, cornice
+  g.block(TRIM, 2 * bw + 1.7, 0.8, 2 * bw + 1.7, 0, bel1, 0)
+  g.block(WALL, 2 * bw + 1.6, ent - bel1 - 1.4, 2 * bw + 1.6, 0, bel1 + 0.8, 0)
+  g.block(TRIM, 2 * bw + 2.4, 0.6, 2 * bw + 2.4, 0, ent - 0.6, 0)
+  // flared copper bell roof on the cornice, drum, bulb dome, lantern, ball and cross
+  const bell: [number, number][] = [
+    [5.85, ent - 0.05],
+    [5.25, ent + 0.3],
+    [4.6, ent + 0.8],
+    [4.05, ent + 1.55],
+    [3.7, ent + 2.4],
+    [3.55, ent + 3.3],
+  ]
+  helm(g, CUT, { n: 8, phase: Math.PI / 8, stations: bell, flat: true })
+  for (let k = 0; k < 8; k++) {
+    const a = (k / 8) * Math.PI * 2 + Math.PI / 8
+    const c = Math.cos(a)
+    const s = Math.sin(a)
+    for (let i = 0; i < bell.length - 1; i++)
+      g.beam(CUT, V(c * (bell[i][0] + 0.03), bell[i][1] + 0.03, s * (bell[i][0] + 0.03)), V(c * (bell[i + 1][0] + 0.03), bell[i + 1][1] + 0.03, s * (bell[i + 1][0] + 0.03)), 0.09, 0.07, V(c, 0, s))
+  }
+  const d0 = ent + 3.3
+  helm(g, CUT, { n: 16, stations: [[3.5, d0], [3.5, d0 + 0.35], [3.62, d0 + 0.4], [3.62, d0 + 0.55], [3.4, d0 + 0.6]] })
+  const bulb = (
+    [
+      [3.4, 0], [3.75, 0.7], [3.98, 1.7], [3.9, 2.7], [3.5, 3.6], [2.75, 4.4], [1.85, 5.05], [1.2, 5.5], [1.0, 5.75],
+    ] as [number, number][]
+  ).map(([rr, y]) => [rr, d0 + 0.6 + y] as [number, number])
+  helm(g, CUT, { n: 16, stations: bulb })
+  for (let k = 0; k < 16; k++) {
+    const a = Math.PI / 16 + (k / 16) * Math.PI * 2
+    const c = Math.cos(a)
+    const s = Math.sin(a)
+    for (let i = 0; i < bulb.length - 1; i++) {
+      const [r0, y0] = bulb[i]
+      const [r1, y1] = bulb[i + 1]
+      if (r0 < 0.8) continue
+      g.beam(CUT, V(c * (r0 + 0.03), y0, s * (r0 + 0.03)), V(c * (r1 + 0.03), y1, s * (r1 + 0.03)), 0.07, 0.05, V(c, 0, s))
+    }
+  }
+  const l0 = bulb[bulb.length - 1][1]
+  const lantern: [number, number][] = [
+    [1.0, l0], [0.92, l0 + 0.2], [0.86, l0 + 1.0], [0.98, l0 + 1.05], [0.95, l0 + 1.2], [0.62, l0 + 2.0], [0.45, l0 + 2.4], [0.3, l0 + 2.7], [0.3, l0 + 2.95],
+  ]
+  helm(g, CUT, { n: 8, stations: lantern })
+  const top = lantern[lantern.length - 1][1]
+  g.add(CUT, new THREE.SphereGeometry(0.45, 14, 10), mat(0, top + 0.35, 0))
+  cross(g, 'iron', 0, top + 0.65, 0, 1.5, true, Math.PI / 2)
+  b.merge(g, mat(GB.x, 0, GB.z, GB.ry))
+}
+
+/** Outline of a stone archivolt ring around a round-arched opening (w × h), standing on the ground. */
+function archFrame(w: number, h: number, f: number) {
+  const hw = w / 2
+  const ys = h - hw
+  const pts: THREE.Vector2[] = [new THREE.Vector2(-hw - f, 0), new THREE.Vector2(-hw, 0)]
+  for (let i = 12; i >= 0; i--) pts.push(new THREE.Vector2(Math.cos((i / 12) * Math.PI) * hw, ys + Math.sin((i / 12) * Math.PI) * hw))
+  pts.push(new THREE.Vector2(hw, 0), new THREE.Vector2(hw + f, 0))
+  for (let i = 0; i <= 12; i++) pts.push(new THREE.Vector2(Math.cos((i / 12) * Math.PI) * (hw + f), ys + Math.sin((i / 12) * Math.PI) * (hw + f)))
+  return pts
 }
 
 const model: ModelModule = {

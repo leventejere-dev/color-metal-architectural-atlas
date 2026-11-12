@@ -52,7 +52,7 @@ export function About() {
             Licenses <Icon.external />
           </a>
         </p>
-        <p className="small muted">© COLOR METAL SRL · Partner in Engineering</p>
+        <p className="small muted">© COLOR METAL SRL</p>
       </div>
     </div>
   )

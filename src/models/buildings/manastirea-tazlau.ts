@@ -3,7 +3,9 @@
  *
  * Modelling specification derived from the reference photographs (01–12, drone
  * and ground views) and the OSM outline (way 1147932372, 33.8 × 16.5 m over the
- * roof eaves, long axis 102.3°), real metres:
+ * roof eaves), real metres. +X = 107.4°: the coarse church outline gives 102.3°,
+ * but the vertical drone photo 02 shows the church parallel (±1°) to the cell
+ * wing, whose traced outline (way 1554171768) runs at 107.4°:
  *  - Moldavian trefoil church, altar to the east (+X). One long west body
  *    (pronaos + burial chamber, 8.8 m wide) continued by the naos with two
  *    many-sided lateral apses (centred on the tower axis) and a narrower,
@@ -29,9 +31,24 @@
  * total ≈ 32 m), apse facet counts, niche and disc counts, window positions on
  * the north side (mirrored from the south), the composite east roof
  * (intersecting lofts instead of the carpenter's exact surfaces).
+ *
+ * Precinct buildings with the same pre-patinated copper (drone photos 01–06, ground
+ * photos 08, 11, 12), placed on their OSM roof outlines, low detail:
+ *  - Cell wing on the south side, 45 m: a 30.5 × 13 m west range and a narrower
+ *    14.5 × 10.6 m east range (courtyard wall stepped back), rubble-stone walls
+ *    ≈ 4.6 m, bell-cast hipped roofs (≈ 24° kick, 50° main pitch) — the east range
+ *    runs into the higher west range's hip; flush roof windows (8 + 4 courtyard,
+ *    5 + 3 outer, 2 on the west hip), brick-arched windows and doors.
+ *  - Gate bell tower in the east wall: ≈ 6.6 m stone shaft with the arched passage,
+ *    two stepped piers outside, a set-back belfry stage with a brick band, pointed
+ *    louvred windows and a cream frieze, bell-cast square helm (lip ≈ 13 m, apex
+ *    ≈ 19.3 m) on a wooden soffit, iron cross (photos 08, 11).
+ *  - North-west guard tower: stone shaft ≈ 9.5 m, half-timbered brick storey,
+ *    steep bell-cast pyramid (apex ≈ 19 m) on a wooden soffit (photo 12).
+ * The enclosure walls (stone copings) and the green-painted sheds are not modelled.
  */
 import * as THREE from 'three'
-import { Builder, V, mat, metricBox, facet, loft, lathe, extrude, polyRing, rectRing, cross } from '../kit'
+import { Builder, V, mat, metricBox, facet, loft, lathe, extrude, polyRing, rectRing, cross, opening, frameShape } from '../kit'
 import type { ModelModule } from '../registry'
 
 type P2 = [number, number]
@@ -393,7 +410,252 @@ function build(): Builder {
   b.add(CU, new THREE.SphereGeometry(0.2, 12, 8), mat(TX, apex + 0.05, 0))
   cross(b, 'iron', TX, apex + 0.1, 0, 2.3, true, Math.PI / 2)
 
+  /* ================= precinct buildings with the same copper ================= */
+  cellWing(b)
+  bellTower(b)
+  guardTower(b)
+
   return b
+}
+
+/* =====================================================================================
+ * Precinct buildings roofed in the same pre-patinated copper (drone photos 01–06, ground
+ * photos 08, 11, 12). Positions = OSM roof outlines (ways 1554171768 cell wing,
+ * 1554177067 gate bell tower, 1554177066 north-west guard tower) projected into the
+ * model frame (all three are parallel to the church axis there).
+ * ===================================================================================== */
+const ENS = 'stoneLight' // rubble-stone walls of the precinct buildings
+type Rect = { x0: number; x1: number; z0: number; z1: number }
+
+/** Bell-cast hipped roof profile: height at inset i from the eave line. */
+function kickY(i: number, y0: number, kick: number, kickDeg: number, pitch: number) {
+  return y0 + Math.min(i, kick) * Math.tan(kickDeg * D2R) + Math.max(0, i - kick) * Math.tan(pitch * D2R)
+}
+
+/**
+ * Hipped bell-cast roof over an eave rectangle, built from inset rings with standing seams.
+ * clipW: the roof abuts a higher hipped roof whose east eave line is at x = clipW — the west
+ * edge then follows that roof's hip facet and the west face is omitted.
+ */
+function kickRoof(b: Builder, r: Rect, o: { y0: number; kick: number; kickDeg: number; pitch: number; clipW?: number; spacing?: number }) {
+  const hz = Math.min(r.z1 - r.z0, r.x1 - r.x0) / 2
+  const ins = [0, o.kick, hz]
+  const ring = (i: number) => {
+    const y = kickY(i, o.y0, o.kick, o.kickDeg, o.pitch)
+    const xa = o.clipW !== undefined ? o.clipW - i : r.x0 + i
+    const xb = r.x1 - i
+    return [V(xa, y, r.z0 + i), V(xb, y, r.z0 + i), V(xb, y, r.z1 - i), V(xa, y, r.z1 - i)]
+  }
+  const rings = ins.map(ring)
+  const sp = { key: CU, spacing: o.spacing ?? 0.5, h: 0.035, w: 0.04 }
+  for (let s = 0; s < rings.length - 1; s++) {
+    const A = rings[s]
+    const B = rings[s + 1]
+    for (let k = 0; k < 4; k++) {
+      if (k === 3 && o.clipW !== undefined) continue
+      const k1 = (k + 1) % 4
+      const q = [A[k], A[k1], B[k1], B[k]]
+      const pts = q.filter((p, j) => p.distanceTo(q[(j + 1) % 4]) > 1e-4)
+      if (pts.length >= 3) facet(b, CU, pts, { seams: sp })
+    }
+  }
+  // ridge and hip caps
+  const top = rings[2]
+  b.beam(CU, top[0].clone().add(V(0, 0.05, 0)), top[2].clone().add(V(0, 0.05, 0)), 0.18, 0.1)
+  for (let k = 0; k < 4; k++) {
+    if (o.clipW !== undefined && (k === 0 || k === 3)) continue
+    for (let s = 0; s < 2; s++) b.beam(CU, rings[s][k], rings[s + 1][k], 0.1, 0.07)
+  }
+  return top[0].y
+}
+
+/** Sloping wooden soffit (wall head → eave lip) and copper fascia around an eave rectangle; skip = side to omit (0 −z, 1 +x, 2 +z, 3 −x). */
+function eaveSkirt(b: Builder, wall: Rect, eave: Rect, yWall: number, yLip: number, skip = -1) {
+  const W = [V(wall.x0, yWall, wall.z0), V(wall.x1, yWall, wall.z0), V(wall.x1, yWall, wall.z1), V(wall.x0, yWall, wall.z1)]
+  const E = (y: number) => [V(eave.x0, y, eave.z0), V(eave.x1, y, eave.z0), V(eave.x1, y, eave.z1), V(eave.x0, y, eave.z1)]
+  const E0 = E(yLip - 0.14)
+  const E1 = E(yLip)
+  const out = [V(0, 0, -1), V(1, 0, 0), V(0, 0, 1), V(-1, 0, 0)]
+  for (let k = 0; k < 4; k++) {
+    if (k === skip) continue
+    const k1 = (k + 1) % 4
+    facet(b, WOOD, [W[k], W[k1], E0[k1], E0[k]], { hint: out[k].clone().add(V(0, -1, 0)) })
+    facet(b, CU, [E0[k], E0[k1], E1[k1], E1[k]], { hint: out[k] })
+  }
+}
+
+/** Flush roof window on a roof plane: centre p, outward horizontal direction h, plane pitch (deg). */
+function roofWindow(b: Builder, p: THREE.Vector3, h: THREE.Vector3, pitch: number) {
+  const a = pitch * D2R
+  const n = h.clone().multiplyScalar(Math.sin(a)).add(V(0, Math.cos(a), 0))
+  const s = h.clone().multiplyScalar(-Math.cos(a)).add(V(0, Math.sin(a), 0))
+  const t = V().crossVectors(s, n)
+  const m = new THREE.Matrix4().makeBasis(t, s, n).setPosition(p.clone().add(n.clone().multiplyScalar(0.03)))
+  b.add('trim', metricBox(0.9, 1.25, 0.08), m)
+  b.add('skylight', metricBox(0.72, 1.07, 0.06), M(m, mat(0, 0, 0.05)))
+}
+
+/** Arched opening on a wall-face frame: fill (glass or door leaf) with a brick arch surround. */
+function archOpening(b: Builder, m: THREE.Matrix4, u: number, y0: number, w: number, h: number, fill: string, f = 0.18, type: 'round' | 'pointed' = 'round') {
+  b.add(fill, new THREE.ShapeGeometry(new THREE.Shape(opening(type, w, h, 0, y0, 10))), M(m, mat(u, 0, 0.02)))
+  b.add(BRICK, extrude(frameShape(type, w, h, f, 0, y0), 0.08), M(m, mat(u, 0, 0)))
+}
+
+/* ---------- cell wing (south side): west range 13 m deep, east range 10.6 m, both bell-cast hipped ---------- */
+function cellWing(b: Builder) {
+  const OVW = 0.95 // eave overhang
+  const HW = 4.6 // wall head
+  const YL = 4.4 // eave lip
+  const prof = { y0: YL, kick: 1.25, kickDeg: 24, pitch: 50 }
+  const A: Rect = { x0: -8.53, x1: 22.02, z0: 22.54, z1: 35.57 } // OSM outline = eave line
+  const B: Rect = { x0: 22.02, x1: 36.51, z0: 24.96, z1: 35.57 }
+  const wa: Rect = { x0: A.x0 + OVW, x1: A.x1 - OVW, z0: A.z0 + OVW, z1: A.z1 - OVW }
+  const wb: Rect = { x0: wa.x1, x1: B.x1 - OVW, z0: B.z0 + OVW, z1: B.z1 - OVW }
+  for (const w of [wa, wb]) {
+    b.block(ENS, w.x1 - w.x0, HW, w.z1 - w.z0, (w.x0 + w.x1) / 2, 0, (w.z0 + w.z1) / 2)
+    b.block('stoneGrey', w.x1 - w.x0 + 0.16, 0.45, w.z1 - w.z0 + 0.16, (w.x0 + w.x1) / 2, 0, (w.z0 + w.z1) / 2)
+  }
+  // roofs: the wider west range has the higher ridge; the east range runs into its east hip
+  kickRoof(b, A, prof)
+  kickRoof(b, B, { ...prof, clipW: A.x1 })
+  eaveSkirt(b, wa, A, HW, YL)
+  eaveSkirt(b, wb, { ...B, x0: A.x1 }, HW, YL, 3)
+
+  // roof windows (photos 01–06): courtyard slope 8 + 4, outer slope 5 + 3, two on the west hip
+  const winOn = (r: Rect, side: 1 | -1, x: number, frac: number) => {
+    const hz = (r.z1 - r.z0) / 2
+    const d = prof.kick + frac * (hz - prof.kick)
+    const y = kickY(d, YL, prof.kick, prof.kickDeg, prof.pitch)
+    const z = side < 0 ? r.z0 + d : r.z1 - d
+    roofWindow(b, V(x, y, z), V(0, 0, side), prof.pitch)
+  }
+  for (const x of [17.0, 13.9, 11.0, 8.2, 5.6, 3.0, 0.4, -2.0]) winOn(A, -1, x, 0.4)
+  for (const x of [31.0, 28.4, 25.9, 23.4]) winOn(B, -1, x, 0.42)
+  for (const x of [17.6, 13.3, 8.8, 4.4, 0.1]) winOn(A, 1, x, 0.42)
+  for (const x of [32.2, 28.5, 24.9]) winOn(B, 1, x, 0.44)
+  {
+    const d = prof.kick + 0.35 * ((A.z1 - A.z0) / 2 - prof.kick)
+    const y = kickY(d, YL, prof.kick, prof.kickDeg, prof.pitch)
+    for (const dz of [-0.75, 0.75]) roofWindow(b, V(A.x0 + d, y, (A.z0 + A.z1) / 2 + dz), V(-1, 0, 0), prof.pitch)
+  }
+  // courtyard façade (−z): arched windows and doors with brick arches (photo 05)
+  {
+    const m = faceM(0, wa.z0, 0, -1) // u = −x
+    for (const x of [17.6, 12.6, 9.6, 0.6, -3.2, -5.6]) archOpening(b, m, -x, 1.15, 0.85, 1.55, 'glassC')
+    archOpening(b, m, -6.4, 0, 1.15, 2.3, 'wood', 0.22)
+    b.add(BRICK, archFrame(0.5, 0.5, 0.1, 3.0, 8), M(m, mat(-3.6, 0, 0)))
+    b.add('glassC', archFill(0.5, 0.5, 3.0, 8), M(m, mat(-3.6, 0, 0.02)))
+    const mb = faceM(0, wb.z0, 0, -1)
+    for (const x of [30.0, 33.6]) archOpening(b, mb, -x, 1.3, 0.7, 1.2, 'glassC', 0.15)
+    archOpening(b, faceM(wa.x1, (wa.z0 + wb.z0) / 2, 1, 0), 0, 0, 1.1, 2.25, 'wood', 0.22) // door in the step wall
+  }
+  // outer façade (+z): two narrow windows at the west end; one small window in the east end wall
+  {
+    const m = faceM(0, wa.z1, 0, 1) // u = x
+    for (const x of [-6.3, -5.5]) {
+      b.add('glassC', new THREE.PlaneGeometry(0.35, 1.0), M(m, mat(x, 2.9, 0.02)))
+      b.add(SOCLE, extrude(frameShape('rect', 0.35, 1.0, 0.12, 0, 2.4), 0.06), M(m, mat(x, 0, 0)))
+    }
+    const me = faceM(wb.x1, 0, 1, 0) // u = −z
+    archOpening(b, me, -27.4, 2.0, 0.6, 1.0, 'glassC', 0.14)
+  }
+  // a low stepped buttress at the south-west corner (photo 06)
+  const bp = new THREE.Shape([new THREE.Vector2(0, 0), new THREE.Vector2(1.1, 0), new THREE.Vector2(1.1, 1.6), new THREE.Vector2(0, 3.6)])
+  b.add(ENS, extrude(bp, 1.0, 1), new THREE.Matrix4().makeBasis(V(0, 0, 1), V(0, 1, 0), V(-1, 0, 0)).setPosition(wa.x0 + 1.0, 0, wa.z1))
+}
+
+/* ---------- gate bell tower (turn clopotniță) in the east wall, north of the wing's east end ---------- */
+function bellTower(b: Builder) {
+  const cx = 35.71
+  const cz = 16.56
+  const h0 = 3.3 // lower stage half-width
+  const h1 = 3.0 // upper stage half-width
+  const yL = 7.3 // ledge
+  const yT = 13.0 // wall head under the eaves
+  b.block(ENS, 2 * h0, yL, 2 * h0, cx, 0, cz)
+  b.block('stoneGrey', 2 * h0 + 0.24, 0.25, 2 * h0 + 0.24, cx, yL - 0.05, cz)
+  b.block(ENS, 2 * h1, 10.87 - yL, 2 * h1, cx, yL, cz)
+  b.block(BRICK, 2 * h1, 12.32 - 10.87, 2 * h1, cx, 10.87, cz)
+  b.block('plasterCream', 2 * h1 + 0.06, yT - 12.32, 2 * h1 + 0.06, cx, 12.32, cz)
+  // belfry: tall pointed louvred window with a brick arch on every face (photos 08, 11)
+  for (let i = 0; i < 4; i++) {
+    const a = (i * Math.PI) / 2
+    const m = faceM(cx + h1 * Math.cos(a), cz + h1 * Math.sin(a), Math.cos(a), Math.sin(a))
+    archOpening(b, m, 0, 8.1, 1.45, 3.9, 'black', 0.3, 'pointed')
+    b.add(ENS, metricBox(1.9, 0.12, 0.25), M(m, mat(0, 7.98, 0.1)))
+  }
+  // gate passage E–W: round brick arch, small window above; on the outer (east) face the icon and two stepped piers
+  for (const sx of [1, -1]) {
+    const m = faceM(cx + sx * h0, cz, sx, 0)
+    archOpening(b, m, 0, 0, 3.0, 3.2, 'wood', 0.5)
+    b.add('glassC', new THREE.PlaneGeometry(0.3, 0.45), M(m, mat(0, 6.1, 0.02)))
+  }
+  {
+    const m = faceM(cx + h0, cz, 1, 0) // u = −z
+    b.add('gilt', new THREE.ShapeGeometry(new THREE.Shape(opening('round', 1.1, 1.1, 0, 4.3, 8))), M(m, mat(0, 0, 0.03)))
+    const prof = new THREE.Shape([new THREE.Vector2(0, 0), new THREE.Vector2(0.95, 0), new THREE.Vector2(0.95, 3.0), new THREE.Vector2(0, 3.8)])
+    for (const u of [-2.4, 2.4]) {
+      // profile in (outward, up), extruded 1.3 m along the face
+      b.add(ENS, extrude(prof, 1.3, 1), M(m, new THREE.Matrix4().makeBasis(V(0, 0, 1), V(0, 1, 0), V(-1, 0, 0)).setPosition(u + 0.65, 0, 0)))
+    }
+  }
+  // bell-cast square helm with a deep wooden soffit, ball and iron cross
+  const q = (hw: number, y: number) => polyRing(4, hw * Math.SQRT2, y, Math.PI / 4, cx, cz)
+  const st: P2[] = [
+    [4.33, 13.05],
+    [2.88, 13.89],
+    [2.28, 14.79],
+    [1.22, 16.77],
+    [0.02, 19.25],
+  ]
+  seamedLoft(b, CU, st.map(([r, y]) => q(r, y)), 0.45)
+  b.add(CU, loft([q(4.33, 12.91), q(4.33, 13.05)]))
+  b.add(WOOD, loft([q(h1 + 0.03, yT), q(4.31, 12.91)]))
+  const apex = st[st.length - 1][1]
+  b.add(CU, new THREE.SphereGeometry(0.18, 10, 8), mat(cx, apex + 0.05, cz))
+  cross(b, 'iron', cx, apex + 0.05, cz, 1.8, true, Math.PI / 2)
+}
+
+/* ---------- north-west guard tower (turn de pază): stone shaft, half-timbered top storey, bell-cast pyramid ---------- */
+function guardTower(b: Builder) {
+  const cx = -31.01
+  const cz = -29.55
+  const s = { hx: 3.5, hz: 3.7 } // stone shaft
+  const t = { hx: 3.3, hz: 3.5 } // timber storey
+  const yS = 9.5
+  const yT = 13.6
+  b.block(ENS, 2 * s.hx, yS, 2 * s.hz, cx, 0, cz)
+  b.block(SOCLE, 2 * s.hx + 0.2, 0.25, 2 * s.hz + 0.2, cx, yS, cz)
+  b.block(BRICK, 2 * t.hx, yT - yS - 0.25, 2 * t.hz, cx, yS + 0.25, cz)
+  // timber frame: sill, rail, head, posts and braces; two windows per face (photo 12)
+  const y0 = yS + 0.25
+  const hh = yT - y0
+  for (let i = 0; i < 4; i++) {
+    const a = (i * Math.PI) / 2
+    const half = i % 2 === 0 ? t.hz : t.hx // half-length of this face
+    const dep = i % 2 === 0 ? t.hx : t.hz // distance of the face from the centre
+    const m = faceM(cx + dep * Math.cos(a), cz + dep * Math.sin(a), Math.cos(a), Math.sin(a))
+    for (const y of [y0 + 0.1, yT - 0.1, y0 + hh * 0.55]) b.add('wood', metricBox(2 * half, 0.18, 0.08), M(m, mat(0, y, 0.04)))
+    for (const u of [-half + 0.09, -half * 0.5, 0, half * 0.5, half - 0.09]) b.add('wood', metricBox(0.18, hh, 0.08), M(m, mat(u, y0 + hh / 2, 0.04)))
+    for (const [ua, ub] of [
+      [-half + 0.09, -half * 0.5],
+      [half * 0.5, half - 0.09],
+    ]) {
+      const len = Math.hypot(ub - ua, hh * 0.55)
+      b.add('wood', metricBox(0.14, len, 0.07), M(m, mat((ua + ub) / 2, y0 + hh * 0.275, 0.045, 0, 0, Math.atan2(ua - ub, hh * 0.55))))
+    }
+    for (const u of [-half * 0.25, half * 0.25]) {
+      b.add('glassC', new THREE.PlaneGeometry(0.8, 1.0), M(m, mat(u, y0 + hh * 0.55 + 0.7, 0.05)))
+      b.add('wood', extrude(frameShape('rect', 0.8, 1.0, 0.1, 0, y0 + hh * 0.55 + 0.2), 0.06), M(m, mat(u, 0, 0.05)))
+    }
+  }
+  // pointed windows in the stone shaft on the courtyard faces (east +x, south +z)
+  archOpening(b, faceM(cx + s.hx, cz, 1, 0), 0, 5.2, 0.85, 2.5, 'glassC', 0.2, 'pointed')
+  archOpening(b, faceM(cx, cz + s.hz, 0, 1), 0, 5.2, 0.85, 2.5, 'glassC', 0.2, 'pointed')
+  // roof: OSM outline 8.63 × 9.09 m, bell-cast eaves on a wooden soffit, steep pyramid
+  const roof: Rect = { x0: cx - 4.31, x1: cx + 4.31, z0: cz - 4.55, z1: cz + 4.55 }
+  kickRoof(b, roof, { y0: yT - 0.15, kick: 1.05, kickDeg: 25, pitch: 57, spacing: 0.45 })
+  eaveSkirt(b, { x0: cx - t.hx, x1: cx + t.hx, z0: cz - t.hz, z1: cz + t.hz }, roof, yT, yT - 0.15)
 }
 
 const model: ModelModule = {
@@ -412,6 +674,6 @@ const model: ModelModule = {
       tazGlazeY: new THREE.MeshStandardMaterial({ color: '#c49a3c', roughness: 0.35, metalness: 0.1 }),
     }
   },
-  notes: 'Trefoil church with tower over the naos; KME TECU Patina Oslo copper roofs in the photographed teal tone; heights scaled from photographs.',
+  notes: 'Trefoil church with tower over the naos, with the cell wing, the gate bell tower and the north-west guard tower of the precinct; KME TECU Patina Oslo copper roofs in the photographed teal tone; heights scaled from photographs.',
 }
 export default model

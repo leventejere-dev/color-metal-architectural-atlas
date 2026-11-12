@@ -1,0 +1,14 @@
+{
+ "tier": "D",
+ "status": "reference-limited",
+ "bearingDeg": 90,
+ "bearingSource": "Assumed: the skete is not mapped and its position in the Cornereva mountains is not published; +X = assumed liturgical east.",
+ "cover": null,
+ "photosUsed": 0,
+ "approximations": "Massing model only. No exterior photograph of the skete church (1949–1959) could be found: the diocese's press galleries (2019–2026) show its painted interior, the open summer altar with a wooden bell turret, the cell building and the small paraclis blessed in 2026 (reference photos 01–02 show these other buildings, not the church). Size (nave 10.5 × 6.6 m, eaves 4.2 m), the half-hexagonal apse, the gable roof (42°), openings and orientation are assumed from the building type. COLOR METAL supplied copper in 2022 according to its records; where it was used is not documented, so the church roof is shown in weathered copper.",
+ "note": {
+  "ro": "Model de volumetrie: nu s-a găsit nicio fotografie exterioară publică a bisericii schitului, ci doar ale interiorului și ale altor clădiri ale așezământului. Dimensiunile, forma și orientarea sunt presupuse după tipul bisericilor mici de munte; acoperișul este redat în cuprul livrat de COLOR METAL conform evidențelor sale, fără ca suprafața pe care a fost folosit să fie documentată.",
+  "hu": "Tömegmodell: a remeteség templomáról nem található nyilvános külső fénykép, csak a belsőről és a telep más épületeiről. A méretek, a forma és a tájolás a kis hegyi templomok típusa alapján feltételezettek; a tetőt a COLOR METAL nyilvántartása szerint szállított rézzel ábrázoljuk, bár nincs dokumentálva, hol használták fel.",
+  "en": "Massing model: no public exterior photograph of the skete church could be found, only of its interior and of other buildings of the skete. Size, form and orientation are assumed from the type of small mountain churches; the roof is shown in the copper supplied by COLOR METAL according to its records, although where it was used is not documented."
+ }
+}

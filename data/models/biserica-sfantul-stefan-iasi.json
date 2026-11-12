@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 76.7,
+ "bearingSource": "OSM way 203167029 long axis 76.7°; +X points to the semicircular altar apse at the ENE end of the outline, so the straight west end with the entrance front and the tower (photo 01) is at −X.",
+ "cover": "01",
+ "photosUsed": 1,
+ "approximations": "Single public photograph of the west front (Wikimedia Commons, 2023). Plan from the OSM outline (body 15.7 × 8.8 m, apse r ≈ 3.0 m). Heights estimated from door and window sizes: eaves ≈ 6.1 m, ridge ≈ 9.3 m (pitch ≈ 33°), tower ≈ 4 m square with cornice at ≈ 11.7 m, cross at ≈ 15 m. Side and east elevations, the east roof end and the apse roof are not photographed: typological window rhythm, rounded hip mirrored from the west end, half-cone apse roof. The photograph already shows the new copper roof, modelled as photographed; icon panel and carved door frame simplified.",
+ "note": {
+  "ro": "Machetă preliminară interpretată după o singură fotografie publică a fațadei de vest; fațadele laterale și de est, absida și înălțimile sunt estimate pe baza conturului OSM. Acoperișul de cupru cu fălțuire dublă este redat așa cum apare în fotografie.",
+  "hu": "Egyetlen nyilvános, a nyugati homlokzatot mutató fotó alapján értelmezett előzetes makett; az oldal- és a keleti homlokzat, az apszis és a magasságok az OSM-körvonal alapján becsültek. Az állókorcos rézfedés a fotón látható módon jelenik meg.",
+  "en": "Preliminary model interpreted from a single public photograph of the west front; the side and east elevations, the apse and the heights are estimated from the OSM outline. The standing-seam copper roof is shown as photographed."
+ }
+}

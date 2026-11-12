@@ -116,11 +116,11 @@
    "model": {
     "tier": "A",
     "status": "existing-verified",
-    "module": "exhibition:stadium",
+    "module": "exhibition:stadium-full",
     "note": {
-     "ro": "Model preluat de pe masa expozițională COLOR METAL: semi-secțiune cu tribuna principală și pavilionul placat cu titan-zinc. Dimensiunile, adâncimea tribunelor și înălțimile acoperișului sunt estimate.",
-     "hu": "A COLOR METAL kiállítási asztal modellje: félmetszet a főlelátóval és a titáncink burkolatú pavilonnal. A méretek, a lelátók mélysége és a tetőmagasságok becsültek.",
-     "en": "Exhibition-table model: half-section with the main stand and the titanium-zinc clad pavilion. Dimensions, stand depths and roof heights are estimates."
+     "ro": "Model preluat de pe masa expozițională COLOR METAL și completat la stadionul întreg: tribuna principală cu pavilionul placat cu titan-zinc a fost oglindită pentru tribuna opusă (aproximare). Dimensiunile, adâncimea tribunelor și înălțimile acoperișului sunt estimate.",
+     "hu": "A COLOR METAL kiállítási asztal modellje teljes stadionná kiegészítve: a titáncink burkolatú pavilonnal ellátott főlelátó tükrözve adja a szemközti lelátót (közelítés). A méretek, a lelátók mélysége és a tetőmagasságok becsültek.",
+     "en": "Exhibition-table model completed to the whole stadium: the main stand with the titanium-zinc clad pavilion is mirrored for the opposite stand (approximation). Dimensions, stand depths and roof heights are estimated."
     }
    },
    "sourceUrls": [
@@ -249,6 +249,7 @@
    },
    "photos": [],
    "photoStatus": "none",
+   "thumb": "thumbs/biserica-reformata-tasnad.webp",
    "model": {
     "tier": "A",
     "status": "existing-verified",
@@ -5071,9 +5072,9 @@
     "status": "preview",
     "module": "manastirea-barnova",
     "note": {
-     "ro": "Machetă interpretată după fotografiile cu drona și conturul OSM: planul, turnurile și acoperișurile urmează fotografiile, înălțimile sunt estimate, iar ocnițele, ferestrele și contraforții sunt simplificate; fațada nordică este oglindită după cea sudică.",
-     "hu": "Drónfotók és az OSM-körvonal alapján értelmezett makett: az alaprajz, a tornyok és a tetők a fotókat követik, a magasságok becsültek, a fülkesorok, ablakok és támpillérek egyszerűsítettek; az északi homlokzat a déli tükörképe.",
-     "en": "Scale model interpreted from the drone photographs and the OSM outline: plan, towers and roofs follow the photos, heights are estimated, and the niche friezes, windows and buttresses are simplified; the north side mirrors the south."
+     "ro": "Machetă interpretată după fotografiile cu drona și conturul OSM: planul, turnurile și acoperișurile urmează fotografiile, înălțimile sunt estimate, iar ocnițele, ferestrele și contraforții sunt simplificate; fațada nordică este oglindită după cea sudică. Turnul de poartă din zidul de vest al incintei este inclus: coiful său este din același cupru închis la culoare ca turlele bisericii.",
+     "hu": "Drónfotók és az OSM-körvonal alapján értelmezett makett: az alaprajz, a tornyok és a tetők a fotókat követik, a magasságok becsültek, a fülkesorok, ablakok és támpillérek egyszerűsítettek; az északi homlokzat a déli tükörképe. A kerítőfal nyugati kaputornya is szerepel a maketten: sisakja ugyanabból a sötét rézből készült, mint a templomtornyoké.",
+     "en": "Scale model interpreted from the drone photographs and the OSM outline: plan, towers and roofs follow the photos, heights are estimated, and the niche friezes, windows and buttresses are simplified; the north side mirrors the south. The gate tower in the west precinct wall is included: its helm carries the same dark copper as the church towers."
     }
    },
    "sourceUrls": [
@@ -5170,14 +5171,15 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-dragomirna.webp",
    "model": {
     "tier": "B",
     "status": "preview",
     "module": "manastirea-dragomirna",
     "note": {
-     "ro": "Machetă interpretată după două fotografii mai vechi și după dimensiunile publicate (35 × 9,5 m, cca 42 m înălțime): înălțimea zidurilor și treptele turlei sunt estimate, iar decorul sculptat în piatră este simplificat. Fotografiile sunt anterioare învelitorii din cupru (2010–2012), de aceea cuprul este redat într-o nuanță brun-închisă, patinată.",
-     "hu": "Két régebbi fotó és a közölt méretek (35 × 9,5 m, kb. 42 m magasság) alapján értelmezett makett: a falmagasság és a torony szintjei becsültek, a faragott kődíszítés egyszerűsített. A fotók a 2010–2012-es rézfedés előtt készültek, ezért a réz sötétbarna, öregedett árnyalatban jelenik meg.",
-     "en": "Scale model interpreted from two older photographs and the published dimensions (35 × 9.5 m, about 42 m high): wall height and tower stages are estimated, and the carved stonework is simplified. The photographs predate the 2010–2012 copper roofs, so the copper is shown in an aged dark-brown tone."
+     "ro": "Machetă interpretată după două fotografii mai vechi și după dimensiunile publicate (35 × 9,5 m, cca 42 m înălțime): înălțimea zidurilor și treptele turlei sunt estimate, iar decorul sculptat în piatră este simplificat. Fotografiile sunt anterioare învelitorii din cupru (2010–2012), de aceea cuprul este redat într-o nuanță brun-închisă, patinată. Sunt incluse, simplificat, și zidurile de incintă cu drumul de strajă acoperit, turnurile de colț, turnul porții și corpurile de chilii, care au primit același cupru la restaurarea din 2010–2012.",
+     "hu": "Két régebbi fotó és a közölt méretek (35 × 9,5 m, kb. 42 m magasság) alapján értelmezett makett: a falmagasság és a torony szintjei becsültek, a faragott kődíszítés egyszerűsített. A fotók a 2010–2012-es rézfedés előtt készültek, ezért a réz sötétbarna, öregedett árnyalatban jelenik meg. Egyszerűsítve a kerítőfalak a fedett gyilokjáróval, a saroktornyok, a kaputorony és a cellaszárnyak is szerepelnek, amelyek a 2010–2012-es felújításkor ugyanazt a rézfedést kapták.",
+     "en": "Scale model interpreted from two older photographs and the published dimensions (35 × 9.5 m, about 42 m high): wall height and tower stages are estimated, and the carved stonework is simplified. The photographs predate the 2010–2012 copper roofs, so the copper is shown in an aged dark-brown tone. The enclosure walls with their covered wall-walk, the corner towers, the gate tower and the monastic ranges, which received the same copper in the 2010–2012 restoration, are included in simplified form."
     }
    },
    "sourceUrls": [
@@ -5352,9 +5354,9 @@
     "status": "preview",
     "module": "manastirea-frumoasa",
     "note": {
-     "ro": "Machetă interpretată după fotografiile aeriene: acoperiș în patru ape din cupru cu cele patru turle bulbate îmbrăcate în tablă, porticul de vest și absida poligonală. Înălțimile pereților, panta acoperișului și profilele turlelor sunt estimate; latura nordică este presupusă identică cu cea sudică, iar friza este simplificată.",
-     "hu": "A drónfotók alapján értelmezett makett: kontyolt réztető a négy fémlemez-borítású hagymatoronnyal, a nyugati portikusz és a sokszögű apszis. A falmagasságok, a tetőhajlás és a toronyprofilok becsültek; az északi oldalt a délivel azonosnak feltételeztük, a fríz egyszerűsített.",
-     "en": "Scale model interpreted from the drone photographs: hipped copper roof with the four sheet-metal bulb towers, western portico and polygonal apse. Wall heights, roof pitch and tower profiles are estimated; the north side is assumed to match the south side and the frieze is simplified."
+     "ro": "Machetă interpretată după fotografiile aeriene: acoperiș în patru ape din cupru cu cele patru turle bulbate îmbrăcate în tablă, porticul de vest și absida poligonală. Înălțimile pereților, panta acoperișului și profilele turlelor sunt estimate; latura nordică este presupusă identică cu cea sudică, iar friza este simplificată. Clopotnița de la poarta de vest a incintei este inclusă: acoperișul în formă de clopot, bulbul și lanterna sunt din același cupru brun închis ca turlele bisericii.",
+     "hu": "A drónfotók alapján értelmezett makett: kontyolt réztető a négy fémlemez-borítású hagymatoronnyal, a nyugati portikusz és a sokszögű apszis. A falmagasságok, a tetőhajlás és a toronyprofilok becsültek; az északi oldalt a délivel azonosnak feltételeztük, a fríz egyszerűsített. A kerítőfal nyugati kapuja feletti harangtorony is szerepel: harang alakú tetője, hagymakupolája és lanternája ugyanabból a sötétbarna rézből készült, mint a templom tornyai.",
+     "en": "Scale model interpreted from the drone photographs: hipped copper roof with the four sheet-metal bulb towers, western portico and polygonal apse. Wall heights, roof pitch and tower profiles are estimated; the north side is assumed to match the south side and the frieze is simplified. The gate bell tower in the west precinct wall is included: its bell roof, bulb dome and lantern carry the same dark brown copper as the church towers."
     }
    },
    "sourceUrls": [
@@ -5453,6 +5455,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-putna.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -5613,8 +5616,8 @@
    "lon": 26.462782,
    "geographicAccuracy": "building",
    "identificationConfidence": "VERIFIED",
-   "bearingDeg": 102.3,
-   "bearingSource": "OSM way 1147932372 long axis 102.3°; +X points to the altar apse (east), which the outline and the drone photos 01, 02 place next to the lateral-apse lobes; the long western body is at −X",
+   "bearingDeg": 107.4,
+   "bearingSource": "Long axis 107.4° of the OSM cell-wing outline (way 1554171768; the gate and guard tower outlines 1554177067/1554177066 agree within 1.5°). The vertical drone photo 02 shows the church eaves parallel to the cell wing within about 1° and the east and west precinct walls perpendicular to both, so the 102.3° long axis of the coarse church outline (way 1147932372) is taken to be about 5° off. +X points to the altar apse (east), next to the lateral-apse lobes (drone photos 01, 02); the long western body is at −X",
    "category": "monastery",
    "metals": [
     "copper"
@@ -5712,9 +5715,9 @@
     "status": "detailed",
     "module": "manastirea-tazlau",
     "note": {
-     "ro": "Machetă interpretată după fotografiile de referință (dronă și vederi de la sol): înălțimile sunt estimate din proporțiile fotografiilor, iar numărul ocnițelor, al discurilor ceramice și al ferestrelor este aproximat. Acoperișurile din cupru KME TECU® Patina Oslo sunt redate în nuanța turcoaz vizibilă în fotografii; latura nordică este considerată simetrică cu cea sudică.",
-     "hu": "A referenciafotók (drón- és földi felvételek) alapján értelmezett makett: a magasságok a fotók arányaiból becsültek, a vakfülkék, kerámiakorongok és ablakok száma közelítő. A KME TECU® Patina Oslo rézfedés a fotókon látható türkiz árnyalatban jelenik meg; az északi oldal a délivel szimmetrikusnak feltételezett.",
-     "en": "Scale model interpreted from the reference photographs (drone and ground views): heights are estimated from photo proportions, and the numbers of niches, ceramic discs and windows are approximate. The KME TECU® Patina Oslo copper roofs are shown in the teal tone seen in the photos; the north side is assumed to match the south side."
+     "ro": "Machetă interpretată după fotografiile de referință (dronă și vederi de la sol): înălțimile sunt estimate din proporțiile fotografiilor, iar numărul ocnițelor, al discurilor ceramice și al ferestrelor este aproximat. Acoperișurile din cupru KME TECU® Patina Oslo sunt redate în nuanța turcoaz vizibilă în fotografii; latura nordică este considerată simetrică cu cea sudică. Sunt incluse și chiliile de pe latura de sud, turnul-clopotniță de la intrare și turnul de pază din colțul de nord-vest, acoperite cu același cupru prepatinat ca biserica.",
+     "hu": "A referenciafotók (drón- és földi felvételek) alapján értelmezett makett: a magasságok a fotók arányaiból becsültek, a vakfülkék, kerámiakorongok és ablakok száma közelítő. A KME TECU® Patina Oslo rézfedés a fotókon látható türkiz árnyalatban jelenik meg; az északi oldal a délivel szimmetrikusnak feltételezett. A makett a déli oldali cellaszárnyat, a bejárati harangtornyot és az északnyugati sarok őrtornyát is tartalmazza, amelyeket ugyanaz az előpatinázott réz fed, mint a templomot.",
+     "en": "Scale model interpreted from the reference photographs (drone and ground views): heights are estimated from photo proportions, and the numbers of niches, ceramic discs and windows are approximate. The KME TECU® Patina Oslo copper roofs are shown in the teal tone seen in the photos; the north side is assumed to match the south side. The cell wing on the south side, the entrance bell tower and the north-west guard tower are also included; they carry the same pre-patinated copper as the church."
     }
    },
    "sourceUrls": [
@@ -5844,14 +5847,15 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-tismana.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
     "module": "manastirea-tismana",
     "note": {
-     "ro": "Machetă preliminară după trei fotografii mici și conturul OSM: înălțimile sunt estimate, iar capătul estic și absidele laterale sunt interpretate. Fotografiile arată biserica cu o învelitoare gri; finisajul de cupru urmează evidența proiectului.",
-     "hu": "Előzetes makett három kis fotó és az OSM-körvonal alapján: a magasságok becsültek, a keleti rész és az oldalapszisok értelmezettek. A fotókon a templom szürke fedésű; a rézfelület a projektnyilvántartást követi.",
-     "en": "Preliminary scale model based on three small photographs and the OSM outline: heights are estimated, and the east end and lateral apses are interpreted. The photographs show the church with a grey roof; the copper finish follows the project record."
+     "ro": "Machetă preliminară după trei fotografii mici și conturul OSM: înălțimile sunt estimate, iar capătul estic și absidele laterale sunt interpretate. Fotografiile arată biserica cu o învelitoare gri; finisajul de cupru urmează evidența proiectului. Sunt incluse, simplificat, și aripile incintei care poartă același cupru în fotografia cu drona: aripa de nord, aripa de nord-est și aripa de sud cu pavilionul de colț.",
+     "hu": "Előzetes makett három kis fotó és az OSM-körvonal alapján: a magasságok becsültek, a keleti rész és az oldalapszisok értelmezettek. A fotókon a templom szürke fedésű; a rézfelület a projektnyilvántartást követi. Egyszerűsítve a kerítés szárnyai is szerepelnek, amelyeken a drónfotó ugyanazt a rezet mutatja: az északi, az északkeleti és a déli szárny a sarokpavilonnal.",
+     "en": "Preliminary scale model based on three small photographs and the OSM outline: heights are estimated, and the east end and lateral apses are interpreted. The photographs show the church with a grey roof; the copper finish follows the project record. The precinct ranges that carry the same copper in the drone photograph are included in simplified form: the north and north-east ranges and the south range with its corner pavilion."
     }
    },
    "sourceUrls": [
@@ -7071,6 +7075,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/bt-arena-cluj.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -8227,6 +8232,7 @@
    "products": [],
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/castelul-bethlen-arcalia.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -8526,6 +8532,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manejul-carei.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -8595,6 +8602,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/refugiu-cheile-bicazului.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -8642,6 +8650,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-reformata-gherla.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -8804,6 +8813,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/palatul-nifon-bucuresti.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -8981,6 +8991,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-luterana-bucuresti.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9071,6 +9082,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/hotel-bulevard-bucuresti.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9184,6 +9196,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-schitul-magureanu.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9276,6 +9289,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/universitatea-de-muzica-bucuresti.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9423,6 +9437,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/muzeul-taranului-roman.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9534,6 +9549,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/palatul-cesianu-racovita.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9601,6 +9617,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-varteju.webp",
    "model": {
     "tier": "C",
     "status": "preview",
@@ -9696,6 +9713,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/conacul-bolomey.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9765,6 +9783,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-sf-gheorghe-mangalia.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9836,6 +9855,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/catedrala-turnu-magurele.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -9954,6 +9974,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biblioteca-carianopol-caracal.webp",
    "model": {
     "tier": "C",
     "status": "preview",
@@ -9996,6 +10017,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/teatrul-maria-filotti-braila.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10122,6 +10144,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-nucet.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10209,6 +10232,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-sfanta-vineri-pitesti.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10366,6 +10390,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/muzeul-judetean-arges.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10443,6 +10468,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-madona-dudu-craiova.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10549,6 +10575,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/hotel-palace-craiova.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10620,6 +10647,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/primaria-craiova.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10713,6 +10741,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biblioteca-franceza-omnia-craiova.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10776,6 +10805,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-sf-gheorghe-vechi-craiova.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -10919,6 +10949,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-hurezi.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -11148,6 +11179,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/primaria-oradea.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -11296,6 +11328,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/spitalul-municipal-oradea.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -11434,6 +11467,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/fosta-biserica-unitariana-abrud.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -11517,6 +11551,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-piarista-timisoara.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -11678,6 +11713,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/cazarma-piata-libertatii-timisoara.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -11798,6 +11834,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/auto-schunn-arad.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -11856,6 +11893,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-lainici.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -11993,6 +12031,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-hodos-bodrog.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -12035,6 +12074,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-gai-arad.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -12179,6 +12219,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-sfanta-cruce-studina.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -12223,6 +12264,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-calvaria-cluj.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -12333,6 +12375,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/muzeul-de-arta-cluj.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -12466,6 +12509,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/liceul-bolyai-farkas-targu-mures.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -12695,6 +12739,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/pensiunea-aster-campu-cetatii.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -12736,6 +12781,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/catedrala-evanghelica-sibiu.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -12930,6 +12976,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/sediu-sts-sibiu.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -12977,6 +13024,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-evanghelica-codlea.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -13118,6 +13166,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-evanghelica-maghiara-brasov.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -13204,6 +13253,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/prefectura-maramures.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -13338,6 +13388,7 @@
    "products": [],
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-sf-treime-baia-mare.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -13418,14 +13469,15 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-rohia.webp",
    "model": {
     "tier": "B",
     "status": "preview",
     "module": "manastirea-rohia",
     "note": {
-     "ro": "Machetă interpretată după fotografii publice de referință ale bisericii mari a mănăstirii; înălțimile, laturile de nord și de est și decorul sunt aproximate. Fotografiile bisericii sunt anterioare livrării de cupru din 2019, de aceea acoperișurile și turla sunt redate în cupru patinat, conform evidențelor COLOR METAL; clădirea care a primit cuprul nu este precizată în surse.",
-     "hu": "A kolostor főtemplomának nyilvános referenciafotói alapján értelmezett makett; a magasságok, az északi és keleti oldal és a díszítés közelítőek. A templomról készült fotók a 2019-es rézszállítás előttiek, ezért a tetők és a torony a COLOR METAL nyilvántartása szerint patinásodott rézzel jelennek meg; hogy melyik épület kapta a rezet, a források nem rögzítik.",
-     "en": "Scale model of the monastery's main church interpreted from public reference photographs; heights, the north and east sides and the decoration are approximate. The church photographs predate the 2019 copper delivery, so the roofs and the tower are shown in weathered copper according to COLOR METAL's records; which building received the copper is not stated in the sources."
+     "ro": "Machetă interpretată după fotografii publice de referință ale bisericii mari a mănăstirii; înălțimile, laturile de nord și de est și decorul sunt aproximate. Fotografiile bisericii sunt anterioare livrării de cupru din 2019, de aceea acoperișurile și turla sunt redate în cupru patinat, conform evidențelor COLOR METAL; clădirea care a primit cuprul nu este precizată în surse. Este inclus, simplificat, și centrul „Nicolae Steinhardt”, la circa 100 m nord-est de biserică, fotografiat în 2018 cu acoperișuri noi din cupru, redate în același cupru.",
+     "hu": "A kolostor főtemplomának nyilvános referenciafotói alapján értelmezett makett; a magasságok, az északi és keleti oldal és a díszítés közelítőek. A templomról készült fotók a 2019-es rézszállítás előttiek, ezért a tetők és a torony a COLOR METAL nyilvántartása szerint patinásodott rézzel jelennek meg; hogy melyik épület kapta a rezet, a források nem rögzítik. Egyszerűsítve szerepel a templomtól mintegy 100 m-re északkeletre álló Nicolae Steinhardt-központ is, amelyet 2018-ban új rézfedéssel fényképeztek; tetői ugyanabban a rézben jelennek meg.",
+     "en": "Scale model of the monastery's main church interpreted from public reference photographs; heights, the north and east sides and the decoration are approximate. The church photographs predate the 2019 copper delivery, so the roofs and the tower are shown in weathered copper according to COLOR METAL's records; which building received the copper is not stated in the sources. The Nicolae Steinhardt centre about 100 m north-east of the church, photographed in 2018 with new copper roofs, is also included in simplified form with the same copper."
     }
    },
    "sourceUrls": [
@@ -13503,6 +13555,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-borsa-pietroasa.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -13601,6 +13654,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/hotel-victoria-satu-mare.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -13689,6 +13743,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-catolica-ciumani.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -13809,6 +13864,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/pavilion-parc-central-miercurea-ciuc.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -13929,6 +13985,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/hotel-tusnad.webp",
    "model": {
     "tier": "C",
     "status": "preview",
@@ -14023,6 +14080,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/hotel-castel-daniel-varghis.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -14121,6 +14179,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-catolica-tarnovita.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -14220,6 +14279,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-reformata-taureni.webp",
    "model": {
     "tier": "C",
     "status": "preview",
@@ -14263,6 +14323,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/catedrala-nasterea-domnului-suceava.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -14392,6 +14453,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-sucevita.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -14632,14 +14694,15 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-secu.webp",
    "model": {
     "tier": "B",
     "status": "preview",
     "module": "manastirea-secu",
     "note": {
-     "ro": "Machetă interpretată după fotografii de referință publice din 2025, ulterioare lucrărilor; dimensiunile și înălțimile sunt estimate, iar fațada sudică este interpretată. Acoperișurile, turlele și bulbul sunt redate așa cum apar în fotografii, în nuanța foarte închisă a cuprului oxidat livrat de COLOR METAL, conform evidențelor sale.",
-     "hu": "A munkálatok utáni, 2025-ös nyilvános referenciafotók alapján értelmezett makett; a méretek és magasságok becsültek, a déli homlokzat értelmezett. A tetők, a tornyok és a hagymakupola a fotókon látható módon, a COLOR METAL által – nyilvántartása szerint – szállított, oxidálódott réz nagyon sötét árnyalatában jelennek meg.",
-     "en": "Scale model interpreted from public reference photographs taken in 2025, after the works; dimensions and heights are estimated and the south side is interpreted. Roofs, tower helm and bulb are shown as photographed, in the very dark tone of the oxidised copper supplied by COLOR METAL according to its records."
+     "ro": "Machetă interpretată după fotografii de referință publice din 2025, ulterioare lucrărilor; dimensiunile și înălțimile sunt estimate, iar fațada sudică este interpretată. Acoperișurile, turlele și bulbul sunt redate așa cum apar în fotografii, în nuanța foarte închisă a cuprului oxidat livrat de COLOR METAL, conform evidențelor sale. Este inclus, simplificat, și turnul-clopotniță de la poarta de vest a incintei, al cărui coif are în fotografii același cupru oxidat, foarte închis la culoare.",
+     "hu": "A munkálatok utáni, 2025-ös nyilvános referenciafotók alapján értelmezett makett; a méretek és magasságok becsültek, a déli homlokzat értelmezett. A tetők, a tornyok és a hagymakupola a fotókon látható módon, a COLOR METAL által – nyilvántartása szerint – szállított, oxidálódott réz nagyon sötét árnyalatában jelennek meg. Egyszerűsítve szerepel a kerítés nyugati kapujának harangtornya is, amelynek sisakja a fotókon ugyanazt a nagyon sötét, oxidálódott rezet mutatja.",
+     "en": "Scale model interpreted from public reference photographs taken in 2025, after the works; dimensions and heights are estimated and the south side is interpreted. Roofs, tower helm and bulb are shown as photographed, in the very dark tone of the oxidised copper supplied by COLOR METAL according to its records. The precinct bell tower at the west gate, whose helm shows the same very dark oxidised copper in the photographs, is included in simplified form."
     }
    },
    "sourceUrls": [
@@ -14707,14 +14770,15 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-varatec.webp",
    "model": {
     "tier": "B",
     "status": "preview",
     "module": "manastirea-varatec",
     "note": {
-     "ro": "Machetă interpretată după fotografii de referință publice; dimensiunile și înălțimile sunt estimate, iar fațada nordică este interpretată. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile, conurile absidelor și coifurile turlelor sunt redate din titan-zinc natural (elZinc Natural), livrat de COLOR METAL conform evidențelor sale; materialul a acoperit probabil și alte clădiri ale mănăstirii, dar este modelată doar biserica mare.",
-     "hu": "Nyilvános referenciafotók alapján értelmezett makett; a méretek és magasságok becsültek, az északi homlokzat értelmezett. A fotók a munkálatok előttiek, ezért a tetők, az apszisok kúpjai és a tornyok sisakjai natúr titáncinkből (elZinc Natural) jelennek meg, amelyet a COLOR METAL szállított nyilvántartása szerint; az anyag valószínűleg a kolostor más épületeire is került, de csak a főtemplom készült el.",
-     "en": "Scale model interpreted from public reference photographs; dimensions and heights are estimated and the north side is interpreted. The photographs predate the works, so the roofs, apse cones and tower caps are shown in natural titanium-zinc (elZinc Natural) supplied by COLOR METAL according to its records; the material probably also covered other buildings of the monastery, but only the main church is modelled."
+     "ro": "Machetă interpretată după fotografii de referință publice; dimensiunile și înălțimile sunt estimate, iar fațada nordică este interpretată. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile, conurile absidelor și coifurile turlelor sunt redate din titan-zinc natural (elZinc Natural), livrat de COLOR METAL conform evidențelor sale; cum cantitatea înregistrată depășește acoperișul bisericii, este inclusă, simplificat, și clădirea chiliilor cu turnul de poartă dinspre parcare, cu acoperișurile, streașina turnului și bulbul din același titan-zinc natural.",
+     "hu": "Nyilvános referenciafotók alapján értelmezett makett; a méretek és magasságok becsültek, az északi homlokzat értelmezett. A fotók a munkálatok előttiek, ezért a tetők, az apszisok kúpjai és a tornyok sisakjai natúr titáncinkből (elZinc Natural) jelennek meg, amelyet a COLOR METAL szállított nyilvántartása szerint; mivel a nyilvántartott mennyiség meghaladja a templom tetejét, egyszerűsítve a parkoló felőli cellaépület is szerepel kaputornyával együtt, tetői, a torony szoknyateteje és hagymakupolája ugyanabból a natúr titáncinkből.",
+     "en": "Scale model interpreted from public reference photographs; dimensions and heights are estimated and the north side is interpreted. The photographs predate the works, so the roofs, apse cones and tower caps are shown in natural titanium-zinc (elZinc Natural) supplied by COLOR METAL according to its records; as the recorded quantity exceeds the church roof, the cells and gate building facing the parking lot is also included in simplified form, with the same natural titanium-zinc on its roofs, tower skirt and onion dome."
     }
    },
    "sourceUrls": [
@@ -14783,6 +14847,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-almas.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -14874,6 +14939,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-sf-teodori-iasi.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -14993,6 +15059,7 @@
    "products": [],
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/turnul-barboi-iasi.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -15053,6 +15120,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-abagerilor-barlad.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -15113,6 +15181,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/catedrala-inaltarea-domnului-bacau.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -15429,6 +15498,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/catedrala-focsani.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -15579,6 +15649,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-ciolanu.webp",
    "model": {
     "tier": "B",
     "status": "preview",
@@ -15620,6 +15691,7 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-negru-voda-campulung.webp",
    "model": {
     "tier": "C",
     "status": "reference-limited",
@@ -15682,8 +15754,8 @@
    "lon": 25.5751955,
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 66.4,
-   "bearingSource": "OSM outline long axis",
+   "bearingDeg": 92.2,
+   "bearingSource": "OSM way 32631748: axis through the middle of the straight west front and the tip of the altar apse ≈ 92.2° (+X towards the apse, east); the minimum-rectangle bearing of 66.4° is an artefact of the trefoil outline. +Z = 182.2° = the south side with the polygonal porch, photographed in 01–02; photos 03–04 show the altar end from the east.",
    "category": "church",
    "metals": [
     "copper"
@@ -15696,9 +15768,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/parohia-nasterii-maicii-domnului-campulung-moldovenesc.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "parohia-nasterii-maicii-domnului-campulung-moldovenesc",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință din 2011 și după conturul OSM: biserică de lemn în plan treflat, cu pereți placați cu scânduri verticale, streașină largă pe console, pridvor poligonal pe latura de sud și trei turle octogonale cu coifuri bombate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile și coifurile sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale. Dimensiunile au fost corectate după fotografii, înălțimile sunt estimate, iar latura de nord este presupusă.",
+     "hu": "Nyilvános, 2011-es referenciafotók és az OSM-körvonal alapján értelmezett makett: háromkaréjos alaprajzú fatemplom függőleges deszkaburkolattal, konzolokon nyugvó széles ereszekkel, a déli oldalon sokszögű előcsarnokkal és három nyolcszögű, domború sisakú toronnyal. A fényképek a munkák előtt készültek, ezért a tetőket és a sisakokat a COLOR METAL nyilvántartása szerint szállított rézzel ábrázoljuk. A méreteket a fotók alapján korrigáltuk, a magasságok becsültek, az északi oldal feltételezett.",
+     "en": "Scale model interpreted from public reference photographs (2011) and the OSM outline: a trefoil-plan wooden church clad in vertical boards, with deep bracketed eaves, a polygonal porch on the south side and three octagonal drum towers with bulging caps. The photographs predate the works, so the roofs and caps are shown in the copper supplied by COLOR METAL according to its records. Dimensions were corrected from the photographs, heights are estimated and the north side is assumed."
+    }
    },
    "sourceUrls": [
     "https://ro.wikipedia.org/wiki/Biserica_de_lemn_din_C%C3%A2mpulung_Moldovenesc",
@@ -15879,7 +15958,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 76.7,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 203167029 long axis 76.7°; +X points to the semicircular altar apse at the ENE end of the outline, so the straight west end with the entrance front and the tower (photo 01) is at −X.",
    "category": "church",
    "metals": [
     "copper"
@@ -15892,9 +15971,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-sfantul-stefan-iasi.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "preview",
+    "module": "biserica-sfantul-stefan-iasi",
+    "note": {
+     "ro": "Machetă preliminară interpretată după o singură fotografie publică a fațadei de vest; fațadele laterale și de est, absida și înălțimile sunt estimate pe baza conturului OSM. Acoperișul de cupru cu fălțuire dublă este redat așa cum apare în fotografie.",
+     "hu": "Egyetlen nyilvános, a nyugati homlokzatot mutató fotó alapján értelmezett előzetes makett; az oldal- és a keleti homlokzat, az apszis és a magasságok az OSM-körvonal alapján becsültek. Az állókorcos rézfedés a fotón látható módon jelenik meg.",
+     "en": "Preliminary model interpreted from a single public photograph of the west front; the side and east elevations, the apse and the heights are estimated from the OSM outline. The standing-seam copper roof is shown as photographed."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/203167029",
@@ -15966,7 +16052,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 93.4,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 217354519 long axis 93.4°; +X points to the polygonal altar end (east) and the west front with the door faces −X, as in the OSM outline and photos 01–04 (01, 02, 04 show the north side, 03 the south side).",
    "category": "monastery",
    "metals": [
     "titanium-zinc"
@@ -15981,9 +16067,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/schit-berca-berca.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "schit-berca-berca",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice din 2015–2016 și conturul OSM; înălțimile sunt estimate, iar arcadele oarbe și ornamentele turlei sunt simplificate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișul și coiful turlei sunt redate în titan-zinc prepatinat elZinc Slate, livrat de COLOR METAL conform evidențelor firmei; suprafețele exacte nu sunt documentate.",
+     "hu": "A 2015–2016-os nyilvános fotók és az OSM-körvonal alapján értelmezett makett; a magasságok becsültek, a vakárkádok és a torony díszítése egyszerűsített. A fotók a munkálatok előtt készültek, ezért a tető és a toronysisak a COLOR METAL nyilvántartása szerint szállított elZinc Slate előpatinázott titáncinkkel jelenik meg; a pontos felületek nem dokumentáltak.",
+     "en": "Scale model interpreted from public photographs of 2015–2016 and the OSM outline; heights are estimated and the blind arcades and tower ornament are simplified. The photographs predate the works, so the roof and the tower cap are shown in the elZinc Slate pre-weathered titanium-zinc supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/217354519",
@@ -16049,6 +16142,248 @@
    "lastUpdated": "2026-11-12"
   },
   {
+   "id": "hotel-indigo-bucuresti-bucuresti",
+   "name": "One Plaza Athénée – clădirea nefinalizată din Str. Georges Clemenceau 8-10 (proiectul Hotel Indigo București, 2018-2019)",
+   "city": "București",
+   "county": "București",
+   "country": "Romania",
+   "lat": 44.44252,
+   "lon": 26.0965657,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "PROBABLE",
+   "bearingDeg": 179.6,
+   "bearingSource": "OSM way 1229725852 long axis 179.6° (+X towards the south along Str. Georges Clemenceau); the street front faces west (+Z), the corner rotunda is at the north-west corner by Str. George Enescu (aerial image 01).",
+   "category": "commercial",
+   "metals": [
+    "titanium-zinc"
+   ],
+   "products": [],
+   "contribution": {
+    "ro": "COLOR METAL a furnizat titan-zinc.",
+    "hu": "A COLOR METAL titáncink anyagot szállított.",
+    "en": "COLOR METAL supplied titanium-zinc."
+   },
+   "photos": [],
+   "photoStatus": "reference",
+   "thumb": "thumbs/hotel-indigo-bucuresti-bucuresti.webp",
+   "model": {
+    "tier": "C",
+    "status": "preview",
+    "module": "hotel-indigo-bucuresti-bucuresti",
+    "note": {
+     "ro": "Machetă orientativă a clădirii nefinalizate din Str. Georges Clemenceau 8-10 (proiectul hotelului, care nu a fost deschis), interpretată după o vedere aeriană și o imagine din stradă disponibile public. Mansarda și cupola rotondei sunt redate în titan-zinc prepatinat gri, așa cum apar în imagini — material livrat de COLOR METAL conform evidențelor sale. Fațadele din spate și înălțimile etajelor sunt estimate.",
+     "hu": "Tájékoztató jellegű makett a Str. Georges Clemenceau 8-10. alatti befejezetlen épületről (a meg nem nyílt szállodaprojekt), egy nyilvánosan elérhető ferde légifelvétel és egy utcai kép alapján értelmezve. A manzárdtető és a saroktorony kupolája szürke, előpatinázott titáncinkként jelenik meg, ahogy a képeken — a COLOR METAL nyilvántartása szerint általa szállított anyag. A hátsó homlokzatok és az emeletmagasságok becsültek.",
+     "en": "Indicative scale model of the unfinished building at Str. Georges Clemenceau 8-10 (the hotel project, which never opened), interpreted from a publicly available oblique aerial view and a street-level image. The mansard and the rotunda dome are shown in grey pre-weathered titanium-zinc as seen in the images — the material supplied by COLOR METAL according to its records. The rear facades and storey heights are estimated."
+    }
+   },
+   "sourceUrls": [
+    "https://www.openstreetmap.org/way/1229725852",
+    "https://profit.ro/must-read/exclusiv-lantul-intercontinental-intra-in-romania-cu-primul-hotel-sub-brandul-indigo-17572623",
+    "https://www.capital.ro/one-plaza-athenee-o-cladire-abandonata-din-centrul-capitalei-devine-hotel-lifestyle-de-5-stele.html",
+    "https://profit.ro/povesti-cu-profit/turism/foto-one-united-properties-achizitioneaza-o-cladire-langa-ateneu-si-hotelul-lui-copos-pentru-a-o-transforma-in-hotel-tot-acolo-vrea-apartamente-de-lux-20958256",
+    "https://www.romania-insider.com/one-united-abandoned-building-center-bucharest-hotel-project",
+    "https://chambers.com/articles/stratulat-albulescu-advises-keys-reim-on-the-sale-of-a-building-in-the-historic-centre-of-bucharest",
+    "https://www.pressport.com/uk/news/pressreleases/brand-management-opportunity-for-new-build-luxury-hotel-in-bucharest-8530"
+   ],
+   "footprint": [
+    [
+     7.7,
+     -24.54
+    ],
+    [
+     -2.46,
+     -25.5
+    ],
+    [
+     -2.46,
+     -26.54
+    ],
+    [
+     -6.41,
+     -27.01
+    ],
+    [
+     -6.49,
+     -26.05
+    ],
+    [
+     -9.97,
+     -26.39
+    ],
+    [
+     -10.78,
+     -26.13
+    ],
+    [
+     -10.92,
+     -23.01
+    ],
+    [
+     -9.95,
+     -22.21
+    ],
+    [
+     -10.11,
+     15.72
+    ],
+    [
+     -11.0,
+     17.01
+    ],
+    [
+     -11.24,
+     18.93
+    ],
+    [
+     -10.75,
+     20.69
+    ],
+    [
+     -10.03,
+     22.13
+    ],
+    [
+     -8.98,
+     23.09
+    ],
+    [
+     -7.37,
+     23.81
+    ],
+    [
+     -5.92,
+     23.97
+    ],
+    [
+     -4.79,
+     24.61
+    ],
+    [
+     -5.6,
+     25.81
+    ],
+    [
+     2.02,
+     31.49
+    ],
+    [
+     6.81,
+     24.05
+    ],
+    [
+     6.92,
+     9.39
+    ],
+    [
+     11.14,
+     9.35
+    ],
+    [
+     12.08,
+     1.82
+    ],
+    [
+     13.7,
+     -11.31
+    ],
+    [
+     14.08,
+     -14.39
+    ],
+    [
+     7.71,
+     -14.71
+    ],
+    [
+     7.7,
+     -24.54
+    ]
+   ],
+   "lastUpdated": "2026-11-12"
+  },
+  {
+   "id": "biserica-aparatorii-patriei-bucuresti",
+   "name": "Biserica Parohiei Apărătorii Patriei I",
+   "city": "București",
+   "county": "București",
+   "country": "Romania",
+   "lat": 44.3841464,
+   "lon": 26.1364168,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "PROBABLE",
+   "bearingDeg": 107.1,
+   "bearingSource": "OSM way 80540040 long axis 107.1°; +X points to the three-sided apse (ESE) visible in the outline, the entrance front faces the street (WNW) as in photo 01.",
+   "category": "church",
+   "metals": [
+    "titanium-zinc"
+   ],
+   "products": [],
+   "contribution": {
+    "ro": "COLOR METAL a furnizat titan-zinc.",
+    "hu": "A COLOR METAL titáncink anyagot szállított.",
+    "en": "COLOR METAL supplied titanium-zinc."
+   },
+   "photos": [],
+   "photoStatus": "reference",
+   "thumb": "thumbs/biserica-aparatorii-patriei-bucuresti.webp",
+   "model": {
+    "tier": "B",
+    "status": "preview",
+    "module": "biserica-aparatorii-patriei-bucuresti",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință (fațada de intrare și o latură). Acoperișurile și coifurile turnurilor sunt redate în titan-zinc prepatinat gri, așa cum apar în fotografiile din 2019, făcute imediat după lucrări — material livrat de COLOR METAL conform evidențelor sale. Absida, latura nefotografiată și înălțimile sunt estimate.",
+     "hu": "Nyilvános referenciafotók (a bejárati homlokzat és az egyik oldal) alapján értelmezett makett. A tetők és a toronysisakok szürke, előpatinázott titáncinkként jelennek meg, ahogy a közvetlenül a munkák után, 2019-ben készült fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. Az apszis, a nem fotózott oldal és a magasságok becsültek.",
+     "en": "Scale model interpreted from public reference photographs (the entrance front and one side). The roofs and tower caps are shown in grey pre-weathered titanium-zinc as photographed in 2019, just after the works — the material supplied by COLOR METAL according to its records. The apse, the unphotographed side and the heights are estimated."
+    }
+   },
+   "sourceUrls": [
+    "https://www.openstreetmap.org/way/80540040",
+    "https://orthodoxtimes.com/patriarch-daniel-re-consecrates-bucharest-church-where-village-and-city-gather-in-joy-of-communion/",
+    "https://www.pravmir.com/?p=286448",
+    "https://basilica.ro/en/?p=252617",
+    "https://www.openstreetmap.org/way/313039909"
+   ],
+   "footprint": [
+    [
+     -9.07,
+     9.72
+    ],
+    [
+     10.81,
+     3.59
+    ],
+    [
+     10.47,
+     2.51
+    ],
+    [
+     12.9,
+     -1.72
+    ],
+    [
+     11.62,
+     -6.28
+    ],
+    [
+     7.65,
+     -7.89
+    ],
+    [
+     7.26,
+     -9.11
+    ],
+    [
+     -13.0,
+     -2.87
+    ],
+    [
+     -9.07,
+     9.72
+    ]
+   ],
+   "lastUpdated": "2026-11-12"
+  },
+  {
    "id": "manastirea-sitaru-sitaru",
    "name": "Mănăstirea Sitaru (Balamuci) – Biserica «Sfântul Nicolae»",
    "city": "Sitaru",
@@ -16059,7 +16394,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "VERIFIED",
    "bearingDeg": 62.4,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 1108116335 long axis 62.4°; +X points to the polygonal altar apse (east-north-east), the open porch faces −X (photos 01, 02, 05); photo 01 shows the south side (+Z).",
    "category": "monastery",
    "metals": [
     "copper"
@@ -16072,9 +16407,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-sitaru-sitaru.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "manastirea-sitaru-sitaru",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice din aprilie 2023 și conturul OSM; înălțimile sunt estimate, iar ornamentația brâncovenească (arcade trilobate, capiteluri, pictura fațadelor) este simplificată. Acoperișurile, coifurile turlelor și jgheaburile de cupru sunt redate așa cum apar în fotografiile de după restaurare.",
+     "hu": "A 2023 áprilisi nyilvános fotók és az OSM-körvonal alapján értelmezett makett; a magasságok becsültek, a brâncoveanui díszítés (háromkaréjos árkádok, oszlopfők, homlokzatfestés) egyszerűsített. A rézfedés, a toronysisakok és a réz ereszcsatornák a restaurálás utáni fotók szerint jelennek meg.",
+     "en": "Scale model interpreted from public photographs of April 2023 and the OSM outline; heights are estimated and the Brâncovenesc ornament (lobed arcades, capitals, painted façades) is simplified. The copper roofs, tower caps and rainwater goods are shown as photographed after the restoration."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/1108116335",
@@ -16129,7 +16471,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 48.1,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 1309357327 long axis 48.1°; +X points to the polygonal apse end of the outline (NE); the porch front faces the access road (SW) as in photos 01 and 03.",
    "category": "church",
    "metals": [
     "copper"
@@ -16142,9 +16484,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-incinta-centrul-de-odihna-si-meditatie-pantelimon-l-pantelimon.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "biserica-incinta-centrul-de-odihna-si-meditatie-pantelimon-l-pantelimon",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință din 2026. Cupola, fusta turlei și acoperișurile joase sunt redate în cupru deja patinat spre brun închis, așa cum apar în fotografii — material livrat de COLOR METAL conform evidențelor sale. Absida și latura nefotografiată sunt deduse din conturul clădirii.",
+     "hu": "2026-os nyilvános referenciafotók alapján értelmezett makett. A kupola, a dob alatti tetőszoknya és a lapos tetők sötétbarnára patinásodott rézként jelennek meg, ahogy a fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. Az apszis és a nem fotózott oldal az épület körvonalából következtetett.",
+     "en": "Scale model interpreted from public reference photographs taken in 2026. The dome, the drum skirt and the low roofs are shown in copper already weathered to dark brown, as photographed — the material supplied by COLOR METAL according to its records. The apse and the unphotographed side are inferred from the building outline."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/1309357327",
@@ -16199,7 +16548,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "VERIFIED",
    "bearingDeg": 16.0,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 746340895 axis 16°: +X faces Str. 24 Ianuarie (the street façade, from the OSM street geometry), +Z (106°) is the side passage with the entrance; the rear notch of the outline lies at −X/+Z (photo 05).",
    "category": "museum",
    "metals": [
     "titanium-zinc"
@@ -16214,9 +16563,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/casa-dianu-craiova.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "casa-dianu-craiova",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice (2011–2026) și conturul OSM; înălțimile și profilele cupolelor sunt estimate, fațadele posterioară și laterală sunt deduse, iar ornamentația de stuc este simplificată. Cupolele cu solzi, mansardele și ornamentele din titan-zinc natural sunt redate așa cum apar în fotografia de după restaurare.",
+     "hu": "Nyilvános fotók (2011–2026) és az OSM-körvonal alapján értelmezett makett; a magasságok és a kupolák profilja becsült, a hátsó és az oldalsó homlokzat kikövetkeztetett, a stukkódíszítés egyszerűsített. A pikkelyes kupolák, a manzárdtetők és a natúr titáncink díszítések a restaurálás utáni fotó szerint jelennek meg.",
+     "en": "Scale model interpreted from public photographs (2011–2026) and the OSM outline; heights and dome profiles are estimated, the rear and side façades are inferred and the stucco ornament is simplified. The fish-scale domes, mansards and natural titanium-zinc ornaments are shown as photographed after the restoration."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/746340895",
@@ -16264,7 +16620,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "VERIFIED",
    "bearingDeg": 88.8,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 259073456 long axis 88.8°; +X points to the polygonal altar apse (east), the porch and the west gable face −X (photos 02, 05); photo 02 shows the south side (+Z).",
    "category": "monastery",
    "metals": [
     "copper"
@@ -16277,9 +16633,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-sf-gheorghe-manastirea-viforata-viforata.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "biserica-sf-gheorghe-manastirea-viforata-viforata",
+    "note": {
+     "ro": "Machetă interpretată după fotografiile publicate de mănăstire după restaurare și conturul OSM; înălțimile sunt estimate, iar pilaștrii, pridvorul și latura de nord sunt simplificate. Acoperișurile și cupolele turlelor din cupru nou sunt redate așa cum apar în fotografii.",
+     "hu": "A kolostor által a restaurálás után közzétett fotók és az OSM-körvonal alapján értelmezett makett; a magasságok becsültek, a falpillérek, a tornác és az északi oldal egyszerűsített. Az új rézfedés és a tornyok rézkupolái a fotók szerint jelennek meg.",
+     "en": "Scale model interpreted from the monastery's post-restoration photographs and the OSM outline; heights are estimated and the pilasters, porch and north side are simplified. The new copper roofs and tower domes are shown as photographed."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/259073456",
@@ -16372,7 +16735,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 58.6,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 483774044 long axis 58.6°; +X points to the polygonal altar end (north-east), the enclosed porch faces −X; the street photos show the north-west side (−Z), photo 06 the south-east façade (+Z).",
    "category": "church",
    "metals": [
     "titanium-zinc"
@@ -16387,9 +16750,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-manastirea-manastirea.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "biserica-manastirea-manastirea",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice din 2013–2014 și conturul OSM; înălțimile sunt estimate, iar absida altarului și ornamentația (brâuri de cărămidă în dinți de fierăstrău, medalioane) sunt simplificate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile și cupola turlei sunt redate în titan-zinc prepatinat elZinc Slate, livrat de COLOR METAL conform evidențelor firmei; suprafețele exacte nu sunt documentate.",
+     "hu": "A 2013–2014-es nyilvános fotók és az OSM-körvonal alapján értelmezett makett; a magasságok becsültek, az oltárapszis és a díszítés (fűrészfogas téglapárkányok, medalionok) egyszerűsített. A fotók a munkálatok előtt készültek, ezért a tetők és a toronysisak a COLOR METAL nyilvántartása szerint szállított elZinc Slate előpatinázott titáncinkkel jelennek meg; a pontos felületek nem dokumentáltak.",
+     "en": "Scale model interpreted from public photographs of 2013–2014 and the OSM outline; heights are estimated and the altar apse and ornament (saw-tooth brick bands, medallions) are simplified. The photographs predate the works, so the roofs and the tower cupola are shown in the elZinc Slate pre-weathered titanium-zinc supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/483774044",
@@ -16426,6 +16796,219 @@
    "lastUpdated": "2026-11-12"
   },
   {
+   "id": "biserica-neptun-neptun",
+   "name": "Biserica „Adormirea Maicii Domnului” din Neptun",
+   "city": "Neptun",
+   "county": "Constanța",
+   "country": "Romania",
+   "lat": 43.8631855,
+   "lon": 28.5983065,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "PROBABLE",
+   "bearingDeg": 87.8,
+   "bearingSource": "OSM way 358120845 long axis 87.8°; +X points east to the altar apse, the portal front with the two towers faces west (photos 01-02).",
+   "category": "church",
+   "metals": [
+    "aluminium"
+   ],
+   "products": [],
+   "contribution": {
+    "ro": "COLOR METAL a furnizat aluminiu.",
+    "hu": "A COLOR METAL alumínium anyagot szállított.",
+    "en": "COLOR METAL supplied aluminium."
+   },
+   "photos": [],
+   "photoStatus": "reference",
+   "thumb": "thumbs/biserica-neptun-neptun.webp",
+   "model": {
+    "tier": "B",
+    "status": "preview",
+    "module": "biserica-neptun-neptun",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință. Acoperișurile, semicalotele absidelor și bulbii turlelor sunt redate în tablă de aluminiu naturală, așa cum apar în fotografii — material livrat de COLOR METAL conform evidențelor sale. Latura de sud, absida altarului și înălțimile sunt estimate.",
+     "hu": "Nyilvános referenciafotók alapján értelmezett makett. A tetők, az apszisok félkupolái és a tornyok hagymasisakjai natúr alumíniumlemezként jelennek meg, ahogy a fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. A déli oldal, az oltárapszis és a magasságok becsültek.",
+     "en": "Scale model interpreted from public reference photographs. The roofs, the apse half-domes and the onion cupolas are shown in natural aluminium sheet as photographed — the material supplied by COLOR METAL according to its records. The south side, the altar apse and the heights are estimated."
+    }
+   },
+   "sourceUrls": [
+    "https://www.openstreetmap.org/way/358120845"
+   ],
+   "footprint": [
+    [
+     -14.11,
+     5.22
+    ],
+    [
+     -4.78,
+     5.57
+    ],
+    [
+     13.66,
+     6.28
+    ],
+    [
+     14.1,
+     -5.22
+    ],
+    [
+     -13.67,
+     -6.27
+    ]
+   ],
+   "lastUpdated": "2026-11-12"
+  },
+  {
+   "id": "biserica-vartop-vartop",
+   "name": "Biserica „Nașterea Maicii Domnului” din Vârtop",
+   "city": "Vârtop",
+   "county": "Constanța",
+   "country": "Romania",
+   "lat": 43.8176001,
+   "lon": 28.3857169,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "PROBABLE",
+   "bearingDeg": 84.1,
+   "bearingSource": "OSM way 288611805 long axis 84.1°; +X points east to the semicircular apse of the outline, the porch and steps face west (photo 01).",
+   "category": "church",
+   "metals": [
+    "aluminium"
+   ],
+   "products": [],
+   "contribution": {
+    "ro": "COLOR METAL a furnizat aluminiu.",
+    "hu": "A COLOR METAL alumínium anyagot szállított.",
+    "en": "COLOR METAL supplied aluminium."
+   },
+   "photos": [],
+   "photoStatus": "reference",
+   "thumb": "thumbs/biserica-vartop-vartop.webp",
+   "model": {
+    "tier": "C",
+    "status": "preview",
+    "module": "biserica-vartop-vartop",
+    "note": {
+     "ro": "Machetă orientativă, interpretată după puținele fotografii publice de referință. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile, turla și cupola sunt redate în tabla de aluminiu livrată de COLOR METAL conform evidențelor sale. Brațele crucii, ferestrele și proporțiile turlei sunt estimate.",
+     "hu": "Tájékoztató jellegű makett a kevés nyilvános referenciafotó alapján. A fotók a munkák előtt készültek, ezért a tetők, a torony és a kupola a COLOR METAL nyilvántartása szerint általa szállított alumíniumlemezként jelennek meg. A kereszthajó karjai, az ablakok és a torony arányai becsültek.",
+     "en": "Indicative scale model interpreted from the few public reference photographs. The photographs predate the works, so the roofs, the tower and the dome are shown in the aluminium sheet supplied by COLOR METAL according to its records. The cross arms, windows and tower proportions are estimated."
+    }
+   },
+   "sourceUrls": [
+    "https://www.openstreetmap.org/way/288611805"
+   ],
+   "footprint": [
+    [
+     -9.57,
+     3.12
+    ],
+    [
+     -8.75,
+     -5.34
+    ],
+    [
+     7.12,
+     -3.72
+    ],
+    [
+     9.45,
+     -1.86
+    ],
+    [
+     9.8,
+     1.15
+    ],
+    [
+     9.1,
+     3.47
+    ],
+    [
+     7.46,
+     4.85
+    ],
+    [
+     4.9,
+     5.21
+    ]
+   ],
+   "lastUpdated": "2026-11-12"
+  },
+  {
+   "id": "manastirea-tariceni-calarasi",
+   "name": "Schitul (Mănăstirea) Tăriceni – Biserica „Sf. Ierarh Nicolae”",
+   "city": "Tăriceni",
+   "county": "Călărași",
+   "country": "Romania",
+   "lat": 44.2999975,
+   "lon": 26.8271399,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "PROBABLE",
+   "bearingDeg": 53.1,
+   "bearingSource": "OSM way 529004187 long axis 53.1°; +X points to the rounded east apse (NE), the tower and the porch are at the west end (photos 01-02).",
+   "category": "monastery",
+   "metals": [
+    "copper"
+   ],
+   "products": [],
+   "contribution": {
+    "ro": "COLOR METAL a furnizat cupru.",
+    "hu": "A COLOR METAL réz anyagot szállított.",
+    "en": "COLOR METAL supplied copper."
+   },
+   "photos": [],
+   "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-tariceni-calarasi.webp",
+   "model": {
+    "tier": "B",
+    "status": "preview",
+    "module": "manastirea-tariceni-calarasi",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință ale bisericii schitului (c. 1830). Fotografiile sunt anterioare lucrărilor, de aceea acoperișul și turla (placare și coif) sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale; suprafețele exact acoperite nu sunt documentate. Lățimea navei și înălțimile sunt estimate.",
+     "hu": "A remeteség (kb. 1830-as) templomáról készült nyilvános referenciafotók alapján értelmezett makett. A fotók a munkák előtt készültek, ezért a tető és a torony (burkolat és sisak) a COLOR METAL nyilvántartása szerint általa szállított rézként jelenik meg; a pontosan fedett felületek nem dokumentáltak. A hajó szélessége és a magasságok becsültek.",
+     "en": "Scale model interpreted from public reference photographs of the hermitage church (c. 1830). The photographs predate the works, so the roof and the tower (cladding and cupola) are shown in the copper supplied by COLOR METAL according to its records; exactly which surfaces were covered is not documented. The nave width and the heights are estimated."
+    }
+   },
+   "sourceUrls": [
+    "https://www.openstreetmap.org/way/529004187",
+    "https://www.openstreetmap.org/way/1169932487",
+    "https://www.wikidata.org/wiki/Q42872135",
+    "https://adevarul.ro/stiri-locale/calarasi/exclusiv-manastirea-tariceni-reinvie-dupa-1258633.html"
+   ],
+   "footprint": [
+    [
+     -11.13,
+     -1.07
+    ],
+    [
+     -4.51,
+     -9.35
+    ],
+    [
+     8.52,
+     -1.92
+    ],
+    [
+     9.39,
+     0.62
+    ],
+    [
+     9.17,
+     4.23
+    ],
+    [
+     7.46,
+     6.57
+    ],
+    [
+     4.89,
+     8.27
+    ],
+    [
+     1.69,
+     8.48
+    ]
+   ],
+   "lastUpdated": "2026-11-12"
+  },
+  {
    "id": "casa-armatei-constanta",
    "name": "Cercul Militar Constanța (fosta Prefectură a județului Constanța)",
    "city": "Constanța",
@@ -16436,7 +17019,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 11.7,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM relation 3071358 long axis 11.7°; +X faces Strada Traian (OSM street ≈ 9 m in front of that side), taken as the main façade of the historic postcard.",
    "category": "historic",
    "metals": [
     "titanium-zinc"
@@ -16449,9 +17032,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/casa-armatei-constanta.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "reference-limited",
+    "module": "casa-armatei-constanta",
+    "note": {
+     "ro": "Machetă simplificată interpretată după o singură carte poștală istorică a fațadei principale și conturul OSM; fațadele laterale și posterioară, curtea de lumină și acoperișul sunt deduse. Nu există fotografii ale acoperișului actual, de aceea acesta este redat în titan-zinc natural, livrat de COLOR METAL conform evidențelor firmei; suprafețele exacte nu sunt documentate.",
+     "hu": "Egyetlen, a főhomlokzatot ábrázoló történeti képeslap és az OSM-körvonal alapján értelmezett, egyszerűsített makett; az oldalsó és hátsó homlokzatok, a világítóudvar és a tető kikövetkeztetett. A mai tetőről nincs fotó, ezért az a COLOR METAL nyilvántartása szerint szállított natúr titáncinkkel jelenik meg; a pontos felületek nem dokumentáltak.",
+     "en": "Simplified scale model interpreted from a single historic postcard of the main façade and the OSM outline; the side and rear façades, the light well and the roof are inferred. No photograph of the present roof is available, so it is shown in the natural titanium-zinc supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/relation/3071358",
@@ -16488,7 +17078,8 @@
    "lon": 21.8566798,
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 0.0,
+   "bearingDeg": 72.0,
+   "bearingSource": "No OSM outline (node 2424275140 only): the roof axis of the church at the node, measured on Esri World Imagery, is ≈ 72° (±5°); +X towards the semicircular apse (ENE), the west front with the tower faces the village street as in photo 01.",
    "category": "church",
    "metals": [
     "titanium-zinc"
@@ -16503,9 +17094,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-balint-balint.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "reference-limited",
+    "module": "biserica-balint-balint",
+    "note": {
+     "ro": "Machetă interpretată după singura fotografie publică de referință (fațada de vest, 2012) și după imaginea satelitară: biserică-sală bănățeană cu turn încorporat în fațadă, fronton baroc, coif octogonal cu lanternă și absidă semicirculară. Fotografia este anterioară lucrărilor, de aceea acoperișul și coiful sunt redate în titan-zinc natural elZinc, livrat de COLOR METAL conform evidențelor sale. Fațadele laterale și absida sunt reconstituite după tipul regional.",
+     "hu": "Az egyetlen nyilvános referenciafotó (nyugati homlokzat, 2012) és a műholdkép alapján értelmezett makett: bánsági teremtemplom homlokzatba épített toronnyal, barokk oromzattal, laternás nyolcszögű sisakkal és félköríves apszissal. A fénykép a munkák előtt készült, ezért a tetőt és a sisakot a COLOR METAL nyilvántartása szerint szállított natúr elZinc titáncinkkel ábrázoljuk. Az oldalhomlokzatok és az apszis a tájegységre jellemző típus alapján készültek.",
+     "en": "Scale model interpreted from the only public reference photograph (west front, 2012) and satellite imagery: a Banat hall church with a tower built into the front, a baroque gable, an octagonal helm with lantern and a semicircular apse. The photograph predates the works, so the roof and the helm are shown in the natural elZinc titanium-zinc supplied by COLOR METAL according to its records. The side elevations and the apse follow the regional type."
+    }
    },
    "sourceUrls": [
     "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
@@ -16527,7 +17125,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 14.4,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 672363695 long axis 14.4°; +X = NNE towards the polygonal end of the outline (altar apse), tower front at −X (SSW); orientation of the front checked only on the single partial photograph",
    "category": "church",
    "metals": [
     "copper"
@@ -16542,9 +17140,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-jdioara-jdioara.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "reference-limited",
+    "module": "biserica-jdioara-jdioara",
+    "note": {
+     "ro": "Machetă interpretată după singura fotografie publică de referință găsită (fațada de vest și turnul, 2019), completată cu conturul OSM și tipul regional al bisericilor bănățene de la 1900: absida, coiful turnului și înălțimile sunt estimate. Acoperișurile și coiful sunt redate din cupru, materialul livrat de COLOR METAL conform evidențelor sale, deoarece fotografia disponibilă este anterioară lucrărilor.",
+     "hu": "Az egyetlen fellelt nyilvános referenciafotó (nyugati homlokzat és torony, 2019) alapján értelmezett makett, az OSM-körvonallal és az 1900 körüli bánsági templomok típusával kiegészítve: az apszis, a toronysisak és a magasságok becsültek. A tetők és a sisak rézfedéssel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal –, mert az elérhető fotó a munkák előtt készült.",
+     "en": "Scale model interpreted from the only public reference photograph found (west front and tower, 2019), completed with the OSM outline and the regional type of Banat churches around 1900: the apse, the tower helm and the heights are estimated. The roofs and the helm are shown in copper, the material supplied by COLOR METAL according to its records, because the available photograph predates the works."
+    }
    },
    "sourceUrls": [
     "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
@@ -16592,17 +17197,17 @@
    "lastUpdated": "2026-11-12"
   },
   {
-   "id": "parohia-ortodoxa-romana-sag-sag",
-   "name": "Biserica Ortodoxă «Adormirea Maicii Domnului» din Șag",
-   "city": "Șag",
+   "id": "biserica-mosnita-veche-mosnita-veche",
+   "name": "Biserica Ortodoxă «Înălțarea Domnului» din Moșnița Veche",
+   "city": "Moșnița Veche",
    "county": "Timiș",
    "country": "Romania",
-   "lat": 45.6511095,
-   "lon": 21.1627782,
+   "lat": 45.7336519,
+   "lon": 21.3341354,
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 90.0,
-   "bearingSource": "OSM outline long axis",
+   "bearingDeg": 68.8,
+   "bearingSource": "OSM way 540270856 long axis 68.8°; +X = ENE towards the rounded (full-width semicircular) east end of the outline — Orthodox altar orientation; west front with the tower at −X",
    "category": "church",
    "metals": [
     "copper"
@@ -16617,9 +17222,106 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-mosnita-veche-mosnita-veche.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "reference-limited",
+    "module": "biserica-mosnita-veche-mosnita-veche",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință ale fațadei de vest, ale unei laturi și ale noului coif de cupru fotografiat în 2022 înainte de montare; coiful este redat așa cum apare în fotografii. Nu există o vedere de ansamblu: volumele provin din conturul OSM, iar înălțimile sunt estimate. Acoperișul navei, nevizibil în fotografii, este redat tot din cupru, conform evidențelor COLOR METAL pentru aceeași lucrare.",
+     "hu": "Nyilvános referenciafotók (a nyugati homlokzat, egy oldalhomlokzat és a 2022-ben, felhelyezés előtt lefotózott új rézsisak) alapján értelmezett makett; a sisak a fotók szerint jelenik meg. Átfogó felvétel nincs: a tömeg az OSM-körvonalból származik, a magasságok becsültek. A fotókon nem látható hajótető szintén rézzel jelenik meg, a COLOR METAL ugyanerre a munkára vonatkozó nyilvántartása szerint.",
+     "en": "Scale model interpreted from public reference photographs of the west front, one side and the new copper helm photographed in 2022 before it was lifted; the helm is shown as photographed. No overall view exists: the massing comes from the OSM outline and the heights are estimated. The nave roof, not visible on any photograph, is also shown in copper, following COLOR METAL's records for the same works."
+    }
+   },
+   "sourceUrls": [
+    "https://mitropolia-banatului.ro/protopopiatul-timisoara-ii/",
+    "https://www.openstreetmap.org/way/540270856",
+    "https://ro.wikipedia.org/wiki/Mo%C8%99ni%C8%9Ba_Veche,_Timi%C8%99"
+   ],
+   "footprint": [
+    [
+     -12.09,
+     0.96
+    ],
+    [
+     4.87,
+     7.53
+    ],
+    [
+     7.3,
+     7.72
+    ],
+    [
+     9.28,
+     6.99
+    ],
+    [
+     10.71,
+     5.43
+    ],
+    [
+     11.47,
+     3.44
+    ],
+    [
+     11.62,
+     0.98
+    ],
+    [
+     10.71,
+     -0.77
+    ],
+    [
+     8.97,
+     -2.13
+    ],
+    [
+     -8.45,
+     -8.89
+    ],
+    [
+     -12.09,
+     0.96
+    ]
+   ],
+   "lastUpdated": "2026-11-12"
+  },
+  {
+   "id": "parohia-ortodoxa-romana-sag-sag",
+   "name": "Biserica Ortodoxă «Adormirea Maicii Domnului» din Șag",
+   "city": "Șag",
+   "county": "Timiș",
+   "country": "Romania",
+   "lat": 45.6511095,
+   "lon": 21.1627782,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "PROBABLE",
+   "bearingDeg": 90.0,
+   "bearingSource": "OSM way 1035939649 long axis 90.0°; +X = east towards the rounded altar apse (rounded end of the outline, apse seen in photo 03), tower at the west end (photo 01)",
+   "category": "church",
+   "metals": [
+    "copper"
+   ],
+   "products": [
+    "Cu-DHP copper"
+   ],
+   "contribution": {
+    "ro": "COLOR METAL a furnizat materialul: Cu-DHP copper (cupru).",
+    "hu": "A COLOR METAL szállította az anyagot: Cu-DHP copper (réz).",
+    "en": "COLOR METAL supplied the material: Cu-DHP copper (copper)."
+   },
+   "photos": [],
+   "photoStatus": "reference",
+   "thumb": "thumbs/parohia-ortodoxa-romana-sag-sag.webp",
+   "model": {
+    "tier": "B",
+    "status": "preview",
+    "module": "parohia-ortodoxa-romana-sag-sag",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință: biserică-sală cu cor mai îngust și absidă semicirculară, pilaștri albi cu arcade oarbe, acoperiș de țiglă roșie așa cum apare în fotografii și turn vestic cu coif baroc. Evidențele COLOR METAL menționează cupru pentru această parohie; deoarece acoperișurile sunt din țiglă, cuprul este redat doar pe coiful turnului și pe jgheaburi — o interpretare, nefotografiată după lucrări. Fațada de vest și înălțimile sunt estimate.",
+     "hu": "Nyilvános referenciafotók alapján értelmezett makett: teremtemplom keskenyebb szentéllyel és félköríves apszissal, fehér falpillérekkel és vakívekkel, a fotók szerinti vörös cserépfedéssel és nyugati toronnyal, barokk sisakkal. A COLOR METAL nyilvántartása rezet említ ennél a parókiánál; mivel a tetők cserépfedésűek, a réz csak a toronysisakon és az ereszcsatornákon jelenik meg – ez értelmezés, a munkák utáni fotó nem áll rendelkezésre. A nyugati homlokzat és a magasságok becsültek.",
+     "en": "Scale model interpreted from public reference photographs: a hall church with a narrower choir and semicircular apse, white pilasters with blind arches, red clay-tile roofs as photographed and a west tower with a baroque helm. COLOR METAL's records list copper for this parish; since the roofs are tiled, copper is shown only on the tower helm and the gutters — an interpretation, as no photograph shows the helm after the works. The west façade and the heights are estimated."
+    }
    },
    "sourceUrls": [
     "https://mitropolia-banatului.ro/protopopiatul-timisoara-i/",
@@ -16718,7 +17420,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 68.7,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 881227660 long axis 68.7°; +X = ENE towards the narrower polygonal altar apse of the outline, west front with porch and bell-cote at −X (frontal photo 01)",
    "category": "church",
    "metals": [
     "copper"
@@ -16733,9 +17435,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/parohia-ortodoxa-romana-timisoara-plopi-timisoara.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "reference-limited",
+    "module": "parohia-ortodoxa-romana-timisoara-plopi-timisoara",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință ale fațadei de vest, cu pridvor pe doi stâlpi, fronton cu margini albe și clopotniță zveltă. Laturile, absida și acoperișurile nu apar în fotografii și sunt deduse din conturul OSM; acoperișurile sunt redate din cupru patinat brun, materialul livrat de COLOR METAL conform evidențelor sale, suprafețele exacte nefiind documentate.",
+     "hu": "Nyilvános referenciafotók alapján értelmezett makett a nyugati homlokzatról: két oszlopon álló tornác, fehér szegélyű oromfal és karcsú harangtorony. Az oldalak, az apszis és a tetők nem láthatók a fotókon, ezeket az OSM-körvonalból vezettük le; a tetők barnára patinásodott rézfedéssel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal –, a pontos felületek nem dokumentáltak.",
+     "en": "Scale model interpreted from public reference photographs of the west front, with a porch on two posts, a white-edged gable and a slender bell-cote. The sides, apse and roofs do not appear in the photographs and are derived from the OSM outline; the roofs are shown in brown weathered copper, the material supplied by COLOR METAL according to its records, the exact surfaces not being documented."
+    }
    },
    "sourceUrls": [
     "https://mitropolia-banatului.ro/protopopiatul-timisoara-ii/",
@@ -16801,8 +17510,8 @@
    "lon": 21.4928936,
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 173.0,
-   "bearingSource": "OSM outline long axis",
+   "bearingDeg": 353.0,
+   "bearingSource": "OSM way 509484680 long axis 173°; +X points to the chamfered (polygonal) north end of the outline (353°), the tower front is at the south end — tower and polygonal end placed by photo 01 (west side seen from the street, tower on the right) and the historic views 02–03",
    "category": "church",
    "metals": [
     "titanium-zinc"
@@ -16817,9 +17526,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-tormac-tormac.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "biserica-tormac-tormac",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință (o vedere recentă a laturii de vest și două fotografii istorice): biserică-sală reformată galbenă cu risalite laterale cu fronton, aripi joase de o parte și de alta a turnului și turn cu galerie, felinar și cupolă mică. Acoperișurile sunt redate din titan-zinc natural, materialul livrat de COLOR METAL conform evidențelor sale, deoarece fotografiile disponibile sunt anterioare lucrărilor; latura de est, fațada de sud și înălțimile sunt estimate.",
+     "hu": "Nyilvános referenciafotók (egy friss felvétel a nyugati oldalról és két régi fénykép) alapján értelmezett makett: sárga református teremtemplom oromzatos oldalrizalitokkal, a torony két oldalán alacsony szárnyakkal, a toronyban körfolyosóval, lámpással és kis kupolával. A tetők natúr titáncink fedéssel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal –, mert az elérhető fotók a munkák előtt készültek; a keleti oldal, a déli homlokzat és a magasságok becsültek.",
+     "en": "Scale model interpreted from public reference photographs (one recent view of the west side and two historic prints): a yellow Reformed hall church with gabled side risalits, low wings flanking the tower and a tower with a gallery, lantern and small dome. The roofs are shown in natural titanium-zinc, the material supplied by COLOR METAL according to its records, because the available photographs predate the works; the east side, the south front and the heights are estimated."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/509484680",
@@ -16871,7 +17587,8 @@
    "lon": 20.893096,
    "geographicAccuracy": "locality",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 0.0,
+   "bearingDeg": 90.0,
+   "bearingSource": "Assumed: the church is not mapped and its position in the village is not known. +X = liturgical east (apse end) with the tower at the west end; the photographed side (+Z, with the solar panels) is taken as the south side.",
    "category": "church",
    "metals": [
     "copper"
@@ -16884,9 +17601,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-iecea-mare-iecea-mare.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "reference-limited",
+    "module": "biserica-iecea-mare-iecea-mare",
+    "note": {
+     "ro": "Machetă interpretată după o singură fotografie publică de referință (latura lungă, 2026): biserică-sală cu acoperiș în patru ape din țiglă, ferestre grupate câte trei și turn cu acoperiș evazat, bulb, lanternă și flèche, îmbrăcate în cupru patinat brun, așa cum se vede în fotografie — cuprul a fost livrat de COLOR METAL conform evidențelor sale. Lățimea, fațada de vest, latura de nord și orientarea sunt presupuse.",
+     "hu": "Egyetlen nyilvános referenciafotó (hosszanti oldal, 2026) alapján értelmezett makett: cserépfedésű, kontyolt tetős teremtemplom hármas ablakcsoportokkal és toronnyal, amelynek ívelt tetőjét, hagymáját, laternáját és sisakját barnára patinásodott réz borítja, ahogy a fotón látszik — a rezet a COLOR METAL nyilvántartása szerint szállította. A szélesség, a nyugati homlokzat, az északi oldal és a tájolás feltételezett.",
+     "en": "Scale model interpreted from a single public reference photograph (long side, 2026): a hall church with a hipped clay-tile roof, windows grouped in threes and a tower whose flared roof, onion, lantern and spire are clad in brown weathered copper, as photographed — copper supplied by COLOR METAL according to its records. The width, the west front, the north side and the orientation are assumed."
+    }
    },
    "sourceUrls": [
     "https://mitropolia-banatului.ro/protopopiatul-sannicolau-mare/",
@@ -16907,7 +17631,8 @@
    "lon": 22.683438,
    "geographicAccuracy": "locality",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 0.0,
+   "bearingDeg": 90.0,
+   "bearingSource": "Assumed: the church is not mapped (village-centre coordinates). +X = liturgical east (apse), the entrance front with the three-arch porch at −X; the photographed long side is then the north side (−Z).",
    "category": "church",
    "metals": [
     "copper"
@@ -16920,9 +17645,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-obirsia-closani-obirsia-closani.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "reference-limited",
+    "module": "biserica-obirsia-closani-obirsia-closani",
+    "note": {
+     "ro": "Machetă interpretată după două fotografii publice de referință din 2010 (fațada de vest și latura de nord): biserică de zid cu pridvor închis cu trei arcade, brațe laterale scurte, turn înalt pe pronaos și turlă mică octogonală pe naos. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile și coifurile sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale. Lungimea, partea de est, latura de sud, înălțimile și orientarea sunt estimate.",
+     "hu": "Két nyilvános, 2010-es referenciafotó (nyugati homlokzat és északi oldal) alapján értelmezett makett: falazott templom háromíves, zárt előcsarnokkal, rövid oldalkarokkal, magas toronnyal az előcsarnok fölött és kis nyolcszögű dobtoronnyal a hajó fölött. A fényképek a munkák előtt készültek, ezért a tetőket és a sisakokat a COLOR METAL nyilvántartása szerint szállított rézzel ábrázoljuk. A hossz, a keleti rész, a déli oldal, a magasságok és a tájolás becsültek.",
+     "en": "Scale model interpreted from two public reference photographs (2010) of the west front and the north side: a masonry church with an enclosed three-arch porch, short lateral arms, a tall tower over the pronaos and a small octagonal drum over the nave. The photographs predate the works, so the roofs and caps are shown in the copper supplied by COLOR METAL according to its records. The length, the east end, the south side, the heights and the orientation are estimates."
+    }
    },
    "sourceUrls": [
     "https://ro.wikipedia.org/wiki/Biserica_Sf%C3%A2ntul_Mare_Mucenic_Teodor_Tiron_din_Ob%C3%A2r%C8%99ia-Clo%C8%99ani",
@@ -16930,43 +17662,6 @@
     "https://commons.wikimedia.org/wiki/Category:Saint_Theodore_church_in_Ob%C3%A2r%C8%99ia-Clo%C8%99ani,_Mehedin%C8%9Bi",
     "https://promehedinti.ro/en/obarsia-closani/",
     "https://www.openstreetmap.org/way/74512558"
-   ],
-   "lastUpdated": "2026-11-12"
-  },
-  {
-   "id": "schitul-sf-apostoli-petru-si-pavel-cornereva",
-   "name": "Schitul „Sfinții Apostoli Petru și Pavel” Bogâltin",
-   "city": "Bogâltin (comuna Cornereva)",
-   "county": "Caraș-Severin",
-   "country": "Romania",
-   "lat": 45.03889,
-   "lon": 22.41472,
-   "geographicAccuracy": "locality",
-   "identificationConfidence": "PROBABLE",
-   "bearingDeg": 0.0,
-   "category": "monastery",
-   "metals": [
-    "copper"
-   ],
-   "products": [],
-   "contribution": {
-    "ro": "COLOR METAL a furnizat cupru.",
-    "hu": "A COLOR METAL réz anyagot szállított.",
-    "en": "COLOR METAL supplied copper."
-   },
-   "photos": [],
-   "photoStatus": "reference",
-   "model": {
-    "tier": "D",
-    "status": "none"
-   },
-   "sourceUrls": [
-    "https://www.episcopiacaransebesului.ro/categories/manastiri/",
-    "https://www.episcopiacaransebesului.ro/schitul-sfintii-apostoli-petru-si-pavel-bogaltin/",
-    "https://www.episcopiacaransebesului.ro/stiri/cotidian/2022/06/schitul-bogaltin-si-a-cinstit-ocrotitorii-3/",
-    "https://www.episcopiacaransebesului.ro/stiri/2024/06/sfintii-apostoli-petru-si-pavel-cinstiti-la-schitul-bogaltin/",
-    "https://www.episcopiacaransebesului.ro/stiri/2026/06/bucurie-duhovniceasca-la-schitul-bogaltin-in-ziua-hramului/",
-    "https://ro.wikipedia.org/wiki/Bog%C3%A2ltin,_Cara%C8%99-Severin"
    ],
    "lastUpdated": "2026-11-12"
   },
@@ -16980,7 +17675,8 @@
    "lon": 22.6943,
    "geographicAccuracy": "site",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 0.0,
+   "bearingDeg": 90.0,
+   "bearingSource": "Assumed: no OSM building outline exists (only node 1316063333). Orthodox altar to the east: +X = 90° towards the altar apse, the narthex and the west bell tower at −X.",
    "category": "monastery",
    "metals": [
     "copper"
@@ -16993,9 +17689,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-sf-ioan-iacob-hozevitul-piatra-craiului.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "preview",
+    "module": "manastirea-sf-ioan-iacob-hozevitul-piatra-craiului",
+    "note": {
+     "ro": "Machetă de volumetrie interpretată după puținele fotografii publice disponibile (una a bisericii terminate, două din timpul construcției); planul, orientarea și înălțimile sunt estimate. Cupolele și acoperișurile sunt redate în cuprul livrat de COLOR METAL, conform evidențelor firmei, cu patina închisă la culoare din fotografia din 2023.",
+     "hu": "A kevés nyilvános fotó (egy a kész templomról, kettő az építkezés idejéből) alapján értelmezett tömegmakett; az alaprajz, a tájolás és a magasságok becsültek. A kupolák és tetők a COLOR METAL nyilvántartása szerint szállított rézzel, a 2023-as fotó sötét árnyalatában jelennek meg.",
+     "en": "Massing model interpreted from the few public photographs available (one of the finished church, two from the construction period); plan, orientation and heights are estimated. The domes and roofs are shown in the copper supplied by COLOR METAL according to its records, in the dark tone of the 2023 photograph."
+    }
    },
    "sourceUrls": [
     "https://www.manastireapiatracraiului.ro/",
@@ -17017,7 +17720,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 27.7,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 512605871 (coarse trace) long axis 27.7°; its rounded end is at the NNE, and the November photographs show the stair side lit in the morning (01) and the opposite side in the afternoon (03, 04), which fits an NNE–SSW axis. +X = 27.7° towards the polygonal apse; the stair/entrance side faces +Z (≈ 118°, ESE).",
    "category": "monastery",
    "metals": [
     "copper"
@@ -17032,9 +17735,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-sfanta-treime-farau.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "manastirea-sfanta-treime-farau",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință; dimensiunile și forma acoperișului absidei sunt aproximate. Fotografiile disponibile (2011) sunt anterioare lucrărilor, de aceea acoperișurile și turnulețul sunt redate în cuprul livrat de COLOR METAL, conform evidențelor firmei, cu patină brună.",
+     "hu": "Nyilvános referenciafotók alapján értelmezett makett; a méretek és az apszis tetőformája közelítőek. A rendelkezésre álló fotók (2011) a munkálatok előttiek, ezért a tetők és a kis torony a COLOR METAL nyilvántartása szerint szállított, barnára patinásodott rézzel jelennek meg.",
+     "en": "Scale model interpreted from public reference photographs; dimensions and the apse roof form are approximate. The available photographs (2011) predate the works, so the roofs and the turret are shown in the copper supplied by COLOR METAL according to its records, weathered brown."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/512605871",
@@ -17099,7 +17809,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 43.6,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 348507221 is a near-square chamfered hexagon; minimum-rectangle long axis 43.6° (29.9 × 28.4 m). +X = 43.6° points to the NE façade on Str. Gării (photo 01), +Z = 133.6° towards the bell tower in the SE (press description). The roof ridge runs along the W–E diagonal (≈ 86°) as seen in aerial imagery.",
    "category": "church",
    "metals": [
     "copper"
@@ -17112,9 +17822,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/parohia-buna-vestire-bistrita.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "preview",
+    "module": "parohia-buna-vestire-bistrita",
+    "note": {
+     "ro": "Machetă preliminară interpretată după câteva fotografii publice din presa locală și după imagini aeriene; doar fațada dinspre strada Gării este fotografiată, celelalte fațade, înălțimile și turnul sunt estimate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișul și coiful turnului sunt redate în cuprul livrat de COLOR METAL, conform evidențelor firmei.",
+     "hu": "Néhány helyi sajtófotó és légifelvétel alapján értelmezett előzetes makett; csak a Gării utcai homlokzatról van fotó, a többi homlokzat, a magasságok és a torony becsült. A fotók a munkálatok előtt készültek, ezért a tető és a toronysisak a COLOR METAL nyilvántartása szerint szállított rézzel jelenik meg.",
+     "en": "Preliminary model interpreted from a few public local-press photographs and aerial imagery; only the façade on Str. Gării is photographed, the other façades, the heights and the tower are estimated. The photographs predate the works, so the roof and the tower spire are shown in the copper supplied by COLOR METAL according to its records."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/348507221",
@@ -17162,7 +17879,8 @@
    "lon": 23.342837,
    "geographicAccuracy": "site",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 0.0,
+   "bearingDeg": 3.0,
+   "bearingSource": "Assumed: the wings are not mapped in OSM. The church (way 221250606) runs at ≈ 93° and drone photo 02 looks along its axis from the altar end, so the photographed outer wing is taken as the east wing, perpendicular to the church: +X = 3° (north, towards the corner pavilion), the stone outer façade faces +Z (≈ 93°, east).",
    "category": "monastery",
    "metals": [
     "copper"
@@ -17175,9 +17893,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/corp-manastirea-ponor-ponor.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "preview",
+    "module": "corp-manastirea-ponor-ponor",
+    "note": {
+     "ro": "Machetă de volumetrie interpretată după fotografii publice din dronă. Evidențele indică doar un „corp” al mănăstirii; este redată aripa exterioară cea mai vizibilă, cu pavilionul de colț. Acoperișul este redat în cuprul livrat de COLOR METAL, conform evidențelor firmei, în nuanța închisă din fotografii; aripa exactă nu este documentată.",
+     "hu": "Nyilvános drónfotók alapján értelmezett tömegmakett. A nyilvántartás csak a kolostor egy épületszárnyát említi; a makett a legjobban látható külső szárnyat mutatja a sarokpavilonnal. A tető a COLOR METAL nyilvántartása szerint szállított rézzel, a fotók sötét árnyalatában jelenik meg; hogy pontosan melyik szárnyról van szó, nem dokumentált.",
+     "en": "Massing model interpreted from public drone photographs. The records mention only one wing of the monastery; the model shows the most visible outer wing with its corner pavilion. The roof is shown in the copper supplied by COLOR METAL according to its records, in the dark tone seen in the photographs; which wing exactly is not documented."
+    }
    },
    "sourceUrls": [
     "https://alba24.ro/video-manastirea-ponor-supranumita-athosul-romanesc-o-bucatica-rupta-din-cerul-de-care-este-atat-de-aproape-980532.html",
@@ -17198,7 +17923,7 @@
    "geographicAccuracy": "site",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 62.7,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 289907743 long axis 62.7°; the polygonal end of the outline lies at the ENE (altar), the open porch at the WSW (drone photos 01–03). +X = 62.7° towards the altar, the porch faces −X.",
    "category": "monastery",
    "metals": [
     "copper"
@@ -17211,9 +17936,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-buna-vestire-zlatna.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "manastirea-buna-vestire-zlatna",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință (vederi din dronă); înălțimile, ferestrele și detaliile pridvorului sunt aproximate. Acoperișul bisericii este redat așa cum apare în fotografiile din 2023, în cuprul livrat de COLOR METAL, conform evidențelor firmei; coiful turnului este gri-argintiu, ca în fotografii.",
+     "hu": "Nyilvános referenciafotók (drónfelvételek) alapján értelmezett makett; a magasságok, az ablakok és a tornác részletei közelítőek. A templom tetője a 2023-as fotók szerint, a COLOR METAL nyilvántartása szerint szállított rézzel jelenik meg; a toronysisak a fotóknak megfelelően ezüstszürke.",
+     "en": "Scale model interpreted from public reference photographs (drone views); heights, windows and porch details are approximate. The church roof is shown as photographed in 2023, in the copper supplied by COLOR METAL according to its records; the tower helm is silver-grey, as photographed."
+    }
    },
    "sourceUrls": [
     "https://alba24.ro/foto-video-manastirea-buna-vestire-de-la-patrangeni-zlatna-locul-de-rugaciune-de-langa-degetul-lui-dumnezeu-990507.html",
@@ -17271,8 +18003,8 @@
    "lon": 22.384796,
    "geographicAccuracy": "building",
    "identificationConfidence": "VERIFIED",
-   "bearingDeg": 101.9,
-   "bearingSource": "OSM outline long axis",
+   "bearingDeg": 281.9,
+   "bearingSource": "OSM way 381785929 long axis 101.9°/281.9°. The outline has a broad, flattened round end at the WNW and a 4.9 m tower stub at the ESE, so the sanctuary lies to the west: +X = 281.9° towards the sanctuary, the tower front faces −X (ESE, ≈ 102°).",
    "category": "church",
    "metals": [
     "copper"
@@ -17287,9 +18019,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-romano-catolica-foieni.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "biserica-romano-catolica-foieni",
+    "note": {
+     "ro": "Machetă interpretată după fotografii publice de referință. Acoperișul navei cu fălțuire dublă și coiful turnului sunt redate așa cum apar în fotografiile din 2023, în cuprul brunificat livrat de COLOR METAL, conform evidențelor firmei. Fațadele laterale și sanctuarul nu sunt fotografiate și sunt aproximate.",
+     "hu": "Nyilvános referenciafotók alapján értelmezett makett. A hajó állókorcos tetője és a toronysisak a 2023-as fotók szerint, a COLOR METAL nyilvántartása szerint szállított, barnára patinásodott rézzel jelenik meg. Az oldalhomlokzatokról és a szentélyről nincs fotó, ezek közelítőek.",
+     "en": "Scale model interpreted from public reference photographs. The standing-seam nave roof and the tower helm are shown as photographed in 2023, in the weathered copper supplied by COLOR METAL according to its records. The side elevations and the sanctuary are not photographed and are approximate."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/381785929",
@@ -17375,7 +18114,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 90.4,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 1081850116 long axis 90.4°; +X towards the semicircular altar apse at the east end of the outline, the wider narthex at the west end (drone photos 01–03).",
    "category": "monastery",
    "metals": [
     "copper"
@@ -17388,9 +18127,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/manastirea-oasa-sugag.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "manastirea-oasa-sugag",
+    "note": {
+     "ro": "Machetă interpretată după fotografii de referință publice (fotografii din dronă din 2020): biserica nouă de zid a mănăstirii, în stil sârbo-bizantin, cu pronaos lat, abside laterale și turlă pe tambur. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile și cupola sunt redate în cuprul furnizat de COLOR METAL conform evidențelor sale (cu aspect îmbătrânit), presupunând că acesta acoperă toate învelitorile; înălțimile sunt estimate.",
+     "hu": "Nyilvános referenciafotók (2020-as drónfelvételek) alapján értelmezett makett: a kolostor új, szerb-bizánci stílusú kőtemploma széles előcsarnokkal, oldalapszisokkal és dobra állított kupolával. A fotók a munkálatok előttiek, ezért a tetők és a kupola a COLOR METAL nyilvántartása szerint általa szállított rézzel (patinásodott megjelenéssel) jelennek meg, feltételezve, hogy ez minden tetőfelületet fed; a magasságok becsültek.",
+     "en": "Scale model interpreted from public reference photographs (2020 drone views): the monastery's new Serbo-Byzantine masonry church with a wide narthex, side apses and a dome on a drum. The photographs predate the works, so the roofs and the dome are shown in the copper supplied by COLOR METAL according to its records (weathered appearance), assuming it covers all roof surfaces; heights are estimated."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/1081850116",
@@ -17586,7 +18332,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
    "bearingDeg": 71.4,
-   "bearingSource": "OSM outline long axis",
+   "bearingSource": "OSM way 356032358 long axis 71.4°; +X towards the full-width five-sided altar apse at the east-north-east end, the square bell tower stands at the opposite (west) end of the outline (photos 01–02).",
    "category": "church",
    "metals": [
     "titanium-zinc"
@@ -17601,9 +18347,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/parohia-ortodoxa-romana-sadu-i-sadu.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "B",
+    "status": "preview",
+    "module": "parohia-ortodoxa-romana-sadu-i-sadu",
+    "note": {
+     "ro": "Machetă interpretată după fotografii de referință publice (2010): biserica veche de zid, cu absidă poligonală cât lățimea navei și turn-clopotniță de vest cu ornamente în relief din cărămidă și coif în formă de bulb cu lanternă. Fotografiile sunt anterioare lucrărilor, de aceea acoperișul navei și coiful turnului sunt redate în titan-zinc natural furnizat de COLOR METAL conform evidențelor sale (pe fotografii acoperișul este din țiglă); înălțimile sunt estimate.",
+     "hu": "Nyilvános referenciafotók (2010) alapján értelmezett makett: régi kőtemplom a hajóval azonos szélességű, sokszögű szentélyapszissal és téglarelief-díszes nyugati haranglábbal, lámpásos hagymasisakkal. A fotók a munkálatok előttiek, ezért a hajó tetője és a toronysisak a COLOR METAL nyilvántartása szerint általa szállított natúr titáncinkkel jelenik meg (a fotókon a hajót cserép fedi); a magasságok becsültek.",
+     "en": "Scale model interpreted from public reference photographs (2010): the old stone church with a full-width polygonal apse and a west bell tower with brick-relief ornament and an onion helm with a lantern. The photographs predate the works, so the nave roof and the tower helm are shown in the natural titanium-zinc supplied by COLOR METAL according to its records (the photographs show a tiled nave roof); heights are estimated."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/356032358",
@@ -17687,8 +18440,8 @@
    "lon": 24.134768,
    "geographicAccuracy": "building",
    "identificationConfidence": "PROBABLE",
-   "bearingDeg": 39.4,
-   "bearingSource": "OSM outline long axis",
+   "bearingDeg": 224.5,
+   "bearingSource": "OSM way 816480176: the outline's walls run at ≈ 44.5° (the computed long axis, 39.4°, is skewed by the irregular outline); +X = 224.5° towards the polygonal altar apse at the south-west end, the three-tower front faces north-east towards the road (photos 01–02).",
    "category": "church",
    "metals": [
     "copper"
@@ -17703,9 +18456,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-ortodoxa-stramtura-stramtura.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "preview",
+    "module": "biserica-ortodoxa-stramtura-stramtura",
+    "note": {
+     "ro": "Machetă interpretată după fotografii de referință publice (2009), care arată doar fațada cu trei turnuri; corpul bisericii din spate este reconstituit după conturul OSM, fără fotografii. Fotografiile sunt anterioare lucrărilor, de aceea coifurile turnurilor și acoperișurile sunt redate în cuprul furnizat de COLOR METAL conform evidențelor sale; înălțimile sunt estimate.",
+     "hu": "Nyilvános referenciafotók (2009) alapján értelmezett makett; a fotók csak a háromtornyos homlokzatot mutatják, a mögötte lévő templomtestet fotók nélkül, az OSM-körvonal alapján rekonstruáltuk. A fotók a munkálatok előttiek, ezért a toronysisakok és a tetők a COLOR METAL nyilvántartása szerint általa szállított rézzel jelennek meg; a magasságok becsültek.",
+     "en": "Scale model interpreted from public reference photographs (2009) that show only the three-tower front; the church body behind it is reconstructed from the OSM outline without photographs. The photographs predate the works, so the tower helms and the roofs are shown in the copper supplied by COLOR METAL according to its records; heights are estimated."
+    }
    },
    "sourceUrls": [
     "https://www.openstreetmap.org/way/816480176",
@@ -17829,7 +18589,8 @@
    "lon": 23.754639,
    "geographicAccuracy": "locality",
    "identificationConfidence": "VERIFIED",
-   "bearingDeg": 0.0,
+   "bearingDeg": 90.0,
+   "bearingSource": "No OSM outline or published address for the new church; +X is assumed to point east (tower at the west end, as usual for Reformed churches of the region) — not verified on imagery.",
    "category": "church",
    "metals": [
     "titanium-zinc"
@@ -17844,9 +18605,16 @@
    },
    "photos": [],
    "photoStatus": "reference",
+   "thumb": "thumbs/biserica-reformata-din-apahida-apahida.webp",
    "model": {
-    "tier": "D",
-    "status": "none"
+    "tier": "C",
+    "status": "preview",
+    "module": "biserica-reformata-din-apahida-apahida",
+    "note": {
+     "ro": "Machetă interpretată după fotografii de referință publice (aprilie 2026, în construcție) și după desenul de fațadă publicat; este redată starea finalizată așa cum reiese din aceste surse. Coiful-ac, fusta și pinaclurile sunt din titan-zinc natural furnizat de COLOR METAL conform evidențelor sale, așa cum apare în fotografii; acoperișul navei rămâne din țiglă, conform proiectului. Dimensiunile și orientarea sunt estimate.",
+     "hu": "Nyilvános referenciafotók (2026. április, építés közben) és a közzétett homlokzatterv alapján értelmezett makett; a források szerinti elkészült állapotot mutatja. A tűsisak, a szoknya és a sarokfiatornyok a COLOR METAL nyilvántartása szerint általa szállított natúr titáncinkből készültek, ahogy a fotókon látszik; a hajó tetője a terv szerinti cserépfedés. A méretek és a tájolás becsültek.",
+     "en": "Scale model interpreted from public reference photographs (April 2026, under construction) and the published design elevation; it shows the finished state as far as these sources show it. The needle spire, its skirt and the corner pinnacles are in the natural titanium-zinc supplied by COLOR METAL according to its records, as photographed; the nave roof keeps the clay tiles of the design. Dimensions and orientation are estimated."
+    }
    },
    "sourceUrls": [
     "https://kronika.ro/erdelyi-naplo/aktualis/riportok/idokapszula-a-toronyban-hit-kitartas-es-osszefogas-kiseri-az-apahidai-reformatus-templom-epiteset",

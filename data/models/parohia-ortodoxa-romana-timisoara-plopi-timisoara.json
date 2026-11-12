@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 68.7,
+ "bearingSource": "OSM way 881227660 long axis 68.7°; +X = ENE towards the narrower polygonal altar apse of the outline, west front with porch and bell-cote at −X (frontal photo 01)",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "West front, porch and bell-cote from a frontal 2023 street-level image and three entrance photos; heights measured on the frontal image (eave ≈7.6 m, bell-cote cornice ≈12.9 m, cross ≈15.6 m), ±10 %. Side elevations, apse and roofs are not photographed: three arched windows per side (as seen from inside), a roof pitch of ≈30° and a three-sided apse with its own hipped roof (from the outline) assumed. The COLOR METAL records list copper for this parish; nave, apse and bell-cote roofs are shown in weathered copper standing seam — the bell-cote roof appears dark brown on the 2023 image, the other surfaces are not documented.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință ale fațadei de vest, cu pridvor pe doi stâlpi, fronton cu margini albe și clopotniță zveltă. Laturile, absida și acoperișurile nu apar în fotografii și sunt deduse din conturul OSM; acoperișurile sunt redate din cupru patinat brun, materialul livrat de COLOR METAL conform evidențelor sale, suprafețele exacte nefiind documentate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett a nyugati homlokzatról: két oszlopon álló tornác, fehér szegélyű oromfal és karcsú harangtorony. Az oldalak, az apszis és a tetők nem láthatók a fotókon, ezeket az OSM-körvonalból vezettük le; a tetők barnára patinásodott rézfedéssel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal –, a pontos felületek nem dokumentáltak.",
+  "en": "Scale model interpreted from public reference photographs of the west front, with a porch on two posts, a white-edged gable and a slender bell-cote. The sides, apse and roofs do not appear in the photographs and are derived from the OSM outline; the roofs are shown in brown weathered copper, the material supplied by COLOR METAL according to its records, the exact surfaces not being documented."
+ }
+}

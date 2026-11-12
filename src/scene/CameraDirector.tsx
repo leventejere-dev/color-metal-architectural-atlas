@@ -14,6 +14,10 @@ import * as THREE from 'three'
 import { projectById, useStore, type CameraCommand, type ViewPreset } from '../state/store'
 import { exaggerationFor, projectPosition, rotationFor, runtime } from './runtime'
 import { BG } from './TerrainModel'
+import { nearestMini } from './Miniatures'
+
+/** Google-Maps-like switching between the map and a building's model view, driven by the zoom. */
+const auto = { blockedUntilD: 0, tmp: new THREE.Vector3() }
 
 const { ACTION } = CameraControlsImpl
 const DEG = Math.PI / 180
@@ -77,6 +81,11 @@ export function projectView(id: string): View | null {
   const front = m?.front ?? [0, 1]
   const hM = m ? m.sizeM.y : 15
   target.y += (hM * 0.3) / 1000
+  // frame the whole composition (ensembles extend beyond the main building's site)
+  if (m) {
+    target.x = m.center.x
+    target.z = m.center.z
+  }
   return { target, d: THREE.MathUtils.clamp((sizeM / 1000) * 2.9, 0.06, 1.6), az: frontAzimuth(rotY, front) + 38 * DEG, pol: 64 * DEG }
 }
 
@@ -137,7 +146,8 @@ export function CameraDirector() {
 
   useEffect(() => {
     scene.fog = fog.current
-    scene.background = new THREE.Color(BG)
+    if (!scene.background) scene.background = new THREE.Color(BG)
+    fog.current.color.copy(scene.background as THREE.Color)
     const c = ref.current
     runtime.controls = c
     c.setBoundary(new THREE.Box3(new THREE.Vector3(-560, -20, -460), new THREE.Vector3(560, 20, 460)))
@@ -390,7 +400,27 @@ export function CameraDirector() {
     runtime.yScale = E / (runtime.terrain?.exag ?? 5)
     const st = useStore.getState()
     if (Math.abs(st.camDistance - d) / Math.max(d, 1e-3) > 0.04) st.setCamDistance(d)
-    if (st.mode === 'inspect' && d > 40 && !flight.current) st.exitInspect()
+    // zoom-driven mode switch (like Street View): close to a building → its model view;
+    // zooming back out of a model view → the map. Hysteresis: after an automatic exit the
+    // camera must first move out further before another automatic entry.
+    if (!flight.current && !st.walk.active && !st.tour.active && st.introDone) {
+      if (st.mode === 'map') {
+        if (d > auto.blockedUntilD) auto.blockedUntilD = 0
+        const tgt = c.getTarget(auto.tmp)
+        const near = auto.blockedUntilD === 0 ? nearestMini(tgt.x, tgt.z) : null
+        if (near) {
+          const enterD = THREE.MathUtils.clamp(near.sizeKm * 5, 0.15, 1.0)
+          if (d < enterD && near.distKm < Math.max(near.sizeKm * 1.5, d * 0.5)) st.select(near.id, { inspect: true })
+        }
+      } else if (st.mode === 'inspect' && st.selectedId) {
+        const v = projectView(st.selectedId)
+        const exitD = Math.max((v?.d ?? 0.2) * 2.6, 0.45)
+        if (d > exitD) {
+          auto.blockedUntilD = exitD * 1.4
+          st.select(null)
+        }
+      }
+    }
 
     const cam = camera as THREE.PerspectiveCamera
     const near = Math.max(d * 0.004, 0.0003)
@@ -418,7 +448,11 @@ export function CameraDirector() {
     } else {
       c.maxDistance = 3400
       c.maxPolarAngle = (d < 4 ? 86 : 78) * DEG
-      c.minDistance = st.mode === 'inspect' && runtime.model ? Math.max(0.006, (Math.max(runtime.model.sizeM.x, runtime.model.sizeM.z) / 1000) * 0.3) : 0.02
+      // inspection: never closer than ~0.7 × the building's largest dimension (keeps the camera outside it)
+      c.minDistance =
+        st.mode === 'inspect' && runtime.model
+          ? Math.max(0.012, (Math.max(runtime.model.sizeM.x, runtime.model.sizeM.y, runtime.model.sizeM.z) / 1000) * 0.7)
+          : 0.1
     }
   })
 

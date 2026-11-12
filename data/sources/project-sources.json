@@ -14,7 +14,7 @@
       "category": "stadium",
       "status": "public",
       "rights": "published",
-      "model": "exhibition:stadium",
+      "model": "exhibition:stadium-full",
       "folders": [
         "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat",
         "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Slideshow/Poze",

@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 43.6,
+ "bearingSource": "OSM way 348507221 is a near-square chamfered hexagon; minimum-rectangle long axis 43.6° (29.9 × 28.4 m). +X = 43.6° points to the NE façade on Str. Gării (photo 01), +Z = 133.6° towards the bell tower in the SE (press description). The roof ridge runs along the W–E diagonal (≈ 86°) as seen in aerial imagery.",
+ "cover": "01",
+ "photosUsed": 3,
+ "approximations": "Identification: the register entry 'Parohia Buna Vestire' is matched to the Greek-Catholic Buna Vestire church; an Orthodox parish of the same dedication in Bistrița is not excluded. Photographs from local press: one street view of the NE front (c. 2017), a partial view of the tower (2013) and the forecourt (2018); roof layout (diagonal ridge, ridge lantern, triangular roof light) read from aerial imagery. Heights scaled from photo 01 against the published 36 m tower height (ridge ≈ 18.6 m, chamfer eaves ≈ 11.5–12.2 m, pitch ≈ 23°). Tower position and size, the brick-clad link wing and all non-NE façades are estimated (window slits typological); corridors to the neighbouring complex omitted. The photographs predate the 2019 copper works (red roof and spire): roof planes, lantern roof, wing roof and spire are shown in weathered copper according to the COLOR METAL records; which surfaces were re-covered is not documented.",
+ "note": {
+  "ro": "Machetă preliminară interpretată după câteva fotografii publice din presa locală și după imagini aeriene; doar fațada dinspre strada Gării este fotografiată, celelalte fațade, înălțimile și turnul sunt estimate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișul și coiful turnului sunt redate în cuprul livrat de COLOR METAL, conform evidențelor firmei.",
+  "hu": "Néhány helyi sajtófotó és légifelvétel alapján értelmezett előzetes makett; csak a Gării utcai homlokzatról van fotó, a többi homlokzat, a magasságok és a torony becsült. A fotók a munkálatok előtt készültek, ezért a tető és a toronysisak a COLOR METAL nyilvántartása szerint szállított rézzel jelenik meg.",
+  "en": "Preliminary model interpreted from a few public local-press photographs and aerial imagery; only the façade on Str. Gării is photographed, the other façades, the heights and the tower are estimated. The photographs predate the works, so the roof and the tower spire are shown in the copper supplied by COLOR METAL according to its records."
+ }
+}

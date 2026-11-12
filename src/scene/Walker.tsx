@@ -1,11 +1,14 @@
 /**
- * Walk-around mode: a 1.75 m architectural scale figure explores the selected
- * building from outside, at true scale (1:1), on its presentation base.
+ * Walk-around and drive-around modes at true scale (1:1), on the levelled ground
+ * around the selected building (its presentation base is hidden meanwhile).
  *
- *  - click / tap on the ground: walk there;  W A S D / arrows: walk (Shift = run)
- *  - drag: look around the figure;  wheel / pinch: camera distance;  optional eye level
- *  - collisions: the model is sliced at body height (0.4 m and 1.2 m) into a
- *    20 cm occupancy grid, so the figure walks around walls instead of through them
+ * On foot: a 1.75 m COLOR METAL figure — click / tap to walk there, W A S D / arrows
+ * (Shift or the run toggle = run), drag to look around, optional eye level.
+ * By car: a 4.7 m COLOR METAL car — W / S throttle · brake / reverse, A / D steer,
+ * Space = handbrake (drift), Shift = turbo, click / tap = drive there; chase or cockpit view.
+ *
+ * Collisions: the model is sliced at 0.4 m and 1.2 m into a 20 cm occupancy grid,
+ * so the figure walks and the car bounces around walls instead of passing through.
  */
 import { useEffect, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
@@ -14,12 +17,33 @@ import { useStore } from '../state/store'
 import { getMini, type Mini } from './Miniatures'
 import { runtime } from './runtime'
 import { makeFigure, type Figure } from './figure'
+import { makeCar, type Car } from './car'
 
 const CELL = 0.2 // m
 const BODY_R = 0.3 // m
 const WALK = 1.4 // m/s
-const RUN = 3.4 // m/s
+const RUN = 6.5 // m/s (fast run)
 const HEAD = 1.62 // m (camera target)
+
+// car (arcade bicycle model)
+const WHEELBASE = 2.7
+const V_MAX = 30 // m/s ≈ 108 km/h
+const V_TURBO = 44 // m/s ≈ 158 km/h
+const ACC = 9
+const ACC_TURBO = 15
+const BRAKE = 17
+const REV = 7
+const CAR_PTS: [number, number][] = [
+  [0.95, 2.3],
+  [-0.95, 2.3],
+  [0.95, -2.3],
+  [-0.95, -2.3],
+  [0.95, 0],
+  [-0.95, 0],
+  [0, 2.38],
+  [0, -2.38],
+]
+const SKIDS = 1400
 
 interface Grid {
   n: number
@@ -27,8 +51,7 @@ interface Grid {
   cells: Uint8Array
 }
 
-function buildGrid(m: Mini): Grid {
-  const half = m.plinthR
+function buildGrid(m: Mini, half: number): Grid {
   const n = Math.ceil((2 * half) / CELL)
   const cells = new Uint8Array(n * n)
   m.root.updateMatrixWorld(true)
@@ -77,38 +100,73 @@ function buildGrid(m: Mini): Grid {
   return { n, half, cells }
 }
 
+function cellBlocked(g: Grid, x: number, z: number) {
+  const i = Math.floor((x + g.half) / CELL)
+  const j = Math.floor((z + g.half) / CELL)
+  if (i < 0 || j < 0 || i >= g.n || j >= g.n) return true
+  return g.cells[j * g.n + i] === 1
+}
+
 function blocked(g: Grid, x: number, z: number, limit: number) {
   if (Math.hypot(x, z) > limit) return true
   for (let k = 0; k < 9; k++) {
     const ang = (k / 8) * Math.PI * 2
     const r = k === 8 ? 0 : BODY_R
-    const i = Math.floor((x + Math.cos(ang) * r + g.half) / CELL)
-    const j = Math.floor((z + Math.sin(ang) * r + g.half) / CELL)
-    if (i < 0 || j < 0 || i >= g.n || j >= g.n) return true
-    if (g.cells[j * g.n + i]) return true
+    if (cellBlocked(g, x + Math.cos(ang) * r, z + Math.sin(ang) * r)) return true
   }
   return false
 }
 
+function carBlocked(g: Grid, x: number, z: number, yaw: number, limit: number) {
+  if (Math.hypot(x, z) > limit) return true
+  const sn = Math.sin(yaw)
+  const cs = Math.cos(yaw)
+  for (const [lx, lz] of CAR_PTS) {
+    // local (lx: left, lz: forward) → building frame
+    const wx = x + lx * cs + lz * sn
+    const wz = z - lx * sn + lz * cs
+    if (cellBlocked(g, wx, wz)) return true
+  }
+  return false
+}
+
+interface Common {
+  m: Mini
+  grid: Grid
+  limit: number
+  ring: THREE.Mesh
+  contact: THREE.Mesh
+  pos: THREE.Vector2
+  yaw: number
+  target: THREE.Vector2 | null
+  stuck: number
+}
+interface FootState extends Common {
+  kind: 'foot'
+  parts: Figure
+  phase: number
+  speed: number
+}
+interface CarState extends Common {
+  kind: 'car'
+  car: Car
+  vel: THREE.Vector2
+  steer: number
+  spin: number
+  cam: THREE.Vector3 | null
+  skids: THREE.InstancedMesh
+  skidN: number
+  skidT: number
+}
+type State = FootState | CarState
+
 export function Walker() {
   const active = useStore((s) => s.walk.active)
   const eye = useStore((s) => s.walk.eye)
+  const carMode = useStore((s) => !!s.walk.car)
   const selectedId = useStore((s) => s.selectedId)
   const { camera, gl } = useThree()
-  const st = useRef<null | {
-    m: Mini
-    grid: Grid
-    limit: number
-    parts: Figure
-    contact: THREE.Mesh
-    ring: THREE.Mesh
-    pos: THREE.Vector2
-    yaw: number
-    target: THREE.Vector2 | null
-    phase: number
-    speed: number
-    stuck: number
-  }>(null)
+  const st = useRef<State | null>(null)
   const keys = useRef(new Set<string>())
   const pending = useRef(false)
 
@@ -119,7 +177,7 @@ export function Walker() {
     const down = (e: KeyboardEvent) => {
       if (isTyping(e)) return
       keys.current.add(e.code)
-      if (e.code.startsWith('Arrow')) e.preventDefault()
+      if (e.code.startsWith('Arrow') || e.code === 'Space') e.preventDefault()
     }
     const up = (e: KeyboardEvent) => keys.current.delete(e.code)
     window.addEventListener('keydown', down)
@@ -131,7 +189,7 @@ export function Walker() {
     }
   }, [active])
 
-  // start / stop
+  // start / stop (also when switching between foot and car)
   useEffect(() => {
     if (!active) return
     pending.current = true
@@ -139,19 +197,27 @@ export function Walker() {
       pending.current = false
       const s = st.current
       if (s) {
-        s.m.turn.remove(s.parts.root)
-        s.m.turn.remove(s.ring)
-        s.m.turn.remove(s.contact)
-        s.parts.dispose()
+        s.m.turn.remove(s.ring, s.contact)
         s.contact.geometry.dispose()
         ;(s.contact.material as THREE.Material).dispose()
+        s.ring.geometry.dispose()
+        ;(s.ring.material as THREE.Material).dispose()
+        if (s.kind === 'foot') {
+          s.m.turn.remove(s.parts.root)
+          s.parts.dispose()
+        } else {
+          s.m.turn.remove(s.car.root, s.skids)
+          s.car.dispose()
+          s.skids.geometry.dispose()
+          ;(s.skids.material as THREE.Material).dispose()
+        }
         st.current = null
-        useStore.getState().command({ kind: 'preset', preset: 'reset' })
+        if (!useStore.getState().walk.active) useStore.getState().command({ kind: 'preset', preset: 'reset' })
       }
     }
-  }, [active, selectedId])
+  }, [active, selectedId, carMode])
 
-  // pointer: hover ring + click to walk
+  // pointer: hover ring + click / tap to walk or drive there
   useEffect(() => {
     if (!active) return
     const el = gl.domElement
@@ -204,50 +270,74 @@ export function Walker() {
     const dt = Math.min(dtRaw, 0.05)
     const c = runtime.controls
     if (!active || !c) return
-    // initialise once the building is ready
+    // initialise once the building is ready (at true scale, on the ground)
     if (pending.current && !st.current) {
       const m = getMini(selectedId)
       if (!m || m.state !== 'ready' || m.s > 1.05) return
-      const grid = buildGrid(m)
-      const limit = m.plinthR - 0.8
-      const parts = makeFigure()
-      const contact = new THREE.Mesh(new THREE.CircleGeometry(0.42, 24).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ color: '#2b2722', transparent: true, opacity: 0.2, depthWrite: false }))
-      const ring = new THREE.Mesh(new THREE.RingGeometry(0.26, 0.34, 32).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ color: '#b99a5e', transparent: true, opacity: 0.9, depthWrite: false }))
+      const size = Math.max(m.size.x, m.size.z)
+      const limit = carMode ? Math.max(120, size * 1.4 + 70) : Math.max(m.plinthR + 12, size * 1.1 + 30)
+      const grid = buildGrid(m, limit + 3)
+      const contact = new THREE.Mesh(
+        carMode ? new THREE.PlaneGeometry(2.1, 5.0).rotateX(-Math.PI / 2) : new THREE.CircleGeometry(0.42, 24).rotateX(-Math.PI / 2),
+        new THREE.MeshBasicMaterial({ color: '#1b1915', transparent: true, opacity: carMode ? 0.32 : 0.2, depthWrite: false }),
+      )
+      const ring = new THREE.Mesh(new THREE.RingGeometry(carMode ? 0.9 : 0.26, carMode ? 1.1 : 0.34, 40).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ color: '#c1a163', transparent: true, opacity: 0.9, depthWrite: false }))
       ring.visible = false
-      m.turn.add(parts.root, ring, contact)
-      // spawn in front of the main façade, looking at the building
+      // spawn in front of the main façade, facing the building
       const [fx, fz] = m.mod?.front ?? [0, 1]
       const fl = Math.hypot(fx, fz) || 1
-      const reach = Math.max(m.size.x, m.size.z) / 2
+      const reach = size / 2
       let pos = new THREE.Vector2(0, 0)
-      for (let k = 0; k < 48; k++) {
-        const ang = Math.atan2(fz / fl, fx / fl) + (k % 2 ? 1 : -1) * Math.ceil(k / 2) * 0.26
-        const r = Math.min(reach + 4, limit - 1)
+      for (let k = 0; k < 64; k++) {
+        const ang = Math.atan2(fz / fl, fx / fl) + (k % 2 ? 1 : -1) * Math.ceil(k / 2) * 0.2
+        const r = Math.min(reach + (carMode ? 12 : 4), limit - 3)
         const cand = new THREE.Vector2(Math.cos(ang) * r, Math.sin(ang) * r)
-        if (!blocked(grid, cand.x, cand.y, limit)) {
+        const yaw0 = Math.atan2(-cand.x, -cand.y)
+        if (carMode ? !carBlocked(grid, cand.x, cand.y, yaw0, limit) : !blocked(grid, cand.x, cand.y, limit)) {
           pos = cand
           break
         }
       }
-      const yaw = Math.atan2(-pos.x, -pos.y)
-      st.current = { m, grid, limit, parts, contact, ring, pos, yaw, target: null, phase: 0, speed: 0, stuck: 0 }
+      // the figure faces the building; the car starts tangentially, ready to drive around it
+      const yaw = Math.atan2(-pos.x, -pos.y) + (carMode ? Math.PI / 2 : 0)
+      if (carMode) {
+        const car = makeCar()
+        const skids = new THREE.InstancedMesh(
+          new THREE.PlaneGeometry(0.22, 0.95).rotateX(-Math.PI / 2),
+          new THREE.MeshBasicMaterial({ color: '#16130f', transparent: true, opacity: 0.42, depthWrite: false }),
+          SKIDS,
+        )
+        const hide = new THREE.Matrix4().makeScale(0, 0, 0)
+        for (let i = 0; i < SKIDS; i++) skids.setMatrixAt(i, hide)
+        skids.frustumCulled = false
+        m.turn.add(car.root, ring, contact, skids)
+        st.current = { kind: 'car', m, grid, limit, ring, contact, pos, yaw, target: null, stuck: 0, car, vel: new THREE.Vector2(), steer: 0, spin: 0, cam: null, skids, skidN: 0, skidT: 0 }
+      } else {
+        const parts = makeFigure()
+        m.turn.add(parts.root, ring, contact)
+        st.current = { kind: 'foot', m, grid, limit, ring, contact, pos, yaw, target: null, stuck: 0, parts, phase: 0, speed: 0 }
+        // camera: behind the figure, looking past it to the building
+        m.root.updateMatrixWorld(true)
+        const head = m.turn.localToWorld(new THREE.Vector3(pos.x, HEAD, pos.y))
+        const out = pos.clone().normalize()
+        if (!out.lengthSq()) out.set(0, 1)
+        const behind = m.turn.localToWorld(new THREE.Vector3(pos.x + out.x * 4.6, HEAD + 1.5, pos.y + out.y * 4.6))
+        c.setLookAt(behind.x, behind.y, behind.z, head.x, head.y, head.z, false)
+      }
       pending.current = false
-      // camera: behind the figure, looking past it to the building
-      m.root.updateMatrixWorld(true)
-      const head = m.turn.localToWorld(new THREE.Vector3(pos.x, HEAD, pos.y))
-      const out = pos.clone().normalize()
-      if (!out.lengthSq()) out.set(0, 1)
-      const behind = m.turn.localToWorld(new THREE.Vector3(pos.x + out.x * 4.6, HEAD + 1.5, pos.y + out.y * 4.6))
-      c.setLookAt(behind.x, behind.y, behind.z, head.x, head.y, head.z, false)
     }
     const s = st.current
     if (!s) return
+    if (s.kind === 'car') driveFrame(s, dt, c)
+    else walkFrame(s, dt, c)
+  })
+
+  function walkFrame(s: FootState, dt: number, c: NonNullable<typeof runtime.controls>) {
     const { m, parts } = s
-    // desired direction from keys (camera-relative) or click target
     const k = keys.current
     const fwdIn = (k.has('KeyW') || k.has('ArrowUp') ? 1 : 0) - (k.has('KeyS') || k.has('ArrowDown') ? 1 : 0)
     const sideIn = (k.has('KeyD') || k.has('ArrowRight') ? 1 : 0) - (k.has('KeyA') || k.has('ArrowLeft') ? 1 : 0)
-    const run = k.has('ShiftLeft') || k.has('ShiftRight')
+    const run = k.has('ShiftLeft') || k.has('ShiftRight') || !!useStore.getState().walk.run
     const dir = new THREE.Vector2()
     if (fwdIn || sideIn) {
       s.target = null
@@ -285,8 +375,10 @@ export function Walker() {
     }
     // gait
     const gait = Math.min(1, s.speed / WALK)
-    s.phase += dt * (1.6 + s.speed * 2.1) * Math.min(1, gait * 3)
-    parts.pose(s.phase, gait, performance.now() / 1000)
+    const runBlend = THREE.MathUtils.clamp((s.speed - WALK) / (RUN - WALK), 0, 1)
+    // cadence rises less than speed when running (longer strides)
+    s.phase += dt * (1.6 + Math.min(s.speed, 2.2) * 2.1 + runBlend * 3.2) * Math.min(1, gait * 3)
+    parts.pose(s.phase, gait, performance.now() / 1000, runBlend)
     parts.root.position.set(s.pos.x, 0, s.pos.y)
     parts.root.rotation.y = s.yaw
     parts.root.visible = !eye
@@ -295,7 +387,107 @@ export function Walker() {
     m.root.updateMatrixWorld(true)
     const head = m.turn.localToWorld(new THREE.Vector3(s.pos.x, eye ? 1.62 : HEAD, s.pos.y))
     c.moveTo(head.x, head.y, head.z, false)
-  })
+  }
+
+  function driveFrame(s: CarState, dt: number, c: NonNullable<typeof runtime.controls>) {
+    const { m, car } = s
+    const k = keys.current
+    let thr = (k.has('KeyW') || k.has('ArrowUp') ? 1 : 0) - (k.has('KeyS') || k.has('ArrowDown') ? 1 : 0)
+    let steerIn = (k.has('KeyA') || k.has('ArrowLeft') ? 1 : 0) - (k.has('KeyD') || k.has('ArrowRight') ? 1 : 0)
+    const hb = k.has('Space')
+    const turbo = k.has('ShiftLeft') || k.has('ShiftRight') || !!useStore.getState().walk.run
+    const fwd = new THREE.Vector2(Math.sin(s.yaw), Math.cos(s.yaw))
+    const left = new THREE.Vector2(Math.cos(s.yaw), -Math.sin(s.yaw))
+    // tap / click: drive there
+    if (thr || steerIn) s.target = null
+    else if (s.target) {
+      const to = s.target.clone().sub(s.pos)
+      const dist = to.length()
+      if (dist < 4) s.target = null
+      else {
+        const ang = Math.atan2(to.dot(left), to.dot(fwd))
+        steerIn = THREE.MathUtils.clamp(ang * 2, -1, 1)
+        thr = dist > 10 ? 1 : 0.4
+      }
+    }
+    let vF = s.vel.dot(fwd)
+    let vL = s.vel.dot(left)
+    // longitudinal
+    if (thr > 0) vF += (turbo ? ACC_TURBO : ACC) * thr * dt
+    else if (thr < 0) vF -= (vF > 0.5 ? BRAKE : REV) * dt
+    else vF -= Math.sign(vF) * Math.min(Math.abs(vF), 2.4 * dt)
+    if (hb) vF -= Math.sign(vF) * Math.min(Math.abs(vF), 7 * dt)
+    vF = THREE.MathUtils.clamp(vF, -9, turbo ? V_TURBO : Math.max(V_MAX, Math.min(vF, V_TURBO) - 6 * dt))
+    // steering: tighter at low speed, calmer at high speed
+    const maxSteer = 0.62 / (1 + Math.abs(vF) / 22)
+    s.steer += (steerIn * maxSteer - s.steer) * Math.min(1, dt * 7)
+    // lateral grip: the handbrake or hard steering at speed lets the rear step out (drift)
+    let grip = 8
+    if (hb) grip = 0.8
+    else if (Math.abs(vF) > 15 && Math.abs(s.steer) > 0.14 && thr > 0) grip = 1.9
+    vL *= Math.exp(-grip * dt)
+    s.vel.copy(fwd).multiplyScalar(vF).addScaledVector(left, vL)
+    let yawRate = (vF * Math.tan(s.steer)) / WHEELBASE
+    if (hb) yawRate *= 1.7
+    // move with collision response
+    const next = s.pos.clone().addScaledVector(s.vel, dt)
+    const nextYaw = s.yaw + yawRate * dt
+    if (!carBlocked(s.grid, next.x, next.y, nextYaw, s.limit)) {
+      s.pos.copy(next)
+      s.yaw = nextYaw
+    } else if (!carBlocked(s.grid, s.pos.x, s.pos.y, nextYaw, s.limit)) {
+      s.yaw = nextYaw
+      s.vel.multiplyScalar(-0.25)
+    } else s.vel.multiplyScalar(-0.25)
+    // skid marks while sliding
+    const slide = Math.abs(vL) > 2.4 || (hb && Math.abs(vF) > 4)
+    s.skidT += dt
+    if (slide && s.skidT > 0.018) {
+      s.skidT = 0
+      const sn = Math.sin(s.yaw)
+      const cs = Math.cos(s.yaw)
+      const mtx = new THREE.Matrix4()
+      for (const lx of [0.81, -0.81]) {
+        const wx = s.pos.x + lx * cs - 1.42 * sn
+        const wz = s.pos.y - lx * sn - 1.42 * cs
+        mtx.makeRotationY(Math.atan2(s.vel.x, s.vel.y)).setPosition(wx, 0.015, wz)
+        s.skids.setMatrixAt(s.skidN % SKIDS, mtx)
+        s.skidN++
+      }
+      s.skids.instanceMatrix.needsUpdate = true
+    }
+    // car pose
+    s.spin += (vF * dt) / 0.34
+    car.update(s.steer, s.spin, thr < 0 && vF > 0.5)
+    car.root.position.set(s.pos.x, 0, s.pos.y)
+    car.root.rotation.y = s.yaw
+    car.root.rotation.z = THREE.MathUtils.clamp(-vL * 0.008, -0.05, 0.05) // body roll in slides
+    car.root.visible = !eye
+    s.contact.position.set(s.pos.x, 0.012, s.pos.y)
+    s.contact.rotation.y = s.yaw
+    // camera: chase (or cockpit), following the car's heading with a little lag
+    m.root.updateMatrixWorld(true)
+    const sn = Math.sin(s.yaw)
+    const cs = Math.cos(s.yaw)
+    const speed = s.vel.length()
+    let camL: THREE.Vector3
+    let lookL: THREE.Vector3
+    if (eye) {
+      camL = new THREE.Vector3(s.pos.x + 0.36 * cs + 0.05 * sn, 1.16, s.pos.y - 0.36 * sn + 0.05 * cs)
+      lookL = new THREE.Vector3(s.pos.x + sn * 25, 1.0, s.pos.y + cs * 25)
+      s.cam = camL.clone()
+    } else {
+      const back = 8.6 + speed * 0.08
+      const want = new THREE.Vector3(s.pos.x - sn * back, 3.0 + speed * 0.03, s.pos.y - cs * back)
+      if (!s.cam) s.cam = want.clone()
+      s.cam.lerp(want, 1 - Math.exp(-dt * 4.5))
+      camL = s.cam
+      lookL = new THREE.Vector3(s.pos.x + sn * 2.5, 1.1, s.pos.y + cs * 2.5)
+    }
+    const cw = m.turn.localToWorld(camL.clone())
+    const lw = m.turn.localToWorld(lookL)
+    c.setLookAt(cw.x, cw.y, cw.z, lw.x, lw.y, lw.z, false)
+  }
 
   return null
 }

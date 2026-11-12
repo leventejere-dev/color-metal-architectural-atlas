@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 16.0,
+ "bearingSource": "OSM way 746340895 axis 16°: +X faces Str. 24 Ianuarie (the street façade, from the OSM street geometry), +Z (106°) is the side passage with the entrance; the rear notch of the outline lies at −X/+Z (photo 05).",
+ "cover": null,
+ "photosUsed": 5,
+ "approximations": "Main block, rear wing and street projections fitted to the OSM outline (21.7 × 19.3 m); the projections of the corner tower and the right pavilion are estimated (not in OSM). Heights scaled from the ground-floor windows (≈ 3 m): cornice ≈ 7.6 m, domes ≈ 11.5–13.9 m. Dome profiles, cresting, dormers and chimneys interpreted; the rear (−X) and neighbour (−Z) façades are only partly or not photographed and their window rhythm is inferred; stucco ornament reduced to panels and blocks; the fish-scale cladding is suggested by fine courses. Natural titanium-zinc domes, mansards and ornaments as photographed after the restoration (2026).",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice (2011–2026) și conturul OSM; înălțimile și profilele cupolelor sunt estimate, fațadele posterioară și laterală sunt deduse, iar ornamentația de stuc este simplificată. Cupolele cu solzi, mansardele și ornamentele din titan-zinc natural sunt redate așa cum apar în fotografia de după restaurare.",
+  "hu": "Nyilvános fotók (2011–2026) és az OSM-körvonal alapján értelmezett makett; a magasságok és a kupolák profilja becsült, a hátsó és az oldalsó homlokzat kikövetkeztetett, a stukkódíszítés egyszerűsített. A pikkelyes kupolák, a manzárdtetők és a natúr titáncink díszítések a restaurálás utáni fotó szerint jelennek meg.",
+  "en": "Scale model interpreted from public photographs (2011–2026) and the OSM outline; heights and dome profiles are estimated, the rear and side façades are inferred and the stucco ornament is simplified. The fish-scale domes, mansards and natural titanium-zinc ornaments are shown as photographed after the restoration."
+ }
+}

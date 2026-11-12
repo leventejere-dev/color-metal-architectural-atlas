@@ -4,8 +4,8 @@
  *
  * Modelling specification (real metres, origin = OSM outline centre, +X = OSM
  * long axis 70.5° towards the rounded altar end (ENE), +Z = south), from the
- * photographs 01–03 (south-east side, 2006–2009); photo 04 shows the cells and
- * gate building of the precinct and is used for context only:
+ * photographs 01–03 (south-east side, 2006–2009) and photo 04 (cells and gate
+ * building of the precinct):
  *  - White rendered body 26.3 × 12 m on a ≈ 1.2 m stone plinth, walls ≈ 9 m,
  *    closed by a semicircular altar apse as wide as the body; a row of shallow
  *    panels under the eave, arched windows with moulded (trefoil-headed) frames.
@@ -20,15 +20,15 @@
  *    according to its records; the photographs predate the works, so all church
  *    roofs, apse cones, tower caps and finials are shown in natural titanium-zinc
  *    with standing seams ≈ 0.5 m. The recorded quantity is larger than this roof,
- *    so other precinct buildings (e.g. the cells and gate building) were probably
- *    roofed as well; only the main church is modelled.
+ *    so the cells and gate building facing the parking lot (OSM way 267206314,
+ *    photo 04) is added in low detail with the same natural titanium-zinc.
  * Approximations: no published dimensions; the OSM outline is a coarse rectangle
  * with a rounded end, so the lateral apses are placed from the photographs;
  * heights scaled from photos 01/02 (walls ≈ 9 m, naos tower cross ≈ 25 m); the
  * north side and the west front (not photographed) are mirrored / interpreted.
  */
 import * as THREE from 'three'
-import { Builder, V, mat, metricBox, facet, loft, lathe, extrude, polyRing, cross } from '../kit'
+import { Builder, V, mat, metricBox, facet, loft, lathe, extrude, polyRing, rectRing, cross } from '../kit'
 import type { ModelModule } from '../registry'
 
 type P2 = [number, number]
@@ -307,7 +307,142 @@ function build(): Builder {
   tower(b, TN, { y0: 10.0, yo: 14.9, yd: 18.4, R: 2.2, capH: 3.7, s: 1.15 })
   tower(b, TP, { y0: 10.0, yo: 14.5, yd: 17.8, R: 2.0, capH: 3.4, s: 1.05 })
 
+  /* ================= cells and gate building (photo 04) ================= */
+  gateBuilding(b)
+
   return b
+}
+
+/*
+ * Cells and gate building east of the church (OSM way 267206314 'nun convent',
+ * ≈ 90 m away, facing the parking lot): two-storey wings with a colonnaded
+ * gallery on both floors and low hipped roofs, meeting at a slight angle at the
+ * square gate tower (clock, wide eave, onion dome). The recorded titanium-zinc
+ * quantity exceeds the church roof, so its roofs, the tower skirt and the dome
+ * are shown in the same natural titanium-zinc. Low detail; positions from OSM.
+ */
+const GB = { p1: [96.1, -6.9] as P2, ryS: 99.2 * D2R, ryN: 102.8 * D2R, ryT: 101 * D2R }
+const GH = { plinth: 0.6, floor: 4.0, eave: 7.8, gal: 2.4, pitch: 27 }
+function cellWing(x0: number, x1: number, depth: number, opts: { chimneys: number[]; dormers: number[] }) {
+  const w = new Builder()
+  const L = x1 - x0
+  const cx = (x0 + x1) / 2
+  const { plinth, floor, eave, gal } = GH
+  // rear body (rooms) and the open two-storey gallery in front (façade plane z = 0)
+  w.block(WALL, L, eave, depth - gal, cx, 0, -(depth + gal) / 2)
+  w.block(STONE, L + 0.2, plinth, depth + 0.2, cx, 0, -depth / 2)
+  w.block(WALL, L, 0.35, gal, cx, floor - 0.35, -gal / 2) // gallery floor slab
+  w.block(WALL, L, 0.45, gal + 0.1, cx, eave - 0.45, -gal / 2) // architrave
+  w.block('wood', L, 0.9, 0.08, cx, floor, -0.15) // upper railing
+  w.add('varShade', metricBox(L, eave - plinth - 0.5, 0.02), mat(cx, plinth + (eave - plinth - 0.5) / 2, -gal + 0.012)) // shaded gallery wall
+  const n = Math.max(2, Math.round(L / 3.4))
+  for (let i = 0; i <= n; i++) {
+    const x = x0 + (i * L) / n
+    w.block(WALL, 0.7, floor - plinth - 0.35, 0.7, x, plinth, -0.4)
+    w.block(WALL, 0.55, eave - floor - 0.45, 0.55, x, floor, -0.35)
+    if (i < n) {
+      const xm = x + L / n / 2
+      // door / window pairs on the recessed wall behind the gallery
+      w.add('glassC', metricBox(1.1, 1.6, 0.04), mat(xm, 1.7 + 0.8, -gal + 0.04))
+      w.add('glassC', metricBox(1.1, 1.6, 0.04), mat(xm, floor + 1.0 + 0.8, -gal + 0.04))
+      // rear façade windows
+      w.add('glassC', metricBox(1.0, 1.5, 0.04), mat(xm, 1.8 + 0.75, -depth - 0.02))
+      w.add('glassC', metricBox(1.0, 1.5, 0.04), mat(xm, floor + 1.0 + 0.75, -depth - 0.02))
+    }
+  }
+  const ridge = hippedRoofLocal(w, cx, -depth / 2, L, depth, eave, GH.pitch, 0.7)
+  // brick chimneys and small dormers (photo 04)
+  const t = Math.tan(GH.pitch * D2R)
+  for (const x of opts.chimneys) w.block('brickRed', 0.7, ridge + 0.7 - (eave + 1.2), 0.7, x, eave + 1.2, -depth / 2 - 1.0)
+  for (const x of opts.dormers) {
+    const zf = -1.4
+    const yf = eave - zf * t // roof surface at the dormer front
+    w.block(WALL, 1.4, 1.2, 2.0, x, yf - 0.3, zf - 1.0)
+    w.add('glassC', metricBox(0.8, 0.6, 0.04), mat(x, yf + 0.35, zf + 0.02))
+    for (const s of [-1, 1]) facet(w, ZN, [V(x + s * 0.85, yf + 0.85, zf + 0.25), V(x + s * 0.85, yf + 0.85, zf - 2.0), V(x, yf + 1.3, zf - 2.0), V(x, yf + 1.3, zf + 0.25)], { thickness: 0.06, hint: V(s, 1, 0) })
+  }
+  return w
+}
+/** Hipped roof with seams in a local frame (eave overhang ov), returns the ridge height. */
+function hippedRoofLocal(w: Builder, cx: number, cz: number, L: number, D: number, eave: number, pitch: number, ov: number) {
+  const t = Math.tan(pitch * D2R)
+  const hx = L / 2 + ov
+  const hz = D / 2 + ov
+  const ye = eave - ov * t
+  const rise = hz * t
+  const st = [rectRing(hx, hz, ye, cx, cz), rectRing(Math.max(0.05, hx - hz), 0.03, ye + rise, cx, cz)]
+  seamedLoft(w, ZN, st, 0.5)
+  for (const [sx, sz] of [[-1, -1], [1, -1], [1, 1], [-1, 1]] as P2[]) w.beam(ZN, V(cx + sx * hx, ye + 0.04, cz + sz * hz), V(cx + sx * Math.max(0.05, hx - hz), ye + rise + 0.04, cz), 0.16, 0.1)
+  w.beam(ZN, V(cx - Math.max(0.05, hx - hz), ye + rise + 0.05, cz), V(cx + Math.max(0.05, hx - hz), ye + rise + 0.05, cz), 0.2, 0.1)
+  w.add(WOOD, loft([rectRing(L / 2, D / 2, eave, cx, cz), rectRing(hx - 0.02, hz - 0.02, ye - 0.12, cx, cz)]))
+  return ye + rise
+}
+function gateTower() {
+  const t = new Builder()
+  const hw = 3.3
+  const zc = -3.0
+  const yE = 13.0
+  t.block(WALL, 2 * hw, yE, 2 * hw, 0, 0, zc)
+  t.block(STONE, 2 * hw + 0.2, GH.plinth, 2 * hw + 0.2, 0, 0, zc)
+  const front = faceM(0, zc + hw, 0, 1)
+  const back = faceM(0, zc - hw, 0, -1)
+  // gate passage with stone jambs and arch (photo 04)
+  for (const m of [front, back]) {
+    t.add('black', new THREE.ShapeGeometry(new THREE.Shape(archPts(3.4, 4.6, 0, 10))), M(m, mat(0, 0, 0.03)))
+    const s = new THREE.Shape(archPts(4.4, 5.1, 0, 10))
+    s.holes.push(new THREE.Path(archPts(3.4, 4.6, 0, 10)))
+    t.add(STONE, extrude(s, 0.35, 10), M(m, mat(0, 0, 0.0)))
+    for (const u of [-2.6, 2.6]) t.add(STONE, metricBox(0.8, 4.2, 0.6), M(m, mat(u, 2.1, 0.3)))
+  }
+  // clock and louvred arched windows above the wing roofs
+  t.add('varTrim', new THREE.CircleGeometry(0.75, 20), M(front, mat(0, 12.0, 0.03)))
+  t.add('black', new THREE.RingGeometry(0.62, 0.75, 20), M(front, mat(0, 12.0, 0.05)))
+  for (const [nx, nz] of [[0, 1], [0, -1], [1, 0], [-1, 0]] as P2[]) {
+    const m = faceM(nx * hw, zc + nz * hw, nx, nz)
+    t.add('wood', new THREE.ShapeGeometry(new THREE.Shape(archPts(0.9, 2.0, 9.4, 8))), M(m, mat(0, 0, 0.03)))
+  }
+  // wide bracketed eave, low hipped skirt, onion dome, needle spire and cross
+  const ov = 1.3
+  t.add(WOOD, loft([rectRing(hw, hw, yE, 0, zc), rectRing(hw + ov - 0.02, hw + ov - 0.02, yE - 0.15, 0, zc)]))
+  seamedLoft(t, ZN, [rectRing(hw + ov, hw + ov, yE - 0.05, 0, zc), rectRing(1.9, 1.9, yE + 0.95, 0, zc)], 0.5)
+  t.add(WALL, loft([polyRing(8, 1.75, yE + 0.8, Math.PI / 8, 0, zc), polyRing(8, 1.75, yE + 1.3, Math.PI / 8, 0, zc)], { capTop: true, flat: true }))
+  const yD = yE + 1.25
+  b_dome(t, 0, yD, zc)
+  return t
+}
+function b_dome(t: Builder, x: number, y: number, z: number) {
+  const prof: P2[] = []
+  for (let i = 0; i <= 14; i++) {
+    const u = i / 14
+    const r = u < 0.42 ? 2.0 + 0.45 * Math.sin((u / 0.42) * (Math.PI / 2)) : 2.45 * Math.max(0, Math.cos(Math.min(1, (u - 0.42) / 0.58) * (Math.PI / 2))) ** 1.5
+    prof.push([Math.max(0.16, r), y + u * 2.7])
+  }
+  t.add(ZN, lathe(prof, 28), mat(x, 0, z))
+  for (let k = 0; k < 16; k++) {
+    const a = (k / 16) * Math.PI * 2
+    for (let i = 0; i < prof.length - 2; i++) {
+      const [ra, ya] = prof[i]
+      const [rb, yb] = prof[i + 1]
+      t.beam(ZN, V(x + Math.cos(a) * (ra + 0.02), ya, z + Math.sin(a) * (ra + 0.02)), V(x + Math.cos(a) * (rb + 0.02), yb, z + Math.sin(a) * (rb + 0.02)), 0.05, 0.04, V(Math.cos(a), 0, Math.sin(a)))
+    }
+  }
+  // needle spire with two small rings (photo 04)
+  const s: P2[] = [
+    [0.22, y + 2.6],
+    [0.3, y + 2.9],
+    [0.14, y + 3.2],
+    [0.24, y + 3.5],
+    [0.12, y + 3.8],
+    [0.02, y + 5.4],
+  ]
+  t.add(ZN, lathe(s, 12), mat(x, 0, z))
+  cross(t, 'gilt', x, y + 5.3, z, 1.2, false, Math.PI / 2)
+}
+function gateBuilding(b: Builder) {
+  const [px, pz] = GB.p1
+  b.merge(cellWing(-3.0, 24.3, 14.0, { chimneys: [6.5, 15.5], dormers: [9.5, 19.0] }), mat(px, 0, pz, GB.ryS))
+  b.merge(cellWing(-29.0, 3.0, 13.0, { chimneys: [-25.0, -15.5, -7.0], dormers: [] }), mat(px, 0, pz, GB.ryN))
+  b.merge(gateTower(), mat(px, 0, pz, GB.ryT))
 }
 
 const model: ModelModule = {
@@ -319,6 +454,6 @@ const model: ModelModule = {
     varShade: new THREE.MeshStandardMaterial({ color: '#e1ded6', roughness: 0.92 }),
     varFrieze: new THREE.MeshStandardMaterial({ color: '#a8624c', roughness: 0.8 }),
   }),
-  notes: 'White church with rounded altar end, lateral apses with their own cones and two bell-capped towers; heights scaled from photographs; roofs shown in natural titanium-zinc (elZinc Natural) supplied by COLOR METAL in 2023, as the photographs predate the works.',
+  notes: 'White church with rounded altar end, lateral apses with their own cones and two bell-capped towers; heights scaled from photographs; roofs shown in natural titanium-zinc (elZinc Natural) supplied by COLOR METAL in 2023, as the photographs predate the works; the cells and gate building with the same zinc roofs is included in simplified form.',
 }
 export default model

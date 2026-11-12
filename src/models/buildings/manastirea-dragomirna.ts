@@ -22,13 +22,18 @@
  *    with small arcades, tall octagonal carved shaft in three registers (rope
  *    rings, four tall windows, arcaded crown), broad bell-shaped copper helm
  *    with lantern and cross, total height ≈ 42 m.
+ *  - Ensemble (low detail; copper since the 2010–2012 restoration per ro.wikipedia):
+ *    enclosure walls with buttresses and a copper-roofed wall-walk, four corner
+ *    towers and the gate tower with its side tower, north-east, north-west and
+ *    south-west monastic ranges with hipped copper roofs (OSM wall, tower and
+ *    range data; shapes from photos 01, 02).
  * Approximations: wall height and tower proportions scaled from photo 01 against
  * the published 42 m; north/south elevations treated as identical; carved
  * ornament reduced to mouldings and niche frames; both photographs predate the
  * 2010–2012 copper roofs, so the copper is shown in an aged dark-brown tone.
  */
 import * as THREE from 'three'
-import { Builder, V, mat, metricBox, facet, loft, lathe, extrude, polyRing, rectRing, cross } from '../kit'
+import { Builder, V, mat, metricBox, facet, loft, lathe, extrude, polyRing, rectRing, cross, hippedRoof, tentRoof, gableRoof } from '../kit'
 import type { ModelModule } from '../registry'
 
 type P2 = [number, number]
@@ -178,6 +183,173 @@ function starTier(b: Builder, s: number, y0: number, h: number) {
       for (const u of [-0.72 * s, -0.5 * s, 0.5 * s, 0.72 * s]) niche(b, m, u, y0 + 0.3, 0.3, h - 0.9, 0.06)
     }
   }
+}
+
+/* ================= precinct: walls with covered wall-walks, towers, monastic ranges ================= */
+// ro.wikipedia: the 2010–2012 restoration replaced the zinc-plated sheet of the monastery buildings,
+// towers and wall-walks with copper sheet. Positions from OSM (city wall way 500861157, defensive-tower
+// nodes at the four corners, city-gate node on the south-west wall, range way 1231452330) and the Esri
+// imagery, converted to this model frame (+X = 131°); shapes from photos 01 (from the south-west, across
+// the lake) and 02 (aerial). Low detail.
+const PLAST = 'plasterWhite'
+const WALLS: P2[] = [
+  [-54.6, -39.67],
+  [-57.78, 8.53],
+  [-59.62, 36.46],
+  [-59.71, 42.05],
+  [2.77, 43.1],
+  [45.98, 43.81],
+  [41.51, -40.99],
+  [14.22, -40.62],
+]
+const PIN: P2 = [-5, 1.5] // a point inside the precinct (outward normals)
+const WT = 1.8 // wall thickness
+const WW = 9.6 // wall-walk floor
+const WG = 11.1 // wall-walk roof eave
+const CSEAM = { key: CU, spacing: 0.6, h: 0.035, w: 0.04 }
+
+/** Wall segment a→c with outer buttresses, a stone parapet + open timber gallery and a copper gable roof. */
+function wallRun(b: Builder, a: P2, c: P2, clear: [number, number] = [6, 6]) {
+  const L = Math.hypot(c[0] - a[0], c[1] - a[1])
+  const d: P2 = [(c[0] - a[0]) / L, (c[1] - a[1]) / L]
+  let n: P2 = [-d[1], d[0]]
+  const mid: P2 = [(a[0] + c[0]) / 2, (a[1] + c[1]) / 2]
+  let ang = Math.atan2(d[1], d[0])
+  if (n[0] * (mid[0] - PIN[0]) + n[1] * (mid[1] - PIN[1]) < 0) {
+    n = [-n[0], -n[1]]
+    ang += Math.PI // turn the local frame so that its +Z points outwards
+  }
+  // local frame: +X along the wall, +Z outwards
+  const g = new Builder()
+  const Lw = L + WT
+  g.block(WALL, Lw, WW, WT, 0, 0, 0)
+  g.block(DRESS, Lw, 0.5, WT + 0.3, 0, 0, 0)
+  // outer parapet with loopholes, inner timber posts carrying the gallery roof
+  g.block(WALL, Lw, WG - WW, 0.6, 0, WW, WT / 2 - 0.3)
+  g.block(DRESS, Lw, 0.18, WT + 0.2, 0, WW - 0.18, 0)
+  const np = Math.floor(L / 3)
+  for (let i = 0; i <= np; i++) {
+    const x = -L / 2 + (i * L) / np
+    g.block(WOOD, 0.2, WG - WW, 0.2, x, WW, -WT / 2 + 0.15)
+    if (i < np) g.add(SHADE, metricBox(0.25, 0.5, 0.05), mat(x + L / np / 2, WW + 0.7, WT / 2 + 0.01))
+  }
+  const ov = 0.45
+  const hs = WT / 2 + ov
+  const pitch = 28 * D2R
+  const ey = WG
+  const ry = WG + hs * Math.tan(pitch)
+  for (const s of [-1, 1]) facet(g, CU, [V(-Lw / 2 - 0.3, ey, s * hs), V(Lw / 2 + 0.3, ey, s * hs), V(Lw / 2 + 0.3, ry, 0), V(-Lw / 2 - 0.3, ry, 0)], { seams: CSEAM, thickness: 0.1 })
+  g.beam(CU, V(-Lw / 2 - 0.3, ry + 0.04, 0), V(Lw / 2 + 0.3, ry + 0.04, 0), 0.18, 0.1)
+  b.merge(g, mat(mid[0], 0, mid[1], -ang))
+  // outer buttresses (photos 01, 02)
+  const nb = Math.max(0, Math.floor((L - clear[0] - clear[1]) / 13))
+  for (let i = 0; i <= nb; i++) {
+    if (nb === 0) break
+    const s = clear[0] + ((L - clear[0] - clear[1]) * i) / nb
+    const p: P2 = [a[0] + d[0] * s + n[0] * WT / 2, a[1] + d[1] * s + n[1] * WT / 2]
+    buttress(b, p[0], p[1], n[0], n[1], 1.5, 2.2, 6.2)
+  }
+}
+
+/** Square stone tower with a copper pyramid roof (photos 01, 02). */
+function ptower(b: Builder, c: P2, hw: number, eave: number, rise: number, o: { ov?: number; cross?: number; gate?: boolean; ry?: number } = {}) {
+  const g = new Builder()
+  g.block(WALL, 2 * hw, eave, 2 * hw, 0, 0, 0)
+  g.block(DRESS, 2 * hw + 0.4, 0.6, 2 * hw + 0.4, 0, 0, 0)
+  g.block(DRESS, 2 * hw + 0.3, 0.35, 2 * hw + 0.3, 0, eave - 0.35, 0)
+  const ov = o.ov ?? 0.8
+  tentRoof(g, CU, { n: 4, r: hw * Math.SQRT2, y: eave, h: rise, phase: Math.PI / 4, overhang: ov * Math.SQRT2, seams: CSEAM })
+  // soffit
+  g.add(WOOD, loft([rectRing(hw, hw, eave - 0.02), rectRing(hw + ov, hw + ov, eave - (ov * rise) / hw - 0.04)]))
+  for (let j = 0; j < 4; j++) {
+    const a = (j * Math.PI) / 2
+    const m = faceM(Math.cos(a) * hw, Math.sin(a) * hw, Math.cos(a), Math.sin(a))
+    windowArch(g, m, 0, eave - 3.0, 0.6, 1.5)
+    windowArch(g, m, hw * 0.35, eave * 0.45, 0.25, 0.9)
+  }
+  if (o.gate) {
+    // gate passage through the tower (outer and inner faces along ±Z)
+    for (const s of [-1, 1]) {
+      const m = faceM(0, s * hw, 0, s)
+      const fr = new THREE.Shape(archPts(4.3, 5.2, -0.2))
+      fr.holes.push(new THREE.Path(archPts(3.2, 4.6, 0)))
+      g.add(DRESS, extrude(fr, 0.2, 4), m)
+      g.add(SHADE, new THREE.ShapeGeometry(new THREE.Shape(archPts(3.2, 4.6, 0))), M(m, mat(0, 0, 0.03)))
+    }
+  }
+  const top = eave + rise
+  if (o.cross) cross(g, 'iron', 0, top + 0.05, 0, o.cross, true, Math.PI / 2)
+  b.merge(g, mat(c[0], 0, c[1], o.ry ?? 0))
+}
+
+/** Plastered monastic range with a hipped copper roof, two rows of windows, small dormers and chimneys. */
+function prange(b: Builder, c: P2, deg: number, len: number, dep: number, eave: number, pitch: number, o: { dormerSide?: 1 | -1; floors?: number[]; chimneys?: number; sides?: number[] } = {}) {
+  const g = new Builder()
+  const hl = len / 2
+  const hd = dep / 2
+  g.block(PLAST, len, eave, dep, 0, 0, 0)
+  g.block(DRESS, len + 0.24, 0.6, dep + 0.24, 0, 0, 0)
+  g.block(DRESS, len + 0.4, 0.3, dep + 0.4, 0, eave - 0.3, 0)
+  const ov = 0.6
+  const top = hippedRoof(g, CU, { w: len, d: dep, y: eave, pitch, overhang: ov, seams: { key: CU, spacing: 0.5, h: 0.035, w: 0.04 } })
+  g.add(WOOD, loft([rectRing(hl, hd, eave - 0.02), rectRing(hl + ov - 0.02, hd + ov - 0.02, eave - ov * Math.tan(pitch * D2R) - 0.03)]))
+  // windows on both long façades
+  const cnt = Math.floor((len - 3) / 3.2)
+  for (const s of o.sides ?? [-1, 1]) {
+    const m = faceM(0, s * hd, 0, s)
+    for (let i = 0; i < cnt; i++) {
+      const u = -hl + 1.5 + ((len - 3) * (i + 0.5)) / cnt
+      for (const y0 of o.floors ?? [1.3, 4.8]) {
+        g.add('glassC', metricBox(1.0, 1.45, 0.05), M(m, mat(u, y0 + 0.72, 0.02)))
+        g.add(DRESS, metricBox(1.25, 0.12, 0.2), M(m, mat(u, y0 - 0.06, 0.06)))
+      }
+    }
+  }
+  // small gabled dormers on one slope
+  if (o.dormerSide) {
+    const t = Math.tan(pitch * D2R)
+    const nd = Math.floor((len - 2 * hd - 2) / 5.5)
+    for (let i = 0; i < nd; i++) {
+      const x = -hl + hd + 1 + (len - 2 * hd - 2) * ((i + 0.5) / nd)
+      const zd = o.dormerSide * (hd - 1.4)
+      const yb = eave + 1.4 * t
+      g.block(PLAST, 1.1, 1.0, 1.4, x, yb - 0.25, zd + o.dormerSide * 0.1)
+      g.add('glassC', metricBox(0.55, 0.55, 0.04), mat(x, yb + 0.35, zd + o.dormerSide * 0.82))
+      gableRoof(g, CU, { x, z: zd + o.dormerSide * 0.1, w: 1.1, d: 1.4, y: yb + 0.75, pitch: 45, ridge: 'z', overhang: 0.15, seams: false })
+    }
+  }
+  for (let i = 0; i < (o.chimneys ?? 0); i++) {
+    const x = -hl + hd + ((len - 2 * hd) * (i + 0.5)) / (o.chimneys ?? 1)
+    g.block(PLAST, 0.7, 1.6, 0.7, x, top - 0.9, (i % 2 ? 1 : -1) * 0.9)
+  }
+  b.merge(g, mat(c[0], 0, c[1], -deg * D2R))
+}
+
+function precinct(b: Builder) {
+  // walls between the towers (the gate tower splits the south-west wall)
+  const W = WALLS
+  wallRun(b, W[0], W[1], [7, 2])
+  wallRun(b, W[1], W[2], [2, 2])
+  wallRun(b, W[2], W[3], [0, 6])
+  wallRun(b, W[3], W[4], [7, 7])
+  wallRun(b, W[4], W[5], [10, 6])
+  wallRun(b, W[5], W[6], [6, 6])
+  wallRun(b, W[6], W[7], [6, 2])
+  wallRun(b, W[7], W[0], [2, 7])
+  // corner towers (OSM nodes); the north corner tower is the tall one (photo 01, imagery shadow)
+  const swAng = -Math.atan2(W[5][1] - W[4][1], W[5][0] - W[4][0])
+  ptower(b, W[0], 5.0, 21.0, 8.5, { cross: 1.8, ry: swAng })
+  ptower(b, W[3], 4.6, 15.2, 5.6, { cross: 1.5, ry: swAng })
+  ptower(b, W[5], 4.2, 14.6, 5.2, { cross: 1.5, ry: swAng })
+  ptower(b, W[6], 4.2, 14.6, 5.2, { cross: 1.5, ry: swAng })
+  // gate tower with a narrower stair tower beside it (photo 01)
+  ptower(b, W[4], 4.6, 17.4, 5.8, { cross: 1.6, gate: true, ry: swAng })
+  ptower(b, [W[4][0] + 7.4, W[4][1] + 0.12], 2.8, 17.4, 4.2, { ov: 0.6, ry: swAng })
+  // monastic ranges (OSM range way 1231452330 and imagery): north-east range (two storeys, dormers towards
+  // the courtyard), north-west range along the whole wall, south-west range east of the gate
+  prange(b, [-15.45, -34.1], -0.79, 60.3, 11.0, 8.6, 42, { dormerSide: 1, chimneys: 6, sides: [1] })
+  prange(b, [-51.0, 3.0], 93.8, 75.0, 11.0, 7.6, 42, { dormerSide: -1, chimneys: 6, sides: [-1] })
+  prange(b, [25.3, 37.1], 0.94, 23.5, 10.8, 7.4, 42, { chimneys: 3, sides: [-1] })
 }
 
 function build(): Builder {
@@ -354,6 +526,9 @@ function build(): Builder {
   b.add(CU, new THREE.SphereGeometry(0.28, 12, 8), mat(TX, fy + 1.95, 0))
   cross(b, 'iron', TX, fy + 2.05, 0, 2.6, true, Math.PI / 2)
 
+  /* ================= precinct (copper since 2010–2012) ================= */
+  precinct(b)
+
   return b
 }
 
@@ -366,6 +541,6 @@ const model: ModelModule = {
     dragStoneL: new THREE.MeshStandardMaterial({ color: '#dcc7a2', roughness: 0.85 }),
     dragShade: new THREE.MeshStandardMaterial({ color: '#8f7455', roughness: 0.95 }),
   }),
-  notes: 'Tall stone church with polygonal apses at both ends and an octagonal carved tower; copper roofs shown aged; heights scaled to the published 42 m.',
+  notes: 'Tall stone church with polygonal apses at both ends and an octagonal carved tower; copper roofs shown aged; heights scaled to the published 42 m; precinct walls with wall-walks, towers and ranges (copper since 2010–2012) included at low detail.',
 }
 export default model

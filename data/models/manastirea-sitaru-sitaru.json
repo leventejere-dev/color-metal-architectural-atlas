@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 62.4,
+ "bearingSource": "OSM way 1108116335 long axis 62.4°; +X points to the polygonal altar apse (east-north-east), the open porch faces −X (photos 01, 02, 05); photo 01 shows the south side (+Z).",
+ "cover": null,
+ "photosUsed": 5,
+ "approximations": "OSM outline (24.8 × 12.0 m) read as the roof outline with ≈ 1 m deep eaves; walls 10 m wide with polygonal lateral conchs. Heights estimated from the west-front photographs (podium ≈ 1.25 m, eave ≈ 8.8 m, towers ≈ 21–22 m to the cross). Porch depth and the number of side arches estimated; lobed arches, carved capitals and painted ornament reduced to coloured frames, lobes and bands; north side mirrored; scaffolding and the separate bell tower (04) not modelled. Copper roofs, tower caps and rainwater goods as photographed in April 2023.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice din aprilie 2023 și conturul OSM; înălțimile sunt estimate, iar ornamentația brâncovenească (arcade trilobate, capiteluri, pictura fațadelor) este simplificată. Acoperișurile, coifurile turlelor și jgheaburile de cupru sunt redate așa cum apar în fotografiile de după restaurare.",
+  "hu": "A 2023 áprilisi nyilvános fotók és az OSM-körvonal alapján értelmezett makett; a magasságok becsültek, a brâncoveanui díszítés (háromkaréjos árkádok, oszlopfők, homlokzatfestés) egyszerűsített. A rézfedés, a toronysisakok és a réz ereszcsatornák a restaurálás utáni fotók szerint jelennek meg.",
+  "en": "Scale model interpreted from public photographs of April 2023 and the OSM outline; heights are estimated and the Brâncovenesc ornament (lobed arcades, capitals, painted façades) is simplified. The copper roofs, tower caps and rainwater goods are shown as photographed after the restoration."
+ }
+}

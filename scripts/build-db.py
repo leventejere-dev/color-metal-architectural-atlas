@@ -180,6 +180,9 @@ def main():
         # (the four exhibition-table models were built from the exhibition project's own photographs)
         if reason is None and archived == 0 and webref == 0 and not (module or "").startswith("exhibition:"):
             reason = "no photograph (client decision: not shown without any photo)"
+        # client decision (12 Nov 2026): the map shows architectural models only — no placeholder markers
+        if reason is None and not module:
+            reason = "no 3D model yet (client decision: only modelled buildings are shown)"
         # the cover must be one of the published photos (a sidecar may name an archive frame that is not public)
         cover = side.get("cover") if any(ph["file"] == side.get("cover") for ph in photos) else (photos[0]["file"] if photos else None)
         if cover and photos:
@@ -189,6 +192,7 @@ def main():
         if not module:
             tier, status = "D", "none"
         bearing = side.get("bearingDeg", cur.get("bearingDeg", (g.get("footprintDims") or {}).get("bearingDeg", 0)))
+        thumb = f"thumbs/{pid}.webp" if (ROOT / "public/thumbs" / f"{pid}.webp").exists() else None
         rec = {
             "id": pid,
             "name": pr["name"],
@@ -213,6 +217,7 @@ def main():
             "photos": photos,
             "photoStatus": "published" if photos else ("reference" if webref or pr.get("rights") == "third-party" else ("unapproved" if archived else "none")),
             "cover": cover,
+            "thumb": thumb,
             "model": {"tier": tier, "status": status, **({"module": module} if module else {}), **({"note": side["note"]} if side.get("note") else {})},
             "sourceUrls": g.get("sourceUrls", []),
             "footprint": local_footprint(g.get("footprint"), g["lat"], g["lon"]) if g.get("footprint") and g.get("lat") else None,

@@ -25,16 +25,22 @@ export interface Filters {
 
 const emptyFilters: Filters = { q: '', metals: [], categories: [], county: '', modelOnly: false }
 
+/** Client decision (12 Nov 2026): the interface is Romanian only. */
 function initialLang(): Lang {
+  return 'ro'
+}
+
+function initialTheme(): 'light' | 'dark' {
+  let t: 'light' | 'dark' = 'light'
   try {
-    const url = new URLSearchParams(location.search).get('lang')
-    if (url === 'ro' || url === 'hu' || url === 'en') return url
-    const s = localStorage.getItem('cm-atlas-lang')
-    if (s === 'ro' || s === 'hu' || s === 'en') return s
+    const s = localStorage.getItem('cm-atlas-theme')
+    if (s === 'light' || s === 'dark') t = s
+    else if (window.matchMedia?.('(prefers-color-scheme: dark)').matches) t = 'dark'
   } catch {
     /* storage unavailable */
   }
-  return 'ro'
+  if (typeof document !== 'undefined') document.documentElement.dataset.theme = t
+  return t
 }
 
 const prefersReduced = typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
@@ -80,8 +86,11 @@ interface State {
   autoOrbit: boolean
   setAutoOrbit: (v: boolean) => void
   /** walk-around mode: a true-scale figure explores the selected building from outside */
-  walk: { active: boolean; eye: boolean }
-  setWalk: (w: Partial<{ active: boolean; eye: boolean }>) => void
+  walk: { active: boolean; eye: boolean; run?: boolean; car?: boolean }
+  setWalk: (w: Partial<{ active: boolean; eye: boolean; run: boolean; car: boolean }>) => void
+  /** colour theme of the interface and the scene background */
+  theme: 'light' | 'dark'
+  setTheme: (t: 'light' | 'dark') => void
   tour: { active: boolean; playing: boolean; ids: string[]; index: number; route: string }
   startTour: (ids: string[], route: string) => void
   stopTour: () => void
@@ -99,14 +108,18 @@ let toastTimer: ReturnType<typeof setTimeout> | undefined
 
 export const useStore = create<State>((set, get) => ({
   lang: initialLang(),
-  setLang: (lang) => {
+  setLang: () => {
+    /* Romanian only */
+  },
+  theme: initialTheme(),
+  setTheme: (theme) => {
     try {
-      localStorage.setItem('cm-atlas-lang', lang)
+      localStorage.setItem('cm-atlas-theme', theme)
     } catch {
       /* ignore */
     }
-    document.documentElement.lang = lang
-    set({ lang })
+    document.documentElement.dataset.theme = theme
+    set({ theme })
   },
   selectedId: null,
   hoverId: null,

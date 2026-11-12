@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 179.6,
+ "bearingSource": "OSM way 1229725852 long axis 179.6° (+X towards the south along Str. Georges Clemenceau); the street front faces west (+Z), the corner rotunda is at the north-west corner by Str. George Enescu (aerial image 01).",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Documented by one oblique aerial image and one street-level capture of the Clemenceau front. Outline simplified from OSM (small jogs dropped); storey heights (ground ≈ 5 m, 4 upper floors, cornice ≈ 18.6 m), bay counts and the mansard (constant slope, flat top) estimated; rear and courtyard facades shown as a plain window grid; roof plant omitted.",
+ "note": {
+  "ro": "Machetă orientativă a clădirii nefinalizate din Str. Georges Clemenceau 8-10 (proiectul hotelului, care nu a fost deschis), interpretată după o vedere aeriană și o imagine din stradă disponibile public. Mansarda și cupola rotondei sunt redate în titan-zinc prepatinat gri, așa cum apar în imagini — material livrat de COLOR METAL conform evidențelor sale. Fațadele din spate și înălțimile etajelor sunt estimate.",
+  "hu": "Tájékoztató jellegű makett a Str. Georges Clemenceau 8-10. alatti befejezetlen épületről (a meg nem nyílt szállodaprojekt), egy nyilvánosan elérhető ferde légifelvétel és egy utcai kép alapján értelmezve. A manzárdtető és a saroktorony kupolája szürke, előpatinázott titáncinkként jelenik meg, ahogy a képeken — a COLOR METAL nyilvántartása szerint általa szállított anyag. A hátsó homlokzatok és az emeletmagasságok becsültek.",
+  "en": "Indicative scale model of the unfinished building at Str. Georges Clemenceau 8-10 (the hotel project, which never opened), interpreted from a publicly available oblique aerial view and a street-level image. The mansard and the rotunda dome are shown in grey pre-weathered titanium-zinc as seen in the images — the material supplied by COLOR METAL according to its records. The rear facades and storey heights are estimated."
+ }
+}

@@ -20,7 +20,8 @@
  *  - METAL (decision from the photographs): the photos of the church (2007 and
  *    Jan 2018) show grey sheet-metal roofs; the only copper visible at Rohia is
  *    on the new Nicolae Steinhardt centre (Jan 2018, ≈100 m north-east, under
- *    scaffolding, not modelled). COLOR METAL's records list copper for Rohia in
+ *    scaffolding; added in low detail, see steinhardtCentre()). COLOR METAL's
+ *    records list copper for Rohia in
  *    2019, after all church photographs, without naming the building; this
  *    model keeps the record's building (the main church) and, per the client
  *    rule, shows its roofs, tower skirt, flared eave and spire in weathered
@@ -29,7 +30,7 @@
  * mosaics and arcades simplified, terraces and the wooden bell tower omitted.
  */
 import * as THREE from 'three'
-import { Builder, V, mat, metricBox, facet, extrude, frameShape, opening, loft, polyRing, faceFrame, seams, cross, helm, type Face } from '../kit'
+import { Builder, V, mat, metricBox, facet, extrude, frameShape, opening, loft, polyRing, rectRing, faceFrame, seams, cross, helm, hippedRoof, windowGrid, window_, type Face } from '../kit'
 import type { ModelModule } from '../registry'
 
 const D2R = Math.PI / 180
@@ -249,7 +250,122 @@ function build(): Builder {
   // small cross on the altar end of the roof (photo 01)
   cross(b, 'gilt', XC, EAVE + HW * Math.tan(PITCH * D2R) + 0.1, ZC, 1.2, true, Math.PI / 2)
 
+  /* ================= Nicolae Steinhardt centre (photos 04, 05) ================= */
+  b.merge(steinhardtCentre(), mat(SC.x, 0, SC.z, SC.ry))
+
   return b
+}
+
+/*
+ * Nicolae Steinhardt cultural-monastic centre, ≈ 100 m north-east of the church
+ * (OSM way 267015846, construction outline ≈ 43.5 × 17 m with a 14 × 13 m wing
+ * projecting towards the church). Photographed in Jan 2018 under scaffolding
+ * with its new copper roofs: a tall main block under a steep hipped roof with
+ * skylights, and in front of it a buttressed wing crowned by a cantilevered
+ * arcaded gallery and its own hipped roof. Local frame: x along the long axis
+ * (102.8° ESE), +z towards the church. Façades are shown as neutral massing
+ * (under construction in the photos); the storeys below the road on the
+ * downhill side are not represented. Roofs in the same copper as the church.
+ */
+const SC = { x: -12.8, z: -103.7, ry: 34.7 * D2R }
+const SCM = { x0: -21.0, x1: 22.5, hd: 8.6, eave: 25.0, pitch: 42, ov: 0.8 }
+const SCW = { x0: -0.5, x1: 13.5, z1: 21.9, eave: 20.5, gal: 18.0, cant: 1.2, pitch: 42 }
+function skylights(t: Builder, xs: number[], z: number, y: number, pitchDeg: number, dir: 1 | -1, alongX = true) {
+  for (const s of xs) {
+    const p = alongX ? V(s, y, z) : V(z, y, s)
+    const rot = alongX ? mat(p.x, p.y, p.z, 0, dir * pitchDeg * D2R) : mat(p.x, p.y, p.z, 0, 0, -dir * pitchDeg * D2R)
+    t.add('glassC', metricBox(0.75, 0.08, 1.05), rot)
+  }
+}
+function steinhardtCentre(): Builder {
+  const t = new Builder()
+  const C = 'rohCon'
+  /* main block */
+  {
+    const { x0, x1, hd, eave, pitch, ov } = SCM
+    const L = x1 - x0
+    const cx = (x0 + x1) / 2
+    t.block(C, L, eave, 2 * hd, cx, 0, 0)
+    // window grid on both long sides, top-floor loggia under the eave (photo 04)
+    for (const f of ['+z', '-z'] as Face[]) {
+      const plane = f === '+z' ? hd : -hd
+      windowGrid(t, f, plane, { u0: f === '+z' ? x0 + 1 : -x1 + 1, u1: f === '+z' ? x1 - 1 : -x0 - 1, cols: 12, floors: [1.2, 4.3, 7.4, 10.5, 13.6, 16.7, 19.8], w: 1.3, h: 1.7, frame: 0, glassKey: 'glassC' })
+      t.add('black', metricBox(L - 1.0, 1.9, 0.05), M(faceFrame(f, plane, f === '+z' ? cx : -cx, 0, 0), mat(0, 23.0, 0.02)))
+      t.add('rohWood', metricBox(L - 0.8, 0.9, 0.1), M(faceFrame(f, plane, f === '+z' ? cx : -cx, 0, 0), mat(0, 22.55, 0.1)))
+    }
+    for (const f of ['+x', '-x'] as Face[]) windowGrid(t, f, f === '+x' ? x1 : x0, { u0: -hd + 1, u1: hd - 1, cols: 4, floors: [1.2, 4.3, 7.4, 10.5, 13.6, 16.7, 19.8], w: 1.3, h: 1.7, frame: 0, glassKey: 'glassC' })
+    for (let y = 3.9; y < eave - 1; y += 3.1) t.block(C, L + 0.16, 0.22, 2 * hd + 0.16, cx, y, 0)
+    // steep hipped copper roof with two rows of skylights
+    const ridge = hippedRoof(t, ROOF, { x: cx, z: 0, w: L, d: 2 * hd, y: eave, pitch, overhang: ov, seams: SEAM })
+    t.add('rohWood', loft([rectRing(L / 2, hd, eave), rectRing(L / 2 + ov - 0.02, hd + ov - 0.02, eave - ov * Math.tan(pitch * D2R) - 0.1)]))
+    const tp = Math.tan(pitch * D2R)
+    for (const [dz, xs] of [[2.6, [-17, -11, -5, 1, 7, 13, 19]], [5.6, [-14, -8, -2, 4, 10, 16]]] as [number, number[]][]) {
+      for (const s of [1, -1] as (1 | -1)[]) skylights(t, xs, s * (hd + ov - dz), eave - ov * tp + dz * tp + 0.08, pitch, s)
+    }
+    void ridge
+  }
+  /* buttressed wing towards the church with its cantilevered arcaded gallery */
+  {
+    const { x0, x1, z1, eave, gal, cant, pitch } = SCW
+    const z0 = SCM.hd
+    const W = x1 - x0
+    const cx = (x0 + x1) / 2
+    const D = z1 - z0
+    const cz = (z0 + z1) / 2
+    t.block(C, W, gal, D, cx, 0, cz)
+    // stepped buttress piers at the corners and between the window columns
+    const piers: [number, number, number, number][] = [] // x, z, wx, wz
+    for (const u of [x0, x0 + W / 3, x0 + (2 * W) / 3, x1]) piers.push([u, z1, 1.0, 0.9])
+    for (const zz of [z0 + D / 2, z1]) {
+      piers.push([x0, zz, 0.9, 1.0])
+      piers.push([x1, zz, 0.9, 1.0])
+    }
+    for (const [px, pz, wx, wz] of piers) {
+      t.block(C, wx + 0.5, 6.0, wz + 0.5, px, 0, pz)
+      t.block(C, wx + 0.25, 6.0, wz + 0.25, px, 6.0, pz)
+      t.block(C, wx, gal - 12.0, wz, px, 12.0, pz)
+    }
+    // rows of small arched windows
+    const fl = [1.4, 4.2, 7.0, 9.8, 12.6, 15.4]
+    for (const y0 of fl) {
+      for (let i = 0; i < 3; i++) {
+        for (const du of [-1.1, 1.1]) {
+          const u = x0 + (W / 3) * (i + 0.5) + du
+          window_(t, '+z', z1, u, y0, { type: 'round', w: 0.75, h: 1.5, frame: 0, glassKey: 'glassC' })
+        }
+      }
+      for (const f of ['+x', '-x'] as Face[]) for (const du of [-2.2, 2.2]) window_(t, f, f === '+x' ? x1 : x0, f === '+x' ? -(cz + du) : cz + du, y0, { type: 'round', w: 0.75, h: 1.5, frame: 0, glassKey: 'glassC' })
+    }
+    // corbelled, cantilevered gallery storey with a ring of round arches
+    const gx0 = x0 - cant
+    const gx1 = x1 + cant
+    const gz1 = z1 + cant
+    const gW = gx1 - gx0
+    const gcx = (gx0 + gx1) / 2
+    const gD = gz1 - z0
+    const gcz = (z0 + gz1) / 2
+    t.block(C, gW, 0.5, gD, gcx, gal - 0.5, gcz)
+    for (let u = gx0 + 0.6; u < gx1 - 0.3; u += 1.15) t.block(C, 0.4, 0.9, cant, u, gal - 1.4, z1 + cant / 2)
+    for (const zz of [z1 - 1, z1 - 4, z1 - 7, z1 - 10]) for (const xx of [x0 - cant / 2, x1 + cant / 2]) t.block(C, cant, 0.9, 0.4, xx, gal - 1.4, zz)
+    t.block(C, gW, eave - gal, gD, gcx, gal, gcz)
+    for (const [f, plane, n] of [['+z', gz1, 14], ['+x', gx1, 12], ['-x', gx0, 12]] as [Face, number, number][]) {
+      const span = f === '+z' ? gW : gD
+      const mid = f === '+z' ? gcx : f === '+x' ? -gcz : gcz
+      for (let i = 0; i < n; i++) {
+        const u = mid - span / 2 + (span / n) * (i + 0.5)
+        window_(t, f, plane, u, gal + 0.35, { type: 'round', w: (span / n) * 0.62, h: 1.6, frame: 0, glassKey: 'black' })
+      }
+    }
+    t.block('rohWood', gW + 0.1, 0.22, gD + 0.1, gcx, gal + 0.3, gcz)
+    // hipped copper roof running back into the main roof
+    const zb = 2.0
+    const rz1 = gz1
+    hippedRoof(t, ROOF, { x: gcx, z: (zb + rz1) / 2, w: gW, d: rz1 - zb, y: eave, pitch, overhang: 0.7, seams: SEAM })
+    const tp = Math.tan(pitch * D2R)
+    skylights(t, [gcx - 4.5, gcx - 1.5, gcx + 1.5, gcx + 4.5], rz1 + 0.7 - 2.4, eave - 0.7 * tp + 2.4 * tp + 0.08, pitch, 1)
+    for (const s of [1, -1] as (1 | -1)[]) skylights(t, [rz1 - 6, rz1 - 9.5], s > 0 ? gx1 + 0.7 - 2.4 : gx0 - 0.7 + 2.4, eave - 0.7 * tp + 2.4 * tp + 0.08, pitch, s, false)
+  }
+  return t
 }
 
 const model: ModelModule = {
@@ -264,8 +380,9 @@ const model: ModelModule = {
     rohMosaic: new THREE.MeshStandardMaterial({ color: '#c49a4a', roughness: 0.45, metalness: 0.35 }),
     rohMosaicDk: new THREE.MeshStandardMaterial({ color: '#7a5a3a', roughness: 0.5, metalness: 0.2 }),
     rohPorchCeil: new THREE.MeshStandardMaterial({ color: '#4a5a7a', roughness: 0.7 }),
+    rohCon: new THREE.MeshStandardMaterial({ color: '#cfcac1', roughness: 0.92 }),
   }),
   notes:
-    'Main church of Rohia monastery: neo-Byzantine banded walls, entrance porch, square tower base, tall drum and flared spire; roofs shown in weathered copper per the COLOR METAL register (the church photographs predate the 2019 entry).',
+    'Main church of Rohia monastery: neo-Byzantine banded walls, entrance porch, square tower base, tall drum and flared spire; roofs shown in weathered copper per the COLOR METAL register (the church photographs predate the 2019 entry). The copper-roofed Nicolae Steinhardt centre ≈ 100 m north-east is included as simplified massing.',
 }
 export default model

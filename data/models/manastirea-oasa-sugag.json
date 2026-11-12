@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 90.4,
+ "bearingSource": "OSM way 1081850116 long axis 90.4°; +X towards the semicircular altar apse at the east end of the outline, the wider narthex at the west end (drone photos 01–03).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Plan from the OSM outline (narthex 12.0 × 15.3 m, body 12.1 m wide, crossing 6.9 m with side apses r 3.45 m, altar apse r 3.4 m), re-centred on the church axis. Heights estimated from three small, oblique 2020 drone photographs (no survey; ±10–15 %): outer walls ≈ 7.0 m, raised cross arms ≈ 9.6 m (ridges ≈ 12 m), apses ≈ 8.6 m, crossing base ≈ 12.9 m, drum to ≈ 16.9 m, dome top ≈ 19.8 m, cross ≈ 21.8 m. Grey banding of the white masonry, blind arches and window counts schematic; the north and east elevations partly inferred by symmetry; roof junctions simplified. The photographs predate the 2022 order and show blue-grey sheet roofs; which surfaces received the copper is not documented, so all roofs and the dome are shown in weathered copper. The wooden church and the monastery buildings are not modelled.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice (fotografii din dronă din 2020): biserica nouă de zid a mănăstirii, în stil sârbo-bizantin, cu pronaos lat, abside laterale și turlă pe tambur. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile și cupola sunt redate în cuprul furnizat de COLOR METAL conform evidențelor sale (cu aspect îmbătrânit), presupunând că acesta acoperă toate învelitorile; înălțimile sunt estimate.",
+  "hu": "Nyilvános referenciafotók (2020-as drónfelvételek) alapján értelmezett makett: a kolostor új, szerb-bizánci stílusú kőtemploma széles előcsarnokkal, oldalapszisokkal és dobra állított kupolával. A fotók a munkálatok előttiek, ezért a tetők és a kupola a COLOR METAL nyilvántartása szerint általa szállított rézzel (patinásodott megjelenéssel) jelennek meg, feltételezve, hogy ez minden tetőfelületet fed; a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs (2020 drone views): the monastery's new Serbo-Byzantine masonry church with a wide narthex, side apses and a dome on a drum. The photographs predate the works, so the roofs and the dome are shown in the copper supplied by COLOR METAL according to its records (weathered appearance), assuming it covers all roof surfaces; heights are estimated."
+ }
+}

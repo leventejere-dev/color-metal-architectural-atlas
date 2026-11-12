@@ -20,6 +20,11 @@
  *    (the naos tower highest), round-arched windows, eave cornice, low saucer
  *    domes, Orthodox crosses (02, 03).
  *  - Roofs and domes modelled in copper (standing seams ≈ 0.5 m).
+ *  - Ensemble (low detail): the precinct ranges whose roofs show new copper in
+ *    drone photo 03 — north range and angled north-east range (mitred bend),
+ *    two-storey south range with a copper corner pavilion and a short southern
+ *    projection — placed from the OSM precinct outlines; the tower at the north
+ *    bend and the north-east pavilion (grey roofs) as neutral massing only.
  * Approximations: the photographs show the church with a light grey sheet roof
  * (before / outside the documented copper work) — the copper finish follows the
  * project record; heights are estimated from the ground photo (no survey data);
@@ -27,7 +32,7 @@
  * outline and the typical triconch layout; buttresses omitted.
  */
 import * as THREE from 'three'
-import { Builder, V, mat, metricBox, extrude, opening, frameShape, prism, ringBand, hippedRoof, gableRoof, polygonalApse, helm, seams, faceFrame } from '../kit'
+import { Builder, V, mat, metricBox, extrude, opening, frameShape, prism, ringBand, hippedRoof, gableRoof, polygonalApse, helm, seams, faceFrame, facet, prismOutline } from '../kit'
 import type { OpeningType } from '../kit'
 import type { ModelModule } from '../registry'
 
@@ -90,6 +95,146 @@ function towerBase(b: Builder, x: number, w: number, y0: number, y1: number) {
   b.block(WALL, w, y1 - y0, w, x, y0, 0)
   b.block(TRIM, w + 0.3, 0.25, w + 0.3, x, y1 - 0.25, 0)
   for (const ridge of ['x', 'z'] as const) gableRoof(b, CU, { x, z: 0, w, d: w, y: y1, pitch: 20, ridge, overhang: 0.25, seams: SEAM, wallKey: WALL })
+}
+
+/* ------------------------------------------------------------------ */
+/* Precinct ranges with new copper roofs (drone photo 03)               */
+/* ------------------------------------------------------------------ */
+// Positions from the OSM precinct outlines (ways 1432713919, 1432717713/14),
+// converted to this model's frame (origin = catholicon outline centre, +X = 123.5°).
+type P2 = [number, number]
+const D2R = Math.PI / 180
+const add2 = (a: P2, c: P2, k = 1): P2 => [a[0] + c[0] * k, a[1] + c[1] * k]
+const dir2 = (deg: number): P2 => [Math.cos(deg * D2R), Math.sin(deg * D2R)]
+/** intersection of the line a + t·da with the line c + s·dc */
+function meet(a: P2, da: P2, c: P2, dc: P2): P2 {
+  const den = da[0] * dc[1] - da[1] * dc[0]
+  const t = ((c[0] - a[0]) * dc[1] - (c[1] - a[1]) * dc[0]) / den
+  return add2(a, da, t)
+}
+
+interface Wing {
+  s: P2 // axis start (plan)
+  e: P2 // axis end
+  hw: number // half width of the walls
+  ov: number // eave overhang
+  eave: number // wall top
+  pitch: number
+  /** mitre line directions through the axis start / end (square end with a gable when omitted) */
+  mitreS?: P2
+  mitreE?: P2
+  floors: number[] // window sill heights
+  win?: [number, number]
+  skipWin?: (s: number, side: number) => boolean
+}
+
+/** Gabled copper-roofed range on an arbitrary axis; mitred ends meet a neighbouring range of equal section. */
+function wing(b: Builder, w: Wing) {
+  const L = Math.hypot(w.e[0] - w.s[0], w.e[1] - w.s[1])
+  const d: P2 = [(w.e[0] - w.s[0]) / L, (w.e[1] - w.s[1]) / L]
+  const n: P2 = [-d[1], d[0]] // +side normal
+  const t = Math.tan(w.pitch * D2R)
+  const ridge = w.eave + w.hw * t
+  const eY = w.eave - w.ov * t
+  const endPt = (p: P2, off: number, m: P2 | undefined, sgn: number, ext: number): P2 => {
+    const q = add2(p, n, off)
+    return m ? meet(q, d, p, m) : add2(q, d, sgn * ext)
+  }
+  // walls (mitred where the ranges meet)
+  const wallPts = [endPt(w.s, -w.hw, w.mitreS, -1, 0), endPt(w.e, -w.hw, w.mitreE, 1, 0), endPt(w.e, w.hw, w.mitreE, 1, 0), endPt(w.s, w.hw, w.mitreS, -1, 0)]
+  prismOutline(b, WALL, wallPts, 0, w.eave)
+  const so = [endPt(w.s, -w.hw - 0.12, w.mitreS, -1, 0.12), endPt(w.e, -w.hw - 0.12, w.mitreE, 1, 0.12), endPt(w.e, w.hw + 0.12, w.mitreE, 1, 0.12), endPt(w.s, w.hw + 0.12, w.mitreS, -1, 0.12)]
+  prismOutline(b, 'socle', so, 0, 0.5)
+  // roof: two slopes, mitred or with gable overhang
+  const ext = w.ov * 0.6
+  const rS = w.mitreS ? w.s : add2(w.s, d, -ext)
+  const rE = w.mitreE ? w.e : add2(w.e, d, ext)
+  for (const side of [-1, 1]) {
+    const off = side * (w.hw + w.ov)
+    const a = endPt(w.s, off, w.mitreS, -1, ext)
+    const c = endPt(w.e, off, w.mitreE, 1, ext)
+    facet(b, CU, [V(a[0], eY, a[1]), V(c[0], eY, c[1]), V(rE[0], ridge, rE[1]), V(rS[0], ridge, rS[1])], { seams: SEAM, thickness: 0.12 })
+  }
+  b.beam(CU, V(rS[0], ridge + 0.05, rS[1]), V(rE[0], ridge + 0.05, rE[1]), 0.24, 0.14)
+  // eave cornice and gable walls at square ends
+  for (const side of [-1, 1]) {
+    const a = endPt(w.s, side * w.hw, w.mitreS, -1, 0)
+    const c = endPt(w.e, side * w.hw, w.mitreE, 1, 0)
+    b.beam(TRIM, V(a[0], w.eave - 0.15, a[1]), V(c[0], w.eave - 0.15, c[1]), 0.5, 0.3)
+  }
+  const ang = Math.atan2(d[1], d[0])
+  for (const [p, m, k] of [
+    [w.s, w.mitreS, 0],
+    [w.e, w.mitreE, -0.3],
+  ] as [P2, P2 | undefined, number][]) {
+    if (m) continue
+    // triangle in the end-wall plane, extruded 0.3 m inwards along the axis
+    const g = new THREE.Shape([new THREE.Vector2(-w.hw, w.eave - 0.01), new THREE.Vector2(w.hw, w.eave - 0.01), new THREE.Vector2(0, ridge - 0.1)])
+    b.add(WALL, extrude(g, 0.3), mat(p[0] + d[0] * k, 0, p[1] + d[1] * k, Math.PI / 2 - ang))
+  }
+  // window rows on both long façades
+  const [ww, wh] = w.win ?? [0.95, 1.45]
+  const cnt = Math.max(1, Math.floor((L - 3) / 3.3))
+  const step = (L - 3) / cnt
+  for (const side of [-1, 1]) {
+    const nn: P2 = [n[0] * side, n[1] * side]
+    for (let i = 0; i < cnt; i++) {
+      const sAx = 1.5 + step * (i + 0.5)
+      if (w.skipWin?.(sAx, side)) continue
+      const p = add2(add2(w.s, d, sAx), n, side * w.hw)
+      const m = mat(p[0], 0, p[1], Math.PI / 2 - Math.atan2(nn[1], nn[0]))
+      for (const y0 of w.floors) op(b, m, { w: ww, h: wh, y0, type: 'rect', frame: 0.12, depth: 0.12 })
+    }
+  }
+  return ridge
+}
+
+/** Square pavilion with a hipped/pyramid roof (rotated by deg). */
+function pavilion(b: Builder, c: P2, deg: number, hx: number, hz: number, eave: number, pitch: number, roofKey: string, ov = 0.5) {
+  const g = new Builder()
+  g.block(WALL, 2 * hx, eave, 2 * hz, 0, 0, 0)
+  g.block('socle', 2 * hx + 0.24, 0.5, 2 * hz + 0.24, 0, 0, 0)
+  g.block(TRIM, 2 * hx + 0.5, 0.3, 2 * hz + 0.5, 0, eave - 0.3, 0)
+  hippedRoof(g, roofKey, { w: 2 * hx, d: 2 * hz, y: eave, pitch, overhang: ov, seams: roofKey === CU ? SEAM : false })
+  b.merge(g, mat(c[0], 0, c[1], -deg * D2R))
+}
+
+function precinct(b: Builder) {
+  // north range (towards the north-west corner tower) and the angled north-east range meet at a mitred bend
+  const bend: P2 = [0.36, -22.9]
+  const dN: P2 = [bend[0] + 42.5, bend[1] + 12.0]
+  const lN = Math.hypot(dN[0], dN[1])
+  const uN: P2 = [dN[0] / lN, dN[1] / lN]
+  const uE = dir2(26.9)
+  const sum: P2 = [uN[0] + uE[0], uN[1] + uE[1]]
+  const ls = Math.hypot(sum[0], sum[1])
+  const mitre: P2 = [-sum[1] / ls, sum[0] / ls]
+  const sec = { hw: 4.55, ov: 0.5, eave: 6.0, pitch: 26 }
+  wing(b, { s: [-42.5, -12.0], e: bend, ...sec, mitreE: mitre, floors: [1.1, 3.75], win: [0.9, 1.3] })
+  wing(b, { s: bend, e: add2(bend, uE, 22), ...sec, mitreS: mitre, floors: [1.1, 3.75], win: [0.9, 1.3] })
+  // south range (two storeys) with the copper pavilion at its east end and a short south projection
+  const s0: P2 = [-28, 23.94]
+  const s1: P2 = [24, 12.94]
+  const degS = (Math.atan2(s1[1] - s0[1], s1[0] - s0[0]) * 180) / Math.PI
+  wing(b, { s: s0, e: s1, hw: 4.0, ov: 0.5, eave: 8.0, pitch: 28, floors: [1.2, 4.6], win: [1.0, 1.6] })
+  // three copper-clad vent hoods on the courtyard slope (photo 03)
+  {
+    const lS = Math.hypot(s1[0] - s0[0], s1[1] - s0[1])
+    const u: P2 = [(s1[0] - s0[0]) / lS, (s1[1] - s0[1]) / lS]
+    const nC: P2 = [u[1], -u[0]] // courtyard side (towards the church)
+    const t28 = Math.tan(28 * D2R)
+    for (const sAx of [24, 33, 42]) {
+      const p = add2(add2(s0, u, sAx), nC, 2.0)
+      const y = 8.0 + (4.0 - 2.0) * t28
+      b.add(CU, metricBox(1.0, 0.9, 0.7), mat(p[0], y + 0.25, p[1], -Math.atan2(u[1], u[0])))
+      b.add(CU, metricBox(1.15, 0.08, 0.85), mat(p[0], y + 0.72, p[1], -Math.atan2(u[1], u[0])))
+    }
+  }
+  pavilion(b, [29.0, 12.9], degS, 4.5, 4.5, 8.3, 30, CU)
+  wing(b, { s: [13.94, 19.59], e: [17.06, 29.05], hw: 2.7, ov: 0.45, eave: 7.0, pitch: 28, floors: [1.2, 4.2], win: [0.9, 1.4], skipWin: (s) => s < 3 })
+  // neutral massing attached to the copper ranges (roofs not copper in photo 03): tower at the bend, NE pavilion
+  pavilion(b, [-1.4, -27.6], 6, 3.3, 3.3, 10.0, 42, 'plasterGrey', 0.4)
+  pavilion(b, add2(add2(bend, uE, 22), uE, 4.6), 26.9, 4.6, 4.5, 6.6, 24, 'plasterGrey', 0.4)
 }
 
 function build(): Builder {
@@ -220,6 +365,9 @@ function build(): Builder {
     orthoCross(b, t.x, top + 0.25, 0, t.cross)
   })
 
+  /* ---------------- precinct ranges with copper roofs ---------------- */
+  precinct(b)
+
   return b
 }
 
@@ -231,6 +379,6 @@ const model: ModelModule = {
     icon: new THREE.MeshStandardMaterial({ color: '#7b6a4c', roughness: 0.55, metalness: 0.25 }),
   }),
   notes:
-    'Preliminary model from three small photographs and the OSM outline: heights estimated, east end and conchs interpreted; the photos show a grey sheet roof — the copper finish follows the project record.',
+    'Preliminary model from three small photographs and the OSM outline: heights estimated, east end and conchs interpreted; the photos show a grey sheet roof — the copper finish follows the project record. Precinct ranges with new copper roofs (drone photo) included at low detail.',
 }
 export default model

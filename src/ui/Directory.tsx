@@ -105,7 +105,7 @@ export function Directory() {
         <ul className="dir-list">
           {list.length === 0 && <li className="empty">{t.noResults}</li>}
           {list.map((p) => {
-            const thumb = p.cover ? thumbUrl(p.id, p.cover) : null
+            const thumb = p.cover ? thumbUrl(p.id, p.cover) : (p.thumb ?? null)
             return (
               <li key={p.id}>
                 <button

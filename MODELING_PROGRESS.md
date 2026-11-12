@@ -23,7 +23,7 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 <!-- GENERATED-TABLE:START -->
 | id | name | tier | status | module | public photos | photos analysed |
 |---|---|---|---|---|---|---|
-| `sepsi-osk-arena` | Stadionul Sepsi OSK (Sepsi Duna Aréna) | A | existing-verified | exhibition:stadium | 12 | exhibition-table reference set |
+| `sepsi-osk-arena` | Stadionul Sepsi OSK (Sepsi Duna Aréna) | A | existing-verified | exhibition:stadium-full | 12 | exhibition-table reference set |
 | `biserica-reformata-tasnad` | Biserica Reformată din Tășnad | A | existing-verified | exhibition:church | 0 | exhibition-table reference set |
 | `castelul-banffy-rascruci` | Castelul Bánffy din Răscruci | A | existing-verified | exhibition:manor | 12 | exhibition-table reference set |
 | `parcare-satu-mare` | Parcare supraetajată Satu Mare | A | existing-verified | exhibition:garage | 7 | 18 |
@@ -53,9 +53,9 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 | `liceul-teoretic-ady-endre` | Liceul Teoretic „Ady Endre” | B | preview | liceul-teoretic-ady-endre | 12 | 12 |
 | `manastirea-barnova` | Mănăstirea Bârnova | B | preview | manastirea-barnova | 12 | 12 |
 | `manastirea-dragomirna` | Mănăstirea Dragomirna | B | preview | manastirea-dragomirna | 0 | 2 |
-| `manastirea-frumoasa` | Mănăstirea Frumoasa | B | preview | manastirea-frumoasa | 12 | 7 |
+| `manastirea-frumoasa` | Mănăstirea Frumoasa | B | preview | manastirea-frumoasa | 12 | 10 |
 | `manastirea-putna` | Mănăstirea Putna | C | reference-limited | manastirea-putna | 0 | 2 |
-| `manastirea-tazlau` | Mănăstirea Tazlău | A | detailed | manastirea-tazlau | 12 | 9 |
+| `manastirea-tazlau` | Mănăstirea Tazlău | A | detailed | manastirea-tazlau | 12 | 12 |
 | `manastirea-tismana` | Mănăstirea Tismana | C | reference-limited | manastirea-tismana | 0 | 3 |
 | `muzeul-istorie-arheologie-piatra-neamt` | Muzeul de Istorie și Arheologie Piatra-Neamț | A | detailed | muzeul-istorie-arheologie-piatra-neamt | 8 | 8 |
 | `muzeul-apei-timisoara` | Muzeul Apei Timișoara | B | preview | muzeul-apei-timisoara | 11 | 9 |
@@ -131,7 +131,7 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 | `catedrala-nasterea-domnului-suceava` | Catedrala „Nașterea Domnului” din Suceava | B | preview | catedrala-nasterea-domnului-suceava | 0 | 7 |
 | `manastirea-sucevita` | Mănăstirea Sucevița – Biserica „Învierea Domnului” | B | preview | manastirea-sucevita | 0 | 5 |
 | `manastirea-secu` | Mănăstirea Secu – Biserica „Tăierea Capului Sf. Ioan Botezătorul” | B | preview | manastirea-secu | 0 | 5 |
-| `manastirea-varatec` | Mănăstirea Văratec – Biserica „Adormirea Maicii Domnului” | B | preview | manastirea-varatec | 0 | 3 |
+| `manastirea-varatec` | Mănăstirea Văratec – Biserica „Adormirea Maicii Domnului” | B | preview | manastirea-varatec | 0 | 4 |
 | `manastirea-almas` | Mănăstirea Almaș | B | preview | manastirea-almas | 0 | 3 |
 | `biserica-sf-teodori-iasi` | Biserica „Sfinții Teodori” din Iași | B | preview | biserica-sf-teodori-iasi | 0 | 4 |
 | `turnul-barboi-iasi` | Turnul-clopotniță al Bisericii Bărboi, Iași | B | preview | turnul-barboi-iasi | 0 | 3 |
@@ -140,32 +140,38 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 | `catedrala-focsani` | Catedrala Ortodoxă „Sfânta Cuvioasa Parascheva” din Focșani | B | preview | catedrala-focsani | 0 | 5 |
 | `manastirea-ciolanu` | Mănăstirea Ciolanu | B | preview | manastirea-ciolanu | 0 | 5 |
 | `manastirea-negru-voda-campulung` | Mănăstirea Negru Vodă – Biserica domnească „Adormirea Maicii Domnului”, Câmpulung | C | reference-limited | manastirea-negru-voda-campulung | 0 | 3 |
-| `parohia-nasterii-maicii-domnului-campulung-moldovenesc` | Biserica de lemn „Nașterea Maicii Domnului” din Câmpulung Moldovenesc (Capu Satului) | B | preview | parohia-nasterii-maicii-domnului-campulung-moldovenesc | 0 | — |
-| `biserica-sfantul-stefan-iasi` | Biserica „Sfântul Ștefan” (Str. Albineț), Iași | D | none | — | 0 | — |
-| `schit-berca-berca` | Schitul Berca – Biserica «Sfinții Arhangheli Mihail și Gavriil» (fosta mănăstire Berca) | B | preview | schit-berca-berca | 0 | — |
-| `manastirea-sitaru-sitaru` | Mănăstirea Sitaru (Balamuci) – Biserica «Sfântul Nicolae» | B | preview | manastirea-sitaru-sitaru | 0 | — |
-| `biserica-incinta-centrul-de-odihna-si-meditatie-pantelimon-l-pantelimon` | Biserica Centrului Cultural-Misionar «Familia» (Complexul Lebăda, Pantelimon) | D | none | — | 0 | — |
-| `casa-dianu-craiova` | Casa Dianu (Muzeul Cărții și Exilului Românesc) | D | none | — | 0 | — |
-| `biserica-sf-gheorghe-manastirea-viforata-viforata` | Biserica „Nașterea Maicii Domnului” și „Sf. Mare Mucenic Gheorghe” a Mănăstirii Viforâta | B | preview | biserica-sf-gheorghe-manastirea-viforata-viforata | 0 | — |
-| `biserica-manastirea-manastirea` | Biserica „Sf. Dumitru și Sf. Nestor” din Mânăstirea | B | preview | biserica-manastirea-manastirea | 0 | — |
-| `casa-armatei-constanta` | Cercul Militar Constanța (fosta Prefectură a județului Constanța) | D | none | — | 0 | — |
-| `biserica-balint-balint` | Biserica Ortodoxă «Învierea Domnului» din Balinț | D | none | — | 0 | — |
-| `biserica-jdioara-jdioara` | Biserica Ortodoxă «Sfinții Apostoli Petru și Pavel» din Jdioara | D | none | — | 0 | — |
-| `parohia-ortodoxa-romana-sag-sag` | Biserica Ortodoxă «Adormirea Maicii Domnului» din Șag | D | none | — | 0 | — |
-| `parohia-ortodoxa-romana-timisoara-plopi-timisoara` | Biserica Ortodoxă «Sfinții Apostoli Petru și Pavel» – Plopi, Timișoara | D | none | — | 0 | — |
-| `biserica-tormac-tormac` | Biserica Reformată din Tormac | D | none | — | 0 | — |
-| `biserica-iecea-mare-iecea-mare` | Biserica Ortodoxă «Sfinții Arhangheli Mihail și Gavriil» din Iecea Mare | D | none | — | 0 | — |
-| `biserica-obirsia-closani-obirsia-closani` | Biserica „Sfântul Mare Mucenic Teodor Tiron” din Obârșia-Cloșani | D | none | — | 0 | — |
-| `schitul-sf-apostoli-petru-si-pavel-cornereva` | Schitul „Sfinții Apostoli Petru și Pavel” Bogâltin | D | none | — | 0 | — |
-| `manastirea-sf-ioan-iacob-hozevitul-piatra-craiului` | Mănăstirea Piatra Craiului «Sfântul Ioan Iacob Hozevitul» | B | preview | manastirea-sf-ioan-iacob-hozevitul-piatra-craiului | 0 | — |
-| `manastirea-sfanta-treime-farau` | Mănăstirea «Sfânta Treime» Fărău | B | preview | manastirea-sfanta-treime-farau | 0 | — |
-| `corp-manastirea-ponor-ponor` | Mănăstirea Ponor «Înălțarea Domnului» (building/wing not identified) | B | preview | corp-manastirea-ponor-ponor | 0 | — |
-| `manastirea-buna-vestire-zlatna` | Mănăstirea «Buna Vestire» Pătrângeni (Negraia), Zlatna | B | preview | manastirea-buna-vestire-zlatna | 0 | — |
-| `biserica-romano-catolica-foieni` | Biserica Romano-Catolică «Sfântul Arhanghel Mihail» din Foieni | B | preview | biserica-romano-catolica-foieni | 0 | — |
-| `manastirea-oasa-sugag` | Mănăstirea Oașa – biserica nouă „Sfântul Mare Mucenic Pantelimon” | B | preview | manastirea-oasa-sugag | 0 | — |
-| `parohia-ortodoxa-romana-sadu-i-sadu` | Biserica Ortodoxă „Adormirea Maicii Domnului” din Sadu (biserica veche, Parohia Sadu I) | B | preview | parohia-ortodoxa-romana-sadu-i-sadu | 0 | — |
-| `biserica-ortodoxa-stramtura-stramtura` | Biserica Ortodoxă din Strâmtura (biserica parohială de zid, Parohia Ortodoxă Strâmtura) | D | none | — | 0 | — |
-| `biserica-reformata-din-apahida-apahida` | Biserica Reformată din Apahida (biserică nouă în construcție, Parohia Reformată de Misiune Apahida) | D | none | — | 0 | — |
+| `parohia-nasterii-maicii-domnului-campulung-moldovenesc` | Biserica de lemn „Nașterea Maicii Domnului” din Câmpulung Moldovenesc (Capu Satului) | B | preview | parohia-nasterii-maicii-domnului-campulung-moldovenesc | 0 | 4 |
+| `biserica-sfantul-stefan-iasi` | Biserica „Sfântul Ștefan” (Str. Albineț), Iași | C | preview | biserica-sfantul-stefan-iasi | 0 | 1 |
+| `schit-berca-berca` | Schitul Berca – Biserica «Sfinții Arhangheli Mihail și Gavriil» (fosta mănăstire Berca) | B | preview | schit-berca-berca | 0 | 5 |
+| `hotel-indigo-bucuresti-bucuresti` | One Plaza Athénée – clădirea nefinalizată din Str. Georges Clemenceau 8-10 (proiectul Hotel Indigo București, 2018-2019) | C | preview | hotel-indigo-bucuresti-bucuresti | 0 | 2 |
+| `biserica-aparatorii-patriei-bucuresti` | Biserica Parohiei Apărătorii Patriei I | B | preview | biserica-aparatorii-patriei-bucuresti | 0 | 4 |
+| `manastirea-sitaru-sitaru` | Mănăstirea Sitaru (Balamuci) – Biserica «Sfântul Nicolae» | B | preview | manastirea-sitaru-sitaru | 0 | 5 |
+| `biserica-incinta-centrul-de-odihna-si-meditatie-pantelimon-l-pantelimon` | Biserica Centrului Cultural-Misionar «Familia» (Complexul Lebăda, Pantelimon) | B | preview | biserica-incinta-centrul-de-odihna-si-meditatie-pantelimon-l-pantelimon | 0 | 4 |
+| `casa-dianu-craiova` | Casa Dianu (Muzeul Cărții și Exilului Românesc) | B | preview | casa-dianu-craiova | 0 | 5 |
+| `biserica-sf-gheorghe-manastirea-viforata-viforata` | Biserica „Nașterea Maicii Domnului” și „Sf. Mare Mucenic Gheorghe” a Mănăstirii Viforâta | B | preview | biserica-sf-gheorghe-manastirea-viforata-viforata | 0 | 5 |
+| `biserica-manastirea-manastirea` | Biserica „Sf. Dumitru și Sf. Nestor” din Mânăstirea | B | preview | biserica-manastirea-manastirea | 0 | 7 |
+| `biserica-neptun-neptun` | Biserica „Adormirea Maicii Domnului” din Neptun | B | preview | biserica-neptun-neptun | 0 | 4 |
+| `biserica-vartop-vartop` | Biserica „Nașterea Maicii Domnului” din Vârtop | C | preview | biserica-vartop-vartop | 0 | 2 |
+| `manastirea-tariceni-calarasi` | Schitul (Mănăstirea) Tăriceni – Biserica „Sf. Ierarh Nicolae” | B | preview | manastirea-tariceni-calarasi | 0 | 2 |
+| `casa-armatei-constanta` | Cercul Militar Constanța (fosta Prefectură a județului Constanța) | C | reference-limited | casa-armatei-constanta | 0 | 1 |
+| `biserica-balint-balint` | Biserica Ortodoxă «Învierea Domnului» din Balinț | C | reference-limited | biserica-balint-balint | 0 | 1 |
+| `biserica-jdioara-jdioara` | Biserica Ortodoxă «Sfinții Apostoli Petru și Pavel» din Jdioara | C | reference-limited | biserica-jdioara-jdioara | 0 | 1 |
+| `biserica-mosnita-veche-mosnita-veche` | Biserica Ortodoxă «Înălțarea Domnului» din Moșnița Veche | C | reference-limited | biserica-mosnita-veche-mosnita-veche | 0 | 3 |
+| `parohia-ortodoxa-romana-sag-sag` | Biserica Ortodoxă «Adormirea Maicii Domnului» din Șag | B | preview | parohia-ortodoxa-romana-sag-sag | 0 | 4 |
+| `parohia-ortodoxa-romana-timisoara-plopi-timisoara` | Biserica Ortodoxă «Sfinții Apostoli Petru și Pavel» – Plopi, Timișoara | C | reference-limited | parohia-ortodoxa-romana-timisoara-plopi-timisoara | 0 | 4 |
+| `biserica-tormac-tormac` | Biserica Reformată din Tormac | B | preview | biserica-tormac-tormac | 0 | 3 |
+| `biserica-iecea-mare-iecea-mare` | Biserica Ortodoxă «Sfinții Arhangheli Mihail și Gavriil» din Iecea Mare | C | reference-limited | biserica-iecea-mare-iecea-mare | 0 | 1 |
+| `biserica-obirsia-closani-obirsia-closani` | Biserica „Sfântul Mare Mucenic Teodor Tiron” din Obârșia-Cloșani | C | reference-limited | biserica-obirsia-closani-obirsia-closani | 0 | 2 |
+| `manastirea-sf-ioan-iacob-hozevitul-piatra-craiului` | Mănăstirea Piatra Craiului «Sfântul Ioan Iacob Hozevitul» | C | preview | manastirea-sf-ioan-iacob-hozevitul-piatra-craiului | 0 | 3 |
+| `manastirea-sfanta-treime-farau` | Mănăstirea «Sfânta Treime» Fărău | B | preview | manastirea-sfanta-treime-farau | 0 | 5 |
+| `parohia-buna-vestire-bistrita` | Biserica Greco-Catolică «Buna Vestire» Bistrița | C | preview | parohia-buna-vestire-bistrita | 0 | 3 |
+| `corp-manastirea-ponor-ponor` | Mănăstirea Ponor «Înălțarea Domnului» (building/wing not identified) | C | preview | corp-manastirea-ponor-ponor | 0 | 2 |
+| `manastirea-buna-vestire-zlatna` | Mănăstirea «Buna Vestire» Pătrângeni (Negraia), Zlatna | B | preview | manastirea-buna-vestire-zlatna | 0 | 3 |
+| `biserica-romano-catolica-foieni` | Biserica Romano-Catolică «Sfântul Arhanghel Mihail» din Foieni | B | preview | biserica-romano-catolica-foieni | 0 | 3 |
+| `manastirea-oasa-sugag` | Mănăstirea Oașa – biserica nouă „Sfântul Mare Mucenic Pantelimon” | B | preview | manastirea-oasa-sugag | 0 | 3 |
+| `parohia-ortodoxa-romana-sadu-i-sadu` | Biserica Ortodoxă „Adormirea Maicii Domnului” din Sadu (biserica veche, Parohia Sadu I) | B | preview | parohia-ortodoxa-romana-sadu-i-sadu | 0 | 3 |
+| `biserica-ortodoxa-stramtura-stramtura` | Biserica Ortodoxă din Strâmtura (biserica parohială de zid, Parohia Ortodoxă Strâmtura) | C | preview | biserica-ortodoxa-stramtura-stramtura | 0 | 2 |
+| `biserica-reformata-din-apahida-apahida` | Biserica Reformată din Apahida (biserică nouă în construcție, Parohia Reformată de Misiune Apahida) | C | preview | biserica-reformata-din-apahida-apahida | 0 | 4 |
 | `biserica-bodogaia` | Biserica din Bodogaia | D | none | — | 0 | — |
 | `tiny-house-zenius` | Tiny house Zenius | D | none | — | 0 | — |
 | `primaria-sector-5-bucuresti` | Primăria Sectorului 5 (building that received the roof not identified) | D | none | — | 0 | — |
@@ -199,8 +205,6 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 | `biserica-urziceni-urziceni` | Biserica din Urziceni (building not identified) | D | none | — | 0 | — |
 | `biserica-snagov-snagov` | Biserica din comuna Snagov (building not identified) | D | none | — | 0 | — |
 | `biserica-in-incinta-spitalului-colentina-bucuresti` | Biserica «Izvorul Tămăduirii» din incinta Spitalului Clinic Colentina | D | none | — | 0 | — |
-| `hotel-indigo-bucuresti-bucuresti` | One Plaza Athénée – clădirea nefinalizată din Str. Georges Clemenceau 8-10 (proiectul Hotel Indigo București, 2018-2019) | D | none | — | 0 | — |
-| `biserica-aparatorii-patriei-bucuresti` | Biserica Parohiei Apărătorii Patriei I | D | none | — | 0 | — |
 | `cladirea-administrativa-arhiepiscopia-buzaului-buzau` | Clădirea administrativă a Arhiepiscopiei Buzăului și Vrancei (building within the compound not identified) | D | none | — | 0 | — |
 | `clopotnita-urziceni-urziceni` | Clopotnița unei biserici din Urziceni (building not identified) | D | none | — | 0 | — |
 | `parohia-barbatesu-vechi-bucuresti` | Parohia «Bărbătescu Vechi» – Biserica «Sfântul Ierarh Nicolae» (old church or new parish church, not determined) | D | none | — | 0 | — |
@@ -208,10 +212,7 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 | `biserica-rusetu-rusetu` | Biserica «Sfântul Ierarh Nicolae» din Rușețu | D | none | — | 0 | — |
 | `imobil-in-incinta-arhiepiscopiei-buzaului-si-vrancei-buzau` | Imobil în incinta Arhiepiscopiei Buzăului și Vrancei (building within the compound not identified) | D | none | — | 0 | — |
 | `biserica-maracineni-maracineni` | Biserica din Mărăcineni, Buzău (building not identified) | D | none | — | 0 | — |
-| `biserica-neptun-neptun` | Biserica „Adormirea Maicii Domnului” din Neptun | D | none | — | 0 | — |
-| `biserica-vartop-vartop` | Biserica „Nașterea Maicii Domnului” din Vârtop | D | none | — | 0 | — |
 | `biserica-dragalina-dragalina` | Biserica „Sfinții Arhangheli Mihail și Gavriil” din Dragalina | D | none | — | 0 | — |
-| `manastirea-tariceni-calarasi` | Schitul (Mănăstirea) Tăriceni – Biserica „Sf. Ierarh Nicolae” | D | none | — | 0 | — |
 | `biserica-chilia-veche-chilia-veche` | Biserică (neidentificată) – Chilia Veche | D | none | — | 0 | — |
 | `biserica-parohia-sfantul-ioan-botezatorul-ramnicu-valcea` | Biserica Parohiei „Sfântul Ioan Botezătorul” din Râmnicu Vâlcea | D | none | — | 0 | — |
 | `centrul-de-varstnici-turnu-magurele` | Centrul Recreativ pentru Persoane Vârstnice Turnu Măgurele (fostul imobil „Centru Administrativ”) | D | none | — | 0 | — |
@@ -228,7 +229,6 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 | `parohia-ortodoxa-romana-cebza-cebza` | Biserica Ortodoxă «Nașterea Sfântului Ioan Botezătorul» din Cebza | D | none | — | 0 | — |
 | `biserica-racovita-racovita` | biserica-racovita-racovita | D | none | — | 0 | — |
 | `biserica-honorici-honorici` | Biserica Ortodoxă «Nașterea Maicii Domnului» din Honorici | D | none | — | 0 | — |
-| `biserica-mosnita-veche-mosnita-veche` | Biserica Ortodoxă «Înălțarea Domnului» din Moșnița Veche | D | none | — | 0 | — |
 | `biserica-adormirea-maicii-domnului-ficatar` | Biserica Ortodoxă «Adormirea Maicii Domnului» din Ficătar | D | none | — | 0 | — |
 | `biserica-bobda-bobda` | biserica-bobda-bobda | D | none | — | 0 | — |
 | `biserica-hitias-hitias` | biserica-hitias-hitias | D | none | — | 0 | — |
@@ -243,7 +243,6 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 | `biserica-glodeni-glodeni` | Biserică neidentificată, Glodeni (comuna Bălănești) | D | none | — | 0 | — |
 | `biserica-nadlac-nadlac` | Biserică neidentificată, Nădlac | D | none | — | 0 | — |
 | `biserica-lunca-ilvei-lunca-ilvei` | Biserica Ortodoxă din Lunca Ilvei | D | none | — | 0 | — |
-| `parohia-buna-vestire-bistrita` | Biserica Greco-Catolică «Buna Vestire» Bistrița | D | none | — | 0 | — |
 | `biserica-dumbrava-dumbrava` | Biserica din Dumbrava, jud. Timiș (building not identified) | D | none | — | 0 | — |
 | `biserica-berchez-berchez` | Biserica din Berchez (building not identified) | D | none | — | 0 | — |
 | `biserica-chechis-chechis` | Biserica Ortodoxă din Chechiș | D | none | — | 0 | — |

@@ -29,6 +29,7 @@ const buildings = import.meta.glob<{ default: ModelModule }>('./buildings/*.ts')
 
 const exhibition: Record<string, () => Promise<ModelModule>> = {
   stadium: () => import('./exhibition/adapters').then((m) => m.stadium),
+  'stadium-full': () => import('./exhibition/adapters').then((m) => m.stadiumFull),
   church: () => import('./exhibition/adapters').then((m) => m.church),
   manor: () => import('./exhibition/adapters').then((m) => m.manor),
   garage: () => import('./exhibition/adapters').then((m) => m.garage),

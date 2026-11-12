@@ -27,7 +27,9 @@
   "normal": "normal.webp",
   "shade": "shade.webp",
   "mask": "mask.webp",
-  "maskScale": 8
+  "maskScale": 8,
+  "satellite": "satellite.webp",
+  "satelliteLow": "satellite-2k.webp"
  },
  "table": {
   "x0": -1281,
@@ -36,12 +38,14 @@
   "z1": 1176,
   "w": 3072,
   "h": 2809,
-  "file": "table.webp"
+  "file": "table.webp",
+  "satFile": "table-sat.webp"
  },
  "exaggeration": 5.0,
  "maxElevationM": 2415,
  "sources": [
   "Natural Earth 1:10m (public domain)",
-  "AWS Terrain Tiles (Mapzen terrarium), zoom 9 \u2014 see ASSET_LICENSES.md"
- ]
+  "AWS Terrain Tiles (Mapzen terrarium), zoom 9 — see ASSET_LICENSES.md"
+ ],
+ "credits": null
 }

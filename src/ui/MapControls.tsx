@@ -57,6 +57,11 @@ export function MapControls() {
 
       <div className="scale-notes">
         {context === 'geo' && <span>{t.terrainNote(Math.round(E * 10) / 10)}</span>}
+        {context === 'geo' && (
+          <a className="credit" href="https://cloudless.eox.at" target="_blank" rel="noreferrer">
+            {t.satCredit}
+          </a>
+        )}
         {selectedId && scale > 1 && context === 'geo' && <span className="warn">{t.scaleEnlarged(scale)}</span>}
         {selectedId && scale <= 1 && mode === 'inspect' && context === 'geo' && <span>{t.scaleTrue}</span>}
       </div>

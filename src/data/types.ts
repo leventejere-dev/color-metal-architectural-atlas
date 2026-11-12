@@ -75,6 +75,8 @@ export interface Project {
    *  reference = modelled from public reference photographs (not published); none = no photos */
   photoStatus: 'published' | 'unapproved' | 'reference' | 'none'
   cover?: string
+  /** rendered model thumbnail (thumbs/<id>.webp) for projects without published photographs */
+  thumb?: string | null
   model: {
     tier: ModelTier
     status: ModelStatus

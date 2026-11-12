@@ -25,6 +25,8 @@ fs.mkdirSync(path.dirname(out), { recursive: true })
 const browser = await puppeteer.launch({
   executablePath: CHROME,
   headless: true,
+  // a fixed profile folder (SNAP_PROFILE) avoids sporadic launch failures with fresh temporary profiles
+  ...(process.env.SNAP_PROFILE ? { userDataDir: process.env.SNAP_PROFILE } : {}),
   args: ['--ignore-gpu-blocklist', '--enable-gpu', '--use-angle=d3d11', '--enable-unsafe-swiftshader', '--window-size=' + w + ',' + h],
   defaultViewport: { width: w, height: h, deviceScaleFactor: 1 },
 })

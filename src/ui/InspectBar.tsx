@@ -11,25 +11,33 @@ export function InspectBar() {
   const walk = useStore((s) => s.walk)
   const p = projectById(selectedId)
   if (mode !== 'inspect' || !p?.model.module || tourActive) return null
+  const setWalk = useStore.getState().setWalk
   if (walk.active) {
     const touch = typeof window !== 'undefined' && window.matchMedia?.('(pointer: coarse)').matches
+    const car = !!walk.car
     return (
-      <div className="inspect-bar walking" role="toolbar" aria-label={t.walkTitle}>
+      <div className="inspect-bar walking" role="toolbar" aria-label={car ? t.driveTitle : t.walkTitle}>
         <div className="walk-hint">
           <strong>
-            <Icon.walker /> {t.walkTitle}
+            {car ? <Icon.car /> : <Icon.walker />} {car ? t.driveTitle : t.walkTitle}
           </strong>
-          <span>{touch ? t.walkHintTouch : t.walkHint}</span>
-          <em>{t.figureNote}</em>
+          <span>{car ? (touch ? t.driveHintTouch : t.driveHint) : touch ? t.walkHintTouch : t.walkHint}</span>
+          <em>{car ? t.carNote : t.figureNote}</em>
         </div>
         <div className="seg">
-          <button className={walk.eye ? '' : 'on'} onClick={() => useStore.getState().setWalk({ eye: false })}>
-            {t.thirdPerson}
+          <button className={walk.eye ? '' : 'on'} onClick={() => setWalk({ eye: false })}>
+            {car ? t.chaseView : t.thirdPerson}
           </button>
-          <button className={walk.eye ? 'on' : ''} onClick={() => useStore.getState().setWalk({ eye: true })}>
-            {t.eyeLevel}
+          <button className={walk.eye ? 'on' : ''} onClick={() => setWalk({ eye: true })}>
+            {car ? t.cockpit : t.eyeLevel}
           </button>
-          <button className="strong" onClick={() => useStore.getState().setWalk({ active: false, eye: false })}>
+          <button className={walk.run ? 'on' : ''} aria-pressed={!!walk.run} onClick={() => setWalk({ run: !walk.run })} title="Shift">
+            {car ? <Icon.bolt /> : <Icon.run />} {car ? t.turbo : t.run}
+          </button>
+          <button onClick={() => setWalk({ car: !car, eye: false })}>
+            {car ? <Icon.walker /> : <Icon.car />} {car ? t.onFoot : t.drive}
+          </button>
+          <button className="strong" onClick={() => setWalk({ active: false, eye: false, run: false, car: false })}>
             {t.exitWalk}
           </button>
         </div>
@@ -51,8 +59,11 @@ export function InspectBar() {
         <button onClick={() => preset('material')}>{t.materialView}</button>
       </div>
       <div className="seg">
-        <button className="walk-btn" onClick={() => useStore.getState().setWalk({ active: true, eye: false })} title={t.walkTitle}>
+        <button className="walk-btn" onClick={() => setWalk({ active: true, eye: false, car: false })} title={t.walkTitle}>
           <Icon.walker /> <span>{t.walk}</span>
+        </button>
+        <button className="walk-btn" onClick={() => setWalk({ active: true, eye: false, car: true })} title={t.driveTitle}>
+          <Icon.car /> <span>{t.drive}</span>
         </button>
       </div>
       <div className="seg">

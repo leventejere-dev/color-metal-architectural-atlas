@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 58.6,
+ "bearingSource": "OSM way 483774044 long axis 58.6°; +X points to the polygonal altar end (north-east), the enclosed porch faces −X; the street photos show the north-west side (−Z), photo 06 the south-east façade (+Z).",
+ "cover": null,
+ "photosUsed": 7,
+ "approximations": "OSM outline (29.3 × 13.3 m) symmetrised; the east apse follows the OSM polygon (not photographed). Heights estimated from the photographs (porch eave ≈ 6.8 m, church eave ≈ 9.2 m, cross ≈ 23.6 m). Window count per bay, saw-tooth brick bands, medallions and rosettes simplified; the south-east side mirrored from the north-west. Roofs, tower eave and cupola shown in elZinc Slate: the 2013–2014 photographs predate the 2021–2022 works and show an older grey sheet roof; the surfaces actually re-covered are not documented.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice din 2013–2014 și conturul OSM; înălțimile sunt estimate, iar absida altarului și ornamentația (brâuri de cărămidă în dinți de fierăstrău, medalioane) sunt simplificate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile și cupola turlei sunt redate în titan-zinc prepatinat elZinc Slate, livrat de COLOR METAL conform evidențelor firmei; suprafețele exacte nu sunt documentate.",
+  "hu": "A 2013–2014-es nyilvános fotók és az OSM-körvonal alapján értelmezett makett; a magasságok becsültek, az oltárapszis és a díszítés (fűrészfogas téglapárkányok, medalionok) egyszerűsített. A fotók a munkálatok előtt készültek, ezért a tetők és a toronysisak a COLOR METAL nyilvántartása szerint szállított elZinc Slate előpatinázott titáncinkkel jelennek meg; a pontos felületek nem dokumentáltak.",
+  "en": "Scale model interpreted from public photographs of 2013–2014 and the OSM outline; heights are estimated and the altar apse and ornament (saw-tooth brick bands, medallions) are simplified. The photographs predate the works, so the roofs and the tower cupola are shown in the elZinc Slate pre-weathered titanium-zinc supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+ }
+}

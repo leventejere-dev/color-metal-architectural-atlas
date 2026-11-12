@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 90.0,
+ "bearingSource": "OSM way 1035939649 long axis 90.0°; +X = east towards the rounded altar apse (rounded end of the outline, apse seen in photo 03), tower at the west end (photo 01)",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "Plan from the OSM outline (nave 10.3 m, choir 8.7 m with semicircular apse); heights from the OSM height tag and the photographs (eave 6.3 m, ridge ≈10.9 m, tower cornice ≈17 m, cross ≈25.6 m). West façade not photographed — a typical Banat gable with shoulders and a central tower portal is assumed; helm profile from one distant 2020 photograph taken while the tower was scaffolded; bay rhythm mirrored on the unphotographed side. Roofs shown with red clay tiles as photographed in 2026. The COLOR METAL records list copper strip for this parish; as the roofs are tiled, the copper is shown only on the tower helm and on gutters/downpipes (weathered copper) — this placement is an interpretation, no photograph shows the helm after the works.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință: biserică-sală cu cor mai îngust și absidă semicirculară, pilaștri albi cu arcade oarbe, acoperiș de țiglă roșie așa cum apare în fotografii și turn vestic cu coif baroc. Evidențele COLOR METAL menționează cupru pentru această parohie; deoarece acoperișurile sunt din țiglă, cuprul este redat doar pe coiful turnului și pe jgheaburi — o interpretare, nefotografiată după lucrări. Fațada de vest și înălțimile sunt estimate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett: teremtemplom keskenyebb szentéllyel és félköríves apszissal, fehér falpillérekkel és vakívekkel, a fotók szerinti vörös cserépfedéssel és nyugati toronnyal, barokk sisakkal. A COLOR METAL nyilvántartása rezet említ ennél a parókiánál; mivel a tetők cserépfedésűek, a réz csak a toronysisakon és az ereszcsatornákon jelenik meg – ez értelmezés, a munkák utáni fotó nem áll rendelkezésre. A nyugati homlokzat és a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs: a hall church with a narrower choir and semicircular apse, white pilasters with blind arches, red clay-tile roofs as photographed and a west tower with a baroque helm. COLOR METAL's records list copper for this parish; since the roofs are tiled, copper is shown only on the tower helm and the gutters — an interpretation, as no photograph shows the helm after the works. The west façade and the heights are estimated."
+ }
+}

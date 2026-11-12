@@ -9,8 +9,8 @@ import { project } from './projection'
 export interface TerrainMeta {
   extent: { x0: number; x1: number; z0: number; z1: number }
   grid: { nx: number; ny: number; spacingKm: number; file: string }
-  textures: { nx: number; ny: number; normal: string; shade: string; mask: string; maskScale: number }
-  table: { x0: number; x1: number; z0: number; z1: number; w: number; h: number; file: string }
+  textures: { nx: number; ny: number; normal: string; shade: string; mask: string; maskScale: number; satellite?: string; satelliteLow?: string }
+  table: { x0: number; x1: number; z0: number; z1: number; w: number; h: number; file: string; satFile?: string }
   exaggeration: number
   maxElevationM: number
 }

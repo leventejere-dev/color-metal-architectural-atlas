@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 88.8,
+ "bearingSource": "OSM way 259073456 long axis 88.8°; +X points to the polygonal altar apse (east), the porch and the west gable face −X (photos 02, 05); photo 02 shows the south side (+Z).",
+ "cover": null,
+ "photosUsed": 5,
+ "approximations": "OSM outline (23.2 × 14.7 m) symmetrised, the porch kept inside the OSM length and the lateral-apse/altar junction smoothed to a convex outline. Heights estimated from the photographs (eave ≈ 8.6 m, towers ≈ 22 m to the cross). Pilaster count, capitals, dome profile, the porch arcade and the north side (mirrored) are approximate. New copper roofs and tower domes as photographed after the restoration.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile publicate de mănăstire după restaurare și conturul OSM; înălțimile sunt estimate, iar pilaștrii, pridvorul și latura de nord sunt simplificate. Acoperișurile și cupolele turlelor din cupru nou sunt redate așa cum apar în fotografii.",
+  "hu": "A kolostor által a restaurálás után közzétett fotók és az OSM-körvonal alapján értelmezett makett; a magasságok becsültek, a falpillérek, a tornác és az északi oldal egyszerűsített. Az új rézfedés és a tornyok rézkupolái a fotók szerint jelennek meg.",
+  "en": "Scale model interpreted from the monastery's post-restoration photographs and the OSM outline; heights are estimated and the pilasters, porch and north side are simplified. The new copper roofs and tower domes are shown as photographed."
+ }
+}

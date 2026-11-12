@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 53.1,
+ "bearingSource": "OSM way 529004187 long axis 53.1°; +X points to the rounded east apse (NE), the tower and the porch are at the west end (photos 01-02).",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Both long sides are photographed (before 2014). The OSM polygon is a rough trapezoid 10.6-12.4 m wide; the nave is modelled ≈ 10 m wide to match the roof rise and tower proportions in the photographs (length 19.5 m kept). Heights, the porch front, the east end and the window counts of the south side are estimated; the brick-triangle cornice is simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință ale bisericii schitului (c. 1830). Fotografiile sunt anterioare lucrărilor, de aceea acoperișul și turla (placare și coif) sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale; suprafețele exact acoperite nu sunt documentate. Lățimea navei și înălțimile sunt estimate.",
+  "hu": "A remeteség (kb. 1830-as) templomáról készült nyilvános referenciafotók alapján értelmezett makett. A fotók a munkák előtt készültek, ezért a tető és a torony (burkolat és sisak) a COLOR METAL nyilvántartása szerint általa szállított rézként jelenik meg; a pontosan fedett felületek nem dokumentáltak. A hajó szélessége és a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs of the hermitage church (c. 1830). The photographs predate the works, so the roof and the tower (cladding and cupola) are shown in the copper supplied by COLOR METAL according to its records; exactly which surfaces were covered is not documented. The nave width and the heights are estimated."
+ }
+}

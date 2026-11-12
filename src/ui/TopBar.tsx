@@ -1,4 +1,3 @@
-import type { Lang } from '../data/types'
 import { useStore, useT } from '../state/store'
 import { Icon } from './icons'
 
@@ -6,8 +5,6 @@ export const EXHIBITION_URL = 'https://leventejere-dev.github.io/color-metal-exh
 
 export function TopBar() {
   const t = useT()
-  const lang = useStore((s) => s.lang)
-  const setLang = useStore((s) => s.setLang)
   const q = useStore((s) => s.filters.q)
   const setFilters = useStore((s) => s.setFilters)
   const listOpen = useStore((s) => s.listOpen)
@@ -15,9 +12,19 @@ export function TopBar() {
   const filtersOpen = useStore((s) => s.filtersOpen)
   const setFiltersOpen = useStore((s) => s.setFiltersOpen)
   const tourActive = useStore((s) => s.tour.active)
+  const theme = useStore((s) => s.theme)
 
   return (
     <header className="topbar">
+      <button
+        className={`tb-btn icon panel-toggle ${listOpen ? 'on' : ''}`}
+        onClick={() => setListOpen(!listOpen)}
+        aria-pressed={listOpen}
+        aria-label={listOpen ? t.hideList : t.showList}
+        title={listOpen ? t.hideList : t.showList}
+      >
+        <Icon.panel />
+      </button>
       <button
         className="brand"
         onClick={() => {
@@ -30,7 +37,6 @@ export function TopBar() {
         <img src="color-metal-logo.svg" alt="COLOR METAL" className="logo" />
         <span className="brand-text">
           <span className="brand-title">{t.atlas}</span>
-          <span className="brand-tag">{t.tagline}</span>
         </span>
       </button>
 
@@ -72,13 +78,14 @@ export function TopBar() {
           <span className="lbl-text">{t.exhibition}</span>
           <Icon.external />
         </a>
-        <div className="lang" role="group" aria-label={t.language}>
-          {(['ro', 'hu', 'en'] as Lang[]).map((l) => (
-            <button key={l} className={l === lang ? 'on' : ''} onClick={() => setLang(l)} aria-pressed={l === lang}>
-              {l.toUpperCase()}
-            </button>
-          ))}
-        </div>
+        <button
+          className="tb-btn icon"
+          onClick={() => useStore.getState().setTheme(theme === 'dark' ? 'light' : 'dark')}
+          aria-label={theme === 'dark' ? t.lightMode : t.darkMode}
+          title={theme === 'dark' ? t.lightMode : t.darkMode}
+        >
+          {theme === 'dark' ? <Icon.sun /> : <Icon.moon />}
+        </button>
         <button className="tb-btn icon" onClick={() => useStore.getState().setAboutOpen(true)} aria-label={t.about}>
           <Icon.info />
         </button>

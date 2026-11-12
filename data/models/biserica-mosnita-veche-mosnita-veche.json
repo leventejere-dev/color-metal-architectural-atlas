@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 68.8,
+ "bearingSource": "OSM way 540270856 long axis 68.8°; +X = ENE towards the rounded (full-width semicircular) east end of the outline — Orthodox altar orientation; west front with the tower at −X",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "No overall photograph exists: plan from the OSM outline (10.5 m wide hall with a full-width rounded east end); west front and one side elevation from ground-level photos; eave ≈7.0 m, roof pitch ≈40°, tower cornice ≈18 m and cross ≈26.6 m estimated from the façade photo and the Banat type. The new copper helm is modelled from the August 2022 photograph taken before it was lifted (≈7.1 m high, measured against the priest beside it); its diamond-shingle pattern is only suggested. The nave and apse roofs are not visible on any photograph; they are shown in copper standing seam following the COLOR METAL records for the same campaign — which surfaces were done is not documented. North side and east end assumed.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință ale fațadei de vest, ale unei laturi și ale noului coif de cupru fotografiat în 2022 înainte de montare; coiful este redat așa cum apare în fotografii. Nu există o vedere de ansamblu: volumele provin din conturul OSM, iar înălțimile sunt estimate. Acoperișul navei, nevizibil în fotografii, este redat tot din cupru, conform evidențelor COLOR METAL pentru aceeași lucrare.",
+  "hu": "Nyilvános referenciafotók (a nyugati homlokzat, egy oldalhomlokzat és a 2022-ben, felhelyezés előtt lefotózott új rézsisak) alapján értelmezett makett; a sisak a fotók szerint jelenik meg. Átfogó felvétel nincs: a tömeg az OSM-körvonalból származik, a magasságok becsültek. A fotókon nem látható hajótető szintén rézzel jelenik meg, a COLOR METAL ugyanerre a munkára vonatkozó nyilvántartása szerint.",
+  "en": "Scale model interpreted from public reference photographs of the west front, one side and the new copper helm photographed in 2022 before it was lifted; the helm is shown as photographed. No overall view exists: the massing comes from the OSM outline and the heights are estimated. The nave roof, not visible on any photograph, is also shown in copper, following COLOR METAL's records for the same works."
+ }
+}

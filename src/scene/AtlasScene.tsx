@@ -14,6 +14,8 @@ import { labelState, projectLabels } from './labels'
 
 const STUDIO_BG = new THREE.Color('#efece6')
 const MAP_BG = new THREE.Color(BG)
+const STUDIO_BG_DARK = new THREE.Color('#1c1d21')
+const MAP_BG_DARK = new THREE.Color('#141518')
 
 function LabelProjector() {
   const { camera, size } = useThree()
@@ -24,9 +26,14 @@ function LabelProjector() {
 function Background() {
   const { scene } = useThree()
   const context = useStore((s) => s.context)
+  const theme = useStore((s) => s.theme)
   useEffect(() => {
-    scene.background = (context === 'studio' ? STUDIO_BG : MAP_BG).clone()
-  }, [context, scene])
+    const dark = theme === 'dark'
+    const c = (context === 'studio' ? (dark ? STUDIO_BG_DARK : STUDIO_BG) : dark ? MAP_BG_DARK : MAP_BG).clone()
+    scene.background = c
+    // the distance fog fades into the background colour
+    if (scene.fog) (scene.fog as THREE.Fog).color.copy(c)
+  }, [context, theme, scene])
   return null
 }
 

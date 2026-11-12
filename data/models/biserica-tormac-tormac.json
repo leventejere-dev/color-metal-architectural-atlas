@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 353.0,
+ "bearingSource": "OSM way 509484680 long axis 173°; +X points to the chamfered (polygonal) north end of the outline (353°), the tower front is at the south end — tower and polygonal end placed by photo 01 (west side seen from the street, tower on the right) and the historic views 02–03",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "The OSM outline is a plain rectangle with a chamfered north end (31.3 × 16.2 m): the hall width (14 m), the shallow side risalits with their gables, the two lower front wings flanking the tower and the tower itself are interpreted from one recent colour photograph of the west side and two small historic prints. Heights measured on photo 01 using the tower width as scale (eave ≈8.8 m, tower cornice ≈21.9 m, star ≈27.8 m), ±10 %. East side, south front and north end not photographed — assumed symmetric; window counts there estimated. Main roof, risalit and wing roofs and the lantern dome shown in natural titanium-zinc standing seam according to the COLOR METAL records (2023 works); the photographs predate the works and which surfaces were redone is not documented.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință (o vedere recentă a laturii de vest și două fotografii istorice): biserică-sală reformată galbenă cu risalite laterale cu fronton, aripi joase de o parte și de alta a turnului și turn cu galerie, felinar și cupolă mică. Acoperișurile sunt redate din titan-zinc natural, materialul livrat de COLOR METAL conform evidențelor sale, deoarece fotografiile disponibile sunt anterioare lucrărilor; latura de est, fațada de sud și înălțimile sunt estimate.",
+  "hu": "Nyilvános referenciafotók (egy friss felvétel a nyugati oldalról és két régi fénykép) alapján értelmezett makett: sárga református teremtemplom oromzatos oldalrizalitokkal, a torony két oldalán alacsony szárnyakkal, a toronyban körfolyosóval, lámpással és kis kupolával. A tetők natúr titáncink fedéssel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal –, mert az elérhető fotók a munkák előtt készültek; a keleti oldal, a déli homlokzat és a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs (one recent view of the west side and two historic prints): a yellow Reformed hall church with gabled side risalits, low wings flanking the tower and a tower with a gallery, lantern and small dome. The roofs are shown in natural titanium-zinc, the material supplied by COLOR METAL according to its records, because the available photographs predate the works; the east side, the south front and the heights are estimated."
+ }
+}

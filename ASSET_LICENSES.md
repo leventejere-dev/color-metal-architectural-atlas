@@ -35,3 +35,11 @@ register). Classification per project: `rights` in `data/sources/project-sources
 * Public reference photographs collected for the register buildings without company photos
   (`work/web-ref/<id>/`, Wikimedia Commons with author/licence, otherwise press/official
   pages with their URL in `sources.json`): **never published**; modelling reference only.
+
+## Satellite imagery
+
+* **EOxCloudless 2016** — https://cloudless.eox.at by EOX IT Services GmbH (Contains modified
+  Copernicus Sentinel data 2016), licensed **CC BY 4.0**. Baked into `public/geo/satellite.webp`,
+  `satellite-2k.webp` (terrain) and `table-sat.webp` (context table) by `scripts/build-satellite.py`,
+  reprojected to the atlas projection and lightly colour-graded. Attribution is shown on the map and
+  in the About panel. The later yearly EOxCloudless mosaics (2017+) are CC BY-NC-SA and are **not** used.

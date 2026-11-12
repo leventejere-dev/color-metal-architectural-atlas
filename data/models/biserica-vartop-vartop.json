@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 84.1,
+ "bearingSource": "OSM way 288611805 long axis 84.1°; +X points east to the semicircular apse of the outline, the porch and steps face west (photo 01).",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Only the west entrance (partly hidden by trees, 2021) and an old black-and-white oblique view are available. Plan from the OSM outline (19.1 × 9.2 m); the nave width, the transept arms, window counts, roof pitches and the tower and dome proportions are estimated; the porch roof is simplified.",
+ "note": {
+  "ro": "Machetă orientativă, interpretată după puținele fotografii publice de referință. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile, turla și cupola sunt redate în tabla de aluminiu livrată de COLOR METAL conform evidențelor sale. Brațele crucii, ferestrele și proporțiile turlei sunt estimate.",
+  "hu": "Tájékoztató jellegű makett a kevés nyilvános referenciafotó alapján. A fotók a munkák előtt készültek, ezért a tetők, a torony és a kupola a COLOR METAL nyilvántartása szerint általa szállított alumíniumlemezként jelennek meg. A kereszthajó karjai, az ablakok és a torony arányai becsültek.",
+  "en": "Indicative scale model interpreted from the few public reference photographs. The photographs predate the works, so the roofs, the tower and the dome are shown in the aluminium sheet supplied by COLOR METAL according to its records. The cross arms, windows and tower proportions are estimated."
+ }
+}

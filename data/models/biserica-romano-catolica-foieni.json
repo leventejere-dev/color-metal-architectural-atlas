@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 281.9,
+ "bearingSource": "OSM way 381785929 long axis 101.9°/281.9°. The outline has a broad, flattened round end at the WNW and a 4.9 m tower stub at the ESE, so the sanctuary lies to the west: +X = 281.9° towards the sanctuary, the tower front faces −X (ESE, ≈ 102°).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Plan after the OSM outline (nave 23.1 × 14.7 m, sanctuary 0.75 m narrower each side with a flattened polygonal end, tower 4.9 m square). Heights scaled from the photographs with the tower width as module (main cornice ≈ 10 m, belfry top ≈ 21 m, cross ≈ 31 m, roof ≈ 42°). Only the front and the south-east corner are photographed: the side and sanctuary windows, pilaster rhythm, the north side and the sanctuary roof (slightly lower, hipped polygonal end) are interpreted. Baroque ornament (window ears, cartouche, gable volutes) simplified. The August 2023 photographs show the brown standing-seam roof and the dark brown tower helm after the 2020–2021 works; they are modelled as photographed, in weathered copper as supplied by COLOR METAL according to its records.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință. Acoperișul navei cu fălțuire dublă și coiful turnului sunt redate așa cum apar în fotografiile din 2023, în cuprul brunificat livrat de COLOR METAL, conform evidențelor firmei. Fațadele laterale și sanctuarul nu sunt fotografiate și sunt aproximate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett. A hajó állókorcos tetője és a toronysisak a 2023-as fotók szerint, a COLOR METAL nyilvántartása szerint szállított, barnára patinásodott rézzel jelenik meg. Az oldalhomlokzatokról és a szentélyről nincs fotó, ezek közelítőek.",
+  "en": "Scale model interpreted from public reference photographs. The standing-seam nave roof and the tower helm are shown as photographed in 2023, in the weathered copper supplied by COLOR METAL according to its records. The side elevations and the sanctuary are not photographed and are approximate."
+ }
+}

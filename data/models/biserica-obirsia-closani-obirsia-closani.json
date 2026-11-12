@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 90,
+ "bearingSource": "Assumed: the church is not mapped (village-centre coordinates). +X = liturgical east (apse), the entrance front with the three-arch porch at −X; the photographed long side is then the north side (−Z).",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Two near-identical photographs (June 2010) of the west front and the north side; the other sides are inferred from the building type. Scale from the porch arches and door: front 9.4 m wide, eaves ≈ 7.4 m, overall length ≈ 19 m assumed. Shallow rectangular lateral arms (≈ 1.9 m) as seen on the north side; the narrower half-octagonal altar apse, the south side (mirrored) and all tower heights (west tower cross ≈ 19.4 m, drum cross ≈ 15 m) are estimates; roof pitch 28°. The photographs predate the works (grey sheet roof); all roofs, the tower skirt roof and both caps are shown in weathered copper, supplied by COLOR METAL in 2020 according to its records — which surfaces were re-covered is not documented.",
+ "note": {
+  "ro": "Machetă interpretată după două fotografii publice de referință din 2010 (fațada de vest și latura de nord): biserică de zid cu pridvor închis cu trei arcade, brațe laterale scurte, turn înalt pe pronaos și turlă mică octogonală pe naos. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile și coifurile sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale. Lungimea, partea de est, latura de sud, înălțimile și orientarea sunt estimate.",
+  "hu": "Két nyilvános, 2010-es referenciafotó (nyugati homlokzat és északi oldal) alapján értelmezett makett: falazott templom háromíves, zárt előcsarnokkal, rövid oldalkarokkal, magas toronnyal az előcsarnok fölött és kis nyolcszögű dobtoronnyal a hajó fölött. A fényképek a munkák előtt készültek, ezért a tetőket és a sisakokat a COLOR METAL nyilvántartása szerint szállított rézzel ábrázoljuk. A hossz, a keleti rész, a déli oldal, a magasságok és a tájolás becsültek.",
+  "en": "Scale model interpreted from two public reference photographs (2010) of the west front and the north side: a masonry church with an enclosed three-arch porch, short lateral arms, a tall tower over the pronaos and a small octagonal drum over the nave. The photographs predate the works, so the roofs and caps are shown in the copper supplied by COLOR METAL according to its records. The length, the east end, the south side, the heights and the orientation are estimates."
+ }
+}

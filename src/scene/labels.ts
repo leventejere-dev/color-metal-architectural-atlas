@@ -6,6 +6,7 @@
  */
 import * as THREE from 'three'
 import { runtime } from './runtime'
+import { useStore } from '../state/store'
 
 export type LabelKind = 'neighbour' | 'region' | 'county' | 'city' | 'project'
 
@@ -61,8 +62,9 @@ export function projectLabels(camera: THREE.Camera, width: number, height: numbe
     const isProject = it.kind === 'project'
     const special = isProject && (it.projectId === st.selectedId || it.projectId === st.hoverId)
     const inRange = d >= it.minD && d <= it.maxD
-    // at inspection range the model itself replaces the selected project's label
-    if (isProject && it.projectId === st.selectedId && d < 3) {
+    // at inspection range the model itself replaces the selected project's label;
+    // while walking or driving no project labels are shown at all
+    if (isProject && ((it.projectId === st.selectedId && d < 3) || useStore.getState().walk.active)) {
       hide(it)
       continue
     }

@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 11.7,
+ "bearingSource": "OSM relation 3071358 long axis 11.7°; +X faces Strada Traian (OSM street ≈ 9 m in front of that side), taken as the main façade of the historic postcard.",
+ "cover": null,
+ "photosUsed": 1,
+ "approximations": "Only one early-20th-century postcard of the main façade is available. Outline after OSM (34.4 × 30.6 m with an inner light well ≈ 7.4 × 8.7 m); heights scaled from the postcard on the 30.6 m front (eave ≈ 13.5 m). Side and rear façades, the light well, the dormers on the hidden slopes and the flat roof top are inferred; ornament simplified; present-day colours unknown. Roof shown in natural titanium-zinc per the register; no photograph of the current roof was found and the surfaces actually covered are not documented.",
+ "note": {
+  "ro": "Machetă simplificată interpretată după o singură carte poștală istorică a fațadei principale și conturul OSM; fațadele laterale și posterioară, curtea de lumină și acoperișul sunt deduse. Nu există fotografii ale acoperișului actual, de aceea acesta este redat în titan-zinc natural, livrat de COLOR METAL conform evidențelor firmei; suprafețele exacte nu sunt documentate.",
+  "hu": "Egyetlen, a főhomlokzatot ábrázoló történeti képeslap és az OSM-körvonal alapján értelmezett, egyszerűsített makett; az oldalsó és hátsó homlokzatok, a világítóudvar és a tető kikövetkeztetett. A mai tetőről nincs fotó, ezért az a COLOR METAL nyilvántartása szerint szállított natúr titáncinkkel jelenik meg; a pontos felületek nem dokumentáltak.",
+  "en": "Simplified scale model interpreted from a single historic postcard of the main façade and the OSM outline; the side and rear façades, the light well and the roof are inferred. No photograph of the present roof is available, so it is shown in the natural titanium-zinc supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+ }
+}

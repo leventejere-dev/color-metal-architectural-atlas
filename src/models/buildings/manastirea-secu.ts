@@ -24,6 +24,9 @@
  * ≈ 1.75 m): walls ≈ 10 m, ridge ≈ 14.5 m, main tower cross ≈ 28 m, west tower
  * cross ≈ 26 m. Tower positions read from the aerial photo 05; the south side is
  * mirrored from the north; brick ornament simplified to bands and archivolts.
+ * Ensemble: the precinct bell tower at the west gate (OSM way 689038918), whose
+ * helm carries the same dark standing-seam copper in photos 02, 03 and 05, is
+ * added in low detail (≈ 8 m square, eave ≈ 15 m, helm ≈ 9.6 m).
  */
 import * as THREE from 'three'
 import { Builder, V, mat, metricBox, facet, loft, lathe, extrude, polyRing, rectRing, cross } from '../kit'
@@ -310,7 +313,61 @@ function build(): Builder {
     cross(b, 'iron', TW, 24.85, 0, 1.6, true, Math.PI / 2)
   }
 
+  /* ================= precinct bell tower (west gate) ================= */
+  // OSM way 689038918 (bell_tower, ≈ 9.4 × 7.5 m) in the west precinct wall on
+  // the church axis; its steep pyramid helm carries the same dark, standing-seam
+  // copper as the church in the 2025 photos 02, 03 and 05. Low detail.
+  b.merge(bellTower(), mat(BT.x, 0, BT.z, BT.ry))
+
   return b
+}
+
+/** Precinct bell tower: stone shaft with the gate passage, belfry and copper helm (local origin = tower centre). */
+const BT = { x: -44.5, z: 2.6, ry: -4 * D2R, hw: 4.0, eave: 15.0 }
+function bellTower(): Builder {
+  const t = new Builder()
+  const { hw, eave } = BT
+  const STONE = 'secuStone'
+  t.block(STONE, 2 * hw, eave, 2 * hw, 0, 0, 0)
+  t.block(PLINTH, 2 * hw + 0.3, 0.6, 2 * hw + 0.3, 0, 0, 0)
+  for (const y of [6.4, 10.4]) t.block(STONE, 2 * hw + 0.24, 0.3, 2 * hw + 0.24, 0, y, 0)
+  t.block(BRICK, 2 * hw + 0.1, 0.5, 2 * hw + 0.1, 0, eave - 0.75, 0)
+  for (const [nx, nz] of [[1, 0], [-1, 0], [0, 1], [0, -1]] as P2[]) {
+    const m = faceM(nx * hw, nz * hw, nx, nz)
+    // thin red-brick panel frame (photo 02)
+    for (const [w, h, y] of [[2 * hw - 1.0, 0.1, 10.7], [2 * hw - 1.0, 0.1, 14.1]] as [number, number, number][]) t.add(BRICK, metricBox(w, h, 0.04), M(m, mat(0, y, 0.02)))
+    for (const s of [-1, 1]) t.add(BRICK, metricBox(0.1, 3.4, 0.04), M(m, mat(s * (hw - 0.55), 12.4, 0.02)))
+    // belfry: one large arched opening per face, dark interior and stone surround
+    t.add('black', new THREE.ShapeGeometry(new THREE.Shape(archPts(2.3, 3.3, 10.9, 8))), M(m, mat(0, 0, 0.03)))
+    t.add(PLINTH, extrude(ringArch(2.3, 3.3, 10.9, 0.25), 0.1, 8), M(m, mat(0, 0, 0.01)))
+    if (nx !== 0) {
+      // gate passage through the tower (outside −X, courtyard +X)
+      t.add('black', new THREE.ShapeGeometry(new THREE.Shape(archPts(3.2, 4.4, 0.0, 10))), M(m, mat(0, 0, 0.03)))
+      t.add(PLINTH, extrude(ringArch(3.2, 4.4, 0.0, 0.35), 0.12, 10), M(m, mat(0, 0, 0.01)))
+      slitWindow(t, m, 0, 7.6, 0.4, 1.4)
+    } else {
+      slitWindow(t, m, 0, 3.4, 0.4, 1.4)
+      slitWindow(t, m, 0, 7.6, 0.4, 1.4)
+    }
+  }
+  // steep pyramid helm with a bell-cast eave on a timber soffit (photos 02, 03)
+  const st: P2[] = [
+    [hw + 1.05, eave - 0.25],
+    [hw + 0.55, eave + 0.15],
+    [hw - 0.15, eave + 0.95],
+    [0.06, eave + 9.6],
+  ]
+  seamedLoft(t, CU, st.map(([r, y]) => rectRing(r, r, y)), 0.45)
+  t.add(WOOD, loft([rectRing(hw, hw, eave), rectRing(hw + 1.03, hw + 1.03, eave - 0.37)]))
+  for (const [sx, sz] of [[-1, -1], [1, -1], [1, 1], [-1, 1]] as P2[]) for (let i = 0; i < st.length - 1; i++) t.beam(CU, V(sx * st[i][0], st[i][1] + 0.05, sz * st[i][0]), V(sx * st[i + 1][0], st[i + 1][1] + 0.05, sz * st[i + 1][0]), 0.12, 0.1)
+  cross(t, 'iron', 0, eave + 9.55, 0, 2.0, true, Math.PI / 2)
+  return t
+}
+/** Arch-shaped frame ring (surround of width f around an arched opening). */
+function ringArch(w: number, h: number, y0: number, f: number) {
+  const s = new THREE.Shape(archPts(w + 2 * f, h + f, y0, 10))
+  s.holes.push(new THREE.Path(archPts(w, h, y0, 10)))
+  return s
 }
 
 const model: ModelModule = {
@@ -326,8 +383,9 @@ const model: ModelModule = {
       secuCu: cu,
       secuShade: new THREE.MeshStandardMaterial({ color: '#e2ded5', roughness: 0.92 }),
       secuBrick: new THREE.MeshStandardMaterial({ color: '#8f5040', roughness: 0.88 }),
+      secuStone: new THREE.MeshStandardMaterial({ color: '#dcd0b6', roughness: 0.9 }),
     }
   },
-  notes: 'Single-nave church with a ten-sided altar apse, two towers (pointed helm over the naos, bulbous cap over the pronaos) and blind brick-trimmed arcades; heights scaled from photographs; roofs shown as photographed in dark oxidised copper supplied by COLOR METAL.',
+  notes: 'Single-nave church with a ten-sided altar apse, two towers (pointed helm over the naos, bulbous cap over the pronaos) and blind brick-trimmed arcades; heights scaled from photographs; roofs shown as photographed in dark oxidised copper supplied by COLOR METAL; the west-gate bell tower with the same copper helm is included in simplified form.',
 }
 export default model
