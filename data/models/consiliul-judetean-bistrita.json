@@ -1,0 +1,14 @@
+{
+  "tier": "D",
+  "status": "reference-limited",
+  "bearingDeg": 140.4,
+  "bearingSource": "Long wing of OSM way 518233004 (the most likely, unconfirmed outline of the palace on the north-east side of Piața Petru Rareș); +X = 140.4°, +Z = 230.4° faces the square",
+  "cover": null,
+  "photosUsed": 0,
+  "approximations": "Massing model only — no photograph of the building was found (the 2018 press photo is no longer online and the web-search budget was exhausted). Outline taken from OSM way 518233004, identification unconfirmed; L-shaped plan simplified to four blocks; heights assumed (eave 18 m on the square wing, consistent with the 37 × 16 m flag hung on the façade in 2018; 19 m pavilion, 15 m rear wing); hipped roofs at an assumed 30° as suggested by the aerial imagery; façades drawn as generic window grids with a central entrance. No photograph of the works exists, so all roofs are shown in elZinc Slate standing seam according to the register.",
+  "note": {
+    "ro": "Model de volumetrie: nu s-a găsit nicio fotografie a clădirii. Conturul este cel mai probabil contur OSM din Piața Petru Rareș (neconfirmat), iar înălțimile și fațadele sunt presupuse. Acoperișurile sunt redate în titan-zinc elZinc Slate, livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "Tömegmodell: az épületről nem található fénykép. A körvonal a Petru Rareș téri legvalószínűbb OSM-körvonal (nem megerősített), a magasságok és a homlokzatok feltételezettek. A tetők a COLOR METAL nyilvántartása szerint szállított elZinc Slate titáncinkkel jelennek meg.",
+    "en": "Massing model: no photograph of the building could be found. The outline is the most likely OSM outline on Piața Petru Rareș (unconfirmed), and heights and façades are assumed. The roofs are shown in the elZinc Slate titanium-zinc supplied by COLOR METAL according to its records."
+  }
+}

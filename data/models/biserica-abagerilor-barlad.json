@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 95.5,
+ "bearingSource": "OSM way 226737067 (crude 4-node rectangle, 28.8 × 13.8 m) long axis 95.5°; +X points east to the altar apse, the west front at −X. The long south wall with the three towers is seen in photo 01.",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Only two street photographs (2011, 2013) exist, both dominated by the separate gate bell tower (not modelled). The south wall, roof line and the three sheet-clad towers are read from them; the tower arrangement (two west towers and a larger naos tower) is an interpretation, and the west front, north side, east apse and the plan proportions (nave 23.8 × 12.4 m inside the crude outline, semicircular apse) are interpreted. Heights are estimated with the tower shaft (≈ 3 m) as scale: walls ≈ 6.6 m, crosses ≈ 18.6 m (west) and ≈ 20.2 m (naos). The photographs predate the copper works, which are not itemised: the roofs, the sheet cladding of the tower shafts and the tower caps are shown in weathered copper with standing seams, with copper gutters and snow guards.",
+ "note": {
+  "ro": "Machetă preliminară, interpretată după două fotografii publice de stradă: zidul sudic, acoperișul și cele trei turle urmează fotografiile, iar planul, fațada vestică, latura nordică și absida sunt aproximate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile, turlele, jgheaburile și parazăpezile sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale.",
+  "hu": "Két nyilvános utcai fotó alapján értelmezett, előzetes makett: a déli fal, a tető és a három torony a fotókat követi, az alaprajz, a nyugati homlokzat, az északi oldal és az apszis közelítő. A fotók a munkálatok előttiek, ezért a tetők, a tornyok, az ereszcsatornák és a hófogók a COLOR METAL nyilvántartása szerint szállított rézzel jelennek meg.",
+  "en": "Preliminary scale model interpreted from two public street photographs: the south wall, the roof and the three towers follow the photos, while the plan, the west front, the north side and the apse are approximated. The photographs predate the works, so the roofs, towers, gutters and snow guards are shown in the copper supplied by COLOR METAL according to its records."
+ }
+}

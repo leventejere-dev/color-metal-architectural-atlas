@@ -1,0 +1,14 @@
+{
+  "tier": "A",
+  "status": "detailed",
+  "bearingDeg": 76,
+  "bearingSource": "OSM long axis 76°; +X points to the choir/apse (east); the tower stands on the north side (−Z), as in the OSM outline and drone photos 01, 06–08",
+  "cover": "07",
+  "photosUsed": 9,
+  "approximations": "Eaves (~17.5 m) and ridge (~34.7 m) heights and roof pitches (hall 50°, choir 60°) measured from photos 06–09 against the published 76/80 m tower; nave and choir plan from the OSM outline (choir axis ~2.9 m south of the hall axis as in OSM); bay positions partly from the OSM outline; window tracery, portals, eaves frieze, pinnacles and tower ornament simplified; tile roof without individual tiles (courses only); the north elevation east of the tower and the low sacristy there are interpreted (OSM shows a notch at that corner); spire covering shown as dark slate-grey.",
+  "note": {
+    "ro": "Machetă interpretată după fotografiile de referință (dronă și fațada sudică): înălțimile și pantele acoperișurilor sunt măsurate pe fotografii, iar traforurile, portalurile și ornamentele turnului sunt simplificate. Elementul din cupru vizibil în fotografii este turnulețul de pe coama corului; latura nordică de lângă turn și sacristia sunt interpretate.",
+    "hu": "A referenciafotók (drónfelvételek és a déli homlokzat) alapján értelmezett makett: a magasságok és tetőhajlások a fotókon mértek, a mérművek, kapuk és a torony díszítése egyszerűsített. A fotókon látható rézelem a szentély gerincén álló huszártorony; a torony melletti északi oldal és a sekrestye értelmezett.",
+    "en": "Scale model interpreted from the reference photographs (drone shots and the south elevation): heights and roof pitches are measured from the photos, while tracery, portals and tower ornament are simplified. The copper element visible in the photos is the roof turret on the choir ridge; the north side next to the tower and the sacristy are interpreted."
+  }
+}

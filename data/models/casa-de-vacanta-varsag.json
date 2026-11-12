@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 0.0,
+ "bearingSource": "not determined — private house, village-level location only, no outline; orientation not derivable from the photographs",
+ "cover": "07",
+ "photosUsed": 24,
+ "approximations": "No outline (private, village-level location): size ≈ 12.4 × 11.4 m scaled from the standing-seam pan count (≈ 24 pans at ≈ 0.55 m) and the vertical drone view of the finished house; roof pitch ≈ 42°, eave ≈ 5.75 m, ridge ≈ 11.2 m and storey heights estimated; openings on the façades not seen in the photographs are interpreted; terrain shown flat (the site slopes towards the loggia gable). Roof colour: COLOR METAL's photographs of the finished house (company post, 2 Sept.) show a light-grey standing seam, whereas the register lists PREFA bronze — modelled as photographed (to be checked).",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile COLOR METAL ale casei finalizate (dronă, fațade, acoperiș): dimensiunile, panta și înălțimile etajelor sunt estimate (nu există contur), golurile de pe fațadele nefotografiate sunt interpretate, terenul în pantă este redat plan; culoarea acoperișului urmează fotografiile.",
+  "hu": "A COLOR METAL elkészült házról készült fotói (drón, homlokzatok, tető) alapján értelmezett makett: a méretek, a tetőhajlás és a szintmagasságok becsültek (körvonal nincs), a nem fotózott homlokzatok nyílásai értelmezettek, a lejtős terep síkként jelenik meg; a tető színe a fotókat követi.",
+  "en": "Scale model interpreted from COLOR METAL's photographs of the finished house (drone, façades, roof): size, roof pitch and storey heights are estimated (no outline), openings on façades not photographed are interpreted, the sloping site is shown flat; the roof colour follows the photographs."
+ }
+}

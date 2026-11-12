@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 123.5,
+  "bearingSource": "OSM way 267207998 long axis 123.5°; +X points ESE to the narrowing apse end of the outline, the wide porch block with the main door faces −X (drone photo 03, ground photo 02)",
+  "cover": null,
+  "photosUsed": 3,
+  "approximations": "Only three small third-party images (not publishable): a ground view of the west front (02), a drone view of the courtyard (03) and a distant valley view (01). Layout from the photos, clarified by ro.wikipedia (triconch plan, three towers over the porch, the pronaos and the naos): enclosed porch ≈ 16 × 13.4 m with ≈ 6 m walls, pronaos/naos body ≈ 9.4 m wide with ≈ 10 m walls, three octagonal drums on cross-gabled square bases with shallow octagonal eave roofs and small round domes. Heights estimated without survey data (crosses ≈ 14.4, 22.4 and 23.4 m). The east end, lateral conchs and polygonal apse are not photographed and follow the OSM outline and the typical triconch layout; buttresses omitted. The photographs show the church with a light grey sheet roof (the drone photo shows new copper only on the precinct wings); the copper finish of the church follows the project record and is not confirmed by the photographs.",
+  "note": {
+    "ro": "Machetă preliminară după trei fotografii mici și conturul OSM: înălțimile sunt estimate, iar capătul estic și absidele laterale sunt interpretate. Fotografiile arată biserica cu o învelitoare gri; finisajul de cupru urmează evidența proiectului.",
+    "hu": "Előzetes makett három kis fotó és az OSM-körvonal alapján: a magasságok becsültek, a keleti rész és az oldalapszisok értelmezettek. A fotókon a templom szürke fedésű; a rézfelület a projektnyilvántartást követi.",
+    "en": "Preliminary scale model based on three small photographs and the OSM outline: heights are estimated, and the east end and lateral apses are interpreted. The photographs show the church with a grey roof; the copper finish follows the project record."
+  }
+}

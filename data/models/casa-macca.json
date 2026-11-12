@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 78.1,
+  "bearingSource": "OSM way 78063229 long axis 78.1° (29.2 × 18.3 m rectangle); +Z (168.1°) is taken as the street front carrying the domed pavilion — which long side faces Str. Henri Coandă is not verified",
+  "cover": "04",
+  "photosUsed": 12,
+  "approximations": "All 12 photos show only the projecting pavilion and its zinc roof from the street (through trees, partly tilted). Pavilion ≈ 10 m wide, projecting ≈ 2.6 m with rounded front corners (photos 02, 06–08); its position at the centre of the long front is assumed. Dome interpreted as one imperial roof rounded at the front (photos 03–05, 12) and hipped with sharp corners at the back where it meets the tiled main roof (photos 01, 09–11); height ≈ 4.6 m, batten spacing ≈ 1 m, cresting pattern simplified to rails, rings and spikes. Main block: two storeys (OSM), eave ≈ 12 m, window rhythm, low tiled hip roof (≈ 21°) and chimneys are interpreted; the balcony with atlantes and the courtyard entrance described in public sources are not modelled; rococo ornament (cherub, cartouche, scrolls) reduced to primitives.",
+  "note": {
+    "ro": "Machetă preliminară: pavilionul cu cupola „imperială” din titan-zinc natural și creasta din fier forjat urmează fotografiile; corpul principal, acoperișul de țiglă și fațadele nu sunt fotografiate și sunt interpretate.",
+    "hu": "Előzetes makett: a natúr titáncink „császári” kupolás pavilon és a kovácsoltvas tetődísz a fotókat követi; a főépület, a cseréptető és a homlokzatok nem szerepelnek a fotókon, ezért értelmezettek.",
+    "en": "Preliminary model: the pavilion with its natural titanium-zinc imperial dome and wrought-iron cresting follows the photographs; the main block, tiled roof and elevations were not photographed and are interpreted."
+  }
+}

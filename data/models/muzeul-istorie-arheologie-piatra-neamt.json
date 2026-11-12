@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 15.5,
+ "bearingSource": "OSM way 284997622 long axis 15.5° (+X towards NNE). The entrance front (+Z, facing ≈105° ESE) is the side where the wings project only 5.6 m and the wide shallow risalit sits (the stair projection and the 10.5 m wing projections are at the back) — footprint asymmetry matched with the top-down drone photo 02 and the front views 03/04.",
+ "cover": "04",
+ "photosUsed": 8,
+ "approximations": "Plan from the OSM outline (H-shape 46.4 × 34 m, symmetrised). Heights estimated from the drone photos using the façade bay width (eaves ≈ 13.6 m, zinc ridge ≈ 19.3 m, dome top ≈ 24 m plus mast); roof pitches (tile ≈ 54°/44°/56°, zinc upper roof 15°) estimated. The zinc dome is modelled as a square bell with a pointed profile; its diamond shingles are drawn about twice real size. Rear and outer side elevations are only partly visible — window counts there (7 bays per wing side, 3 bays either side of the rear projection) are assumed. Ornament (majolica frieze, voussoirs, clock, balconies), dormers and chimney positions are simplified.",
+ "note": {
+  "ro": "Machetă interpretată după cele 8 fotografii (inclusiv cu drona) și conturul OSM: titanzincul natural acoperă domul cu solzi romboidali, fusta evazată, partea superioară a acoperișului corpului central și jgheaburile; înălțimile, pantele și ferestrele fațadelor laterale și posterioare sunt estimate, iar ornamentația este simplificată.",
+  "hu": "A 8 fotó (köztük drónfelvételek) és az OSM-körvonal alapján értelmezett makett: a natúr titáncink fedi a rombuszlemezes kupolát, a kiöblösödő szoknyát, a főtömb felső tetőrészét és az ereszcsatornákat; a magasságok, a tetőhajlások, valamint az oldal- és hátsó homlokzatok ablakai becsültek, a díszítés egyszerűsített.",
+  "en": "Scale model interpreted from the 8 photographs (incl. drone views) and the OSM outline: the natural titanium-zinc covers the diamond-shingled dome, the flared skirt, the upper main roof and the gutters; heights, roof pitches and the windows of the side and rear elevations are estimated, and the ornament is simplified."
+ }
+}

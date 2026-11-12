@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 80.4,
+ "bearingSource": "OSM way 843620632 long axis 80.4°; +X points to the semicircular altar apse at the east end of the outline, −X to the projecting west front with the portal and steps (photos 01–03).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "OSM outline 38.9 × 18.2 m used (west front 10.8 m wide projecting 2 m, apse r ≈ 4.4 m). Heights estimated from the photographs (walls ≈ 12 m, west gable ≈ 16 m, central dome ≈ 27 m + cross). The four towers around the crossing, the north/east elevations and the roofs between the cross arms are inferred from the visible north-west/south-west views. Mosaic, carved portal and colonnettes simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință. Deoarece fotografiile disponibile sunt anterioare lucrărilor, acoperișurile și cupolele sunt redate din titan-zinc prepatinat elZinc Oliva, materialul livrat de COLOR METAL conform evidențelor sale. Turlele din jurul cupolei centrale și fațadele nefotografiate sunt aproximate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett. Mivel az elérhető fotók a munkálatok előtt készültek, a tetők és a kupolák elZinc Oliva előpatinázott titáncinkként jelennek meg – a COLOR METAL nyilvántartása szerint általa szállított anyagként. A központi kupola körüli tornyok és a nem fényképezett homlokzatok közelítők.",
+  "en": "Scale model interpreted from public reference photographs. Because the available photographs predate the works, the roofs and domes are shown in elZinc Oliva pre-weathered titanium-zinc, the material supplied by COLOR METAL according to its records. The towers around the central dome and the unphotographed elevations are approximated."
+ }
+}

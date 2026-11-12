@@ -1,0 +1,791 @@
+[
+ {
+  "id": "biserica-lunca-ilvei-lunca-ilvei",
+  "officialName": "Biserica Ortodoxă din Lunca Ilvei",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Lunca Ilvei"
+  ],
+  "category": "church",
+  "address": "Lunca Ilvei, comuna Lunca Ilvei, jud. Bistrița-Năsăud",
+  "city": "Lunca Ilvei",
+  "county": "Bistrița-Năsăud",
+  "country": "Romania",
+  "lat": 47.364071,
+  "lon": 24.967003,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 5042179270,
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Biserica Lunca Ilvei",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no Wikimedia Commons image is geotagged within 2.5 km of the church, and no other public photo was found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/5042179270",
+   "https://en.wikipedia.org/wiki/Lunca_Ilvei",
+   "https://ro.wikipedia.org/wiki/Lunca_Ilvei,_Bistri%C8%9Ba-N%C4%83s%C4%83ud"
+  ],
+  "verificationNotes": "Lunca Ilvei is a single-village commune (3,152 inhabitants in 2021). An Overpass search within 4.5 km of the village centre found exactly one place of worship in the village: OSM node 5042179270 'Biserica Lunca Ilvei' (orthodox). The only other hit, node 1316062630 'Mănăstirea Ilva Mare', lies about 3.7 km west, outside the village. Following the 'only church of the village' rule this is PROBABLE. However, the village is large and OSM may not map smaller churches or prayer houses. The church's dedication (hram) could not be confirmed, so it is not given. OSM has only a point, with no building outline, so accuracy is 'site' and footprint is null. the shared web-search budget ran out during this batch.",
+  "registerKeys": [
+   "576dd209b4ea034a"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-sf-ioan-iacob-hozevitul-piatra-craiului",
+  "officialName": "Mănăstirea Piatra Craiului «Sfântul Ioan Iacob Hozevitul»",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Piatra Craiului",
+   "Mănăstirea Sf. Ioan Iacob Hozevitul (Bucea)"
+  ],
+  "category": "monastery",
+  "address": "Bucea, comuna Negreni, jud. Cluj (by the Piatra Craiului rest stop, about 3 km from the E60/DN1; 90 km from Cluj-Napoca, 60 km from Oradea)",
+  "city": "Bucea (comuna Negreni)",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.97948,
+  "lon": 22.6943,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 1316063333,
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Mănăstirea Piatra Craiului",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "The complex has (a) a new white masonry church: cross-in-square plan, a tall central tower with an onion dome, a smaller second tower, and lower domes over the side apses; (b) a small wooden church with a steep pyramidal tower roof; (c) a 2–3-storey cell block with red roofs. No dimensions are published.",
+  "photos": 3,
+  "metalVisibleInPhotos": "01 (2023, at dusk): the finished new church has dark grey-brown roofs on its domes and towers. That fits patinated copper but cannot prove it. 02-03 (winter c. 2016/17): the new church still under scaffolding, with roofs covered in snow.",
+  "sourceUrls": [
+   "https://www.manastireapiatracraiului.ro/",
+   "https://www.manastireapiatracraiului.ro/contact/",
+   "https://www.manastireapiatracraiului.ro/photo/",
+   "https://actualdecluj.ro/doi-trimisi-in-judecata-pentru-furtul-cutiei-milei-de-la-manastirea-piatra-craiului-lacasul-de-cult-e-tinta-repetata-a-hotilor/",
+   "https://www.openstreetmap.org/node/1316063333"
+  ],
+  "verificationNotes": "The monastery itself is certain. The official site says Mănăstirea Piatra Craiului – Sfântul Ioan Iacob Hozevitul 'se află pe raza localității Bucea, comuna Negreni, județul Cluj… în dreptul popasului Piatra Craiului'. Actualdecluj (2026) confirms the Bucea location, the dedication and the founding year (1995). The wave-2 town 'Piatra Craiului' is the rest-stop / railway-station name, not a locality, and the wave-2 coordinates pointed at central Cluj-Napoca. The position used is OSM node 1316063333; the map pin on the official contact page (46.97912, 22.69373) is about 55 m away. Which building received the 2020 copper (0.5 mm sheets) is not documented. The most plausible candidate is the new masonry church: the official gallery shows it being built in concrete with domes and the main tower, and it appears finished in the 2023 invitation photo. The wooden church and the cell block (red roofs) are less likely. OSM has no building outlines here, so footprint is null.",
+  "registerKeys": [
+   "35c739e531443205"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-sfanta-treime-farau",
+  "officialName": "Mănăstirea «Sfânta Treime» Fărău",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Fărău",
+   "Schitul Fărău-Șilea",
+   "Biserica de lemn «Sfânta Treime» din Șilea (relocated to the monastery)"
+  ],
+  "category": "monastery",
+  "address": "about 2.8 km east of Fărău village on the road towards Șilea, comuna Fărău, jud. Alba",
+  "city": "Fărău",
+  "county": "Alba",
+  "country": "Romania",
+  "lat": 46.340501,
+  "lon": 24.04337,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 512605871,
+   "tags": {
+    "building": "church",
+    "name": "Mănăstirea Fărău"
+   }
+  },
+  "footprint": [
+   [
+    46.340467,
+    24.0432675
+   ],
+   [
+    46.3404151,
+    24.043399
+   ],
+   [
+    46.3404688,
+    24.0434473
+   ],
+   [
+    46.3404799,
+    24.0434097
+   ],
+   [
+    46.3405336,
+    24.0434446
+   ],
+   [
+    46.3405734,
+    24.0434377
+   ],
+   [
+    46.3405836,
+    24.0434017
+   ],
+   [
+    46.3405781,
+    24.0433695
+   ],
+   [
+    46.3405559,
+    24.0433346
+   ],
+   [
+    46.340467,
+    24.0432675
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 16.9,
+   "widthM": 12.1,
+   "bearingDeg": 27.7
+  },
+  "heightHints": "It has a steep hipped roof running down over the polygonal apse, and a small square turret with a pyramidal cap and cross near the west end. A separate tall timber bell tower with a pyramidal roof stands beside it. The OSM outline is a coarse trace (an irregular 10-node polygon); the photos show a long, narrow church, so use them for proportions.",
+  "photos": 5,
+  "metalVisibleInPhotos": "All photos are from Nov 2011 and predate the 2019 copper supply. The church roof and turret are clad in grey galvanised / tin sheet. No photo from after 2019 was found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/512605871",
+   "https://www.openstreetmap.org/node/5012221199",
+   "https://www.openstreetmap.org/node/1316063355",
+   "https://commons.wikimedia.org/wiki/Category:Holy_Trinity_wooden_church_of_%C8%98ilea",
+   "https://www.wikidata.org/wiki/Q42746684",
+   "https://ro.wikipedia.org/wiki/Comuna_F%C4%83r%C4%83u,_Alba"
+  ],
+  "verificationNotes": "Monastery identified. OSM has building=church way 512605871 'Mănăstirea Fărău', with place-of-worship nodes 'Mănăstirea Fărău' (5012221199) and 'Schitul Fărău-Șilea' (1316063355) at the same spot, about 2.8 km east of Fărău village. No other monastery exists in Fărău commune; checked by Overpass within 9 km. A 2011 Commons photo (RO_AB_Silea_church_of_the_Holy_Trinity_2011.21.jpg) shows the roadside sign 'MĂNĂSTIREA SFÂNTA TREIME'. Other photos in the series are described as 'Biserica de lemn din Șilea mutată la Mănăstirea Fărău': the monastery church is the Holy Trinity wooden church moved here from Șilea (LMI AB-II-m-B-00365.01, Wikidata Q42746684). The church is the only church building on the site and in 2011 had a sheet-metal roof, so re-cladding it in Cu-DHP in 2019 is plausible but unconfirmed. Hence PROBABLE at building level. The footprint comes from OSM and is coarse.",
+  "registerKeys": [
+   "524988d96caf6523"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "parohia-buna-vestire-bistrita",
+  "officialName": "Biserica Greco-Catolică «Buna Vestire» Bistrița",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Buna Vestire (Bistrița)",
+   "Church of the Annunciation, Bistrița (Romanian Greek-Catholic)"
+  ],
+  "category": "church",
+  "address": "next to the Winmarkt shopping centre (Strada Gării 17), Bistrița, jud. Bistrița-Năsăud",
+  "city": "Bistrița",
+  "county": "Bistrița-Năsăud",
+  "country": "Romania",
+  "lat": 47.131998,
+  "lon": 24.487518,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 348507221,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "greek_catholic",
+    "name": "Biserica Greco-Catolică Buna Vestire",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.1321405,
+    24.4874561
+   ],
+   [
+    47.1319815,
+    24.4872497
+   ],
+   [
+    47.1318575,
+    24.4874561
+   ],
+   [
+    47.1318575,
+    24.4875781
+   ],
+   [
+    47.1320051,
+    24.487786
+   ],
+   [
+    47.1321443,
+    24.4875726
+   ],
+   [
+    47.1321405,
+    24.4874561
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.9,
+   "widthM": 28.4,
+   "bearingDeg": 43.6
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: there are no Commons images geotagged near the church or in the Bistrița church categories, and no other public photo was found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/348507221",
+   "https://gcatholic.org/churches/europe-east/84057"
+  ],
+  "verificationNotes": "The only church with the 'Buna Vestire' (Annunciation) dedication found in Bistrița is the Romanian Greek-Catholic parish church listed by GCatholic (Eparchy of Cluj-Gherla; plus code 8GV64FJP+VX = 47.13219, 24.48744). That point falls within about 10 m of OSM way 348507221 'Biserica Greco-Catolică Buna Vestire' (amenity=place_of_worship, denomination=greek_catholic). The OSM outline is coarse (7 nodes, about 30 x 28 m, 780 m²) but indicates a large, roughly centralised modern church. Not excluded: an Orthodox parish with the same dedication. A city-wide OSM name search failed (Overpass errors) and the web-search budget was exhausted, so this could not be checked.",
+  "registerKeys": [
+   "c1e52f7af19b7b2b"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-dumbrava-dumbrava",
+  "officialName": "Biserica din Dumbrava, jud. Timiș (building not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Igazfalva (HU village name)"
+  ],
+  "category": "church",
+  "address": "Dumbrava, comuna Dumbrava, jud. Timiș (exact church unknown)",
+  "city": "Dumbrava",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.8253697,
+  "lon": 22.1168539,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 34088338,
+   "tags": {
+    "name": "Dumbrava",
+    "name:hu": "Igazfalva",
+    "place": "village",
+    "postal_code": "307155"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/34088338",
+   "https://www.openstreetmap.org/node/2389157478",
+   "https://www.openstreetmap.org/node/320690738",
+   "https://ro.wikipedia.org/wiki/Comuna_Dumbrava,_Timi%C8%99",
+   "https://commons.wikimedia.org/wiki/Category:Dumbrava,_Timi%C8%99"
+  ],
+  "verificationNotes": "The village has at least two mapped churches: the Orthodox church (OSM node 2389157478, 45.82657, 22.11651) and the Reformed church (node 320690738, 45.82451, 22.11716). There are also sizeable Pentecostal and Baptist communities (2021 census). No source links the 2019 titanium-zinc sheet to either church, so the building is unresolved. Coordinates are the Dumbrava village node. Commons has two Nov 2021 photos of the Reformed church by Gabriela Mariana Paulescu (CC BY-SA 4.0). They were not downloaded because the entry is unresolved.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-berchez-berchez",
+  "officialName": "Biserica din Berchez (building not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Magyarberkesz (HU village name)"
+  ],
+  "category": "church",
+  "address": "Berchez, comuna Remetea Chioarului, jud. Maramureș (exact church unknown)",
+  "city": "Berchez",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.5189241,
+  "lon": 23.5056927,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 462245601,
+   "tags": {
+    "name": "Berchez",
+    "name:hu": "Magyarberkesz",
+    "place": "village",
+    "postal_code": "437231",
+    "wikidata": "Q716401"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/462245601",
+   "https://ro.wikipedia.org/wiki/Berchez,_Maramure%C8%99",
+   "https://hu.wikipedia.org/wiki/Magyarberkesz",
+   "https://ro.wikipedia.org/wiki/Biserica_de_lemn_din_Berchez",
+   "https://www.wikidata.org/wiki/Q18537797",
+   "https://commons.wikimedia.org/wiki/Category:Wooden_church_in_Berchez"
+  ],
+  "verificationNotes": "Berchez has at least two churches, and OSM maps no church or building at all in the village. (1) The Orthodox wooden church of St John the Baptist, 19th century, LMI MM-II-m-B-04520, Wikidata Q18537797 at 47.518209, 23.504011. hu.wikipedia calls it 'bádogtetős' (sheet-metal roofed), and 2009 Commons photos show a grey sheet-metal roof and spire. Re-cladding it with Ti-Zn sheet and strip in 2019 would fit, so it is the leading candidate. (2) The Reformed church, built before 1514 and serving the Hungarian majority (369 Reformed, 229 Orthodox, 52 Pentecostal in 2002). One 2009 photo also shows a third white masonry church tower behind the wooden church. Coordinates are the village node; no photos were downloaded.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "corp-manastirea-ponor-ponor",
+  "officialName": "Mănăstirea Ponor «Înălțarea Domnului» (building/wing not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Ponor (monks)",
+   "Paraclisul Sf. Nectarie",
+   "«Athosul românesc»"
+  ],
+  "category": "monastery",
+  "address": "about 5 km from Ponor village, Trascău Mountains, jud. Alba, at over 1,300 m altitude (alba24). Reverse geocoding of the OSM church gives the Cioara de Sus / Baia de Arieș side of the boundary.",
+  "city": "Ponor",
+  "county": "Alba",
+  "country": "Romania",
+  "lat": 46.346892,
+  "lon": 23.342837,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 221250606,
+   "tags": {
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "name": "Mănăstirea Ponor ",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Per alba24, the ground floor holds the chapel, kitchen and workshops, with cells in the attic. The OSM church outline is about 22.1 x 12.4 m (way 221250606); the wings are not mapped.",
+  "photos": 4,
+  "metalVisibleInPhotos": "May 2023 drone photos: the roofs of the monks' monastery (01-02) and of the nuns' Sf. Spiridon monastery (03-04) all read as dark grey. No copper-coloured roof surface can be picked out, so the 2021 copper may be on a particular wing, on turret caps or flashings, or already patinated. Not determinable.",
+  "sourceUrls": [
+   "https://alba24.ro/video-manastirea-ponor-supranumita-athosul-romanesc-o-bucatica-rupta-din-cerul-de-care-este-atat-de-aproape-980532.html",
+   "https://www.openstreetmap.org/way/221250606",
+   "https://www.openstreetmap.org/node/5012454856",
+   "https://www.openstreetmap.org/way/368471048"
+  ],
+  "verificationNotes": "Two monasteries near Ponor are both run by the same abbot and both called 'Mănăstirea Ponor' (alba24, May 2023). (a) The monks' monastery, begun 2002: church dedicated to the Ascension (Înălțarea Domnului), chapel of St Nectarios, fortress-plan quadrangle. OSM way 221250606 'Mănăstirea Ponor' at 46.3469, 23.3428; an OSM node at the same spot is named 'Biserica Sfânta Parascheva', which conflicts with alba24. (b) The nuns' monastery of St Spyridon, about 1.7 km east (OSM way 368471048 'Mănăstirea Ortodoxă «Sfântul Spiridon» Ponor', 46.34982, 23.36426). Position is set on (a), the monastery the name usually refers to. (b) is an equal alternative, so the identification is PROBABLE at site level only. Footprint is null because the wing is unknown.",
+  "registerKeys": [
+   "60c5dab65279126a"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-chechis-chechis",
+  "officialName": "Biserica Ortodoxă din Chechiș",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Chechiș"
+  ],
+  "category": "church",
+  "address": "Chechiș, comuna Dumbrăvița, jud. Maramureș",
+  "city": "Chechiș",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.583022,
+  "lon": 23.6019396,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 1876215396,
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Biserica Chechiș",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no Commons images are geotagged near Chechiș and no other public photo was found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/1876215396",
+   "https://ro.wikipedia.org/wiki/Chechi%C8%99,_Maramure%C8%99",
+   "https://www.emaramures.ro/obiecte-de-poveste-biserica-monument-sfantul-mare-mucenic-gheorghe-din-muzeul-satului-de-pe-dealul-florilor"
+  ],
+  "verificationNotes": "They are treated as one building, a two-phase supply. Chechiș belongs to Dumbrăvița commune (ro.wikipedia). Its historic wooden church of St George (1630) was moved in 1939 to the Village Museum in Baia Mare (eMaramureș), so it is not the candidate. The candidate is the present church in the village, OSM node 1876215396 'Biserica Chechiș' (orthodox). There is only a point and no outline, so accuracy is 'site' and footprint is null. Its dedication could not be confirmed. Nearby but outside the village: Mănăstirea Habra (about 2 km north) and churches about 2 km south. A Greek-Catholic or other church in Chechiș, unmapped in OSM, cannot be fully excluded.",
+  "registerKeys": [
+   "8230104eb3c4a9ae",
+   "f9495f62dd45e707"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-ortodoxa-borcut-borcut",
+  "officialName": "Biserica Ortodoxă din Borcut",
+  "nameHu": null,
+  "altNames": [
+   "Borkút (HU village name)"
+  ],
+  "category": "church",
+  "address": "Borcut, oraș Târgu Lăpuș, jud. Maramureș",
+  "city": "Borcut",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.479616,
+  "lon": 23.84288,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1159363796,
+   "tags": {
+    "building": "church"
+   }
+  },
+  "footprint": [
+   [
+    47.4796831,
+    23.842727
+   ],
+   [
+    47.4796105,
+    23.8426966
+   ],
+   [
+    47.4795806,
+    23.8428647
+   ],
+   [
+    47.4795616,
+    23.8428694
+   ],
+   [
+    47.479549,
+    23.8428998
+   ],
+   [
+    47.4795553,
+    23.8429278
+   ],
+   [
+    47.4795648,
+    23.8429441
+   ],
+   [
+    47.4795537,
+    23.8430095
+   ],
+   [
+    47.4795743,
+    23.8430212
+   ],
+   [
+    47.4795743,
+    23.8430492
+   ],
+   [
+    47.4795948,
+    23.8430585
+   ],
+   [
+    47.4796121,
+    23.8430399
+   ],
+   [
+    47.4796311,
+    23.8430422
+   ],
+   [
+    47.479639,
+    23.8429745
+   ],
+   [
+    47.4796579,
+    23.8429605
+   ],
+   [
+    47.4796658,
+    23.8429418
+   ],
+   [
+    47.4796626,
+    23.8429138
+   ],
+   [
+    47.4796532,
+    23.8428974
+   ],
+   [
+    47.4796831,
+    23.842727
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 27.0,
+   "widthM": 13.1,
+   "bearingDeg": 114.0
+  },
+  "heightHints": "The OSM outline shows a trefoil / cross plan, about 27 m long, with side apses (choirs) and an east apse, typical of a post-war or modern Romanian Orthodox masonry church. No height data.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved. The only Commons photo of Borcut (RO_MM_Borcut.jpg, 2018) is a distant village panorama that does not show the church usably.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1159363796",
+   "https://ro.wikipedia.org/wiki/Borcut,_Maramure%C8%99",
+   "https://commons.wikimedia.org/wiki/Category:Borcut,_Maramure%C8%99"
+  ],
+  "verificationNotes": "Borcut is a village of Târgu Lăpuș town (Maramureș). OSM maps a single church building in the village: way 1159363796 (building=church, no name), 234 m², about 27.0 x 13.1 m, trefoil plan. ro.wikipedia mentions the WWI heroes' monument 'în curtea bisericii' (in the churchyard). Do not confuse with 'Parohia Ortodoxă Română Valea Borcutului' (2024), a different village.",
+  "registerKeys": [
+   "ddfca21d4eca72dd"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-buna-vestire-zlatna",
+  "officialName": "Mănăstirea «Buna Vestire» Pătrângeni (Negraia), Zlatna",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Pătrângeni-Negroiu",
+   "Mănăstirea Negraia",
+   "Mănăstirea Buna Vestire Zlatna"
+  ],
+  "category": "monastery",
+  "address": "Pătrângeni / Valea Mică, oraș Zlatna, jud. Alba (off the DN74, near the 'Degetul lui Dumnezeu' rock)",
+  "city": "Zlatna",
+  "county": "Alba",
+  "country": "Romania",
+  "lat": 46.083629,
+  "lon": 23.275766,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 289907743,
+   "tags": {
+    "building": "church",
+    "name": "Mănăstirea Pătrângeni-Negroiu "
+   }
+  },
+  "footprint": [
+   [
+    46.0836086,
+    23.2756022
+   ],
+   [
+    46.0835395,
+    23.2756488
+   ],
+   [
+    46.0836253,
+    23.2758865
+   ],
+   [
+    46.0836542,
+    23.2759154
+   ],
+   [
+    46.0836854,
+    23.2759186
+   ],
+   [
+    46.0837044,
+    23.2758929
+   ],
+   [
+    46.0837088,
+    23.2758464
+   ],
+   [
+    46.0836988,
+    23.2758142
+   ],
+   [
+    46.0836086,
+    23.2756022
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 25.9,
+   "widthM": 9.8,
+   "bearingDeg": 62.7
+  },
+  "heightHints": "The footprint is the monastery church (OSM way 289907743, about 25.9 x 9.8 m): a white church with a tall white bell tower over the west porch and a pitched nave roof. Also on site: a smaller chapel (paraclis, dedicated also to St Elijah) with its own tower, 2–3-storey cell blocks with red roofs, the old church of 1910, a summer altar and a pavilion.",
+  "photos": 3,
+  "metalVisibleInPhotos": "July 2023 drone photos: the main church's nave roof looks light orange-brown and its tower helmet silver-grey. The chapel's roofs are brown. About one year after a 2022 install, copper would look brown, so the church roof is consistent with copper. Ceramic tiles cannot be ruled out at this resolution.",
+  "sourceUrls": [
+   "https://alba24.ro/foto-video-manastirea-buna-vestire-de-la-patrangeni-zlatna-locul-de-rugaciune-de-langa-degetul-lui-dumnezeu-990507.html",
+   "https://www.openstreetmap.org/way/289907743",
+   "https://www.openstreetmap.org/node/5012440411"
+  ],
+  "verificationNotes": "Monastery identified. Alba24 (29.07.2023) describes Mănăstirea 'Buna Vestire' at Pătrângeni (Negraia) by Zlatna: founded 1993, abbot since 1997, nuns' community since 2001. On site: an old church (1910, restored 2005), a 'new church', a chapel, cells, a refectory, a summer altar and a museum. The roof was re-covered with aluminium sheet in early 2002, and further roofs were done in 2003–2004. OSM: building=church way 289907743 'Mănăstirea Pătrângeni-Negroiu' plus place-of-worship node 5012440411, inside Zlatna town (Pătrângeni–Valea Mică). It is the only 'Buna Vestire' monastery found by Zlatna. Which building received the 2022 copper is not documented; the main church (footprint given) is the leading candidate.",
+  "registerKeys": [
+   "e9ac2555b7182fed"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-romano-catolica-foieni",
+  "officialName": "Biserica Romano-Catolică «Sfântul Arhanghel Mihail» din Foieni",
+  "nameHu": "Szent Mihály arkangyal templom (Mezőfény)",
+  "altNames": [
+   "Mezőfényi római katolikus templom",
+   "Sankt-Michaels-Kirche (Fienen)",
+   "Biserica Sfântul Mihail"
+  ],
+  "category": "church",
+  "address": "Foieni (Mezőfény), jud. Satu Mare. Parish office: Str. Principală 498, 447135 Foieni (miserend.hu).",
+  "city": "Foieni",
+  "county": "Satu Mare",
+  "country": "Romania",
+  "lat": 47.697069,
+  "lon": 22.384796,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 381785929,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "name": "Biserica Sfântul Mihail",
+    "name:de": "Sankt-Michaels-Kirche",
+    "name:hu": "Szent Mihály arkangyal templom",
+    "religion": "christian",
+    "url:miserend": "http://miserend.hu/?templom=4641"
+   }
+  },
+  "footprint": [
+   [
+    47.6969758,
+    22.3849766
+   ],
+   [
+    47.6970189,
+    22.3846753
+   ],
+   [
+    47.6970263,
+    22.3846776
+   ],
+   [
+    47.6970346,
+    22.3845968
+   ],
+   [
+    47.6970632,
+    22.3845596
+   ],
+   [
+    47.6971024,
+    22.3845539
+   ],
+   [
+    47.6971367,
+    22.3845846
+   ],
+   [
+    47.6971515,
+    22.3846358
+   ],
+   [
+    47.6971411,
+    22.3847139
+   ],
+   [
+    47.6971478,
+    22.3847161
+   ],
+   [
+    47.6971047,
+    22.3850174
+   ],
+   [
+    47.6970617,
+    22.3850038
+   ],
+   [
+    47.6970568,
+    22.3850385
+   ],
+   [
+    47.6970138,
+    22.3850249
+   ],
+   [
+    47.6970188,
+    22.3849902
+   ],
+   [
+    47.6969758,
+    22.3849766
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 36.6,
+   "widthM": 14.6,
+   "bearingDeg": 101.9
+  },
+  "heightHints": "Late-Baroque single-nave hall church built 1780–1785 (miserend.hu), yellow and white façades, with a west tower: clock stage, a bulbous helmet, an open lantern, and a small onion with a ball and cross on top. The nave has a pitched roof in standing-seam metal. The tower is roughly 3 times the eaves height (from photos).",
+  "photos": 3,
+  "metalVisibleInPhotos": "01-02 (Aug 2023): the nave roof is brown standing-seam sheet and the tower's helmet and lantern are dark brown, consistent with copper 2–3 years after the 2020–2021 supply. Unconfirmed in text.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/381785929",
+   "http://miserend.hu/?templom=4641",
+   "https://commons.wikimedia.org/wiki/Category:Saint_Michael_church_in_Foieni"
+  ],
+  "verificationNotes": "Foieni (Hungarian Mezőfény, German Fienen) has one Roman Catholic church: OSM way 381785929 'Biserica Sfântul Mihail' (roman_catholic; name:hu 'Szent Mihály arkangyal templom'; url:miserend 4641). miserend.hu gives 47.6970636, 22.3847962 (identical) and building dates 1780–1785. The building identification is certain; OSM outline: 36.6 x 14.6 m.",
+  "registerKeys": [
+   "b01a0dd82492331c",
+   "b01a0dd82492331c"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ }
+]

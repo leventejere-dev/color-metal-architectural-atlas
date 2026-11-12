@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 90.2,
+ "bearingSource": "OSM way 117513254 long axis 90.2°; +X = east: chamfered sanctuary end to the east, tower to the west (drone photos 01–03; sacristy on the north side as in the OSM outline)",
+ "cover": "02",
+ "photosUsed": 10,
+ "approximations": "Nave modelled 9.4 m wide (≈ 12 % narrower than the OSM outline, which appears to follow the roof edge; scaled on vertical drone photo 03 against the ≈ 44 × 41 m churchyard wall and on photo 02); tower ≈ 5 m square, ~0.3 m south of the nave axis (±0.5 m), shaft to ≈ 19.4 m and spire tip at 30 m per the published height; eave 8.5 m per hu.wikipedia; roof pitch ≈ 52°; chamfered east end and sacristy from the OSM outline; south and east windows partly hidden by trees (count/positions approximate), north wall blank as photographed; tower inscriptions omitted; beaver-tail tiles as flat colour with course lines; fortified churchyard wall not modelled. Metal: elZinc Natural titanium-zinc according to COLOR METAL's register (delivered April 2026) — the broach spire — silver-grey sheet in horizontal lapped courses, partly weathered — plus bright galvanised-looking gutters and downpipes; the nave roof is clay tile.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile cu drona și de la sol, calibrată pe conturul OSM și pe înălțimea publicată a turnului (30 m); pozițiile ferestrelor de pe laturile de sud și de est și poziția exactă a turnului față de axa navei sunt aproximative.",
+  "hu": "A drónos és földi fotók alapján értelmezett makett, az OSM-körvonalhoz és a torony közölt magasságához (30 m) igazítva; a déli és keleti oldal ablakainak helye és a torony pontos helyzete a hajó tengelyéhez képest közelítő.",
+  "en": "Scale model interpreted from the drone and ground photographs, calibrated on the OSM outline and the published tower height (30 m); window positions on the south and east sides and the exact position of the tower across the nave are approximate."
+ }
+}

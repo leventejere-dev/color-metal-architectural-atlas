@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 90,
+ "bearingSource": "Building not geolocated (street-level position on Strada Pantei only). Assumes the top-down drone photo 02 is north-up: +X = image right (≈ east, uphill side); the exposed lower storey and the roof terrace (−X) face the access road on the west. Unverified.",
+ "cover": "10",
+ "photosUsed": 12,
+ "approximations": "Size scaled from the top-down photo 02 with the standing-seam pitch (≈ 0.55 m) and the roof windows (≈ 1.14 m), ±10 %: central volume 7.35 × 16.1 m, west wing 6.3 × 5.4 m, east wing 7.65 × 6.7 m, storeys ≈ 2.9 m, roof pitch ≈ 22°. Modelled as photographed during construction (raw ceramic blocks, concrete frame, black waterproofing, pink XPS strips, no windows yet). The slope is not modelled: the buried lower walls on the east are shown in their waterproofing, and a lower storey under the east wing is assumed. Openings on faces hidden by scaffolding or not photographed are estimated; scaffolding omitted.",
+ "note": {
+  "ro": "Machetă interpretată după cele 12 fotografii cu drona și de la sol, în stadiul de șantier fotografiat: acoperișurile în cruce din aluminiu antracit fălțuit, cu parazăpezi, jgheaburi și ferestre de mansardă, sunt redate fidel; dimensiunile sunt deduse din pasul fălțuirii, iar orientarea și o parte din goluri sunt estimate.",
+  "hu": "A 12 drón- és földi fotó alapján értelmezett makett a lefotózott építési állapotban: a kereszt alaprajzú, antracit állókorcos alumínium tetők hófogókkal, ereszcsatornákkal és tetőablakokkal hűen ábrázoltak; a méretek a korcosztásból származnak, a tájolás és a nyílások egy része becsült.",
+  "en": "Scale model interpreted from the 12 drone and ground photographs, in the construction stage photographed: the cross-shaped anthracite standing-seam aluminium roofs with snow guards, gutters and roof windows are reproduced closely; dimensions are derived from the seam pitch, while the orientation and some openings are estimated."
+ }
+}

@@ -1,0 +1,945 @@
+[
+ {
+  "id": "ubc-timisoara-cladire-birouri-timisoara",
+  "officialName": "United Business Center (UBC) office buildings, Iulius Town Timișoara (specific building not identified)",
+  "nameHu": null,
+  "altNames": [
+   "UBC 0",
+   "UBC 1",
+   "UBC 2",
+   "UBC 3",
+   "Iulius Town (formerly Openville)"
+  ],
+  "category": "commercial",
+  "address": "Piața Consiliul Europei 2A–2E / Bulevardul Antenei 9, 300088 Timișoara",
+  "city": "Timișoara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.765587,
+  "lon": 21.228603,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 589167169,
+   "tags": {
+    "landuse": "retail",
+    "name": "Iulius Town"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "OSM: UBC 0 15 levels / height 90 m; UBC 3 14 levels / 80 m; UBC 1 and UBC 2 10 levels / 55 m each.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: which UBC building (and which element) received the Cu-DHP copper is not documented.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/887796993",
+   "https://www.openstreetmap.org/way/500524408",
+   "https://www.openstreetmap.org/way/455779889",
+   "https://www.openstreetmap.org/way/646425597",
+   "https://www.openstreetmap.org/way/589167169",
+   "https://www.economica.net/ubc-0-cea-mai-inalta-cladire-din-romania-de-155-de-metri-a-ajuns-cu-structura-la-etajul-8_186431.html",
+   "https://www.wall-street.ro/articol/Real-Estate/238518/ubc-2-spatii-de-birouri-timisoara-leed-iulius-openville.html"
+  ],
+  "verificationNotes": "'UBC' = United Business Center, the office brand of the Iulius group; 2A), UBC 2 (way 455779889, Bd. Antenei 9, LEED-certified) and UBC 3 (way 646425597, nr. 2E). Which tower and which element (roof or terrace flashings, canopy, cladding detail) used the copper is not stated in any source found; the web search budget ran out before more could be checked. lat/lon = mean of the four UBC footprint centroids (site level); no footprint given.",
+  "registerKeys": [
+   "9c40364c96b442b9"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "parohia-ortodoxa-romana-cebza-cebza",
+  "officialName": "Biserica Ortodoxă «Nașterea Sfântului Ioan Botezătorul» din Cebza",
+  "nameHu": null,
+  "altNames": [
+   "Parohia Ortodoxă Română Cebza"
+  ],
+  "category": "church",
+  "address": "Cebza nr. 156 (parish address), 307111 Cebza, oraș Ciacova, jud. Timiș",
+  "city": "Cebza",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.552382,
+  "lon": 21.066557,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no public photo of the parish church was found and the building is not located on the map.",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-deta/",
+   "https://ro.wikipedia.org/wiki/Cebza,_Timi%C8%99",
+   "https://www.openstreetmap.org/node/487686311",
+   "https://www.primariaciacova.ro/wp-content/uploads/2026/05/TM-II-m-A-06195_FAI-M.pdf"
+  ],
+  "verificationNotes": "The Mitropolia Banatului list (Protopopiatul Deta) gives the Cebza parish church as «Nașterea Sf. Ioan Botezătorul», 1923, parish address nr. 156; ro.wikipedia instead says the village's Orthodox church was built in 1880 and survived the 1912 flood (date conflict). The other church in the village territory is the 1758 wooden church «Sf. Gheorghe» (LMI TM-II-m-A-06195) in the cemetery. It belongs to Mănăstirea Cebza (OSM node 487686311, about 0.7 km north), a monastery rather than the parish. The parish church is not mapped in OSM and could not be pinned down on imagery, so lat/lon = village centre. No news about the 2019 copper works was found (web search budget exhausted).",
+  "registerKeys": [
+   "fcd26fe6947a17f1"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-racovita-racovita",
+  "officialName": null,
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Racovița, comuna Racovița, jud. Timiș",
+  "city": "Racovița",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.699739,
+  "lon": 21.636334,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
+   "https://commons.wikimedia.org/wiki/Category:Romanian_Orthodox_Church_in_Racovi%C8%9Ba,_Timi%C8%99",
+   "https://commons.wikimedia.org/wiki/Category:Church_of_the_Nativity_of_Virgin_Mary_in_Racovi%C8%9Ba,_Timi%C8%99",
+   "https://commons.wikimedia.org/wiki/File:RacovitaTM_(7).JPG"
+  ],
+  "verificationNotes": "Racovița village has two churches. Wikimedia Commons (2009 photos) shows a white single-tower Banat-baroque church (category 'Romanian Orthodox Church in Racovița, Timiș') and a three-tower church with 1930 on the façade (category 'Church of the Nativity of Virgin Mary in Racovița', filed under Greek Catholic churches). The Orthodox deanery list (Protopopiatul Lugoj) gives the Racovița parish church as «Nașterea Maicii Domnului», 1930, which conflicts with the Commons classification. Neither church is mapped in OSM. Esri imagery (16 Oct 2019, before the 2021 order) shows a church with a bright metal roof and a west tower near 45.7007, 21.6398. No source ties the 2021 elZinc order to either building, so this stays UNRESOLVED. lat/lon = village centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-balint-balint",
+  "officialName": "Biserica Ortodoxă «Învierea Domnului» din Balinț",
+  "nameHu": null,
+  "altNames": [
+   "Parohia Română Ortodoxă Balinț"
+  ],
+  "category": "church",
+  "address": "Balinț, comuna Balinț, jud. Timiș",
+  "city": "Balinț",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.8147077,
+  "lon": 21.8566798,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 2424275140,
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Single west-front bell tower with clock, a lantern and a cross over a gabled nave (2012 photo); no measured height.",
+  "photos": 1,
+  "metalVisibleInPhotos": "01.jpg (Commons, April 2012) predates the 2022 works. It shows the west front with the tower helm and lantern in light-grey sheet metal; the nave roof is hidden by trees. The new elZinc natural covering is not shown.",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
+   "https://www.openstreetmap.org/node/2424275140",
+   "https://commons.wikimedia.org/wiki/Category:Romanian_Orthodox_Church_in_Balin%C8%9B,_Timi%C8%99",
+   "https://commons.wikimedia.org/wiki/File:BalintTM_(2).JPG",
+   "https://ro.wikipedia.org/wiki/Balin%C8%9B,_Timi%C8%99"
+  ],
+  "verificationNotes": "Both point to the Orthodox parish church. The Mitropolia Banatului list (Protopopiatul Lugoj) gives the Balinț church as «Învierea Domnului», 1890. OSM node 2424275140 (place_of_worship, orthodox) sits on a church-shaped building with an apse on Esri imagery, in the village core. There is no OSM outline, so footprint = null. Two other OSM 'Biserica' Orthodox nodes lie about 2.3 km east and west of the centre, outside the village core. Historically the village also had Reformed, Greek-Catholic and Roman-Catholic believers (1910), but in 2002 490 of 614 inhabitants were Orthodox. No news about the 2022 works was found (web search budget exhausted).",
+  "registerKeys": [
+   "8230104eb3c4a9ae",
+   "e3298e98dbb79d78"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-honorici-honorici",
+  "officialName": "Biserica Ortodoxă «Nașterea Maicii Domnului» din Honorici",
+  "nameHu": null,
+  "altNames": [
+   "Parohia Ortodoxă Română Honorici"
+  ],
+  "category": "church",
+  "address": "Honorici, jud. Timiș",
+  "city": "Honorici",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.6140613,
+  "lon": 21.9115583,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 287504366,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "orthodox",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.6140878,
+    21.9113983
+   ],
+   [
+    45.6139879,
+    21.9114345
+   ],
+   [
+    45.6140225,
+    21.9116514
+   ],
+   [
+    45.6140481,
+    21.9117116
+   ],
+   [
+    45.6140915,
+    21.9117193
+   ],
+   [
+    45.6141196,
+    21.91169
+   ],
+   [
+    45.6141249,
+    21.9116164
+   ],
+   [
+    45.6140878,
+    21.9113983
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 24.4,
+   "widthM": 11.6,
+   "bearingDeg": 76.4
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no public photo of this church was found (none on Wikimedia Commons).",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
+   "https://www.openstreetmap.org/way/287504366",
+   "https://ro.wikipedia.org/wiki/Honorici,_Timi%C8%99"
+  ],
+  "verificationNotes": "A third 2022 line, 'Biserica, Honorici, TM', was bought the same day with the same material. That points to a copper roof done in phases, 2022 then 2024. The Mitropolia Banatului list (Protopopiatul Lugoj) gives the Honorici church as «Nașterea Maicii Domnului», 1907; its filia Pădureni (2002 chapel) is a different village. OSM way 287504366 (building=church, orthodox) is the only place of worship mapped in the village: 24.4 x 11.6 m, long axis ENE. No news about the copper works was found (web search budget exhausted).",
+  "registerKeys": [
+   "8230104eb3c4a9ae",
+   "188f1aafab9db40e"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-jdioara-jdioara",
+  "officialName": "Biserica Ortodoxă «Sfinții Apostoli Petru și Pavel» din Jdioara",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Jdioara, comuna Criciova, jud. Timiș",
+  "city": "Jdioara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.6210711,
+  "lon": 22.1069194,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 672363695,
+   "tags": {
+    "building": "church"
+   }
+  },
+  "footprint": [
+   [
+    45.6209572,
+    22.106786
+   ],
+   [
+    45.621181,
+    22.1068676
+   ],
+   [
+    45.6212132,
+    22.1069243
+   ],
+   [
+    45.6212206,
+    22.1069738
+   ],
+   [
+    45.6212033,
+    22.1070127
+   ],
+   [
+    45.6211661,
+    22.1070163
+   ],
+   [
+    45.6211611,
+    22.1070444
+   ],
+   [
+    45.6209263,
+    22.1069587
+   ],
+   [
+    45.6209572,
+    22.106786
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 31.8,
+   "widthM": 13.9,
+   "bearingDeg": 14.4
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no public photo of this church was found (Commons only has the Jdioara fortress ruins).",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
+   "https://www.openstreetmap.org/way/672363695",
+   "https://commons.wikimedia.org/wiki/Category:Jdioara,_Timi%C8%99"
+  ],
+  "verificationNotes": "The Mitropolia Banatului list (Protopopiatul Lugoj) gives the Jdioara church as «Sf. Ap. Petru și Pavel», 1907. OSM way 672363695 (building=church, untagged denomination) is the only church building mapped in the village: 31.8 x 13.9 m, long axis roughly N–S (bearing about 14°), next to the main road. No news about the works was found (web search budget exhausted).",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-mosnita-veche-mosnita-veche",
+  "officialName": "Biserica Ortodoxă «Înălțarea Domnului» din Moșnița Veche",
+  "nameHu": null,
+  "altNames": [
+   "Parohia Ortodoxă Română Moșnița Veche"
+  ],
+  "category": "church",
+  "address": "Moșnița Veche nr. 287 (parish address), 307287, comuna Moșnița Nouă, jud. Timiș",
+  "city": "Moșnița Veche",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.7336519,
+  "lon": 21.3341354,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 540270856,
+   "tags": {
+    "addr:city": "Moșnița Veche",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.7336606,
+    21.3339798
+   ],
+   [
+    45.73372,
+    21.3341981
+   ],
+   [
+    45.7337217,
+    21.3342293
+   ],
+   [
+    45.7337151,
+    21.3342548
+   ],
+   [
+    45.733701,
+    21.3342732
+   ],
+   [
+    45.733683,
+    21.334283
+   ],
+   [
+    45.7336608,
+    21.3342849
+   ],
+   [
+    45.7336449,
+    21.3342732
+   ],
+   [
+    45.7336326,
+    21.3342509
+   ],
+   [
+    45.7335715,
+    21.3340267
+   ],
+   [
+    45.7336606,
+    21.3339798
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 23.0,
+   "widthM": 10.5,
+   "bearingDeg": 68.8
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no public photo of this church was found (none on Wikimedia Commons).",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-timisoara-ii/",
+   "https://www.openstreetmap.org/way/540270856",
+   "https://ro.wikipedia.org/wiki/Mo%C8%99ni%C8%9Ba_Veche,_Timi%C8%99"
+  ],
+  "verificationNotes": "The Mitropolia Banatului list (Protopopiatul Timișoara II) gives the Moșnița Veche church as «Înălțarea Domnului», 1912, parish address nr. 287. ro.wikipedia says the church was rebuilt in 1812 and again in 1912. OSM way 540270856 (place_of_worship, orthodox, addr:city Moșnița Veche) measures 23.0 x 10.5 m. The other places of worship in the village are a Baptist church (way 851480474) and an unnamed Christian building (way 1156904036). No news about the 2022 copper works was found (web search budget exhausted).",
+  "registerKeys": [
+   "8230104eb3c4a9ae",
+   "6494c4001cb330c8"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "parohia-ortodoxa-romana-sag-sag",
+  "officialName": "Biserica Ortodoxă «Adormirea Maicii Domnului» din Șag",
+  "nameHu": null,
+  "altNames": [
+   "Parohia Ortodoxă Română Șag"
+  ],
+  "category": "church",
+  "address": "Șag, comuna Șag, jud. Timiș",
+  "city": "Șag",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.6511095,
+  "lon": 21.1627782,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1035939649,
+   "tags": {
+    "addr:city": "Șag",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "height": "10",
+    "name": "Biserica Adormirea Maicii Domnului",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.6511563,
+    21.1626211
+   ],
+   [
+    45.6511253,
+    21.1626202
+   ],
+   [
+    45.6511049,
+    21.1626196
+   ],
+   [
+    45.6510867,
+    21.1626191
+   ],
+   [
+    45.6510627,
+    21.1626184
+   ],
+   [
+    45.6510627,
+    21.1627646
+   ],
+   [
+    45.6510628,
+    21.1628751
+   ],
+   [
+    45.6510707,
+    21.1628751
+   ],
+   [
+    45.6510706,
+    21.1629199
+   ],
+   [
+    45.6510775,
+    21.1629358
+   ],
+   [
+    45.6510865,
+    21.1629472
+   ],
+   [
+    45.6510972,
+    21.1629544
+   ],
+   [
+    45.6511244,
+    21.1629535
+   ],
+   [
+    45.6511347,
+    21.1629457
+   ],
+   [
+    45.6511435,
+    21.1629335
+   ],
+   [
+    45.6511491,
+    21.1629197
+   ],
+   [
+    45.6511492,
+    21.162875
+   ],
+   [
+    45.6511563,
+    21.162875
+   ],
+   [
+    45.6511563,
+    21.1626211
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 26.1,
+   "widthM": 10.3,
+   "bearingDeg": 90.0
+  },
+  "heightHints": "OSM height=10 m (presumably the nave; tower not separately tagged).",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no public photo of this church was found (none on Wikimedia Commons).",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-timisoara-i/",
+   "https://www.openstreetmap.org/way/1035939649",
+   "https://www.openstreetmap.org/way/1035937682",
+   "https://www.openstreetmap.org/node/313064018"
+  ],
+  "verificationNotes": "The Mitropolia Banatului list (Protopopiatul Timișoara I) gives the Șag parish church as «Adormirea Maicii Domnului». OSM way 1035939649 carries exactly that name (romanian_orthodox, height 10): 26.1 x 10.3 m, east–west. Excluded: the Roman-Catholic church about 120 m south (way 1035937682) and Mănăstirea Șag-Timișeni (node 313064018, a monastery, not the parish). No news about the 2022 copper works was found (web search budget exhausted).",
+  "registerKeys": [
+   "c9d96bfc6306fdea"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "parohia-ortodoxa-romana-timisoara-plopi-timisoara",
+  "officialName": "Biserica Ortodoxă «Sfinții Apostoli Petru și Pavel» – Plopi, Timișoara",
+  "nameHu": null,
+  "altNames": [
+   "Parohia Ortodoxă Română Timișoara Plopi",
+   "Biserica Sfinții Apostoli Petru și Pavel – Plopi"
+  ],
+  "category": "church",
+  "address": "Strada Jókai Mór 35, 300322 Timișoara (Plopi district)",
+  "city": "Timișoara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.7501036,
+  "lon": 21.2818946,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 881227660,
+   "tags": {
+    "addr:city": "Timișoara",
+    "addr:housenumber": "35",
+    "addr:street": "Strada Jókai Mór",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.7501226,
+    21.2817826
+   ],
+   [
+    45.7501625,
+    21.2819286
+   ],
+   [
+    45.750142,
+    21.2819408
+   ],
+   [
+    45.7501511,
+    21.2819704
+   ],
+   [
+    45.7501424,
+    21.2820002
+   ],
+   [
+    45.7501214,
+    21.2820118
+   ],
+   [
+    45.750101,
+    21.2819979
+   ],
+   [
+    45.750094,
+    21.2819672
+   ],
+   [
+    45.7500769,
+    21.2819766
+   ],
+   [
+    45.7500371,
+    21.2818306
+   ],
+   [
+    45.7501226,
+    21.2817826
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 16.5,
+   "widthM": 10.2,
+   "bearingDeg": 68.7
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no freely available photo was found (none on Commons; the timisoreni.ro directory page refuses automated access).",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-timisoara-ii/",
+   "https://www.openstreetmap.org/way/881227660",
+   "https://www.timisoreni.ro/despre/biserica-sfintii-apostoli-petru-si-pavel-plopi/",
+   "https://en.wikipedia.org/wiki/Plopi,_Timi%C8%99oara"
+  ],
+  "verificationNotes": "The Mitropolia Banatului list (Protopopiatul Timișoara II) gives 'Timișoara Plopi, biserica «Sf. Ap. Petru și Pavel» 1969, str. Jokai Mor nr. 35, 300322'. OSM way 881227660 (building=church, romanian_orthodox, addr Strada Jókai Mór 35) matches that address exactly: 16.5 x 10.2 m. A different Orthodox church, «Sf. Ioan Iacob Hozevitul» (way 781325388), stands about 0.9 km west and belongs to another parish. No news about the 2022 copper works was found (web search budget exhausted).",
+  "registerKeys": [
+   "a1c6c06671c910d0"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-adormirea-maicii-domnului-ficatar",
+  "officialName": "Biserica Ortodoxă «Adormirea Maicii Domnului» din Ficătar",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Ficătar, jud. Timiș",
+  "city": "Ficătar",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.71526,
+  "lon": 21.698049,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no public photo of this church was found.",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-lugoj/"
+  ],
+  "verificationNotes": "The identity of the building is therefore near-certain, but no source confirms the roof works. The church is not mapped in OSM (no place of worship or church building in the village). On Esri imagery a light-roofed, elongated building with a rounded east end NW of the main crossroads (about 45.7149, 21.6956) may be it; this is unconfirmed, so lat/lon = village centre.",
+  "registerKeys": [
+   "5db8614afe71029d"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-bobda-bobda",
+  "officialName": null,
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Bobda, comuna Cenei, jud. Timiș",
+  "city": "Bobda",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.734909,
+  "lon": 20.94257,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-timisoara-i/",
+   "https://www.openstreetmap.org/way/1120572241",
+   "https://commons.wikimedia.org/wiki/Category:Roman_Catholic_Church_in_Bobda,_Timi%C8%99",
+   "https://observatornews.ro/social/romanul-care-trage-clopotele-in-biserica-nobililor-ajunsa-ruina-cladirea-de-o-frumusete-rara-mai-are-o-sansa-la-izbavire-495578.html",
+   "https://hu.wikipedia.org/wiki/Bobda"
+  ],
+  "verificationNotes": "Bobda has three churches. The Orthodox «Sf. Ev. Luca» (1864 per Protopopiatul Timișoara I; hu.wikipedia gives 1862). A Roman-Catholic church of 1876 (hu.wikipedia). The Csávossy mausoleum-church (Roman-Catholic, 1908, listed monument, OSM way 1120572241). Nothing distinguishes between the Orthodox and the 1876 Catholic church, so this stays UNRESOLVED. lat/lon = village centre.",
+  "registerKeys": [
+   "5965d71e2aec7085"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-tormac-tormac",
+  "officialName": "Biserica Reformată din Tormac",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "DJ592B, Tormac, comuna Tormac, jud. Timiș",
+  "city": "Tormac",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.5219438,
+  "lon": 21.4928936,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 509484680,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Biserica Reformată",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.5220429,
+    21.4927726
+   ],
+   [
+    45.5220829,
+    21.4928083
+   ],
+   [
+    45.5220899,
+    21.492921
+   ],
+   [
+    45.5220649,
+    21.4929781
+   ],
+   [
+    45.521816,
+    21.493018
+   ],
+   [
+    45.521798,
+    21.4928154
+   ],
+   [
+    45.5220429,
+    21.4927726
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 31.3,
+   "widthM": 16.2,
+   "bearingDeg": 173.0
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no public photo of this church was found (none on Wikimedia Commons).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/509484680",
+   "https://ro.wikipedia.org/wiki/Tormac,_Timi%C8%99",
+   "https://mitropolia-banatului.ro/protopopiatul-deta/",
+   "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
+   "https://www.openstreetmap.org/way/670906116",
+   "https://www.openstreetmap.org/way/670917799"
+  ],
+  "verificationNotes": "In Tormac village OSM maps a single place of worship, 'Biserica Reformată' (way 509484680): 31.3 x 16.2 m, long axis roughly N–S. ro.wikipedia: the village was resettled with Hungarian Protestant families in 1791, and 'Biserica s-a zidit la 1888'. The Orthodox deanery lists show no Orthodox parish in Tormac village itself. No source on the 2023 works was found (web search budget exhausted).",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-iecea-mare-iecea-mare",
+  "officialName": "Biserica Ortodoxă «Sfinții Arhangheli Mihail și Gavriil» din Iecea Mare",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Iecea Mare nr. 160 (parish address), 307091, comuna Iecea Mare, jud. Timiș",
+  "city": "Iecea Mare",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.850742,
+  "lon": 20.893096,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Single tower over the entrance: square shaft, eaved roof, onion-shaped lantern, slender spire with cross (2026 photo).",
+  "photos": 1,
+  "metalVisibleInPhotos": "01.jpg (Commons, May 2026, side view): the tower roof, onion lantern and spire are clad in brown, matte sheet metal consistent with weathered copper (the 2023 order). The nave roof is red ceramic tile with solar panels.",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-sannicolau-mare/",
+   "https://commons.wikimedia.org/wiki/File:Asdadasdasdas.jpg",
+   "https://commons.wikimedia.org/wiki/File:Biserica_Catolica_din_Comuna_Iecea_Mare.jpg",
+   "https://www.openstreetmap.org/node/12900464401",
+   "https://ro.wikipedia.org/wiki/Iecea_Mare,_Timi%C8%99"
+  ],
+  "verificationNotes": "The village has the Orthodox church «Sf. Arh. Mihail și Gavriil» (1987; Protopopiatul Sânnicolau Mare, parish nr. 160) and the historic Swabian Roman-Catholic church (OSM node 12900464401, main road). A May 2026 Commons photo of the Catholic church shows red roofs and a red spire, so no copper there. The May 2026 photo of the Orthodox church shows the tower helm, lantern and spire in brown weathered metal, consistent with copper sheet and strip. That makes the Orthodox church the probable recipient, but no source confirms it. The church is not mapped in OSM and was not located on imagery, so lat/lon = village centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-hitias-hitias",
+  "officialName": null,
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Hitiaș, comuna Racovița, jud. Timiș",
+  "city": "Hitiaș",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.710629,
+  "lon": 21.598631,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
+   "https://ro.wikipedia.org/wiki/Hitia%C8%99,_Timi%C8%99",
+   "https://commons.wikimedia.org/wiki/Category:Hitia%C8%99,_Timi%C8%99"
+  ],
+  "verificationNotes": "Hitiaș has two churches per ro.wikipedia: the Orthodox «Învierea Domnului» (1901; Protopopiatul Lugoj) and a Greek-Catholic church. Commons has only 2009 photos of the Orthodox church. Neither is mapped in OSM. A towered church is visible on Esri imagery near 45.7105, 21.5975 (denomination not determined). No source ties the 2023 order to either church, so this stays UNRESOLVED. lat/lon = village centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-hisias-hisias",
+  "officialName": "Biserica Ortodoxă «Sfântul Mare Mucenic Gheorghe» din Hisiaș",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Hisiaș, jud. Timiș",
+  "city": "Hisiaș",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.8413432,
+  "lon": 21.7268394,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 3600474697,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no public photo of this church was found.",
+  "sourceUrls": [
+   "https://mitropolia-banatului.ro/protopopiatul-lugoj/",
+   "https://www.openstreetmap.org/node/3600474697"
+  ],
+  "verificationNotes": "The Mitropolia Banatului list (Protopopiatul Lugoj) gives 'Hisiaș, biserica «Sf. M. Mc. Gheorghe» 1928'; the neighbouring filia Ghizela has no church of its own. OSM node 3600474697 (place_of_worship, building=church) sits on a church-shaped building with an apse on Esri imagery, in the village core. It is the only church in the village; a Baptist church (way 456637662) lies about 2.3 km SSE. There is no OSM outline, so footprint = null. No news about the 2023 works was found (web search budget exhausted).",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ }
+]

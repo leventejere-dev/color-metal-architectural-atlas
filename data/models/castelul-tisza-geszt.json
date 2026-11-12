@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 69.1,
+ "bearingSource": "OSM way 432513265 long axis 69.1°; +X runs along the long wing towards the cross wing at its east end (L-plan taken directly from the outline).",
+ "cover": "01",
+ "photosUsed": 9,
+ "approximations": "The photo set shows the roofing works only (zinc-clad dormers, valley, verge capping, dark flat tiles, one view of the single-storey L-shaped shell with a hipped end and gables); photos 10–11 are a product card and logos. The finished façades are not photographed: plain render, socle and an even window rhythm are assumed. Eave height ≈ 4.4 m and 45° roof pitch estimated from photo 06; the number and spacing of dormers per slope, gable positions and the cross wing being the higher roof are assumptions. The historic two-storey centre / mansard pavilion mentioned in public sources is not visible in the photo set and is not modelled.",
+ "note": {
+  "ro": "Machetă preliminară după conturul OSM în formă de L și fotografiile de șantier ale acoperișului: lucarnele placate cu titan-zinc elZinc Graphite, doliile și bordurile sunt redate după fotografii; fațadele finale, numărul lucarnelor și înclinarea acoperișului sunt estimate.",
+  "hu": "Előzetes makett az L alakú OSM-körvonal és a tetőfedési munkák fotói alapján: az elZinc Graphite titáncink burkolatú tetőablakok, vápák és oromszegélyek a fotók szerint készültek; a végleges homlokzatok, a tetőablakok száma és a tetőhajlás becsült.",
+  "en": "Preliminary model based on the L-shaped OSM outline and construction photographs of the roof: the elZinc Graphite titanium-zinc clad dormers, valleys and verges follow the photos; the finished façades, the number of dormers and the roof pitch are estimates."
+ }
+}

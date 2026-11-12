@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 86.1,
+  "bearingSource": "Main church = OSM way 183224244 (30.7 × 19.0 m triconch outline beside the monastery's place_of_worship node; the candidate named in the research record). Its long axis runs at 86.1° (west front square to it); +X points east to the polygonal altar apse, the arcaded porch faces west at −X (photos 02, 06).",
+  "cover": null,
+  "photosUsed": 5,
+  "approximations": "The records do not say which monastery building received the titanium-zinc, so the main church is modelled (OSM way 183224244). Only the arcaded west front and distant oblique views are photographed (02, 04, 05, 06); the side and east elevations, windows and apse roofs are interpreted from the outline. Heights are scaled from the porch (column ≈ 2.7 m, façade width 14.8 m from the outline): walls ≈ 8 m, twin-tower crosses ≈ 21.5 m, naos-tower cross ≈ 23 m. Medallions and the eave 'eyebrow' are simplified. Photo 01 appears to show another church of the monastery and was used only for tower details. The photographs (2008–2020) predate the works: the roofs, all tower helms and the gutters are shown in natural titanium-zinc with standing seams; the sheet cladding of the tower shafts is kept grey-blue as photographed.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință: este redată biserica mare a mănăstirii, deoarece evidențele nu precizează clădirea. Fațada vestică, turnurile și proporțiile urmează fotografiile; fațadele laterale și estice sunt aproximate după conturul OSM. Fotografiile sunt anterioare lucrărilor, de aceea acoperișul, coifurile turnurilor și jgheaburile sunt redate în titan-zinc natural livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "Nyilvános referenciafotók alapján értelmezett makett: a kolostor főtemploma jelenik meg, mert a nyilvántartás nem nevezi meg az épületet. A nyugati homlokzat, a tornyok és az arányok a fotókat követik, az oldalsó és keleti homlokzatok az OSM-körvonal alapján közelítőek. A fotók a munkálatok előttiek, ezért a tető, a toronysisakok és az ereszcsatornák a COLOR METAL nyilvántartása szerint szállított natúr titáncinkkel jelennek meg.",
+    "en": "Scale model interpreted from public reference photographs: the monastery's main church is shown, as the records do not name the building. The west front, towers and proportions follow the photos; the side and east elevations are approximated from the OSM outline. The photographs predate the works, so the roof, tower helms and gutters are shown in the natural titanium-zinc supplied by COLOR METAL according to its records."
+  }
+}

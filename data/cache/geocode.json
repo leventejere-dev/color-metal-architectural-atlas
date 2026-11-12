@@ -1,0 +1,1650 @@
+{
+"București|București": {
+"lat": 44.436141,
+"lon": 26.10272,
+"county": "București",
+"display": "București, România",
+"osm": "relation 377802"
+},
+"Giurgiu|": {
+"lat": 43.896127,
+"lon": 25.965645,
+"county": "Giurgiu",
+"display": "Giurgiu, România",
+"osm": "relation 10697456"
+},
+"Craiova|": {
+"lat": 44.319016,
+"lon": 23.796561,
+"county": "Dolj",
+"display": "Craiova, Zona Metropolitană Craiova, Dolj, România",
+"osm": "relation 9624263"
+},
+"Timisoara|": {
+"lat": 45.753836,
+"lon": 21.225747,
+"county": "Timiș",
+"display": "Timișoara, Timiș, România",
+"osm": "relation 6927733"
+},
+"Buzau|": {
+"lat": 45.269258,
+"lon": 26.774817,
+"county": "Buzău",
+"display": "Buzău, România",
+"osm": "relation 2355511"
+},
+"Bistrita|": {
+"lat": 47.132701,
+"lon": 24.496395,
+"county": "Bistrița-Năsăud",
+"display": "Bistrița, Bistrița-Năsăud, 420048, România",
+"osm": "node 128561166"
+},
+"Focsani|": {
+"lat": 45.697274,
+"lon": 27.185692,
+"county": "Vrancea",
+"display": "Focșani, Vrancea, România",
+"osm": "relation 10715449"
+},
+"Turnu Magurele|": {
+"lat": 43.751831,
+"lon": 24.869172,
+"county": "Teleorman",
+"display": "Turnu Măgurele, Teleorman, 145200, România",
+"osm": "node 140158404"
+},
+"Targu Mures|": {
+"lat": 46.544625,
+"lon": 24.561196,
+"county": "Mureș",
+"display": "Târgu Mureș, Zona Metropolitană Târgu Mureș, Mureș, România",
+"osm": "relation 8334767"
+},
+"Caracal|": {
+"lat": 44.112329,
+"lon": 24.34631,
+"county": "Olt",
+"display": "Caracal, Olt, România",
+"osm": "relation 9742520"
+},
+"LUNCA ILVEI|Bistrița-Năsăud": {
+"lat": 47.364674,
+"lon": 24.971285,
+"county": "Bistrița-Năsăud",
+"display": "Lunca Ilvei, Bistrița-Năsăud, 427125, România",
+"osm": "relation 13379372"
+},
+"Baia Mare|Maramureș": {
+"lat": 47.656558,
+"lon": 23.571984,
+"county": "Maramureș",
+"display": "Baia Mare, Maramureș, 430282, România",
+"osm": "node 128510650"
+},
+"Sibiu|": {
+"lat": 45.797391,
+"lon": 24.15192,
+"county": "Sibiu",
+"display": "Sibiu, România",
+"osm": "relation 9846497"
+},
+"Segarcea|Dolj": {
+"lat": 44.093048,
+"lon": 23.746887,
+"county": "Dolj",
+"display": "Segarcea, Zona Metropolitană Craiova, Dolj, 205400, România",
+"osm": "relation 9679411"
+},
+"Arad|": {
+"lat": 46.175379,
+"lon": 21.319634,
+"county": "Arad",
+"display": "Arad, România",
+"osm": "relation 10488682"
+},
+"Codlea|Brașov": {
+"lat": 45.692443,
+"lon": 25.449036,
+"county": "Brașov",
+"display": "Codlea, Zona Metropolitană Brașov, Brașov, 505100, România",
+"osm": "relation 10515006"
+},
+"Gurbanesti|": {
+"lat": 44.379553,
+"lon": 26.692303,
+"county": "Călărași",
+"display": "Gurbănești, Călărași, România",
+"osm": "relation 13803992"
+},
+"Harghita|": {
+"lat": 46.644306,
+"lon": 25.622192,
+"county": "Harghita",
+"display": "Harghita, România",
+"osm": "relation 2248660"
+},
+"Bicaz|": {
+"lat": 46.911228,
+"lon": 26.090348,
+"county": "Neamț",
+"display": "Bicaz, Neamț, România",
+"osm": "relation 10761133"
+},
+"GRUMĂZEŞTI|Neamț": {
+"lat": 47.133606,
+"lon": 26.377268,
+"county": "Neamț",
+"display": "Grumăzești, Neamț, România",
+"osm": "relation 14777301"
+},
+"Ramnicu-Valcea|": {
+"lat": 45.103173,
+"lon": 24.364721,
+"county": "Vâlcea",
+"display": "Râmnicu Vâlcea, Vâlcea, România",
+"osm": "relation 9845421"
+},
+"Oradea|": {
+"lat": 47.054916,
+"lon": 21.928523,
+"county": "Bihor",
+"display": "Oradea, Zona Metropolitană Oradea, Bihor, 410100, România",
+"osm": "node 2691094601"
+},
+"Romanii de Jos|Vâlcea": {
+"lat": 45.164231,
+"lon": 24.006902,
+"county": "Vâlcea",
+"display": "Romanii de Jos, Vâlcea, 245803, România",
+"osm": "way 74711348"
+},
+"Cluj|": null,
+"PROBOTA|": {
+"lat": 47.390747,
+"lon": 27.483667,
+"county": "Iași",
+"display": "Probota, Iași, România",
+"osm": "relation 11321090"
+},
+"Tusnad|": {
+"lat": 46.20474,
+"lon": 25.915412,
+"county": "Harghita",
+"display": "Tușnad, Harghita, România",
+"osm": "relation 10715930"
+},
+"Dobreni|Neamț": {
+"lat": 47.002377,
+"lon": 26.417557,
+"county": "Neamț",
+"display": "Dobreni, Neamț, România",
+"osm": "relation 14777304"
+},
+"Pitesti|": {
+"lat": 44.857288,
+"lon": 24.872116,
+"county": "Argeș",
+"display": "Pitești, Argeș, România",
+"osm": "relation 10664174"
+},
+"Medias|": {
+"lat": 46.162521,
+"lon": 24.347386,
+"county": "Sibiu",
+"display": "Mediaș, Sibiu, România",
+"osm": "relation 10514434"
+},
+"FOIENI|Satu Mare": {
+"lat": 47.697114,
+"lon": 22.384225,
+"county": "Satu Mare",
+"display": "Foieni, Satu Mare, 447135, România",
+"osm": "relation 11671576"
+},
+"Sibiciu|Buzău": {
+"lat": 45.318179,
+"lon": 26.377212,
+"county": "Buzău",
+"display": "Sibiciu de Jos, Pănătău, Buzău, România",
+"osm": "way 75214926"
+},
+"Ramnicu-Sarat|": {
+"lat": 45.385446,
+"lon": 27.041701,
+"county": "Buzău",
+"display": "Râmnicu Sărat, Buzău, 125300, România",
+"osm": "relation 10698244"
+},
+"Braila|": {
+"lat": 45.271609,
+"lon": 27.974293,
+"county": "Brăila",
+"display": "Brăila, România",
+"osm": "relation 7509955"
+},
+"Constanta|": {
+"lat": 44.176716,
+"lon": 28.65076,
+"county": "Constanța",
+"display": "Constanța, Zona Metropolitană Constanța, Constanța, România",
+"osm": "relation 10487782"
+},
+"Curtea de Arges|": {
+"lat": 45.146934,
+"lon": 24.677983,
+"county": "Argeș",
+"display": "Curtea de Argeș, Argeș, 115300, România",
+"osm": "way 74728310"
+},
+"Obirsia Closani|Mehedinți": {
+"lat": 45.023417,
+"lon": 22.683438,
+"county": "Mehedinți",
+"display": "Obârșia-Cloșani, Mehedinți, România",
+"osm": "relation 9716451"
+},
+"Brasov|": {
+"lat": 45.65251,
+"lon": 25.610565,
+"county": "Brașov",
+"display": "Brașov, Zona Metropolitană Brașov, Brașov, România",
+"osm": "relation 10367676"
+},
+"Berca|Buzău": {
+"lat": 45.287339,
+"lon": 26.680974,
+"county": "Buzău",
+"display": "Berca, Buzău, România",
+"osm": "relation 14701121"
+},
+"Campulung Muscel|Argeș": null,
+"Urziceni|Călărași": null,
+"Piatra Craiului|Cluj": {
+"lat": 46.783941,
+"lon": 23.566678,
+"county": "Cluj",
+"display": "Piatra Craiului, Strada Piatra Craiului, Dâmbul Rotund, Cluj-Napoca, Zona Metropolitană Cluj, Cluj, 400226, România",
+"osm": "way 899218100"
+},
+"langa Focsani|Vrancea": null,
+"Moldova|": {
+"lat": 47.47643,
+"lon": 26.095549,
+"county": "",
+"display": "Moldova, România",
+"osm": "relation 6164192"
+},
+"Prahova|": {
+"lat": 45.108755,
+"lon": 26.037835,
+"county": "Prahova",
+"display": "Prahova, România",
+"osm": "relation 2355507"
+},
+"Mangalia|Constanța": {
+"lat": 43.815079,
+"lon": 28.583031,
+"county": "Constanța",
+"display": "Mangalia, Constanța, România",
+"osm": "relation 10520315"
+},
+"Slatina|": {
+"lat": 44.429997,
+"lon": 24.363184,
+"county": "Olt",
+"display": "Slatina, Olt, România",
+"osm": "relation 9744252"
+},
+"Snagov|Ilfov": {
+"lat": 44.707498,
+"lon": 26.172866,
+"county": "Ilfov",
+"display": "Snagov, Ilfov, România",
+"osm": "relation 9883484"
+},
+"Ghiroc|": null,
+"Câmpul Cetății|Mureș": null,
+"in centrul Clujului|": null,
+"langa Caransebes|": null,
+"Bran|": {
+"lat": 45.516329,
+"lon": 25.371567,
+"county": "Brașov",
+"display": "Bran, Brașov, România",
+"osm": "relation 10514936"
+},
+"Campina|": {
+"lat": 45.125696,
+"lon": 25.734804,
+"county": "Prahova",
+"display": "Câmpina, Prahova, 105600, România",
+"osm": "relation 14701878"
+},
+"MARISEL FN|": null,
+"Rohia|": {
+"lat": 47.406126,
+"lon": 23.85804,
+"county": "Maramureș",
+"display": "Rohia, Târgu Lăpuș, Maramureș, 435612, România",
+"osm": "node 462244180"
+},
+"FARAU|": {
+"lat": 46.337716,
+"lon": 24.016687,
+"county": "Alba",
+"display": "Fărău, Alba, România",
+"osm": "relation 14746569"
+},
+"Roman|": {
+"lat": 46.92528,
+"lon": 26.928417,
+"county": "Neamț",
+"display": "Roman, Neamț, România",
+"osm": "relation 10761211"
+},
+"Calarasi|": {
+"lat": 44.196165,
+"lon": 27.331323,
+"county": "Călărași",
+"display": "Călărași, România",
+"osm": "way 74475990"
+},
+"Arges|": {
+"lat": 44.993976,
+"lon": 24.848868,
+"county": "Argeș",
+"display": "Argeș, România",
+"osm": "relation 2261315"
+},
+"Dolj|": {
+"lat": 44.215012,
+"lon": 23.669363,
+"county": "Dolj",
+"display": "Dolj, România",
+"osm": "relation 2366970"
+},
+"Vrancea|": {
+"lat": 45.788709,
+"lon": 26.883803,
+"county": "Vrancea",
+"display": "Vrancea, România",
+"osm": "relation 2260187"
+},
+"Stefanesti IF|": null,
+"CEBZA - TM|": null,
+"Satu Mare|": {
+"lat": 47.789176,
+"lon": 22.87256,
+"county": "Satu Mare",
+"display": "Satu Mare, România",
+"osm": "relation 10743034"
+},
+"Dumbrava (Timis)|": null,
+"Berchez (Maramures)|": null,
+"Bran|Brașov": {
+"lat": 45.516329,
+"lon": 25.371567,
+"county": "Brașov",
+"display": "Bran, Brașov, România",
+"osm": "relation 10514936"
+},
+"Varteju|Ilfov": {
+"lat": 44.356604,
+"lon": 25.989288,
+"county": "Ilfov",
+"display": "Vârteju, Ilfov, 077129, România",
+"osm": "way 23596393"
+},
+"Iasi|": {
+"lat": 47.16156,
+"lon": 27.583781,
+"county": "Iași",
+"display": "Iași, Zona Metropolitană Iași, Iași, România",
+"osm": "relation 1207838"
+},
+"HORODNIC DE JOS|Suceava": {
+"lat": 47.860868,
+"lon": 25.832513,
+"county": "Suceava",
+"display": "Horodnic de Jos, Suceava, 727301, România",
+"osm": "relation 14778632"
+},
+"VL|": null,
+"Barlad|Vâlcea": null,
+"Buzau|Buzău": {
+"lat": 45.149006,
+"lon": 26.830656,
+"county": "Buzău",
+"display": "Buzău, România",
+"osm": "relation 10576599"
+},
+"Urziceni|Ialomița": {
+"lat": 44.717002,
+"lon": 26.632407,
+"county": "Ialomița",
+"display": "Urziceni, Ialomița, 925300, România",
+"osm": "relation 10698171"
+},
+"C-LUNG MOLDOVENESC|Suceava": null,
+"BOROSTENI|": {
+"lat": 45.097106,
+"lon": 23.028056,
+"county": "Gorj",
+"display": "Boroșteni, Peștișani, Gorj, 217336, România",
+"osm": "way 74658796"
+},
+"GIROC|Timiș": {
+"lat": 45.694179,
+"lon": 21.235854,
+"county": "Timiș",
+"display": "Giroc, Timiș, România",
+"osm": "relation 10488639"
+},
+"SJ|": null,
+"Focsani|Buzău": {
+"lat": 45.403014,
+"lon": 27.049889,
+"county": "Buzău",
+"display": "Bariera Focșani, Râmnicu Sărat, Buzău, 125300, România",
+"osm": "node 11077499557"
+},
+"Ponor|Alba": {
+"lat": 46.33319,
+"lon": 23.392848,
+"county": "Alba",
+"display": "Ponor, Alba, România",
+"osm": "relation 14750192"
+},
+"Cluj|Cluj": null,
+"Arcani|Gorj": {
+"lat": 45.073253,
+"lon": 23.13543,
+"county": "Gorj",
+"display": "Arcani, Gorj, România",
+"osm": "relation 9717315"
+},
+"RACOVIŢA|Timiș": {
+"lat": 45.699739,
+"lon": 21.636334,
+"county": "Timiș",
+"display": "Racovița, Timiș, România",
+"osm": "relation 13943216"
+},
+"Cosâmbeşti|Ialomița": {
+"lat": 44.56034,
+"lon": 27.435787,
+"county": "Ialomița",
+"display": "Cosâmbești, Ialomița, România",
+"osm": "relation 13833806"
+},
+"Sf. Gheorghe|Covasna": null,
+"Deva|": {
+"lat": 45.88174,
+"lon": 22.900861,
+"county": "Hunedoara",
+"display": "Deva, Hunedoara, România",
+"osm": "relation 10494275"
+},
+"Hunedora|": null,
+"Gorj|": {
+"lat": 44.961168,
+"lon": 23.32568,
+"county": "Gorj",
+"display": "Gorj, România",
+"osm": "relation 2261275"
+},
+"Chechiș|Maramureș": {
+"lat": 47.584414,
+"lon": 23.603885,
+"county": "Maramureș",
+"display": "Chechiș, Dumbrăvița, Maramureș, 437147, România",
+"osm": "node 462245279"
+},
+"Dragalina|Călărași": {
+"lat": 44.435029,
+"lon": 27.332186,
+"county": "Călărași",
+"display": "Dragalina, Călărași, România",
+"osm": "relation 13833312"
+},
+"Pipirig|Neamț": {
+"lat": 47.229177,
+"lon": 26.08296,
+"county": "Neamț",
+"display": "Pipirig, Neamț, România",
+"osm": "relation 14777050"
+},
+"Sucevita|Suceava": {
+"lat": 47.780102,
+"lon": 25.718713,
+"county": "Suceava",
+"display": "Sucevița, Suceava, România",
+"osm": "relation 14778699"
+},
+"Viforata|Dâmbovița": {
+"lat": 44.960307,
+"lon": 25.45609,
+"county": "Dâmbovița",
+"display": "Viforâta, Dâmbovița, 137007, România",
+"osm": "relation 15977757"
+},
+"Deleni|Vaslui": {
+"lat": 46.540237,
+"lon": 27.757857,
+"county": "Vaslui",
+"display": "Deleni, Vaslui, România",
+"osm": "relation 14739331"
+},
+"Cluj-Napoca|Cluj": {
+"lat": 46.769379,
+"lon": 23.589954,
+"county": "Cluj",
+"display": "Cluj-Napoca, Zona Metropolitană Cluj, Cluj, România",
+"osm": "relation 3277038"
+},
+"Iasi|Iași": {
+"lat": 47.16156,
+"lon": 27.583781,
+"county": "Iași",
+"display": "Iași, Zona Metropolitană Iași, Iași, România",
+"osm": "relation 1207838"
+},
+"BORCUT|Maramureș": {
+"lat": 47.481998,
+"lon": 23.840714,
+"county": "Maramureș",
+"display": "Borcut, Târgu Lăpuș, Maramureș, 435602, România",
+"osm": "node 462244114"
+},
+"DEVA|Hunedoara": {
+"lat": 45.88174,
+"lon": 22.900861,
+"county": "Hunedoara",
+"display": "Deva, Hunedoara, România",
+"osm": "relation 10494275"
+},
+"ORADEA|Bihor": {
+"lat": 47.054916,
+"lon": 21.928523,
+"county": "Bihor",
+"display": "Oradea, Zona Metropolitană Oradea, Bihor, 410100, România",
+"osm": "node 2691094601"
+},
+"Brasov|Brașov": {
+"lat": 45.65251,
+"lon": 25.610565,
+"county": "Brașov",
+"display": "Brașov, Zona Metropolitană Brașov, Brașov, România",
+"osm": "relation 10367676"
+},
+"Sibiu|Sibiu": {
+"lat": 45.797391,
+"lon": 24.15192,
+"county": "Sibiu",
+"display": "Sibiu, România",
+"osm": "relation 9846497"
+},
+"Zlatna|Alba": {
+"lat": 46.111353,
+"lon": 23.224719,
+"county": "Alba",
+"display": "Zlatna, Alba, România",
+"osm": "relation 10631069"
+},
+"Timisoara|Timiș": {
+"lat": 45.753836,
+"lon": 21.225747,
+"county": "Timiș",
+"display": "Timișoara, Timiș, România",
+"osm": "relation 6927733"
+},
+"Balint|Timiș": {
+"lat": 45.814506,
+"lon": 21.85625,
+"county": "Timiș",
+"display": "Balinț, Timiș, România",
+"osm": "relation 13943287"
+},
+"Honorici|Timiș": {
+"lat": 45.615223,
+"lon": 21.908932,
+"county": "Timiș",
+"display": "Honorici, Victor Vlad Delamarina, Timiș, 307462, România",
+"osm": "node 463257521"
+},
+"Jdioara|Timiș": {
+"lat": 45.621274,
+"lon": 22.106586,
+"county": "Timiș",
+"display": "Jdioara, Criciova, Timiș, 307133, România",
+"osm": "node 463255613"
+},
+"Mosnita Veche|Timiș": {
+"lat": 45.734462,
+"lon": 21.330255,
+"county": "Timiș",
+"display": "Moșnița Veche, Moșnița Nouă, Timiș, 307287, România",
+"osm": "node 304067797"
+},
+"Chechis|Maramureș": {
+"lat": 47.584414,
+"lon": 23.603885,
+"county": "Maramureș",
+"display": "Chechiș, Dumbrăvița, Maramureș, 437147, România",
+"osm": "node 462245279"
+},
+"BALTENI|Iași": {
+"lat": 47.406259,
+"lon": 27.500946,
+"county": "Iași",
+"display": "Bălteni, Probota, Iași, 707396, România",
+"osm": "node 385264851"
+},
+"Andrieseni|Iași": {
+"lat": 47.518349,
+"lon": 27.295095,
+"county": "Iași",
+"display": "Andrieșeni, Iași, România",
+"osm": "relation 12593952"
+},
+"BALINT|Timiș": {
+"lat": 45.814506,
+"lon": 21.85625,
+"county": "Timiș",
+"display": "Balinț, Timiș, România",
+"osm": "relation 13943287"
+},
+"MOSNITA VECHE|Timiș": {
+"lat": 45.734462,
+"lon": 21.330255,
+"county": "Timiș",
+"display": "Moșnița Veche, Moșnița Nouă, Timiș, 307287, România",
+"osm": "node 304067797"
+},
+"SAG|Timiș": {
+"lat": 45.650647,
+"lon": 21.174359,
+"county": "Timiș",
+"display": "Șag, Timiș, 307395, România",
+"osm": "relation 10488640"
+},
+"TIMISOARA PLOPI|": null,
+"TIMISOARA MEHALA|": null,
+"Sitaru|Ilfov": {
+"lat": 44.66889,
+"lon": 26.328204,
+"county": "Ilfov",
+"display": "Sitaru, Grădiștea, Ilfov, 077111, România",
+"osm": "node 462212945"
+},
+"VINDEREI|Vaslui": {
+"lat": 46.152191,
+"lon": 27.788091,
+"county": "Vaslui",
+"display": "Vinderei, Vaslui, România",
+"osm": "relation 14739359"
+},
+"Blejoi|Prahova": {
+"lat": 44.991851,
+"lon": 26.011628,
+"county": "Prahova",
+"display": "Blejoi, Prahova, România",
+"osm": "relation 10694406"
+},
+"BRODINA DE SUS|Suceava": null,
+"CICARLAU|Maramureș": {
+"lat": 47.691545,
+"lon": 23.403797,
+"county": "Maramureș",
+"display": "Cicârlău, Maramureș, România",
+"osm": "relation 14786142"
+},
+"SCHEIA|Suceava": {
+"lat": 47.6561,
+"lon": 26.226358,
+"county": "Suceava",
+"display": "Șcheia, Suceava, România",
+"osm": "relation 10495793"
+},
+"TIMISOARA|Timiș": {
+"lat": 45.753836,
+"lon": 21.225747,
+"county": "Timiș",
+"display": "Timișoara, Timiș, România",
+"osm": "relation 6927733"
+},
+"Suceava|Suceava": {
+"lat": 47.647001,
+"lon": 26.25226,
+"county": "Suceava",
+"display": "Suceava, România",
+"osm": "relation 10495794"
+},
+"Desag|Harghita": {
+"lat": 46.444398,
+"lon": 25.46565,
+"county": "Harghita",
+"display": "Desag, Zetea, Harghita, 537361, România",
+"osm": "node 460204225"
+},
+"Calarasi|Călărași": {
+"lat": 44.196165,
+"lon": 27.331323,
+"county": "Călărași",
+"display": "Călărași, România",
+"osm": "way 74475990"
+},
+"CORNEREVA|Caraș-Severin": {
+"lat": 45.063889,
+"lon": 22.419918,
+"county": "Caraș-Severin",
+"display": "Cornereva, Caraș-Severin, România",
+"osm": "relation 13144858"
+},
+"Zădăreni|Arad": {
+"lat": 46.132313,
+"lon": 21.21901,
+"county": "Arad",
+"display": "Zădăreni, Arad, România",
+"osm": "relation 10488678"
+},
+"Sugag|Alba": {
+"lat": 45.631734,
+"lon": 23.60008,
+"county": "Alba",
+"display": "Șugag, Alba, România",
+"osm": "relation 10540685"
+},
+"Studina|Olt": {
+"lat": 43.958769,
+"lon": 24.415602,
+"county": "Olt",
+"display": "Studina, Olt, România",
+"osm": "relation 9742500"
+},
+"Turnu Magurele|Tulcea": null,
+"Poiana Brasov|Brașov": {
+"lat": 45.59671,
+"lon": 25.556189,
+"county": "Brașov",
+"display": "Poiana Brașov, Brașov, Zona Metropolitană Brașov, Brașov, 500001, România",
+"osm": "node 116185315"
+},
+"NEPTUN|Constanța": {
+"lat": 43.866355,
+"lon": 28.601162,
+"county": "Constanța",
+"display": "Neptun, Mangalia, Constanța, 905550, România",
+"osm": "way 223377640"
+},
+"Vartop|Constanța": {
+"lat": 43.818724,
+"lon": 28.384728,
+"county": "Constanța",
+"display": "Vârtop, Albești, Constanța, 907024, România",
+"osm": "way 74493061"
+},
+"Miercurea Ciuc|Harghita": {
+"lat": 46.361404,
+"lon": 25.802667,
+"county": "Harghita",
+"display": "Miercurea Ciuc, Harghita, 530104, România",
+"osm": "node 142172498"
+},
+"Sadu|Sibiu": {
+"lat": 45.671935,
+"lon": 24.181674,
+"county": "Sibiu",
+"display": "Sadu, Sibiu, 557220, România",
+"osm": "relation 9982545"
+},
+"Alexandria|Tulcea": null,
+"Orastie|Hunedoara": {
+"lat": 45.836764,
+"lon": 23.195845,
+"county": "Hunedoara",
+"display": "Orăștie, Hunedoara, 335700, România",
+"osm": "relation 10494276"
+},
+"Brebu|Prahova": {
+"lat": 45.18252,
+"lon": 25.769463,
+"county": "Prahova",
+"display": "Brebu, Prahova, România",
+"osm": "relation 14701882"
+},
+"PECICA|Arad": {
+"lat": 46.166679,
+"lon": 21.066681,
+"county": "Arad",
+"display": "Pecica, Arad, România",
+"osm": "relation 10488680"
+},
+"Husi|Vaslui": {
+"lat": 46.672003,
+"lon": 28.062091,
+"county": "Vaslui",
+"display": "Huși, Vaslui, 735100, România",
+"osm": "relation 10761308"
+},
+"Borsa|Maramureș": {
+"lat": 47.655408,
+"lon": 24.663931,
+"county": "Maramureș",
+"display": "Borșa, Maramureș, România",
+"osm": "relation 10744437"
+},
+"Pantelimon|Ilfov": {
+"lat": 44.451879,
+"lon": 26.203556,
+"county": "Ilfov",
+"display": "Pantelimon, Ilfov, România",
+"osm": "relation 9850113"
+},
+"Bistrita|Bistrița-Năsăud": {
+"lat": 47.132701,
+"lon": 24.496395,
+"county": "Bistrița-Năsăud",
+"display": "Bistrița, Bistrița-Năsăud, 420048, România",
+"osm": "node 128561166"
+},
+"Rusetu|Buzău": {
+"lat": 44.957557,
+"lon": 27.218079,
+"county": "Buzău",
+"display": "Rușețu, Buzău, România",
+"osm": "relation 14700695"
+},
+"Chilia Veche|Tulcea": {
+"lat": 45.324733,
+"lon": 29.336657,
+"county": "Tulcea",
+"display": "Chilia Veche, Tulcea, România",
+"osm": "relation 9883784"
+},
+"Constanta|Constanța": {
+"lat": 44.176716,
+"lon": 28.65076,
+"county": "Constanța",
+"display": "Constanța, Zona Metropolitană Constanța, Constanța, România",
+"osm": "relation 10487782"
+},
+"Scheia|Suceava": {
+"lat": 47.6561,
+"lon": 26.226358,
+"county": "Suceava",
+"display": "Șcheia, Suceava, România",
+"osm": "relation 10495793"
+},
+"Voiteștii din Vale|Gorj": null,
+"Dragannesti Vlasca|Tulcea": null,
+"Craiova|Dolj": {
+"lat": 44.319016,
+"lon": 23.796561,
+"county": "Dolj",
+"display": "Craiova, Zona Metropolitană Craiova, Dolj, România",
+"osm": "relation 9624263"
+},
+"Lumina|Constanța": {
+"lat": 44.325724,
+"lon": 28.534661,
+"county": "Constanța",
+"display": "Lumina, Zona Metropolitană Constanța, Constanța, România",
+"osm": "relation 11793164"
+},
+"Manastirea|Călărași": {
+"lat": 44.211109,
+"lon": 26.902049,
+"county": "Călărași",
+"display": "Mânăstirea, Călărași, România",
+"osm": "relation 11522481"
+},
+"ORASTIE|Hunedoara": {
+"lat": 45.836764,
+"lon": 23.195845,
+"county": "Hunedoara",
+"display": "Orăștie, Hunedoara, 335700, România",
+"osm": "relation 10494276"
+},
+"REMETEALUNCA|Timiș": null,
+"FICĂTAR|Timiș": {
+"lat": 45.71526,
+"lon": 21.698049,
+"county": "Timiș",
+"display": "Ficătar, Racovița, Timiș, 307333, România",
+"osm": "node 463257080"
+},
+"BOBDA|Timiș": {
+"lat": 45.734909,
+"lon": 20.94257,
+"county": "Timiș",
+"display": "Bobda, Cenei, Timiș, 307101, România",
+"osm": "node 274595021"
+},
+"Pocruia|Mehedinți": null,
+"Tg Mures|Mureș": null,
+"Gârcina|Neamț": {
+"lat": 46.97745,
+"lon": 26.345546,
+"county": "Neamț",
+"display": "Gârcina, Neamț, România",
+"osm": "relation 14776665"
+},
+"TORMAC|Timiș": {
+"lat": 45.520834,
+"lon": 21.493605,
+"county": "Timiș",
+"display": "Tormac, Timiș, România",
+"osm": "relation 13943291"
+},
+"Văratec|Neamț": {
+"lat": 47.142989,
+"lon": 26.276957,
+"county": "Neamț",
+"display": "Văratec, Neamț, 617013, România",
+"osm": "way 75376550"
+},
+"Ploiesti|Prahova": {
+"lat": 44.941747,
+"lon": 26.02365,
+"county": "Prahova",
+"display": "Ploiești, Prahova, România",
+"osm": "relation 10694407"
+},
+"TARGU MURES|Mureș": {
+"lat": 46.544625,
+"lon": 24.561196,
+"county": "Mureș",
+"display": "Târgu Mureș, Zona Metropolitană Târgu Mureș, Mureș, România",
+"osm": "relation 8334767"
+},
+"Strâmtura|Maramureș": {
+"lat": 47.774312,
+"lon": 24.135753,
+"county": "Maramureș",
+"display": "Strâmtura, Maramureș, România",
+"osm": "relation 14867699"
+},
+"BERZUNTI|Bacău": {
+"lat": 46.404165,
+"lon": 26.644607,
+"county": "Bacău",
+"display": "Berzunți, Bacău, România",
+"osm": "relation 14739062"
+},
+"Ramnicu Valcea|Vâlcea": {
+"lat": 45.103173,
+"lon": 24.364721,
+"county": "Vâlcea",
+"display": "Râmnicu Vâlcea, Vâlcea, România",
+"osm": "relation 9845421"
+},
+"Haleş|Buzău": {
+"lat": 45.188407,
+"lon": 26.561451,
+"county": "Buzău",
+"display": "Haleș, Tisău, Buzău, 127613, România",
+"osm": "way 368645779"
+},
+"TL|": null,
+"Craiova|Olt": null,
+"Hateg|Hunedoara": {
+"lat": 45.610447,
+"lon": 22.949396,
+"county": "Hunedoara",
+"display": "Hațeg, Hunedoara, România",
+"osm": "relation 10494273"
+},
+"Sohodol|Gorj": {
+"lat": 45.055313,
+"lon": 22.881939,
+"county": "Gorj",
+"display": "Sohodol, Tismana, Gorj, 217503, România",
+"osm": "node 460201146"
+},
+"Bosanci|Suceava": {
+"lat": 47.570517,
+"lon": 26.291266,
+"county": "Suceava",
+"display": "Bosanci, Suceava, România",
+"osm": "relation 14778264"
+},
+"Drobeta|Mehedinți": null,
+"BÂRSANA|Maramureș": {
+"lat": 47.816862,
+"lon": 24.057689,
+"county": "Maramureș",
+"display": "Bârsana, Maramureș, România",
+"osm": "relation 14867658"
+},
+"Baia-Mare|Maramureș": {
+"lat": 47.656558,
+"lon": 23.571984,
+"county": "Maramureș",
+"display": "Baia Mare, Maramureș, 430282, România",
+"osm": "node 128510650"
+},
+"Sasar|Maramureș": {
+"lat": 47.644064,
+"lon": 23.498693,
+"county": "Maramureș",
+"display": "Săsar, Recea, Maramureș, 437229, România",
+"osm": "node 462243214"
+},
+"Bumbesti Jiu|Gorj": {
+"lat": 45.179417,
+"lon": 23.379764,
+"county": "Gorj",
+"display": "Bumbești-Jiu, Gorj, România",
+"osm": "relation 9717321"
+},
+"IECEA MARE|Timiș": {
+"lat": 45.850742,
+"lon": 20.893096,
+"county": "Timiș",
+"display": "Iecea Mare, Timiș, 307091, România",
+"osm": "relation 11321865"
+},
+"HITIAS|Timiș": {
+"lat": 45.710629,
+"lon": 21.598631,
+"county": "Timiș",
+"display": "Hitiaș, Racovița, Timiș, 307334, România",
+"osm": "node 463257081"
+},
+"Glodeni|Gorj": {
+"lat": 45.081678,
+"lon": 23.462682,
+"county": "Gorj",
+"display": "Glodeni, Bălănești, Gorj, România",
+"osm": "way 74658925"
+},
+"Voitesti|Gorj": null,
+"Abrud|Alba": {
+"lat": 46.274675,
+"lon": 23.065029,
+"county": "Alba",
+"display": "Abrud, Alba, România",
+"osm": "relation 10631068"
+},
+"Maracineni|Buzău": {
+"lat": 45.176857,
+"lon": 26.824638,
+"county": "Buzău",
+"display": "Mărăcineni, Buzău, România",
+"osm": "relation 14700805"
+},
+"ARAD|": {
+"lat": 46.175379,
+"lon": 21.319634,
+"county": "Arad",
+"display": "Arad, România",
+"osm": "relation 10488682"
+},
+"COSTESTI|": {
+"lat": 44.662023,
+"lon": 24.87701,
+"county": "Argeș",
+"display": "Costești, Argeș, România",
+"osm": "relation 10664204"
+},
+"HISIAS|": {
+"lat": 45.841041,
+"lon": 21.728672,
+"county": "Timiș",
+"display": "Hisiaș, Ghizela, Timiș, 307206, România",
+"osm": "node 463256253"
+},
+"NADLAC|": {
+"lat": 46.166681,
+"lon": 20.749992,
+"county": "Arad",
+"display": "Nădlac, Arad, 315500, România",
+"osm": "relation 10718423"
+},
+"Ungureni|Maramureș": {
+"lat": 47.546306,
+"lon": 23.952415,
+"county": "Maramureș",
+"display": "Ungureni, Cupșeni, Maramureș, 437133, România",
+"osm": "node 462245202"
+},
+"Valea Borcotului|Maramureș": null,
+"Baia Mare|": {
+"lat": 47.656558,
+"lon": 23.571984,
+"county": "Maramureș",
+"display": "Baia Mare, Maramureș, 430282, România",
+"osm": "node 128510650"
+},
+"Biștrița|": {
+"lat": 47.132701,
+"lon": 24.496395,
+"county": "Bistrița-Năsăud",
+"display": "Bistrița, Bistrița-Năsăud, 420048, România",
+"osm": "node 128561166"
+},
+"ŞINDREŞTI COM. DUMBRĂVIŢA|": null,
+"PAROHIA ORTODOXA Bozânta Mică|": null,
+"PAROHIA ORTODOXA ROMANA VISEU DE MIJLOC|": null,
+"Tăureni|": {
+"lat": 46.579523,
+"lon": 24.08077,
+"county": "Mureș",
+"display": "Tăureni, Mureș, România",
+"osm": "relation 12578065"
+},
+"Odorheiu Secuiesc|": {
+"lat": 46.304746,
+"lon": 25.295026,
+"county": "Harghita",
+"display": "Odorheiu Secuiesc, Harghita, 535600, România",
+"osm": "relation 10748530"
+},
+"Sfântu Gheorghe|": {
+"lat": 46.45355,
+"lon": 24.265935,
+"county": "Mureș",
+"display": "Sfântu Gheorghe, Iernut, Mureș, 545108, România",
+"osm": "node 460360805"
+},
+"547212 Câmpu Cetăţii|": null,
+"Brașov|": {
+"lat": 45.65251,
+"lon": 25.610565,
+"county": "Brașov",
+"display": "Brașov, Zona Metropolitană Brașov, Brașov, România",
+"osm": "relation 10367676"
+},
+"Teius|": {
+"lat": 46.206036,
+"lon": 23.67543,
+"county": "Alba",
+"display": "Teiuș, Alba, România",
+"osm": "relation 10631055"
+},
+"Cluj Napoca|": {
+"lat": 46.769379,
+"lon": 23.589954,
+"county": "Cluj",
+"display": "Cluj-Napoca, Zona Metropolitană Cluj, Cluj, România",
+"osm": "relation 3277038"
+},
+"Tulghes|": {
+"lat": 46.965407,
+"lon": 25.762642,
+"county": "Harghita",
+"display": "Tulgheș, Harghita, România",
+"osm": "relation 11497439"
+},
+"Marosvasarhely|": null,
+"Apahida|": {
+"lat": 46.802172,
+"lon": 23.754639,
+"county": "Cluj",
+"display": "Apahida, Zona Metropolitană Cluj, Cluj, România",
+"osm": "relation 10488522"
+},
+"Delnița|": {
+"lat": 46.412901,
+"lon": 25.829702,
+"county": "Harghita",
+"display": "Delnița, Păuleni-Ciuc, Harghita, 537231, România",
+"osm": "node 460203038"
+},
+"Beica|": {
+"lat": 46.733738,
+"lon": 24.795684,
+"county": "Mureș",
+"display": "Beica, Beica de Jos, Mureș, România",
+"osm": "relation 6266879"
+},
+"Sinaia|": {
+"lat": 45.345544,
+"lon": 25.548137,
+"county": "Prahova",
+"display": "Sinaia, Prahova, 106100, România",
+"osm": "relation 10694434"
+},
+"Miercurea Ciuc|": {
+"lat": 46.361404,
+"lon": 25.802667,
+"county": "Harghita",
+"display": "Miercurea Ciuc, Harghita, 530104, România",
+"osm": "node 142172498"
+},
+"Ciumani|": {
+"lat": 46.678289,
+"lon": 25.517864,
+"county": "Harghita",
+"display": "Ciumani, Harghita, 537050, România",
+"osm": "relation 13673226"
+},
+"Lunca Ilvei|Bistrița-Năsăud": {
+"lat": 47.364674,
+"lon": 24.971285,
+"county": "Bistrița-Năsăud",
+"display": "Lunca Ilvei, Bistrița-Năsăud, 427125, România",
+"osm": "relation 13379372"
+},
+"Grumăzeşti|Neamț": {
+"lat": 47.133606,
+"lon": 26.377268,
+"county": "Neamț",
+"display": "Grumăzești, Neamț, România",
+"osm": "relation 14777301"
+},
+"Cluj-Napoca|": {
+"lat": 46.769379,
+"lon": 23.589954,
+"county": "Cluj",
+"display": "Cluj-Napoca, Zona Metropolitană Cluj, Cluj, România",
+"osm": "relation 3277038"
+},
+"Probota|": {
+"lat": 47.390747,
+"lon": 27.483667,
+"county": "Iași",
+"display": "Probota, Iași, România",
+"osm": "relation 11321090"
+},
+"Urziceni|": {
+"lat": 44.717002,
+"lon": 26.632407,
+"county": "Ialomița",
+"display": "Urziceni, Ialomița, 925300, România",
+"osm": "relation 10698171"
+},
+"Giroc|": {
+"lat": 45.694179,
+"lon": 21.235854,
+"county": "Timiș",
+"display": "Giroc, Timiș, România",
+"osm": "relation 10488639"
+},
+"Câmpina|": {
+"lat": 45.125696,
+"lon": 25.734804,
+"county": "Prahova",
+"display": "Câmpina, Prahova, 105600, România",
+"osm": "relation 14701878"
+},
+"Marisel Fn|": null,
+"Farau|": {
+"lat": 46.337716,
+"lon": 24.016687,
+"county": "Alba",
+"display": "Fărău, Alba, România",
+"osm": "relation 14746569"
+},
+"Cebza - Tm|": null,
+"Horodnic de Jos|Suceava": {
+"lat": 47.860868,
+"lon": 25.832513,
+"county": "Suceava",
+"display": "Horodnic de Jos, Suceava, 727301, România",
+"osm": "relation 14778632"
+},
+"Vl|": null,
+"Bârlad|Vâlcea": null,
+"Bârlad|": {
+"lat": 46.227535,
+"lon": 27.66897,
+"county": "Vaslui",
+"display": "Bârlad, Vaslui, România",
+"osm": "relation 10715611"
+},
+"Câmpulung Moldovenesc|Suceava": {
+"lat": 47.529776,
+"lon": 25.559748,
+"county": "Suceava",
+"display": "Câmpulung Moldovenesc, Suceava, 725100, România",
+"osm": "relation 10495796"
+},
+"Borosteni|": {
+"lat": 45.097106,
+"lon": 23.028056,
+"county": "Gorj",
+"display": "Boroșteni, Peștișani, Gorj, 217336, România",
+"osm": "way 74658796"
+},
+"Giroc|Timiș": {
+"lat": 45.694179,
+"lon": 21.235854,
+"county": "Timiș",
+"display": "Giroc, Timiș, România",
+"osm": "relation 10488639"
+},
+"Sj|": null,
+"Racoviţa|Timiș": {
+"lat": 45.699739,
+"lon": 21.636334,
+"county": "Timiș",
+"display": "Racovița, Timiș, România",
+"osm": "relation 13943216"
+},
+"Sfântu Gheorghe|Covasna": {
+"lat": 45.865994,
+"lon": 25.786537,
+"county": "Covasna",
+"display": "Sepsiszentgyörgy, Covasna, România",
+"osm": "relation 10715864"
+},
+"Hunedoara|": {
+"lat": 45.795407,
+"lon": 22.945243,
+"county": "Hunedoara",
+"display": "Hunedoara, România",
+"osm": "relation 2248737"
+},
+"Borcut|Maramureș": {
+"lat": 47.481998,
+"lon": 23.840714,
+"county": "Maramureș",
+"display": "Borcut, Târgu Lăpuș, Maramureș, 435602, România",
+"osm": "node 462244114"
+},
+"Deva|Hunedoara": {
+"lat": 45.88174,
+"lon": 22.900861,
+"county": "Hunedoara",
+"display": "Deva, Hunedoara, România",
+"osm": "relation 10494275"
+},
+"Oradea|Bihor": {
+"lat": 47.054916,
+"lon": 21.928523,
+"county": "Bihor",
+"display": "Oradea, Zona Metropolitană Oradea, Bihor, 410100, România",
+"osm": "node 2691094601"
+},
+"Foieni|Satu Mare": {
+"lat": 47.697114,
+"lon": 22.384225,
+"county": "Satu Mare",
+"display": "Foieni, Satu Mare, 447135, România",
+"osm": "relation 11671576"
+},
+"Balteni|Iași": {
+"lat": 47.406259,
+"lon": 27.500946,
+"county": "Iași",
+"display": "Bălteni, Probota, Iași, 707396, România",
+"osm": "node 385264851"
+},
+"Sag|Timiș": {
+"lat": 45.650647,
+"lon": 21.174359,
+"county": "Timiș",
+"display": "Șag, Timiș, 307395, România",
+"osm": "relation 10488640"
+},
+"Timisoara Plopi|": null,
+"Timisoara Mehala|": null,
+"Vinderei|Vaslui": {
+"lat": 46.152191,
+"lon": 27.788091,
+"county": "Vaslui",
+"display": "Vinderei, Vaslui, România",
+"osm": "relation 14739359"
+},
+"Brodina de Sus|Suceava": null,
+"Brodina de Sus|": null,
+"Cicarlau|Maramureș": {
+"lat": 47.691545,
+"lon": 23.403797,
+"county": "Maramureș",
+"display": "Cicârlău, Maramureș, România",
+"osm": "relation 14786142"
+},
+"Cornereva|Caraș-Severin": {
+"lat": 45.063889,
+"lon": 22.419918,
+"county": "Caraș-Severin",
+"display": "Cornereva, Caraș-Severin, România",
+"osm": "relation 13144858"
+},
+"Neptun|Constanța": {
+"lat": 43.866355,
+"lon": 28.601162,
+"county": "Constanța",
+"display": "Neptun, Mangalia, Constanța, 905550, România",
+"osm": "way 223377640"
+},
+"Alexandria|": {
+"lat": 43.970224,
+"lon": 25.328846,
+"county": "Teleorman",
+"display": "Alexandria, Teleorman, România",
+"osm": "relation 10664091"
+},
+"Pecica|Arad": {
+"lat": 46.166679,
+"lon": 21.066681,
+"county": "Arad",
+"display": "Pecica, Arad, România",
+"osm": "relation 10488680"
+},
+"Voiteștii din Vale|": null,
+"Drăgănești-Vlașca|Tulcea": null,
+"Drăgănești-Vlașca|": {
+"lat": 44.102052,
+"lon": 25.599404,
+"county": "Teleorman",
+"display": "Drăgănești-Vlașca, Teleorman, România",
+"osm": "relation 13798923"
+},
+"Remetealunca|Timiș": null,
+"Remetealunca|": null,
+"Ficătar|Timiș": {
+"lat": 45.71526,
+"lon": 21.698049,
+"county": "Timiș",
+"display": "Ficătar, Racovița, Timiș, 307333, România",
+"osm": "node 463257080"
+},
+"Bobda|Timiș": {
+"lat": 45.734909,
+"lon": 20.94257,
+"county": "Timiș",
+"display": "Bobda, Cenei, Timiș, 307101, România",
+"osm": "node 274595021"
+},
+"Pocruia|": {
+"lat": 45.044826,
+"lon": 22.924548,
+"county": "Gorj",
+"display": "Pocruia, Tismana, Gorj, 217501, România",
+"osm": "node 460201144"
+},
+"Târgu Mureș|Mureș": {
+"lat": 46.544625,
+"lon": 24.561196,
+"county": "Mureș",
+"display": "Târgu Mureș, Zona Metropolitană Târgu Mureș, Mureș, România",
+"osm": "relation 8334767"
+},
+"Tormac|Timiș": {
+"lat": 45.520834,
+"lon": 21.493605,
+"county": "Timiș",
+"display": "Tormac, Timiș, România",
+"osm": "relation 13943291"
+},
+"Targu Mures|Mureș": {
+"lat": 46.544625,
+"lon": 24.561196,
+"county": "Mureș",
+"display": "Târgu Mureș, Zona Metropolitană Târgu Mureș, Mureș, România",
+"osm": "relation 8334767"
+},
+"Berzunti|Bacău": {
+"lat": 46.404165,
+"lon": 26.644607,
+"county": "Bacău",
+"display": "Berzunți, Bacău, România",
+"osm": "relation 14739062"
+},
+"Tl|": null,
+"Bârsana|Maramureș": {
+"lat": 47.816862,
+"lon": 24.057689,
+"county": "Maramureș",
+"display": "Bârsana, Maramureș, România",
+"osm": "relation 14867658"
+},
+"Iecea Mare|Timiș": {
+"lat": 45.850742,
+"lon": 20.893096,
+"county": "Timiș",
+"display": "Iecea Mare, Timiș, 307091, România",
+"osm": "relation 11321865"
+},
+"Hitias|Timiș": {
+"lat": 45.710629,
+"lon": 21.598631,
+"county": "Timiș",
+"display": "Hitiaș, Racovița, Timiș, 307334, România",
+"osm": "node 463257081"
+},
+"Costesti|": {
+"lat": 44.662023,
+"lon": 24.87701,
+"county": "Argeș",
+"display": "Costești, Argeș, România",
+"osm": "relation 10664204"
+},
+"Hisias|": {
+"lat": 45.841041,
+"lon": 21.728672,
+"county": "Timiș",
+"display": "Hisiaș, Ghizela, Timiș, 307206, România",
+"osm": "node 463256253"
+},
+"Nadlac|": {
+"lat": 46.166681,
+"lon": 20.749992,
+"county": "Arad",
+"display": "Nădlac, Arad, 315500, România",
+"osm": "relation 10718423"
+},
+"Valea Borcotului|": null,
+"Şindreşti Com. Dumbrăviţa|": null,
+"Bozânta Mică|": {
+"lat": 47.636414,
+"lon": 23.422357,
+"county": "Maramureș",
+"display": "Bozânta Mică, Recea, Maramureș, 437226, România",
+"osm": "node 462243138"
+},
+"Viseu de Mijloc|": {
+"lat": 47.715546,
+"lon": 24.405752,
+"county": "Maramureș",
+"display": "Vișeu de Mijloc, Vișeu de Sus, Maramureș, 435701, România",
+"osm": "node 462244205"
+},
+"Câmpu Cetăţii|": {
+"lat": 46.670427,
+"lon": 25.013973,
+"county": "Mureș",
+"display": "Câmpu Cetății, Eremitu, Mureș, 547212, România",
+"osm": "node 345720918"
+},
+"Târgu Mureș|": {
+"lat": 46.544625,
+"lon": 24.561196,
+"county": "Mureș",
+"display": "Târgu Mureș, Zona Metropolitană Târgu Mureș, Mureș, România",
+"osm": "relation 8334767"
+},
+"Dumbrava|": {
+"lat": 46.435657,
+"lon": 23.772572,
+"county": "Alba",
+"display": "Dumbrava, Unirea, Alba, 517788, România",
+"osm": "node 422870809"
+},
+"Berchez|": {
+"lat": 47.518924,
+"lon": 23.505693,
+"county": "Maramureș",
+"display": "Berchez, Remetea Chioarului, Maramureș, 437231, România",
+"osm": "node 462245601"
+},
+"Bistrița|": {
+"lat": 47.132701,
+"lon": 24.496395,
+"county": "Bistrița-Năsăud",
+"display": "Bistrița, Bistrița-Năsăud, 420048, România",
+"osm": "node 128561166"
+},
+"Focsani|Vrancea": {
+"lat": 45.697274,
+"lon": 27.185692,
+"county": "Vrancea",
+"display": "Focșani, Vrancea, România",
+"osm": "relation 10715449"
+},
+"Caransebes|": {
+"lat": 45.410611,
+"lon": 22.218223,
+"county": "Caraș-Severin",
+"display": "Caransebeș, Caraș-Severin, 325400, România",
+"osm": "node 34088249"
+},
+"Stefanesti|Ilfov": null,
+"Stefanesti|": {
+"lat": 44.875149,
+"lon": 24.960625,
+"county": "Argeș",
+"display": "Ștefănești, Argeș, România",
+"osm": "relation 10664190"
+},
+"Cebza|Timiș": {
+"lat": 45.552382,
+"lon": 21.066557,
+"county": "Timiș",
+"display": "Cebza, Ciacova, Timiș, 307111, România",
+"osm": "node 463255456"
+},
+"București|": {
+"lat": 44.436141,
+"lon": 26.10272,
+"county": "București",
+"display": "București, România",
+"osm": "relation 377802"
+},
+"Câmpul Cetății|": null,
+"Timișoara|": {
+"lat": 45.753836,
+"lon": 21.225747,
+"county": "Timiș",
+"display": "Timișoara, Timiș, România",
+"osm": "relation 6927733"
+},
+"Voitesti|": null,
+"Sibiciu|": {
+"lat": 45.318179,
+"lon": 26.377212,
+"county": "Buzău",
+"display": "Sibiciu de Jos, Pănătău, Buzău, România",
+"osm": "way 75214926"
+},
+"Mărișel|": {
+"lat": 46.683115,
+"lon": 23.115498,
+"county": "Cluj",
+"display": "Mărișel, Cluj, 407390, România",
+"osm": "relation 14523121"
+},
+"Şindreşti|": {
+"lat": 47.606595,
+"lon": 23.695133,
+"county": "Maramureș",
+"display": "Șindrești, Dumbrăvița, Maramureș, 437149, România",
+"osm": "node 462245282"
+}
+}

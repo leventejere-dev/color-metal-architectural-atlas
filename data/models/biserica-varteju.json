@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 53.2,
+ "bearingSource": "OSM way 1171542832 long axis 53.2°; +X points to the semicircular apse (NE), the entrance front with porch and towers faces SW (photo 01, camera looking NE along the axis).",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Only the entrance front is documented by a full photograph (01) and a wall/tower corner by photo 02. Plan from the OSM outline (29.4 × 10.9 m, full-width semicircular apse). Side elevations, window counts, the apse and the central drum are inferred from the typology; heights estimated from photo 01 (gable apex ≈ 12.3 m, tower crosses ≈ 18.7 m, dome cross ≈ 17.5 m); roof pitch ≈ 28° estimated.",
+ "note": {
+  "ro": "Machetă orientativă, interpretată după fotografii publice de referință, dintre care doar fațada de intrare este fotografiată complet. Acoperișurile, coifurile turnurilor și cupola sunt redate în titan-zinc prepatinat gri închis (elZinc Slate), așa cum apar în fotografiile din 2026 — material livrat de COLOR METAL conform evidențelor sale. Fațadele laterale, absida și înălțimile sunt estimate.",
+  "hu": "Tájékoztató jellegű makett nyilvános referenciafotók alapján; ezek közül csak a bejárati homlokzat látszik teljes egészében. A tetők, a toronysisakok és a kupola sötétszürke, előpatinázott titáncinkként (elZinc Slate) jelennek meg, ahogy a 2026-os fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. Az oldalhomlokzatok, az apszis és a magasságok becsültek.",
+  "en": "Indicative scale model interpreted from public reference photographs, of which only the entrance front is fully photographed. The roofs, tower roofs and the dome are shown in dark grey pre-weathered titanium-zinc (elZinc Slate) as photographed in 2026 — the material supplied by COLOR METAL according to its records. The side elevations, the apse and the heights are estimated."
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 58.9,
+  "bearingSource": "OSM way 207239229 (untagged building attributed to the tower; 7.6 × 7.0 m, long side 58.9°). +X runs along the façades at 58.9°, +Z (148.9°, SSE) is the street face of the gate passage; the church (OSM way 203154274) lies ≈ 23 m to the NNW behind −Z, consistent with photo 02 (church domes to the right of the tower, seen from the street side).",
+  "cover": null,
+  "photosUsed": 3,
+  "approximations": "The attribution of the OSM outline was checked against the photos: the ground storey reads ≈ 7.6 m wide in photo 01 (passage arch ≈ 3.3 m, people and a car for scale), so it was kept. Heights are estimated from photo proportions (base cornice ≈ 10 m, clock cornice ≈ 27.3 m, dome top ≈ 30.6 m, cross ≈ 36 m). The ground storey is read as an octagon with wide chamfers (photo 02); the courtyard face mirrors the street face and the side faces are interpreted. Friezes, balusters, louvres, clocks and the iron cross are simplified. The research record names no year or metal for this tower, so the dome, lantern and cupola are shown in the green sheet metal of the photographs (2012–2018) and the material is not identified.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință: proporțiile turnului, etajele clopotniței și cupola verde urmează fotografiile, înălțimile sunt estimate, iar ornamentele sunt simplificate. Pentru acest turn evidența nu indică anul sau materialul, de aceea cupola și lanterna sunt redate în tabla verde din fotografii.",
+    "hu": "Nyilvános referenciafotók alapján értelmezett makett: a torony arányai, a harangszintek és a zöld kupola a fotókat követik, a magasságok becsültek, a díszítés egyszerűsített. A nyilvántartás ennél a toronynál nem jelöl évet és anyagot, ezért a kupola és a lanterna a fotókon látható zöld lemezfedéssel jelenik meg.",
+    "en": "Scale model interpreted from public reference photographs: the tower's proportions, belfry stages and green dome follow the photos, heights are estimated and the ornament is simplified. The records give no year or material for this tower, so the dome and lantern are shown in the green sheet metal seen in the photographs."
+  }
+}

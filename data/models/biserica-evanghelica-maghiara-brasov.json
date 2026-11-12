@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 130.1,
+ "bearingSource": "OSM long axis of way 272913008 (130.1°); +X points to the polygonal east end, the tower stands at the −X (north-west) end; the porch side (photo 01) is assumed to face +Z (south-west).",
+ "cover": "01",
+ "photosUsed": 2,
+ "approximations": "Heights estimated from photo 01 (eave ≈6.8 m, nave ridge ≈13.2 m, tower cornice ≈15.6 m, cross ≈27 m); the west front and most of the north side are not photographed; which long side carries the porch is inferred; pilaster capitals and the porch pediment are simplified. The photographs (2014, 2017) show red clay tiles (with the date 1783 laid in the roof); the nave, apse, porch and sacristy roofs and the tower spire are shown in new copper as supplied by COLOR METAL according to its records for the parish ensemble (2025) — which roofs of the ensemble received the copper (the site also includes a new parish centre) is not documented.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință; înălțimile, fațada de vest și latura de nord sunt aproximate. Fotografiile disponibile sunt anterioare lucrărilor din 2025, de aceea acoperișurile și coiful turnului sunt redate în cuprul livrat de COLOR METAL pentru ansamblul parohial, conform evidențelor firmei; ce acoperișuri au primit cupru nu este documentat.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett; a magasságok, a nyugati homlokzat és az északi oldal közelítőek. A rendelkezésre álló fotók a 2025-ös munkálatok előttiek, ezért a tetők és a toronysisak a COLOR METAL nyilvántartása szerint az egyházközségi épületegyütteshez szállított rézzel jelennek meg; hogy mely tetők kaptak rézfedést, nincs dokumentálva.",
+  "en": "Scale model interpreted from public reference photographs; heights, the west front and the north side are approximate. The available photographs predate the 2025 works, so the roofs and the tower spire are shown in the copper supplied by COLOR METAL for the parish ensemble according to its records; which roofs received the copper is not documented."
+ }
+}

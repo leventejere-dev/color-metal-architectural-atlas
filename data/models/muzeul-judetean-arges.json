@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 318.5,
+ "bearingSource": "OSM way 136267182 long axis 138.5°, flipped: +X = 318.5° (north-west) so that +Z (48.5°) is the main façade towards Str. Armand Călinescu and the park (photos 02, 03); the U-shaped courtyard opens to the south-west.",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "U-plan after the OSM outline (front block 45.7 × 16.5 m, rear wings 12 m and 10.9 m wide). Main façade rhythm (5 + 3 + 5 bays), rustication, colonnade and pediment from photos 01, 02 and 04; heights scaled from the frontal photo 02 (cornice ≈ 14.2 m, pediment apex ≈ 19 m). Roofs hardly visible in any photograph: low hipped roofs (≈ 15°) on the front block and wings and a gabled roof behind the pediment are interpreted and shown in natural titanium-zinc per the COLOR METAL records. Courtyard and rear elevations, capitals, relief and the acroterion simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință (2011 și fațada restaurată în 2025); acoperișurile abia se văd în acestea, de aceea forma lor joasă în patru ape este interpretată și sunt redate în titan-zinc natural livrat de COLOR METAL, conform evidențelor firmei. Fațadele spre curte și cea posterioară, înălțimile și ornamentația sunt aproximative.",
+  "hu": "Nyilvános referenciafotók (2011, illetve a felújított homlokzat 2025-ben) alapján értelmezett makett; a tetők ezeken alig látszanak, ezért alacsony sátortetős formájuk értelmezés, és a COLOR METAL nyilvántartása szerint szállított natúr titáncinkkel jelennek meg. Az udvari és hátsó homlokzatok, a magasságok és a díszítés közelítőek.",
+  "en": "Scale model interpreted from public reference photographs (2011 and the restored façade in 2025); the roofs are hardly visible in them, so their low hipped form is interpreted and they are shown in the natural titanium-zinc supplied by COLOR METAL according to its records. The courtyard and rear elevations, heights and ornament are approximate."
+ }
+}

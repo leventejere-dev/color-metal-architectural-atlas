@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 246.8,
+  "bearingSource": "OSM relation 15427149 long axis 66.8°, flipped so that +X points WSW to Piața Unirii: the square façade with the risalit bump is the short WSW side of the OSM outline (aerial photo 01 taken from the square, satellite view)",
+  "cover": null,
+  "photosUsed": 5,
+  "approximations": "OSM outer ring used (66.5 × 47.2 m); wing depths (front 15.2 m, rear 12.8 m, sides 10 m), courtyard size and all heights (string course 6.0 m, cornice 13.2 m, ridge ≈ 22 m, roof pitch 48°) estimated from photos 01–05 and the satellite view; square façade drawn symmetrical (5 bays either side of the risalit) although the OSM risalit sits ≈ 2 m off-centre; courtyard bay counts, the outer elevations of the side and rear wings and the dormers on the hidden slopes inferred; statues, coat-of-arms group, capitals and window hoods simplified. Copper: the photographs (2012–2019) predate the works; the published rehabilitation scope names the roof coverings, the eave aprons and the dormer coverings, so copper is shown on the dormers, eave aprons, gutters, downpipes and the hood of the central risalit, weathered; the main roof planes stay red tile as photographed. The basement-level pre-patinated copper item of the register is not visible and not modelled.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; adâncimea aripilor, înălțimile, fațadele dinspre curte și din spate și ornamentația sunt aproximate. Fotografiile disponibile sunt anterioare lucrărilor, de aceea cuprul livrat de COLOR METAL conform evidențelor sale este redat, îmbătrânit, pe lucarne, șorțurile de la streașină, jgheaburi, burlane și pe acoperișul curb al rezalitului central; învelitoarea mare rămâne din țiglă, ca în fotografii.",
+    "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a szárnyak mélysége, a magasságok, az udvari és hátsó homlokzatok, valamint a díszítés közelítőek. A rendelkezésre álló fotók a munkálatok előttiek, ezért a COLOR METAL nyilvántartása szerint szállított vörösréz – sötétre oxidálódott állapotban – a tetőablakokon, az ereszszegélyeken, ereszcsatornákon, lefolyókon és a középrizalit íves tetején látható; a nagy tetőfelületek a fotóknak megfelelően cserépfedésűek maradnak.",
+    "en": "Scale model interpreted from public reference photographs and the OSM outline; wing depths, heights, the courtyard and rear elevations and the ornament are approximated. The available photographs predate the works, so the copper supplied by COLOR METAL according to its records is shown, weathered, on the dormers, eave aprons, gutters, downpipes and the curved roof of the central risalit; the large roof planes remain red tile as photographed."
+  }
+}

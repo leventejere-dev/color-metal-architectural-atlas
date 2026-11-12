@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 85.5,
+ "bearingSource": "OSM way 215379214 long axis 85.5°; +Z is the main façade towards Str. A.I. Cuza (≈ 175.5°, central risalit projection in the OSM outline), +X points east to Str. Theodor Aman; the chamfered south-east corner of the outline is the corner wing seen in photos 01–02.",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Main façade composition measured on the frontal photo 03 and fitted to the OSM width (left pavilion 8.7 m, central risalit 15.4 m projecting 1.8 m, right pavilion 7.0 m, two-bay wing and chamfered corner). Heights estimated from photo 03 (cornice ≈ 12.1 m, central roof ≈ 19.4 m). The rear block, its roof and the glazed lantern over the council hall are not photographed and are assumed; west, north and east elevations are regularised. Turrets, lanterns, crestings and stone ornament simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință. Deoarece fotografiile disponibile sunt anterioare lucrărilor de reabilitare, acoperișurile, lanternourile și turnulețele sunt redate din titan-zinc natural, materialul livrat de COLOR METAL conform evidențelor sale. Corpul posterior și fațadele nefotografiate sunt aproximate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett. Mivel az elérhető fotók a felújítás előtt készültek, a tetők, a lámpások és a tornyocskák natúr titáncinkként jelennek meg – a COLOR METAL nyilvántartása szerint általa szállított anyagként. A hátsó épületrész és a nem fényképezett homlokzatok közelítők.",
+  "en": "Scale model interpreted from public reference photographs. Because the available photographs predate the rehabilitation, the roofs, lanterns and turret caps are shown in natural titanium-zinc, the material supplied by COLOR METAL according to its records. The rear block and the unphotographed elevations are approximated."
+ }
+}

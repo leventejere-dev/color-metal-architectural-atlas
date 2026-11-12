@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 69.1,
+ "bearingSource": "OSM way 76915020 long axis 69.1°; the three-faced altar apse is at the ENE end of the outline (+X), the narrower west bay with the towers at −X (consistent with photo 05: altar apse left, west towers right, seen from the north)",
+ "cover": "05",
+ "photosUsed": 7,
+ "approximations": "No published heights: eave ≈ 11.2 m, crossing gables ≈ 17 m, central cross ≈ 30 m and west-tower crosses ≈ 21 m scaled from photo proportions. West end (two towers on the nave's west corners, narrower western bay with columned side porches) interpreted from one oblique photo (05) and the OSM outline; south elevation mirrored from the north; window counts, stucco ornament, stained glass and brick-band pattern simplified; elZinc Natural rendered in the weathered blue-grey tone seen in the photos.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință și conturul OSM; înălțimile, dispunerea capătului vestic (turnuri și pridvoare) și fațada sudică sunt aproximate, iar ornamentația din stuc este simplificată.",
+  "hu": "A referenciafotók és az OSM-körvonal alapján értelmezett makett; a magasságok, a nyugati vég (tornyok és tornácok) elrendezése és a déli homlokzat közelítő, a stukkódíszítés egyszerűsített.",
+  "en": "Scale model interpreted from the reference photographs and the OSM outline; heights, the west-end arrangement (towers and porches) and the south elevation are approximated, and the stucco ornament is simplified."
+ }
+}

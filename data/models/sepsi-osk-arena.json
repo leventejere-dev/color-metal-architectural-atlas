@@ -1,0 +1,12 @@
+{
+ "tier": "A",
+ "status": "existing-verified",
+ "photosUsed": "exhibition-table reference set",
+ "note": {
+  "ro": "Model preluat de pe masa expozițională COLOR METAL: semi-secțiune cu tribuna principală și pavilionul placat cu titan-zinc. Dimensiunile, adâncimea tribunelor și înălțimile acoperișului sunt estimate.",
+  "hu": "A COLOR METAL kiállítási asztal modellje: félmetszet a főlelátóval és a titáncink burkolatú pavilonnal. A méretek, a lelátók mélysége és a tetőmagasságok becsültek.",
+  "en": "Exhibition-table model: half-section with the main stand and the titanium-zinc clad pavilion. Dimensions, stand depths and roof heights are estimates."
+ },
+ "bearingDeg": 24.2,
+ "bearingSource": "OSM way 763941868 long axis 24.2° (pitch axis); which long side carries the main stand with the zinc pavilion is not verified"
+}

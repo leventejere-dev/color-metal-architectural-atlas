@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 90,
+ "bearingSource": "The footprintDims axis (27.6°) is the diagonal of the irregular OSM outline (way 586666594) and matches no façade; the model uses the outline's own grid: +X = east, the straight 51 m east edge being the main façade on Piața Traian (photo 01, OSM road geometry), +Z = south = Str. Mihai Eminescu (photos 02–03).",
+ "cover": "01",
+ "photosUsed": 3,
+ "approximations": "The square façade (6 bays | risalit | 6 bays, cornice ≈ 14.4 m, clock gable ≈ 19.2 m) is scaled from the frontal panorama 01; the south side from photos 02–03. The layout behind the façades is inferred: the auditorium with its curved roof (≈ 17.4 × 26.5 m, top ≈ 23 m) is placed behind the ornate Mihai Eminescu façade as seen in photo 02, the stage block, the north-east annex, the back-stage block and the west wing are plain massing on the OSM outline with estimated heights and flat roofs. Vault profile, dormer counts, low roof pitches and chimneys estimated; the slate-style zinc tiles are suggested by horizontal courses; reliefs, sculpture, capitals and shell hoods simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; fotografiile disponibile sunt anterioare lucrărilor din 2016 sau arată acoperișul doar ca siluetă, de aceea bolta curbă a sălii și acoperișurile corpurilor principale sunt redate în titan-zinc prepatinat elZinc Slate, livrat de COLOR METAL conform evidențelor firmei. Corpurile din spate și dispunerea lor sunt aproximate.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a rendelkezésre álló fotók a 2016-os munkálatok előttiek, vagy a tetőt csak sziluettként mutatják, ezért a nézőtér íves teteje és a fő épületszárnyak tetői a COLOR METAL nyilvántartása szerint szállított, előpatinázott elZinc Slate titáncinkkel jelennek meg. A hátsó épületrészek és elrendezésük közelítő.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the available photographs predate the 2016 works or show the roof only as a silhouette, so the curved auditorium roof and the roofs of the main wings are shown in the pre-weathered elZinc Slate titanium-zinc supplied by COLOR METAL according to its records. The rear parts and their layout are approximated."
+ }
+}

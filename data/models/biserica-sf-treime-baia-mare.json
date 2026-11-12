@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 160.9,
+ "bearingSource": "OSM long axis of way 467723691 (160.9°); +X points to the narrower sanctuary block of the outline, the twin-tower front faces −X (north-north-west), consistent with the wide front block of the outline.",
+ "cover": "01",
+ "photosUsed": 2,
+ "approximations": "Only the twin-tower front is photographed (Aug 2025): its orders, towers and caps are measured from photos 01–02 with the tower width as the scale (main entablature ≈15 m, belfry cornice ≈29.5 m, crosses ≈40 m). Nave, side chapels, sanctuary and their roofs are interpreted from the OSM outline only (the sanctuary is centred on the nave axis, ≈2 m from its OSM position); ornament, statues and the glory are simplified; the adjoining former Jesuit residence is not modelled. The tower caps and lanterns are shown in dark-brown copper as photographed; the nave, chapel and sanctuary roofs and the gutters, not visible in any photograph, are shown in new copper as supplied by COLOR METAL according to its records (copper roofing and rainwater goods, 2025) — which surfaces the 2025 copper covers is not documented.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință; fațada cu cele două turnuri este redată după fotografiile din 2025, iar nava, capelele și sanctuarul, nefotografiate, sunt interpretate după conturul clădirii. Coifurile turnurilor apar în cupru brun, ca în fotografii; acoperișurile nevizibile și jgheaburile sunt redate în cuprul livrat de COLOR METAL, conform evidențelor firmei.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett; a kéttornyú homlokzat a 2025-ös fotók szerint készült, a fotókon nem látható hajó, kápolnák és szentély az épület körvonala alapján értelmezett. A toronysisakok a fotók szerinti barna rézzel jelennek meg; a nem látható tetők és az ereszcsatornák a COLOR METAL nyilvántartása szerint szállított rézzel.",
+  "en": "Scale model interpreted from public reference photographs; the twin-tower front follows the 2025 photographs, while the nave, chapels and sanctuary, which are not photographed, are interpreted from the building outline. The tower caps are shown in brown copper as photographed; the roofs not visible in the photographs and the gutters are shown in the copper supplied by COLOR METAL according to its records."
+ }
+}

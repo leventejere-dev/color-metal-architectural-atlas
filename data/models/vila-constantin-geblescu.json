@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 173.3,
+  "bearingSource": "Minimum-rectangle axis 173.3° of the unnamed OSM way 162569989 that holds the Str. Polonă 8 address node (location PROBABLE); +X points south, +Z (263.3°) west to Str. Polonă (taken as the front); the corner tower is placed at the north-west street corner (Polonă × Bd. Dacia) — not verified",
+  "cover": "05",
+  "photosUsed": 12,
+  "approximations": "Photos show only the roof zone (01–03 before the works, 04–12 with the new elZinc Oliva). Plan simplified to an L of two axis-aligned blocks following the coarse 8-node OSM outline (south-east quadrant cut away; the outline's ≈ 12° skew and chamfers ignored). Storey heights, eave ≈ 12.6 m, window rhythm, the projecting terrace bay and stone dormer positions are interpreted. Mansard sections (tall block with zinc frieze, lower link and end sections, tower) follow photos 05–07, but their extent along each façade is assumed. Tower ≈ 7 m square, bell-cast mansard to ≈ 19.2 m, frieze, cornice and louvred lantern to ≈ 22.3 m, rod to ≈ 24.6 m. The dome pavilion (photo 03, before the works) is placed on the north-east wing without evidence of its position and shown in the new zinc (its current finish is not documented). Flat-lock shingles shown as horizontal courses; garlands, consoles, scroll panels and dormer surrounds reduced to primitives.",
+  "note": {
+    "ro": "Machetă preliminară: mansardele din elZinc Oliva, turnul de colț și cupola sunt interpretate după fotografii făcute doar la nivelul acoperișului; planul, fațadele și poziția cupolei sunt aproximative, iar localizarea clădirii este probabilă.",
+    "hu": "Előzetes makett: az elZinc Oliva manzárdtetők, a saroktorony és a kupola csak tetőszinten készült fotók alapján értelmezettek; az alaprajz, a homlokzatok és a kupola helyzete közelítő, az épület helymeghatározása valószínű.",
+    "en": "Preliminary model: the elZinc Oliva mansard roofs, corner tower and dome are interpreted from photographs taken at roof level only; plan, elevations and the dome's position are approximate, and the building's location is probable."
+  }
+}

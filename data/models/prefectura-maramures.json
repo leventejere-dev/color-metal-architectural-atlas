@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 74.0,
+  "bearingSource": "OSM way 463413142 long axis 74.0°; +Z (164°) faces Str. Gheorghe Șincai, the street side of the only photograph (01) and of the satellite view",
+  "cover": null,
+  "photosUsed": 1,
+  "approximations": "One street photograph (2019) and a satellite view only. Outline simplified to convex blocks after OSM (street block with hall ≈ 35 × 32 m, neck, office range ≈ 108 × 19 m, angled east wing); storeys from the county's technical description (street block S+P+1, office range D+P+3, archive tower D+P+10 with a glazed top) with ≈ 3.4–3.5 m per storey; the tower position (south end of the east wing) inferred from the photograph and the satellite shadows; window rhythm and the rear façades inferred; the folded roofs reduced to an outward-leaning edge band plus a low hipped roof. Copper: the photograph and the satellite view predate the works and the re-covered body is not documented, so all roofs and their steep edge bands are shown in new copper.",
+  "note": {
+    "ro": "Machetă preliminară, interpretată după o singură fotografie publică, imaginea satelitară, conturul OSM și numărul de niveluri din documentele publice; volumele, poziția turnului, ritmul ferestrelor și fațadele posterioare sunt aproximate. Fotografiile disponibile sunt anterioare lucrărilor, de aceea acoperișurile sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale; corpul exact acoperit nu este documentat.",
+    "hu": "Előzetes makett egyetlen nyilvános fotó, műholdkép, az OSM-körvonal és a nyilvános dokumentumok szintszámai alapján; a tömegek, a torony helye, az ablakritmus és a hátsó homlokzatok közelítőek. A rendelkezésre álló képek a munkálatok előttiek, ezért a tetők a COLOR METAL nyilvántartása szerint szállított vörösrézzel láthatók; hogy pontosan melyik épületszárny kapta, nincs dokumentálva.",
+    "en": "Preliminary model interpreted from a single public photograph, the satellite view, the OSM outline and the storey counts of public documents; volumes, the tower position, window rhythm and the rear façades are approximated. The available images predate the works, so the roofs are shown in the copper supplied by COLOR METAL according to its records; which body exactly was re-covered is not documented."
+  }
+}

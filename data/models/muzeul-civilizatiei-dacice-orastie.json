@@ -1,0 +1,14 @@
+{
+ "tier": "D",
+ "status": "reference-limited",
+ "bearingDeg": 9.4,
+ "bearingSource": "OSM way 485856663 long axis 9.4°; +X ≈ north. The street wing on the −Z side faces Str. Nicolae Bălcescu (OSM street geometry), the +X block faces Str. Ion Creangă; the courtyard opens to +Z.",
+ "cover": null,
+ "photosUsed": 0,
+ "approximations": "Massing model only: no photograph of the building was found (Wikimedia Commons, municipal and press pages searched). Volumes follow the OSM outline simplified to three convex wings (the irregular east part reduced to its convex hull); semi-basement + three storeys from the project description; heights (cornice ≈ 13.2 m), 38° hipped roofs, window rhythm and entrance position are typological assumptions.",
+ "note": {
+  "ro": "Machetă volumetrică: nu a fost găsită nicio fotografie publică a clădirii, astfel încât volumele urmează conturul OSM și descrierea proiectului (demisol, parter și două etaje), iar fațadele sunt schematice. Acoperișurile sunt redate din titan-zinc natural, materialul livrat de COLOR METAL conform evidențelor sale.",
+  "hu": "Tömegmakett: az épületről nem található nyilvános fotó, ezért a tömegek az OSM-körvonalat és a projektleírást (alagsor, földszint és két emelet) követik, a homlokzatok vázlatosak. A tetők natúr titáncinkként jelennek meg – a COLOR METAL nyilvántartása szerint általa szállított anyagként.",
+  "en": "Massing model: no public photograph of the building could be found, so the volumes follow the OSM outline and the project description (semi-basement, ground floor and two upper floors) and the façades are schematic. The roofs are shown in natural titanium-zinc, the material supplied by COLOR METAL according to its records."
+ }
+}

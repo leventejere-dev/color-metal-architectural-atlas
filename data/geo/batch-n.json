@@ -1,0 +1,927 @@
+[
+ {
+  "id": "biserica-sat-cicarlau-cicarlau",
+  "officialName": "Biserica sat Cicârlău (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Cicârlău, jud. Maramureș",
+  "city": "Cicârlău",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.691545,
+  "lon": 23.403797,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded (unresolved).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/1849944941",
+   "https://www.openstreetmap.org/node/1850174629",
+   "https://ro.wikipedia.org/wiki/Cic%C3%A2rl%C4%83u,_Maramure%C8%99"
+  ],
+  "verificationNotes": "Cicârlău village has (at least) two churches in OSM: the Orthodox church Sf. Apostoli Petru și Pavel (node 1849944941, 47.69380, 23.40171; large building with a light-grey metal roof in Esri imagery) and the Greek-Catholic church (node 1850174629, 47.69027, 23.40196; dark roof in Esri imagery). The commune's other villages (Bârgău, Ilba, Handalu Ilbei) have further churches. No news/parish source about a 2022 copper roof was found (the session's web-search quota ran out before Facebook/parish sources could be checked), so the building is left UNRESOLVED at town-centre coordinates.",
+  "registerKeys": [
+   "e51895fc699d2602",
+   "e51895fc699d2602"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-oasa-sugag",
+  "officialName": "Mănăstirea Oașa – biserica nouă „Sfântul Mare Mucenic Pantelimon”",
+  "nameHu": null,
+  "altNames": [
+   "Oașa Monastery",
+   "Biserica Mănăstirii Oașa"
+  ],
+  "category": "monastery",
+  "address": "DJ704 (Transalpina), Valea Frumoasei, lângă lacul Oașa, com. Șugag, jud. Alba",
+  "city": "Șugag",
+  "county": "Alba",
+  "country": "Romania",
+  "lat": 45.573067,
+  "lon": 23.610447,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1081850116,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "name": "Biserica Mănăstirii Oașa",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.5731372,
+    23.6102573
+   ],
+   [
+    45.5729999,
+    23.610256
+   ],
+   [
+    45.5729997,
+    23.6104097
+   ],
+   [
+    45.5730133,
+    23.6104096
+   ],
+   [
+    45.5730128,
+    23.6104688
+   ],
+   [
+    45.5730026,
+    23.6104701
+   ],
+   [
+    45.5729932,
+    23.6104752
+   ],
+   [
+    45.5729855,
+    23.6104843
+   ],
+   [
+    45.5729802,
+    23.6104965
+   ],
+   [
+    45.572978,
+    23.6105105
+   ],
+   [
+    45.572979,
+    23.6105248
+   ],
+   [
+    45.5729831,
+    23.6105379
+   ],
+   [
+    45.57299,
+    23.6105483
+   ],
+   [
+    45.5729986,
+    23.610555
+   ],
+   [
+    45.5730087,
+    23.6105575
+   ],
+   [
+    45.5730122,
+    23.610558
+   ],
+   [
+    45.5730113,
+    23.6106269
+   ],
+   [
+    45.5730351,
+    23.6106271
+   ],
+   [
+    45.573036,
+    23.610638
+   ],
+   [
+    45.5730402,
+    23.6106511
+   ],
+   [
+    45.573047,
+    23.6106616
+   ],
+   [
+    45.5730558,
+    23.6106684
+   ],
+   [
+    45.5730657,
+    23.6106708
+   ],
+   [
+    45.573076,
+    23.6106683
+   ],
+   [
+    45.5730852,
+    23.6106611
+   ],
+   [
+    45.5730921,
+    23.61065
+   ],
+   [
+    45.5730961,
+    23.6106362
+   ],
+   [
+    45.5730964,
+    23.6106277
+   ],
+   [
+    45.573122,
+    23.6106279
+   ],
+   [
+    45.5731218,
+    23.6105573
+   ],
+   [
+    45.5731313,
+    23.6105547
+   ],
+   [
+    45.5731375,
+    23.6105487
+   ],
+   [
+    45.5731445,
+    23.6105375
+   ],
+   [
+    45.5731484,
+    23.6105238
+   ],
+   [
+    45.573149,
+    23.6105089
+   ],
+   [
+    45.573146,
+    23.6104946
+   ],
+   [
+    45.5731399,
+    23.6104825
+   ],
+   [
+    45.5731317,
+    23.6104743
+   ],
+   [
+    45.5731211,
+    23.6104693
+   ],
+   [
+    45.5731216,
+    23.6104112
+   ],
+   [
+    45.5731367,
+    23.6104113
+   ],
+   [
+    45.5731368,
+    23.6104069
+   ],
+   [
+    45.5731368,
+    23.6104022
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 32.3,
+   "widthM": 19.0,
+   "bearingDeg": 90.4
+  },
+  "heightHints": "Large white masonry cross-in-square church (OSM outline ~32 x 19 m, E–W axis) with a tall central drum and dome, lower western towers/porch and apses; metal-covered multi-pitched roofs. The 1980s wooden church (Adormirea Maicii Domnului, shingle roof, way 299224263, ~19 x 8 m) stands ~60 m to the south-west.",
+  "photos": 3,
+  "metalVisibleInPhotos": "2020 drone photos (Alba24) show the new church with grey/blue-grey metal roofs and dome, i.e. before the 2022 copper order; copper itself is not visible in any found photo.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1081850116",
+   "https://www.openstreetmap.org/way/759096989",
+   "https://alba24.ro/foto-video-manastirea-oasa-o-oaza-de-liniste-sufleteasca-cu-o-priveliste-care-iti-taie-respiratia-787807.html",
+   "https://www.bzi.ro/manastirea-oasa-o-adevarata-oaza-de-liniste-credinta-si-natura-iata-cat-de-spectaculoasa-este-si-de-ce-merita-vizitata-5399936",
+   "https://manastireaoasa.ro/"
+  ],
+  "verificationNotes": "Monastery certain (OSM way 759096989, amenity=monastery). Mucenic Pantelimon) was laid 27 July 2011 (Alba24 2021). Copper sheet is only plausible on the new church (dome/roof), so that building (OSM way 1081850116 'Biserica Mănăstirii Oașa') is taken as the target; lat/lon = its outline centroid. No source found that documents the copper works themselves, hence PROBABLE.",
+  "registerKeys": [
+   "b93b14c8c7e381ba"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "parohia-ortodoxa-romana-sadu-i-sadu",
+  "officialName": "Biserica Ortodoxă „Adormirea Maicii Domnului” din Sadu (biserica veche, Parohia Sadu I)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica de piatră „Adormirea Maicii Domnului” din Sadu",
+   "Church of the Assumption of Mary in Sadu"
+  ],
+  "category": "church",
+  "address": "Strada Principală 486 (LMI) / DJ105G, Sadu, jud. Sibiu",
+  "city": "Sadu",
+  "county": "Sibiu",
+  "country": "Romania",
+  "lat": 45.669429,
+  "lon": 24.1798,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 356032358,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "orthodox",
+    "name": "Biserica Adormirea Maicii Domnului Sadu",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.6694983,
+    24.179883
+   ],
+   [
+    45.6694467,
+    24.1796633
+   ],
+   [
+    45.6694265,
+    24.179673
+   ],
+   [
+    45.6694115,
+    24.179609
+   ],
+   [
+    45.6693646,
+    24.1796316
+   ],
+   [
+    45.6693784,
+    24.1796902
+   ],
+   [
+    45.6693561,
+    24.179701
+   ],
+   [
+    45.6694086,
+    24.1799245
+   ],
+   [
+    45.6694248,
+    24.1799491
+   ],
+   [
+    45.6694374,
+    24.1799633
+   ],
+   [
+    45.6694509,
+    24.179971
+   ],
+   [
+    45.6694663,
+    24.1799723
+   ],
+   [
+    45.6694807,
+    24.1799607
+   ],
+   [
+    45.6694942,
+    24.1799413
+   ],
+   [
+    45.6695015,
+    24.1799129
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 28.7,
+   "widthM": 10.5,
+   "bearingDeg": 71.4
+  },
+  "heightHints": "Single-nave hall church (~29 x 10.5 m footprint incl. tower) with a tall square west bell tower (roughly 3x the eaves height of the nave) topped by an onion-shaped metal spire with lantern; steep gabled nave roof (ceramic tiles in 2010 photos), polygonal apse. Tower façades with brick-relief arcade ornament.",
+  "photos": 3,
+  "metalVisibleInPhotos": "Only 2010 Commons photos available (pre-dating the 2022 order): nave roof in red ceramic tiles, tower spire in grey sheet metal. The 2022 natural titanium-zinc sheet + 150/100 mm rainwater system is not visible in any found photo; it may cover the tower spire/roof and gutters.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/356032358",
+   "https://ro.wikipedia.org/wiki/Biserica_Adormirea_Maicii_Domnului_din_Sadu",
+   "https://ro.wikipedia.org/wiki/Sadu,_Sibiu",
+   "https://ceeol.com/search/article-detail?id=1098056",
+   "https://sadu.ro/download/469",
+   "https://commons.wikimedia.org/wiki/Category:Church_of_the_Assumption_of_Mary_in_Sadu,_Sibiu"
+  ],
+  "verificationNotes": "Sadu village has two Orthodox parish churches in OSM: the old masonry church 'Adormirea Maicii Domnului' (way 356032358; LMI SB-II-m-A-12531.01, built in stages, last c. 1720 on older foundations per Abrudan 2022; Str. Principală 486) and the newer 'Sfânta Treime' church (way 356032312) on Str. Preot Gheorghe Boorel. The wooden church (LMI SB-II-m-B-12530, also Adormirea) is a separate small building. No source found that documents the 2022 zinc works themselves, hence PROBABLE.",
+  "registerKeys": [
+   "e5acc5f2c7e64273",
+   "e5acc5f2c7e64273"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-ortodoxa-stramtura-stramtura",
+  "officialName": "Biserica Ortodoxă din Strâmtura (biserica parohială de zid, Parohia Ortodoxă Strâmtura)",
+  "nameHu": null,
+  "altNames": [
+   "Parohia Ortodoxă Strâmtura"
+  ],
+  "category": "church",
+  "address": "Strada Principală, 437310 Strâmtura, jud. Maramureș",
+  "city": "Strâmtura",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.77323,
+  "lon": 24.134768,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 816480176,
+   "tags": {
+    "addr:city": "Strâmtura",
+    "addr:postcode": "437310",
+    "addr:street": "Stradă Principală",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2024-08-10",
+    "denomination": "greek_orthodox",
+    "name": "Parohia Ortodoxă Strâmtura",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.773388,
+    24.134852
+   ],
+   [
+    47.7733625,
+    24.1348906
+   ],
+   [
+    47.7733834,
+    24.134921
+   ],
+   [
+    47.7733449,
+    24.1349794
+   ],
+   [
+    47.7733148,
+    24.1349355
+   ],
+   [
+    47.773284,
+    24.1349824
+   ],
+   [
+    47.7732488,
+    24.1349312
+   ],
+   [
+    47.7732577,
+    24.1349178
+   ],
+   [
+    47.7732031,
+    24.1348382
+   ],
+   [
+    47.7731648,
+    24.134833
+   ],
+   [
+    47.7731252,
+    24.134788
+   ],
+   [
+    47.7731171,
+    24.1347499
+   ],
+   [
+    47.7730825,
+    24.1346913
+   ],
+   [
+    47.7730973,
+    24.134672
+   ],
+   [
+    47.773095,
+    24.1346218
+   ],
+   [
+    47.7731182,
+    24.1345768
+   ],
+   [
+    47.7731554,
+    24.1345681
+   ],
+   [
+    47.7731694,
+    24.1345872
+   ],
+   [
+    47.773181,
+    24.1345802
+   ],
+   [
+    47.7732043,
+    24.1346027
+   ],
+   [
+    47.7732485,
+    24.1346201
+   ],
+   [
+    47.7732741,
+    24.1346685
+   ],
+   [
+    47.7732799,
+    24.1347395
+   ],
+   [
+    47.7733334,
+    24.1348174
+   ],
+   [
+    47.7733485,
+    24.1347944
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 39.2,
+   "widthM": 18.4,
+   "bearingDeg": 39.4
+  },
+  "heightHints": "Large masonry church (OSM outline ~39 x 18 m, long axis NE–SW) with a three-tower west front: tall central tower flanked by two lower towers, all with onion domes and lanterns; rose window over the entrance; in front of it a carved wooden Maramureș gate. In the 2009 photos all domes/roofs are grey sheet metal.",
+  "photos": 2,
+  "metalVisibleInPhotos": "Only 2009 Commons photos found: domes and roofs in grey (galvanised/painted) sheet metal; the 2023 copper (Cu-DHP strip) covering is not visible in any found photo.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/816480176",
+   "https://www.openstreetmap.org/way/816480175",
+   "https://commons.wikimedia.org/wiki/File:RO_MM_Stramtura_3.jpg",
+   "https://commons.wikimedia.org/wiki/File:RO_MM_Stramtura_2.jpg",
+   "https://www.visitmaramures.ro/en/places/biserica-de-lemn-sfintii-arhangheli-mihail-si-gavriil-din-stramtura"
+  ],
+  "verificationNotes": "Places of worship mapped in Strâmtura village (OSM API bbox query): the Orthodox parish church (way 816480176 'Parohia Ortodoxă Strâmtura') and the new Greek-Catholic church Adormirea Maicii Domnului (way 816480175, yellow, with spire – Commons 'RO MM Stramtura 2' describes it as 'Biserica greco-catolică nouă'). The village also has the 17th-c. wooden church Sf. Arhangheli (Orthodox, shingle roof, historic monument), on which copper strip is implausible. No source found documenting the 2023 copper works; hram not found.",
+  "registerKeys": [
+   "ddfca21d4eca72dd"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-barsana-barsana",
+  "officialName": "Biserică, Bârsana (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Bârsana, jud. Maramureș",
+  "city": "Bârsana",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.816862,
+  "lon": 24.057689,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded (unresolved).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/3550657019",
+   "https://www.openstreetmap.org/node/825016351",
+   "https://www.openstreetmap.org/node/13065251088",
+   "https://www.openstreetmap.org/way/1306396753",
+   "https://www.openstreetmap.org/way/349144854"
+  ],
+  "verificationNotes": "Bârsana commune has many churches: the Orthodox parish church in the village centre cemetery (node 3550657019, probable outline way 1306396916 ~526 m2), Greek-Catholic Sf. Ap. Petru și Pavel (node 825016351), Greek-Catholic Schimbarea la Față (node 13065251088), the UNESCO wooden church Intrarea în Biserică a Maicii Domnului (way 1306396753, shingle roof – copper implausible), the Bârsana Monastery complex (way 349144854, shingle roofs) and an Orthodox church in Nănești. With several plausible masonry churches and no source about a 2023 copper roof (web-search quota exhausted), the building is UNRESOLVED; town-centre coordinates kept.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-sasar-sasar",
+  "officialName": "Biserica Ortodoxă „Înălțarea Sfintei Cruci” din Săsar (Parohia Înălțarea Sfintei Cruci)",
+  "nameHu": null,
+  "altNames": [
+   "Parohia Înălțarea Sfintei Cruci Săsar"
+  ],
+  "category": "church",
+  "address": "DN1C, 437229 Săsar, com. Recea, jud. Maramureș",
+  "city": "Săsar",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.6458319,
+  "lon": 23.4968753,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 7010952741,
+   "tags": {
+    "addr:city": "Săsar",
+    "addr:postcode": "437229",
+    "addr:street": "DN1C-Săsar",
+    "amenity": "place_of_worship",
+    "denomination": "romanian_orthodox",
+    "name": "parohia inaltarea Sfintei Cruci",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "OSM has only a point (no outline). In Esri aerial imagery the church is an elongated single-nave building oriented roughly E–W (rough visual estimate ~25 m long, not measured from an outline) with a tower at the west end.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No ground photos found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/7010952741"
+  ],
+  "verificationNotes": "The town-centre coordinates (47.644, 23.499) are Săsar village of Recea commune (not the Săsar district of Baia Mare). As the only mapped church of the village it is PROBABLE; no source documenting the copper works was found. Coordinates = OSM node.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "parohia-ortodoxa-ungureni-ungureni",
+  "officialName": "Biserica Ortodoxă din Ungureni (biserica parohială de zid; Parohia Ortodoxă Ungureni)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Ungureni"
+  ],
+  "category": "church",
+  "address": "DC54, 437133 Ungureni, com. Cupșeni, jud. Maramureș",
+  "city": "Ungureni",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.5489692,
+  "lon": 23.9480454,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 2962819319,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "orthodox",
+    "name": "Biserica Ungureni",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "OSM has only a point (no outline). Esri aerial imagery shows a large light-roofed masonry church with a cruciform/multi-domed roof plan beside the village road (rough visual estimate ~25-30 m long, not measured from an outline).",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos of this church found. Commons only has the 18th-c. wooden church (Category:Wooden church in Ungureni, Maramureș).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/2962819319",
+   "https://ro.wikipedia.org/wiki/Biserica_de_lemn_din_Ungureni",
+   "https://www.wikidata.org/wiki/Q12722598",
+   "https://commons.wikimedia.org/wiki/Category:Wooden_church_in_Ungureni,_Maramure%C8%99"
+  ],
+  "verificationNotes": "Ungureni (Cupșeni commune) has two Orthodox churches: the 18th-c. wooden church Sf. Arhangheli Mihail și Gavriil (LMI MM-II-m-A-04788, Wikidata Q12722598, class-A monument) and the masonry parish church mapped in OSM as 'Biserica Ungureni' (node 2962819319, building=church), which Esri imagery shows as a large light-roofed masonry building. Copper standing seam on a class-A wooden monument is implausible, so the masonry parish church is taken as PROBABLE. Coordinates = OSM node; no outline available. No source documenting the 2024 works found.",
+  "registerKeys": [
+   "46f50fb8e5bf9c37",
+   "46f50fb8e5bf9c37"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "parohia-sfintii-arhangheli-baia-mare",
+  "officialName": "Biserica Ortodoxă „Sfinții Arhangheli Mihail și Gavril” (Parohia Sfinții Arhangheli, cartier Vasile Alecsandri)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sfinții Arhangheli Baia Mare"
+  ],
+  "category": "church",
+  "address": "Strada Pășunii 1A (register) / corner Strada Mărășești (OSM), cartier Vasile Alecsandri, 430302 Baia Mare",
+  "city": "Baia Mare",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.645155,
+  "lon": 23.578664,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 654452230,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Sfinții Arhangheli Mihail și Gavril",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.6452441,
+    23.5784992
+   ],
+   [
+    47.6451435,
+    23.5784651
+   ],
+   [
+    47.6450573,
+    23.5785461
+   ],
+   [
+    47.6450285,
+    23.5787125
+   ],
+   [
+    47.64504,
+    23.5787978
+   ],
+   [
+    47.6451693,
+    23.5788575
+   ],
+   [
+    47.6452354,
+    23.5788234
+   ],
+   [
+    47.6452814,
+    23.57864
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 28.1,
+   "widthM": 25.9,
+   "bearingDeg": 104.4
+  },
+  "heightHints": "Large modern Orthodox church, compact near-square footprint (OSM ~28 x 26 m, coarse 8-node outline) with a cluster of domes visible in Esri aerial imagery (central dome plus several smaller domes/towers; light-grey metal roofs before the copper works). Surrounded by 5-storey (16 m) apartment blocks on Strada Pășunii.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos found (no Commons coverage). Esri aerial imagery (date unknown) shows light-grey metal domes/roofs, i.e. probably before the 2024 copper order.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/654452230",
+   "https://www.openstreetmap.org/node/2582084465"
+  ],
+  "verificationNotes": "OSM has exactly one 'Sfinții Arhangheli' church in Baia Mare: Biserica Ortodoxă Sfinții Arhangheli Mihail și Gavril (way 654452230, romanian_orthodox) at Strada Mărășești / Strada Pășunii; Building identification strong; the copper works themselves are not documented in any source found -> PROBABLE. Hram details beyond the OSM name not verified.",
+  "registerKeys": [
+   "db2dcc724f41607b",
+   "db2dcc724f41607b"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "parohia-ortodoxa-bozanta-mica-bozanta-mica",
+  "officialName": "Biserica Ortodoxă din Bozânta Mică (Parohia Ortodoxă Bozânta Mică)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Bozânta Mică"
+  ],
+  "category": "church",
+  "address": "DC68, 437226 Bozânta Mică, com. Recea, jud. Maramureș",
+  "city": "Bozânta Mică",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.6364268,
+  "lon": 23.4205141,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 1810268257,
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Biserica Bozânta Mică",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "OSM has only a point (no outline). Esri aerial imagery shows a masonry church with a dark roof and a rounded (apsidal) end in a fenced churchyard at a road junction; size not measurable from an outline.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No ground photos found. Esri aerial imagery (date unknown) shows a dark roof, probably before the 2024 copper order.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/1810268257",
+   "https://www.openstreetmap.org/way/1418872450",
+   "https://visitromania.ro/en/attraction/bozanta-mica/biserica-din-bozanta-mica"
+  ],
+  "verificationNotes": "An OSM API bbox query around the village returns only the parish church 'Biserica Bozânta Mică' (node 1810268257, Orthodox) and a small cemetery chapel (way 1418872450, ~440 m away). The parish church is therefore PROBABLE; no source documenting the 2024 copper works found. Coordinates = OSM node.",
+  "registerKeys": [
+   "25082f3ce5f91cab",
+   "25082f3ce5f91cab"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "parohia-ortodoxa-romana-viseu-de-mijloc-viseu-de-mijloc",
+  "officialName": "Biserica Ortodoxă din Vișeu de Mijloc (Parohia Ortodoxă Română Vișeu de Mijloc)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica ortodoxă Vișeu de Mijloc"
+  ],
+  "category": "church",
+  "address": "Strada Mălinului, cartier Vișeu de Mijloc, 435701 Vișeu de Sus, jud. Maramureș",
+  "city": "Vișeu de Sus",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.7161846,
+  "lon": 24.4039556,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 3180322952,
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Biserica ortodoxă Vișeu de Mijloc",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "OSM has only a point (no outline). Esri aerial imagery shows an elongated masonry church oriented roughly E–W with grey metal roofs, ~85 m from Kindergarten no. 5 Vișeu de Mijloc; size not measurable from an outline.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos of this church found. Esri aerial imagery (date unknown) shows grey metal roofs, probably before the 2023 copper order.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/3180322952",
+   "https://www.openstreetmap.org/node/7991938185"
+  ],
+  "verificationNotes": "Vișeu de Mijloc is a district of Vișeu de Sus town. In OSM the district has the Orthodox church named 'Biserica ortodoxă Vișeu de Mijloc' (node 3180322952, Str. Mălinului), a wooden church 'Sf. Împărați' (node 7991938185, Str. Bogdan Vodă) and a Greek-Catholic church; the Țipțerai churches belong to other parishes. The church carrying the parish name is taken as PROBABLE (the wooden church, a less likely copper-strip target, is the alternative). No source documenting the copper works found. Coordinates = OSM node.",
+  "registerKeys": [
+   "f2d7cca0734eb859",
+   "f2d7cca0734eb859"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-tulghes-tulghes",
+  "officialName": "Biserică, Tulgheș (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Tulgheș, jud. Harghita",
+  "city": "Tulgheș",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.965407,
+  "lon": 25.762642,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded (unresolved).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/312567441",
+   "https://www.openstreetmap.org/way/312567443",
+   "https://www.openstreetmap.org/way/323648113",
+   "https://miserend.hu/templom/3585"
+  ],
+  "verificationNotes": "Tulgheș village centre has two large churches side by side on Strada Principală: the Orthodox church Adormirea Maicii Domnului (way 312567441, ~28 x 12 m, light metal roof in Esri imagery) and the Roman Catholic church Nagyboldogasszony / Sfânta Maria (way 312567443, ~28 x 13 m, built 1900-1902 per miserend.hu, red/brown roof in Esri imagery); further Orthodox churches exist at Strada Principală 239 (Sf. Arhangheli, way 323648113) and Poiana Veche, plus churches in Recea, Hagota and Corbu. No source about a 2025 roof replacement was found (web-search quota exhausted), so UNRESOLVED at town-centre coordinates.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "biserica-reformata-din-apahida-apahida",
+  "officialName": "Biserica Reformată din Apahida (biserică nouă în construcție, Parohia Reformată de Misiune Apahida)",
+  "nameHu": "Apahidai református templom",
+  "altNames": [
+   "Apahidai Református Missziói Egyházközség temploma"
+  ],
+  "category": "church",
+  "address": "Apahida, on the village main street (exact address not published), jud. Cluj",
+  "city": "Apahida",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.802172,
+  "lon": 23.754639,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "VERIFIED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "square west tower with a timber-framed belfry stage, a tall octagonal needle spire flanked by four small corner pinnacles, crowned by a Bethlehem-star finial. Spire cladding: flat standing-seam metal sheet (design: 'tablă plană fălțuită'); gutters Ø150 mm.",
+  "photos": 4,
+  "metalVisibleInPhotos": "the design drawing (04) shows the spire cladding and the nave tile roof.",
+  "sourceUrls": [
+   "https://kronika.ro/erdelyi-naplo/aktualis/riportok/idokapszula-a-toronyban-hit-kitartas-es-osszefogas-kiseri-az-apahidai-reformatus-templom-epiteset",
+   "https://kronika.ro/erdelyi-hirek/jotekonysagi-hetveget-szerveznek-az-apahidai-templom-felepiteseert",
+   "https://reformatus.ro/hirek/felhivas-gyujtes-az-apahidai-reformatus-misszioi-egyhazkozseg-templomanak-felepitesere",
+   "https://www.youtube.com/watch?v=tZdTbemgaX4"
+  ],
+  "verificationNotes": "The site is not in OpenStreetMap and no street address was published, so lat/lon is the Apahida town centre (geographicAccuracy 'locality'); not to be confused with the older Reformed church in Pata village of the same commune (OSM way 509823307). People photos from the articles were deliberately not stored.",
+  "registerKeys": [
+   "0d3c8e611e3d296f"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ }
+]

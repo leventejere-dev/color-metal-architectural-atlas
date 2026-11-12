@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 268.7,
+ "bearingSource": "OSM way 137689140 long axis 88.7°, flipped to 268.7° so that +X points west (Str. Alexandru Beldiman end) and +Z (358.7°, north) is the main façade on Bd. Regina Elisabeta (OSM road geometry); the rounded Calea Victoriei corner with the large dome is at the −X (east) end, as in photos 02–04.",
+ "cover": "01",
+ "photosUsed": 4,
+ "approximations": "Plan from the OSM outline with the Calea Victoriei corner drawn as a rotunda of R ≈ 5.5 m and the south-east corner rounded (R ≈ 3.5 m). Bay layout of the boulevard façade measured on photo 03; heights scaled from the same photo and OSM height 26 m (cornice ≈ 19.8 m, mansard ≈ 23.1 m, central pavilion roof ≈ 26.8 m, rotunda dome with lantern ≈ 31 m). The west (Str. Beldiman), south and light-court elevations are not photographed: window rhythm repeated, rear plain. Dome profiles, lanterns, central roof depth, dormer and chimney positions estimated; statues, capitals, reliefs and wrought-iron balconies simplified; signage omitted. The copper also recorded for the works cannot be located in the photographs and is not shown separately.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; mansarda, acoperișul central și cupolele sunt redate în titan-zinc colorat elZinc Rainbow Brown, închis la culoare ca în fotografia din 2026, livrat de COLOR METAL conform evidențelor firmei. Fațadele spre Str. Beldiman și spre curte, profilul cupolelor și ornamentația sunt aproximate.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a manzárdtető, a középső tető és a kupolák a 2026-os fotón látható sötét tónusban, a COLOR METAL nyilvántartása szerint szállított, színezett elZinc Rainbow Brown titáncinkkel jelennek meg. A Beldiman utcai és az udvari homlokzat, a kupolák profilja és a díszítés közelítő.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the mansard, the central pavilion roof and the domes are shown in the coloured elZinc Rainbow Brown titanium-zinc supplied by COLOR METAL according to its records, dark as in the 2026 photograph. The Beldiman Street and courtyard elevations, the dome profiles and the ornament are approximated."
+ }
+}

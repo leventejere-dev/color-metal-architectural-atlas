@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 90,
+  "bearingSource": "No OSM building outline inside the precinct (way 245698405); +X assumed due east towards the altar apse (usual Orthodox orientation, not verified on aerial imagery); the closed west porch and the baroque gable face −X (photo 01, taken from the north-west: the unplastered north wall is on the left)",
+  "cover": null,
+  "photosUsed": 2,
+  "approximations": "The model shows the old triconch church (the historic church of the monastery, LMI ensemble), not the new church of 1989–1997. Only one close photograph (01, 2018, north-west view) and a distant view of the precinct (03); no outline or survey data, so all dimensions are estimates (≈ 23 × 14.6 m with the conchs, pronaos eave ≈ 7.4 m, dome drum ≈ 6 m across, cross ≈ 22.5 m) and may be off by 15–20 %. Orientation assumed with the altar to the east. South side, conchs and east apse are not photographed and follow the triconch type; the north wall is shown in exposed stone as described in published sources. Baroque gable and helmet simplified from the photograph. The 2018 photograph shows grey sheet roofs and a dark grey helmet; roofs and helmet are shown in weathered copper because copper was supplied by COLOR METAL for the monastery according to its records — which building and surfaces received it is not documented.",
+  "note": {
+    "ro": "Machetă preliminară a bisericii vechi, interpretată după fotografii publice de referință; nu există contur OSM, de aceea dimensiunile, orientarea și laturile nefotografiate sunt estimate. Fotografiile disponibile sunt anterioare lucrărilor, așa că acoperișurile și coiful turlei sunt redate în cupru, materialul livrat de COLOR METAL conform evidențelor sale; suprafețele exacte nu sunt documentate.",
+    "hu": "A régi templom előzetes makettje nyilvános referenciafotók alapján; OSM-körvonal nincs, ezért a méretek, a tájolás és a nem fényképezett oldalak becsültek. Az elérhető fotók a munkák előttiek, így a tetők és a toronysisak rézzel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal; a pontos felületek nincsenek dokumentálva.",
+    "en": "Preliminary scale model of the old church, interpreted from public reference photographs; there is no OSM outline, so dimensions, orientation and the unphotographed sides are estimated. The available photographs predate the works, so the roofs and the tower helmet are shown in copper, the material supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+  }
+}

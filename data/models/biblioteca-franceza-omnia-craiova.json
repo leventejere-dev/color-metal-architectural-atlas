@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 79.3,
+ "bearingSource": "OSM way 240011869 long axis 79.3°; +Z is the long street façade on Str. Mihail Kogălniceanu (≈ 169°), −X the west façade with the entrance pavilion (photo 01 = south-west view, photo 02 = west façade).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "The OSM outline is a coarse rectangle (23.5 × 18.5 m): the corner pavilion (≈ 6.2 × 7.0 m, projecting 1.2 m west) and the window axes (9 on the street façade) are taken from the photographs. Heights estimated (cornice ≈ 11 m, mansard ≈ 14 m, pavilion roof ≈ 17.6 m). North and east elevations are not photographed (regular axes assumed). Shingle cladding is suggested by horizontal courses; stucco and terracotta ornament simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință; acoperișul mansardat, pavilionul de colț și lucarnele sunt redate din titan-zinc natural, așa cum apar după restaurarea din 2025, material livrat de COLOR METAL conform evidențelor sale. Fațadele nefotografiate și ornamentația sunt aproximate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett; a manzárdtető, a sarokpavilon és a tetőablakok natúr titáncinkként jelennek meg, ahogyan a 2025-ös restaurálás után láthatók – a COLOR METAL nyilvántartása szerint általa szállított anyag. A nem fényképezett homlokzatok és a díszítés közelítők.",
+  "en": "Scale model interpreted from public reference photographs; the mansard roof, the corner pavilion and the dormers are shown in natural titanium-zinc as photographed after the 2025 restoration, the material supplied by COLOR METAL according to its records. Unphotographed elevations and the ornament are approximated."
+ }
+}

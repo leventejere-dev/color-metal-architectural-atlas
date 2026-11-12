@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 67.9,
+ "bearingSource": "OSM way 188565584 long axis 67.9° along the main façade; the main façade (+Z) faces 157.9° and the rear wing projects on the opposite side, as in the OSM outline and drone photo 03.",
+ "cover": "01",
+ "photosUsed": 12,
+ "approximations": "OSM outline 24.0 × 17.6 m used; rear wing depth from photo 03 (≈3.8 m, OSM 3.3 m). Heights estimated (string course 5.0 m, cornice 10.2 m, ridge ≈15.5 m, roof pitch 28°). Position of the side risalit and glazed oriel on the −X (car-park) side taken from the top view 03; windows of the rear and +X elevations inferred; capitals, garlands and the cartouche simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință și conturul OSM; ornamentația (capiteluri, ghirlande, cartușul), bovindoul lateral și numărul ferestrelor de pe fațadele laterale și posterioară sunt simplificate, iar panta acoperișului este estimată.",
+  "hu": "A referenciafotók és az OSM-körvonal alapján értelmezett makett; a díszítés (oszlopfők, füzérek, címerpajzs), az oldalsó zárt erkély és az oldal- és hátsó homlokzatok ablakszáma egyszerűsített, a tetőhajlás becsült.",
+  "en": "Scale model interpreted from the reference photographs and the OSM outline; ornament (capitals, garlands, cartouche), the side oriel and the window counts of the side and rear elevations are simplified, and the roof pitch is estimated."
+ }
+}

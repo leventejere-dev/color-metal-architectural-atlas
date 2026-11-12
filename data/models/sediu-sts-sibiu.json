@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 60,
+  "bearingSource": "approximate — no OSM outline; the main façade (+Z) is assumed to face Str. Oituz, which runs at ≈ 60° past the plot north of Cinema Arta (satellite view); +X = 60°",
+  "cover": null,
+  "photosUsed": 2,
+  "approximations": "No outline or drawings: footprint ≈ 27 × 16 m and heights (ground floor 4.5 m, four floors of 3.6 m, parapet ≈ 19.7 m) estimated from the inauguration photograph (01, main façade) and the construction photograph (02, February 2022); the rear and second short façade are not photographed and repeat the main-façade cladding; window pattern regularised; orientation approximate. Copper: the register lists copper for exterior wall cladding, but no finished photograph shows it; it is placed, as weathered standing-seam cladding, on the short façade with the two strip windows, whose closely spaced vertical substructure in photo 02 differs from the panel façade — an assumption.",
+  "note": {
+    "ro": "Machetă preliminară, interpretată după două fotografii publice; dimensiunile, fațadele nevăzute și orientarea sunt aproximate. Placarea de cupru livrată de COLOR METAL conform evidențelor sale nu apare în fotografii; ea este redată, presupus, pe fațada îngustă cu ferestrele verticale.",
+    "hu": "Előzetes makett két nyilvános fotó alapján; a méretek, a nem látható homlokzatok és a tájolás közelítőek. A COLOR METAL nyilvántartása szerint szállított vörösréz falburkolat a fotókon nem látszik; feltételezés szerint a keskeny, függőleges ablaksávos homlokzaton jelenik meg.",
+    "en": "Preliminary model interpreted from two public photographs; dimensions, the unseen façades and the orientation are approximated. The copper wall cladding supplied by COLOR METAL according to its records is not visible in the photographs; it is shown, as an assumption, on the narrow façade with the vertical strip windows."
+  }
+}

@@ -1,0 +1,2139 @@
+[
+ {
+  "id": "biserica-madona-dudu-craiova",
+  "officialName": "Biserica „Adormirea Maicii Domnului” – Maica Precista de la Dud (Madona Dudu)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Madona Dudu",
+   "Madona Dudu Church",
+   "Catedrala Episcopală Madona Dudu"
+  ],
+  "category": "church",
+  "address": "Strada Madona Dudu 13, 200410 Craiova (Wikidata/LMI address: Str. Madona Dudu 3)",
+  "city": "Craiova",
+  "county": "Dolj",
+  "country": "Romania",
+  "lat": 44.316723,
+  "lon": 23.790082,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 843620632,
+   "tags": {
+    "addr:city": "Craiova",
+    "addr:housenumber": "13",
+    "addr:postcode": "200410",
+    "addr:street": "Strada Madona Dudu",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2026-07-21",
+    "denomination": "orthodox",
+    "name": "Biserica Madona Dudu",
+    "religion": "christian",
+    "wikidata": "Q18537994"
+   }
+  },
+  "footprint": [
+   [
+    44.31678,
+    23.789862
+   ],
+   [
+    44.316827,
+    23.790252
+   ],
+   [
+    44.316781,
+    23.790261
+   ],
+   [
+    44.316783,
+    23.790294
+   ],
+   [
+    44.316773,
+    23.790317
+   ],
+   [
+    44.316755,
+    23.790336
+   ],
+   [
+    44.316727,
+    23.790332
+   ],
+   [
+    44.316712,
+    23.790309
+   ],
+   [
+    44.316706,
+    23.790284
+   ],
+   [
+    44.316666,
+    23.790294
+   ],
+   [
+    44.316621,
+    23.789897
+   ],
+   [
+    44.316644,
+    23.789893
+   ],
+   [
+    44.316641,
+    23.789869
+   ],
+   [
+    44.316737,
+    23.789845
+   ],
+   [
+    44.316741,
+    23.78987
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 38.9,
+   "widthM": 18.2,
+   "bearingDeg": 80.4
+  },
+  "heightHints": "No height found. Neo-Byzantine church with a central dome on a drum and corner turrets (see photos); OSM gives no levels/height.",
+  "photos": 3,
+  "metalVisibleInPhotos": "Photos are 2008–2017, i.e. before the 2021 works: domes and roofs are dark grey sheet metal.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/843620632",
+   "https://www.wikidata.org/wiki/Q18537994",
+   "https://ro.wikipedia.org/wiki/Biserica_Madona_Dudu",
+   "https://commons.wikimedia.org/wiki/Category:Madona_Dudu_Church"
+  ],
+  "verificationNotes": "OSM way 843620632 is named 'Biserica Madona Dudu' (amenity=place_of_worship, orthodox, wikidata Q18537994). Wikidata: LMI DJ-II-m-A-21015, coordinates 44.316725, 23.790081 (within 1 m of the outline centroid). Outline ~627 m2, minimum rectangle 38.9 x 18.2 m. No press source found confirming the 2021 roof works; identification itself is unambiguous (only church of this name in Craiova).",
+  "registerKeys": [
+   "ab3ef6076d25ddd2"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Oliva"
+  ]
+ },
+ {
+  "id": "hotel-palace-craiova",
+  "officialName": "Fostul Hotel Palace (Pallace) din Craiova – azi pavilionul administrativ al Primăriei Craiova",
+  "nameHu": null,
+  "altNames": [
+   "Hotel Palace",
+   "Palatul Palace",
+   "Palace Hotel (Craiova)",
+   "Fostul Hotel Pallace"
+  ],
+  "category": "historic",
+  "address": "Strada Alexandru Ioan Cuza 1, 200585 Craiova",
+  "city": "Craiova",
+  "county": "Dolj",
+  "country": "Romania",
+  "lat": 44.318501,
+  "lon": 23.79493,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 172692543,
+   "tags": {
+    "addr:city": "Craiova",
+    "addr:housenumber": "1",
+    "addr:postcode": "200585",
+    "addr:street": "Strada Alexandru Ioan Cuza",
+    "building": "yes",
+    "building:levels": "3",
+    "name": "Hotel Palace"
+   }
+  },
+  "footprint": [
+   [
+    44.318604,
+    23.794736
+   ],
+   [
+    44.318398,
+    23.79476
+   ],
+   [
+    44.318382,
+    23.794769
+   ],
+   [
+    44.318379,
+    23.794795
+   ],
+   [
+    44.318398,
+    23.795123
+   ],
+   [
+    44.318625,
+    23.795097
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 28.8,
+   "widthM": 25.4,
+   "bearingDeg": 85.3
+  },
+  "heightHints": "OSM building:levels=3 (plus attic/mansard: Puterea.ro says hotel rooms were on floors 2–3 and in the attic). Corner dome over the rounded corner. No height in metres found.",
+  "photos": 3,
+  "metalVisibleInPhotos": "01.jpg (Puterea.ro, 2024, night, after rehabilitation) shows the new grey metal mansard roof, dormers and corner dome; 02/03 (2012–2014) show the pre-renovation dark roof and dome.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/172692543",
+   "https://www.wikidata.org/wiki/Q18540242",
+   "https://ro.wikipedia.org/wiki/Fostul_Hotel_Pallace_din_Craiova",
+   "https://www.puterea.ro/grandios-cum-arata-sediile-primariei-craiova-dupa-reabilitarea-de-20-de-milioane-de-euro/",
+   "https://www.atlantis-press.com/proceedings/ico-me-22/125987665"
+  ],
+  "verificationNotes": "OSM way 172692543 named 'Hotel Palace', A.I. Cuza 1 (building:levels 3). Wikidata Q18540242 'Fostul Hotel Pallace din Craiova' (LMI DJ-II-m-B-07977, address Str. Cuza Alexandru Ioan 1, coords 44.31841, 23.79477 ~20 m from centroid). Puterea.ro (Sept 2024): the Palace building was rehabilitated by Recon SA with an EBRD loan, works started 2021 (architect Otto Hesselmann-Carada; bank + hotel). Outline 730 m2, 28.8 x 25.4 m; adjoins Cinema Jean Negulescu (A.I. Cuza 3, way 172694589) which is not included. Roof material of the new roof not stated in the sources.",
+  "registerKeys": [
+   "43e2c8eed8887ad7"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "primaria-craiova",
+  "officialName": "Palatul Băncii Comerțului – Primăria Municipiului Craiova (sediul central)",
+  "nameHu": null,
+  "altNames": [
+   "Primăria Craiova",
+   "Palatul Banca Comerțului",
+   "Craiova City Hall"
+  ],
+  "category": "historic",
+  "address": "Strada Alexandru Ioan Cuza 7, 200585 Craiova",
+  "city": "Craiova",
+  "county": "Dolj",
+  "country": "Romania",
+  "lat": 44.318753,
+  "lon": 23.796584,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 215379214,
+   "tags": {
+    "addr:city": "Craiova",
+    "addr:housenumber": "7",
+    "addr:postcode": "200585",
+    "addr:street": "Strada Alexandru Ioan Cuza",
+    "building": "yes",
+    "building:levels": "3",
+    "name": "Primăria Craiova",
+    "wikimedia_commons": "File:Craiova 2017 (3).jpg"
+   }
+  },
+  "footprint": [
+   [
+    44.318906,
+    23.796361
+   ],
+   [
+    44.318924,
+    23.796753
+   ],
+   [
+    44.318696,
+    23.796771
+   ],
+   [
+    44.318696,
+    23.796831
+   ],
+   [
+    44.318666,
+    23.796883
+   ],
+   [
+    44.318629,
+    23.796842
+   ],
+   [
+    44.318622,
+    23.796702
+   ],
+   [
+    44.318593,
+    23.796705
+   ],
+   [
+    44.318585,
+    23.79661
+   ],
+   [
+    44.318578,
+    23.796515
+   ],
+   [
+    44.318612,
+    23.796511
+   ],
+   [
+    44.318606,
+    23.796394
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 39.3,
+   "widthM": 37.3,
+   "bearingDeg": 85.5
+  },
+  "heightHints": "OSM building:levels=3. Steep grey mansard roofs with corner domes/turrets and a central crested roof (photos). No height in metres found.",
+  "photos": 3,
+  "metalVisibleInPhotos": "Grey sheet-metal mansard roofs with small domed turrets and ridge cresting (2011–2017 photos, before the 2020–2023 rehabilitation). No post-renovation exterior photo found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/215379214",
+   "https://www.puterea.ro/grandios-cum-arata-sediile-primariei-craiova-dupa-reabilitarea-de-20-de-milioane-de-euro/",
+   "https://commons.wikimedia.org/wiki/File:Craiova_2017_(3).jpg"
+  ],
+  "verificationNotes": "OSM way 215379214 named 'Primăria Craiova', A.I. Cuza 7 (wikimedia_commons File:Craiova 2017 (3).jpg). Puterea.ro: the central seat at A.I. Cuza 7 (Palatul Băncii Comerțului, design Ion Mincu 1906, finished by Constantin Iotzu) was consolidated/rehabilitated by Recon SA from 2020 (EBRD loan). Outline 1136 m2, 39.3 x 37.3 m. LMI code not checked.",
+  "registerKeys": [
+   "eceee5e8dc244c3f"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biblioteca-franceza-omnia-craiova",
+  "officialName": "Casa Ionel Pleșia – Biblioteca Franceză „Omnia” (filiala Bibliotecii Naționale a României)",
+  "nameHu": null,
+  "altNames": [
+   "Biblioteca Franceză Omnia",
+   "Casa Pleșia",
+   "Casa Ionel Pleșia"
+  ],
+  "category": "library",
+  "address": "Strada Mihail Kogălniceanu 21, 200731 Craiova",
+  "city": "Craiova",
+  "county": "Dolj",
+  "country": "Romania",
+  "lat": 44.316054,
+  "lon": 23.798662,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 240011869,
+   "tags": {
+    "addr:city": "Craiova",
+    "addr:housenumber": "21",
+    "addr:street": "Strada Mihail Kogălniceanu",
+    "building": "yes",
+    "building:levels": "2",
+    "historic": "building",
+    "name": "Casa Ionel Pleșia"
+   }
+  },
+  "footprint": [
+   [
+    44.316155,
+    23.798785
+   ],
+   [
+    44.315991,
+    23.798828
+   ],
+   [
+    44.315952,
+    23.798538
+   ],
+   [
+    44.316116,
+    23.798495
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 23.5,
+   "widthM": 18.5,
+   "bearingDeg": 79.3
+  },
+  "heightHints": "OSM building:levels=2 (ground + upper floor, mansard roof with ornate dormers/cresting in photos). No height in metres.",
+  "photos": 3,
+  "metalVisibleInPhotos": "01/02 (2007–2011) show the old weathered grey roof with the same geometry.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/240011869",
+   "https://commons.wikimedia.org/wiki/Category:Ionel_Pleșia_House,_Craiova",
+   "https://agerpres.ro/cultura-media/2025/05/26/dolj-biblioteca-franceza-omnia-inaugurata-dupa-restaurare-printr-un-proiect-de-aproape-5-6-milioane---1453273",
+   "https://adevarul.ro/stiri-locale/craiova/craiova-biblioteca-franceza-omnia-ani-de-1358732.html",
+   "https://www.puterea.ro/o-bijuterie-arhitectonica-construita-in-urma-cu-120-de-ani-readusa-la-viata-cu-56-milioane-de-euro/"
+  ],
+  "verificationNotes": "OSM way 240011869 'Casa Ionel Pleșia', Mihail Kogălniceanu 21, historic=building. Commons description: LMI DJ-II-m-B-08029 'Casa Ionel Pleşia, azi Biblioteca Naţională - filiala Omnia', Str. Kogălniceanu Mihail 21, built 1890–1892 to plans of Albert Galleron. Agerpres (26 May 2025): Omnia/Casa Pleșia inaugurated after consolidation and restoration (EUR 5.6 M, works started 2023). Craiova is in Dolj). OSM outline is a coarse 4-node rectangle (435 m2, 23.5 x 18.5 m).",
+  "registerKeys": [
+   "b6f3dd82e0cb5e81"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-sf-gheorghe-vechi-craiova",
+  "officialName": "Biserica „Sf. Gheorghe-Vechi” („Cuvioasa Paraschiva”), Craiova",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sfântul Gheorghe Vechi",
+   "Sf. Gheorghe Vechi"
+  ],
+  "category": "church",
+  "address": "Strada Arieș 9, 200385 Craiova",
+  "city": "Craiova",
+  "county": "Dolj",
+  "country": "Romania",
+  "lat": 44.316248,
+  "lon": 23.801883,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 753520160,
+   "tags": {
+    "building": "church"
+   }
+  },
+  "footprint": [
+   [
+    44.316216,
+    23.801758
+   ],
+   [
+    44.316215,
+    23.801861
+   ],
+   [
+    44.316208,
+    23.801866
+   ],
+   [
+    44.316203,
+    23.801874
+   ],
+   [
+    44.316199,
+    23.801884
+   ],
+   [
+    44.316198,
+    23.801895
+   ],
+   [
+    44.316199,
+    23.801906
+   ],
+   [
+    44.316202,
+    23.801916
+   ],
+   [
+    44.316208,
+    23.801924
+   ],
+   [
+    44.316215,
+    23.80193
+   ],
+   [
+    44.316213,
+    23.80197
+   ],
+   [
+    44.316218,
+    23.801996
+   ],
+   [
+    44.31623,
+    23.802014
+   ],
+   [
+    44.316253,
+    23.802015
+   ],
+   [
+    44.316262,
+    23.802011
+   ],
+   [
+    44.316274,
+    23.801996
+   ],
+   [
+    44.316281,
+    23.80193
+   ],
+   [
+    44.316291,
+    23.801925
+   ],
+   [
+    44.316296,
+    23.801916
+   ],
+   [
+    44.316299,
+    23.801904
+   ],
+   [
+    44.3163,
+    23.801892
+   ],
+   [
+    44.316297,
+    23.801881
+   ],
+   [
+    44.316291,
+    23.80187
+   ],
+   [
+    44.316282,
+    23.801864
+   ],
+   [
+    44.316282,
+    23.801758
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 20.5,
+   "widthM": 11.3,
+   "bearingDeg": 90.4
+  },
+  "heightHints": "Small single-nave church with one octagonal tower over the narthex/nave (photos); detached bell-cot with a pyramidal sheet roof. No height found.",
+  "photos": 4,
+  "metalVisibleInPhotos": "2017 photos (before the 2022 works) show a dark red-brown sheet roof and a grey metal-clad bell-cot roof. The new natural titanium-zinc roof is not shown in any photo found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/753520160",
+   "https://www.openstreetmap.org/node/3518057172",
+   "https://commons.wikimedia.org/wiki/File:Biserica_Sf.Gheorghe_Vechi_DJ-II-m-B-07931_(1).jpg"
+  ],
+  "verificationNotes": "OSM node 3518057172 'Biserica Sfântul Gheorghe Vechi' (Str. Arieș 9, orthodox) lies inside the unnamed building=church way 753520160 (160 m2, 20.5 x 11.3 m) — outline used. Commons photos (Leontin l, 2017) name it 'Biserica Sf. Gheorghe-Vechi, Cuvioasa Paraschiva', LMI DJ-II-m-B-07931. No press confirmation of the 2022 roof found.",
+  "registerKeys": [
+   "6b8c8ee80f86a75d"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "manastirea-hurezi",
+  "officialName": "Mănăstirea Hurezi – Biserica mare „Sf. Împărați Constantin și Elena” (catholicon)",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Horezu",
+   "Horezu Monastery",
+   "Hurezi Monastery",
+   "Biserica Mănăstirii Hurezi"
+  ],
+  "category": "monastery",
+  "address": "Strada Mănăstirii 164, Romanii de Jos, oraș Horezu, 245803, jud. Vâlcea",
+  "city": "Horezu (Romanii de Jos)",
+  "county": "Vâlcea",
+  "country": "Romania",
+  "lat": 45.169861,
+  "lon": 24.007308,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1388740606,
+   "tags": {
+    "addr:city": "Romanii de Jos",
+    "addr:country": "RO",
+    "addr:street": "Strada Mânăstirii",
+    "alt_name": "Biserica Sf. Împărați Constantin și Elena",
+    "alt_name:en": "Hurezi Monastery",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Biserica Mănăstirii Hurezi",
+    "name:en": "Horezi Monastery",
+    "religion": "christian",
+    "source": "survey",
+    "tourism": "attraction",
+    "wikidata": "Q43146181"
+   }
+  },
+  "footprint": [
+   [
+    45.169913,
+    24.007106
+   ],
+   [
+    45.169869,
+    24.007107
+   ],
+   [
+    45.169868,
+    24.007096
+   ],
+   [
+    45.169868,
+    24.007075
+   ],
+   [
+    45.16983,
+    24.007078
+   ],
+   [
+    45.169831,
+    24.007097
+   ],
+   [
+    45.169831,
+    24.007109
+   ],
+   [
+    45.169793,
+    24.007112
+   ],
+   [
+    45.169796,
+    24.007184
+   ],
+   [
+    45.169796,
+    24.007206
+   ],
+   [
+    45.169803,
+    24.00734
+   ],
+   [
+    45.169811,
+    24.00734
+   ],
+   [
+    45.169813,
+    24.007368
+   ],
+   [
+    45.169803,
+    24.007373
+   ],
+   [
+    45.169795,
+    24.007384
+   ],
+   [
+    45.169792,
+    24.007401
+   ],
+   [
+    45.169792,
+    24.007416
+   ],
+   [
+    45.169795,
+    24.007428
+   ],
+   [
+    45.169801,
+    24.007443
+   ],
+   [
+    45.169808,
+    24.007449
+   ],
+   [
+    45.169819,
+    24.007451
+   ],
+   [
+    45.169824,
+    24.007503
+   ],
+   [
+    45.169839,
+    24.007501
+   ],
+   [
+    45.169843,
+    24.007516
+   ],
+   [
+    45.169851,
+    24.007531
+   ],
+   [
+    45.16986,
+    24.007539
+   ],
+   [
+    45.169871,
+    24.007544
+   ],
+   [
+    45.169878,
+    24.007544
+   ],
+   [
+    45.169885,
+    24.007542
+   ],
+   [
+    45.169894,
+    24.007534
+   ],
+   [
+    45.169901,
+    24.007524
+   ],
+   [
+    45.169907,
+    24.007507
+   ],
+   [
+    45.169908,
+    24.007491
+   ],
+   [
+    45.169923,
+    24.007487
+   ],
+   [
+    45.16992,
+    24.007435
+   ],
+   [
+    45.169931,
+    24.00743
+   ],
+   [
+    45.169937,
+    24.007423
+   ],
+   [
+    45.169941,
+    24.007406
+   ],
+   [
+    45.169941,
+    24.007393
+   ],
+   [
+    45.169939,
+    24.007378
+   ],
+   [
+    45.169933,
+    24.007363
+   ],
+   [
+    45.169924,
+    24.007354
+   ],
+   [
+    45.169914,
+    24.007353
+   ],
+   [
+    45.169913,
+    24.007325
+   ],
+   [
+    45.169919,
+    24.007324
+   ],
+   [
+    45.169916,
+    24.0072
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 36.7,
+   "widthM": 16.6,
+   "bearingDeg": 90.3
+  },
+  "heightHints": "No height found. Brâncovenesc church with open porch and a tall tower over the naos plus a smaller one over the pronaos (photos). Nearby bell tower in OSM: height=20 (way 1105517884); precinct wings 9–11 m (OSM, unsourced).",
+  "photos": 3,
+  "metalVisibleInPhotos": "2012–2019 photos: dark grey sheet-metal roofs on the catholicon, its open porch and the two towers (polygonal drums with dark metal caps).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1388740606",
+   "https://www.openstreetmap.org/way/1174597971",
+   "https://www.wikidata.org/wiki/Q43146181",
+   "https://commons.wikimedia.org/wiki/Category:Saints_Constantine_and_Helena_church,_Horezu_Monastery"
+  ],
+  "verificationNotes": "Monastery = OSM way 1174597971 'Mănăstirea Hurezi' (UNESCO ref:whc 597). Catholicon = OSM way 1388740606 'Biserica Mănăstirii Hurezi' (alt_name 'Biserica Sf. Împărați Constantin și Elena', wikidata Q43146181 = LMI VL-II-m-A-09894.01; Wikidata point 45.16968, 24.00689 is ~38 m from the outline centroid). Outline 437 m2, 36.7 x 16.6 m. Which building of the ensemble received the copper (catholicon, paraclis, towers, precinct) was NOT verified; no press source on 2021 roof works found.",
+  "registerKeys": [
+   "cbd5d38ea7f25cc6"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "primaria-oradea",
+  "officialName": "Palatul Primăriei Oradea",
+  "nameHu": "Nagyváradi városháza",
+  "altNames": [
+   "Primăria Oradea",
+   "Primăria municipiului Oradea",
+   "Town hall, Oradea",
+   "Városháza (Nagyvárad)"
+  ],
+  "category": "historic",
+  "address": "Piața Unirii 1, 410100 Oradea",
+  "city": "Oradea",
+  "county": "Bihor",
+  "country": "Romania",
+  "lat": 47.055897,
+  "lon": 21.927606,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "relation",
+   "id": 6481078,
+   "tags": {
+    "addr:city": "Oradea",
+    "addr:housenumber": "1",
+    "addr:postcode": "410100",
+    "addr:street": "Piața Unirii",
+    "amenity": "townhall",
+    "building": "yes",
+    "name": "Primăria Oradea",
+    "name:ca": "Ajuntament d'Oradea",
+    "name:hu": "Városháza",
+    "name:ro": "Primăria Oradea",
+    "type": "multipolygon",
+    "website": "https://www.oradea.ro/",
+    "wheelchair": "yes",
+    "wikidata": "Q18545139",
+    "wikipedia": "ro:Palatul Primăriei Oradea"
+   }
+  },
+  "footprint": [
+   [
+    47.056018,
+    21.927108
+   ],
+   [
+    47.055988,
+    21.927274
+   ],
+   [
+    47.056023,
+    21.927291
+   ],
+   [
+    47.056002,
+    21.927426
+   ],
+   [
+    47.055771,
+    21.927336
+   ],
+   [
+    47.055794,
+    21.927208
+   ],
+   [
+    47.055824,
+    21.927216
+   ],
+   [
+    47.055865,
+    21.927
+   ],
+   [
+    47.055746,
+    21.926946
+   ],
+   [
+    47.055548,
+    21.927931
+   ],
+   [
+    47.055679,
+    21.927988
+   ],
+   [
+    47.055661,
+    21.928089
+   ],
+   [
+    47.05585,
+    21.92817
+   ],
+   [
+    47.055871,
+    21.928048
+   ],
+   [
+    47.055986,
+    21.928093
+   ],
+   [
+    47.056078,
+    21.927606
+   ],
+   [
+    47.056211,
+    21.92765
+   ],
+   [
+    47.056271,
+    21.927665
+   ],
+   [
+    47.056305,
+    21.927655
+   ],
+   [
+    47.056314,
+    21.927646
+   ],
+   [
+    47.056457,
+    21.927466
+   ],
+   [
+    47.056385,
+    21.927381
+   ],
+   [
+    47.056273,
+    21.927521
+   ],
+   [
+    47.05625,
+    21.927528
+   ],
+   [
+    47.056112,
+    21.927466
+   ],
+   [
+    47.056157,
+    21.927184
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 87.2,
+   "widthM": 85.5,
+   "bearingDeg": 17.0
+  },
+  "heightHints": "No height found in sources checked. Large courtyard block with a tall clock tower at the Piața Unirii corner (photos).",
+  "photos": 4,
+  "metalVisibleInPhotos": "2023/2025 photos (after the 2019–2021 roof replacement): the mansard roofs, central dome and tower lantern read brown/dark brown – consistent with copper a few years after installation (oxidising, not yet green). Bright-copper detail not resolvable at photo scale.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/6481078",
+   "https://www.wikidata.org/wiki/Q18545139",
+   "https://ro.wikipedia.org/wiki/Palatul_Prim%C4%83riei_Oradea",
+   "https://agerpres.ro/administratie/2020/06/22/bihor-se-lucreaza-la-reabilitarea-cladirii-primariei-oradea-monument-istoric-deschis-si-pentru-turis--527324"
+  ],
+  "verificationNotes": "OSM multipolygon relation 6481078 'Primăria Oradea' (amenity=townhall, name:hu Városháza, wikidata Q18545139 = LMI BH-II-m-A-01085, address Piața Unirii 1). Net outline area 3422 m2 (outer ring minus courtyard inner ring); the footprint array lists the outer ring only; MRR 87.2 x 85.5 m. Wikidata point 47.055673, 21.928078 is ~43 m SE of the centroid (on the Piața Unirii front).",
+  "registerKeys": [
+   "4d617aad1572f7c4"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "spitalul-municipal-oradea",
+  "officialName": "Spitalul Clinic Municipal „Dr. Gavril Curteanu” Oradea – corpurile C1 (P+10E) și C2 (P+4E)",
+  "nameHu": null,
+  "altNames": [
+   "Spitalul Municipal Oradea",
+   "Spitalul Clinic Municipal Dr. Gavril Curteanu"
+  ],
+  "category": "healthcare",
+  "address": "Spitalul Clinic Municipal „Dr. Gavril Curteanu”, Oradea (Nominatim nearest street: Strada Iza; street number not verified)",
+  "city": "Oradea",
+  "county": "Bihor",
+  "country": "Romania",
+  "lat": 47.074949,
+  "lon": 21.917024,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 199191245,
+   "tags": {
+    "amenity": "hospital",
+    "building": "yes",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "name": "Spitalul Clinic Municipal Dr. Gavril Curteanu"
+   }
+  },
+  "footprint": [
+   [
+    47.075282,
+    21.916922
+   ],
+   [
+    47.075251,
+    21.916894
+   ],
+   [
+    47.074968,
+    21.917532
+   ],
+   [
+    47.075246,
+    21.917807
+   ],
+   [
+    47.075169,
+    21.917967
+   ],
+   [
+    47.074285,
+    21.917089
+   ],
+   [
+    47.074353,
+    21.916941
+   ],
+   [
+    47.074793,
+    21.917363
+   ],
+   [
+    47.075074,
+    21.916705
+   ],
+   [
+    47.074731,
+    21.916372
+   ],
+   [
+    47.074842,
+    21.916131
+   ],
+   [
+    47.074899,
+    21.916187
+   ],
+   [
+    47.074927,
+    21.916129
+   ],
+   [
+    47.074958,
+    21.916162
+   ],
+   [
+    47.074932,
+    21.916224
+   ],
+   [
+    47.075102,
+    21.916387
+   ],
+   [
+    47.07513,
+    21.916322
+   ],
+   [
+    47.075207,
+    21.916396
+   ],
+   [
+    47.075179,
+    21.916463
+   ],
+   [
+    47.075232,
+    21.916517
+   ],
+   [
+    47.0753,
+    21.916592
+   ],
+   [
+    47.075306,
+    21.916578
+   ],
+   [
+    47.0754,
+    21.91667
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 119.0,
+   "widthM": 100.9,
+   "bearingDeg": 34.1
+  },
+  "heightHints": "Agerpres (Apr 2026): body C1 is P+10E (ground + 10 floors), C2 is P+4E. No height in metres.",
+  "photos": 1,
+  "metalVisibleInPhotos": "01.jpg (Agerpres, Apr 2026, after the energy retrofit): 10-storey slab with yellow/green/white facade panels and dark anthracite window frames and sills — consistent with RAL 7016 aluminium sills (not verifiable at this resolution). No metal roof visible.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/199191245",
+   "https://agerpres.ro/sanatate/2026/04/28/bihor-spitalul-clinic-municipal-din-oradea---reabilitat-energetic-cu-fonduri-de-peste-47-milioane-de--1550813",
+   "https://kohesio.ec.europa.eu/ro/proiecte/Q2745397"
+  ],
+  "verificationNotes": "glafuri la ferestre' = window sills). Oradea's municipal hospital is the Spitalul Clinic Municipal 'Dr. Gavril Curteanu'; its energy rehabilitation (thermal envelope, window replacement, shading, roof) of bodies C1 and C2 ran in two financing stages (POR 2014-2020 then PR NV 2021-2027; Agerpres 28 Apr 2026; a municipal report lists works started July 2021). OSM way 199191245 (named hospital, 4809 m2) covers the connected blocks incl. the long slab; individual C1/C2 split not mapped.",
+  "registerKeys": [
+   "473abc90ad2b4e95"
+  ],
+  "registerMetals": [
+   "aluminium"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "fosta-biserica-unitariana-abrud",
+  "officialName": "Clădirea fostei Biserici Unitariene din Abrud – Centru recreativ și cultural",
+  "nameHu": "Abrudbányai unitárius templom",
+  "altNames": [
+   "Biserica Unitariană Abrud (ruină)",
+   "Ruine Biserica Unitariană",
+   "Centrul recreativ Abrud",
+   "Abrudbánya, unitárius templom"
+  ],
+  "category": "cultural",
+  "address": "Piața Eroilor (latura de sud-vest, vis-à-vis de biserica romano-catolică), Abrud, jud. Alba",
+  "city": "Abrud",
+  "county": "Alba",
+  "country": "Romania",
+  "lat": 46.273842,
+  "lon": 23.064171,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1324187562,
+   "tags": {
+    "building": "ruins",
+    "name": "Ruine Biserica Unitariană"
+   }
+  },
+  "footprint": [
+   [
+    46.273985,
+    23.064261
+   ],
+   [
+    46.27392,
+    23.064163
+   ],
+   [
+    46.273782,
+    23.063956
+   ],
+   [
+    46.273763,
+    23.063969
+   ],
+   [
+    46.273745,
+    23.063985
+   ],
+   [
+    46.273732,
+    23.064012
+   ],
+   [
+    46.273719,
+    23.064057
+   ],
+   [
+    46.273716,
+    23.064081
+   ],
+   [
+    46.273884,
+    23.064387
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 33.5,
+   "widthM": 14.9,
+   "bearingDeg": 49.0
+  },
+  "heightHints": "East tower carries a new metal-clad cupola/spire (lifted by crane, Sept 2023). Former nave walls raised back to their original top level; tower divided into three levels (Alba24). No heights in metres.",
+  "photos": 5,
+  "metalVisibleInPhotos": "02.jpg (Alba24, 15 Sept 2023): the new dark-grey metal-clad bell-shaped cupola being lifted by crane onto the east tower – consistent with elZinc Slate (dark grey pre-weathered titanium-zinc). 01.jpg is the project rendering (dark grey tower roof). 03–05 (Commons 2011/2022) show the roofless ruin and bare tower before the works.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1324187562",
+   "https://alba24.ro/video-imagini-spectaculoase-la-abrud-noua-turla-a-centrului-recreativ-a-fost-montata-pe-turnul-fostei-biserici-unitariene-997841.html",
+   "https://alba24.ro/foto-cum-va-arata-noul-centru-recreativ-din-abrud-lucrari-ample-in-spatiul-ruinei-fostei-biserici-unitariene-1015932.html",
+   "https://alba24.ro/foto-cladirea-fostei-biserici-unitariene-din-abrud-transformata-in-centru-recreativ-lucrari-si-la-infrastructura-urbana-din-zona-903591.html"
+  ],
+  "verificationNotes": "OSM way 1324187562 'Ruine Biserica Unitariană' (building=ruins, 431 m2, 33.5 x 14.9 m). Alba24: former Unitarian church (built 1786, burnt 1927, roof collapsed leaving nave and tower) on the SW side of Piața Eroilor is being converted into a recreational/cultural centre (REGIO; tender March 2022; joint venture Euras/Avril/K&K); new cupola mounted on the tower 15 Sept 2023; 80% complete Jan 2024. Roof material is not named in the press, but the cupola colour is consistent.",
+  "registerKeys": [
+   "cb3f4f54247f6010"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "muzeul-civilizatiei-dacice-orastie",
+  "officialName": "Muzeul Civilizației Dacice Orăștie (fostul spital orășenesc), str. Nicolae Bălcescu 16",
+  "nameHu": null,
+  "altNames": [
+   "Muzeul Civilizației Dacice",
+   "Clădirea vechiului spital din Orăștie"
+  ],
+  "category": "museum",
+  "address": "Strada Nicolae Bălcescu 16, 335700 Orăștie",
+  "city": "Orăștie",
+  "county": "Hunedoara",
+  "country": "Romania",
+  "lat": 45.837674,
+  "lon": 23.19612,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 485856663,
+   "tags": {
+    "addr:city": "Orăștie",
+    "building": "yes"
+   }
+  },
+  "footprint": [
+   [
+    45.837944,
+    23.196001
+   ],
+   [
+    45.83765,
+    23.195851
+   ],
+   [
+    45.837461,
+    23.195803
+   ],
+   [
+    45.837385,
+    23.196465
+   ],
+   [
+    45.837443,
+    23.19647
+   ],
+   [
+    45.83751,
+    23.195988
+   ],
+   [
+    45.837635,
+    23.196004
+   ],
+   [
+    45.837714,
+    23.196033
+   ],
+   [
+    45.8377,
+    23.19614
+   ],
+   [
+    45.837766,
+    23.196167
+   ],
+   [
+    45.837727,
+    23.196368
+   ],
+   [
+    45.837658,
+    23.196411
+   ],
+   [
+    45.837677,
+    23.19653
+   ],
+   [
+    45.837839,
+    23.196411
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 55.4,
+   "widthM": 52.0,
+   "bearingDeg": 9.4
+  },
+  "heightHints": "Project: ground floor + floor 1 + floor 2 (parter, etaj 1, etaj 2) per the project description. U-shaped block around a courtyard (aerial).",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved. Esri aerial imagery shows a light blue-grey roof on the U-shaped block, consistent with new natural titanium-zinc (not verified on the ground).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/485856663",
+   "https://www.openstreetmap.org/node/11403916466",
+   "https://www.orastie.info.ro/portal/hunedoara/orastie/portal.nsf/654A93ED6EB3FC7BC2258BDD00199C34/%24FILE/Comunicat%20proiect%20Muzeu.pdf",
+   "https://adevarul.ro/stiri-locale/hunedoara/muzeul-din-orastie-inchis-mii-de-piese-vor-fi-2102722.html"
+  ],
+  "verificationNotes": "Project description (UAT Orăștie + CJ Hunedoara, Regio Vest; PDF on orastie.info.ro): 'Realizarea Muzeului Civilizației Dacice' = rehabilitation and change of use of the existing building at Str. Nicolae Bălcescu nr. 16 (ground floor: old books/icons + UNESCO documentation + tourist info; floor 1: Ethnography museum; floor 2: Dacian Civilisation museum); stage 1 06.06.2019–31.12.2024, stage 2 to 30.06.2025. Press (Adevărul) calls it the old town hospital in the historic centre; a municipal listing (search snippet, not opened) mentions landscaping of the 'Old Hospital' courtyard on Str. Nicolae Bălcescu. Footprint: the OSM address node 'Nicolae Bălcescu 16' (node 11403916466) lies inside the untagged U-shaped building way 485856663 (1429 m2, MRR 55.4 x 52.0 m), whose roof is light blue-grey (new metal) on Esri imagery; the building carries no name in OSM. No free photos found (Commons has none; no usable press photo located), so photos = 0.",
+  "registerKeys": [
+   "70138c2d207153f4"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-piarista-timisoara",
+  "officialName": "Biserica Piariștilor „Înălțarea Sfintei Cruci” din Timișoara",
+  "nameHu": "Szent Kereszt felmagasztalása templom (temesvári piarista templom)",
+  "altNames": [
+   "Biserica Piaristă",
+   "Biserica piariștilor",
+   "Piarist Church, Timișoara",
+   "Piaristenkirche Heiliges Kreuz"
+  ],
+  "category": "church",
+  "address": "Bulevardul Regele Ferdinand I 3, 300006 Timișoara",
+  "city": "Timișoara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.752298,
+  "lon": 21.222915,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 98109224,
+   "tags": {
+    "addr:city": "Timișoara",
+    "addr:housenumber": "3",
+    "addr:postcode": "300006",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Bulevardul Regele Ferdinand I",
+    "alt_name": "Biserica piaștrilor",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "building:facade:colour": "#e8c868",
+    "check_date": "2023-08-28",
+    "denomination": "catholic",
+    "name": "Biserica Înălțarea Sfintei Cruci",
+    "name:hu": "Szent Kereszt felmagasztalása templom",
+    "photo": "Piarist Church, Timișoara (2023) - img 12.jpg",
+    "religion": "christian",
+    "roof:shape": "hipped",
+    "wikidata": "Q129244056"
+   }
+  },
+  "footprint": [
+   [
+    45.752194,
+    21.22282
+   ],
+   [
+    45.752184,
+    21.22285
+   ],
+   [
+    45.752177,
+    21.222882
+   ],
+   [
+    45.752173,
+    21.222914
+   ],
+   [
+    45.752108,
+    21.222928
+   ],
+   [
+    45.752112,
+    21.222965
+   ],
+   [
+    45.752117,
+    21.223002
+   ],
+   [
+    45.75218,
+    21.222987
+   ],
+   [
+    45.75219,
+    21.223015
+   ],
+   [
+    45.752207,
+    21.223036
+   ],
+   [
+    45.752226,
+    21.223053
+   ],
+   [
+    45.752308,
+    21.22311
+   ],
+   [
+    45.752327,
+    21.223054
+   ],
+   [
+    45.752262,
+    21.223021
+   ],
+   [
+    45.752346,
+    21.222993
+   ],
+   [
+    45.752352,
+    21.223022
+   ],
+   [
+    45.752411,
+    21.223009
+   ],
+   [
+    45.752405,
+    21.222969
+   ],
+   [
+    45.752446,
+    21.222953
+   ],
+   [
+    45.752478,
+    21.222895
+   ],
+   [
+    45.752467,
+    21.222829
+   ],
+   [
+    45.752418,
+    21.222801
+   ],
+   [
+    45.752381,
+    21.222813
+   ],
+   [
+    45.752375,
+    21.222774
+   ],
+   [
+    45.752318,
+    21.222791
+   ],
+   [
+    45.752321,
+    21.222823
+   ],
+   [
+    45.752235,
+    21.222844
+   ],
+   [
+    45.752289,
+    21.222765
+   ],
+   [
+    45.75225,
+    21.222727
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 37.3,
+   "widthM": 27.0,
+   "bearingDeg": 21.6
+  },
+  "heightHints": "No height found. Twin-gabled church front with a tall central clock tower crowned by a pointed metal helm and two small metal-clad corner turrets; flanked by the Piarist school wings (photos).",
+  "photos": 4,
+  "metalVisibleInPhotos": "2017/2023 photos: the tall front tower has a bright silver metal helm/spire and the two small corner turrets have the same bright metal cladding – consistent with fairly new natural (unpatinated) titanium-zinc; the flanking school wings have red tile roofs and red tile-clad domes.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/98109224",
+   "https://www.wikidata.org/wiki/Q129244056",
+   "https://commons.wikimedia.org/wiki/Category:Piarist_Church,_Timișoara"
+  ],
+  "verificationNotes": "OSM way 98109224 'Biserica Înălțarea Sfintei Cruci', alt_name 'Biserica piaștrilor' [sic], name:hu 'Szent Kereszt felmagasztalása templom', wikidata Q129244056 (Wikidata: 'Biserica Piariștilor Înălțarea Sfintei Cruci din Timișoara', Bd. Regele Ferdinand I 3, point within 6 m of centroid). Part of the Piarist ensemble (Liceul Gerhardinum, way 98109201, not included). Outline 598 m2, 37.3 x 27.0 m. no press source on 2021 works found.",
+  "registerKeys": [
+   "ff4c65127e44e014"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "cazarma-piata-libertatii-timisoara",
+  "officialName": "Comenduirea Garnizoanei Timișoara (Generalatul Nou) – Muzeul Militar, Piața Libertății 5",
+  "nameHu": null,
+  "altNames": [
+   "Garnizoana din Piața Libertății",
+   "Comenduirea Garnizoanei",
+   "Timișoara Garrison Command",
+   "Muzeul Militar din Timișoara",
+   "Generalatul Nou"
+  ],
+  "category": "historic",
+  "address": "Piața Libertății 5, 300077 Timișoara",
+  "city": "Timișoara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.755036,
+  "lon": 21.227299,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 193032540,
+   "tags": {
+    "addr:city": "Timișoara",
+    "addr:housenumber": "5",
+    "addr:street": "Piața Libertății",
+    "building": "yes",
+    "building:facade:colour": "#e8e8e8",
+    "building:material": "brick",
+    "fee": "no",
+    "height": "15",
+    "museum": "art",
+    "name": "Comenduirea Garnizoanei",
+    "roof:colour": "#e97136",
+    "roof:shape": "hipped",
+    "tourism": "museum"
+   }
+  },
+  "footprint": [
+   [
+    45.754831,
+    21.226911
+   ],
+   [
+    45.754829,
+    21.226937
+   ],
+   [
+    45.754823,
+    21.227038
+   ],
+   [
+    45.755013,
+    21.227061
+   ],
+   [
+    45.755002,
+    21.227246
+   ],
+   [
+    45.754994,
+    21.227246
+   ],
+   [
+    45.75499,
+    21.227309
+   ],
+   [
+    45.754985,
+    21.227397
+   ],
+   [
+    45.754991,
+    21.227398
+   ],
+   [
+    45.754981,
+    21.22757
+   ],
+   [
+    45.754829,
+    21.227552
+   ],
+   [
+    45.754822,
+    21.227661
+   ],
+   [
+    45.755134,
+    21.2277
+   ],
+   [
+    45.755152,
+    21.227414
+   ],
+   [
+    45.755159,
+    21.227415
+   ],
+   [
+    45.755164,
+    21.227328
+   ],
+   [
+    45.755168,
+    21.227267
+   ],
+   [
+    45.755162,
+    21.227267
+   ],
+   [
+    45.755181,
+    21.226954
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 58.1,
+   "widthM": 39.7,
+   "bearingDeg": 94.9
+  },
+  "heightHints": "OSM height=15 (unsourced), roof:shape=hipped. Photos: ground floor + one upper floor under a tall hipped tile roof; central arched gateway with balcony. ro.wikipedia: side wings originally ground floor only.",
+  "photos": 3,
+  "metalVisibleInPhotos": "Photos 2014, 2016 and Aug 2025 show a two-storey baroque block with brown/red tile hipped roofs and chimneys; no titanium-zinc roofing is visible even in 2025 — zinc may be limited to gutters, flashings or dormer/attic details (not resolvable), or the identification may be wrong.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/193032540",
+   "https://www.wikidata.org/wiki/Q18542273",
+   "https://ro.wikipedia.org/wiki/Muzeul_Militar_din_Timi%C8%99oara",
+   "https://2023.artencounters.ro/en/garrisontimisoara-garrison/"
+  ],
+  "verificationNotes": "The only military building on Piața Libertății is the former Garrison Command ('Garnizoana din Piața Libertății', Generalatul Nou, 18th c., LMI TM-II-m-A-06143, Wikidata Q18542273, point 45.7551, 21.2273 ~10 m from the OSM centroid). It was demilitarised and handed to the Ministry of Culture in 2019 for rehabilitation (ro.wikipedia). 'Cazarma U' (Str. Eremia Grigorescu 2, way 97834642) is ~360 m away, not on the square, so rejected. Identification by elimination — PROBABLE; no source confirms 2022 roof works.",
+  "registerKeys": [
+   "15ab7ee4f8cd7219"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "auto-schunn-arad",
+  "officialName": "Auto Schunn Arad – reprezentanță și service Mercedes-Benz",
+  "nameHu": null,
+  "altNames": [
+   "Sediu AUTO SCHUNN Arad",
+   "Auto Schunn"
+  ],
+  "category": "commercial",
+  "address": "Calea Radnei 247, 310292 Arad",
+  "city": "Arad",
+  "county": "Arad",
+  "country": "Romania",
+  "lat": 46.175079,
+  "lon": 21.370087,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 200648403,
+   "tags": {
+    "addr:city": "Arad",
+    "addr:housenumber": "247",
+    "addr:postcode": "310292",
+    "addr:street": "Calea Radnei",
+    "brand": "Mercedes-Benz",
+    "brand:wikidata": "Q36008",
+    "building": "yes",
+    "description": "Vanzari autoturisme noi si rulate, vanzari autovehicule comerciale usoare, reparatii mecanice, electrice si de accidente, tinichigerie si vopsitorie, garantii, verificare ITP toate marcile, piese de schimb si accesorii.",
+    "name": "Auto Schunn",
+    "opening_hours": "Mo-Fr 08:00-19:00;Sa 08:00-13:00",
+    "second_hand": "yes",
+    "shop": "car",
+    "source": "Survey 2014",
+    "website": "https://www.auto-schunn.ro/"
+   }
+  },
+  "footprint": [
+   [
+    46.175366,
+    21.369733
+   ],
+   [
+    46.175176,
+    21.370614
+   ],
+   [
+    46.174792,
+    21.370441
+   ],
+   [
+    46.174982,
+    21.36956
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 71.0,
+   "widthM": 44.7,
+   "bearingDeg": 107.3
+  },
+  "heightHints": "Single-storey high showroom/workshop hall with flat roof covered by PV panels (aerial, company photos). No height found.",
+  "photos": 2,
+  "metalVisibleInPhotos": "No copper visible: company photos show a glass and dark-grey panel showroom (Mercedes-Benz corporate design); aerial shows a flat roof with PV.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/200648403",
+   "https://www.auto-schunn.ro/contact/auto-schunn-arad/"
+  ],
+  "verificationNotes": "a third line with the same name has location Sibiu (2021) where Auto Schunn also has a dealership. The only Auto Schunn site in Arad is Calea Radnei 247 (OSM way 200648403, coarse 4-node outline, 3176 m2; company contact page). The copper element (cladding, canopy, new annex?) could not be located, hence site accuracy.",
+  "registerKeys": [
+   "4c9f79817b8ff8a4"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "catedrala-deva",
+  "officialName": null,
+  "nameHu": null,
+  "altNames": [
+   "Catedrala Episcopală Sfântul Ierarh Nicolae, Deva (candidate)",
+   "Catedrala Adormirea Maicii Domnului, Deva (candidate)"
+  ],
+  "category": "church",
+  "address": null,
+  "city": "Deva",
+  "county": "Hunedoara",
+  "country": "Romania",
+  "lat": 45.88174,
+  "lon": 22.900861,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "Not applicable (unresolved, no photos downloaded).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/87295510",
+   "https://www.openstreetmap.org/way/87512908",
+   "https://www.stnicholascenter.org/gazetteer/catedrala-sf-nicolae"
+  ],
+  "verificationNotes": "Two Orthodox churches in Deva are mapped as cathedrals: 'Catedrala Episcopală Sfântul Ierarh Nicolae' (Str. Avram Iancu, OSM way 87295510, ~45.8851, 22.9031) and 'Catedrala Adormirea Maicii Domnului' (Str. Ion Creangă, OSM way 87512908, ~45.8789, 22.9048). Coordinates are Deva town centre (OSM relation 10494275).",
+  "registerKeys": [
+   "6f608604c10d77e4"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-lainici",
+  "officialName": "Mănăstirea Lainici – Biserica nouă (cu trei turle)",
+  "nameHu": null,
+  "altNames": [
+   "Lainici Monastery",
+   "Mănăstirea Lainici",
+   "Biserica Nouă a Mănăstirii Lainici",
+   "Biserica „Intrarea în Biserică” a mănăstirii Lainici"
+  ],
+  "category": "monastery",
+  "address": "DN66 (Defileul Jiului), Bumbești-Jiu, jud. Gorj",
+  "city": "Bumbești-Jiu",
+  "county": "Gorj",
+  "country": "Romania",
+  "lat": 45.264178,
+  "lon": 23.393188,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 214696098,
+   "tags": {
+    "addr:housename": "Mănăstirea Lainici",
+    "amenity": "hram: Intrarea în Bisericã a Maicii Domnului;Izvorul Tãmãduirii;",
+    "building": "church",
+    "name": "Biserica Nouă a Mãnãstirii Lainici"
+   }
+  },
+  "footprint": [
+   [
+    45.264199,
+    23.392971
+   ],
+   [
+    45.264071,
+    23.393031
+   ],
+   [
+    45.264103,
+    23.393172
+   ],
+   [
+    45.264094,
+    23.393194
+   ],
+   [
+    45.264093,
+    23.393218
+   ],
+   [
+    45.264102,
+    23.393258
+   ],
+   [
+    45.264111,
+    23.393274
+   ],
+   [
+    45.264129,
+    23.393282
+   ],
+   [
+    45.26415,
+    23.393391
+   ],
+   [
+    45.264178,
+    23.393379
+   ],
+   [
+    45.26419,
+    23.393392
+   ],
+   [
+    45.264203,
+    23.393398
+   ],
+   [
+    45.264217,
+    23.393397
+   ],
+   [
+    45.264232,
+    23.393389
+   ],
+   [
+    45.26424,
+    23.393373
+   ],
+   [
+    45.264245,
+    23.393354
+   ],
+   [
+    45.264276,
+    23.393342
+   ],
+   [
+    45.264256,
+    23.39324
+   ],
+   [
+    45.264271,
+    23.393223
+   ],
+   [
+    45.264277,
+    23.393189
+   ],
+   [
+    45.264267,
+    23.393147
+   ],
+   [
+    45.264253,
+    23.393128
+   ],
+   [
+    45.264232,
+    23.393117
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 32.3,
+   "widthM": 20.2,
+   "bearingDeg": 71.6
+  },
+  "heightHints": "No heights found. New church: three towers on the naos with onion domes, broad stepped eaves and an open arcaded porch (photos). Old church (OSM way 214696469, 168 m2, 19.7 x 9.2 m) has one tower.",
+  "photos": 4,
+  "metalVisibleInPhotos": "2011–2013 photos: the new church's stepped roofs and three onion-domed towers are grey sheet metal; in the 2018 overview (04.jpg) these roofs read green (probably painted sheet). The old church (left in 04.jpg) has a grey sheet roof and a single tower. no copper visible.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/214696098",
+   "https://www.openstreetmap.org/way/214696469",
+   "https://www.openstreetmap.org/way/215108752",
+   "https://www.wikidata.org/wiki/Q6474006",
+   "https://commons.wikimedia.org/wiki/Category:Lainici_Monastery"
+  ],
+  "verificationNotes": "The monastery is unambiguous (OSM precinct way 215108752 'Mânăstirea Lainici'; Wikidata Q6474006, LMI GJ-II-m-B-09254 = the old church 'Intrarea în Biserică'). Which building received the 2023 copper (old church, new church, towers, other) is NOT documented in any source found; the new church outline is used as the main model anchor and accuracy is set to 'site'. Feb 2023 Gorj earthquakes damaged several churches in the county (context only, no Lainici-specific source). Note: naming is inconsistent — OSM tags both churches with both hrams, and one Commons file (01.jpg) labels the three-tower church 'Intrarea în Biserică' while others call it the new church.",
+  "registerKeys": [
+   "1ac6bd9f4a542e4e"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-hodos-bodrog",
+  "officialName": "Mănăstirea Hodoș-Bodrog („Adormirea Maicii Domnului”)",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Bodrog",
+   "Bodrog Monastery",
+   "Hodoș-Bodrog Monastery",
+   "Kloster Hodoș-Bodrog"
+  ],
+  "category": "monastery",
+  "address": "DC96A, Bodrogu Nou, comuna Zădăreni, 317126, jud. Arad",
+  "city": "Bodrogu Nou (Zădăreni)",
+  "county": "Arad",
+  "country": "Romania",
+  "lat": 46.133632,
+  "lon": 21.183834,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 245698405,
+   "tags": {
+    "alt_name": "Mănăstirea Hodoș-Bodrog",
+    "alt_name:en": "Hodoș-Bodrog Monastery",
+    "amenity": "monastery",
+    "denomination": "orthodox",
+    "landuse": "religious",
+    "name": "Mănăstirea Bodrog",
+    "name:en": "Bodrog Monastery",
+    "religion": "christian",
+    "tourism": "attraction",
+    "wikipedia": "en:Bodrog Monastery"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "No heights found. Old church c. 1370, triconch plan with central dome carrying a baroque helmet added in the 17th c. (en.wikipedia); new church built 1989–1997; gate/bell tower at the entrance (Commons).",
+  "photos": 4,
+  "metalVisibleInPhotos": "01.jpg (2018): old triconch church with grey sheet-metal roofs and a dark grey onion-shaped (baroque) helmet on the dome. 02–04 (2004–2008): new church (1989–1997) with red-painted sheet roofs and domes, white bell/gate tower. All photos predate the 2021–2022 copper deliveries; no copper visible.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/245698405",
+   "https://www.wikidata.org/wiki/Q573962",
+   "https://en.wikipedia.org/wiki/Hodo%C8%99-Bodrog_Monastery",
+   "https://commons.wikimedia.org/wiki/Category:Hodoș-Bodrog_Monastery"
+  ],
+  "verificationNotes": "Monastery = OSM way 245698405 (precinct, alt_name Mănăstirea Hodoș-Bodrog), Wikidata Q573962 (LMI ensemble AR-II-a-A-00590; Wikidata point 46.133253, 21.183798 is the museum-collection node). OSM has NO building outlines inside the precinct, so footprint is null and lat/lon is the precinct centroid (site accuracy). Which building(s) got the copper (old triconch church, new church, gate tower, cells) is not documented.",
+  "registerKeys": [
+   "7692aa457f41d1e5"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-gai-arad",
+  "officialName": "Mănăstirea „Sfântul Simeon Stâlpnicul” Arad-Gai – biserica nouă („Acoperământul Maicii Domnului”)",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Gai",
+   "Mănăstirea Arad-Gai",
+   "Gai Monastery"
+  ],
+  "category": "monastery",
+  "address": "Strada Dunării 170 (LMI address) / Strada Ion Creangă (OSM), Gai, 310486 Arad",
+  "city": "Arad",
+  "county": "Arad",
+  "country": "Romania",
+  "lat": 46.218399,
+  "lon": 21.274636,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1070339700,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    46.218242,
+    21.274378
+   ],
+   [
+    46.218217,
+    21.274396
+   ],
+   [
+    46.218199,
+    21.274423
+   ],
+   [
+    46.218181,
+    21.274466
+   ],
+   [
+    46.218179,
+    21.274517
+   ],
+   [
+    46.218188,
+    21.274557
+   ],
+   [
+    46.218204,
+    21.274586
+   ],
+   [
+    46.218385,
+    21.274767
+   ],
+   [
+    46.218385,
+    21.274795
+   ],
+   [
+    46.218391,
+    21.274822
+   ],
+   [
+    46.218403,
+    21.274844
+   ],
+   [
+    46.218429,
+    21.274857
+   ],
+   [
+    46.218448,
+    21.27486
+   ],
+   [
+    46.218465,
+    21.274851
+   ],
+   [
+    46.218526,
+    21.274916
+   ],
+   [
+    46.218617,
+    21.274737
+   ],
+   [
+    46.218592,
+    21.274712
+   ],
+   [
+    46.21859,
+    21.274662
+   ],
+   [
+    46.218576,
+    21.274616
+   ],
+   [
+    46.218551,
+    21.274577
+   ],
+   [
+    46.218517,
+    21.274555
+   ],
+   [
+    46.218481,
+    21.274547
+   ],
+   [
+    46.218443,
+    21.274555
+   ],
+   [
+    46.218294,
+    21.274392
+   ],
+   [
+    46.21827,
+    21.274379
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 52.6,
+   "widthM": 25.7,
+   "bearingDeg": 26.5
+  },
+  "heightHints": "No heights found. New church: long nave with transept-like side volumes, tall west spire tower, small corner spires; separate white bell/gate tower with dark spire in front (CNIPT drone photos). OSM outline 970 m2, 52.6 x 25.7 m.",
+  "photos": 2,
+  "metalVisibleInPhotos": "the baroque complex (left) has red tile roofs.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1070339700",
+   "https://www.openstreetmap.org/way/1364308175",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Arad-Gai",
+   "https://e-guvernare.primariaarad.ro/dm_arad/portal.nsf/2CFDFA3233103693C225883A003CDC91/$FILE/D.2.2.%20Anexa%20fi%C8%99e%20monumente%20LMI%20din%20afara%20zonei%20%20centrale%20(SIG%202014).pdf"
+  ],
+  "verificationNotes": "Monastery identified: OSM way 1364308175 'Mănăstirea Gai' (orthodox); ro.wikipedia: 'Sf. Simeon Stâlpnicul' monastery 1760–1762, LMI AR-II-a-A-00500, Str. Dunării 170; a heritage fișă (Primăria Arad) says construction of a new church began in 2002; a biography of Abp. Timotei Seviciu mentions a new church with hram 'Acoperământul'. The unnamed place_of_worship way 1070339700 east of the old complex is that new church (dark roof on aerial). Using it as the copper recipient is an inference (large church under completion; copper sheets typical for domes) — not confirmed by any source, hence PROBABLE / site.",
+  "registerKeys": [
+   "ea6b04f0c75545f5"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-sfanta-cruce-studina",
+  "officialName": "Mănăstirea Studina (register: Mănăstirea „Sfânta Cruce”, Studina)",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea „Sfânta Cruce” Studina",
+   "Mănăstirea Studina"
+  ],
+  "category": "monastery",
+  "address": "Strada Unirii, Studinița, comuna Studina, 237449, jud. Olt",
+  "city": "Studinița (Studina)",
+  "county": "Olt",
+  "country": "Romania",
+  "lat": 43.974336,
+  "lon": 24.418086,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 612772055,
+   "tags": {
+    "addr:city": "Studinița",
+    "amenity": "monastery",
+    "denomination": "greek_orthodox",
+    "landuse": "religious",
+    "name": "Mănăstirea Studina",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos found or saved. Esri aerial shows inside the precinct a small mapped chapel (OSM way 610986292, 71 m2) and a larger unmapped dark-roofed building south of it (possibly the main church) — not verified.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/612772055",
+   "https://www.openstreetmap.org/node/1316062897",
+   "https://www.openstreetmap.org/way/610986292"
+  ],
+  "verificationNotes": "OSM has exactly one monastery in Studina commune: precinct way 612772055 + node 1316062897 'Mănăstirea Studina' (orthodox) in Studinița village. Its dedication ('Sfânta Cruce') could not be confirmed online, and no source on the 2022 works was found. Lat/lon = precinct centroid; the main church is not mapped in OSM, so footprint is null.",
+  "registerKeys": [
+   "ee06928d66b13182"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ }
+]

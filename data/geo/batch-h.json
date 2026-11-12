@@ -1,0 +1,1055 @@
+[
+ {
+  "id": "biserica-bicaz",
+  "officialName": "Biserică din Bicaz (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Bicaz, jud. Neamț",
+  "city": "Bicaz",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 46.911228,
+  "lon": 26.090348,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 128659143,
+   "tags": {
+    "place": "town",
+    "name": "Bicaz",
+    "wikidata": "Q225100"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/4303945435",
+   "https://www.openstreetmap.org/way/681391385",
+   "https://culte.gov.ro/wp-content/uploads/2019/12/Situatia-Dosarelor-Depuse-la-SSC-de-la-1-ianuarie-24-decembrie-2019.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf",
+   "https://ro.wikipedia.org/wiki/Bicaz"
+  ],
+  "verificationNotes": "Bicaz town has several Orthodox churches/parishes: the central church (OSM node 4303945435 'Biserica Bicaz', 46.91455, 26.08580); the Bicaz 2 parish 'Sf. Arh. Mihail și Gavriil și Sf. Împ. Constantin și Elena' in the Dodeni quarter (OSM way 681391385 'Biserica Ortodoxa', ~46.9266, 26.0920), which applied for 'reparații capitale' in 2019 and for a new iconostasis in 2022 (SSC lists); the Potoci parish 'Nașterea Maicii Domnului' (village Potoci); a Pentecostal church (SSC 2023) and an unnamed place of worship (OSM node 9496033599). No source ties the 2021 copper to one of them; Bicaz 2/Dodeni is only a weak candidate (capital repairs 2019). Coordinates = Bicaz town node. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-grumazesti",
+  "officialName": "Biserică din comuna Grumăzești (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "comuna Grumăzești, jud. Neamț",
+  "city": "Grumăzești",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 47.133606,
+  "lon": 26.377268,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 462251805,
+   "tags": {
+    "place": "village",
+    "name": "Grumăzești",
+    "wikidata": "Q2605644"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/260611372",
+   "https://culte.gov.ro/wp-content/uploads/2019/12/Situatia-Dosarelor-Depuse-la-SSC-de-la-1-ianuarie-24-decembrie-2019.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2024/12/sd-fg.pdf",
+   "https://ro.wikipedia.org/wiki/Comuna_Grum%C4%83ze%C8%99ti,_Neam%C8%9B"
+  ],
+  "verificationNotes": "A second won 2021 line 'Biserica Grumazesti', location 'Gurbanesti' (no such place in Neamț; a third, not-won line 'Biserica, GRUMĂZEŞTI, NT' also exists. The commune (villages Grumăzești, Curechiștea, Netezi, Topolița) has several Orthodox churches: Biserica Ortodoxă Grumăzești in the main village (OSM way 260611372, 47.13420, 26.37488), Curechiștea 'Sf. Atanasie și Chiril' (OSM way 260613819), parishes Netezi 'Sf. Împ. Constantin și Elena', Topolița 'Sf. Ioan Botezătorul' and Ocea 'Sf. Varvara' (SSC lists 2019-2024), plus unnamed places of worship (OSM ways 1554715954, 260609004, 1465313315). None of the SSC applications found concerns a roof in 2020-2022 and no news was found. The main-village church is only the most obvious candidate. Coordinates = Grumăzești village node. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-probota",
+  "officialName": "Biserica Parohiei „Sf. Nicolae” – Ciulinești, sat Probota (clădire nelocalizată)",
+  "nameHu": null,
+  "altNames": [
+   "Parohia „Sf. Nicolae” – Ciulinești, Probota"
+  ],
+  "category": "church",
+  "address": "sat Probota, comuna Probota, jud. Iași",
+  "city": "Probota",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.3782519,
+  "lon": 27.5064395,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 385264866,
+   "tags": {
+    "place": "village",
+    "name": "Probota",
+    "wikidata": "Q2001420"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no public photo of the parish church was found).",
+  "sourceUrls": [
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/12/sd.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2023/12/sd-2.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2024/12/sd-fg.pdf",
+   "https://www.openstreetmap.org/way/220327615"
+  ],
+  "verificationNotes": "SSC funding lists show the parish 'Sf. Nicolae' – Ciulinești, sat Probota (Arhiepiscopia Iașilor) applying for 'reparații acoperiș lăcaș de cult' (27.08.2020) and 'refacere acoperiș' (18.12.2020, refinancing), then 'reparații curente' (03.2021), 'construcție biserică – finisaje' (02.2022), 'finisaje interioare și exterioare' (09.2022, 02.2023) and church furniture (2024) – roof works on this parish's church just before the 2021 copper purchase. This is the basis for PROBABLE (parish level). The church itself is not located: in Probota village OSM shows only 'Biserica Sfântul Mina și Sfântul Vasile cel Mare' (node 2294598238, building way 220327615, 47.37565, 27.50265, ~20 x 9 m), whose dedication differs, so it is not assumed to be the Sf. Nicolae church; 'Sf. Mare Mucenic Dimitrie' (node 2294598258, 47.3878, 27.4624) lies ~3 km west. Coordinates = Probota village node. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-dobreni",
+  "officialName": "Biserica „Adormirea Maicii Domnului”, sat Dobreni (clădire nelocalizată)",
+  "nameHu": null,
+  "altNames": [
+   "Parohia „Adormirea Maicii Domnului” Dobreni"
+  ],
+  "category": "church",
+  "address": "sat Dobreni, comuna Dobreni, jud. Neamț",
+  "city": "Dobreni",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 47.0023767,
+  "lon": 26.417557,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 462251194,
+   "tags": {
+    "place": "village",
+    "name": "Dobreni",
+    "wikidata": "Q2489684"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no public photo of the church was found).",
+  "sourceUrls": [
+   "https://culte.gov.ro/wp-content/uploads/2019/12/Situatia-Dosarelor-Depuse-la-SSC-de-la-1-ianuarie-24-decembrie-2019.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf",
+   "https://ro.wikipedia.org/wiki/Comuna_Dobreni,_Neam%C8%9B"
+  ],
+  "verificationNotes": "SSC funding lists: Parohia 'Adormirea Maicii Domnului', sat Dobreni (Arhiepiscopia Iașilor) – 'reparații capitale' (12.2019, incomplete; Capital roof repairs on this parish church around 2020-2021 match the 2021 copper purchase, hence PROBABLE. Other churches of the commune are in other villages (wooden churches of Cășăria and Sărata, LMI; Poiana parish 'Sf. Ap. Petru și Pavel'). The church is not mapped in OSM (only generic buildings and a cemetery, way 1177902110, ~47.0003, 26.4238, without an identifiable church), so coordinates = Dobreni village node. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "episcopia-romanului-roman",
+  "officialName": "Arhiepiscopia Romanului și Bacăului – centrul eparhial din Roman (clădirea acoperită neidentificată)",
+  "nameHu": null,
+  "altNames": [
+   "Episcopia Romanului",
+   "Catedrala arhiepiscopală „Cuvioasa Parascheva”",
+   "Palatul arhiepiscopal din Roman"
+  ],
+  "category": "church",
+  "address": "Strada Alexandru cel Bun 5, 611065 Roman, jud. Neamț",
+  "city": "Roman",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 46.9175579,
+  "lon": 26.9300069,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 69971500,
+   "tags": {
+    "landuse": "religious",
+    "name": "Arhiepiscopia Romanului și Bacăului",
+    "denomination": "romanian_orthodox",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: which building of the complex received the copper is not known.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/69971500",
+   "https://www.openstreetmap.org/way/69971556",
+   "https://www.openstreetmap.org/way/932542026",
+   "https://culte.gov.ro/wp-content/uploads/2019/12/Situatia-Dosarelor-Depuse-la-SSC-de-la-1-ianuarie-24-decembrie-2019.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/12/sd.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf",
+   "https://eprb.ro/ips-parinte-ioachim-giosanu-la-un-deceniu-de-slujire-ca-arhiepiscop-al-romanului-si-bacaului",
+   "https://eprb.ro/catedrala-arhiepiscopala-sfanta-parascheva"
+  ],
+  "verificationNotes": "Institution certain, building not: the archdiocesan centre at Str. Alexandru cel Bun 5 contains the 16th-c. cathedral 'Cuvioasa Parascheva' (OSM way 69971556, ~41 x 17 m), the archiepiscopal palace and administrative buildings (e.g. untagged OSM way 932542026, ~47 x 22 m, east of the cathedral). SSC lists show 'Centrul eparhial Roman – Clădire Palat Episcopal – consolidare-restaurare' applications in 08.2019, 07.2020, 12.2020, 01.2021 and 02.2022, plus 'extindere sediul administrativ' (2019); the archdiocese's 10-year retrospective (eprb.ro) says the Archiepiscopal Palace was completed in 2022. The palace is therefore the main candidate for the 2019 copper, but no source confirms the roof material, and which OSM building is the palace was not verified. lat/lon = cathedral centroid (core of the complex); osm = the precinct polygon (~10 ha). A 2016 copper roof on the Roman parish church 'Sf. Împărați Constantin și Elena' (eprb.ro) is a different, earlier job. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "d7353ca208221bb4"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-horodnic-de-jos",
+  "officialName": "Biserică din Horodnic de Jos (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Horodnic de Jos, jud. Suceava",
+  "city": "Horodnic de Jos",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.860868,
+  "lon": 25.832513,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 464482091,
+   "tags": {
+    "place": "village",
+    "name": "Horodnic de Jos",
+    "wikidata": "Q933624"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/12121750657",
+   "https://ro.wikipedia.org/wiki/Comuna_Horodnic_de_Jos,_Suceava"
+  ],
+  "verificationNotes": "The village has at least the Orthodox parish church in the centre (OSM node 12121750657, unnamed place_of_worship, 47.86090, 25.83389, beside the cemetery; no building outline) and the 1717 wooden church 'Înălțarea Sfintei Cruci' (LMI) in the Schit Călugărița hamlet cemetery (ro.wikipedia). The parish does not appear in the SSC funding lists 2019-2024 and no news was found, so no building can be confirmed; the central parish church is the more plausible candidate for copper sheets. Coordinates = village node.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "parohia-nasterii-maicii-domnului-campulung-moldovenesc",
+  "officialName": "Biserica de lemn „Nașterea Maicii Domnului” din Câmpulung Moldovenesc (Capu Satului)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica de lemn din Capu Satului",
+   "Parohia „Nașterea Maicii Domnului” Câmpulung Moldovenesc"
+  ],
+  "category": "church",
+  "address": "Strada Vasile Cârlova, cartierul Capu Satului, Câmpulung Moldovenesc, jud. Suceava",
+  "city": "Câmpulung Moldovenesc",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.525125,
+  "lon": 25.5751955,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 32631748,
+   "tags": {
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Biserica"
+   }
+  },
+  "footprint": [
+   [
+    47.5251864,
+    25.5749577
+   ],
+   [
+    47.525194,
+    25.5751226
+   ],
+   [
+    47.5252122,
+    25.5751326
+   ],
+   [
+    47.5252338,
+    25.5751427
+   ],
+   [
+    47.5252503,
+    25.5751724
+   ],
+   [
+    47.5252602,
+    25.5752094
+   ],
+   [
+    47.52526,
+    25.575234
+   ],
+   [
+    47.5252515,
+    25.5752683
+   ],
+   [
+    47.5252331,
+    25.5752952
+   ],
+   [
+    47.525208,
+    25.5753072
+   ],
+   [
+    47.5251863,
+    25.5753144
+   ],
+   [
+    47.5251844,
+    25.5753635
+   ],
+   [
+    47.5251793,
+    25.5753954
+   ],
+   [
+    47.5251608,
+    25.5754223
+   ],
+   [
+    47.5251341,
+    25.5754441
+   ],
+   [
+    47.5250974,
+    25.5754437
+   ],
+   [
+    47.5250708,
+    25.5754262
+   ],
+   [
+    47.525051,
+    25.575399
+   ],
+   [
+    47.5250412,
+    25.575362
+   ],
+   [
+    47.5250464,
+    25.5753227
+   ],
+   [
+    47.5250532,
+    25.5752883
+   ],
+   [
+    47.5250415,
+    25.5752882
+   ],
+   [
+    47.5250266,
+    25.5752856
+   ],
+   [
+    47.5250067,
+    25.5752583
+   ],
+   [
+    47.5250035,
+    25.5752288
+   ],
+   [
+    47.525007,
+    25.5752017
+   ],
+   [
+    47.5250187,
+    25.5751871
+   ],
+   [
+    47.5250321,
+    25.5751725
+   ],
+   [
+    47.5250472,
+    25.5751481
+   ],
+   [
+    47.525049,
+    25.575126
+   ],
+   [
+    47.5250407,
+    25.575121
+   ],
+   [
+    47.5250241,
+    25.5751109
+   ],
+   [
+    47.5250192,
+    25.5750888
+   ],
+   [
+    47.525021,
+    25.5750666
+   ],
+   [
+    47.5250294,
+    25.5750471
+   ],
+   [
+    47.5250445,
+    25.5750374
+   ],
+   [
+    47.5250635,
+    25.5750349
+   ],
+   [
+    47.5250682,
+    25.5749442
+   ],
+   [
+    47.5251864,
+    25.5749577
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 37.3,
+   "widthM": 27.3,
+   "bearingDeg": 66.4
+  },
+  "heightHints": "Commons photos). OSM building:levels=2. The OSM outline (~37 x 27 m) probably includes the wide eaves.",
+  "photos": 4,
+  "metalVisibleInPhotos": "Not the new roof: the Commons photos date from 19 July 2011 and show the earlier orange-painted sheet-metal roof (fitted in 1947-1984, replacing shingles). The copper roof (roof-repair application 2021, copper supplied 2021-2022) is not documented in available photos; roof shape, towers and eaves are unchanged references.",
+  "sourceUrls": [
+   "https://ro.wikipedia.org/wiki/Biserica_de_lemn_din_C%C3%A2mpulung_Moldovenesc",
+   "https://commons.wikimedia.org/wiki/Category:Wooden_church_in_C%C3%A2mpulung_Moldovenesc",
+   "https://www.openstreetmap.org/way/32631748",
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/12/sd.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf"
+  ],
+  "verificationNotes": "company photos 'DA' for the 2021 line. The parish church is the wooden church 'Nașterea Maicii Domnului' in Capu Satului (east part of town), Str. Vasile Cârlova, next to the Capu Satului cemetery (ro.wikipedia). SSC funding lists: Parohia 'Nașterea Maicii Domnului', mun. Câmpulung Moldovenesc – 'reparații curente' (11.2020), 'reparații acoperiș lăcaș de cult' (30.07.2021) and 'reparații curente' (02.2022) – roof repairs exactly when the copper was bought, hence strong PROBABLE (not VERIFIED: the material is not stated in the source). Geolocation: OSM way 32631748 'Biserica' (trefoil plan, 2 levels) on Str. Vasile Cârlova at the north edge of cemetery way 419002622 – matches the description and the photos. Caveat: the parish also owns the filial church 'Izvorul Tămăduirii' (built 2001-2009, Str. Izvorul Alb), which could have received part of the copper. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "a9c0e56fc2e57ce2"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-deleni-vaslui",
+  "officialName": "Biserica nouă „Adormirea Maicii Domnului” a Parohiei Deleni II, sat Deleni (clădire nelocalizată)",
+  "nameHu": null,
+  "altNames": [
+   "Parohia „Adormirea Maicii Domnului” – Deleni II"
+  ],
+  "category": "church",
+  "address": "sat Deleni, comuna Deleni, jud. Vaslui",
+  "city": "Deleni",
+  "county": "Vaslui",
+  "country": "Romania",
+  "lat": 46.5431357,
+  "lon": 27.7439287,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 463297818,
+   "tags": {
+    "place": "village",
+    "name": "Deleni",
+    "wikidata": "Q2547481"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (the company's Facebook post could not be accessed; no other public photo found).",
+  "sourceUrls": [
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/12/sd.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2023/12/sd-2.pdf"
+  ],
+  "verificationNotes": "SSC funding lists: Parohia 'Adormirea Maicii Domnului' – Deleni II, sat Deleni, comuna Deleni, jud. Vaslui (Episcopia Hușilor) – 'construcție biserică' in 07.2020, 07.2021 and 04.2023, i.e. a new church under construction in the period, which fits an 820 m² new roof. The parish identity is therefore PROBABLE (strong), but the new church is not mapped in OSM (only generic buildings and a cemetery, way 1328754792) and was not located, so coordinates = Deleni village node. Do not confuse with the monastery 'Adormirea Maicii Domnului' in Moreni (same commune), also building a church in 2022 (SSC). The metal is aluminium with a copper look, not copper. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper",
+   "aluminium"
+  ],
+  "registerProducts": [
+   "Aluminium, Copperline"
+  ]
+ },
+ {
+  "id": "biserica-ortodoxa-balteni",
+  "officialName": "Biserica Ortodoxă „Adormirea Maicii Domnului” din Bălteni",
+  "nameHu": null,
+  "altNames": [
+   "Parohia „Adormirea Maicii Domnului” Bălteni"
+  ],
+  "category": "church",
+  "address": "sat Bălteni, comuna Probota, jud. Iași, 707396",
+  "city": "Bălteni",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.40036,
+  "lon": 27.5004616,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 220387257,
+   "tags": {
+    "addr:postcode": "707396",
+    "building": "church"
+   }
+  },
+  "footprint": [
+   [
+    47.4003691,
+    27.5003328
+   ],
+   [
+    47.400293,
+    27.500378
+   ],
+   [
+    47.4003392,
+    27.5005468
+   ],
+   [
+    47.4003546,
+    27.5005752
+   ],
+   [
+    47.4003783,
+    27.5005883
+   ],
+   [
+    47.4003963,
+    27.5005823
+   ],
+   [
+    47.4004103,
+    27.5005574
+   ],
+   [
+    47.4004145,
+    27.5005286
+   ],
+   [
+    47.4004145,
+    27.5004964
+   ],
+   [
+    47.4003691,
+    27.5003328
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 18.6,
+   "widthM": 9.1,
+   "bearingDeg": 68.0
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no public photo found).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/220387257",
+   "https://www.openstreetmap.org/node/2295109066",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2023/12/sd-2.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2024/12/sd-fg.pdf"
+  ],
+  "verificationNotes": "OSM has a single place of worship in Bălteni: node 2295109066 'Biserica Adormirea Maicii Domnului' (orthodox) inside building way 220387257 (building=church, ~18.6 x 9.1 m). Only church of the village + matching repair period -> PROBABLE. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "aed622b540b06ffd"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-ortodoxa-andrieseni",
+  "officialName": "Biserica Parohiei „Sf. Nicolae” Andrieșeni (biserica nouă, în construcție; nelocalizată)",
+  "nameHu": null,
+  "altNames": [
+   "Parohia „Sf. Nicolae” Andrieșeni"
+  ],
+  "category": "church",
+  "address": "sat Andrieșeni, comuna Andrieșeni, jud. Iași",
+  "city": "Andrieșeni",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.529151,
+  "lon": 27.2902192,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 412699812,
+   "tags": {
+    "place": "village",
+    "name": "Andrieșeni",
+    "wikidata": "Q2621145"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no public photo found).",
+  "sourceUrls": [
+   "https://www.bzi.ro/ (article id 4889676, 09.01.2024, on the Andrieșeni parish; full URL omitted because its slug names a private person)",
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://ro.wikipedia.org/wiki/Andrie%C8%99eni,_Ia%C8%99i"
+  ],
+  "verificationNotes": "The Orthodox parish of Andrieșeni village is 'Sf. Nicolae' Andrieșeni; a bzi.ro article of 09.01.2024 (id 4889676) reports collections 'for completing the construction of the new church' of this parish, i.e. The 'Sf. Nicolae' parish of Fântânele (same commune, SSC 2020 painting works) and the Șoldana monastery (OSM node 1316062638) are different units. Neither the old nor the new Andrieșeni church is mapped in OSM, so coordinates = village node; which of the two buildings got the copper is not confirmed (PROBABLE at parish level).",
+  "registerKeys": [
+   "1e446dfafdff5f5f"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-comuna-vinderei",
+  "officialName": "Biserica „Sf. Prooroc Ilie Tesviteanul” din Vinderei (biserică nouă, în construcție 2019-2024)",
+  "nameHu": null,
+  "altNames": [
+   "Parohia „Sf. Ilie” Vinderei",
+   "Biserica Vinderei"
+  ],
+  "category": "church",
+  "address": "sat Vinderei, comuna Vinderei, jud. Vaslui",
+  "city": "Vinderei",
+  "county": "Vaslui",
+  "country": "Romania",
+  "lat": 46.1544012,
+  "lon": 27.8087166,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 3680472786,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "orthodox",
+    "name": "Biserica Vinderei",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no public photo found).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/3680472786",
+   "https://culte.gov.ro/wp-content/uploads/2019/12/Situatia-Dosarelor-Depuse-la-SSC-de-la-1-ianuarie-24-decembrie-2019.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/12/sd.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2023/12/sd-2.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2024/12/sd-fg.pdf"
+  ],
+  "verificationNotes": "SSC lists: Parohia 'Sf. Ilie' / 'Sf. Caveat: in the same commune the parish 'Sf. Nicolae' Obârșeni was also finishing a new church 'Sf. Pantelimon' (2019-2024); 'comuna Vinderei' most naturally points to the commune seat, hence PROBABLE (moderate). Location: OSM node 3680472786 'Biserica Vinderei' (building=church, node only, mapped c. 2015); whether it marks the old church or the new one is not verified, hence accuracy 'site'. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "f8082bfc4d2c9f7a"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-sat-scheia",
+  "officialName": "Biserică din satul Șcheia, jud. Suceava (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "sat Șcheia, comuna Șcheia, jud. Suceava",
+  "city": "Șcheia",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.6561,
+  "lon": 26.226358,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 464328719,
+   "tags": {
+    "place": "village",
+    "name": "Șcheia",
+    "wikidata": "Q1084353"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/13949957280",
+   "https://www.openstreetmap.org/way/1431726236",
+   "https://culte.gov.ro/wp-content/uploads/2019/12/Situatia-Dosarelor-Depuse-la-SSC-de-la-1-ianuarie-24-decembrie-2019.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/12/sd.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf"
+  ],
+  "verificationNotes": "Buna Vestire, addr:city Șcheia, 47.65826, 26.21419), plus a Pentecostal church (way 1149817624). Șcheia) building its church 2019-2020 and applying for 'finisaje interioare, exterioare, instalații' (01.2021) and 'construcție biserică – finisaje' (08.2022) – timing fits the 2021-2022 zinc purchase, so Buna Vestire is the leading candidate, but there is no direct evidence and the Sf. Nicolae church cannot be excluded. Coordinates = village node. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "fdc40180cbd8516b"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-sfantul-stefan-iasi",
+  "officialName": "Biserica „Sfântul Ștefan” (Str. Albineț), Iași",
+  "nameHu": null,
+  "altNames": [
+   "Parohia „Sf. Ștefan” Iași"
+  ],
+  "category": "church",
+  "address": "Strada Albineț 44, 700142 Iași",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.1720079,
+  "lon": 27.5893697,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 203167029,
+   "tags": {
+    "addr:housenumber": "44",
+    "addr:postcode": "700142",
+    "addr:street": "Strada Albineț",
+    "building": "church",
+    "name": "Biserica Sfântul Ștefan"
+   }
+  },
+  "footprint": [
+   [
+    47.172027,
+    27.5892374
+   ],
+   [
+    47.1719523,
+    27.5892719
+   ],
+   [
+    47.1719827,
+    27.5894726
+   ],
+   [
+    47.1719954,
+    27.5894688
+   ],
+   [
+    47.1720025,
+    27.5894882
+   ],
+   [
+    47.1720152,
+    27.5895034
+   ],
+   [
+    47.1720292,
+    27.5895062
+   ],
+   [
+    47.1720441,
+    27.5894922
+   ],
+   [
+    47.172049,
+    27.5894678
+   ],
+   [
+    47.1720469,
+    27.5894463
+   ],
+   [
+    47.1720602,
+    27.5894418
+   ],
+   [
+    47.172027,
+    27.5892374
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 19.8,
+   "widthM": 8.9,
+   "bearingDeg": 76.7
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no freely licensed or public photo found).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/203167029",
+   "https://www.openstreetmap.org/node/692767606",
+   "https://culte.gov.ro/wp-content/uploads/2021/01/Situatia-Dosarelor-depuse-de-unitatile-de-cult-in-anul-2020-de-la-1-ian-la-31-dec.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2021/12/sd.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf"
+  ],
+  "verificationNotes": "The only Iași church named exactly 'Biserica Sfântul Ștefan' in OSM is the one at Str. Albineț 44 (building way 203167029, ~19.8 x 8.9 m, POI node 692767606). Other Iași churches containing 'Ștefan' carry qualifiers: 'Sfântul Ștefan Metalurgiei' (Aleea Grădinari 26, way 203264063), 'Sf. Voievod Ștefan cel Mare și Sfânt' (node 617137553) and the military church 'Sf. Gheorghe și Ștefan cel Mare' (node 5798627953). SSC lists show 'Parohia Sf. Ștefan, mun. Iași' with painting works in 2020-2022 (which of the 'Sf. Ștefan' churches this is was not verified). No source confirms the copper roof -> PROBABLE (name match only). SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "03328e56c4e78513"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-sfantul-sava-berzunti",
+  "officialName": "Mănăstirea „Sfântul Sava” – Berzunți (sat Buda, fost Schitu Savu)",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Sfântul Sava - Berzunți",
+   "Schitul Sfântul Sava"
+  ],
+  "category": "monastery",
+  "address": "sat Buda, comuna Berzunți, jud. Bacău",
+  "city": "Buda (Berzunți)",
+  "county": "Bacău",
+  "country": "Romania",
+  "lat": 46.4171,
+  "lon": 26.5775,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 1316063334,
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Mănăstirea Sfântul Sava - Berzunți",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no freely licensed or public photo found).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/1316063334",
+   "https://culte.gov.ro/wp-content/uploads/2024/12/sd-fg.pdf",
+   "https://ro.wikipedia.org/wiki/Comuna_Berzun%C8%9Bi,_Bac%C4%83u",
+   "https://ziaruldebacau.ro/?p=14050"
+  ],
+  "verificationNotes": "Institution certain: the SSC 2024 list has 'Mănăstirea Sf. Sava', jud. ro.wikipedia notes that in 1968 the village Schitu Savu was merged into Buda. OSM: node 1316063334 'Mănăstirea Sfântul Sava - Berzunți' (46.4171, 26.5775), ~1.5 km SE of Buda village; no building outlines are mapped, so the church footprint is unknown (accuracy 'site'). Which building of the monastery got the copper roof (presumably the church) is not documented -> PROBABLE. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "03ae47a7717bec1b"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "gradinita-cu-program-prelungit-nr-8-iasi",
+  "officialName": "Grădinița cu Program Prelungit nr. 8 Iași",
+  "nameHu": null,
+  "altNames": [
+   "Grădinița Nr. 8"
+  ],
+  "category": "education",
+  "address": "Strada Lascăr Catargi 36, 700107 Iași",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.1738704,
+  "lon": 27.5781292,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 207104998,
+   "tags": {
+    "addr:city": "Iași",
+    "addr:housenumber": "36",
+    "addr:postcode": "700107",
+    "addr:street": "Strada Lascăr Catargi",
+    "building": "kindergarten",
+    "name": "Grădinița Nr. 8"
+   }
+  },
+  "footprint": [
+   [
+    47.1739577,
+    27.5779431
+   ],
+   [
+    47.1739289,
+    27.577959
+   ],
+   [
+    47.1739159,
+    27.5779078
+   ],
+   [
+    47.1737325,
+    27.5780088
+   ],
+   [
+    47.1737667,
+    27.5781435
+   ],
+   [
+    47.1737346,
+    27.5781612
+   ],
+   [
+    47.1737718,
+    27.5783074
+   ],
+   [
+    47.1738099,
+    27.5782864
+   ],
+   [
+    47.1738259,
+    27.5783491
+   ],
+   [
+    47.1740034,
+    27.5782513
+   ],
+   [
+    47.1739829,
+    27.5781711
+   ],
+   [
+    47.1740117,
+    27.5781552
+   ],
+   [
+    47.1739577,
+    27.5779431
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.0,
+   "widthM": 27.7,
+   "bearingDeg": 159.3
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no public photo of the kindergarten found).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/207104998",
+   "https://www.bzi.ro/revolta-in-randul-parintilor-din-cauza-meniului-de-la-o-gradinita-din-iasi-acuzatii-grave-la-adresa-directoarei-dupa-ce-o-firma-de-catering-livreaza-mancarea-copiilor-sunt-niste-contracte-5423163"
+  ],
+  "verificationNotes": "GPP nr. 8 is on Str. Lascăr Catargi (municipal lists cited by bzi.ro; later attached to Colegiul Național 'Mihai Eminescu'); OSM way 207104998 'Grădinița Nr. 8', Str. Lascăr Catargi 36 (building=kindergarten, ~29 x 28 m). Building identity PROBABLE; no source confirms the zinc roof (no tender or news found).",
+  "registerKeys": [
+   "fece2de2f45488f5"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "biserica-sf-ioan-suceava",
+  "officialName": "Biserica „Sf. Ioan”, Suceava (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Suceava",
+  "city": "Suceava",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.647001,
+  "lon": 26.25226,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/31604567",
+   "https://commons.wikimedia.org/wiki/File:Coconilor_church_of_John_the_Baptist_in_Suceava.jpg",
+   "https://www.svnews.ro/biserica-domnitelor-din-suceava-construita-de-domnitorul-vasile-lupu-in-1643-o-incantare-pentru-ochi-si-suflet/570982/",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Sf%C3%A2ntul_Ioan_cel_Nou_din_Suceava",
+   "https://culte.gov.ro/wp-content/uploads/2022/12/sd-1.pdf",
+   "https://culte.gov.ro/wp-content/uploads/2023/12/sd-2.pdf"
+  ],
+  "verificationNotes": "Candidates in Suceava: (1) Biserica Coconilor/Domnițelor 'Nașterea Sf. Ioan Botezătorul' (1643, LMI SV-II-m-A-05483, OSM way 31604567) – unlikely: Commons 2016 and svnews.ro November 2026 photos still show a shingle roof; (2) Mănăstirea 'Sf. Ioan cel Nou' (church Sf. Gheorghe, UNESCO; OSM node 353213522) – under EU-funded restoration 2021-2026 with 7 objectives incl. paraclis, bell tower, enclosure wall; ro.wikipedia mentions a 2009 debate on re-covering the bell tower in copper; (3) the Greek-Catholic church 'Nașterea Sf. Ioan Botezătorul' under construction on Str. Ion Creangă (SSC 'construcție biserică' 02.2022 and 02.2023) – timing fits, but it is not mapped in OSM and no photo was found; (4) the Roman Catholic 'Sf. Ioan Nepomuk' (OSM way 31590524). No source decides between them. Coordinates = Suceava city centre. SSC = Secretariatul de Stat pentru Culte, yearly public lists of state-funding applications ('Situația dosarelor depuse'); they show the works applied for, not the roof material.",
+  "registerKeys": [
+   "06579ad833c4e19d"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ }
+]

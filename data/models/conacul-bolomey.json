@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 90.2,
+ "bearingSource": "OSM way 369896595 long axis 90.2°; +X = east, the main façade with the columned porch (+Z) faces south towards the DN2A road (OSM road ≈ 15 m south; street-level photos 01 and 03).",
+ "cover": null,
+ "photosUsed": 5,
+ "approximations": "Restored state modelled. Block 22.4 × 18.8 m (OSM 23.5 × 20.2 m incl. turrets); heights scaled from the frontal photos 01/03 (eave ≈ 13.0 m, belvedere ≈ 16.8 m, turret finials ≈ 19.4 m). Four corner turrets assumed (OSM rear chamfers and descriptions of four open bow windows); turret cap profile from the 2025 detail photo 05. The finished roof is not photographed (01 shows the new timber structure under scaffolding): low hipped main roof (≈ 17°), belvedere roof, turret caps and cornice cappings shown in elZinc Slate per the COLOR METAL records — which surfaces were covered is not documented. Porch column count, rear/side window rhythm, loggia arcades and stucco ornament simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință realizate înainte și în timpul restaurării (2013–2021) și după un detaliu din 2025 al turnulețului restaurat. Acoperișul finalizat nu apare în aceste imagini, de aceea forma în patru ape și panta sunt interpretate, iar acoperișurile, belvederea și coifurile turnulețelor sunt redate în titan-zinc elZinc Slate livrat de COLOR METAL, conform evidențelor firmei; înălțimile, fațadele laterale și posterioară și ornamentația sunt aproximative.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett: a felvételek a helyreállítás előtt és közben (2013–2021) készültek, egy 2025-ös részletfotó pedig a felújított saroktornyot mutatja. A kész tető ezeken nem látszik, ezért a sátortető formája és hajlásszöge értelmezés, a tetők, a kilátó és a toronysisakok a COLOR METAL nyilvántartása szerint szállított elZinc Slate titáncinkkel jelennek meg; a magasságok, az oldal- és hátsó homlokzatok és a díszítés közelítőek.",
+  "en": "Scale model interpreted from public reference photographs taken before and during the restoration (2013–2021) and a 2025 detail of the restored turret. The finished roof is not visible in them, so its low hipped form and pitch are interpreted, and the roofs, belvedere and turret caps are shown in the elZinc Slate titanium-zinc supplied by COLOR METAL according to its records; heights, the side and rear elevations and the ornament are approximate."
+ }
+}

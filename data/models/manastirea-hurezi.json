@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 90.3,
+  "bearingSource": "OSM way 1388740606 long axis 90.3°; +X points east to the altar apse (narrow rounded end of the outline), the open porch with its entrance pavilion faces −X/west (photos 01–03)",
+  "cover": null,
+  "photosUsed": 3,
+  "approximations": "Three Commons photographs (south-west views of the porch and body); heights estimated from the photographs (eaves ≈ 10.4/10.9 m, tower crosses ≈ 26 m), no survey data. The OSM outline is symmetrised about the axis; the north side mirrors the south. Porch: two arches either side of the centre on the west front and four on each side; lateral conchs and the polygonal apse simplified. Ornament (cable band, carved capitals, painted frieze, medallion arcade) reduced to bands, frames and discs. The photographs (2012–2019) show dark grey sheet roofs; the roofs, tower caps and pavilion dome are shown in weathered copper because copper was supplied by COLOR METAL for the monastery according to its records — which building and surfaces received it is not documented.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; înălțimile și latura nordică sunt estimate. Fotografiile disponibile sunt anterioare lucrărilor, de aceea acoperișurile, turlele și cupola foișorului sunt redate în cupru, materialul livrat de COLOR METAL conform evidențelor sale; suprafețele exacte nu sunt documentate.",
+    "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a magasságok és az északi homlokzat becsültek. Az elérhető fotók a munkák előttiek, ezért a tetők, a tornyok és a bejárati pavilon kupolája rézzel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal; a pontos felületek nincsenek dokumentálva.",
+    "en": "Scale model interpreted from public reference photographs and the OSM outline; heights and the north side are estimated. The available photographs predate the works, so the roofs, towers and pavilion dome are shown in copper, the material supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+  }
+}

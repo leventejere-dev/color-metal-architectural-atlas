@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 92.7,
+ "bearingSource": "OSM way 206867564 long axis 92.7°; +X = east; plan orientation checked on the vertical drone photo 04 (dome tower at the south-east corner, stair on the north-west)",
+ "cover": "03",
+ "photosUsed": 8,
+ "approximations": "The round dome tower is mapped in OSM as a separate 44 m² way and is included here as part of the building (so the model exceeds the 20.2 × 14.7 m outline); storey heights (cornice 9.8 m) and the 30° roof pitch estimated; exterior stair simplified to three flights, ramp and outbuildings omitted; the dome is shown green-patinated and the hipped roofs aged brown, as photographed — whether the dome sheet is new COLOR METAL copper or restored original copper could not be resolved.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile aeriene: vilă cu două niveluri și terasă, două acoperișuri în patru ape din cupru cu jgheaburi și burlane din cupru și turnul rotund cu cupola de observație din cupru patinat. Înălțimile nivelurilor, panta acoperișului și scara exterioară sunt aproximate.",
+  "hu": "A drónfotók alapján értelmezett makett: kétszintes villa tetőterasszal, két kontyolt réztetővel, réz ereszcsatornákkal és lefolyókkal, valamint a kerek torony zöld patinás réz megfigyelőkupolájával. A szintmagasságok, a tetőhajlás és a külső lépcső közelítőek.",
+  "en": "Scale model interpreted from the drone photographs: two-storey villa with a roof terrace, two hipped copper roofs with copper gutters and downpipes, and the round tower with its green copper observation dome. Storey heights, roof pitch and the exterior stair are approximated."
+ }
+}

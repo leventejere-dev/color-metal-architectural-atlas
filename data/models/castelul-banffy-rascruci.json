@@ -1,0 +1,12 @@
+{
+ "tier": "A",
+ "status": "existing-verified",
+ "photosUsed": "exhibition-table reference set",
+ "note": {
+  "ro": "Model preluat de pe masa expozițională: proporții după fotografii de fațadă și plan; elevațiile laterale, ornamentele și pantele acoperișului simplificate.",
+  "hu": "A kiállítási asztal modellje: arányok homlokzati és alaprajzi fotók alapján; az oldalhomlokzatok, a díszítés és a tetőhajlások egyszerűsítettek.",
+  "en": "Exhibition-table model: proportions from elevation and plan photographs; side elevations, ornament and roof pitches simplified."
+ },
+ "bearingDeg": 0.0,
+ "bearingSource": "OSM way 793430081 long axis (N–S); which long side is the entrance façade is not verified"
+}

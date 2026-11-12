@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 122.7,
+ "bearingSource": "OSM long axis 122.7°; +X points to the polygonal (apse) end of the OSM outline, the flat tower front faces −X (west-north-west)",
+ "cover": "01",
+ "photosUsed": 1,
+ "approximations": "Single street-level photo of the tower front only: front proportions and tower stages measured from it (main cornice ~12 m, belfry cornice ~22.7 m, spire tip ~31.5 m, ±10–15 %); plan and size from the OSM outline; side and east elevations, window rhythm, nave roof pitch (45°) and roof covering are interpreted; the spire is rendered silver-grey as photographed — the image belongs to COLOR METAL's copper (KME) reference selection, but which surfaces the copper covers is not documented. The only available photographs predate the COLOR METAL copper; the helm and spire are shown in copper as recorded in the reference selection.",
+ "note": {
+  "ro": "Machetă preliminară după o singură fotografie a fațadei cu turn: fațada și turnul sunt măsurate pe fotografie, dimensiunile după conturul OSM, iar fațadele laterale, absida și învelitoarea navei sunt interpretate. Coiful este redat gri-argintiu, ca în fotografie. Fotografiile disponibile sunt anterioare lucrării; coiful și flașa turnului sunt redate în cupru, conform referinței COLOR METAL.",
+  "hu": "Előzetes makett egyetlen, a tornyos homlokzatot mutató fotó alapján: a homlokzat és a torony a fotón mért, a méretek az OSM-körvonalból származnak, az oldalhomlokzatok, a szentély és a hajó tetőfedése értelmezett. A toronysisak a fotó szerint ezüstszürke. A rendelkezésre álló fotók a munkálatok előttiek; a toronysisak a COLOR METAL referencia szerint rézzel jelenik meg.",
+  "en": "Preliminary model from a single photograph of the tower front: the front and tower are measured from the photo, the size comes from the OSM outline, and the side elevations, apse and nave roof covering are interpreted. The spire is shown silver-grey, as photographed. The available photographs predate the works; the helm and spire are shown in copper, as recorded in the COLOR METAL reference."
+ }
+}

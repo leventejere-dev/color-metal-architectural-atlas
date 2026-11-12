@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 106.0,
+ "bearingSource": "Long walls of the OSM outline (way 91738616) run at ≈106°; the footprintDims bearing 96.5° is skewed by the north sacristy. +X points to the polygonal choir (east-south-east); the west front faces −X.",
+ "cover": "01",
+ "photosUsed": 4,
+ "approximations": "No published dimensions: heights estimated from the photographs (nave eave ≈15 m, ridge ≈26 m, choir eave ≈13.8 m, roof pitch ≈58°, turret spires ≈37 m). The north side and the sacristy roof are not photographed (lean-to assumed); window tracery, the portal ornament and the statue are simplified. All photographs (2009–2014) show the old tile roof and red-painted spires; the roofs, the turret roof and spires, gutters and downpipes are shown in new copper as supplied by COLOR METAL according to its records (copper, 2026) — which surfaces were actually covered is not documented.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință; înălțimile, latura de nord și sacristia sunt aproximate. Fotografiile disponibile sunt anterioare lucrărilor din 2026, de aceea acoperișurile, coiful turnului-clopotniță și jgheaburile sunt redate în cuprul livrat de COLOR METAL, conform evidențelor firmei.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett; a magasságok, az északi oldal és a sekrestye közelítőek. A rendelkezésre álló fotók a 2026-os munkálatok előttiek, ezért a tetők, a harangtorony sisakja és az ereszcsatornák a COLOR METAL nyilvántartása szerint szállított rézzel jelennek meg.",
+  "en": "Scale model interpreted from public reference photographs; heights, the north side and the sacristy are approximate. The available photographs predate the 2026 works, so the roofs, the bell-turret spires and the gutters are shown in the copper supplied by COLOR METAL according to its records."
+ }
+}

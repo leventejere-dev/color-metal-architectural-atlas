@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 62.7,
+  "bearingSource": "OSM way 1168504528 long axis 62.7°; +X points to the altar apse (ENE), where the outline shows the lateral-apse lobes and the rounded altar end and where OSM places the tower (way 1168504529); photos 01 (south) and 02 (north) confirm the tower over the naos next to the apses",
+  "cover": "01",
+  "photosUsed": 5,
+  "approximations": "No published dimensions were found. The OSM outline (44.7 × 25.1 m) follows the very wide eaves, so the walls are placed about 1.9 m inside it (≈ 40.8 × 12.6 m). Wall height (≈ 11 m on a 2 m stone plinth), roof pitches and the tower (eave ≈ 21 m, cross ≈ 31 m) are scaled from photos 01 and 02; apse radii and porch sizes follow the outline. The frescoes are reduced to one blue-green tone with register lines and blind arcades; carved and painted ornament is omitted. Which surfaces received the COLOR METAL copper is not documented: the photographs (2021–2024) show the church with shingle roofs, and all church roofs and the tower helm are shown in weathered copper as the most likely surface, keeping the photographed roof forms.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii de referință publice; dimensiunile sunt estimate după conturul acoperișului din OSM și după fotografii. Cuprul a fost livrat de COLOR METAL, conform evidențelor sale, fără a fi precizată suprafața; fotografiile disponibile arată acoperișurile din șiță, iar acoperișurile bisericii și coiful turlei sunt redate în cupru patinat, ca suprafață cea mai probabilă.",
+    "hu": "Nyilvános referenciafotók alapján értelmezett makett; a méretek az OSM tetőkontúrja és a fotók alapján becsültek. A rezet a COLOR METAL szállította nyilvántartása szerint, de a felület nincs megnevezve; a rendelkezésre álló fotókon zsindelyfedés látható, a templom tetői és a torony sisakja ezért öregedett rézzel, a legvalószínűbb felületként jelennek meg.",
+    "en": "Scale model interpreted from public reference photographs; dimensions are estimated from the OSM roof outline and the photographs. The copper was supplied by COLOR METAL according to its records without naming the surface; the available photographs show the shingle roofs, so the church roofs and the tower helm are shown in weathered copper as the most likely surface."
+  }
+}

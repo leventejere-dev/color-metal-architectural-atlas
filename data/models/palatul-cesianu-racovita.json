@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 154.2,
+ "bearingSource": "OSM way 1171678982 long axis 154.2°; +X points SSE to the street façade on Str. C. A. Rosetti, which runs along the short SSE side of the 26.2 × 21.0 m outline (OSM road geometry); +Z (244.2°) is the gate side with the entrance porch, the −Z side abuts the neighbouring building (OSM way 4771) along its street half.",
+ "cover": "01",
+ "photosUsed": 3,
+ "approximations": "Heights scaled from the photographs (string course ≈ 5.3 m, architrave ≈ 10.6 m, cornice top ≈ 13.35 m). The low hipped roof is hidden behind the cornice in all photographs (only its grey metal edge shows): pitch (≈ 12°), ridge height and the two chimneys are estimated. The rear (NNW) elevation and the free half of the ENE side are not photographed (simple window rhythm assumed). Channelled rustication, frieze reliefs, herm pilasters, balcony consoles and window pediments are simplified; awnings and signage are omitted.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; acoperișul în patru ape, ascuns în spatele cornișei, este redat cu panta estimată, în tabla de titan-zinc natural livrată de COLOR METAL conform evidențelor firmei. Fațadele nefotografiate și ornamentația sunt simplificate.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a párkány mögé rejtett, alacsony kontytető becsült hajlással, a COLOR METAL nyilvántartása szerint szállított natúr titáncink lemezzel jelenik meg. A nem fényképezett homlokzatok és a díszítés egyszerűsített.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the low hipped roof hidden behind the cornice is shown with an estimated pitch in the natural titanium-zinc supplied by COLOR METAL according to its records. The unphotographed elevations and the ornament are simplified."
+ }
+}

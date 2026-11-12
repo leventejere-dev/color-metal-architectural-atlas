@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 71.6,
+ "bearingSource": "OSM way 1223823422 is a round outline (≈ 4 m); +X set to its nominal long axis 71.6°. The rotation of the six columns relative to north is not verifiable from the photographs.",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "One as-built photograph (01, Oct 2023) plus two 2019 design renderings (02–03). Size taken from the photo proportions (eaves ≈ 3.1–3.45 m, eave band ≈ 5.3 m across, top ≈ 7 m); the OSM outline (≈ 4 m) and the press figure (≈ 20 m²) disagree, the model sits between them. Y-arm curvature, gate ornament (vertical bars with two sweeping curves per bay) and the lantern's louvred pointed openings are simplified; the paved floor is reduced to a disc.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice (o fotografie a construcției finalizate și două randări de proiect); dimensiunile sunt estimate. Nervurile, banda streașinii, gulerul și lanterna din cupru TECU Oxid sunt redate așa cum apar în fotografia din 2023, cupola fiind acoperită cu țiglă solzi.",
+  "hu": "Nyilvános referenciafotók (egy fotó az elkészült épületről és két tervezői látványterv) alapján értelmezett makett; a méretek becsültek. A TECU Oxid réz bordák, ereszsáv, gallér és lámpás a 2023-as fotón látható módon jelenik meg, a kupola hódfarkú cseréppel fedett.",
+  "en": "Scale model interpreted from public reference photographs (one photograph of the completed pavilion and two design renderings); dimensions are estimated. The TECU Oxid copper ribs, eaves band, collar and lantern are shown as photographed in 2023, with the dome itself in beaver-tail clay tiles."
+ }
+}

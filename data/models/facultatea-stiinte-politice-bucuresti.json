@@ -1,0 +1,15 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 74.5,
+ "bearingSource": "OSM way 186600911 long axis 74.5°; +X points ENE, the street front (−X: risalit with attic block, Ionic porch) faces WSW (254.5°) onto Str. Spiru Haret, which runs along the west side of the outline (OSM road geometry).",
+ "cover": "05",
+ "photosUsed": 8,
+ "identification": "The photographed villa matches the Spiru Haret 8 outline (OSM 186600911): the street risalit (≈ 7.1 m wide, ≈ 2.7 m deep) and the shallower Ionic porch to its right (≈ 1.4 m) correspond to the two projections on the west side of the outline, facing Str. Spiru Haret; an aerial view shows a light grey-green hipped metal roof with a flat raised block on that side. The photographs (02–08) show a light grey standing-seam metal roof (low hip, seams visible in 07/08) and dark metal cornice flashing/gutters — no ceramic tiles are visible, so the anuala.ro statement about ceramic tiles is not borne out by these photographs. The visible titanium-zinc is the low hipped roof (thin band behind the cornice) and the covering of the attic block.",
+ "approximations": "North, east and south elevations are not photographed (window rhythm repeated, the south and east projections modelled as one-storey bays). Heights estimated from window sizes (first floor ≈ 6.2 m, cornice top ≈ 12.2 m, attic ≈ 14.75 m); roof pitch (≈ 12°) and attic depth estimated; the dark cornice capping/gutters are rendered as dark metal; balusters, Ionic capitals, modillions and mouldings simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință și conturul OSM al clădirii din Str. Spiru Haret 8; fațadele nefotografiate, adâncimea aticului și panta acoperișului sunt aproximate, iar ornamentația este simplificată.",
+  "hu": "A referenciafotók és a Spiru Haret utca 8. szám alatti épület OSM-körvonala alapján értelmezett makett; a nem fényképezett homlokzatok, az attika mélysége és a tetőhajlás közelítő, a díszítés egyszerűsített.",
+  "en": "Scale model interpreted from the reference photographs and the OSM outline of the building at 8 Spiru Haret Street; the unphotographed elevations, the attic depth and the roof pitch are approximated, and the ornament is simplified."
+ }
+}

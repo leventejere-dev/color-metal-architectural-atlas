@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 88.0,
+ "bearingSource": "Long walls of the OSM outline (way 585720583) run at ≈88°; the footprintDims bearing 83.1° is skewed by the side chapels and porches. +X points to the choir (east); the south side with the transverse gables faces +Z.",
+ "cover": "01",
+ "photosUsed": 5,
+ "approximations": "Tower 73.3 m to the finial (published height); stage heights, top cornice (≈49 m), main roof ridge (≈34 m) and wall height (≈15.5 m) estimated from the photographs. Exact tower position within the west bay, the Ferula roof and west front, the north-aisle bay division and the sacristy are interpreted (only partly photographed). Tracery, sculpture and the dog-tooth gable edging are simplified; the glazed-tile lozenge pattern is generic. The copper supplied by COLOR METAL in 2021 according to its records is not located in any source and the post-restoration photographs show glazed tiles on all roofs, the spire and the turret caps; the copper is therefore shown (weathered) on the tower and turret finials, cornice and set-off flashings, buttress weatherings, gutters and downpipes.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință. Acoperișurile, coiful și turnulețele sunt redate cu țigla smălțuită vizibilă în fotografiile de după restaurare; cuprul livrat de COLOR METAL în 2021 nu este localizat în surse, de aceea apare pe elementele de tinichigerie ale turnului, la glafuri, jgheaburi și burlane.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett. A tetők, a toronysisak és a fiatornyok a felújítás utáni fotókon látható mázas cseréppel jelennek meg; a COLOR METAL által 2021-ben szállított réz helye a forrásokban nem szerepel, ezért a torony bádogos elemein, a támpillérek fedésein, az ereszcsatornákon és lefolyókon látható.",
+  "en": "Scale model interpreted from public reference photographs. The roofs, spire and corner turrets are shown in the glazed tiles visible in the post-restoration photographs; the location of the copper supplied by COLOR METAL in 2021 is not documented, so it is shown on the tower's sheet-metal details, the buttress weatherings, gutters and downpipes."
+ }
+}

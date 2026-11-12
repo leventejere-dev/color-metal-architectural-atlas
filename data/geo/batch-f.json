@@ -1,0 +1,1763 @@
+[
+ {
+  "id": "biserica-calvaria-cluj",
+  "officialName": "Biserica Calvaria de la Cluj-Mănăștur",
+  "nameHu": "Kolozsmonostori Kálvária-templom",
+  "altNames": [
+   "Biserica Calvaria",
+   "Kolozsmonostori apátság (templom)",
+   "Cluj-Mănăștur Calvaria Church",
+   "Kalvarienkirche"
+  ],
+  "category": "church",
+  "address": "Strada Primăverii 60, 400536 Cluj-Napoca",
+  "city": "Cluj-Napoca",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.761261,
+  "lon": 23.557926,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 91738616,
+   "tags": {
+    "addr:city": "Cluj-Napoca",
+    "addr:country": "RO",
+    "addr:housenumber": "60",
+    "addr:postcode": "400536",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Primăverii",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "roman_catholic",
+    "name": "Biserica Calvaria",
+    "name:de": "Kalvarienkirche",
+    "name:en": "Calvaria Church",
+    "name:hu": "Kolozsmonostori apátság",
+    "name:ro": "Biserica Calvaria",
+    "religion": "christian",
+    "url:miserend": "http://miserend.hu/templom/4971",
+    "wheelchair": "yes",
+    "wikipedia": "ro:Biserica Calvaria de la Cluj-Mănăștur"
+   }
+  },
+  "footprint": [
+   [
+    46.761357,
+    23.557737
+   ],
+   [
+    46.761307,
+    23.557986
+   ],
+   [
+    46.761291,
+    23.55798
+   ],
+   [
+    46.761281,
+    23.558031
+   ],
+   [
+    46.761334,
+    23.558049
+   ],
+   [
+    46.761315,
+    23.558142
+   ],
+   [
+    46.761271,
+    23.558122
+   ],
+   [
+    46.76124,
+    23.558124
+   ],
+   [
+    46.761218,
+    23.558145
+   ],
+   [
+    46.761196,
+    23.558158
+   ],
+   [
+    46.76118,
+    23.55814
+   ],
+   [
+    46.761174,
+    23.558116
+   ],
+   [
+    46.761206,
+    23.557949
+   ],
+   [
+    46.761187,
+    23.557944
+   ],
+   [
+    46.761227,
+    23.557702
+   ],
+   [
+    46.761357,
+    23.557737
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 34.9,
+   "widthM": 17.1,
+   "bearingDeg": 96.5
+  },
+  "heightHints": "Single-nave Gothic church (Roman Catholic) on a hilltop: tall nave and polygonal choir under one steep gable roof, slender tower with pointed spire (Commons photos 2009-2014). No measured height found.",
+  "photos": 4,
+  "metalVisibleInPhotos": "Photos (2009-2014) predate the 2026 copper re-roofing: they show the previous red ceramic-tile roof on nave and choir and a dark spire. The new copper (0.5 mm Cu-DHP band) is not visible in any photo found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/91738616",
+   "https://www.wikidata.org/wiki/Q831944",
+   "https://ro.wikipedia.org/wiki/Biserica_Calvaria_de_la_Cluj-M%C4%83n%C4%83%C8%99tur",
+   "https://en.wikipedia.org/wiki/Cluj-M%C4%83n%C4%83%C8%99tur_Calvaria_Church",
+   "https://commons.wikimedia.org/wiki/Category:Cluj-M%C4%83n%C4%83%C8%99tur_Calvaria_Church"
+  ],
+  "verificationNotes": "Primăverii nr. 60) match OSM way 91738616 exactly ('Biserica Calvaria', addr Strada Primăverii 60, roman_catholic, wikipedia ro:Biserica Calvaria de la Cluj-Mănăștur). Wikidata Q831944 (LMI CJ-II-m-A-07396) gives 46.76139, 23.55778, ~20 m from the outline centroid. No press report of the 2026 roof works was found, so all available photos show the old tile roof.",
+  "registerKeys": [
+   "3095f5e7a55e0dfb"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "uad-cluj",
+  "officialName": "Universitatea de Artă și Design din Cluj-Napoca",
+  "nameHu": null,
+  "altNames": [
+   "UAD Cluj",
+   "Art and Design University of Cluj-Napoca"
+  ],
+  "category": "education",
+  "address": "Piața Unirii 31, 400098 Cluj-Napoca (registered seat; the building actually roofed is unknown)",
+  "city": "Cluj-Napoca",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.7697101,
+  "lon": 23.5908842,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/2942264102",
+   "https://www.openstreetmap.org/way/1120513435",
+   "https://www.openstreetmap.org/way/50367882",
+   "https://www.openstreetmap.org/way/276967392",
+   "https://www.openstreetmap.org/way/275080536",
+   "https://actualdecluj.ro/uad-cluj-in-ce-conditii-ar-putea-fi-restaurata-casa-in-care-s-a-nascut-matei-corvin-din-centrul-clujului/"
+  ],
+  "verificationNotes": "Matei Corvin 6, library), str. Aurel Vlaicu 17-19 campus (OSM way 1120513435), pavilion in Parcul Central (OSM way 50367882), administrative building Bd. 21 Decembrie 1989 nr. 90 (OSM way 276967392), Design department str. F. D. Roosevelt 8 (OSM way 275080536), Foto department str. Observatorului 5. No press, tender or photo identifying which one received the 2025 roof was found (sicap.ai refused access). No photos downloaded.",
+  "registerKeys": [
+   "fd9f9b2cefba57b0"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "clinica-croitorilor-cluj",
+  "officialName": "Clinica Croitorilor (unidentified building on/near Strada Croitorilor)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "healthcare",
+  "address": "Strada Croitorilor, Cluj-Napoca (exact building unknown)",
+  "city": "Cluj-Napoca",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.7758467,
+  "lon": 23.5930667,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/31620416",
+   "https://www.openstreetmap.org/way/276472347",
+   "https://www.openstreetmap.org/way/954157913",
+   "https://actualdecluj.ro/exclusiv-a-doua-incercare-pentru-extinderea-de-aproape-40-milioane-de-euro-a-institutului-de-gastroenterologie-din-cluj-prima-licitatie-a-fost-anulata-in-2025-dupa-o-decizie-a-curtii-de-apel-cluj/"
+  ],
+  "verificationNotes": "No clinic of that name was found. Strada Croitorilor hosts the public medical complex at nr. 19-21 (Institutul Regional de Gastroenterologie-Hepatologie 'Prof. Dr. Octavian Fodor' / Clinica Medicală III and Chirurgie III; OSM ways 954157913, 276472347), which is a plausible candidate, but no press report or photo shows gold-coloured titanium-zinc there (the extension on Croitorilor/Iașilor was still at tender stage in 2025-2026). It may also be a private clinic. Coordinates are Strada Croitorilor (street) as a placeholder. No photos downloaded.",
+  "registerKeys": [
+   "91606f4ab51f2513"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Rainbow Gold"
+  ]
+ },
+ {
+  "id": "muzeul-de-arta-cluj",
+  "officialName": "Palatul Bánffy din Cluj-Napoca (Muzeul de Artă Cluj-Napoca)",
+  "nameHu": "Bánffy-palota",
+  "altNames": [
+   "Muzeul de Artă Cluj-Napoca",
+   "Palatul Bánffy",
+   "Bánffy Palace",
+   "Kolozsvári Bánffy-palota"
+  ],
+  "category": "museum",
+  "address": "Piața Unirii 30, 400095 Cluj-Napoca",
+  "city": "Cluj-Napoca",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.770617,
+  "lon": 23.590664,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "relation",
+   "id": 15427149,
+   "tags": {
+    "addr:city": "Cluj-Napoca",
+    "addr:housenumber": "30",
+    "addr:street": "Piața Unirii",
+    "building": "yes",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "historic": "building",
+    "layer": "1",
+    "name": "Palatul Bánffy",
+    "ref:RO:lmi": "CJ-II-m-A-07497",
+    "type": "multipolygon",
+    "wikidata": "Q716390",
+    "wikipedia": "ro:Palatul Bánffy din Cluj-Napoca"
+   }
+  },
+  "footprint": [
+   [
+    46.770423,
+    23.590777
+   ],
+   [
+    46.770538,
+    23.591169
+   ],
+   [
+    46.770547,
+    23.591193
+   ],
+   [
+    46.77056,
+    23.591185
+   ],
+   [
+    46.770597,
+    23.59116
+   ],
+   [
+    46.770923,
+    23.590942
+   ],
+   [
+    46.770921,
+    23.590936
+   ],
+   [
+    46.770889,
+    23.590822
+   ],
+   [
+    46.770846,
+    23.59067
+   ],
+   [
+    46.770701,
+    23.590152
+   ],
+   [
+    46.770555,
+    23.590239
+   ],
+   [
+    46.770551,
+    23.590224
+   ],
+   [
+    46.770544,
+    23.590228
+   ],
+   [
+    46.770542,
+    23.59022
+   ],
+   [
+    46.770486,
+    23.590253
+   ],
+   [
+    46.77042,
+    23.590292
+   ],
+   [
+    46.770423,
+    23.590306
+   ],
+   [
+    46.770417,
+    23.59031
+   ],
+   [
+    46.770421,
+    23.590323
+   ],
+   [
+    46.770309,
+    23.59039
+   ],
+   [
+    46.770423,
+    23.590777
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 68.7,
+   "widthM": 47.2,
+   "bearingDeg": 66.8
+  },
+  "heightHints": "Late-Baroque palace built 1774-1785 (architect Johann Eberhard Blaumann, ro.wikipedia) on the sides of a rectangular inner courtyard; photos show ground floor + one upper floor with tall red-tiled hipped roofs and dormers, central balcony/portico and roof-line statuary on the Piața Unirii façade; arcaded galleries in the courtyard. OSM relation is a multipolygon with layer=1; the outer ring is used here (courtyard not subtracted).",
+  "photos": 5,
+  "metalVisibleInPhotos": "Photos (2012-2019) predate the 2021 copper works: roofs are red ceramic tile with dormers; small metal elements (dormer cheeks, flashings, gutters/downpipes) are visible but their material cannot be told; no clearly identifiable new copper.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/15427149",
+   "https://www.wikidata.org/wiki/Q716390",
+   "https://ro.wikipedia.org/wiki/Palatul_B%C3%A1nffy_din_Cluj-Napoca",
+   "https://commons.wikimedia.org/wiki/Category:B%C3%A1nffy_Palace,_Cluj-Napoca",
+   "https://actualdecluj.ro/muzeul-de-arta-din-palatul-banffy-isi-va-schimba-fata-se-pun-schelele-pentru-reabilitarea-fatadei/",
+   "https://adevarul.ro/stiri-locale/cluj-napoca/muzeul-de-arta-din-cluj-se-schimba-la-fata-1880023.html"
+  ],
+  "verificationNotes": "a basement/lower-level element). The Art Museum of Cluj-Napoca is housed in the Bánffy Palace, Piața Unirii 30 (OSM relation 15427149, LMI CJ-II-m-A-07497, Wikidata Q716390). Façade/masonry rehabilitation of the palace was reported in the press; no source specifically describing the 2021 copper works was found, so which roof parts were re-covered is unconfirmed.",
+  "registerKeys": [
+   "fdbf22b0cc5638ee"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "liceul-bolyai-farkas-targu-mures",
+  "officialName": "Liceul Teoretic „Bolyai Farkas” Târgu Mureș",
+  "nameHu": "Bolyai Farkas Elméleti Líceum",
+  "altNames": [
+   "Marosvásárhelyi Református Kollégium",
+   "Colegiul Reformat Târgu Mureș (historic building)",
+   "Bólyai Farkas Középiskola"
+  ],
+  "category": "education",
+  "address": "Strada Bolyai 3, Târgu Mureș",
+  "city": "Târgu Mureș",
+  "county": "Mureș",
+  "country": "Romania",
+  "lat": 46.543597,
+  "lon": 24.563754,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 31530698,
+   "tags": {
+    "building": "school"
+   }
+  },
+  "footprint": [
+   [
+    46.54338,
+    24.563772
+   ],
+   [
+    46.54337,
+    24.563749
+   ],
+   [
+    46.543364,
+    24.563722
+   ],
+   [
+    46.543364,
+    24.563695
+   ],
+   [
+    46.543369,
+    24.563668
+   ],
+   [
+    46.543597,
+    24.563201
+   ],
+   [
+    46.543693,
+    24.563289
+   ],
+   [
+    46.543545,
+    24.563636
+   ],
+   [
+    46.543548,
+    24.563646
+   ],
+   [
+    46.543549,
+    24.563657
+   ],
+   [
+    46.543549,
+    24.563668
+   ],
+   [
+    46.543546,
+    24.563678
+   ],
+   [
+    46.543541,
+    24.563688
+   ],
+   [
+    46.543535,
+    24.5637
+   ],
+   [
+    46.543529,
+    24.563713
+   ],
+   [
+    46.543523,
+    24.563725
+   ],
+   [
+    46.543517,
+    24.563738
+   ],
+   [
+    46.543573,
+    24.563738
+   ],
+   [
+    46.543579,
+    24.563727
+   ],
+   [
+    46.543587,
+    24.563721
+   ],
+   [
+    46.543597,
+    24.563721
+   ],
+   [
+    46.543605,
+    24.563728
+   ],
+   [
+    46.543643,
+    24.563796
+   ],
+   [
+    46.543644,
+    24.563805
+   ],
+   [
+    46.543643,
+    24.563815
+   ],
+   [
+    46.54364,
+    24.563824
+   ],
+   [
+    46.543636,
+    24.563831
+   ],
+   [
+    46.543603,
+    24.563874
+   ],
+   [
+    46.543671,
+    24.563886
+   ],
+   [
+    46.543677,
+    24.563878
+   ],
+   [
+    46.543686,
+    24.563875
+   ],
+   [
+    46.543694,
+    24.563878
+   ],
+   [
+    46.5437,
+    24.563886
+   ],
+   [
+    46.543817,
+    24.563793
+   ],
+   [
+    46.543923,
+    24.563899
+   ],
+   [
+    46.543652,
+    24.564147
+   ],
+   [
+    46.543645,
+    24.564151
+   ],
+   [
+    46.543637,
+    24.564152
+   ],
+   [
+    46.54363,
+    24.564149
+   ],
+   [
+    46.543623,
+    24.564144
+   ],
+   [
+    46.543596,
+    24.564103
+   ],
+   [
+    46.543569,
+    24.564095
+   ],
+   [
+    46.543488,
+    24.563949
+   ],
+   [
+    46.54339,
+    24.563815
+   ],
+   [
+    46.54338,
+    24.563772
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 64.5,
+   "widthM": 50.6,
+   "bearingDeg": 57.8
+  },
+  "heightHints": "Main (central) building 1908-1909 by Baumgarten Sándor, Secession style: ground floor + 2 upper floors with a small clock turret on the main façade; the older 1802 wing has basement + ground + 2 floors and a small bell turret; long 1871 wing along str. Bolyai (cultura.inmures.ro, Commons 2023 photos).",
+  "photos": 4,
+  "metalVisibleInPhotos": "2023 photos (after the 2021-2022 restoration): the long wing along str. Bolyai has a grey standing-seam metal roof consistent with natural titanium-zinc (photo 04); grey metal covers the clock turret, dormers and flashings; the main pitched roofs of the central block are red tile.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/31530698",
+   "https://www.openstreetmap.org/way/193878415",
+   "https://www.openstreetmap.org/way/31530942",
+   "https://cultura.inmures.ro/en/orasul-vechi/architectural-monuments/architectural-monuments-tirgu-mures/the-bolyai-highschool-building.html",
+   "https://agerpres.ro/educatie-stiinta/2022/10/31/mures-cladirile-a-doua-licee-restaurate-cu-sprijinul-financiar-al-ungariei-inaugurate-in-prezenta-lu--1005426",
+   "https://www.g4media.ro/investitii-de-8-milioane-de-euro-asigurate-de-guvernul-ungariei-pentru-reabilitarea-cladirilor-in-care-functioneaza-liceul-bolyai-farkas-si-colegiul-reformat-din-targu-mures.html"
+  ],
+  "verificationNotes": "School identified by name; the buildings at str. OSM: school campus polygon way 193878415 (amenity=college) contains several building outlines; the footprint given is the largest, detailed building outline way 31530698 (building=school, ~1576 m²) which appears to be the main historic block; the wing along str. Bolyai is way 31530942 (60 x 19 m). Which wings got titanium-zinc is not documented;",
+  "registerKeys": [
+   "d8b8408d8a13dfcf"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-beica",
+  "officialName": "Biserica din Beica (unidentified; Beica de Jos commune, Mureș)",
+  "nameHu": null,
+  "altNames": [
+   "Alsóbölkény / Felsőbölkény templom (candidate)"
+  ],
+  "category": "church",
+  "address": "Beica de Jos commune, Mureș (exact church unknown)",
+  "city": "Beica de Jos",
+  "county": "Mureș",
+  "country": "Romania",
+  "lat": 46.7337,
+  "lon": 24.7968,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/12570902",
+   "https://www.openstreetmap.org/node/2431222966",
+   "https://www.openstreetmap.org/node/2431222942",
+   "https://ro.wikipedia.org/wiki/Beica_de_Jos,_Mure%C8%99"
+  ],
+  "verificationNotes": "'Beica' is ambiguous: Beica de Jos village has a Reformed church (1742), a Roman Catholic church (1938) and an Orthodox wooden church (ro.wikipedia); Beica de Sus also has a church (OSM node 2431222942). No press report of 2026 works was found. Coordinates = Beica de Jos village church area (locality placeholder). The company's own photos would resolve it. No web photos downloaded.",
+  "registerKeys": [
+   "19a0076832d9c173"
+  ],
+  "registerMetals": [
+   "aluminium"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "pensiunea-aster-campu-cetatii",
+  "officialName": "Pensiunea Aster",
+  "nameHu": "Aster Panzió",
+  "altNames": [
+   "ASTER panzió (Vármező)"
+  ],
+  "category": "commercial",
+  "address": "Strada Principală 122, 547212 Câmpu Cetății (com. Eremitu), Mureș",
+  "city": "Câmpu Cetății",
+  "county": "Mureș",
+  "country": "Romania",
+  "lat": 46.6704272,
+  "lon": 25.0139733,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Listing photos show a two-storey timber-clad, barn-type guesthouse with a steep pitched roof and large glazed openings; no measured height.",
+  "photos": 2,
+  "metalVisibleInPhotos": "Listing photos show red tile roof and timber cladding; no titanium-zinc visible (photos probably predate the 2022 works or show another part).",
+  "sourceUrls": [
+   "https://m.hotele.pl/en/romania/cimpu-cetatii/aster-panzio",
+   "https://www.openstreetmap.org/node/345720918"
+  ],
+  "verificationNotes": "Principală 122, 547212) match the guesthouse 'ASTER panzió' listed by booking aggregators at the same address. House number 122 is not mapped in OSM, and house numbering along Strada Principală is irregular in OSM (nr. 16A, 40 and 137B are mapped far apart), so the position cannot be interpolated; coordinates are the village centre node. The listing photos (undated, from Booking via hotele.pl) show a tiled roof, so they may predate the 2022 titanium-zinc (elZinc Slate) work or show a different part of the property. Caution: a Hungarian booking site lists 'Pensiunea Aster Câmpu Cetății' about 10.6 km from Vármező (as indexed by the search engine; page not accessible), so the guesthouse may lie well up the Niraj valley along Strada Principală rather than in the village centre - the coordinate may be off by several km.",
+  "registerKeys": [
+   "efcde9558ac01f8b"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "catedrala-evanghelica-sibiu",
+  "officialName": "Catedrala Evanghelică „Sfânta Maria” din Sibiu",
+  "nameHu": "Szent Mária evangélikus templom (Nagyszeben)",
+  "altNames": [
+   "Biserica parohială evanghelică Sf. Maria",
+   "Evangelische Stadtpfarrkirche Hermannstadt",
+   "Lutheran Cathedral of Saint Mary, Sibiu"
+  ],
+  "category": "church",
+  "address": "Piața Huet, 550182 Sibiu",
+  "city": "Sibiu",
+  "county": "Sibiu",
+  "country": "Romania",
+  "lat": 45.797769,
+  "lon": 24.150065,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 585720583,
+   "tags": {
+    "addr:city": "Sibiu",
+    "addr:street": "Piața Huet",
+    "amenity": "place_of_worship",
+    "building": "cathedral",
+    "denomination": "lutheran",
+    "height": "74",
+    "historic": "church",
+    "image": "https://photos.app.goo.gl/MPtF85WxjJNp7XAB7",
+    "name": "Catedrala Evanghelică \"Sfânta Maria\"",
+    "name:ca": "Catedral evangèlica de Santa Maria",
+    "name:de": "Evangelische Stadtpfarrkirche",
+    "name:en": "Lutheran Cathedral of Saint Mary",
+    "name:es": "Catedral Luterana de Sibiu",
+    "name:fr": "Cathédrale évangélique Sainte-Marie",
+    "name:hu": "Szent Mária evangélikus Templom",
+    "name:pl": "Kościół Najświętszej Marii Panny w Sybinie",
+    "name:sl": "Protestantska župnijska cerkev svete Marije",
+    "religion": "christian",
+    "url": "https://youtu.be/CekD_s5xZd0?si=oFtov2foqWl-mk1A",
+    "website": "https://hermannstadt.evang.ro/ro/cultura-turism/biserica-parohiala-evanghelica-sf-maria/",
+    "wikidata": "Q1760429",
+    "wikipedia": "ro:Catedrala Evanghelică din Sibiu"
+   }
+  },
+  "footprint": [
+   [
+    45.797721,
+    24.150448
+   ],
+   [
+    45.797722,
+    24.150523
+   ],
+   [
+    45.797751,
+    24.15056
+   ],
+   [
+    45.797785,
+    24.15056
+   ],
+   [
+    45.797818,
+    24.15052
+   ],
+   [
+    45.797816,
+    24.150449
+   ],
+   [
+    45.797921,
+    24.150444
+   ],
+   [
+    45.797918,
+    24.150325
+   ],
+   [
+    45.79795,
+    24.150323
+   ],
+   [
+    45.797947,
+    24.150186
+   ],
+   [
+    45.797883,
+    24.150189
+   ],
+   [
+    45.797879,
+    24.150058
+   ],
+   [
+    45.79793,
+    24.150054
+   ],
+   [
+    45.797929,
+    24.150009
+   ],
+   [
+    45.797929,
+    24.149968
+   ],
+   [
+    45.797876,
+    24.14997
+   ],
+   [
+    45.797866,
+    24.149599
+   ],
+   [
+    45.797642,
+    24.149607
+   ],
+   [
+    45.797643,
+    24.149702
+   ],
+   [
+    45.797644,
+    24.149798
+   ],
+   [
+    45.797629,
+    24.149798
+   ],
+   [
+    45.797617,
+    24.149812
+   ],
+   [
+    45.797617,
+    24.149824
+   ],
+   [
+    45.797618,
+    24.149834
+   ],
+   [
+    45.79763,
+    24.149845
+   ],
+   [
+    45.797644,
+    24.149845
+   ],
+   [
+    45.797647,
+    24.149996
+   ],
+   [
+    45.797595,
+    24.149999
+   ],
+   [
+    45.797595,
+    24.150036
+   ],
+   [
+    45.797596,
+    24.150088
+   ],
+   [
+    45.797649,
+    24.150088
+   ],
+   [
+    45.797651,
+    24.150218
+   ],
+   [
+    45.797628,
+    24.150218
+   ],
+   [
+    45.797631,
+    24.150353
+   ],
+   [
+    45.797655,
+    24.150351
+   ],
+   [
+    45.797657,
+    24.150452
+   ],
+   [
+    45.797721,
+    24.150448
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 75.2,
+   "widthM": 37.8,
+   "bearingDeg": 83.1
+  },
+  "heightHints": "OSM height=74 (west tower, the tallest structure of the old town). Gothic hall church: high nave roof with polychrome glazed tiles, lower aisle roofs, choir; tower with steep pointed spire and four corner turrets.",
+  "photos": 5,
+  "metalVisibleInPhotos": "Roofs and spire are polychrome glazed ceramic tile; small metal elements (flashings, gutters, turret tips, crosses) are visible but no distinct copper surface can be identified in the photos (2021-2026).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/585720583",
+   "https://www.wikidata.org/wiki/Q1760429",
+   "https://ro.wikipedia.org/wiki/Catedrala_Evanghelic%C4%83_din_Sibiu",
+   "https://orgeldatei.evang.ro/organ/pdf/432",
+   "https://www.evangelisch.de/inhalte/232391/01-08-2024/pfarrer-doerr-hermannstadt-als-kirche-stehen-wir-mit-beiden-beinen-im-leben",
+   "https://commons.wikimedia.org/wiki/Category:Evangelical_Cathedral,_Sibiu"
+  ],
+  "verificationNotes": "Unambiguous: the Lutheran cathedral of St Mary, Piața Huet (OSM way 585720583, Wikidata Q1760429, LMI SB-II-m-A-12078). The main roofs are glazed ceramic tiles; the copper was probably used for flashings, gutters, small roofs or tower details, but which elements is not documented.",
+  "registerKeys": [
+   "2c42fbea26b526e2"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "sediu-sts-sibiu",
+  "officialName": "Sediul STS Sibiu - Centrul de servicii esențiale de comunicații și tehnologia informației (Direcția Județeană de Telecomunicații Speciale Sibiu)",
+  "nameHu": null,
+  "altNames": [
+   "STS Sibiu new headquarters",
+   "Centrul STS Sibiu"
+  ],
+  "category": "commercial",
+  "address": "Strada Oituz (north end, next to Cinema Arta / Piața Aurel Vlaicu), Sibiu - exact number not published",
+  "city": "Sibiu",
+  "county": "Sibiu",
+  "country": "Romania",
+  "lat": 45.7836,
+  "lon": 24.1494,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 1,
+  "metalVisibleInPhotos": "no copper cladding visible on this side.",
+  "sourceUrls": [
+   "https://sibiuindependent.ro/2022/11/08/noul-sediu-sts-sibiu-a-fost-inaugurat/",
+   "https://sibiuindependent.ro/2022/05/11/noul-sediu-sts-de-la-sibiu-primeste-cadou-teren-pentru-parcari/",
+   "https://www.oradesibiu.ro/2021/09/14/video-foto-sediu-de-milioane-de-euro-pentru-sts-la-sibiu-va-fi-ultra-modern-si-deserveste-comandamentul-nato/",
+   "https://www.stiripesurse.ro/special-telecommunications-service-inaugurates-center-for-essential-services-of-communications-and-information-technology_2646145.html",
+   "https://mitropolia-ardealului.ro/noul-sediu-sts-de-la-sibiu-a-fost-binecuvantat-de-catre-inaltpreasfintitul-parinte-mitropolit-laurentiu/",
+   "https://www.openstreetmap.org/node/5847933257",
+   "https://www.openstreetmap.org/node/599292677"
+  ],
+  "verificationNotes": "Press locates it on Strada Oituz behind the Raiffeisen Bank branch and right next to Cinema Arta (Piața Aurel Vlaicu 10 and 11, OSM nodes 599292677 and 5847933257); the building is not named in OSM and could not be matched to a specific outline, so coordinates are the street block (uncertainty ~±150 m) and no footprint is given. no copper cladding is visible in them, so the copper may be on another façade or element - unconfirmed.",
+  "registerKeys": [
+   "e454b0adf17f796e"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-evanghelica-codlea",
+  "officialName": "Biserica evanghelică fortificată din Codlea",
+  "nameHu": null,
+  "altNames": [
+   "Biserica fortificată din Codlea",
+   "Kirchenburg Zeiden",
+   "Fortified church of Codlea"
+  ],
+  "category": "church",
+  "address": "Promenada (town centre), 505100 Codlea",
+  "city": "Codlea",
+  "county": "Brașov",
+  "country": "Romania",
+  "lat": 45.699877,
+  "lon": 25.446148,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 178933892,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "lutheran",
+    "historic": "church",
+    "name": "Biserica fortificată din Codlea",
+    "name:de": "Kirchenburg von Zeiden",
+    "name:en": "The Fortified Church of Codlea",
+    "religion": "christian",
+    "tourism": "attraction",
+    "wikidata": "Q18537967",
+    "wikipedia": "ro:Biserica fortificată din Codlea"
+   }
+  },
+  "footprint": [
+   [
+    45.699826,
+    25.445861
+   ],
+   [
+    45.699826,
+    25.445926
+   ],
+   [
+    45.69981,
+    25.445926
+   ],
+   [
+    45.69981,
+    25.446028
+   ],
+   [
+    45.69979,
+    25.446028
+   ],
+   [
+    45.69979,
+    25.446115
+   ],
+   [
+    45.699791,
+    25.44623
+   ],
+   [
+    45.699791,
+    25.446246
+   ],
+   [
+    45.699825,
+    25.446246
+   ],
+   [
+    45.699825,
+    25.446317
+   ],
+   [
+    45.699809,
+    25.446317
+   ],
+   [
+    45.699809,
+    25.446395
+   ],
+   [
+    45.699827,
+    25.446395
+   ],
+   [
+    45.699861,
+    25.446444
+   ],
+   [
+    45.699879,
+    25.446445
+   ],
+   [
+    45.699911,
+    25.446391
+   ],
+   [
+    45.699955,
+    25.44639
+   ],
+   [
+    45.699954,
+    25.446248
+   ],
+   [
+    45.699972,
+    25.446248
+   ],
+   [
+    45.699972,
+    25.446131
+   ],
+   [
+    45.699936,
+    25.446131
+   ],
+   [
+    45.699936,
+    25.445861
+   ],
+   [
+    45.699826,
+    25.445861
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 45.4,
+   "widthM": 20.2,
+   "bearingDeg": 89.8
+  },
+  "heightHints": "Massive west bell tower (walls about 5 m thick per kirchenburgen.org) is the dominant element; church with steep roofs inside a fortification ring. No measured height found.",
+  "photos": 3,
+  "metalVisibleInPhotos": "Photos (2008, 2016, 2018) predate the 2021 tower works: the tall pointed tower spire above the clock stage is covered in dark grey material (old covering); the new elZinc Slate (pre-weathered dark grey Ti-Zn) is not documented in available photos.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/178933892",
+   "https://www.wikidata.org/wiki/Q18537967",
+   "https://ro.wikipedia.org/wiki/Biserica_fortificat%C4%83_din_Codlea",
+   "https://kirchenburgen.org/en/location/zeiden-codlea/",
+   "https://www.evang.ro/fileadmin/EU_Projekt_2016/Codlea.pdf",
+   "https://commons.wikimedia.org/wiki/Category:Fortified_church_in_Codlea"
+  ],
+  "verificationNotes": "Only one Evangelical (Lutheran) church in Codlea: the fortified church (OSM way 178933892, Wikidata Q18537967, LMI BV-II-a-A-11643). The ensemble was repaired under an EU Regional Operational Programme 2014-2020 project run by the Evangelical Church (evang.ro), with completion reported around 2024 (Zeidner Gruß). The OSM outline is the church incl. the tower; the fortification ring is not included.",
+  "registerKeys": [
+   "23e784995cd573b9"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "biserica-evanghelica-maghiara-brasov",
+  "officialName": "Biserica Evanghelică Maghiară din Brașov - ansamblul clădirilor",
+  "nameHu": "Brassói magyar evangélikus templom",
+  "altNames": [
+   "Biserica Evanghelică Maghiară",
+   "Hungarian Lutheran Church, Brașov",
+   "Centrul Creștin Comunitar al Evanghelicilor Maghiari (new building on the site)"
+  ],
+  "category": "church",
+  "address": "Strada Iuliu Maniu 2, Brașov",
+  "city": "Brașov",
+  "county": "Brașov",
+  "country": "Romania",
+  "lat": 45.646019,
+  "lon": 25.596592,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 272913008,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2025-06-25",
+    "denomination": "lutheran",
+    "name": "Biserica Evanghelică Maghiară",
+    "name:hu": "Magyar evangélikus templom",
+    "religion": "christian",
+    "source": "Bing sat"
+   }
+  },
+  "footprint": [
+   [
+    45.646128,
+    25.59653
+   ],
+   [
+    45.646016,
+    25.596715
+   ],
+   [
+    45.645995,
+    25.596731
+   ],
+   [
+    45.645972,
+    25.596733
+   ],
+   [
+    45.645956,
+    25.596728
+   ],
+   [
+    45.645933,
+    25.596707
+   ],
+   [
+    45.645926,
+    25.596674
+   ],
+   [
+    45.645927,
+    25.596632
+   ],
+   [
+    45.646046,
+    25.59643
+   ],
+   [
+    45.646128,
+    25.59653
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 24.5,
+   "widthM": 12.0,
+   "bearingDeg": 130.1
+  },
+  "heightHints": "Small 1783 church (OSM outline 24.5 x 12 m) with a west tower; neighbouring parish buildings and a new community centre under construction on the same plot (OSM landuse=construction way 1454011091, ~34 x 20 m).",
+  "photos": 2,
+  "metalVisibleInPhotos": "Photos (2014, 2017) predate the 2025 works: red tile roofs on nave and tower spire; the tower's bell stage/lantern has a green band (possibly patinated copper or painted sheet); new copper not visible.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/272913008",
+   "https://www.openstreetmap.org/way/1454011091",
+   "https://www.explorecarpathia.eu/en/romania/brasso-brasov/hungarian-lutheran-church",
+   "https://commons.wikimedia.org/wiki/File:RO_BV_Hungarian_Lutheran_church_in_Bra%C8%99ov.jpg"
+  ],
+  "verificationNotes": "exploreCARPATHIA gives the Hungarian Lutheran church of Brașov at Iuliu Maniu 2 (built 1783); OSM way 272913008 'Biserica Evanghelică Maghiară' lies ~40 m from the Iuliu Maniu 2 address node. OSM shows a construction site named 'Centrul Creștin Comunitar al Evanghelicilor Maghiari' right next to the church, so the copper is probably split between the new community building and the church/parish buildings. Footprint given = the church; accuracy 'site' because the specific roofs are unconfirmed.",
+  "registerKeys": [
+   "645db2c7f69b7eef"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "prefectura-maramures",
+  "officialName": "Palatul Administrativ Baia Mare (Instituția Prefectului – Județul Maramureș și Consiliul Județean Maramureș)",
+  "nameHu": null,
+  "altNames": [
+   "Instituția Prefectului Județul Maramureș",
+   "Prefectura Maramureș",
+   "Palatul Administrativ Maramureș"
+  ],
+  "category": "historic",
+  "address": "Strada Gheorghe Șincai 46, 430311 Baia Mare",
+  "city": "Baia Mare",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.658257,
+  "lon": 23.574669,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 463413142,
+   "tags": {
+    "building": "yes",
+    "name": "Instituția Prefectului și Consiliul Județean Maramureș",
+    "office": "government"
+   }
+  },
+  "footprint": [
+   [
+    47.658108,
+    23.574203
+   ],
+   [
+    47.65784,
+    23.574317
+   ],
+   [
+    47.657919,
+    23.574776
+   ],
+   [
+    47.658207,
+    23.57465
+   ],
+   [
+    47.658193,
+    23.574528
+   ],
+   [
+    47.658212,
+    23.574523
+   ],
+   [
+    47.658267,
+    23.574508
+   ],
+   [
+    47.658358,
+    23.575049
+   ],
+   [
+    47.658421,
+    23.575049
+   ],
+   [
+    47.658451,
+    23.575138
+   ],
+   [
+    47.658418,
+    23.575174
+   ],
+   [
+    47.658393,
+    23.575122
+   ],
+   [
+    47.658201,
+    23.575301
+   ],
+   [
+    47.658281,
+    23.575544
+   ],
+   [
+    47.658593,
+    23.57528
+   ],
+   [
+    47.658358,
+    23.574077
+   ],
+   [
+    47.658325,
+    23.573894
+   ],
+   [
+    47.658221,
+    23.573922
+   ],
+   [
+    47.658223,
+    23.574048
+   ],
+   [
+    47.65818,
+    23.574061
+   ],
+   [
+    47.658215,
+    23.574272
+   ],
+   [
+    47.658163,
+    23.574282
+   ],
+   [
+    47.658125,
+    23.574292
+   ],
+   [
+    47.658108,
+    23.574203
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 118.6,
+   "widthM": 61.6,
+   "bearingDeg": 74.0
+  },
+  "heightHints": "Administrative palace built 1969-1970, ~14,224 m² floor area in six building bodies (corpuri A-F) of different heights; main entrance from str. Gheorghe Șincai (south), secondary access from str. Tineretului (west) (Maramureș County Council documents). Former sheet-metal roofs on bodies A-E (2019 council decision). No storey count found.",
+  "photos": 0,
+  "metalVisibleInPhotos": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/463413142",
+   "https://infocons.ro/?p=197597",
+   "https://emaramures.ro/reabilitarea-si-amenajarea-corpului-b-al-casei-petofi-baia-mare-si-reparatii-capitale-la-acoperisul-si-sarpanta-palatului-administrativ",
+   "https://www.cjmaramures.ro/attachments/procese-verbale/2024-03-26%20-%20Proces%20verbal%20Sedinta%20ordinara.pdf"
+  ],
+  "verificationNotes": "The Maramureș Prefect's Institution (official address str. Gheorghe Șincai nr. 46, 430311 Baia Mare, per InfoCons) shares the Palatul Administrativ at str. Gheorghe Șincai 46 with the County Council (OSM way 463413142 named 'Instituția Prefectului și Consiliul Județean Maramureș'). eMaramureș). The OSM outline (118.6 x 61.6 m) covers the whole complex.",
+  "registerKeys": [
+   "6f588370c755d80d"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-sf-treime-baia-mare",
+  "officialName": "Biserica romano-catolică „Sfânta Treime” din Baia Mare (fosta biserică iezuită)",
+  "nameHu": "Szentháromság-templom (Nagybánya)",
+  "altNames": [
+   "Biserica Sfânta Treime",
+   "Nagybányai jezsuita templom",
+   "Holy Trinity Former Jesuit Church"
+  ],
+  "category": "church",
+  "address": "Piața Cetății, 430331 Baia Mare",
+  "city": "Baia Mare",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.658442,
+  "lon": 23.583184,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 467723691,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "name": "Biserica Sfânta Treime",
+    "name:hu": "Szentháromság templom",
+    "religion": "christian",
+    "url:miserend": "https://miserend.hu/templom/4670"
+   }
+  },
+  "footprint": [
+   [
+    47.658561,
+    23.582921
+   ],
+   [
+    47.658645,
+    23.58327
+   ],
+   [
+    47.658413,
+    23.583397
+   ],
+   [
+    47.658401,
+    23.583347
+   ],
+   [
+    47.658273,
+    23.583413
+   ],
+   [
+    47.658226,
+    23.583208
+   ],
+   [
+    47.65833,
+    23.583154
+   ],
+   [
+    47.658305,
+    23.583048
+   ],
+   [
+    47.658561,
+    23.582921
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 42.6,
+   "widthM": 28.6,
+   "bearingDeg": 160.9
+  },
+  "heightHints": "Baroque twin-tower church (dedicatory inscription dated 1718) with onion-shaped tower caps and lanterns; adjoining former Jesuit residence wing. No measured height found.",
+  "photos": 2,
+  "metalVisibleInPhotos": "Aug 2025 photos: freshly renovated twin-tower façade; the onion domes and lanterns of both towers are dark metal-clad (consistent with copper/painted sheet); nave roof not visible.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/467723691",
+   "https://explorecarpathia.eu/en/romania/nagybanya-baia-mare/holy-trinity-former-jesuit-church-and-monastery",
+   "https://gcatholic.org/churches/europe-east/45282",
+   "https://commons.wikimedia.org/wiki/File:Nagyb%C3%A1nya,_jezsuita_templom_2025_01.jpg"
+  ],
+  "verificationNotes": "'Refacere fațade' (façade re-doing) and the use of 'Biserica' rather than 'Catedrala' fit the historic church better, and Commons photos from Aug 2025 show its façades freshly renovated - but no source explicitly confirms 2025 works or copper there. Kept PROBABLE; the Orthodox cathedral cannot be excluded.",
+  "registerKeys": [
+   "134740b5c0db17ae"
+  ],
+  "registerMetals": [],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-rohia",
+  "officialName": "Mănăstirea „Sfânta Ana” Rohia",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Rohia",
+   "Rohia Monastery",
+   "Sfânta Ana Rohia"
+  ],
+  "category": "monastery",
+  "address": "Rohia, oraș Târgu Lăpuș, Maramureș (DN18B)",
+  "city": "Rohia",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.41003,
+  "lon": 23.881699,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 267015840,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Biserica Mânăstirii Rohia",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.410077,
+    23.881534
+   ],
+   [
+    47.410157,
+    23.881655
+   ],
+   [
+    47.410045,
+    23.881807
+   ],
+   [
+    47.409995,
+    23.881837
+   ],
+   [
+    47.409961,
+    23.881841
+   ],
+   [
+    47.409932,
+    23.881815
+   ],
+   [
+    47.409919,
+    23.881767
+   ],
+   [
+    47.409926,
+    23.88171
+   ],
+   [
+    47.409951,
+    23.881669
+   ],
+   [
+    47.410077,
+    23.881534
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 26.7,
+   "widthM": 14.7,
+   "bearingDeg": 137.5
+  },
+  "heightHints": "Hilltop monastery: main church (design by architect Dorel Cordoș) with tall bell/entrance tower and domes; the Nicolae Steinhardt cultural-monastic centre (12 storeys, partly cut into the rock, under finishing in Jan 2018) next to it; older wooden church.",
+  "photos": 6,
+  "metalVisibleInPhotos": "2007 photos (01-03): main church with grey sheet-metal roofs, an octagonal entrance tower with steep dark metal spire and grey metal-roofed cell wings. Jan 2018 press photos (04-06): the new Steinhardt centre (tall block with corner tower) under finishing with fresh reddish-brown roofs consistent with new copper. No caption confirms copper.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/346559303",
+   "https://www.openstreetmap.org/way/267015840",
+   "https://www.wikidata.org/wiki/Q12736270",
+   "https://www.emaramures.ro/muntele-athos-din-maramures-cladirea-unicat-care-se-inalta-la-rohia-foto",
+   "https://commons.wikimedia.org/wiki/Category:Rohia_Monastery"
+  ],
+  "verificationNotes": "Monastery identified unambiguously (only Rohia monastery; OSM precinct way 346559303, Wikidata Q12736270). In Jan 2018 the 12-storey 'Nicolae Steinhardt' cultural-monastic and social centre was in its finishing phase with a new reddish (likely copper) roof visible in eMaramureș photos, making it a strong candidate; the main church is the other candidate. Footprint/coordinates given = main church (OSM way 267015840 'Biserica Mânăstirii Rohia'); the Steinhardt centre is not clearly identifiable in OSM.",
+  "registerKeys": [
+   "fb79586227a6503b"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-borsa-pietroasa",
+  "officialName": "Mănăstirea Borșa – Pietroasa",
+  "nameHu": null,
+  "altNames": [
+   "Schitul Borșa-Pietroasa",
+   "Mănăstirea Pietroasa"
+  ],
+  "category": "monastery",
+  "address": "Strada Pietroasei, Borșa, Maramureș",
+  "city": "Borșa",
+  "county": "Maramureș",
+  "country": "Romania",
+  "lat": 47.629598,
+  "lon": 24.653215,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 517711588,
+   "tags": {
+    "amenity": "place_of_worship",
+    "amenity_1": "monastery",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Schitul Borșa-Pietroasa",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.629691,
+    24.653101
+   ],
+   [
+    47.629642,
+    24.653238
+   ],
+   [
+    47.629658,
+    24.653251
+   ],
+   [
+    47.629628,
+    24.653334
+   ],
+   [
+    47.629602,
+    24.653313
+   ],
+   [
+    47.629576,
+    24.653385
+   ],
+   [
+    47.629507,
+    24.65333
+   ],
+   [
+    47.62953,
+    24.653268
+   ],
+   [
+    47.629509,
+    24.653252
+   ],
+   [
+    47.629532,
+    24.653189
+   ],
+   [
+    47.629551,
+    24.653204
+   ],
+   [
+    47.629611,
+    24.653037
+   ],
+   [
+    47.629691,
+    24.653101
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 24.9,
+   "widthM": 14.5,
+   "bearingDeg": 118.3
+  },
+  "heightHints": "Mountain monastery (~1000 m a.s.l., Rodna Mts.) founded 2007 as a hermitage; wooden Maramureș-style church with shingle roof and tall spire (consecrated 2018) plus monastic buildings.",
+  "photos": 6,
+  "metalVisibleInPhotos": "2025-2026 photos: the wooden church and gate structures are shingle-roofed; some monastic buildings in the aerial views have dark metal roofs, but no unmistakable copper surface is visible.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/517711588",
+   "https://travelfeed.io/@gabrielatravels/let-s-travel-together-93-schitul-pietroasa-monastery-pietroasa",
+   "https://commons.wikimedia.org/wiki/File:M%C4%83n%C4%83stirea_Pietroasa_Bor%C8%99a.jpg"
+  ],
+  "verificationNotes": "OSM way 517711588 'Schitul Borșa-Pietroasa' (place_of_worship + monastery, 24.9 x 14.5 m) is used for the position. The main church is wooden with shingles (2021 description), so the copper was probably used on another building or on details (domes, crosses, roofs of annexes); not confirmed - hence PROBABLE/site.",
+  "registerKeys": [
+   "9ee55f400a269de9"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "consiliul-judetean-bistrita",
+  "officialName": "Palatul Administrativ Bistrița (Consiliul Județean Bistrița-Năsăud și Instituția Prefectului)",
+  "nameHu": null,
+  "altNames": [
+   "Consiliul Județean Bistrița-Năsăud",
+   "Palatul Administrativ din Bistrița"
+  ],
+  "category": "historic",
+  "address": "Piața Petru Rareș 1, 420080 Bistrița",
+  "city": "Bistrița",
+  "county": "Bistrița-Năsăud",
+  "country": "Romania",
+  "lat": 47.1366,
+  "lon": 24.5002,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Communist-era administrative palace on Piața Petru Rareș; in 2018 a 37 m x 16 m national flag was hung on its main façade (Agerpres), so the façade is at least that large. No storey count found.",
+  "photos": 0,
+  "metalVisibleInPhotos": null,
+  "sourceUrls": [
+   "https://infocons.ro/consiliul-judetean-bistrita-nasaud-si-presedintele-emil-radu-moldovan-infocons-te-informeaza/",
+   "https://agerpres.ro/administratie/2018/11/26/centenarulmariiuniri-bistrita-nasaud-fatada-palatului-administrativ-acoperita-cu-un-tricolor-si-cu-i--217148",
+   "https://www.primariabistrita.ro/wp-content/uploads/2021/02/004a-Memoriu-general-PUZ.pdf",
+   "https://www.openstreetmap.org/way/1377305590"
+  ],
+  "verificationNotes": "The County Council's official address is Piața Petru Rareș nr. 1, 420080 Bistrița (InfoCons); it shares the communist-era Palatul Administrativ on that square with the Prefect's Institution (Agerpres 2018; Bistrița PUZ memo). No report of the 2022 roof works and no usable photo were found. The palace is not named in OSM; the most likely outline is the large unnamed building way 518233004 (≈70 x 54 m, 1564 m², immediately NE of the square centre, next to nr. 1A), but this is unconfirmed, so osm/footprint are left null and coordinates are on Piața Petru Rareș (site level). No photos downloaded.",
+  "registerKeys": [
+   "0f149177f591ad04"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "hotel-victoria-satu-mare",
+  "officialName": "Fostul Hotel Victoria, Satu Mare",
+  "nameHu": "Viktória szálloda (Szatmárnémeti)",
+  "altNames": [
+   "Hotel Victoria",
+   "Victoria szálloda",
+   "Imobilul din strada Horea nr. 6"
+  ],
+  "category": "historic",
+  "address": "Strada Horea 6, 440004 Satu Mare",
+  "city": "Satu Mare",
+  "county": "Satu Mare",
+  "country": "Romania",
+  "lat": 47.794099,
+  "lon": 22.876768,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 705396484,
+   "tags": {
+    "building": "apartments"
+   }
+  },
+  "footprint": [
+   [
+    47.793946,
+    22.876947
+   ],
+   [
+    47.79417,
+    22.877044
+   ],
+   [
+    47.794195,
+    22.876904
+   ],
+   [
+    47.794198,
+    22.876885
+   ],
+   [
+    47.794158,
+    22.876866
+   ],
+   [
+    47.794213,
+    22.876503
+   ],
+   [
+    47.794082,
+    22.87644
+   ],
+   [
+    47.794037,
+    22.876797
+   ],
+   [
+    47.793976,
+    22.876773
+   ],
+   [
+    47.793946,
+    22.876947
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 40.6,
+   "widthM": 26.4,
+   "bearingDeg": 106.1
+  },
+  "heightHints": "the 1909 photo shows ground floor + 2 upper floors with decorative curved attic gables on the Horea Street façade. No measured height found.",
+  "photos": 2,
+  "metalVisibleInPhotos": "Only a 1909 historic photo is available (public domain): ornate Secession façade, ground floor + 2 upper floors with curved attic gables; the roof is barely visible. No current photo of the 2025 elZinc Slate roof/shingles was found.",
+  "sourceUrls": [
+   "https://europe-re.com/historical-hotel-victoria-in-satu-mare-to-undergo-major-refurbishment-ro/72684",
+   "https://rhn.ro/en/wp-json/wp/v2/posts/114959",
+   "https://www.primariasm.ro/storage/proiecte-hcl/2026/11-05-2026/2/raport-investitii.doc",
+   "https://www.openstreetmap.org/way/705396484",
+   "https://www.openstreetmap.org/node/12297229164"
+  ],
+  "verificationNotes": "The former Victoria Hotel is the listed monument at str. Horea nr. 6, Satu Mare; 6'. The OSM address node Horea 6 (node 12297229164) lies inside building way 705396484 (tagged apartments, 40.6 x 26.4 m).",
+  "registerKeys": [
+   "be1009f0dc5450f6"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ }
+]

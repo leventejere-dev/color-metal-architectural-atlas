@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 70.1,
+ "bearingSource": "OSM way 930266394 long axis 70.1°; +X towards the narrow altar arm (ENE end of the outline), the full-width west block with the two towers and porch at −X — matches the drone views 03/05/06 and the old church lying to the west",
+ "cover": "01",
+ "photosUsed": 10,
+ "approximations": "No survey: all heights estimated from the photographs (eave 11.9 m, ridge 15.5 m, drum foot 15.8 m, dome eave 21.3 m, cross ≈ 29.6 m; towers ≈ 25 m), dome and tower-dome profiles traced on photo 01; OSM outline symmetrised (±0.6 m), porch platform and steps added in front of it; north elevation and window rhythm mirrored from the photographed south side; drum window count (10) and dome rib count (20) estimated; corner columns only under the arm archivolts; printed icon banners shown as gold panels. Metal not confirmed in the register for this entry: roofs, vaults, skirt, tower domes, gutters and downpipes shown as dark-brown aged copper standing seam as photographed; the main dome is clad in dark slate-grey flat-lock shingles with roll ribs (shown with a graphite swatch) — its metal could not be identified. Walls shown as the grey unfinished render seen in the photographs; cranes and site materials ignored.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință (dronă și sol) și conturul OSM: plan în cruce înscrisă cu bolți semicilindrice cu învelitoare metalică brun-închis (aspect de cupru), turla centrală pe tambur alb cu cupolă din solzi gri-închis cu nervuri, două turnuri de vest cu cupole nervurate și pridvor cu timpan în mozaic. Înălțimile sunt estimate, latura nordică este presupusă identică cu cea sudică, iar icoanele imprimate sunt redate ca panouri aurii; macaralele de pe șantier nu sunt modelate.",
+  "hu": "A referenciafotók (drón és földi felvételek) és az OSM-körvonal alapján értelmezett makett: beírt kereszt alaprajz sötétbarna (réz megjelenésű) fémfedésű dongaboltozatokkal, fehér dobon ülő, sötétszürke pikkelyfedésű, bordás központi kupola, két nyugati torony bordás kupolákkal és mozaik timpanonos előcsarnok. A magasságok becsültek, az északi oldalt a délivel azonosnak feltételeztük, a nyomtatott ikonokat aranyszínű felületek jelzik; az építési darukat nem modelleztük.",
+  "en": "Scale model interpreted from the reference photographs (drone and ground) and the OSM outline: cross-in-square plan with dark-brown (copper-look) metal barrel vaults, a white drum carrying a ribbed dome in dark grey shingles, two west towers with ribbed domes and a porch with a mosaic tympanum. Heights are estimated, the north side is assumed to match the south side and the printed icons are shown as gold panels; the site cranes are not modelled."
+ }
+}

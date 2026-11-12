@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 90.3,
+  "bearingSource": "OSM way 1143659827: the straight narthex walls of the outline run at ≈ 90.3° (the minimum-rectangle axis 101.8° in the research record is skewed by the apse lobes). +X points east to the altar apse, the west front with the porch and the two towers at −X (photo 02).",
+  "cover": null,
+  "photosUsed": 5,
+  "approximations": "The research photo 01 shows an earlier construction stage; four 2016 photographs from the builder's public project gallery (02–05: west front, south side, south-east, west towers) show the finished white façades and new copper domes, and no later photograph was found. Plan after the OSM outline, made symmetric (porch 13.5 m wide, narthex 22 × 24.3 m, lateral apses r ≈ 8.4 m, altar apse r ≈ 9.6 m). Heights are scaled from photos 02 and 04 with the outline width as reference (narthex cornice ≈ 16 m, apses ≈ 18 m, west-tower crosses ≈ 30.5 m, central cross ≈ 39 m) and are approximate. The north side mirrors the south; the roofs behind the cornices are not photographed and are interpreted; ornament, windows and the mosaic are simplified. The identification of the register line with this cathedral is rated probable in the research record. The photographs predate the copper delivery and the covered surfaces are not itemised: the domes and all roofs are shown in weathered copper with standing seams and ribs.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință: planul urmează conturul OSM, turnurile, cupolele și fațadele urmează fotografiile din 2016, iar înălțimile, acoperișurile și fațada nordică sunt aproximate. Fotografiile sunt anterioare livrării, de aceea cupolele și acoperișurile sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "Nyilvános referenciafotók alapján értelmezett makett: az alaprajz az OSM-körvonalat, a tornyok, a kupolák és a homlokzatok a 2016-os fotókat követik, a magasságok, a tetők és az északi homlokzat közelítőek. A fotók a szállítás előttiek, ezért a kupolák és a tetők a COLOR METAL nyilvántartása szerint szállított rézzel jelennek meg.",
+    "en": "Scale model interpreted from public reference photographs: the plan follows the OSM outline, the towers, domes and façades follow photographs from 2016, while heights, roofs and the north side are approximated. The photographs predate the delivery, so the domes and roofs are shown in the copper supplied by COLOR METAL according to its records."
+  }
+}

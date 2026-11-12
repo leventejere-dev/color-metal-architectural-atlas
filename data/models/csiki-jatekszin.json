@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 84.8,
+ "bearingSource": "OSM way 217349806 long axis 84.8°; +X = east (stage/annex end), temple front to the west facing the square on Bd. Timișoarei (OSM map, Wikimedia Commons photographs)",
+ "cover": "01",
+ "photosUsed": 12,
+ "approximations": "The 12 company photographs show only roof works (no elevations). Massing from the OSM outline (66 × 35 m, height 15 m); west front (steps, six square Ionic pillars, pediment, mosaic wings) from public Wikimedia Commons photographs; roof plan (≈ 35 × 15 m low metal roof over the hall, tiled perimeter slopes, tiled wing and annex roofs) from a low-resolution Esri aerial image. Side and rear elevations not photographed — window rhythm schematic; perimeter roof pitches, curb height (≈ 13.3 m) and the exact extent of the new metal roof approximate; new roof shown completed (photos show it half laid over black underlay); pediment roof kept as the older grey metal; no fly tower modelled (not confirmed); mosaic murals stylised as tessera grids; chimney positions approximate. Metal: elZinc Natural titanium-zinc according to COLOR METAL's register (2026); the photos show the bright new standing seam.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile lucrărilor la acoperiș, conturul OSM, o imagine aeriană și fotografii publice ale fațadei de vest; fațadele laterale și posterioară, pantele acoperișului și extinderea noii învelitori metalice sunt aproximative, iar acoperișul este redat finalizat.",
+  "hu": "A tetőfelújításról készült fotók, az OSM-körvonal, egy légifelvétel és a nyugati homlokzatról készült nyilvános fotók alapján értelmezett makett; az oldal- és hátsó homlokzatok, a tetőhajlások és az új fémfedés kiterjedése közelítő, a tető elkészült állapotban látható.",
+  "en": "Scale model interpreted from the roof-works photographs, the OSM outline, an aerial image and public photographs of the west front; side and rear elevations, roof pitches and the extent of the new metal roof are approximate, and the roof is shown completed."
+ }
+}

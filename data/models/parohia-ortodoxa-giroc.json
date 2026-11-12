@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 80.7,
+ "bearingSource": "OSM way 223846005 long axis 80.7°; +X towards the semicircular altar apse (east, Orthodox orientation; consistent with the morning shadows in drone photo 02), west tower and façade on the street at −X",
+ "cover": "03",
+ "photosUsed": 8,
+ "approximations": "The OSM outline is a coarse 4-point rectangle (19.0 × 9.5 m); the plan was re-measured on the drone photos 01–03 (narrow nave 7.4 m, wider choir bay 9.0 m with small hipped roof wings, broad semicircular apse) and the model is 21.6 × 9.0 m (+14 % length) — the photo measurements conflict by up to ±15 %. Heights estimated (eave 6.0 m, ridge 9.1 m, tower cornice 14.4 m, cross ≈ 21.9 m); north side mirrored from the photographed side; helm profile, window count and pilaster rhythm approximated; the modern glazed side canopy and temporary awnings omitted. Observed roof: nave, choir and apse in mid-grey double-lock standing seam with staggered cross joints (rendered with a pre-weathered grey-zinc swatch); tower helm and lantern dark-brown, aged-copper appearance (dated 2020); gutters and downpipes dark brown. The register lists copper for this parish — on the photographs only the helm reads as copper; the grey sheet of the main roofs could not be identified (zinc, coated steel or tinned copper are all possible).",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință: biserică-sală barocă cu turn de vest și coif octogonal cu bulb din tablă brun-închis (aspect de cupru), acoperișuri gri din tablă fălțuită, cu mici aripi în patru ape deasupra corului și semicon peste absida altarului. Conturul OSM este doar un dreptunghi aproximativ, de aceea lungimea și proporțiile corului au fost măsurate pe fotografiile aeriene; înălțimile sunt estimate, iar latura nordică este presupusă identică cu cea sudică.",
+  "hu": "A referenciafotók alapján értelmezett makett: barokk teremtemplom nyugati toronnyal és sötétbarna (réz megjelenésű) nyolcszögű hagymás sisakkal, szürke állókorcos fémlemez tetővel, a szentély fölött kis kontyolt tetőszárnyakkal és az oltárapszis fölötti félkúppal. Az OSM-körvonal csak durva téglalap, ezért a hosszt és a szentély arányait a drónfotókon mértük; a magasságok becsültek, az északi oldalt a délivel azonosnak feltételeztük.",
+  "en": "Scale model interpreted from the reference photographs: baroque hall church with a west tower and an octagonal onion helm in dark-brown (copper-look) sheet, grey standing-seam roofs with small hipped wings over the choir and a half-cone over the altar apse. The OSM outline is only a coarse rectangle, so the length and choir proportions were measured on the drone photographs; heights are estimated and the north side is assumed to match the south side."
+ }
+}

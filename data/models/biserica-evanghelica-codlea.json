@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 89.8,
+ "bearingSource": "OSM long axis of the church outline (way 178933892) 89.8°; +X points to the Gothic choir (east). The detached bell tower (OSM way 178947916) is placed at its OSM position ≈40 m south-south-east, rotated ≈48° to the church as in OSM.",
+ "cover": "01",
+ "photosUsed": 7,
+ "approximations": "The COLOR METAL reference is the bell-tower rehabilitation, so the model shows the church together with its detached tower in their true relative positions; the fortification walls between them are omitted. Tower and church heights are estimated from the photographs (tower cornice ≈24 m, cross ≈40 m; nave ridge ≈19 m); the north side of the church, the sacristy and the north annex are not photographed and are interpreted from the outline and the axonometric drawing of the ensemble (Wikimedia Commons, plan.jpg in the reference folder). All photographs (2008–2020) predate the 2021 tower works and show the old dark covering; the helm, clock-gable roofs, pinnacles, spire, skirt roof and tower flashings are shown in elZinc Slate titanium-zinc as supplied by COLOR METAL according to its records — which surfaces were re-covered is not documented. The church roofs are clay tile as photographed.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință, cu biserica și turnul-clopotniță separat în pozițiile lor reale (fără zidurile de incintă). Fotografiile disponibile sunt anterioare reabilitării turnului, de aceea coiful, frontoanele cu ceas, săgeata și streașina de la baza turnului sunt redate în titan-zinc elZinc Slate, livrat de COLOR METAL conform evidențelor firmei.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett: a templom és a különálló harangtorony valós helyzetükben (a várfalak nélkül). A rendelkezésre álló fotók a torony felújítása előttiek, ezért a toronysisak, az órás oromzatok, a csúcs és a torony alsó eresze a COLOR METAL nyilvántartása szerint szállított elZinc Slate titáncinkkel jelenik meg.",
+  "en": "Scale model interpreted from public reference photographs, showing the church and its detached bell tower in their true positions (without the fortification walls). The available photographs predate the tower rehabilitation, so the helm, clock gables, spire and the skirt roof at the tower base are shown in elZinc Slate titanium-zinc supplied by COLOR METAL according to its records."
+ }
+}

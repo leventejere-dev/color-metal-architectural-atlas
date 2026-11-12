@@ -1,0 +1,1930 @@
+[
+ {
+  "id": "castelul-banffy-rascruci",
+  "officialName": "Castelul Bánffy din Răscruci",
+  "nameHu": "Válaszúti Bánffy-kastély",
+  "altNames": [
+   "Castelul Bánffy în Răscruci",
+   "Bánffy-kastély (Válaszút)",
+   "Válaszúti Bánffy Kastély"
+  ],
+  "address": "Str. Principală nr. 484, Răscruci, comuna Bonțida, 407107",
+  "city": "Răscruci",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.906441,
+  "lon": 23.774263,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 793430081,
+   "tags": {
+    "building": "residential",
+    "castle_type": "stately",
+    "historic": "castle",
+    "name": "Castelul Bánffy în Răscruci",
+    "name:hu": "Válaszúti Bánffy Kastély",
+    "name:ro": "Castelul Bánffy în Răscruci",
+    "wikidata": "Q2967849",
+    "wikipedia": "ro:Castelul Bánffy din Răscruci"
+   }
+  },
+  "footprint": [
+   [
+    46.906633,
+    23.774149
+   ],
+   [
+    46.906633,
+    23.774381
+   ],
+   [
+    46.906502,
+    23.774382
+   ],
+   [
+    46.906502,
+    23.77441
+   ],
+   [
+    46.906503,
+    23.774442
+   ],
+   [
+    46.906427,
+    23.774443
+   ],
+   [
+    46.906427,
+    23.774411
+   ],
+   [
+    46.906426,
+    23.774383
+   ],
+   [
+    46.906247,
+    23.774382
+   ],
+   [
+    46.906247,
+    23.77414
+   ],
+   [
+    46.906422,
+    23.77414
+   ],
+   [
+    46.906422,
+    23.774094
+   ],
+   [
+    46.906476,
+    23.774094
+   ],
+   [
+    46.906517,
+    23.774094
+   ],
+   [
+    46.906517,
+    23.774149
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 43.0,
+   "widthM": 26.5,
+   "bearingDeg": 0.0
+  },
+  "heightHints": "Main pavilion: basement + ground floor + one upper floor + high roof ('subsol, parter, etaj și șarpante înalte') per ro.wikipedia; no height in metres found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/793430081",
+   "https://ro.wikipedia.org/wiki/Castelul_B%C3%A1nffy_din_R%C4%83scruci"
+  ],
+  "verificationNotes": "OSM way 793430081 is named 'Castelul Bánffy în Răscruci' (historic=castle, name:hu 'Válaszúti Bánffy Kastély', wikidata Q2967849). ro.wikipedia gives coordinates 46°54′23″N 23°46′27″E (46.9065, 23.7743), within ~10 m of the OSM outline centroid, and address Str. Principală nr. 484 (Bonțida commune). LMI code probably CJ-II-a-A-07742 (taken from a reference link on ro.wikipedia, not labelled as such). Wikipedia says the ensemble has two building bodies plus annexes; the OSM outline (43 x 26.5 m) is the main castle building only. Bearing 0 deg = long axis north-south."
+ },
+ {
+  "id": "biserica-sf-mihail-cluj",
+  "officialName": "Biserica Romano-Catolică „Sfântul Mihail”",
+  "nameHu": "Szent Mihály-templom",
+  "altNames": [
+   "Biserica Sfântul Mihail din Cluj-Napoca",
+   "St. Michael's Church",
+   "Catedrala Sf. Mihail"
+  ],
+  "address": "Piața Unirii 16, Cluj-Napoca, 400014",
+  "city": "Cluj-Napoca",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.769949,
+  "lon": 23.589516,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "relation",
+   "id": 12141980,
+   "tags": {
+    "addr:city": "Cluj-Napoca",
+    "addr:country": "RO",
+    "addr:street": "Piața Unirii",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "height": "25",
+    "name": "Biserica Romano-Catolică Sfântul Mihail",
+    "name:de": "Sankt Michaelskirche",
+    "name:en": "Saint Michael Church",
+    "name:hu": "Szent Mihály-templom",
+    "name:it": "Chiesa di San Michele",
+    "name:ro": "Biserica Romano-Catolică Sfântul Mihail",
+    "religion": "christian",
+    "tourism": "attraction",
+    "type": "multipolygon",
+    "url:miserend": "http://miserend.hu/?templom=3394",
+    "wheelchair": "yes",
+    "wikidata": "Q923595",
+    "wikipedia": "ro:Biserica Sfântul Mihail din Cluj-Napoca"
+   }
+  },
+  "footprint": [
+   [
+    46.769759,
+    23.58914
+   ],
+   [
+    46.769743,
+    23.589176
+   ],
+   [
+    46.769769,
+    23.589315
+   ],
+   [
+    46.769748,
+    23.589321
+   ],
+   [
+    46.76978,
+    23.58936
+   ],
+   [
+    46.769821,
+    23.589747
+   ],
+   [
+    46.769848,
+    23.589757
+   ],
+   [
+    46.769838,
+    23.589787
+   ],
+   [
+    46.769855,
+    23.589779
+   ],
+   [
+    46.769852,
+    23.589826
+   ],
+   [
+    46.76988,
+    23.589881
+   ],
+   [
+    46.769919,
+    23.58987
+   ],
+   [
+    46.769923,
+    23.589905
+   ],
+   [
+    46.769906,
+    23.589909
+   ],
+   [
+    46.769926,
+    23.589926
+   ],
+   [
+    46.769924,
+    23.589999
+   ],
+   [
+    46.769969,
+    23.589994
+   ],
+   [
+    46.769962,
+    23.590031
+   ],
+   [
+    46.769976,
+    23.590037
+   ],
+   [
+    46.769983,
+    23.590003
+   ],
+   [
+    46.770019,
+    23.590018
+   ],
+   [
+    46.770035,
+    23.589953
+   ],
+   [
+    46.770056,
+    23.589958
+   ],
+   [
+    46.770024,
+    23.58985
+   ],
+   [
+    46.770042,
+    23.589813
+   ],
+   [
+    46.770069,
+    23.589816
+   ],
+   [
+    46.770064,
+    23.589719
+   ],
+   [
+    46.770092,
+    23.589666
+   ],
+   [
+    46.770089,
+    23.589623
+   ],
+   [
+    46.7702,
+    23.589563
+   ],
+   [
+    46.77017,
+    23.589454
+   ],
+   [
+    46.77018,
+    23.589422
+   ],
+   [
+    46.770079,
+    23.589437
+   ],
+   [
+    46.770076,
+    23.589412
+   ],
+   [
+    46.770056,
+    23.58944
+   ],
+   [
+    46.770014,
+    23.589129
+   ],
+   [
+    46.770027,
+    23.589102
+   ],
+   [
+    46.770007,
+    23.589074
+   ],
+   [
+    46.769999,
+    23.589102
+   ],
+   [
+    46.769937,
+    23.589121
+   ],
+   [
+    46.769933,
+    23.589091
+   ],
+   [
+    46.769924,
+    23.589126
+   ],
+   [
+    46.769856,
+    23.589147
+   ],
+   [
+    46.769838,
+    23.589116
+   ],
+   [
+    46.769841,
+    23.589151
+   ],
+   [
+    46.769773,
+    23.589168
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 72.1,
+   "widthM": 44.9,
+   "bearingDeg": 76.0
+  },
+  "heightHints": "Tower 76 m (80 m including the cross) per en.wikipedia; OSM tag height=25 (body of the church). Nave 50 x 24 m, apse 20 x 10 m, overall length 70 m (en.wikipedia).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/12141980",
+   "https://en.wikipedia.org/wiki/St._Michael%27s_Church,_Cluj-Napoca"
+  ],
+  "verificationNotes": "OSM multipolygon 12141980 'Biserica Romano-Catolică Sfântul Mihail' (building=church, wikidata Q923595, name:hu 'Szent Mihály-templom') on Piața Unirii. en.wikipedia confirms address Piața Unirii 16, nave 50 x 24 m, apse 20 x 10 m, length 70 m, tower 76 m. The OSM outline length (72 m) matches. The minimum-rectangle width of 44.9 m is larger than the nave width because of the side chapels, sacristy and the north-west tower; the footprint area is 1,907 m2. Outline simplified from 130 to 46 points."
+ },
+ {
+  "id": "bt-arena-cluj",
+  "officialName": "BT Arena (Sala Polivalentă Cluj-Napoca)",
+  "nameHu": null,
+  "altNames": [
+   "BTarena",
+   "Sala Polivalentă",
+   "Polyvalent Hall",
+   "Sala Polivalentă (Kolozsvár)"
+  ],
+  "address": "Aleea Stadionului 4, Cluj-Napoca, 400380",
+  "city": "Cluj-Napoca",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 46.767139,
+  "lon": 23.570428,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 210654887,
+   "tags": {
+    "addr:city": "Cluj-Napoca",
+    "addr:country": "RO",
+    "addr:housenumber": "4",
+    "addr:street": "Aleea Stadionului",
+    "alt_name": "Sala Polivalentă",
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "BTarena",
+    "sport": "multi",
+    "website": "http://www.polivalentacluj.ro/",
+    "wheelchair": "yes",
+    "wikidata": "Q7227135",
+    "wikipedia": "ro:BTarena"
+   }
+  },
+  "footprint": [
+   [
+    46.767207,
+    23.569518
+   ],
+   [
+    46.766525,
+    23.570113
+   ],
+   [
+    46.767084,
+    23.571349
+   ],
+   [
+    46.767748,
+    23.570733
+   ],
+   [
+    46.767463,
+    23.570092
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 113.7,
+   "widthM": 88.3,
+   "bearingDeg": 57.0
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/210654887",
+   "https://en.wikipedia.org/wiki/BT_Arena",
+   "https://dicositiganas.ro/portofolio/sport-leisure/bt-arena/"
+  ],
+  "verificationNotes": "OSM way 210654887 'BTarena' (alt_name 'Sala Polivalentă', wikidata Q7227135), Aleea Stadionului 4, next to Cluj Arena. en.wikipedia gives coordinates 46.766972, 23.570389, within ~20 m of the outline centroid; opened 21 Oct 2014; capacity 10,000; architect Dico și Țigănaș. The portfolio of Dico și Țigănaș gives about 38,500 m2 (floor area). No height in metres or cladding material found in public sources. hu.wikipedia uses the Romanian name ('Sala Polivalentă (Kolozsvár)'), so there is no separate verified Hungarian name. The OSM outline is a coarse 5-point polygon (113.7 x 88.3 m, 9,809 m2), adequate for placement and massing only."
+ },
+ {
+  "id": "biserica-reformata-gherla",
+  "officialName": "Biserica Reformată din Gherla",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Reformată",
+   "Szamosújvári református templom"
+  ],
+  "address": "Strada Dragoș Vodă, Centru, Gherla, 405300",
+  "city": "Gherla",
+  "county": "Cluj",
+  "country": "Romania",
+  "lat": 47.027524,
+  "lon": 23.909574,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 263616472,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "reformed",
+    "name": "Biserica Reformată",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.027632,
+    23.909472
+   ],
+   [
+    47.027528,
+    23.909711
+   ],
+   [
+    47.027503,
+    23.909725
+   ],
+   [
+    47.027489,
+    23.909733
+   ],
+   [
+    47.027448,
+    23.909704
+   ],
+   [
+    47.027428,
+    23.909657
+   ],
+   [
+    47.02744,
+    23.90961
+   ],
+   [
+    47.027538,
+    23.909411
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 25.8,
+   "widthM": 12.4,
+   "bearingDeg": 122.7
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/263616472",
+   "https://ro.wikipedia.org/wiki/Gherla",
+   "https://actualdecluj.ro/232127-2/"
+  ],
+  "verificationNotes": "OSM way 263616472 'Biserica Reformată' (building=church, denomination=reformed); Nominatim places it on Strada Dragoș Vodă in Gherla centre. It is the only Reformed church in Gherla in OSM. ro.wikipedia (Gherla) shows the Reformed church in its gallery, dated 1877; an actualdecluj history article says it was built 1862–1877 and that Gherla has a single Reformed church. Neither gives an address. No second independent source for the exact position was found (not in hu.wikipedia Szamosújvár, no LMI listing found), so this stays PROBABLE. The OSM outline is small (25.8 x 12.4 m, 284 m2, mapped from Bing imagery); it may not fully represent the tower. 'Szamosújvári református templom' is a descriptive Hungarian name, not one confirmed by a source."
+ },
+ {
+  "id": "castelul-bethlen-arcalia",
+  "officialName": "Castelul Bethlen din Arcalia",
+  "nameHu": "Bethlen-kastély (Árokalja)",
+  "altNames": [
+   "Castelul Bethlen",
+   "Árokallyai Bethlen-kastély",
+   "Complex Arcalia (Universitatea Babeș-Bolyai)"
+  ],
+  "address": "Arcalia nr. 132, comuna Șieu-Măgheruș, 427296 (DJ172G)",
+  "city": "Arcalia",
+  "county": "Bistrița-Năsăud",
+  "country": "Romania",
+  "lat": 47.085461,
+  "lon": 24.354089,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1328645254,
+   "tags": {
+    "building": "yes",
+    "historic": "castle",
+    "name": "Castelul Bethlen"
+   }
+  },
+  "footprint": [
+   [
+    47.085598,
+    24.354007
+   ],
+   [
+    47.08561,
+    24.354034
+   ],
+   [
+    47.085605,
+    24.354079
+   ],
+   [
+    47.085581,
+    24.354097
+   ],
+   [
+    47.08552,
+    24.354221
+   ],
+   [
+    47.085513,
+    24.354256
+   ],
+   [
+    47.085515,
+    24.354291
+   ],
+   [
+    47.085504,
+    24.354325
+   ],
+   [
+    47.085471,
+    24.354339
+   ],
+   [
+    47.085454,
+    24.354301
+   ],
+   [
+    47.085445,
+    24.354266
+   ],
+   [
+    47.085407,
+    24.354232
+   ],
+   [
+    47.085419,
+    24.35419
+   ],
+   [
+    47.085364,
+    24.354156
+   ],
+   [
+    47.085353,
+    24.35419
+   ],
+   [
+    47.085327,
+    24.354169
+   ],
+   [
+    47.085303,
+    24.354107
+   ],
+   [
+    47.085322,
+    24.354104
+   ],
+   [
+    47.085343,
+    24.354111
+   ],
+   [
+    47.085381,
+    24.354107
+   ],
+   [
+    47.08539,
+    24.354072
+   ],
+   [
+    47.085329,
+    24.354028
+   ],
+   [
+    47.085364,
+    24.353931
+   ],
+   [
+    47.085414,
+    24.353972
+   ],
+   [
+    47.08543,
+    24.353958
+   ],
+   [
+    47.085402,
+    24.353924
+   ],
+   [
+    47.085402,
+    24.353886
+   ],
+   [
+    47.085407,
+    24.353858
+   ],
+   [
+    47.085435,
+    24.353851
+   ],
+   [
+    47.085447,
+    24.353879
+   ],
+   [
+    47.085461,
+    24.353913
+   ],
+   [
+    47.085475,
+    24.353951
+   ],
+   [
+    47.085544,
+    24.354
+   ],
+   [
+    47.085565,
+    24.353972
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.1,
+   "widthM": 29.1,
+   "bearingDeg": 32.4
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1328645254",
+   "https://ro.wikipedia.org/wiki/Castelul_Bethlen_din_Arcalia"
+  ],
+  "verificationNotes": "OSM way 1328645254 'Castelul Bethlen' (historic=castle) in Arcalia, Șieu-Măgheruș. ro.wikipedia gives coordinates 47.085451, 24.35409, within ~1 m of the OSM outline centroid; address number 132; LMI BN-II-a-A-01614 (castle BN-II-m-A-01614.01, dendrological park .02); completed 1800; used by Babeș-Bolyai University (Complex Arcalia). The hu.wikipedia article is titled 'Bethlen-kastély (Árokalja)'. The outline is roughly square (29 x 29 m, 578 m2, 34 points)."
+ },
+ {
+  "id": "palatul-cultural-blaj",
+  "officialName": "Palatul Cultural din Blaj",
+  "nameHu": null,
+  "altNames": [
+   "Palatul Cultural",
+   "Cultural Palace, Blaj"
+  ],
+  "address": "Piața 1848 / Strada Petru Aron, Blaj, 515400",
+  "city": "Blaj",
+  "county": "Alba",
+  "country": "Romania",
+  "lat": 46.173498,
+  "lon": 23.92146,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 545039254,
+   "tags": {
+    "addr:unit": "1931",
+    "amenity": "theatre",
+    "building": "yes",
+    "name": "Palatul Cultural"
+   }
+  },
+  "footprint": [
+   [
+    46.173726,
+    23.921538
+   ],
+   [
+    46.173655,
+    23.921754
+   ],
+   [
+    46.173444,
+    23.921573
+   ],
+   [
+    46.173258,
+    23.921414
+   ],
+   [
+    46.173351,
+    23.921173
+   ],
+   [
+    46.17366,
+    23.921428
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 51.9,
+   "widthM": 21.8,
+   "bearingDeg": 30.6
+  },
+  "heightHints": "Three levels: basement (demisol), ground floor and an upper floor on the north and west sides (ro.wikipedia). No height in metres found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/545039254",
+   "https://ro.wikipedia.org/wiki/Palatul_Cultural_din_Blaj",
+   "https://adevarul.ro/stiri-locale/alba-iulia/palatul-cultural-din-blaj-distins-cu-premiul-1777109.html",
+   "https://romania-insider.com/romanian-architecture-project-wins-2017-eu-prize-for-cultural-heritage"
+  ],
+  "verificationNotes": "OSM way 545039254 'Palatul Cultural' (amenity=theatre) on Strada Petru Aron in central Blaj. Adevărul places it on Piața 1848 in the historic centre, which matches the OSM position. The OSM outline is coarse (6 points, 51.9 x 21.8 m). The OSM tag addr:unit=1931 looks like a mis-tagged date. No verified Hungarian name ('Balázsfalvi Kultúrpalota' is a translation)."
+ },
+ {
+  "id": "palatul-principilor-alba-iulia",
+  "officialName": "Palatul Principilor Transilvaniei, Alba Iulia",
+  "nameHu": "Fejedelmi palota (Gyulafehérvár)",
+  "altNames": [
+   "Palatul Princiar",
+   "Palatul Principilor",
+   "Egykori fejedelmi palota",
+   "Muzeul Principatului Transilvaniei"
+  ],
+  "address": "Strada Militari / Strada Mihai Viteazu, Cetatea Alba Carolina, Alba Iulia, 510009",
+  "city": "Alba Iulia",
+  "county": "Alba",
+  "country": "Romania",
+  "lat": 46.066935,
+  "lon": 23.57074,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "relation",
+   "id": 2873706,
+   "tags": {
+    "addr:city": "Alba Iulia",
+    "building": "yes",
+    "castle_type": "palace",
+    "historic": "castle",
+    "name": "Palatul Princiar",
+    "type": "multipolygon"
+   }
+  },
+  "footprint": [
+   [
+    46.066755,
+    23.569699
+   ],
+   [
+    46.066658,
+    23.570355
+   ],
+   [
+    46.066622,
+    23.570595
+   ],
+   [
+    46.066615,
+    23.570647
+   ],
+   [
+    46.066483,
+    23.571541
+   ],
+   [
+    46.067117,
+    23.571738
+   ],
+   [
+    46.067214,
+    23.571142
+   ],
+   [
+    46.067255,
+    23.571154
+   ],
+   [
+    46.067258,
+    23.571131
+   ],
+   [
+    46.067269,
+    23.571058
+   ],
+   [
+    46.067343,
+    23.570569
+   ],
+   [
+    46.067274,
+    23.570548
+   ],
+   [
+    46.067257,
+    23.570542
+   ],
+   [
+    46.067287,
+    23.570305
+   ],
+   [
+    46.067339,
+    23.569902
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 145.5,
+   "widthM": 77.9,
+   "bearingDeg": 102.0
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/2873706",
+   "https://www.explorecarpathia.eu/en/romania/gyulafehervar-alba-iulia/former-palace-of-the-prince-of-transylvania",
+   "https://alba24.ro/foto-cum-arata-palatul-principilor-din-alba-iulia-dupa-finalizarea-lucrarilor-de-reabilitare-la-acoperisul-corpului-principal-750425.html",
+   "https://alba24.ro/foto-incep-lucrarile-la-acoperisurile-si-planseele-palatului-principilor-din-alba-iulia-contract-de-137-milioane-lei-864350.html"
+  ],
+  "verificationNotes": "OSM multipolygon 2873706 'Palatul Princiar' (historic=castle, castle_type=palace) in the Alba Carolina citadel. Explore Carpathia gives GPS 46.06721, 23.57086 (~30 m from the outline centroid) and says this is the former princely palace section used by the army and handed to the municipality in 2009, next to the cathedral. It is not the Roman Catholic archbishop's palace. The complex has several bodies (corpuri A–G). Alba24 reports that the roof of the main body (corpul principal / corp E) was finished in Jan 2020 and that a later contract covers the roofs and floors of bodies A, B, C, D and F. The footprint is the outer outline of the whole complex including inner courtyards (145.5 x 77.9 m, 10,469 m2), so the area overstates the roofed area. The restored main body opened as a museum on 5 Feb 2024."
+ },
+ {
+  "id": "biserica-reformata-tasnad",
+  "officialName": "Biserica Reformată din Tășnad",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Reformată",
+   "Református templom",
+   "Tasnádi református templom",
+   "Reformed Church, Tășnad"
+  ],
+  "address": "Strada Ștefan cel Mare (parish office: nr. 1), Tășnad, 445300",
+  "city": "Tășnad",
+  "county": "Satu Mare",
+  "country": "Romania",
+  "lat": 47.476075,
+  "lon": 22.581752,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 407273517,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2025-07-11",
+    "denomination": "reformed",
+    "name": "Biserica Reformată Tășnand",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.476033,
+    22.581897
+   ],
+   [
+    47.476035,
+    22.58206
+   ],
+   [
+    47.476054,
+    22.582094
+   ],
+   [
+    47.476085,
+    22.582114
+   ],
+   [
+    47.476111,
+    22.582102
+   ],
+   [
+    47.47612,
+    22.58206
+   ],
+   [
+    47.476121,
+    22.581897
+   ],
+   [
+    47.476139,
+    22.581897
+   ],
+   [
+    47.47614,
+    22.581528
+   ],
+   [
+    47.476116,
+    22.581528
+   ],
+   [
+    47.47612,
+    22.581436
+   ],
+   [
+    47.476026,
+    22.581438
+   ],
+   [
+    47.476028,
+    22.581525
+   ],
+   [
+    47.476009,
+    22.581525
+   ],
+   [
+    47.476012,
+    22.581894
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 51.0,
+   "widthM": 14.6,
+   "bearingDeg": 89.2
+  },
+  "heightHints": "Tower and spire completed 1822 (en.wikipedia); helm made by a carpenter from Nagykálló (Arhitectura ecleziastică din Satu Mare, 2008). No height in metres found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/407273517",
+   "https://en.wikipedia.org/wiki/Reformed_Church,_T%C4%83%C8%99nad",
+   "https://library.hungaricana.hu/hu/view/SzatmariMuzeumKiadvanyai_SK_Architectura_ecleazistica/?pg=144",
+   "https://www.paginiaurii.ro/firmy/GHERLA/q_biserica+reformata/1/"
+  ],
+  "verificationNotes": "OSM way 407273517 'Biserica Reformată Tășnand' [sic] (place_of_worship, denomination=reformed). A separate OSM node 490967020 'Biserica Reformată' lies inside it. en.wikipedia: consecrated 1476, Reformed since the 16th century, rebuilt in masonry in the 18th century, tower and spire 1822; coordinates 47.47587, 22.58238, about 50 m from the outline centroid, inside the same churchyard. The outline (51.0 x 14.6 m, long axis E–W at 89 deg) fits a west tower + nave + polygonal apse church. The Hungarian name is given only generically ('Református templom'), so nameHu is left null. Pagini Aurii lists 'Parohia Reformată Tășnad' at Str. Ștefan cel Mare nr. 1, the same street as the OSM church."
+ },
+ {
+  "id": "parcare-satu-mare",
+  "officialName": "Parcarea etajată de pe strada Mihail Kogălniceanu, Satu Mare",
+  "nameHu": null,
+  "altNames": [
+   "Parcare supraetajata Kogalniceanu",
+   "Parcare supraetajată Satu Mare",
+   "Kogălniceanu utcai parkolóház (Szatmárnémeti)"
+  ],
+  "address": "Intersecția str. Mihail Kogălniceanu cu str. Retezatului, Centrul Vechi, Satu Mare",
+  "city": "Satu Mare",
+  "county": "Satu Mare",
+  "country": "Romania",
+  "lat": 47.794398,
+  "lon": 22.872045,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1088869355,
+   "tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "building": "construction",
+    "building:levels": "3",
+    "capacity": "150",
+    "construction": "parking",
+    "fee": "yes",
+    "name": "Parcare supraetajata Kogalniceanu",
+    "opening_hours": "24/7",
+    "operator": "Primaria Satu Mare",
+    "operator:type": "public",
+    "parking": "multi-storey"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Basement + ground floor + 2 upper floors + parking terrace on the roof with 22 covered spaces (PresaSM 2023/2026); OSM building:levels=3. That is consistent with the ~14 m height in the brief. No official height found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1088869355",
+   "https://www.presasm.ro/cine-a-castigat-licitatia-pentru-prima-parcare-supraetajata-din-satu-mare-lucrarile-incep-in-primavara/",
+   "https://www.presasm.ro/foto-parcarea-etajata-din-satu-mare-aproape-de-final-imagini-in-premiera-din-interior/52161",
+   "https://www.presasm.ro/foto-parcare-etajata-ultramoderna-in-centrul-vechi-un-nou-proiect-al-primariei",
+   "https://portalsm.ro/2022/10/video-primaria-satu-mare-va-licita-construirea-a-doua-parcari-etajate-in-zona-centrala/",
+   "https://www.gazetanord-vest.ro/2026/11/158-de-locuri-noi-de-parcare-in-centrul-vechi-al-municipiului-satu-mare-viceprimarul-raul-babtan-anunta-tarifele/",
+   "https://www.presasm.ro/s-a-semnat-contractul-pentru-a-doua-parcare-multietajata-din-satu-mare/"
+  ],
+  "verificationNotes": "Candidate: the municipal multi-storey car park on Str. Mihail Kogălniceanu, at its corner with Str. Retezatului in the Old Centre. Sources call it the first multi-storey car park of Satu Mare: 158 spaces, plot ~1,700 m2, built area 1,360 m2. Contract awarded Nov 2023 to Tarr&Tarr / Top Proiect / M Sys / Urban Proiect; works 'in linie dreaptă' in June 2026; tariffs and rules approved Oct–Nov 2026; opening announced for Dec 2026. OSM way 1088869355 'Parcare supraetajata Kogalniceanu' (parking=multi-storey, building=construction, operator Primăria Satu Mare) is on that corner. Its OSM history shows it was first mapped in Aug 2022 as a plain building=yes, i.e. the OLD structure on the plot, and was only retagged as the planned car park in Jan 2024. Its outline (31.0 x 30.6 m, 857 m2, cut corner toward the street intersection) is therefore NOT the new building and is not given as the footprint. The adjoining old outline to the east (OSM way 1073425268, building=yes, 35 x 29.5 m, 962 m2, mapped June 2022) probably belongs to the same plot. Together they are ~1,820 m2, consistent with the 'over 1,700 m2' plot. The new car park (1,360 m2; ~50 x 33 m with a rounded corner per the brief) should lie within these two outlines, so position is given at site level (centroid of the named OSM way, at the corner). Doubts: (1) no source found that describes the facade (gold-painted expanded-aluminium mesh, brick parts), so the identification relies on this being the only multi-storey car park completed in Satu Mare by 2026, plus the corner site (rounded corner) and the old-town setting (brick); (2) the second municipal car park, on Str. Decebal (Centrul Nou, behind the Someșul shopping centre, S+P+4, 182 spaces, contract Jan 2024, 24-month term), has no OSM object and no completion report was found. It is the alternative if the archive photos show a 5-storey building in the new centre."
+ },
+ {
+  "id": "catedrala-ortodoxa-satu-mare",
+  "officialName": "Catedrala Ortodoxă „Adormirea Maicii Domnului” Satu Mare",
+  "nameHu": null,
+  "altNames": [
+   "Catedrala Ortodoxă",
+   "Dormition of the Theotokos Cathedral, Satu Mare",
+   "Szatmárnémeti ortodox székesegyház"
+  ],
+  "address": "Bulevardul Vasile Lucaciu, Centrul Nou, Satu Mare, 440012",
+  "city": "Satu Mare",
+  "county": "Satu Mare",
+  "country": "Romania",
+  "lat": 47.791093,
+  "lon": 22.881314,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 534845460,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "name": "Catedrala Ortodoxă",
+    "religion": "christian",
+    "wikidata": "Q5298087"
+   }
+  },
+  "footprint": [
+   [
+    47.79097,
+    22.881481
+   ],
+   [
+    47.79105,
+    22.881075
+   ],
+   [
+    47.791216,
+    22.881148
+   ],
+   [
+    47.791136,
+    22.881553
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 31.6,
+   "widthM": 19.2,
+   "bearingDeg": 106.3
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/534845460",
+   "https://www.wikidata.org/wiki/Q5298087"
+  ],
+  "verificationNotes": "OSM way 534845460 'Catedrala Ortodoxă' (romanian_orthodox, wikidata Q5298087) on Bd. Vasile Lucaciu. Wikidata Q5298087 'Dormition of the Theotokos Cathedral, Satu Mare' gives coordinates 47.791111, 22.880833, ~40 m from the outline centroid; inception 1926. The archive post texts name the Orthodox cathedral 'Adormirea Maicii Domnului' of Satu Mare, so identity is clear. The OSM outline is a coarse 4-point rectangle (31.6 x 19.2 m) that does not show the cross plan, apses or towers; use it only as a placement guide. No verified Hungarian name was found."
+ },
+ {
+  "id": "conacul-berenczei-kovats-nisipeni",
+  "officialName": "Conacul Berenczei Kováts Miklós, Nisipeni",
+  "nameHu": "Berenczei Kováts Miklós-kúria",
+  "altNames": [
+   "Conacul Kovats din Nisipeni",
+   "Kováts-kúria (Sándorhomok)",
+   "Berenczei-Kováts-kúria"
+  ],
+  "address": "Centrul satului Nisipeni (lângă biserica reformată), comuna Lazuri, 447172",
+  "city": "Nisipeni (Satu Mare)",
+  "county": "Satu Mare",
+  "country": "Romania",
+  "lat": 47.901661,
+  "lon": 22.903644,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1366197034,
+   "tags": {
+    "building": "yes",
+    "historic": "manor",
+    "name": "Conacul Kovats din Nisipeni"
+   }
+  },
+  "footprint": [
+   [
+    47.901737,
+    22.903325
+   ],
+   [
+    47.901562,
+    22.903357
+   ],
+   [
+    47.901613,
+    22.903958
+   ],
+   [
+    47.901782,
+    22.903927
+   ],
+   [
+    47.901773,
+    22.903818
+   ],
+   [
+    47.901734,
+    22.903825
+   ],
+   [
+    47.9017,
+    22.903432
+   ],
+   [
+    47.901745,
+    22.903424
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 45.2,
+   "widthM": 19.5,
+   "bearingDeg": 82.8
+  },
+  "heightHints": "Ground floor + mansard attic; neo-Gothic tower on the west side; original roof ridge/eave heights and pitch kept; beaver-tail ceramic tiles; tower roof structure replaced (szamos.ro). No height in metres.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1366197034",
+   "https://szamos.ro/epitett-oroksegunk-sandorhomok/",
+   "https://maszol.ro/belfold/Romos-epuletbol-korszeru-rendezvenykozpont-felujitottak-sandorhomoki-Kovats-kuriat",
+   "https://kronika.ro/erdelyi-hirek/sandorhomok-felfedezesre-varo-kincsei-n-a-tortenelmi-kovats-csalad-oroksege-turisztikai-celpontta-teheti-a-szatmar-megyei-falut"
+  ],
+  "verificationNotes": "Sándorhomok has two Kováts manors (Krónika 2022). (1) The Kováts Eduárd manor (1862, attributed to Ybl) was renovated by the family. (2) The Berenczei Kováts Miklós manor (1899) was in ruins 'in the village centre, close to the Reformed church'. It was restored by Lazuri commune in 2023–2026 (LMI SM-II-a-B-21198, manor .01, granary .02) and handed over in June 2026 (maszol.ro, 22 Jun 2026). szamos.ro describes it as compact and U-shaped, with the main entrance between two projecting side wings and a tower on the west side. OSM way 1366197034 'Conacul Kovats din Nisipeni' (historic=manor) is ~110 m south of the village's (unnamed) church and has exactly such a U-plan: 45.2 x 19.5 m, with two short wings projecting north. It is therefore taken as the Berenczei Kováts Miklós manor. Doubt: OSM does not say which Kováts manor it is. A larger building ~300 m south-west (OSM way 1366197031, 64 x 18 m) could be the other manor."
+ },
+ {
+  "id": "manejul-carei",
+  "officialName": "Manejul (Grajdul) Castelului Károlyi, Carei",
+  "nameHu": "Lovarda",
+  "altNames": [
+   "Grajd",
+   "Nagykárolyi lovarda",
+   "Manejul castelului Károlyi"
+  ],
+  "address": "Parcul Castelului Károlyi, Strada 1 Decembrie 1918, Carei, 445100",
+  "city": "Carei",
+  "county": "Satu Mare",
+  "country": "Romania",
+  "lat": 47.683309,
+  "lon": 22.46565,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 175996694,
+   "tags": {
+    "addr:city": "Carei",
+    "addr:postcode": "445100",
+    "building": "stable",
+    "name": "Grajd",
+    "name:hu": "Lovarda"
+   }
+  },
+  "footprint": [
+   [
+    47.683045,
+    22.465027
+   ],
+   [
+    47.682936,
+    22.465157
+   ],
+   [
+    47.683603,
+    22.466311
+   ],
+   [
+    47.683675,
+    22.466218
+   ],
+   [
+    47.683603,
+    22.466102
+   ],
+   [
+    47.683637,
+    22.466062
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 113.9,
+   "widthM": 15.6,
+   "bearingDeg": 49.3
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/175996694",
+   "https://actualdecluj.ro/foto-castelele-transilvaniei-in-mainile-administratiilor-locale-exemple-din-covasna-si-carei/"
+  ],
+  "verificationNotes": "OSM way 175996694 is tagged building=stable, name 'Grajd', name:hu 'Lovarda'. It is a long hall (113.9 x 15.6 m, 1,684 m2, NE–SW axis) ~150 m south-west of the Károlyi castle (OSM way 175996705) in the castle park. Actualdecluj notes that the revitalised castle park houses a manej (riding hall). No second source with the exact position, date or architect of the riding hall was found; hu.wikipedia and en.wikipedia (Károlyi Castle) do not mention outbuildings. Not to be confused with the castle annex buildings L1 and L2 being rehabilitated in the 2021–2027 phase-II project. Single partner image;"
+ },
+ {
+  "id": "centrul-reformat-noul-mileniu",
+  "officialName": "Centrul Reformat „Noul Mileniu”",
+  "nameHu": "Új Ezredév Református Központ",
+  "altNames": [
+   "New Millennium Reformed Center",
+   "Biserica Centrului Reformat"
+  ],
+  "address": "Splaiul Morarilor 1B, Fabric, Timișoara, 300120",
+  "city": "Timișoara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.759669,
+  "lon": 21.25798,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 443148632,
+   "tags": {
+    "addr:city": "Timișoara",
+    "addr:housenumber": "1B",
+    "addr:postcode": "300120",
+    "addr:street": "Splaiul Morarilor",
+    "amenity": "community_centre",
+    "building": "yes",
+    "name": "Centrul Reformat Noul Mileniu",
+    "name:hu": "Új Ezredév Református Központ",
+    "website": "https://www.facebook.com/%C3%9Aj-Ezred%C3%A9v-Reform%C3%A1tus-K%C3%B6zpont-1552660178365268/"
+   }
+  },
+  "footprint": [
+   [
+    45.759575,
+    21.257684
+   ],
+   [
+    45.759791,
+    21.257765
+   ],
+   [
+    45.759876,
+    21.257803
+   ],
+   [
+    45.759895,
+    21.25785
+   ],
+   [
+    45.759902,
+    21.257933
+   ],
+   [
+    45.75989,
+    21.257995
+   ],
+   [
+    45.759862,
+    21.258043
+   ],
+   [
+    45.759828,
+    21.258065
+   ],
+   [
+    45.759772,
+    21.258078
+   ],
+   [
+    45.759771,
+    21.258176
+   ],
+   [
+    45.759798,
+    21.258195
+   ],
+   [
+    45.759784,
+    21.258237
+   ],
+   [
+    45.759767,
+    21.258291
+   ],
+   [
+    45.759715,
+    21.258332
+   ],
+   [
+    45.759675,
+    21.2583
+   ],
+   [
+    45.759629,
+    21.258294
+   ],
+   [
+    45.759631,
+    21.258263
+   ],
+   [
+    45.759582,
+    21.258221
+   ],
+   [
+    45.759583,
+    21.258122
+   ],
+   [
+    45.75956,
+    21.258114
+   ],
+   [
+    45.759557,
+    21.258081
+   ],
+   [
+    45.759545,
+    21.258061
+   ],
+   [
+    45.759579,
+    21.25794
+   ],
+   [
+    45.759609,
+    21.257921
+   ],
+   [
+    45.759691,
+    21.257952
+   ],
+   [
+    45.759716,
+    21.257888
+   ],
+   [
+    45.759562,
+    21.257801
+   ],
+   [
+    45.75954,
+    21.257818
+   ],
+   [
+    45.759513,
+    21.258058
+   ],
+   [
+    45.759488,
+    21.258075
+   ],
+   [
+    45.759474,
+    21.258102
+   ],
+   [
+    45.759404,
+    21.258066
+   ],
+   [
+    45.759459,
+    21.257771
+   ],
+   [
+    45.759484,
+    21.25778
+   ],
+   [
+    45.759567,
+    21.25772
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 51.0,
+   "widthM": 44.5,
+   "bearingDeg": 17.1
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/443148632",
+   "https://www.openstreetmap.org/way/756177076",
+   "https://www.openstreetmap.org/way/1413808976",
+   "https://en.wikipedia.org/wiki/New_Millennium_Reformed_Center",
+   "https://ojs.emt.ro/EPKO/article/view/959"
+  ],
+  "verificationNotes": "OSM: community centre way 443148632 'Centrul Reformat Noul Mileniu' (name:hu 'Új Ezredév Református Központ', Splaiul Morarilor 1B) and church way 756177076 'Biserica Centrului Reformat' (architect=Imre Makovecz, same address), joined by way 1413808976. They share walls, so the footprint is their merged outline (35 points, 1,462 m2, 51.0 x 44.5 m), and the coordinates are its centroid. The 'osm' field cites the community centre way; tags of the church part are in the notes only. en.wikipedia (New Millennium Reformed Center) confirms the Makovecz design, the Fabric district and the address Splaiul Morarilor 1B. The archive text says the complex roof uses copper and titanium-zinc."
+ },
+ {
+  "id": "clinica-obstetrica-timisoara",
+  "officialName": "Clinicile de Obstetrică-Ginecologie și Neonatologie Timișoara (noua maternitate a Spitalului Clinic Județean de Urgență „Pius Brînzeu”)",
+  "nameHu": null,
+  "altNames": [
+   "Clinica de obstetrică și ginecologie „Maternitatea BEGA”",
+   "BABYROHU new obstetrics-gynaecology clinic"
+  ],
+  "address": "Bulevardul Liviu Rebreanu 158A, Timișoara, 300723",
+  "city": "Timișoara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.737518,
+  "lon": 21.244105,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1054670035,
+   "tags": {
+    "addr:city": "Timișoara",
+    "addr:housenumber": "158A",
+    "addr:street": "Bulevardul Liviu Rebreanu",
+    "amenity": "clinic",
+    "building": "hospital",
+    "healthcare": "clinic",
+    "healthcare:speciality": "gynaecology",
+    "name": "Clinica de obstetrică și ginecologie \"Maternitatea BEGA\"",
+    "website": "https://www.hosptm.ro/sectiile-spitalului/obstetrica-ginecologie/"
+   }
+  },
+  "footprint": [
+   [
+    45.737688,
+    21.243795
+   ],
+   [
+    45.737648,
+    21.244081
+   ],
+   [
+    45.737678,
+    21.24409
+   ],
+   [
+    45.737676,
+    21.244112
+   ],
+   [
+    45.737639,
+    21.244373
+   ],
+   [
+    45.737292,
+    21.244274
+   ],
+   [
+    45.737332,
+    21.243986
+   ],
+   [
+    45.73751,
+    21.244037
+   ],
+   [
+    45.73753,
+    21.243893
+   ],
+   [
+    45.737549,
+    21.243755
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 45.1,
+   "widthM": 39.3,
+   "bearingDeg": 101.3
+  },
+  "heightHints": "5,434 m2 useful area, 126 beds.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1054670035",
+   "https://www.digi24.ro/stiri/actualitate/sanatate/cum-arata-prima-maternitate-publica-ridicata-in-timisoara-in-ultimii-50-de-ani-este-cea-mai-moderna-din-tara-2892825",
+   "https://www.cjtimis.ro/wp-content/uploads/2020/07/Fisa-de-proiect-BABYROHU-actualizata-24.08.2021.pdf",
+   "https://www.g4media.ro/foto-maternitatea-odobescu-din-timisoara-s-a-mutat-intr-o-cladire-moderna-in-vechea-cladire-se-prabusea-tavanul-primele-nasteri-pe-24-iulie.html"
+  ],
+  "verificationNotes": "Position: OSM way 1054670035 (building=hospital, 'Clinica de obstetrică și ginecologie „Maternitatea BEGA”', Bd. Liviu Rebreanu 158A, website hosptm.ro) is the new obstetrics-gynaecology-neonatology building. The Interreg RO-HU project BABYROHU (Timiș County Council / County Hospital + University of Szeged) puts the new clinic on a ~5,000 m2 plot at Bd. Liviu Rebreanu 158A. Digi24 (13 Aug 2024) reports its inauguration on the County Hospital campus: the first public maternity built in Timișoara in 50 years, ~EUR 20 M, 4 floors, 126 beds. Footprint 45.1 x 39.3 m (1,245 m2), consistent with 5,434 m2 over 4–5 levels. The other candidate is weak: the Municipal Hospital's 'Odobescu' obstetrics clinic moved in July 2025 into an EXISTING rented 4-storey former private clinic on Str. Franyo Zoltan (g4media, 23 Jul 2025), which is unlikely to be a new-facade reference. The old Bega clinic (Str. Dr. Aurel Cândea, OSM way 464503387) is an older building and unlikely. Check the archive photos against a new 4-storey building ~45 x 39 m."
+ },
+ {
+  "id": "intrare-iulius-town-timisoara",
+  "officialName": "Intrarea Iulius Town Timișoara",
+  "nameHu": null,
+  "altNames": [
+   "Iulius Mall Timișoara",
+   "Iulius Town"
+  ],
+  "address": "Piața Consiliul Europei 2, Timișoara, 300088",
+  "city": "Timișoara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.766602,
+  "lon": 21.228339,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 24042485,
+   "tags": {
+    "addr:city": "Timișoara",
+    "addr:housenumber": "2",
+    "addr:postcode": "300088",
+    "addr:street": "Piața Consiliul Europei",
+    "alt_name": "Iulius Town",
+    "building": "retail",
+    "building:levels": "4",
+    "check_date:opening_hours": "2025-05-06",
+    "internet_access": "wlan",
+    "name": "Iulius Mall",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "shop": "mall",
+    "toilets": "yes",
+    "wikidata": "Q4685108"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "OSM building:levels=4 for the mall building (whole mall, not the entrance).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/24042485",
+   "https://www.romania-insider.com/business/iulius-town-opens-timisoara-romania",
+   "https://www.wall-street.ro/articol/Real-Estate/290211/iulius-a-ajuns-la-un-pol-de-business-de-80-000-metri-patrati-in-proiectul-de-regenerare-urbana-de-442-mil-euro-din-timisoara.html"
+  ],
+  "verificationNotes": "Iulius Town (opened 30 Aug 2019) was built around the existing Iulius Mall. The specific copper-clad entrance could NOT be located: no public source on a copper entrance or its architect was found. A 2024 statement by Iulius mentions 'two major entrances' in Timișoara that year, which may be related but is unconfirmed. Coordinates = centroid of the whole mall outline (309 x 237 m, 53,076 m2), so position is site level only. Footprint deliberately omitted because the mall outline would misrepresent an entrance. Check the archive folder '1. előkészítve - Intrare Iulius Town, Timisoara' for which side of the mall it is."
+ },
+ {
+  "id": "muzeul-apei-timisoara",
+  "officialName": "Muzeul Apei Timișoara (fosta Uzină de Apă Urseni)",
+  "nameHu": null,
+  "altNames": [
+   "Muzeul Apei",
+   "Timișoara Water Museum",
+   "Vechea stație de pompare",
+   "OZN-ul (grupul de fântâni)"
+  ],
+  "address": "Calea Urseni nr. 26, Timișoara, 300697",
+  "city": "Timișoara",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.724353,
+  "lon": 21.255402,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 943810404,
+   "tags": {
+    "addr:city": "Timișoara",
+    "addr:street": "Strada Vasile Zbegan",
+    "building": "yes",
+    "height": "0",
+    "man_made": "water_works",
+    "name": "Vechea stație de pompare"
+   }
+  },
+  "footprint": [
+   [
+    45.724374,
+    21.255311
+   ],
+   [
+    45.724392,
+    21.255325
+   ],
+   [
+    45.724407,
+    21.255346
+   ],
+   [
+    45.724416,
+    21.255373
+   ],
+   [
+    45.72442,
+    21.255405
+   ],
+   [
+    45.724415,
+    21.255437
+   ],
+   [
+    45.724403,
+    21.255465
+   ],
+   [
+    45.724385,
+    21.255485
+   ],
+   [
+    45.724364,
+    21.255496
+   ],
+   [
+    45.724341,
+    21.255495
+   ],
+   [
+    45.72432,
+    21.255484
+   ],
+   [
+    45.724302,
+    21.255463
+   ],
+   [
+    45.724291,
+    21.255435
+   ],
+   [
+    45.724287,
+    21.255402
+   ],
+   [
+    45.72429,
+    21.255373
+   ],
+   [
+    45.724299,
+    21.255346
+   ],
+   [
+    45.724314,
+    21.255325
+   ],
+   [
+    45.724332,
+    21.255311
+   ],
+   [
+    45.724353,
+    21.255306
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 14.7,
+   "widthM": 14.6,
+   "bearingDeg": 81.0
+  },
+  "heightHints": "OSM tags height=0 on this way (not usable). No height found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/943810404",
+   "https://www.openstreetmap.org/way/1199498996",
+   "https://en.wikipedia.org/wiki/Timi%C8%99oara_Water_Museum",
+   "https://stirileprotv.ro/divers/ozn-ul-de-la-timisoara-devine-unul-din-punctele-de-atractie-ale-orasului.html",
+   "https://www.muzeulapei.ro/media/2oxjh2qc/program-conferinta-final-proiect-muzeul-apei_7-8-dec_web.pdf"
+  ],
+  "verificationNotes": "Museum site: OSM way 1199498996 'Muzeul Apei', Calea Urseni 26 (address confirmed by the museum's own conference programme). en.wikipedia: former Urseni water plant (in use from 1912, inaugurated 1 June 1914, architect László Székely); museum opened June 2023 after a 2020–2023 conversion. The site has 3 historic buildings plus a new pavilion. The archive text says the elZinc roof is on the restored old pumping station. ProTV (14 Sep 2022) says the main building, shaped like a flying saucer ('farfurie zburătoare', the 'OZN' / fountain group), 'has a new roof'. In OSM this is way 943810404 'Vechea stație de pompare' (man_made=water_works), a round building ~14.7 m across, 169 m2, which is used here. Doubt: the other restored buildings on the site may also have zinc roofs, for example the filter hall (probably way 943817976, ~33 x 33 m) and the pump hall. If the archive photos show a rectangular hall rather than the round building, switch to one of those. Museum identity and site are VERIFIED. Only the choice of the round building among the restored buildings is inferred, hence PROBABLE."
+ },
+ {
+  "id": "biserica-pogorarea-duhului-sfant-giroc",
+  "officialName": "Biserica nouă cu hramul „Pogorârea Sfântului Duh”, Parohia Ortodoxă Română Giroc",
+  "nameHu": null,
+  "altNames": [
+   "Biserica „Pogorârea Duhului Sfânt”, Giroc",
+   "Biserica nouă din Giroc"
+  ],
+  "address": "Strada Trandafirilor (lângă biserica veche Sf. Dimitrie, nr. 35), Giroc, 307220",
+  "city": "Giroc",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.699979,
+  "lon": 21.235101,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 930266394,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "construction",
+    "construction": "cathedral",
+    "denomination": "orthodox",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.699821,
+    21.234918
+   ],
+   [
+    45.700017,
+    21.234816
+   ],
+   [
+    45.700049,
+    21.234944
+   ],
+   [
+    45.700025,
+    21.234957
+   ],
+   [
+    45.700064,
+    21.23511
+   ],
+   [
+    45.700095,
+    21.235094
+   ],
+   [
+    45.700124,
+    21.235206
+   ],
+   [
+    45.700088,
+    21.235225
+   ],
+   [
+    45.700099,
+    21.235271
+   ],
+   [
+    45.700069,
+    21.235287
+   ],
+   [
+    45.700085,
+    21.235349
+   ],
+   [
+    45.700006,
+    21.23539
+   ],
+   [
+    45.699992,
+    21.235333
+   ],
+   [
+    45.699953,
+    21.235353
+   ],
+   [
+    45.699937,
+    21.235289
+   ],
+   [
+    45.699911,
+    21.235302
+   ],
+   [
+    45.699883,
+    21.235191
+   ],
+   [
+    45.699918,
+    21.235173
+   ],
+   [
+    45.699877,
+    21.235012
+   ],
+   [
+    45.699849,
+    21.235027
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 41.5,
+   "widthM": 24.8,
+   "bearingDeg": 70.1
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/930266394",
+   "https://www.cjtimis.ro/judetul-timis/primariile-din-judetul-timis/comuna-giroc/",
+   "https://mitropolia-banatului.ro/vizita-pastorala-in-parohia-giroc/",
+   "https://www.banatulazi.ro/o-biserica-o-biblioteca-si-minunea-credintei-la-doi-pasi-de-timisoara/"
+  ],
+  "verificationNotes": "SAME-BUILDING CHECK (see also parohia-ortodoxa-giroc). The Orthodox parish of Giroc has TWO church buildings ~70 m apart. (a) The old church 'Sf. Mucenic Dimitrie' (1759, monument since 1955), OSM way 223846005, Str. Trandafirilor 35, 45.700137, 21.234184. (b) A large NEW church begun in 2016, raised in red brick and roofed (Mitropolia Banatului), built 'right next to the small church raised over 250 years ago' (Banatul Azi, 12 May 2022). The Giroc commune page on cjtimis.ro names the new church: 'Biserica nouă cu hramul „Pogorârea Sfântului Duh” din Giroc'. OSM way 930266394 (place_of_worship, building=construction, construction=cathedral, orthodox; 41.5 x 24.8 m, 801 m2) is exactly this new church east of the old one. This entry = the new church (b): 45.699979, 21.235101. Other churches of the commune were excluded: Chișoda Orthodox church (OSM way 107010737) is dedicated to 'Adormirea Maicii Domnului'; the Timișoara 'Dacia' and Freidorf churches of the same dedication are outside Giroc. Hungarian name of the village: Gyüreg (Gyirok until 1910, per hu.wikipedia)."
+ },
+ {
+  "id": "parohia-ortodoxa-giroc",
+  "officialName": "Parohia Ortodoxă Română Giroc – Biserica „Sfântul Mucenic Dimitrie” (biserica veche)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Ortodoxă Sfântul Mucenic Dimitrie",
+   "Biserica Parohiei Ortodoxe Române Giroc"
+  ],
+  "address": "Strada Trandafirilor nr. 35, Giroc, 307220",
+  "city": "Giroc",
+  "county": "Timiș",
+  "country": "Romania",
+  "lat": 45.700137,
+  "lon": 21.234184,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 223846005,
+   "tags": {
+    "addr:city": "Giroc",
+    "addr:housenumber": "35",
+    "addr:postcode": "307220",
+    "addr:street": "Strada Trandafirilor",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Biserica Ortodoxă Sfântul Mucenic Dimitrie",
+    "religion": "christian",
+    "website": "https://www.parohiagiroc.ro"
+   }
+  },
+  "footprint": [
+   [
+    45.700193,
+    21.234294
+   ],
+   [
+    45.700109,
+    21.234314
+   ],
+   [
+    45.700082,
+    21.234073
+   ],
+   [
+    45.700166,
+    21.234053
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 19.0,
+   "widthM": 9.5,
+   "bearingDeg": 80.7
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/223846005",
+   "https://www.parohiagiroc.ro/parohia/istoric",
+   "https://www.cjtimis.ro/judetul-timis/primariile-din-judetul-timis/comuna-giroc/",
+   "https://mitropolia-banatului.ro/vizita-pastorala-in-parohia-giroc/",
+   "https://hu.wikipedia.org/wiki/Gy%C3%BCreg"
+  ],
+  "verificationNotes": "SAME-BUILDING CHECK (see also biserica-pogorarea-duhului-sfant-giroc). The parish 'Parohia Ortodoxă Română Giroc' (parohiagiroc.ro, Str. Trandafirilor 35; cjtimis.ro gives nr. 25) owns two churches ~70 m apart: the old St. Demetrius church (1759, OSM way 223846005, 19.0 x 9.5 m, 45.700137, 21.234184) and the new 'Pogorârea Sfântului Duh' church under construction since 2016 (OSM way 930266394, 45.699979, 21.235101). There is no Orthodox church dedicated to Pogorârea in Chișoda, which is dedicated to 'Adormirea Maicii Domnului'. This entry is therefore EITHER the same new church billed to the parish (duplicate of the other entry) OR the old St. Demetrius church, whose restoration was also supported by the commune (cjtimis.ro). this is not proven. Site is certain, building uncertain (hence accuracy 'site'). Photo check: a small baroque hall church with a west tower = St. Demetrius (keep this entry); a large red-brick church with domes = the new church (merge into biserica-pogorarea-duhului-sfant-giroc). The old church outline in OSM is a coarse 4-point rectangle (19.0 x 9.5 m)."
+ },
+ {
+  "id": "refugiu-piatra-talharului",
+  "officialName": "Refugiul Montan „Piatra Tâlharului”",
+  "nameHu": null,
+  "altNames": [
+   "Refugiul Piatra Talharului",
+   "Refugiu Piatra Tâlharului (CAR Cluj)"
+  ],
+  "address": "Culmea Vlădesei, la Piatra Tâlharului, comuna Budureasa (limita cu Pietroasa), Munții Apuseni",
+  "city": "Piatra Tâlharului",
+  "county": "Bihor",
+  "country": "Romania",
+  "lat": 46.673298,
+  "lon": 22.741107,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "node",
+   "id": 13310430677,
+   "tags": {
+    "amenity": "shelter",
+    "name": "Refugiul Piatra Talharului",
+    "operator": "CAR Cluj"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/13310430677",
+   "https://carcluj.ro/refugiul-piatra-talharului",
+   "https://www.radiocluj.ro/2025/09/25/refugiul-montan-piatra-talharului-a-fost-inaugurat/",
+   "https://cluj24.ro/video-foto-refugiul-piatra-talharului-noua-oaza-montana-din-apuseni-deschisa-drumetilor-263827.html"
+  ],
+  "verificationNotes": "The CAR Cluj project page gives the refuge coordinates as 46°40'24.1\"N 22°44'28.2\"E (= 46.673361, 22.741167). OSM node 13310430677 'Refugiul Piatra Talharului' (amenity=shelter, operator CAR Cluj, added Nov 2025) is at 46.673298, 22.741107, ~8 m away. The rock 'Piatra Talharului' (OSM cliff way 1172970375) is ~150 m north-west. Opened 24–25 Sep 2025 by Clubul Alpin Român – Filiala Cluj with the Apuseni Natural Park and Pietroasa town hall (Radio Cluj, Cluj24). Architect Anca Loghin; Nominatim places the point in Budureasa commune (Bihor). Coordinates = OSM node (the source point is on the building). There is no building outline in OSM, so footprint and dimensions are null. Size and cladding were not stated in the sources."
+ },
+ {
+  "id": "castelul-tisza-geszt",
+  "officialName": "Tisza-kastély, Geszt",
+  "nameHu": "Tisza-kastély",
+  "altNames": [
+   "Castelul Tisza, Geszt",
+   "Tisza Castle, Geszt",
+   "geszti kastély"
+  ],
+  "address": "Arany János utca, 5734 Geszt",
+  "city": "Geszt",
+  "county": "Békés",
+  "country": "Hungary",
+  "lat": 46.883543,
+  "lon": 21.57885,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 432513265,
+   "tags": {
+    "building": "yes",
+    "castle_type": "stately",
+    "historic": "castle",
+    "name": "Tisza-kastély"
+   }
+  },
+  "footprint": [
+   [
+    46.88346,
+    21.578476
+   ],
+   [
+    46.883573,
+    21.578909
+   ],
+   [
+    46.883734,
+    21.578819
+   ],
+   [
+    46.883778,
+    21.578991
+   ],
+   [
+    46.883512,
+    21.57914
+   ],
+   [
+    46.883354,
+    21.578535
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 49.2,
+   "widthM": 31.7,
+   "bearingDeg": 69.1
+  },
+  "heightHints": "Originally single-storey; the central part was raised to two storeys in the early 1860s; mansard-roofed pavilion (designer Antal Czigler) (hu.wikipedia). No height in metres.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/432513265",
+   "https://hu.wikipedia.org/wiki/Tisza-kast%C3%A9ly_(Geszt)",
+   "https://whb.hu/en/projects/tisza-kastely-2/"
+  ],
+  "verificationNotes": "OSM way 432513265 'Tisza-kastély' (historic=castle, castle_type=stately), Arany János utca, Geszt. hu.wikipedia gives coordinates 46.883427, 21.578816, ~13 m from the outline centroid. It describes an L-shaped baroque/Copf manor (c. 1760–1772, completed late 18th c.); the original shingle roof was later replaced with slate, and the mansard pavilion roof was covered in sheet metal. The OSM outline (49.2 x 31.7 m, 886 m2) is consistent with an L-plan. WHB (whb.hu) lists 'the reconstruction of the Tisza Castle in Geszt' (facade, roof structure, interiors) as 2021–2023, and hu.wikipedia shows the castle after the 2024 renovation."
+ }
+]

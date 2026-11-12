@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 256.0,
+ "bearingSource": "Building not tagged in OSM: the light-grey roof on the south side of Str. Iancu Jianu next to the address point (untagged OSM way 1061811396, aerial imagery) is taken as the library; its street front runs at ≈ 76°/256°. +X = 256°, so +Z (model front) faces ≈ 346° towards the street.",
+ "cover": null,
+ "photosUsed": 1,
+ "approximations": "Single frontal photograph (library website banner). Façade ≈ 22 m from door/window sizes, depth 12 m assumed, eave ≈ 5.4 m, main hip ≈ 30°; sides, rear and roof plan not photographed (plain window rhythm). Identification of the exact building is probable only (address not geocoded, ±150 m). The photograph shows the earlier red-painted roof: main roof, risalit roofs and the central bell roof shown in natural titanium-zinc per the COLOR METAL records; coverage not documented. Clock-bay roof profile and ornament simplified.",
+ "note": {
+  "ro": "Machetă preliminară interpretată după o singură fotografie publică a fațadei principale; adâncimea clădirii, fațadele laterale și posterioară și amplasamentul exact sunt presupuse. Fotografia arată vechiul acoperiș vopsit în roșu, de aceea acoperișurile sunt redate în titan-zinc natural livrat de COLOR METAL, conform evidențelor firmei.",
+  "hu": "Egyetlen nyilvános homlokzati fotó alapján értelmezett előzetes makett; az épület mélysége, az oldal- és hátsó homlokzatok, valamint a pontos elhelyezkedés feltételezett. A fotó még a korábbi, pirosra festett tetőt mutatja, ezért a tetők a COLOR METAL nyilvántartása szerint szállított natúr titáncinkkel jelennek meg.",
+  "en": "Preliminary model interpreted from a single public photograph of the main front; the depth, the side and rear elevations and the exact location are assumed. The photograph shows the earlier red-painted roof, so the roofs are shown in the natural titanium-zinc supplied by COLOR METAL according to its records."
+ }
+}

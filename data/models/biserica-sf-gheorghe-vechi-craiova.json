@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 90.4,
+ "bearingSource": "OSM way 753520160 long axis 90.4°; +X points east to the polygonal altar apse, −X to the open west porch; the lateral apses of the trefoil plan are on ±Z (outline and photos 01–04).",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "Trefoil plan after the OSM outline (20.5 × 11.3 m), lateral and altar apses idealised as regular polygons. Heights estimated (eaves ≈ 7.65 m, tower top ≈ 17.6 m + cross). North side mirrored from the south; panel layout, window count and the lobed porch arches simplified (round arches). The detached bell-cot is not modelled.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință. Deoarece fotografiile disponibile sunt anterioare lucrărilor, acoperișul, coiful turlei și jgheaburile sunt redate din titan-zinc natural, materialul livrat de COLOR METAL conform evidențelor sale. Înălțimile și latura de nord sunt aproximate; clopotnița separată nu este modelată.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett. Mivel az elérhető fotók a munkálatok előtt készültek, a tető, a torony sisakja és az ereszcsatornák natúr titáncinkként jelennek meg – a COLOR METAL nyilvántartása szerint általa szállított anyagként. A magasságok és az északi oldal közelítők; a különálló harangláb nincs modellezve.",
+  "en": "Scale model interpreted from public reference photographs. Because the available photographs predate the works, the roof, the tower helm and the gutters are shown in natural titanium-zinc, the material supplied by COLOR METAL according to its records. Heights and the north side are approximated; the detached bell-cot is not modelled."
+ }
+}

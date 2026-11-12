@@ -1,0 +1,15 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 65.0,
+ "bearingSource": "Grid of the library complex (OSM ways 405546987–405546997, edges at 65°/155°); +X along the north bar of the modelled wing (≈ 65°), the photographed façade faces NNW (−Z, 335°) onto the light court.",
+ "cover": "01",
+ "photosUsed": 12,
+ "identification": "Modelled wing: the central L-shaped courtyard wing, OSM way 405546991 (tagged 7 levels), not the named street wing 405546989. Photos 01–07 are taken from an upper floor of the northern block (OSM 405546993) across an ≈ 8 m light court; they show the zinc-hipped wing directly in front of the tall book-depot tower (OSM 405546987) whose narrow western stair shaft (OSM 405546997) appears on the right — this geometry only fits wing 405546991. Photos 08–09, taken looking east towards the Academy garden, show the near-flat zinc roof between parapets of the southern part of the same wing (the classical building in the background of 09 is probably the Academy palace). Photos 10–12 are taken in the garden court and show the glass fan pavilion at the east end of the street wing 405546989 with a small rooftop screen clad in diamond-pattern zinc; that wing (and its zinc-clad screen) is not modelled because the photographs document only its court-side corner — the model covers the connected zinc-roofed composition of wing 405546991 (north bar, east leg, parapet-roofed southern part). The depot tower, the street wing and the western/northern blocks are left out; the party walls against them are shown plain grey.",
+ "approximations": "Wing identification from the photo geometry against the OSM outlines; storey count from OSM (7) — the photographs only show the two top floors, so storey heights (eave ≈ 24.2 m), ground floor and the façades towards the garden are assumed; outline simplified to three rectangles; roof pitch ≈ 17°; the parapet roof's fall direction and its darker zinc tone (photos 08–09, overcast) are estimated; window grid regularised.",
+ "note": {
+  "ro": "Machetă simplificată a aripii centrale cu acoperișuri din titan-zinc a complexului bibliotecii, identificată după fotografiile de referință; numărul de niveluri provine din OSM, iar fațadele și etajele inferioare, nefotografiate, sunt aproximate.",
+  "hu": "A könyvtárkomplexum titáncink tetős középső szárnyának egyszerűsített makettje, a referenciafotók alapján azonosítva; a szintszám az OSM-ből származik, a nem fényképezett homlokzatok és alsó szintek közelítők.",
+  "en": "Simplified model of the central titanium-zinc-roofed wing of the library complex, identified from the reference photographs; the storey count comes from OSM, and the unphotographed façades and lower floors are approximated."
+ }
+}

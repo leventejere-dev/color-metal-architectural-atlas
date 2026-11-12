@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 0,
+ "bearingSource": "No outline (OSM node 9230390942 only) and the orientation cannot be read from the single photo; nominal 0° (+X north), unverified.",
+ "cover": "01",
+ "photosUsed": 1,
+ "approximations": "One photograph. Body ≈ 4.6 × 2.2–2.6 m, eaves 2.0 m and ridge 2.9 m above the floor, scaled from the door (≈ 1.95 m). The flared section, the pleated window side with two folds and pointed caps, the window, the door and the stilt frame follow the photo; the back side is not visible (plain, mirrored section assumed). Shingle courses (≈ 0.42 × 0.22 m) drawn as relief lines. On the flat base the uphill steel posts are extended to the ground (the real cabin sits on sloping rock). Identification with the Piatra Poienii cabin is probable, not certain: the photo matches the PREFA 'Bivouac' reference (DS.19 aluminium shingles, P.10 stone grey; the shelter above the rocks has large windows), but which of the two park refuges it shows cannot be decided from the image.",
+ "note": {
+  "ro": "Machetă preliminară după o singură fotografie: refugiul panoramic îmbrăcat integral în șindrilă de aluminiu gri închis, cu fereastră mare spre chei, așezat pe un eșafodaj de lemn la marginea stâncii; dimensiunile sunt estimate după ușă, iar latura din spate nu este vizibilă.",
+  "hu": "Egyetlen fotó alapján készült előzetes makett: a teljesen sötétszürke alumíniumzsindellyel burkolt panorámakabin nagy ablakkal a szoros felé, faállványon a sziklaperemen; a méretek az ajtó alapján becsültek, a hátoldal nem látható.",
+  "en": "Preliminary model from a single photograph: the panoramic shelter clad entirely in dark grey aluminium shingles, with a large window towards the gorge, on a timber stilt frame at the cliff edge; dimensions are estimated from the door and the back side is not visible."
+ }
+}

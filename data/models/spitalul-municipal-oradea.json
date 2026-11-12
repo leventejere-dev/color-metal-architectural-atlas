@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 34.1,
+ "bearingSource": "OSM way 199191245 long axis 34.1° (the long lower slab); +Z = 124.1°. Front kept at +Z: the single photograph does not fix the viewing direction.",
+ "cover": null,
+ "photosUsed": 1,
+ "approximations": "One photograph only (no further exterior views found). C1 (ground + 10) is placed as a 74.2 × 14.5 m slab in the upper band of the OSM outline and C2 (ground + 4) as the 119 m lower slab — an interpretation that matches the published built and floor areas of the two bodies; the rest of the upper band and the connecting spine are plain two-storey volumes of undocumented height. Storey heights (4.2 m ground floor, 3.3 m upper floors), the spandrel colour pattern, end elevations, stair tower, entrance hall and canopy position are estimated. The RAL 7016 aluminium is shown on the window sills (per the records) and, as a plausible use, on the parapet copings.",
+ "note": {
+  "ro": "Machetă simplificată, interpretată după o singură fotografie publică și conturul OSM; aluminiul vopsit antracit (RAL 7016) livrat de COLOR METAL conform evidențelor sale este redat la glafurile ferestrelor și, ca interpretare, la atice. Identificarea corpurilor C1 și C2, înălțimile și volumele de legătură sunt aproximate.",
+  "hu": "Egyetlen nyilvános fotó és az OSM-körvonal alapján értelmezett, egyszerűsített makett; a COLOR METAL nyilvántartása szerint szállított antracit (RAL 7016) festett alumínium az ablakpárkányokon és – értelmezésként – az attikafedéseken látható. A C1 és C2 épülettestek elhelyezése, a magasságok és az összekötő tömegek közelítők.",
+  "en": "Simplified scale model interpreted from a single public photograph and the OSM outline; the anthracite (RAL 7016) painted aluminium supplied by COLOR METAL according to its records is shown on the window sills and, as an interpretation, on the parapet copings. The placement of blocks C1 and C2, the heights and the connecting volumes are approximated."
+ }
+}

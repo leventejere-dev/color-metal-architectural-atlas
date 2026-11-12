@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 73.4,
+ "bearingSource": "OSM way 1360982485 (whole hall, rough) has its long axis at 163.4°; the office block stands across its south end, so its street front (+Z) is taken to face 163.4° (SSE) and +X runs along the front towards ≈73° (ENE). The single photo is taken from the south-west (street front + west end, hall visible behind to the west). Not verified on site.",
+ "cover": "01",
+ "photosUsed": 1,
+ "approximations": "Only one photograph. Office ≈ 30 × 16 m and ≈ 8.4 m to the top of the green mesh (+ ≈ 1.1 m silver roof screen), derived from the perspective of the photo (front length assumed equal to the hall width, cross-checked with the shop door). Rear and east elevations not photographed: the mesh is assumed to continue round the east end; windows behind the mesh are estimated. Rounded corners, profile spacing (≈ 1.45 m) and panel joints follow the photo. Only an 8 m slice of the warehouse hall is shown (its end wall ≈ 3.5 m west of the office, roof assumed flat behind an attic); the rest of the 146 m hall, the ducts and the lettering are not modelled.",
+ "note": {
+  "ro": "Machetă preliminară după o singură fotografie: blocul de birouri îmbrăcat în plasă expandată de aluminiu verde, cu colțuri rotunjite, paravan de acoperiș argintiu și loggie cu placaj bronz; dimensiunile sunt estimate din perspectivă, iar din hală este redată doar porțiunea alăturată.",
+  "hu": "Egyetlen fotó alapján készült előzetes makett: a zöld expandált alumíniumhálóval burkolt, lekerekített sarkú irodatömb ezüst tetőparavánnal és bronzburkolatú loggiával; a méretek a perspektíva alapján becsültek, a csarnokból csak a csatlakozó rész látható.",
+  "en": "Preliminary model from a single photograph: the office block wrapped in green expanded aluminium mesh with rounded corners, a silver roof screen and a bronze-clad loggia; dimensions are estimated from the perspective, and only the adjoining part of the warehouse hall is shown."
+ }
+}

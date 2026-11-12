@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 99.3,
+  "bearingSource": "Long side of the church outline OSM way 610986292 (11.2 m at 99.3°, 12.8 × 5.3 m overall, the only place of worship mapped inside the precinct way 612772055); +X points east to the rounded altar end of the outline, the entrance gable and the later closed porch face −X/west (photos 01, 02)",
+  "cover": null,
+  "photosUsed": 2,
+  "approximations": "The research record had no photographs; two photographs published by the Diocese of Slatina and Romanați on its page about the monastery were added (2008–2009: the nearly finished timber-framed church-paraclis and the finished church from the north). The monastery's only church per the diocese and the crestinortodox.ro directory is this paraclis (2008–2009); no newer church was found, so it is modelled as the main church. Dimensions after the OSM outline; heights from the door in photo 02 (walls ≈ 3.0 m, ridge ≈ 5.1 m). South side not photographed (lateral conch assumed symmetrical); porch roof and apse polygon simplified. The photographs show a light grey sheet roof; the roofs, conch roofs and turret cap are shown in weathered copper because copper strip and sheet were supplied by COLOR METAL for the monastery according to its records — which building and surfaces received it is not documented.",
+  "note": {
+    "ro": "Machetă preliminară a bisericii-paraclis, interpretată după două fotografii publice din 2008–2009 și conturul OSM; înălțimile și latura sudică sunt estimate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile sunt redate în cupru, materialul livrat de COLOR METAL conform evidențelor sale; clădirea și suprafețele exacte nu sunt documentate.",
+    "hu": "A paraklisz-templom előzetes makettje két nyilvános, 2008–2009-es fotó és az OSM-körvonal alapján; a magasságok és a déli oldal becsültek. A fotók a munkák előttiek, ezért a tetők rézzel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal; az épület és a pontos felületek nincsenek dokumentálva.",
+    "en": "Preliminary scale model of the church-paraclis, interpreted from two public photographs from 2008–2009 and the OSM outline; heights and the south side are estimated. The photographs predate the works, so the roofs are shown in copper, the material supplied by COLOR METAL according to its records; the exact building and surfaces are not documented."
+  }
+}

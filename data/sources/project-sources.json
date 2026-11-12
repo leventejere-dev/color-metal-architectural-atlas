@@ -1,0 +1,1349 @@
+{
+  "_doc": "Curated mapping of the COLOR METAL reference archive (M:/05_Arhitectura/Refernciák befrissítve) to unique physical buildings. One entry = one building. 'folders' are archive-relative path prefixes in priority order (curated/selected sets first); 'files' are single files from mixed collections. 'register' = exact 'Denumire proiect' value(s) in the internal register 'Referinte Sol Arh' (source of verified material data). 'rights': published = already published by COLOR METAL (posted / prepared for posting / printed booklet / website); company-unreviewed = own shoot, not yet published; third-party = web or partner image, never published. 'status': public | pending | excluded. Edit this file to add new archive folders, then run `npm run inventory`.",
+  "archiveRoot": "M:/05_Arhitectura/Refernciák befrissítve",
+  "register": "2026 Referinte Sol Arh - 29012026.xlsx",
+  "projects": [
+    {
+      "id": "sepsi-osk-arena",
+      "name": "Stadionul Sepsi OSK (Sepsi Duna Aréna)",
+      "nameHu": "Sepsi Duna Aréna",
+      "nameEn": "Sepsi OSK Stadium (Sepsi Duna Aréna)",
+      "city": "Sfântu Gheorghe",
+      "cityHu": "Sepsiszentgyörgy",
+      "county": "Covasna",
+      "category": "stadium",
+      "status": "public",
+      "rights": "published",
+      "model": "exhibition:stadium",
+      "folders": [
+        "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat",
+        "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Slideshow/Poze",
+        "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/2022.02.19"
+      ],
+      "files": [
+        "_Valogatott referenciak/elZinc/Stadionul Sepsi OSK.jpg",
+        "_Valogatott referenciak/elZinc/Stadionul Sepsi OSK 2.jpg",
+        "_Valogatott referenciak/elZinc/Stadionul Sepsi OSK 3.jpg"
+      ],
+      "register": [
+        "Stadion Sepsi"
+      ],
+      "docx": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Color Metal - Lucrari de referinta Sepsi OSK.docx",
+      "duplicates": [
+        "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021"
+      ],
+      "note": "Archive also holds the full construction-progress series (2021.05–2022.02, with and without logo); only the selected set is used.",
+      "nameHuVerified": true
+    },
+    {
+      "id": "biserica-reformata-tasnad",
+      "name": "Biserica Reformată din Tășnad",
+      "nameHu": "Tasnádi református templom",
+      "nameEn": "Reformed Church, Tășnad",
+      "city": "Tășnad",
+      "cityHu": "Tasnád",
+      "county": "Satu Mare",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "model": "exhibition:church",
+      "folders": [],
+      "files": [],
+      "register": [],
+      "note": "Exhibition-table model. Material per exhibition brief (client information): anthracite aluminium standing seam on nave, choir, apse and porch; tower helm in PREFA anthracite. No photographs of this building in the reference archive.",
+      "nameHuVerified": true
+    },
+    {
+      "id": "castelul-banffy-rascruci",
+      "name": "Castelul Bánffy din Răscruci",
+      "nameHu": "Válaszúti Bánffy-kastély",
+      "nameEn": "Bánffy Castle, Răscruci",
+      "city": "Răscruci",
+      "cityHu": "Válaszút",
+      "county": "Cluj",
+      "category": "castle",
+      "status": "public",
+      "rights": "published",
+      "model": "exhibition:manor",
+      "folders": [
+        "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz",
+        "2. posztolva/2. posztolva - Castelul Banffy Rascruci"
+      ],
+      "files": [
+        "xxxx Fenti képek/Banffy.JPG",
+        "_Valogatott referenciak/KME/Castelul Banffy Rascruci.JPG"
+      ],
+      "register": [
+        "Castelul Bánffy"
+      ],
+      "docx": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Castelul Banffy.docx",
+      "nameHuVerified": true
+    },
+    {
+      "id": "parcare-satu-mare",
+      "name": "Parcare supraetajată Satu Mare",
+      "nameHu": "Szatmárnémeti parkolóház",
+      "nameEn": "Multi-storey Car Park, Satu Mare",
+      "city": "Satu Mare",
+      "cityHu": "Szatmárnémeti",
+      "county": "Satu Mare",
+      "category": "parking",
+      "status": "public",
+      "rights": "published",
+      "model": "exhibition:garage",
+      "folders": [],
+      "files": [],
+      "register": [],
+      "note": "Exhibition-table model. Gold-painted expanded aluminium façade mesh (per exhibition brief). Photographs are not in the reference archive: 18 images supplied for the exhibition-table project (street, drone and mesh-detail views; some are website screenshots) are kept in work/supplementary and used for identification only until publication is approved.",
+      "nameHuVerified": false,
+      "extraFolders": [
+        "work/supplementary/parcare-satu-mare"
+      ],
+      "rightsNote": "COLOR METAL's own photographs — publication approved by COLOR METAL (12 Nov 2026)",
+      "notPublic": [
+        "@work/supplementary/parcare-satu-mare/*.webp"
+      ]
+    },
+    {
+      "id": "ansamblul-mitropolitan-iasi",
+      "name": "Catedrala Mitropolitană din Iași",
+      "nameHu": "Jászvásári metropolita-katedrális",
+      "nameEn": "Metropolitan Cathedral, Iași",
+      "city": "Iași",
+      "cityHu": "Jászvásár",
+      "county": "Iași",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI"
+      ],
+      "files": [
+        "xxxx Fenti képek/Ansamblu Mitropolitan Iasi.jpg"
+      ],
+      "register": [
+        "Ansamblu Mitropolitana Iasi"
+      ],
+      "docx": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Ansamblul Mitropolitan Iasi.docx",
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Ansamblu Mitropolitana Iasi",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Ansamblu Mitropolitana Iasi",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Ansamblu Mitropolitana Iasi"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "ateneul-roman",
+      "name": "Ateneul Român",
+      "nameHu": "Román Athenaeum",
+      "nameEn": "Romanian Athenaeum",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "cultural",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W"
+      ],
+      "files": [
+        "_Valogatott referenciak/elZinc/Ateneul Român.jpg",
+        "_Valogatott referenciak/elZinc/Ateneul Român 2.jpg"
+      ],
+      "register": [
+        "Ateneul Roman"
+      ],
+      "duplicates": [
+        "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-A4",
+        "2. posztolva/2. posztolva - Ateneul Roman/2022-10-TIF"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "biblioteca-academiei-romane",
+      "name": "Biblioteca Academiei Române",
+      "nameHu": "Román Akadémia Könyvtára",
+      "nameEn": "Library of the Romanian Academy",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "library",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane"
+      ],
+      "files": [],
+      "register": [
+        "BIBLIOTECA ACADEMIEI ROMANE"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "biblioteca-centrala-universitara-iasi",
+      "name": "Biblioteca Centrală Universitară „Mihai Eminescu”",
+      "nameHu": "„Mihai Eminescu” Központi Egyetemi Könyvtár",
+      "nameEn": "“Mihai Eminescu” Central University Library",
+      "city": "Iași",
+      "cityHu": "Jászvásár",
+      "county": "Iași",
+      "category": "library",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME",
+        "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi"
+      ],
+      "files": [
+        "xxxx Fenti képek/Biblioteca Centrala Universitara Mihai Eminescu Iasi.jpg"
+      ],
+      "register": [
+        "Biblioteca Centrală Universitară „Mihai Eminescu”"
+      ],
+      "docx": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/text - Biblioteca Centrală Universitară Iasi.docx",
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Biblioteca Centrala Universitara Mihai Eminescu",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Biblioteca Centrala Universitara Mihai Eminescu",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Biblioteca Centrala Universitara Mihai Eminescu"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "biserica-pogorarea-duhului-sfant-giroc",
+      "name": "Biserica „Pogorârea Duhului Sfânt”, Giroc",
+      "nameHu": "Gyiroki „Szentlélek eljövetele” templom",
+      "nameEn": "Descent of the Holy Spirit Church, Giroc",
+      "city": "Giroc",
+      "cityHu": "Gyüreg",
+      "county": "Timiș",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc"
+      ],
+      "files": [
+        "xxxx Fenti képek/Giroc.JPG"
+      ],
+      "register": [
+        "Biserica „Pogorârea Duhului Sfânt”, Giroc"
+      ],
+      "dedupCheck": "parohia-ortodoxa-giroc",
+      "nameHuVerified": false
+    },
+    {
+      "id": "parohia-ortodoxa-giroc",
+      "name": "Biserica Parohiei Ortodoxe Române Giroc",
+      "nameHu": "Gyiroki ortodox parókia temploma",
+      "nameEn": "Romanian Orthodox Parish Church, Giroc",
+      "city": "Giroc",
+      "cityHu": "Gyüreg",
+      "county": "Timiș",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc"
+      ],
+      "files": [],
+      "register": [
+        "Parohia ortodoxa Giroc"
+      ],
+      "dedupCheck": "biserica-pogorarea-duhului-sfant-giroc",
+      "nameHuVerified": false
+    },
+    {
+      "id": "biserica-amzei",
+      "name": "Biserica Amzei",
+      "nameHu": "Amzei-templom",
+      "nameEn": "Amzei Church",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Biserica Amzei Bucuresti"
+      ],
+      "files": [
+        "_Valogatott referenciak/elZinc/București Biserica Amzei.jpg",
+        "_Valogatott referenciak/elZinc/București Biserica AMzei 2.jpg"
+      ],
+      "register": [
+        "BISERICA AMZEI"
+      ],
+      "docx": "2. posztolva/2. posztolva - Biserica Amzei Bucuresti/Biserica Amzei din București.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "biserica-bodogaia",
+      "name": "Biserica din Bodogaia",
+      "nameHu": "Bodogayai templom",
+      "nameEn": "Church, Bodogaia",
+      "city": "Bodogaia",
+      "cityHu": "Bodogaya",
+      "county": "Harghita",
+      "category": "church",
+      "status": "pending",
+      "rights": "company-unreviewed",
+      "folders": [
+        "xxxx nincs kesz - Biserica bodogaia"
+      ],
+      "files": [],
+      "register": [
+        "Biserica Bodogaia"
+      ],
+      "note": "Archive folder marked 'nincs kész' (not finished); register: photos not OK, re-shoot after completion.",
+      "nameHuVerified": true
+    },
+    {
+      "id": "biserica-casin",
+      "name": "Biserica Cașin",
+      "nameHu": "Cașin-templom",
+      "nameEn": "Cașin Church",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Biserica Casin/Valogatott",
+        "2. posztolva/2. posztolva - Biserica Casin"
+      ],
+      "files": [],
+      "register": [
+        "Biserica Cașin"
+      ],
+      "docx": "2. posztolva/2. posztolva - Biserica Casin/Biserica Cașin din București.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "biserica-romano-catolica-tamasu",
+      "name": "Biserica Romano-Catolică din Tămașu",
+      "nameHu": "Székelyszenttamási római katolikus templom",
+      "nameEn": "Roman Catholic Church, Tămașu",
+      "city": "Tămașu",
+      "cityHu": "Székelyszenttamás",
+      "county": "Harghita",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Biserica Tamasu"
+      ],
+      "files": [
+        "_Valogatott referenciak/KME/Biserica catolica Tamasu.JPG"
+      ],
+      "register": [
+        "Biserica Catolica din Tamasu"
+      ],
+      "docx": "2. posztolva/2. posztolva - Biserica Tamasu/Biserica din Tamasu.docx",
+      "nameHuVerified": true
+    },
+    {
+      "id": "biserica-romano-catolica-zetea",
+      "name": "Biserica Romano-Catolică din Zetea",
+      "nameHu": "Zetelaki római katolikus templom",
+      "nameEn": "Roman Catholic Church, Zetea",
+      "city": "Zetea",
+      "cityHu": "Zetelaka",
+      "county": "Harghita",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048"
+      ],
+      "files": [
+        "_Valogatott referenciak/KME/Biserica Catolica Zetea.jpg"
+      ],
+      "register": [
+        "Biserica catolică din Zetea"
+      ],
+      "duplicates": [
+        "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom full"
+      ],
+      "nameHuVerified": true
+    },
+    {
+      "id": "biserica-domnita-balasa",
+      "name": "Biserica Domnița Bălașa",
+      "nameHu": "Domnița Bălașa-templom",
+      "nameEn": "Domnița Bălașa Church",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott",
+        "2. posztolva/2. posztolva - Biserica Domnita Balasa"
+      ],
+      "files": [],
+      "register": [
+        "Biserica Domnita Balasa"
+      ],
+      "docx": "2. posztolva/2. posztolva - Biserica Domnita Balasa/Biserica Domnița Bălasa.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "biserica-reformata-feliceni",
+      "name": "Biserica Reformată din Feliceni",
+      "nameHu": "Felsőboldogfalvi református templom",
+      "nameEn": "Reformed Church, Feliceni",
+      "city": "Feliceni",
+      "cityHu": "Felsőboldogfalva",
+      "county": "Harghita",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024",
+        "2. posztolva/2. posztolva - Biserica reformata Feliceni/Postolni",
+        "2. posztolva/2. posztolva - Biserica reformata Feliceni/régi képek 2021"
+      ],
+      "files": [
+        "xxxx Fenti képek/Boldogfalva.JPG",
+        "_Valogatott referenciak/KME/Biserica reformata Feliceni.png"
+      ],
+      "register": [
+        "BISERICA REFORMATĂ DIN FELICENI"
+      ],
+      "docx": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Postolni/Biserica reformata Feliceni.docx",
+      "nameHuVerified": true
+    },
+    {
+      "id": "bojdeuca-ion-creanga",
+      "name": "Bojdeuca Ion Creangă",
+      "nameHu": "Ion Creangă „Bojdeuca” emlékháza",
+      "nameEn": "Ion Creangă's “Bojdeuca” Memorial House",
+      "city": "Iași",
+      "cityHu": "Jászvásár",
+      "county": "Iași",
+      "category": "museum",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "Bojdeuca Ion Creanga/Válogatott BIC"
+      ],
+      "files": [
+        "xxxx Fenti képek/Bojdeuca Ion Creanga.jpg"
+      ],
+      "register": [
+        "Bojdeuca Ion Creangă"
+      ],
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Bojdeuca Ion Creanga",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Bojdeuca Ion Creanga",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Bojdeuca Ion Creanga"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "casa-berthelot-iasi",
+      "name": "Casa General Henri Mathias Berthelot",
+      "nameHu": "Henri Mathias Berthelot tábornok háza",
+      "nameEn": "General Henri Mathias Berthelot House",
+      "city": "Iași",
+      "cityHu": "Jászvásár",
+      "county": "Iași",
+      "category": "historic",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH"
+      ],
+      "files": [
+        "xxxx Fenti képek/Casa General Henri Mathias Bertoldi Iasi.jpg"
+      ],
+      "register": [
+        "Casa General Henri Mathias Berthelot din Iasi"
+      ],
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Casa General Henri Mathias Berthelot din Iasi",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Casa General Henri Mathias Berthelot din Iasi",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Casa General Henri Mathias Berthelot din Iasi"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "casa-macca",
+      "name": "Casa Macca",
+      "nameHu": "Macca-ház",
+      "nameEn": "Macca House",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "historic",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "x- Bukaresti fotozas Luci 2024/Casa Macca/Valogatott",
+        "x- Bukaresti fotozas Luci 2024/Casa Macca"
+      ],
+      "files": [],
+      "register": [
+        "Casa Macca, Monument istoric"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "casa-pogor",
+      "name": "Casa Pogor",
+      "nameHu": "Pogor-ház",
+      "nameEn": "Pogor House",
+      "city": "Iași",
+      "cityHu": "Jászvásár",
+      "county": "Iași",
+      "category": "museum",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP"
+      ],
+      "files": [
+        "xxxx Fenti képek/Casa Pogor.jpg"
+      ],
+      "register": [
+        "Casa Pogor"
+      ],
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Casa Pogor",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Casa Pogor",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Casa Pogor"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "catedrala-ortodoxa-satu-mare",
+      "name": "Catedrala Ortodoxă „Adormirea Maicii Domnului” Satu Mare",
+      "nameHu": "Szatmárnémeti ortodox székesegyház",
+      "nameEn": "Dormition Orthodox Cathedral, Satu Mare",
+      "city": "Satu Mare",
+      "cityHu": "Szatmárnémeti",
+      "county": "Satu Mare",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Adormirea Maicii Domnului Satu Mare",
+        "2. posztolva/2. posztolva - Catedrala Ortodoxa Satu Mare"
+      ],
+      "files": [],
+      "register": [
+        "Catedrala Ortodoxă Satu Mare"
+      ],
+      "docx": "2. posztolva/2. posztolva - Catedrala Ortodoxa Satu Mare/Catedrala Ortodoxa Satu Mare.docx",
+      "mergedFolders": "Two archive folders ('Adormirea Maicii Domnului Satu Mare' and 'Catedrala Ortodoxa Satu Mare') describe the same building: both post texts name the Orthodox Cathedral 'Adormirea Maicii Domnului' in Satu Mare.",
+      "nameHuVerified": false
+    },
+    {
+      "id": "biserica-sf-mihail-cluj",
+      "name": "Biserica Romano-Catolică „Sfântul Mihail”",
+      "nameHu": "Kolozsvári Szent Mihály-templom",
+      "nameEn": "St. Michael's Church, Cluj-Napoca",
+      "city": "Cluj-Napoca",
+      "cityHu": "Kolozsvár",
+      "county": "Cluj",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "Kolozsvár/JPG"
+      ],
+      "files": [
+        "_Valogatott referenciak/KME/Catedrala Sf Mihail.jpg",
+        "Referencia fuzetek/Ref fuzet KME/Biserica Sfantul Mihail Cluj Napoca.jfif"
+      ],
+      "register": [
+        "Catedrala Sf. Mihail"
+      ],
+      "duplicates": [
+        "Kolozsvár"
+      ],
+      "note": "Archive folder 'Kolozsvár' (drone DJI_0524–0531) shows St. Michael's Church on Piața Unirii; merged with the register entry 'Catedrala Sf. Mihail'.",
+      "nameHuVerified": true,
+      "rightsNote": "COLOR METAL's own photographs — publication approved by COLOR METAL (12 Nov 2026)"
+    },
+    {
+      "id": "centrul-reformat-noul-mileniu",
+      "name": "Centrul Reformat „Noul Mileniu”",
+      "nameHu": "Új Ezredév Református Központ",
+      "nameEn": "“New Millennium” Reformed Centre",
+      "city": "Timișoara",
+      "cityHu": "Temesvár",
+      "county": "Timiș",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara",
+        "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/Régi képek 2020"
+      ],
+      "files": [
+        "xxxx Fenti képek/Uj millenium.JPG",
+        "_Valogatott referenciak/elZinc/Centrul Reformat Noul Mileniu Timisoara.JPG"
+      ],
+      "register": [
+        "Centrul reformat Noul Mileniu"
+      ],
+      "docx": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/Centrul Reformat Noul Mileniu.docx",
+      "nameHuVerified": true
+    },
+    {
+      "id": "cladire-rezidentiala-odorheiu-secuiesc",
+      "name": "Clădire rezidențială, Odorheiu Secuiesc",
+      "nameHu": "Lakóépület, Székelyudvarhely",
+      "nameEn": "Residential Building, Odorheiu Secuiesc",
+      "city": "Odorheiu Secuiesc",
+      "cityHu": "Székelyudvarhely",
+      "county": "Harghita",
+      "category": "residential",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto"
+      ],
+      "files": [
+        "xxxx Fenti képek/Cladire rezidentiala.jpg"
+      ],
+      "register": [
+        "Clădire rezidențială, Odorheiu-Secuiesc"
+      ],
+      "hint": "Folder name: 'str Lejto' (Lejtő utca).",
+      "nameHuVerified": false
+    },
+    {
+      "id": "clinica-obstetrica-timisoara",
+      "name": "Clinicile de Obstetrică-Ginecologie și Neonatologie Timișoara",
+      "nameHu": "Temesvári szülészeti-nőgyógyászati és neonatológiai klinika",
+      "nameEn": "Obstetrics-Gynaecology and Neonatology Clinics, Timișoara",
+      "city": "Timișoara",
+      "cityHu": "Temesvár",
+      "county": "Timiș",
+      "category": "healthcare",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Clinica Ginecologie, Timis"
+      ],
+      "files": [
+        "_Valogatott referenciak/Alu/Clinica Ginecologie Timisoara.JPG"
+      ],
+      "register": [
+        "Clinica de Obstetrică-Ginecologie și Neonatologie din Timișoara"
+      ],
+      "docx": "2. posztolva/2. posztolva - Clinica Ginecologie, Timis/Clinicii din Timisoara.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "vila-constantin-geblescu",
+      "name": "Vila Constantin Geblescu",
+      "nameHu": "Constantin Geblescu-villa",
+      "nameEn": "Constantin Geblescu Villa",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "historic",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "1. előkészítve - Vila Constantin Geblescu"
+      ],
+      "files": [],
+      "register": [
+        "Vila Constantin Geblescu (RA-APPS)"
+      ],
+      "docx": "1. előkészítve - Vila Constantin Geblescu/Vila Constantin Geblescu.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "intrare-iulius-town-timisoara",
+      "name": "Intrarea Iulius Town Timișoara",
+      "nameHu": "Iulius Town bejárat, Temesvár",
+      "nameEn": "Iulius Town Entrance, Timișoara",
+      "city": "Timișoara",
+      "cityHu": "Temesvár",
+      "county": "Timiș",
+      "category": "commercial",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "1. előkészítve - Intrare Iulius Town, Timisoara"
+      ],
+      "files": [],
+      "register": [
+        "Intrare Iulius Town"
+      ],
+      "docx": "1. előkészítve - Intrare Iulius Town, Timisoara/Iulius Town Timisoara.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "liceul-teoretic-ady-endre",
+      "name": "Liceul Teoretic „Ady Endre”",
+      "nameHu": "Ady Endre Elméleti Líceum",
+      "nameEn": "“Ady Endre” High School",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "education",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/Valogatott",
+        "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre"
+      ],
+      "files": [
+        "_Valogatott referenciak/elZinc/Liceul Teoretic Ady Endre Bucuresti.jpg"
+      ],
+      "register": [
+        "Liceul Teoretic Ady Endre"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "manastirea-barnova",
+      "name": "Mănăstirea Bârnova",
+      "nameHu": "Bârnovai kolostor",
+      "nameEn": "Bârnova Monastery",
+      "city": "Bârnova",
+      "cityHu": "Bârnova",
+      "county": "Iași",
+      "category": "monastery",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "1. előkészítve - Manastirea Barnova/Válogatott MB"
+      ],
+      "files": [
+        "xxxx Fenti képek/Manastirea Barnova.jpg"
+      ],
+      "register": [
+        "Manastirea Barnova"
+      ],
+      "docx": "1. előkészítve - Manastirea Barnova/text - Mănăstirea Bârnova.docx",
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Manastirea Barnova",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Manastirea Barnova",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Manastirea Barnova"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "manastirea-dragomirna",
+      "name": "Mănăstirea Dragomirna",
+      "nameHu": "Dragomirnai kolostor",
+      "nameEn": "Dragomirna Monastery",
+      "city": "Mitocu Dragomirnei",
+      "cityHu": "Mitocu Dragomirnei",
+      "county": "Suceava",
+      "category": "monastery",
+      "status": "public",
+      "rights": "third-party",
+      "folders": [],
+      "files": [
+        "_Valogatott referenciak/KME/Manastirea Dragomirna.jpg",
+        "_Valogatott referenciak/KME/mănăstirea_dragomirna (1).webp"
+      ],
+      "register": [
+        "MĂNĂSTIREA DRAGOMIRNA"
+      ],
+      "nameHuVerified": true
+    },
+    {
+      "id": "manastirea-frumoasa",
+      "name": "Mănăstirea Frumoasa",
+      "nameHu": "Frumoasa-kolostor",
+      "nameEn": "Frumoasa Monastery",
+      "city": "Iași",
+      "cityHu": "Jászvásár",
+      "county": "Iași",
+      "category": "monastery",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "1. előkészítve - Manastirea Frumoasa/Válogatott MF"
+      ],
+      "files": [],
+      "register": [
+        "Manastirea Frumoasa"
+      ],
+      "docx": "1. előkészítve - Manastirea Frumoasa/Mănăstirea Frumoasa.docx",
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Manastirea Frumoasa",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Manastirea Frumoasa",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Manastirea Frumoasa"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "manastirea-putna",
+      "name": "Mănăstirea Putna",
+      "nameHu": "Putnai kolostor",
+      "nameEn": "Putna Monastery",
+      "city": "Putna",
+      "cityHu": "Putna",
+      "county": "Suceava",
+      "category": "monastery",
+      "status": "public",
+      "rights": "third-party",
+      "folders": [],
+      "files": [
+        "_Valogatott referenciak/KME/Manastirea Putna.png",
+        "_Valogatott referenciak/KME/Manastirea Putna 2.PNG"
+      ],
+      "register": [
+        "Manastirea Putna"
+      ],
+      "note": "Listed in the KME (copper) reference booklet; register has no material detail.",
+      "nameHuVerified": true
+    },
+    {
+      "id": "manastirea-tazlau",
+      "name": "Mănăstirea Tazlău",
+      "nameHu": "Tazlăui kolostor",
+      "nameEn": "Tazlău Monastery",
+      "city": "Tazlău",
+      "cityHu": "Tazlău",
+      "county": "Neamț",
+      "category": "monastery",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "1. előkészítve - Manastirea Tazlau/Válogatott MT"
+      ],
+      "files": [
+        "xxxx Fenti képek/Manastirea Tazlau.jpg"
+      ],
+      "register": [
+        "Manastirea Tazlau"
+      ],
+      "docx": "1. előkészítve - Manastirea Tazlau/Mănăstirea Tazlău.docx",
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Manastirea Tazlau",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Manastirea Tazlau",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Manastirea Tazlau"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "manastirea-tismana",
+      "name": "Mănăstirea Tismana",
+      "nameHu": "Tismanai kolostor",
+      "nameEn": "Tismana Monastery",
+      "city": "Tismana",
+      "cityHu": "Tismana",
+      "county": "Gorj",
+      "category": "monastery",
+      "status": "public",
+      "rights": "third-party",
+      "folders": [],
+      "files": [
+        "_Valogatott referenciak/KME/Manastirea Tismana.jpg",
+        "_Valogatott referenciak/KME/Manastirea Tismana 2.jpg",
+        "Referencia fuzetek/Ref fuzet KME/Manastirea Tismana 4.jpg"
+      ],
+      "register": [
+        "Manastirea Tismana"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "muzeul-istorie-arheologie-piatra-neamt",
+      "name": "Muzeul de Istorie și Arheologie Piatra-Neamț",
+      "nameHu": "Karácsonkői Történeti és Régészeti Múzeum",
+      "nameEn": "History and Archaeology Museum, Piatra Neamț",
+      "city": "Piatra Neamț",
+      "cityHu": "Karácsonkő",
+      "county": "Neamț",
+      "category": "museum",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "Muzeu de Istorie si Arheologie/Válogatott MIA"
+      ],
+      "files": [
+        "xxxx Fenti képek/Muzeu de istorie si arheologie.jpg"
+      ],
+      "register": [
+        "Muzeu de Istorie si Arheologie"
+      ],
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Muzeu de Istorie si Arheologie"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "muzeul-apei-timisoara",
+      "name": "Muzeul Apei Timișoara",
+      "nameHu": "Temesvári Víz Múzeum",
+      "nameEn": "Water Museum, Timișoara",
+      "city": "Timișoara",
+      "cityHu": "Temesvár",
+      "county": "Timiș",
+      "category": "museum",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Muzeul Apei, Timisoara"
+      ],
+      "files": [
+        "xxxx Fenti képek/Muzeul apei.JPG"
+      ],
+      "register": [
+        "Muzeul Apei"
+      ],
+      "docx": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/Muzeul apei.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "observatorul-astronomic-iasi",
+      "name": "Observatorul Astronomic Iași",
+      "nameHu": "Jászvásári csillagvizsgáló",
+      "nameEn": "Astronomical Observatory, Iași",
+      "city": "Iași",
+      "cityHu": "Jászvásár",
+      "county": "Iași",
+      "category": "education",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "Observator Astronomic/Válogatott OA"
+      ],
+      "files": [
+        "xxxx Fenti képek/Observator Astronomic.jpg"
+      ],
+      "register": [
+        "Observator Astrononomic"
+      ],
+      "duplicates": [
+        "x - Moldvai fotózás Sasival - 20250624/Observator Astronomic",
+        "x - Moldvai fotózás Sasival - 20250624/New folder/Observator Astronomic",
+        "x - Moldvai fotózás Sasival - 20250624/Album/Observator Astronomic"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "palatul-cultural-blaj",
+      "name": "Palatul Cultural din Blaj",
+      "nameHu": "Balázsfalvi Kultúrpalota",
+      "nameEn": "Cultural Palace, Blaj",
+      "city": "Blaj",
+      "cityHu": "Balázsfalva",
+      "county": "Alba",
+      "category": "cultural",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Palatul Cultural, BLAJ"
+      ],
+      "files": [
+        "xxxx Fenti képek/Palatul cultural Blaj.JPG"
+      ],
+      "register": [
+        "PALATUL CULTURAL DIN BLAJ"
+      ],
+      "docx": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/Palatul Cultural din Blaj.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "palatul-principilor-alba-iulia",
+      "name": "Palatul Principilor, Alba Iulia",
+      "nameHu": "Gyulafehérvári Fejedelmi Palota",
+      "nameEn": "Princely Palace, Alba Iulia",
+      "city": "Alba Iulia",
+      "cityHu": "Gyulafehérvár",
+      "county": "Alba",
+      "category": "historic",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Palatul Principilor, Alba Iulia"
+      ],
+      "files": [
+        "Referencia fuzetek/Ref fuzet KME/Palatul Principilor Alba Iulia.JPG"
+      ],
+      "register": [
+        "Palatul Principilor"
+      ],
+      "docx": "2. posztolva/2. posztolva - Palatul Principilor, Alba Iulia/Palatul Principilor Alba Iulia.docx",
+      "nameHuVerified": true
+    },
+    {
+      "id": "scoala-95-bucuresti",
+      "name": "Școala Gimnazială nr. 95",
+      "nameHu": "95. számú iskola, Bukarest",
+      "nameEn": "School No. 95, Bucharest",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "education",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Scoala 95 Bucuresti"
+      ],
+      "files": [
+        "Referencia fuzetek/Ref fuzet elZinc/Scoala 95 Bucuresti.jpg"
+      ],
+      "register": [
+        "Scoala 95 (Monument istoric)"
+      ],
+      "docx": "2. posztolva/2. posztolva - Scoala 95 Bucuresti/Scoala 95 text.docx",
+      "nameHuVerified": false
+    },
+    {
+      "id": "bt-arena-cluj",
+      "name": "Sala Polivalentă BT Arena",
+      "nameHu": "BT Arena sportcsarnok",
+      "nameEn": "BT Arena Multi-purpose Hall",
+      "city": "Cluj-Napoca",
+      "cityHu": "Kolozsvár",
+      "county": "Cluj",
+      "category": "stadium",
+      "status": "public",
+      "rights": "third-party",
+      "folders": [
+        "BTArena Cluj Napoca"
+      ],
+      "files": [
+        "Referencia fuzetek/Ref fuzet Alu/BT Arena - Sala Polivalenta Cluj.jpg"
+      ],
+      "register": [
+        "SALA POLIVALENTĂ"
+      ],
+      "note": "Register remark: 'nem biztos, hogy a mi képeink' (not sure the photos are ours) — images treated as third-party.",
+      "nameHuVerified": false
+    },
+    {
+      "id": "facultatea-stiinte-politice-bucuresti",
+      "name": "Facultatea de Științe Politice, Universitatea din București",
+      "nameHu": "Bukaresti Egyetem Politikatudományi Kar",
+      "nameEn": "Faculty of Political Science, University of Bucharest",
+      "city": "București",
+      "cityHu": "Bukarest",
+      "county": "București",
+      "category": "education",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti"
+      ],
+      "files": [],
+      "register": [
+        "Facultatea de Stiinte Politice a Universitatii din Bucuresti"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "castelul-tisza-geszt",
+      "name": "Castelul Tisza, Geszt",
+      "nameHu": "Tisza-kastély, Geszt",
+      "nameEn": "Tisza Castle, Geszt",
+      "city": "Geszt",
+      "cityHu": "Geszt",
+      "county": "Békés (HU)",
+      "country": "Hungary",
+      "category": "castle",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. Posztolva - Castelul Tisza, Ungaria"
+      ],
+      "files": [],
+      "register": [
+        "Castelul Tisza, Ungaria"
+      ],
+      "nameHuVerified": true
+    },
+    {
+      "id": "refugiu-piatra-talharului",
+      "name": "Refugiul montan Piatra Tâlharului",
+      "nameHu": "Piatra Tâlharului menedékház",
+      "nameEn": "Piatra Tâlharului Mountain Refuge",
+      "city": "Piatra Tâlharului",
+      "cityHu": "Piatra Tâlharului",
+      "county": "Bihor",
+      "category": "refuge",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului",
+        "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/valogatott"
+      ],
+      "files": [
+        "Referencia fuzetek/Ref fuzet Alu/DJI_0493.jpg",
+        "Referencia fuzetek/Ref fuzet Alu/DSC04757.jpg",
+        "Referencia fuzetek/Ref fuzet Alu/WhatsApp Image 2025-09-11 at 12.24.20.jpeg",
+        "_Valogatott referenciak/Alu/Refugiu montan la Piatra Talharului.PNG"
+      ],
+      "register": [
+        "Refugiu Piatra Talharului"
+      ],
+      "duplicates": [
+        "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK",
+        "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/Refugiu Szerkesztett",
+        "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/Refugiu befejezett - befedett",
+        "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/Refugiu raw"
+      ],
+      "nameHuVerified": false
+    },
+    {
+      "id": "catedrala-voluntari",
+      "name": "Catedrala din Voluntari",
+      "nameHu": "Voluntari-i katedrális",
+      "nameEn": "Voluntari Cathedral",
+      "city": "Voluntari",
+      "cityHu": "Voluntari",
+      "county": "Ilfov",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2. posztolva/2. posztolva - Catedrala din Voluntari"
+      ],
+      "files": [],
+      "register": [
+        "Biserica Sfânta Cuvioasă Parascheva"
+      ],
+      "docx": "2. posztolva/2. posztolva - Catedrala din Voluntari/Catedrala din Voluntari.docx",
+      "mergedFolders": "Archive folder 'Catedrala din Voluntari' and register row 'Biserica Sfânta Cuvioasă Parascheva, Voluntari' are the same building: the post text names the patron saints 'Intrarea Domnului în Ierusalim și Sfânta Cuvioasă Parascheva' and the same elZinc Natural material.",
+      "nameHuVerified": false
+    },
+    {
+      "id": "conacul-berenczei-kovats-nisipeni",
+      "name": "Conacul Berenczei-Kováts, Nisipeni",
+      "nameHu": "Berenczei-Kováts-kúria, Sándorhomok",
+      "nameEn": "Berenczei-Kováts Manor, Nisipeni",
+      "city": "Nisipeni (Satu Mare)",
+      "cityHu": "Sándorhomok",
+      "county": "Satu Mare",
+      "category": "historic",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "Nisipeni - Satu Mare"
+      ],
+      "files": [],
+      "register": [],
+      "note": "Not in the register: material and COLOR METAL contribution unconfirmed. Two files are website downloads ('sandorhomok-berenczei-kovats-kuria-technikai-atadas-*') and are third-party.",
+      "nameHuVerified": true,
+      "rightsNote": "COLOR METAL's own photographs — publication approved by COLOR METAL (12 Nov 2026)"
+    },
+    {
+      "id": "csiki-jatekszin",
+      "name": "Teatrul „Csíki Játékszín”, Miercurea Ciuc",
+      "nameHu": "Csíki Játékszín",
+      "nameEn": "Csíki Játékszín Theatre, Miercurea Ciuc",
+      "city": "Miercurea Ciuc",
+      "cityHu": "Csíkszereda",
+      "county": "Harghita",
+      "category": "cultural",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2026 aug csik  szinhaz"
+      ],
+      "files": [],
+      "register": [],
+      "note": "Folder '2026 aug csik szinhaz' (Aug 2026 shoot, roof works). Not in the January 2026 register: material and contribution unconfirmed.",
+      "nameHuVerified": true,
+      "rightsNote": "COLOR METAL's own photographs — publication approved by COLOR METAL (12 Nov 2026)"
+    },
+    {
+      "id": "biserica-delnita",
+      "name": "Biserica Romano-Catolică „Sf. Ioan Botezătorul”, Delnița",
+      "nameHu": "Csíkdelnei Keresztelő Szent János-templom",
+      "nameEn": "St. John the Baptist Church, Delnița",
+      "city": "Delnița",
+      "cityHu": "Csíkdelne",
+      "county": "Harghita",
+      "category": "church",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "2026 aug delne"
+      ],
+      "files": [],
+      "register": [],
+      "note": "Folder '2026 aug delne' (Aug 2026 drone + camera shoot). Not in the January 2026 register: material and contribution unconfirmed.",
+      "nameHuVerified": true,
+      "rightsNote": "COLOR METAL's own photographs — publication approved by COLOR METAL (12 Nov 2026)"
+    },
+    {
+      "id": "tiny-house-zenius",
+      "name": "Tiny house Zenius",
+      "nameHu": "Zenius tiny house",
+      "nameEn": "Zenius Tiny House",
+      "city": "",
+      "county": "",
+      "category": "residential",
+      "status": "pending",
+      "rights": "third-party",
+      "folders": [
+        "2026 jun tinyhouse zenius"
+      ],
+      "files": [],
+      "register": [],
+      "note": "Facebook downloads (June 2026). Location unknown; not a fixed building on a verifiable site.",
+      "nameHuVerified": false
+    },
+    {
+      "id": "castelul-bethlen-arcalia",
+      "name": "Castelul Bethlen din Arcalia",
+      "nameHu": "Árokallyai Bethlen-kastély",
+      "nameEn": "Bethlen Castle, Arcalia",
+      "city": "Arcalia",
+      "cityHu": "Árokalja",
+      "county": "Bistrița-Năsăud",
+      "category": "castle",
+      "status": "public",
+      "rights": "third-party",
+      "folders": [
+        "Castel Arcalia"
+      ],
+      "files": [],
+      "register": [],
+      "note": "Single partner image 'Castel Arcalia - Bethen - NEDAR.png'. Not in the register: material and contribution unconfirmed.",
+      "nameHuVerified": true
+    },
+    {
+      "id": "casa-de-vacanta-varsag",
+      "name": "Casă de vacanță, Varșag",
+      "nameHu": "Nyaraló, Székelyvarság",
+      "nameEn": "Holiday House, Varșag",
+      "city": "Varșag",
+      "cityHu": "Székelyvarság",
+      "county": "Harghita",
+      "category": "residential",
+      "status": "public",
+      "rights": "published",
+      "folders": [
+        "Varság - Magánház - Aluminium"
+      ],
+      "files": [],
+      "register": [
+        "Construire casa de vacanta, imprejmuire cu poarta de acces si anexe"
+      ],
+      "note": "Private house: exact address not published; location shown at village level only.",
+      "nameHuVerified": false,
+      "rightsNote": "COLOR METAL's own photographs — publication approved by COLOR METAL (12 Nov 2026)"
+    },
+    {
+      "id": "manejul-carei",
+      "name": "Manejul Castelului Károlyi, Carei",
+      "nameHu": "Nagykárolyi lovarda",
+      "nameEn": "Károlyi Castle Riding Hall, Carei",
+      "city": "Carei",
+      "cityHu": "Nagykároly",
+      "county": "Satu Mare",
+      "category": "historic",
+      "status": "public",
+      "rights": "third-party",
+      "folders": [],
+      "files": [
+        "_Valogatott referenciak/Alu/Lovarda Nagykároly.PNG"
+      ],
+      "register": [],
+      "note": "Single image in the aluminium selection ('Lovarda Nagykároly'). Not in the register.",
+      "nameHuVerified": true
+    },
+    {
+      "id": "refugiu-cheile-bicazului",
+      "name": "Refugiu montan, Cheile Bicazului",
+      "nameHu": "Menedékház, Békási-szoros",
+      "nameEn": "Mountain Refuge, Bicaz Gorges",
+      "city": "Cheile Bicazului",
+      "cityHu": "Békási-szoros",
+      "county": "Neamț",
+      "category": "refuge",
+      "status": "public",
+      "rights": "third-party",
+      "folders": [],
+      "files": [
+        "_Valogatott referenciak/Alu/Refugiu montan la Cheile Bicazului.jpg"
+      ],
+      "register": [],
+      "note": "Single image in the aluminium selection. Exact refuge to be identified.",
+      "nameHuVerified": false
+    },
+    {
+      "id": "biserica-reformata-gherla",
+      "name": "Biserica Reformată din Gherla",
+      "nameHu": "Szamosújvári református templom",
+      "nameEn": "Reformed Church, Gherla",
+      "city": "Gherla",
+      "cityHu": "Szamosújvár",
+      "county": "Cluj",
+      "category": "church",
+      "status": "public",
+      "rights": "third-party",
+      "folders": [],
+      "files": [
+        "_Valogatott referenciak/KME/Biserica Reformata Gherla.jpg"
+      ],
+      "register": [],
+      "note": "Single image in the copper (KME) selection. Not in the register.",
+      "nameHuVerified": true
+    },
+    {
+      "id": "sediu-color-metal",
+      "name": "Sediul COLOR METAL",
+      "nameHu": "COLOR METAL székház",
+      "nameEn": "COLOR METAL Headquarters",
+      "city": "",
+      "county": "",
+      "category": "commercial",
+      "status": "public",
+      "rights": "published",
+      "folders": [],
+      "files": [
+        "Referencia fuzetek/Ref fuzet Alu/WhatsApp Image 2025-04-25 at 14.25.55.jpeg"
+      ],
+      "register": [],
+      "note": "Company headquarters with green expanded-aluminium façade ('COLOR METAL 20'), included in the aluminium reference booklet.",
+      "nameHuVerified": true
+    }
+  ],
+  "excluded": [
+    {
+      "folder": "xxxx nem referencia",
+      "reason": "Marked 'nem referencia' (not a reference) by COLOR METAL: Biserica din Mosnița, Palatul Neuhausz, Sinagoga din Cetate (Timișoara)."
+    },
+    {
+      "folder": "Expandált labirintus",
+      "reason": "Interior exhibition installation (expanded-metal labyrinth for folk-costume exhibitions in Odorheiu Secuiesc and Boldogfalva) — not a building."
+    },
+    {
+      "folder": "Referencia fuzetek/Referencia fuzetek.rar",
+      "reason": "Archive of booklet images; loose copies already mapped."
+    },
+    {
+      "folder": "x - Moldvai fotózás Sasival - 20250624/Album",
+      "reason": "Album layout copies of the Moldova shoot (duplicates)."
+    },
+    {
+      "folder": "Montaj de referinte",
+      "reason": "Empty."
+    },
+    {
+      "folder": "New folder",
+      "reason": "Empty."
+    },
+    {
+      "folder": "Referencia fuzetek",
+      "reason": "Reference-booklet collection (Alu / KME / elZinc): copies of project photos used in the printed booklets; single-source images are mapped to their projects individually."
+    },
+    {
+      "folder": "_Valogatott referenciak",
+      "reason": "Curated cross-project selection (Alu / KME / elZinc): copies of project photos; single-source images are mapped individually."
+    },
+    {
+      "folder": "x - Moldvai fotózás Sasival - 20250624/New folder",
+      "reason": "'- Copy' folders of the Moldova shoot (duplicates)."
+    }
+  ]
+}

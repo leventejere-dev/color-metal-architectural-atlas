@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 122.4,
+ "bearingSource": "OSM outline (way 1328645254, square 29 × 29 m, axis 32.4°): the porch/terrace projection of the outline marks the main façade facing SSW (212.4°); +X runs along that façade (122.4°), +Z is the main façade",
+ "cover": "01",
+ "photosUsed": 1,
+ "approximations": "Single frontal photograph: block depth (≈ 17 m + corner towers), side and rear elevations (window rhythm repeated from the façade), the rear tower domes (seen only partly, behind the roof) and the central dome (placed on a drum behind the risalit, height from perspective) are estimates; dome scale pattern not modelled; dimensions scaled from the façade width (≈ 29 m including towers); roof and dome colours taken from the photograph — material not confirmed, no supplier implied",
+ "note": {
+  "ro": "Machetă preliminară după o singură fotografie frontală și conturul OSM: fațadele laterale și din spate, adâncimea și cupola centrală sunt aproximate. Culorile acoperișurilor și ale cupolelor urmează fotografia; materialul nu este confirmat.",
+  "hu": "Előzetes makett egyetlen homlokzati fotó és az OSM-körvonal alapján: az oldal- és hátsó homlokzatok, az épületmélység és a középső kupola közelítőek. A tetők és kupolák színe a fotót követi; az anyag nincs megerősítve.",
+  "en": "Preliminary model from a single frontal photograph and the OSM outline: the side and rear elevations, the depth and the central dome are approximations. Roof and dome colours follow the photograph; the material is not confirmed."
+ }
+}

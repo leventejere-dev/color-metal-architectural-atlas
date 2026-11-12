@@ -1,0 +1,39 @@
+{
+  "name": "color-metal-architectural-atlas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "COLOR METAL — Architectural Atlas: interactive 3D map of COLOR METAL's architectural reference buildings in Romania.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "inventory": "python scripts/inventory.py",
+    "geodata": "python scripts/build-geodata.py",
+    "db": "python scripts/build-db.py",
+    "snap": "node scripts/snap.mjs",
+    "deploy": "node scripts/deploy-gh-pages.mjs"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.3.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@react-three/postprocessing": "^3.2.2",
+    "n8ao": "^2.0.1",
+    "postprocessing": "^6.39.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "puppeteer-core": "^24.43.1",
+    "typescript": "5.9",
+    "vite": "^7.3.8"
+  }
+}

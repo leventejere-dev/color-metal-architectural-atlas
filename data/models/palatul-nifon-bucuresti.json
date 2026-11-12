@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 109.5,
+ "bearingSource": "OSM relation 14862831 long axis 109.5°, which is also the direction of the Str. Doamnei façade (OSM road geometry: Str. Doamnei ends at Calea Victoriei on the SSW side of the outline). +X points ESE along Str. Doamnei (+Z = 199.5°, the Doamnei front); the Calea Victoriei façade is the skewed WNW side (front vector), the courtyard opens NNE towards the Doamnei church and the ESE side is a party wall.",
+ "cover": "01",
+ "photosUsed": 3,
+ "approximations": "Plan from the OSM outer ring; the two street corners are rounded with R ≈ 3.2 m (OSM shows roundings, the photographs a curved corner bay) and the semicircular courtyard bay is modelled as a separate half-cylinder. Heights scaled from photos 01–02 (ground floor ≈ 6.6 m, balcony slab ≈ 7.3 m, cornice ≈ 19.2 m, mansard rise ≈ 3.4 m). Bay counts on the Doamnei and north sides, the courtyard elevations, the dormer positions and the flat upper part of the mansard are estimated; the street photographs predate the restoration, so wall colours follow the restored courtyard façade (photo 03) and the street ground floor is a neutral grey. Capitals, consoles, reliefs and balusters are simplified; shop signage omitted.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; mansarda este redată în titan-zinc prepatinat elZinc Slate, vizibil după restaurare în fotografia curții, livrat de COLOR METAL conform evidențelor firmei. Fațadele spre curte, lucarnele și ornamentația sunt aproximate.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a manzárdtető az udvari fotón látható, felújítás utáni állapot szerint, a COLOR METAL nyilvántartása szerint szállított, előpatinázott elZinc Slate titáncinkkel jelenik meg. Az udvari homlokzatok, a tetőablakok és a díszítés közelítőek.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the mansard is shown in the pre-weathered elZinc Slate titanium-zinc seen after the restoration in the courtyard photograph, supplied by COLOR METAL according to its records. The courtyard elevations, the dormers and the ornament are approximated."
+ }
+}

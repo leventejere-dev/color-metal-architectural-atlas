@@ -1,0 +1,1592 @@
+[
+ {
+  "id": "manastirea-dragomirna",
+  "officialName": "Mănăstirea Dragomirna – Biserica „Pogorârea Sfântului Duh”",
+  "nameHu": "Dragomirnai kolostor",
+  "altNames": [
+   "Mănăstirea Dragomirna",
+   "Biserica Mânăstirii Dragomirna",
+   "Dragomirna Monastery",
+   "Biserica Pogorârea Sf. Duh (Dragomirna)"
+  ],
+  "address": "DJ208U, Dragomirna, comuna Mitocu Dragomirnei, 727366, jud. Suceava",
+  "city": "Mitocu Dragomirnei",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.757945,
+  "lon": 26.230057,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 867758612,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "building:levels": "1",
+    "name": "Biserica Mânăstirii Dragomirna",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.757978,
+    26.229864
+   ],
+   [
+    47.757832,
+    26.230113
+   ],
+   [
+    47.757812,
+    26.230203
+   ],
+   [
+    47.757827,
+    26.230252
+   ],
+   [
+    47.757851,
+    26.230275
+   ],
+   [
+    47.757881,
+    26.230272
+   ],
+   [
+    47.757909,
+    26.230252
+   ],
+   [
+    47.758067,
+    26.229983
+   ],
+   [
+    47.758079,
+    26.229938
+   ],
+   [
+    47.758075,
+    26.229884
+   ],
+   [
+    47.758048,
+    26.229854
+   ],
+   [
+    47.758015,
+    26.229841
+   ],
+   [
+    47.757978,
+    26.229864
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 38.9,
+   "widthM": 13.3,
+   "bearingDeg": 131.0
+  },
+  "heightHints": "Main church: length 35 m, width ~9.5 m, height ~42 m (ro.wikipedia 'Mănăstirea Dragomirna'). OSM outline MRR 38.9 x 13.3 m includes buttresses/porch. OSM tag building:levels=1.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/867758612",
+   "https://www.openstreetmap.org/way/1231452331",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Dragomirna",
+   "https://www.wikidata.org/wiki/Q289153"
+  ],
+  "verificationNotes": "Catholicon located as OSM way 867758612 'Biserica Mânăstirii Dragomirna' (building=church) inside the monastery precinct (OSM way 1231452331 'Mănăstirea Dragomirna'). ro.wikipedia gives the hram 'Pogorârea Sf. Duh', LMI SV-II-m-A-05577.01 (ensemble SV-II-a-A-05577) and notes the 2010–2012 restoration replaced zinc-plated sheet roofing of the monastery buildings, towers and walkways with copper sheet. Wikidata Q289153 point (47.7575, 26.23) is ~50 m away (precinct-level). Not to be confused with the small cemetery church (Sf. Enoh, Ilie și Ioan Teologul) outside the walls. Long-axis bearing taken from the OSM outline (131°); not independently surveyed."
+ },
+ {
+  "id": "manastirea-putna",
+  "officialName": "Mănăstirea Putna – Biserica „Adormirea Maicii Domnului”",
+  "nameHu": "Putnai kolostor",
+  "altNames": [
+   "Mănăstirea Putna",
+   "Putna Monastery",
+   "Biserica Adormirea Maicii Domnului (Putna)"
+  ],
+  "address": "Strada Principală, Putna, 727455, jud. Suceava",
+  "city": "Putna",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.866071,
+  "lon": 25.596703,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1078580325,
+   "tags": {
+    "addr:city": "Putna",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "height": "15m",
+    "name": "Biserica Adormirea Maicii Domnului",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.866095,
+    25.59643
+   ],
+   [
+    47.866078,
+    25.596409
+   ],
+   [
+    47.86606,
+    25.596399
+   ],
+   [
+    47.866033,
+    25.596399
+   ],
+   [
+    47.866009,
+    25.596406
+   ],
+   [
+    47.865981,
+    25.596426
+   ],
+   [
+    47.865965,
+    25.596454
+   ],
+   [
+    47.865954,
+    25.596483
+   ],
+   [
+    47.865953,
+    25.59652
+   ],
+   [
+    47.866019,
+    25.596816
+   ],
+   [
+    47.866011,
+    25.59683
+   ],
+   [
+    47.866007,
+    25.596851
+   ],
+   [
+    47.866006,
+    25.59688
+   ],
+   [
+    47.866015,
+    25.596901
+   ],
+   [
+    47.866024,
+    25.596918
+   ],
+   [
+    47.866042,
+    25.596932
+   ],
+   [
+    47.86605,
+    25.596963
+   ],
+   [
+    47.866061,
+    25.596988
+   ],
+   [
+    47.866077,
+    25.597003
+   ],
+   [
+    47.866097,
+    25.597011
+   ],
+   [
+    47.866116,
+    25.597008
+   ],
+   [
+    47.866136,
+    25.596995
+   ],
+   [
+    47.86616,
+    25.596972
+   ],
+   [
+    47.866173,
+    25.596939
+   ],
+   [
+    47.866179,
+    25.596902
+   ],
+   [
+    47.866177,
+    25.596863
+   ],
+   [
+    47.866186,
+    25.596846
+   ],
+   [
+    47.866188,
+    25.596823
+   ],
+   [
+    47.866186,
+    25.596796
+   ],
+   [
+    47.866178,
+    25.596776
+   ],
+   [
+    47.866164,
+    25.596757
+   ],
+   [
+    47.866095,
+    25.59643
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 46.2,
+   "widthM": 20.9,
+   "bearingDeg": 69.5
+  },
+  "heightHints": "OSM tag height=15m on the church outline (unverified by other source). No published church dimensions found in ro.wikipedia.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1078580325",
+   "https://www.openstreetmap.org/way/131652756",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Putna",
+   "https://www.wikidata.org/wiki/Q1088525"
+  ],
+  "verificationNotes": "Catholicon = OSM way 1078580325 'Biserica Adormirea Maicii Domnului' (place_of_worship, romanian_orthodox) inside the precinct (OSM way 131652756, wikidata Q1088525). ro.wikipedia confirms hram 'Adormirea Maicii Domnului', LMI ensemble SV-II-a-A-05595, and roof redone 1902 after plans by Karl Romstorfer (material not stated). Wikidata point (47.866, 25.596528) lies ~15 m from the church centroid. Other buildings in the precinct (Paraclisul Sf. Apostoli Petru și Pavel, Casa Domnească, museum, Turnul Tezaur) excluded. Outline MRR 46.2 x 20.9 m (includes apses/porch)."
+ },
+ {
+  "id": "manastirea-tazlau",
+  "officialName": "Mănăstirea Tazlău – Biserica „Nașterea Maicii Domnului”",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Tazlău",
+   "Tazlău Monastery",
+   "Biserica Nașterea Maicii Domnului (Tazlău)"
+  ],
+  "address": "Str. Ștefan cel Mare 188, Tazlău, 617460, jud. Neamț",
+  "city": "Tazlău",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 46.725464,
+  "lon": 26.462782,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1147932372,
+   "tags": {
+    "addr:housenumber": "188",
+    "addr:street": "Stefan Cel Mare",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Mănăstirea Tazlău",
+    "name:en": "Tazlau Monastery",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    46.725544,
+    26.462577
+   ],
+   [
+    46.725515,
+    26.462769
+   ],
+   [
+    46.725524,
+    26.46283
+   ],
+   [
+    46.725526,
+    26.462857
+   ],
+   [
+    46.725523,
+    26.462884
+   ],
+   [
+    46.725517,
+    26.462906
+   ],
+   [
+    46.725507,
+    26.462927
+   ],
+   [
+    46.725481,
+    26.462948
+   ],
+   [
+    46.725462,
+    26.462985
+   ],
+   [
+    46.725443,
+    26.462995
+   ],
+   [
+    46.725425,
+    26.462992
+   ],
+   [
+    46.725409,
+    26.462983
+   ],
+   [
+    46.725397,
+    26.462964
+   ],
+   [
+    46.725394,
+    26.462918
+   ],
+   [
+    46.725381,
+    26.462886
+   ],
+   [
+    46.725377,
+    26.462858
+   ],
+   [
+    46.725379,
+    26.462835
+   ],
+   [
+    46.725383,
+    26.462808
+   ],
+   [
+    46.725393,
+    26.462785
+   ],
+   [
+    46.725425,
+    26.462741
+   ],
+   [
+    46.725454,
+    26.462548
+   ],
+   [
+    46.725544,
+    26.462577
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 33.8,
+   "widthM": 16.5,
+   "bearingDeg": 102.3
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1147932372",
+   "https://www.openstreetmap.org/way/1147932373",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Tazl%C4%83u",
+   "https://www.wikidata.org/wiki/Q38251363"
+  ],
+  "verificationNotes": "Church = OSM way 1147932372 (amenity=place_of_worship, orthodox, name 'Mănăstirea Tazlău', addr Stefan cel Mare 188) inside the fenced precinct OSM way 1147932373. ro.wikipedia: church 'Nașterea Maicii Domnului', address Str. Ștefan cel Mare 188, LMI NT-II-m-A-10706.01 (ensemble NT-II-a-A-10706). Wikidata Q38251363 point (46.7255, 26.4628) coincides. Nominatim displays the road as 'Strada Pestiosu' (geometry match) while the official address is Str. Ștefan cel Mare 188. No verified Hungarian name (project value 'Tazlăui kolostor' not found in sources) -> nameHu null."
+ },
+ {
+  "id": "muzeul-istorie-arheologie-piatra-neamt",
+  "officialName": "Muzeul de Istorie și Arheologie Piatra-Neamț",
+  "nameHu": null,
+  "altNames": [
+   "Complexul Muzeal Județean Neamț",
+   "Museum of History and Archaeology Piatra Neamț",
+   "Palatul Administrativ (fost)"
+  ],
+  "address": "Str. Mihai Eminescu nr. 10, Piatra-Neamț, 610029, jud. Neamț",
+  "city": "Piatra Neamț",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 46.927967,
+  "lon": 26.369418,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 284997622,
+   "tags": {
+    "addr:city": "Piatra-Neamț",
+    "addr:housenumber": "10",
+    "addr:postcode": "610029",
+    "addr:street": "Strada Mihai Eminescu",
+    "building": "yes",
+    "codul_entității_muzeale": "6956500.0",
+    "description:en": "The museum was found in the building of the \"Queen Mary\" National House;later it functioned in the building of the school no.1, and since 1980 in the present premises. The museum collaborators include Vladimir and Hortensia Dumitrescu, Radu and Ecaterin",
+    "description:ro": "Muzeul a fost infiintat in cladirea Casei Nationale \"Regina Maria\", apoi a fiintat in localul scolii nr.1, iar din 1980 in actuala cladire. Muzeul va avea drept colaboratori, printre altii pe: Vladimir si Hortensia Dumitrescu, Radu si Ecaterina Vulpe, Si",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "museum": "history",
+    "name": "Complexul Muzeal Județean Neamț",
+    "name:en": "Neamt County Museum Complex",
+    "opening_hours": "Mo-Th 07:30-16:00; Fr 07:30-14:00",
+    "ref:RO:lmi": "NT-II-m-B-10576",
+    "SIRUTA:code": "120735",
+    "source": "INP",
+    "source:link": "http://date.gov.ro/dataset/ghidul-muzeelor-din-romania",
+    "start_date": "1934",
+    "tourism": "museum",
+    "tourism_survey": "12.12.2013 12:21:04",
+    "website": "https://cmnn.ro/muzeu/muzeul-de-istorie-si-arheologie-piatra-neamt/",
+    "wikidata": "Q4785480",
+    "wikipedia": "ro:Muzeul de Istorie și Arheologie din Piatra Neamț"
+   }
+  },
+  "footprint": [
+   [
+    46.927797,
+    26.369567
+   ],
+   [
+    46.927805,
+    26.369561
+   ],
+   [
+    46.927815,
+    26.369504
+   ],
+   [
+    46.927894,
+    26.36953
+   ],
+   [
+    46.927888,
+    26.369566
+   ],
+   [
+    46.927934,
+    26.369584
+   ],
+   [
+    46.927955,
+    26.369593
+   ],
+   [
+    46.927979,
+    26.369602
+   ],
+   [
+    46.927986,
+    26.369567
+   ],
+   [
+    46.928066,
+    26.369599
+   ],
+   [
+    46.928055,
+    26.36966
+   ],
+   [
+    46.928061,
+    26.369673
+   ],
+   [
+    46.928122,
+    26.369692
+   ],
+   [
+    46.92813,
+    26.369688
+   ],
+   [
+    46.928149,
+    26.369563
+   ],
+   [
+    46.928154,
+    26.369564
+   ],
+   [
+    46.92818,
+    26.369438
+   ],
+   [
+    46.928173,
+    26.369435
+   ],
+   [
+    46.928205,
+    26.369278
+   ],
+   [
+    46.928199,
+    26.369266
+   ],
+   [
+    46.928138,
+    26.369244
+   ],
+   [
+    46.928129,
+    26.369254
+   ],
+   [
+    46.92812,
+    26.369299
+   ],
+   [
+    46.928114,
+    26.369338
+   ],
+   [
+    46.928104,
+    26.369333
+   ],
+   [
+    46.928101,
+    26.369332
+   ],
+   [
+    46.928094,
+    26.369368
+   ],
+   [
+    46.928031,
+    26.36934
+   ],
+   [
+    46.928033,
+    26.369327
+   ],
+   [
+    46.928024,
+    26.369323
+   ],
+   [
+    46.928031,
+    26.369281
+   ],
+   [
+    46.928023,
+    26.369259
+   ],
+   [
+    46.927975,
+    26.369242
+   ],
+   [
+    46.927961,
+    26.369255
+   ],
+   [
+    46.927946,
+    26.369312
+   ],
+   [
+    46.927873,
+    26.369275
+   ],
+   [
+    46.927863,
+    26.36927
+   ],
+   [
+    46.927879,
+    26.369201
+   ],
+   [
+    46.92789,
+    26.369158
+   ],
+   [
+    46.927881,
+    26.369139
+   ],
+   [
+    46.927817,
+    26.369111
+   ],
+   [
+    46.927785,
+    26.369279
+   ],
+   [
+    46.927778,
+    26.369276
+   ],
+   [
+    46.927753,
+    26.369405
+   ],
+   [
+    46.927757,
+    26.369407
+   ],
+   [
+    46.927733,
+    26.369525
+   ],
+   [
+    46.927734,
+    26.369542
+   ],
+   [
+    46.927797,
+    26.369567
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 46.4,
+   "widthM": 34.0,
+   "bearingDeg": 15.5
+  },
+  "heightHints": "Two storeys of exhibition space ('două etaje', 24 halls) per ro.wikipedia; building erected 1910–1912 (eng. Ștefan Burcuș) per cmnn.ro. No height tag in OSM.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/284997622",
+   "https://cmnn.ro/muzeu/muzeul-de-istorie-si-arheologie-piatra-neamt/",
+   "https://ro.wikipedia.org/wiki/Muzeul_de_Istorie_%C8%99i_Arheologie_din_Piatra_Neam%C8%9B",
+   "https://www.wikidata.org/wiki/Q4785480"
+  ],
+  "verificationNotes": "OSM way 284997622 (tourism=museum, addr Str. Mihai Eminescu 10, wikidata Q4785480, website cmnn.ro museum page). Official museum page confirms address Str. Mihai Eminescu nr. 10 and that the building (former Palatul Administrativ, 1910–1912) houses the museum since c. 1980. LMI code: official site and Wikidata give NT-II-m-B-10560; the OSM tag ref:RO:lmi=NT-II-m-B-10576 appears to be wrong. Wikidata point (46.92798, 26.36946) is within ~5 m of the outline centroid. Project nameHu 'Karácsonkői Történeti és Régészeti Múzeum' not found in any source -> nameHu null."
+ },
+ {
+  "id": "sepsi-osk-arena",
+  "officialName": "Stadionul Sepsi OSK (Arena Sepsi OSK)",
+  "nameHu": "Sepsi OSK Aréna",
+  "altNames": [
+   "Arena Sepsi OSK",
+   "Stadionul Sepsi",
+   "Stadionul Arena Sepsi",
+   "Sepsi Arena Stadium",
+   "Sepsi Duna Aréna (name since 10 May 2025)"
+  ],
+  "address": "Str. Lunca Oltului nr. 7 (DN12), Sfântu Gheorghe, 520036, jud. Covasna",
+  "city": "Sfântu Gheorghe",
+  "county": "Covasna",
+  "country": "Romania",
+  "lat": 45.883412,
+  "lon": 25.807074,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 763941868,
+   "tags": {
+    "addr:city": "Sfântu Gheorghe",
+    "addr:housenumber": "7",
+    "addr:postcode": "520036",
+    "addr:street": "Lunca Oltului",
+    "building": "yes",
+    "leisure": "stadium",
+    "name": "Arena Sepsi OSK",
+    "name:hu": "Sepsi OSK Aréna",
+    "operator": "ACS Sepsi OSK",
+    "sport": "soccer"
+   }
+  },
+  "footprint": [
+   [
+    45.882888,
+    25.806154
+   ],
+   [
+    45.883074,
+    25.806053
+   ],
+   [
+    45.883214,
+    25.806141
+   ],
+   [
+    45.883237,
+    25.806078
+   ],
+   [
+    45.88345,
+    25.806079
+   ],
+   [
+    45.883688,
+    25.806068
+   ],
+   [
+    45.883686,
+    25.806201
+   ],
+   [
+    45.883541,
+    25.80621
+   ],
+   [
+    45.883792,
+    25.806373
+   ],
+   [
+    45.883755,
+    25.806239
+   ],
+   [
+    45.883817,
+    25.806161
+   ],
+   [
+    45.884056,
+    25.806599
+   ],
+   [
+    45.884031,
+    25.806669
+   ],
+   [
+    45.884174,
+    25.806753
+   ],
+   [
+    45.884242,
+    25.807021
+   ],
+   [
+    45.883888,
+    25.80812
+   ],
+   [
+    45.883708,
+    25.808213
+   ],
+   [
+    45.882613,
+    25.807505
+   ],
+   [
+    45.882545,
+    25.80725
+   ],
+   [
+    45.882888,
+    25.806154
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 164.9,
+   "widthM": 150.5,
+   "bearingDeg": 24.2
+  },
+  "heightHints": "No published height found. Capacity 8,400 (stadiumdb, en.wikipedia); opened 16 Oct 2021; Pitch (OSM way 996529344) long axis 24.2°, same as the outline long axis.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/763941868",
+   "https://www.openstreetmap.org/way/996529344",
+   "https://en.wikipedia.org/wiki/Sepsi_Arena_Stadium",
+   "https://stadiumdb.com/stadiums/rou/sepsi_osk_arena",
+   "https://hu.wikipedia.org/wiki/Sepsi_Duna_Ar%C3%A9na",
+   "https://www.wikidata.org/wiki/Q104851799"
+  ],
+  "verificationNotes": "Football stadium = OSM way 763941868 'Arena Sepsi OSK' (leisure=stadium, building=yes, name:hu 'Sepsi OSK Aréna', operator ACS Sepsi OSK, addr Lunca Oltului 7). en.wikipedia coordinates (45.88361, 25.806278) lie ~65 m from the outline centroid (inside the stadium site). CAUTION: OSM/Nominatim 'Sepsi Arena' (way 444225277, leisure=sports_centre, ~260 m SSE) is the separate indoor multi-purpose hall, NOT the stadium. hu.wikipedia: renamed 'Sepsi Duna Aréna' from 10 May 2025 (cooperation with Duna Aszfalt); its coordinates (45.863, 25.776) are wrong (~3 km off). Outline is coarse (20 nodes) and includes the pitch; 164.9 x 150.5 m MRR."
+ },
+ {
+  "id": "biserica-romano-catolica-tamasu",
+  "officialName": "Biserica Romano-Catolică „Sfântul Apostol Toma” din Tămașu",
+  "nameHu": "Szent Tamás apostol templom",
+  "altNames": [
+   "Székelyszenttamási római katolikus templom",
+   "Biserică „Sfântul Apostol Toma”",
+   "Roman Catholic Church of St Thomas the Apostle, Tămașu"
+  ],
+  "address": "DJ134B, Tămașu (parish address: Tămașu nr. 41), comuna Dealu, 537083, jud. Harghita",
+  "city": "Tămașu",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.346975,
+  "lon": 25.287685,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 384192443,
+   "tags": {
+    "addr:city": "Tămașu",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "name": "Biserică „Sfântul Apostol Toma”",
+    "name:hu": "Szent Tamás apostol templom",
+    "name:ro": "Biserică „Sfântul Apostol Toma”",
+    "religion": "christian",
+    "url:miserend": "http://miserend.hu/?templom=3624"
+   }
+  },
+  "footprint": [
+   [
+    46.346923,
+    25.287547
+   ],
+   [
+    46.346946,
+    25.287545
+   ],
+   [
+    46.346944,
+    25.287507
+   ],
+   [
+    46.34698,
+    25.287505
+   ],
+   [
+    46.346982,
+    25.287543
+   ],
+   [
+    46.347017,
+    25.28754
+   ],
+   [
+    46.347026,
+    25.287808
+   ],
+   [
+    46.347011,
+    25.28784
+   ],
+   [
+    46.346982,
+    25.287857
+   ],
+   [
+    46.346956,
+    25.287852
+   ],
+   [
+    46.346932,
+    25.287814
+   ],
+   [
+    46.346923,
+    25.287547
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 27.0,
+   "widthM": 10.5,
+   "bearingDeg": 87.3
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/384192443",
+   "https://miserend.hu/templom/3624",
+   "https://hu.wikipedia.org/wiki/Sz%C3%A9kelyszenttam%C3%A1s"
+  ],
+  "verificationNotes": "OSM way 384192443 (building=church, roman_catholic, name 'Biserică „Sfântul Apostol Toma”', name:hu 'Szent Tamás apostol templom') is the only Catholic church in the village. miserend.hu (church 3624) gives the same coordinates (46.34697, 25.28768), parish address Tămașu 41, history: 1333 'de Sancto Toma', 1555 new sanctuary, completely new church 1820–21. hu.wikipedia (Székelyszenttamás) confirms 14th-century church and rebuild 1820–1821, commune Dealu/Oroszhegy. 'Székelyszenttamási római katolikus templom' is a descriptive name, kept as altName."
+ },
+ {
+  "id": "biserica-romano-catolica-zetea",
+  "officialName": "Biserica Romano-Catolică din Zetea („Găsirea Sfintei Cruci”)",
+  "nameHu": "Szent Kereszt megtalálása templom",
+  "altNames": [
+   "Zetelaki római katolikus templom",
+   "Biserica Romano-Catolica din Zetea"
+  ],
+  "address": "Str. Principală 270, Zetea, 537360, jud. Harghita (OSM road: Strada Templom)",
+  "city": "Zetea",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.387937,
+  "lon": 25.365997,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 207345944,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2024-04-14",
+    "denomination": "roman_catholic",
+    "name": "Biserica Romano-Catolica din Zetea",
+    "name:hu": "Szent Kereszt megtalálása templom",
+    "religion": "christian",
+    "url:miserend": "https://miserend.hu/templom/3640"
+   }
+  },
+  "footprint": [
+   [
+    46.388104,
+    25.365914
+   ],
+   [
+    46.387797,
+    25.365763
+   ],
+   [
+    46.387773,
+    25.365868
+   ],
+   [
+    46.387731,
+    25.365844
+   ],
+   [
+    46.387708,
+    25.365941
+   ],
+   [
+    46.38775,
+    25.365966
+   ],
+   [
+    46.387727,
+    25.366064
+   ],
+   [
+    46.388034,
+    25.366209
+   ],
+   [
+    46.388056,
+    25.366128
+   ],
+   [
+    46.388134,
+    25.366171
+   ],
+   [
+    46.388179,
+    25.366139
+   ],
+   [
+    46.388189,
+    25.366092
+   ],
+   [
+    46.388167,
+    25.366026
+   ],
+   [
+    46.388093,
+    25.365983
+   ],
+   [
+    46.388104,
+    25.365914
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 54.4,
+   "widthM": 24.3,
+   "bearingDeg": 18.6
+  },
+  "heightHints": "No height found. Large church built 1912–1914 (hu.wikipedia Zetelaka; miserend.hu). Outline MRR 54.4 x 24.3 m.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/207345944",
+   "https://miserend.hu/templom/3640",
+   "https://hu.wikipedia.org/wiki/Zetelaka"
+  ],
+  "verificationNotes": "OSM way 207345944 (building=church, roman_catholic, name 'Biserica Romano-Catolica din Zetea', name:hu 'Szent Kereszt megtalálása templom'). miserend.hu (church 3640) gives identical coordinates (46.38795, 25.36599), address Str. Principală 270, and history (present large church built 1912–14 under parish priest Sebestyén Mózes). The other Catholic church tagged nearby (way 606021762, Szent László, 46.3716, 25.3597) is ~1.9 km to the south and is a different church; excluded. Note the church long axis is NNE–SSW (18.6°)."
+ },
+ {
+  "id": "biserica-reformata-feliceni",
+  "officialName": "Biserica Reformată din Feliceni",
+  "nameHu": "Felsőboldogfalvi református templom",
+  "altNames": [
+   "Reformed Church in Feliceni",
+   "Biserica reformată (Feliceni)"
+  ],
+  "address": "DJ137, Feliceni, comuna Feliceni, jud. Harghita",
+  "city": "Feliceni",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.274055,
+  "lon": 25.279849,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 495044763,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "reformed",
+    "name": "Reformed Church",
+    "name:hu": "Református templom",
+    "name:ro": "Biserica reformată",
+    "religion": "christian",
+    "wikidata": "Q999057",
+    "wikipedia": "hu:Felsőboldogfalvi református templom"
+   }
+  },
+  "footprint": [
+   [
+    46.274016,
+    25.279871
+   ],
+   [
+    46.274006,
+    25.279989
+   ],
+   [
+    46.274023,
+    25.280025
+   ],
+   [
+    46.274054,
+    25.280029
+   ],
+   [
+    46.274079,
+    25.28
+   ],
+   [
+    46.274096,
+    25.27985
+   ],
+   [
+    46.274105,
+    25.279736
+   ],
+   [
+    46.274093,
+    25.279735
+   ],
+   [
+    46.274094,
+    25.279661
+   ],
+   [
+    46.274044,
+    25.279658
+   ],
+   [
+    46.274042,
+    25.279732
+   ],
+   [
+    46.274031,
+    25.279731
+   ],
+   [
+    46.274023,
+    25.279823
+   ],
+   [
+    46.274001,
+    25.279818
+   ],
+   [
+    46.273995,
+    25.279866
+   ],
+   [
+    46.274016,
+    25.279871
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 28.9,
+   "widthM": 10.9,
+   "bearingDeg": 99.4
+  },
+  "heightHints": "Tower medieval up to 12 m, raised in 1869 with a later upper section and broken-line spire (hu.wikipedia); copper sphere on top of the tower (transylvanianow.com). Total tower height not published.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/495044763",
+   "https://hu.wikipedia.org/wiki/Fels%C5%91boldogfalvi_reform%C3%A1tus_templom",
+   "https://www.wikidata.org/wiki/Q999057",
+   "https://transylvanianow.com/time-capsule-discovered-in-felsoboldogfalva-feliceni-church/"
+  ],
+  "verificationNotes": "OSM way 495044763 (building=church, reformed, wikidata Q999057, wikipedia hu:Felsőboldogfalvi református templom) ~150 m from the Feliceni village node, matching hu.wikipedia 'in the centre of the village'. LMI HR-II-m-A-12817.01 (Wikidata). Full restoration Oct 2018–2020 per transylvanianow (time capsule found in the copper tower sphere). Nominatim reverse-geocodes the outline to neighbouring 'Tăureni' village (boundary quirk) – the church is the Feliceni Reformed church. The Catholic church (way 1113075481, Nagyboldogasszony) ~350 m SW was excluded."
+ },
+ {
+  "id": "cladire-rezidentiala-odorheiu-secuiesc",
+  "officialName": "Clădire rezidențială, Strada Pantei, Odorheiu Secuiesc",
+  "nameHu": null,
+  "altNames": [
+   "Lejtő utca, Székelyudvarhely",
+   "Strada Pantei"
+  ],
+  "address": "Strada Pantei (HU: Lejtő utca), cartier Sâmbătești, Odorheiu Secuiesc, 535600, jud. Harghita – exact house number unknown",
+  "city": "Odorheiu Secuiesc",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.311355,
+  "lon": 25.287355,
+  "geographicAccuracy": "street",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 713007397,
+   "tags": {
+    "highway": "tertiary",
+    "name": "Strada Pantei",
+    "note": "street, not the building; other segments: ways 27542715 (name:hu 'Lejtő utca', ref DC33), 163595888 (name:hu 'Lejtő utca'), 207829474, 207829501"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/27542715",
+   "https://www.openstreetmap.org/way/163595888",
+   "https://www.openstreetmap.org/way/713007397"
+  ],
+  "verificationNotes": "Archive hint 'str Lejto' = Hungarian 'Lejtő utca'; OSM ways 27542715 and 163595888 carry name 'Strada Pantei' with name:hu 'Lejtő utca' (Romanian 'pantă' = slope = 'lejtő'), so the street is VERIFIED. The specific building could NOT be identified (no OSM tag, web search found no project page). OSM address points on Strada Pantei span nos. 1–32/A over ~280 m (46.3105–46.3123 N, 25.2854–25.2890 E); the given point is a street vertex in the middle of that numbered section (junction of ways 713007397/163595888). The western part of way 27542715 (DC33) continues beyond the numbered houses. A 2026 municipal draft zoning plan mentions 'Lejtő utca 72' (udvarhely.ro) – unrelated/unconfirmed. Position accuracy ±200 m along the street."
+ },
+ {
+  "id": "biserica-bodogaia",
+  "officialName": "Biserica din Bodogaia (building not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Alsóboldogfalva (HU village name)"
+  ],
+  "address": "Bodogaia, comuna Secuieni, 537291, jud. Harghita",
+  "city": "Bodogaia",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.27444,
+  "lon": 24.996565,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 262437342,
+   "tags": {
+    "place": "village",
+    "name": "Bodogaia",
+    "name:hu": "Alsóboldogfalva"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/262437342",
+   "https://hu.wikipedia.org/wiki/Als%C3%B3boldogfalva",
+   "https://ro.wikipedia.org/wiki/Bodogaia,_Harghita",
+   "https://ro.wikipedia.org/wiki/Biserica_unitarian%C4%83_din_Bodogaia",
+   "https://ro.wikipedia.org/wiki/Biserica_de_lemn_din_Bodogaia",
+   "https://www.openstreetmap.org/way/1425282693",
+   "https://www.openstreetmap.org/way/1298794778"
+  ],
+  "verificationNotes": "CORRECTION: the Hungarian name of Bodogaia is Alsóboldogfalva (hu/ro.wikipedia, OSM name:hu); 'Bodogaya' is not attested, so project nameHu 'Bodogayai templom' is unverified. The village has THREE churches, so 'the main church' cannot be assumed: (1) Reformed church, built 1923 – OSM way 1425282693 (unnamed place_of_worship, addr DN13C nr. 199, centroid 46.274231, 24.998414, MRR 20.5 x 7.8 m, bearing 151.5°); (2) Unitarian church, 1791–1803 on medieval foundations, LMI HR-II-m-B-12758, address nr. 111 – not mapped in OSM; ro.wikipedia gives approx. 46.2748, 25.0001 while Google Maps places it at 46.274339, 24.989251 (positions disagree). (3) Wooden church 'Sf. Apostoli Petru și Pavel' (1701, LMI HR-II-m-B-12757) – OSM way 1298794778, 46.27513, 24.991585 (13.1 x 4.9 m). Coordinates given = village node. Leading candidate if one must be chosen: the Reformed church (1)."
+ },
+ {
+  "id": "csiki-jatekszin",
+  "officialName": "Teatrul Municipal „Csíki Játékszín”",
+  "nameHu": "Csíki Játékszín",
+  "altNames": [
+   "Teatrul Csíki Játékszín",
+   "Csíki Játékszín Theatre",
+   "Casa de Cultură / Városi Művelődési Ház (seat building)"
+  ],
+  "address": "Bulevardul Timișoarei nr. 6, Miercurea Ciuc, 530102, jud. Harghita (HU: Temesvári sugárút 6, Csíkszereda)",
+  "city": "Miercurea Ciuc",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.359134,
+  "lon": 25.803738,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 217349806,
+   "tags": {
+    "addr:city": "Miercurea Ciuc",
+    "addr:housenumber": "6",
+    "addr:postcode": "530102",
+    "addr:street": "Bulevardul Timișoarei",
+    "amenity": "theatre",
+    "building": "civic",
+    "building:levels": "1",
+    "height": "15",
+    "name": "Teatrul Municipal „Csíki Játékszín”",
+    "name:hu": "Csíki Játékszín",
+    "roof:shape": "hipped",
+    "website": "https://www.csikijatekszin.ro/"
+   }
+  },
+  "footprint": [
+   [
+    46.3592,
+    25.803329
+   ],
+   [
+    46.359203,
+    25.803371
+   ],
+   [
+    46.359264,
+    25.803363
+   ],
+   [
+    46.359275,
+    25.80354
+   ],
+   [
+    46.359241,
+    25.803545
+   ],
+   [
+    46.359274,
+    25.804072
+   ],
+   [
+    46.359238,
+    25.804077
+   ],
+   [
+    46.359245,
+    25.804186
+   ],
+   [
+    46.359076,
+    25.804208
+   ],
+   [
+    46.359069,
+    25.80409
+   ],
+   [
+    46.359042,
+    25.804094
+   ],
+   [
+    46.359009,
+    25.803577
+   ],
+   [
+    46.35896,
+    25.803583
+   ],
+   [
+    46.358949,
+    25.803411
+   ],
+   [
+    46.359015,
+    25.803403
+   ],
+   [
+    46.359012,
+    25.803354
+   ],
+   [
+    46.359052,
+    25.803348
+   ],
+   [
+    46.359151,
+    25.803335
+   ],
+   [
+    46.3592,
+    25.803329
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 65.9,
+   "widthM": 35.3,
+   "bearingDeg": 84.8
+  },
+  "heightHints": "OSM tags: height=15, building:levels=1, roof:shape=hipped (unverified elsewhere).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/217349806",
+   "https://www.csikijatekszin.ro/",
+   "https://www.wikidata.org/wiki/Q633238",
+   "https://hu.wikipedia.org/wiki/Cs%C3%ADki_J%C3%A1t%C3%A9ksz%C3%ADn",
+   "https://agerpres.ro/cultura-media/2026/05/11/harghita-teatrul-cs-ki-j-t-ksz-n-din-miercurea-ciuc-anunta-ca-festivalul-unscene-2026-nu-va-mai-avea--1554855"
+  ],
+  "verificationNotes": "OSM way 217349806 (amenity=theatre, name 'Teatrul Municipal „Csíki Játékszín”', addr Bd. Timișoarei 6, website csikijatekszin.ro). Official site address 'Temesvári sgt. 6, 530102 Csíkszereda'. Wikidata Q633238 describes it as the theatre and municipal culture house; its point (46.359085, 25.803443) is ~25 m from the outline centroid. AGERPRES (11 May 2026) reports the theatre's seat is under renovation, consistent with the Aug 2026 roof-works shoot."
+ },
+ {
+  "id": "biserica-delnita",
+  "officialName": "Biserica Romano-Catolică „Sfântul Ioan Botezătorul” din Delnița",
+  "nameHu": "Csíkdelnei római katolikus Szent János-templom",
+  "altNames": [
+   "Keresztelő Szent János templom (Csíkdelne)",
+   "Biserica Sf. Ioan Botezătorul",
+   "Saint John (Delnița)"
+  ],
+  "address": "Vásárút, extravilan W of Delnița (parish address: Delnița 148), comuna Păuleni-Ciuc, 537231, jud. Harghita",
+  "city": "Delnița",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.407076,
+  "lon": 25.812978,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 117513254,
+   "tags": {
+    "addr:city": "Csíkdelne",
+    "addr:street": "Vásárút",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "height": "6",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Biserica Sf. Ioan Botezătorul",
+    "name:hu": "Keresztelő Szent János templom",
+    "ref:RO:lmi": "HR-II-a-A-12814",
+    "religion": "christian",
+    "roof:height": "5",
+    "roof:shape": "hipped",
+    "source": "Bing",
+    "tourism": "attraction",
+    "url:miserend": "http://miserend.hu/templom/3539",
+    "wikidata": "Q875804",
+    "wikipedia": "hu:Szent János-templom (Csíkdelne)"
+   }
+  },
+  "footprint": [
+   [
+    46.407023,
+    25.812802
+   ],
+   [
+    46.407022,
+    25.812983
+   ],
+   [
+    46.407022,
+    25.813147
+   ],
+   [
+    46.407044,
+    25.813147
+   ],
+   [
+    46.40705,
+    25.813163
+   ],
+   [
+    46.407059,
+    25.813174
+   ],
+   [
+    46.407079,
+    25.813174
+   ],
+   [
+    46.407092,
+    25.813164
+   ],
+   [
+    46.407099,
+    25.813148
+   ],
+   [
+    46.407118,
+    25.813147
+   ],
+   [
+    46.407118,
+    25.813092
+   ],
+   [
+    46.407158,
+    25.813093
+   ],
+   [
+    46.407158,
+    25.813006
+   ],
+   [
+    46.407118,
+    25.813006
+   ],
+   [
+    46.407119,
+    25.812803
+   ],
+   [
+    46.407095,
+    25.812802
+   ],
+   [
+    46.407095,
+    25.812758
+   ],
+   [
+    46.407078,
+    25.812758
+   ],
+   [
+    46.407056,
+    25.812758
+   ],
+   [
+    46.407056,
+    25.812802
+   ],
+   [
+    46.407023,
+    25.812802
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 31.9,
+   "widthM": 15.1,
+   "bearingDeg": 90.2
+  },
+  "heightHints": "Tower 30 m (hu.wikipedia infobox; Wikidata P2048 = 30 m); church length 30 m, nave width 9 m, exterior wall height 8.50 m (hu.wikipedia). OSM tags height=6, roof:height=5, roof:shape=hipped (nave only).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/117513254",
+   "https://www.openstreetmap.org/way/117513284",
+   "https://miserend.hu/templom/3539",
+   "https://hu.wikipedia.org/wiki/Szent_J%C3%A1nos-templom_(Cs%C3%ADkdelne)",
+   "https://www.wikidata.org/wiki/Q875804"
+  ],
+  "verificationNotes": "OSM way 117513254 (building=church, roman_catholic, name 'Biserica Sf. miserend.hu (3539) gives 46.40709, 25.81297 (= this outline). CAUTION: Wikidata Q875804 and hu.wikipedia coordinates (46.409311, 25.822842) point instead to the 'Úrkápolna' chapel in the village cemetery (OSM way 309857778) – a different building; they were not used. Outline MRR 31.9 x 15.1 m, axis E–W (90.2°)."
+ },
+ {
+  "id": "casa-de-vacanta-varsag",
+  "officialName": "Casă de vacanță, Vărșag",
+  "nameHu": null,
+  "altNames": [
+   "Nyaraló, Székelyvarság",
+   "Varșag"
+  ],
+  "address": "Vărșag, comuna Vărșag, 537350, jud. Harghita (private house – exact address intentionally not published)",
+  "city": "Vărșag",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.531555,
+  "lon": 25.339001,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 460204180,
+   "tags": {
+    "place": "village",
+    "name": "Vărșag",
+    "name:hu": "Székelyvarság"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/460204180",
+   "https://www.openstreetmap.org/relation/13673225"
+  ],
+  "verificationNotes": "Private holiday house: by instruction no address search was made. Position = OSM village node 460204180 (linked place of commune relation 13673225, name:hu Székelyvarság). Official Romanian spelling is 'Vărșag' (with ă), not 'Varșag'. Varság is a very dispersed settlement (scattered hamlets over several km), so the true site may be kilometres from this point."
+ },
+ {
+  "id": "refugiu-cheile-bicazului",
+  "officialName": "Cabina panoramică Piatra Poienii (refugiu montan, Cheile Bicazului)",
+  "nameHu": "Mária-kő panorámakabin",
+  "altNames": [
+   "Panoramic booth Piatra Poienii",
+   "Refugiu panoramic Cheile Bicazului",
+   "PREFA reference 'Bivouac' (Bicaz-Klamm)"
+  ],
+  "address": "Piatra Poienii (Mária-kő), Parcul Național Cheile Bicazului-Hășmaș, comuna Bicaz-Chei, jud. Neamț",
+  "city": "Cheile Bicazului (Bicaz-Chei)",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 46.808744,
+  "lon": 25.818644,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 9230390942,
+   "tags": {
+    "tourism": "wilderness_hut",
+    "name:ro": "Cabina panoramică Piatra Poienii",
+    "name:hu": "Mária-kő panorámakabin",
+    "name:en": "Panoramic booth",
+    "operator": "Mountain rescue",
+    "start_date": "2021",
+    "locked": "yes",
+    "reservation": "required"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "No dimensions published. Refuges at ~1,100 m and ~1,200 m a.s.l. (Agerpres via stiripesurse); Piatra Poienii peak ele 1128 m (OSM node 6838522550).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/9230390942",
+   "https://www.openstreetmap.org/node/9234777918",
+   "https://uk.prefa.com/reference-buildings/biwak",
+   "https://www.visitharghita.com/en/places/mgfwucto6o0f1w",
+   "https://www.digi24.ro/stiri/externe/ue/o-priveliste-care-iti-taie-respiratia-si-un-proiect-unic-in-romania-refugii-panoramice-pe-stanca-1626537",
+   "https://www.stiripesurse.ro/refugii-montane-panoramice-amplasate-in-premiera-in-romania-in-parcul-national-cheile-bicazului-hasmas_1850024.html"
+  ],
+  "verificationNotes": "These are the two 'panoramic refuges' installed in 2021 in the Cheile Bicazului-Hășmaș National Park by the Gyilkostó Adventure Association with Salvamont Harghita (Agerpres/stiripesurse 17 Jun 2021; digi24 9 Aug 2021; visitharghita), built of wood and aluminium modules flown in by helicopter. Both are in OSM: (A, chosen) Piatra Poienii / Mária-kő cabin, node 9230390942, 46.808744, 25.818644, commune Bicaz-Chei, Neamț – directly above the Bicaz Gorges and matching the project county Neamț; (B, alternative) Gyilkos-havasi panorámakabin on Piatra Ucigașului/Gyilkos-kő above Lacu Roșu, node 9234777918, 46.786247, 25.798253, Gheorgheni, Harghita. Which of the two appears in the single archive image could not be determined without viewing it – confirm visually (B sits on the Gyilkos-kő summit cliff, A on the Piatra Poienii cliff edge over the gorge). OSM holds only points, no outlines."
+ },
+ {
+  "id": "sediu-color-metal",
+  "officialName": "Sediul central COLOR-METAL SRL",
+  "nameHu": null,
+  "altNames": [
+   "Color Metal",
+   "COLOR-METAL SRL (J19/605/2005)",
+   "Color Metal headquarters, Odorheiu Secuiesc"
+  ],
+  "address": "Str. Nicolae Bălcescu nr. 95, 535600 Odorheiu Secuiesc, jud. Harghita",
+  "city": "Odorheiu Secuiesc",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.319438,
+  "lon": 25.307063,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1360982485,
+   "tags": {
+    "building": "yes"
+   }
+  },
+  "footprint": [
+   [
+    46.320687,
+    25.306379
+   ],
+   [
+    46.319431,
+    25.306922
+   ],
+   [
+    46.319508,
+    25.307294
+   ],
+   [
+    46.320763,
+    25.306751
+   ],
+   [
+    46.320687,
+    25.306379
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 145.7,
+   "widthM": 29.8,
+   "bearingDeg": 163.4
+  },
+  "heightHints": null,
+  "sourceUrls": [
+   "https://color-metal.ro/ro/contact",
+   "https://color-metal.ro/en/contact",
+   "https://api.gleif.org/api/v1/lei-records/529900HU1FQDAKLX3C18",
+   "https://lei.bloomberg.com/leis/view/529900HU1FQDAKLX3C18",
+   "https://www.google.com/maps/search/Color+Metal+Odorheiu+Secuiesc",
+   "https://www.openstreetmap.org/way/1360982485",
+   "https://www.openstreetmap.org/way/377455457"
+  ],
+  "verificationNotes": "Contact page: 'Sediu central: Str. Nicolae Bălcescu, nr. 95, 535600 Odorheiu Secuiesc' (branch offices Mogoșoaia/Ilfov and Ghiroda/Timiș, plus Plovdiv). J19/605/2005, legal & HQ address Nicolae Balcescu nr 95, Odorheiu Secuiesc 535600. Address 95 is not in OSM; Nicolae Bălcescu 95, plus code 8894+QR Székelyudvarhely) decodes to 46.319438, 25.307063, on the street-facing (south) front of a large hall complex ~100 m NE of the MOL station (OSM 377455457, Bălcescu 89/K), north side of the street, Cartierul Bethlen. Satellite view shows an office/front block attached to the south end of the long hall. The coordinates given are that front (façade) position. OSM way 1360982485 (building=yes, unnamed, 4-node rectangle, 2025) roughly covers the whole complex (145.7 x 29.8 m, axis 163.4°); the pin lies ~2.5 m outside its south edge, so the footprint is approximate and represents the entire hall, not just the office block with the green expanded-metal façade."
+ }
+]

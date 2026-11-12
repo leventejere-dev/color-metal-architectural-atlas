@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 35.5,
+  "bearingSource": "Direction of the straight OSM side walls of way 1070339700 (34.9° / 217.3°, end wall 306°); footprintDims gives 26.5° because the minimum box is skewed by the rounded south-west end and the conch bulges. +X points NE towards the altar end; the porch faces −X/SW, towards the gate tower (OSM building ≈ 70 m SSE) from which the drone photos 01–02 were taken",
+  "cover": null,
+  "photosUsed": 2,
+  "approximations": "Two drone photographs taken from the same (southern) side; the north-west side and the altar end are not photographed (north side mirrored, flat east end after OSM). The OSM outline follows the broad roof eaves, so the walls are set ≈ 2 m inside it (body ≈ 48 × 14 m); its rounded south-west end is not confirmed by the photographs, which show a straight porch front with semicircular steps. Heights estimated from the drone views (eave ≈ 10 m, tall front roof ridge ≈ 18 m, spire cross ≈ 41 m). Lateral conchs modelled as round turrets with tall conical roofs; position of the naos tower after the OSM conch bulges. Gallery niches, blind arcades and porch columns simplified. The roofs are dark brown in the photographs, consistent with weathered copper; they are shown in copper as photographed and as supplied by COLOR METAL according to its records (identification of this church as the recipient is probable, not confirmed).",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; înălțimile, latura nord-vestică și capătul altarului sunt estimate. Acoperișurile maro-închise din fotografii sunt redate în cupru, materialul livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a magasságok, az északnyugati oldal és az oltár felőli vég becsültek. A fotókon sötétbarna tetők rézként jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyagként.",
+    "en": "Scale model interpreted from public reference photographs and the OSM outline; heights, the north-west side and the altar end are estimated. The dark brown roofs seen in the photographs are shown in copper, the material supplied by COLOR METAL according to its records."
+  }
+}

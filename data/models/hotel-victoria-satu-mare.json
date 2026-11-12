@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 106.1,
+ "bearingSource": "OSM way 705396484 long axis 106.1°; the street block on Strada Horea is the +X end (front [1, 0], facing ESE) and the rear wing extends to −X (OSM street context).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Only historic images exist (1909 photograph, 1911 postcard, an undated coloured postcard); no current photograph was found. Street façade rhythm (6 bays, corner pavilions with swept gables, three small attic gables, shop openings, two balconies) taken from photo 01; heights scaled from the ≈5 m pavilion width (cornice ≈15.9 m). Rear wing, courtyard and side elevations interpreted from the outline (3 storeys, plain windows); roof pitches estimated; diamond shingles placed on the street slope after the 1909 pattern, standing seam elsewhere.",
+ "note": {
+  "ro": "Machetă interpretată după imagini istorice publice (1909–1911) și conturul OSM; acoperișurile sunt redate în titan-zinc elZinc Slate – solzi pătrați așezați în romb pe versantul spre stradă și tablă fălțuită în rest –, materialul livrat de COLOR METAL conform evidențelor sale, deoarece nu există fotografii recente ale lucrărilor. Aripa posterioară și înălțimile sunt aproximate.",
+  "hu": "Nyilvános történeti képek (1909–1911) és az OSM-körvonal alapján értelmezett makett; a tetőket elZinc Slate titáncinkkel ábrázoljuk – az utcai tetősíkon átlósan rakott négyzetes zsindellyel, máshol állókorcos fedéssel –, a COLOR METAL nyilvántartása szerint általa szállított anyaggal, mert a munkákról nincs friss fotó. A hátsó szárny és a magasságok közelítők.",
+  "en": "Scale model interpreted from public historic images (1909–1911) and the OSM outline; the roofs are shown in elZinc Slate titanium-zinc – square shingles laid diagonally on the street slope and standing seam elsewhere – the material supplied by COLOR METAL according to its records, because no recent photograph of the works is available. The rear wing and the heights are approximated."
+ }
+}

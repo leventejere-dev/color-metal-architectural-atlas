@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 59.3,
+ "bearingSource": "OSM way 132404249 long axis 59.3°; the street front (+Z, raised central risalit) faces SE (149.3°) onto Bd. Ferdinand I, which runs along the SE side of the outline (OSM road geometry, aerial view).",
+ "cover": "04",
+ "photosUsed": 12,
+ "approximations": "OSM outline is a plain 34.6 × 27.7 m rectangle; the U-shaped plan (front wing ≈ 14.5 m deep, rear wings ≈ 12.5 m wide, small rear courtyard) is interpreted from the stepped roof corner in photos 01/06/07/10/12 and a coarse aerial view. Heights estimated from window sizes (eave ≈ 10.6 m, risalit eave ≈ 12.5 m, main ridge ≈ 17.2 m; pitches 42°, end hips 50°). Courtyard elevations and rear-wing ends are not photographed (window rhythm repeated); fretwork valance, lettering of the frieze, archivolts and mouldings simplified; dormer count per roof face estimated.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință; planul în formă de U (aripile posterioare și curtea), înălțimile și fațadele dinspre curte sunt aproximate, iar ornamentația și inscripția frizei sunt simplificate.",
+  "hu": "A referenciafotók alapján értelmezett makett; az U alakú alaprajz (hátsó szárnyak és udvar), a magasságok és az udvari homlokzatok közelítők, a díszítés és a fríz felirata egyszerűsített.",
+  "en": "Scale model interpreted from the reference photographs; the U-shaped plan (rear wings and courtyard), the heights and the courtyard elevations are approximated, and the ornament and frieze lettering are simplified."
+ }
+}

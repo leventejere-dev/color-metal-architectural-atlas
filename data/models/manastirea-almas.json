@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 92.4,
+  "bearingSource": "OSM way 688423052 long axis 92.4°; +X points east, to the wider end of the outline with the side annexes (altar end); the narrow, low part of the outline at the west end is the narthex, as seen on the left of photos 01 and 02 (taken from the south)",
+  "cover": "01",
+  "photosUsed": 3,
+  "approximations": "No published dimensions were found. Plan after the OSM outline (29.9 × 16.2 m): narthex, main body 24.6 × 12 m and two side annexes at the east end (2.6 m deep as in the outline; their depth is not visible in the photos). Heights are scaled from photos 01 and 02 (walls ≈ 10 m, middle drum cross ≈ 28.5 m) and the three drum positions are measured on them. The north side and the west front are not photographed and are interpreted (north mirrored from south). Ornamental bands, the dentil frieze and window surrounds are simplified. Photo 04 (gate tower and cells) was used for context only. The 2020 photographs predate the 2023 copper and show brown roofs and caps; which surfaces received the copper is not documented, so all church roofs and the onion caps are shown in new copper.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii de referință publice din 2020; dimensiunile și înălțimile sunt estimate, iar fațada nordică este interpretată. Fotografiile sunt anterioare lucrărilor, de aceea acoperișurile și bulbii turlelor sunt redați din cupru nou, livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "2020-as nyilvános referenciafotók alapján értelmezett makett; a méretek és magasságok becsültek, az északi homlokzat értelmezett. A fotók a munkálatok előttiek, ezért a tetők és a tornyok hagymasisakjai új rézzel jelennek meg, amelyet a COLOR METAL szállított nyilvántartása szerint.",
+    "en": "Scale model interpreted from public reference photographs taken in 2020; dimensions and heights are estimated and the north side is interpreted. The photographs predate the works, so the roofs and the onion caps of the drums are shown in new copper supplied by COLOR METAL according to its records."
+  }
+}

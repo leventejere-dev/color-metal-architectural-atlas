@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 131,
+  "bearingSource": "OSM way 867758612 long axis 131°; +X points to the altar (east). Both ends are polygonal (ro.wikipedia: polygonal west apse of the porch), and photos 01 and 02 place the tower close to the altar cone",
+  "cover": "01",
+  "photosUsed": 2,
+  "approximations": "Overall size follows ro.wikipedia (35 × 9.5 m, about 42 m high). Wall height (≈ 16 m), ridge (≈ 20 m) and tower stages are scaled from photo 01 against that total; tower position (≈ 4.9 m west of the altar apse centre) and the ridge cross over the pronaos are read from photo 01. North and south elevations are modelled identically; the west end and porch are interpreted from the outline and the description. Carved stone ornament is reduced to mouldings, rope belts and niche frames; pilaster count, window positions and the star bases of the tower are estimated. Both photographs predate the 2010–2012 copper roofs, so the copper is shown in an aged dark-brown tone instead of the grey of the photos.",
+  "note": {
+    "ro": "Machetă interpretată după două fotografii mai vechi și după dimensiunile publicate (35 × 9,5 m, cca 42 m înălțime): înălțimea zidurilor și treptele turlei sunt estimate, iar decorul sculptat în piatră este simplificat. Fotografiile sunt anterioare învelitorii din cupru (2010–2012), de aceea cuprul este redat într-o nuanță brun-închisă, patinată.",
+    "hu": "Két régebbi fotó és a közölt méretek (35 × 9,5 m, kb. 42 m magasság) alapján értelmezett makett: a falmagasság és a torony szintjei becsültek, a faragott kődíszítés egyszerűsített. A fotók a 2010–2012-es rézfedés előtt készültek, ezért a réz sötétbarna, öregedett árnyalatban jelenik meg.",
+    "en": "Scale model interpreted from two older photographs and the published dimensions (35 × 9.5 m, about 42 m high): wall height and tower stages are estimated, and the carved stonework is simplified. The photographs predate the 2010–2012 copper roofs, so the copper is shown in an aged dark-brown tone."
+  }
+}

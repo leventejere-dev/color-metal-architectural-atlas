@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 95.9,
+  "bearingSource": "OSM way 381801793 long axis 95.9°; +X points east to the polygonal apse end of the outline; photos 01 and 04 show the flat west front with the entrance, seen through the gate bell tower (photo 03) that stands to the west",
+  "cover": "01",
+  "photosUsed": 3,
+  "approximations": "No published dimensions were found. Plan after the OSM outline (28.2 × 13.3 m), with a polygonal east apse as wide as the nave. Only the west front is clearly photographed: heights are scaled from photos 01 and 04 against its 13.3 m width (walls ≈ 9 m, naos drum cross ≈ 23 m); the drum positions, the square base of the naos drum and the low roof pitch are read from photos 01, 02 and 04. The side and east elevations are hidden by trees in the photographs and are interpreted as plain ashlar with a few windows. Which surfaces received the 2020 copper is not documented; the 2012 photographs predate the works (the domes were already green-patinated), and the roof, both domes, the drum skirt and the gutters are shown in weathered copper.",
+  "note": {
+    "ro": "Machetă preliminară interpretată după fotografii de referință publice din 2012; doar fațada vestică este bine documentată, iar celelalte fațade și înălțimile sunt estimate. Fotografiile sunt anterioare lucrărilor, de aceea acoperișul și cupolele sunt redate din cupru patinat, livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "2012-es nyilvános referenciafotók alapján értelmezett előzetes makett; csak a nyugati homlokzat jól dokumentált, a többi homlokzat és a magasságok becsültek. A fotók a munkálatok előttiek, ezért a tető és a kupolák öregedett rézzel jelennek meg, amelyet a COLOR METAL szállított nyilvántartása szerint.",
+    "en": "Preliminary scale model interpreted from public reference photographs taken in 2012; only the west front is well documented, and the other elevations and the heights are estimated. The photographs predate the works, so the roof and the domes are shown in weathered copper supplied by COLOR METAL according to its records."
+  }
+}

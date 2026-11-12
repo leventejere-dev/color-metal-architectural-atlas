@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 88.0,
+ "bearingSource": "nave axis read from the OSM outline walls and the 2026 vertical drone view (the OSM minimum-rectangle axis, 96.3°, is skewed by the traced porch)",
+ "cover": "02",
+ "photosUsed": 7,
+ "approximations": "All seven photographs are drone views from 2026; heights are scaled from them against the published total height (80 m): outer walls ≈ 17 m, clerestory ≈ 22 m, steep main roof ridge ≈ 33 m, west towers ≈ 57 m to the cross. Plan after the OSM outline (74.6 × 41.4 m) and the description of a triconch plan; lateral apses and altar apse diameters, the naos block with its arched gables and the barrel arms behind them are interpreted. The north and south sides are modelled identically; the west front with the open porch and the two pangars is not photographed and is interpreted from the description. Carved ornament, mosaics, window tracery and balconies are simplified or omitted.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice (imagini din dronă, 2026): înălțimile sunt estimate pe baza înălțimii publicate de 80 m, iar fațada vestică este interpretată după descriere. Acoperișurile, domurile și turlele sunt redate așa cum apar în fotografii, în nuanța foarte închisă a cuprului oxidat; banda de cupru și sistemul pluvial din cupru au fost livrate de COLOR METAL, conform evidențelor sale.",
+  "hu": "Nyilvános referenciafotók (2026-os drónfelvételek) alapján értelmezett makett: a magasságok a közölt 80 méteres magasság alapján becsültek, a nyugati homlokzat a leírás alapján értelmezett. A tetők, kupolák és tornyok a fotókon látható, nagyon sötét, oxidálódott réz árnyalatában jelennek meg; a rézszalagot és a réz csapadékvíz-elvezető rendszert a COLOR METAL szállította, nyilvántartása szerint.",
+  "en": "Scale model interpreted from public reference photographs (2026 drone views): heights are estimated from the published 80 m height, and the west front is interpreted from the description. Roofs, domes and spires are shown as photographed, in the very dark tone of oxidised copper; the copper strip and the copper rainwater system were supplied by COLOR METAL according to its records."
+ }
+}

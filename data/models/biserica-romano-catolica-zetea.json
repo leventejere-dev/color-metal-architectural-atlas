@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 18.6,
+ "bearingSource": "OSM way 207345944 long axis 18.6°; +X = NNE: polygonal chancel at the NNE end, 7.4 m tower projection at the SSW end of the OSM outline; photos 09–10 show the WNW side with the tower on the right",
+ "cover": "09",
+ "photosUsed": 12,
+ "approximations": "Heights derived from photo proportions (no survey): nave eaves ≈ 10 m, roof ≈ 37°, ridge ≈ 18.9 m, chancel eaves ≈ 12.6 m (its steeper roof keeps the nave ridge, as photographed), tower cornice ≈ 26.6 m, spire tip ≈ 35.4 m. ESE side and east end were not photographed: ESE elevation mirrored from the WNW side without the sacristy annex, apse and chancel windows assumed. Chancel modelled 9.6 m wide and centred on the axis (OSM chancel trace is skewed towards WNW, probably including the annex). Spire's flat-lock copper shingles shown as copper sheet with fine seams; arched clock pediments, corbel friezes, portal archivolts and window tracery simplified; roof vents and snow guards omitted; turret cross ornament simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de la sol, calibrată pe conturul OSM; înălțimile și pantele acoperișurilor sunt estimate, iar latura de est-sud-est și capătul altarului, nefotografiate, sunt aproximate. Coiful turnului este redat în cupru natural KME, ca în fotografii.",
+  "hu": "A földi fotók alapján értelmezett, az OSM-alaprajzhoz igazított makett; a magasságok és a tetőhajlások becsültek, a nem fotózott keletdélkeleti oldal és a szentélyvég közelítő. A toronysisak a fotók szerint natúr KME rézzel jelenik meg.",
+  "en": "Scale model interpreted from the ground photographs and calibrated on the OSM outline; heights and roof pitches are estimated, and the unphotographed ESE side and chancel end are approximate. The tower spire is shown in natural KME copper, as photographed."
+ }
+}

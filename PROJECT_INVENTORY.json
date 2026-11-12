@@ -1,0 +1,6464 @@
+{
+ "generated": "2026-11-12T14:21:52",
+ "archiveRoot": "M:/05_Arhitectura/Refernciák befrissítve",
+ "totals": {
+  "archiveFiles": 2508,
+  "archiveImages": 2051,
+  "topLevelFolders": 29,
+  "exactDuplicateImageGroups": 247,
+  "redundantImageCopies": 418,
+  "uniqueProjects": 56,
+  "publicProjects": 54,
+  "pendingProjects": 2,
+  "registerRows": 92,
+  "registerMatched": 45
+ },
+ "projects": [
+  {
+   "id": "sepsi-osk-arena",
+   "name": "Stadionul Sepsi OSK (Sepsi Duna Aréna)",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat",
+    "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Slideshow/Poze",
+    "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/2022.02.19"
+   ],
+   "sourceFiles": [
+    "_Valogatott referenciak/elZinc/Stadionul Sepsi OSK.jpg",
+    "_Valogatott referenciak/elZinc/Stadionul Sepsi OSK 2.jpg",
+    "_Valogatott referenciak/elZinc/Stadionul Sepsi OSK 3.jpg"
+   ],
+   "duplicateFolders": [
+    "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021"
+   ],
+   "mergeNote": null,
+   "photosFound": 98,
+   "photosUnique": 98,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 45,
+   "register": {
+    "matched": true
+   },
+   "note": "Archive also holds the full construction-progress series (2021.05–2022.02, with and without logo); only the selected set is used.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_5591.jpg",
+     "kind": "photo",
+     "dhash": "878385c1421a9b0e",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 844,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_5600.jpg",
+     "kind": "photo",
+     "dhash": "c8c8d3b37363cbff",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_5674.jpg",
+     "kind": "photo",
+     "dhash": "000888f2eec8d9ed",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_5697.jpg",
+     "kind": "photo",
+     "dhash": "0bc78ebbf3e333cf",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_5760.jpg",
+     "kind": "photo",
+     "dhash": "988e0e1f17330b0f",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_5778.jpg",
+     "kind": "photo",
+     "dhash": "0f0b8861a4a2ae06",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1037,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_5813-p.jpg",
+     "kind": "photo",
+     "dhash": "84f1c9cc5936333b",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_6063.jpg",
+     "kind": "photo",
+     "dhash": "e0f1d0f44af094d4",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_6071.jpg",
+     "kind": "photo",
+     "dhash": "33727ece3e3ec309",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_6092.jpg",
+     "kind": "photo",
+     "dhash": "021706b16d4dbc00",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_6114.jpg",
+     "kind": "photo",
+     "dhash": "e3d30230acbbe46f",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Stadion SEPSI - Sf. Gheorghe 2021/Selectat/_MG_6130-k.jpg",
+     "kind": "photo",
+     "dhash": "e4a089c8d0d1e5bd",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "existing-verified",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-reformata-tasnad",
+   "name": "Biserica Reformată din Tășnad",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 0,
+   "photosUnique": 0,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Exhibition-table model. Material per exhibition brief (client information): anthracite aluminium standing seam on nave, choir, apse and porch; tower helm in PREFA anthracite. No photographs of this building in the reference archive.",
+   "photos": [],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "existing-verified",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "castelul-banffy-rascruci",
+   "name": "Castelul Bánffy din Răscruci",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz",
+    "2. posztolva/2. posztolva - Castelul Banffy Rascruci"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Banffy.JPG",
+    "_Valogatott referenciak/KME/Castelul Banffy Rascruci.JPG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 35,
+   "photosUnique": 21,
+   "exactDuplicatesInSelection": 14,
+   "archiveCopiesOfSelectedPhotos": 7,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz/DJI_0147.JPG",
+     "kind": "drone",
+     "dhash": "494949562c0d1326",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz/DJI_0151.JPG",
+     "kind": "drone",
+     "dhash": "cf99194f0f13174f",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz/DJI_0152.JPG",
+     "kind": "drone",
+     "dhash": "cdada8282a0e8e8f",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz/_DSC3109.JPG",
+     "kind": "photo",
+     "dhash": "0896d2c8f2333312",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz/_DSC3116.JPG",
+     "kind": "photo",
+     "dhash": "e6ffebc1e8691af2",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz/_DSC3128.JPG",
+     "kind": "photo",
+     "dhash": "2913d6cc3145e838",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/Válogatott a poszthoz/_DSC3131.JPG",
+     "kind": "photo",
+     "dhash": "282f178f874b85c0",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/DJI_0148.JPG",
+     "kind": "drone",
+     "dhash": "168b8f968f93adcc",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/DJI_0150.JPG",
+     "kind": "drone",
+     "dhash": "30b2960f33334c8e",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/DJI_0154.JPG",
+     "kind": "drone",
+     "dhash": "0c462e088c0ccc8c",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/DJI_0157.JPG",
+     "kind": "drone",
+     "dhash": "3d1d0c4f4f8dc343",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Castelul Banffy Rascruci/DJI_0168.JPG",
+     "kind": "drone",
+     "dhash": "f0a4379393c74d2d",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "existing-verified",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "parcare-satu-mare",
+   "name": "Parcare supraetajată Satu Mare",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 18,
+   "photosUnique": 18,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": -18,
+   "register": {
+    "matched": false
+   },
+   "note": "Exhibition-table model. Gold-painted expanded aluminium façade mesh (per exhibition brief). Photographs are not in the reference archive: 18 images supplied for the exhibition-table project (street, drone and mesh-detail views; some are website screenshots) are kept in work/supplementary and used for identification only until publication is approved.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1448,
+     "h": 1086,
+     "source": "@work/supplementary/parcare-satu-mare/garage-10.jpg",
+     "kind": "photo",
+     "dhash": "48c8c949c9c8c9aa",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1448,
+     "h": 1086,
+     "source": "@work/supplementary/parcare-satu-mare/garage-3.jpg",
+     "kind": "photo",
+     "dhash": "6a2aee889882b080",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1448,
+     "h": 1086,
+     "source": "@work/supplementary/parcare-satu-mare/garage-4.jpg",
+     "kind": "photo",
+     "dhash": "03051939e978328f",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1448,
+     "h": 1086,
+     "source": "@work/supplementary/parcare-satu-mare/garage-5.jpg",
+     "kind": "photo",
+     "dhash": "28849009063f1f7f",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1671,
+     "h": 941,
+     "source": "@work/supplementary/parcare-satu-mare/garage-6.jpg",
+     "kind": "photo",
+     "dhash": "dd27692222c29627",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1013,
+     "h": 1800,
+     "source": "@work/supplementary/parcare-satu-mare/garage-7.jpg",
+     "kind": "photo",
+     "dhash": "1932e200a223cbc9",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/parcare-satu-mare/garage-8.jpg",
+     "kind": "photo",
+     "dhash": "6d25ac1f79391d0e",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1088,
+     "h": 810,
+     "source": "@work/supplementary/parcare-satu-mare/garage-11.webp",
+     "kind": "photo",
+     "dhash": "e46d69cc61c46bcc",
+     "public": false
+    },
+    {
+     "file": "09",
+     "w": 616,
+     "h": 760,
+     "source": "@work/supplementary/parcare-satu-mare/garage-12.webp",
+     "kind": "photo",
+     "dhash": "e3cac84e6e2e0ee6",
+     "public": false
+    },
+    {
+     "file": "10",
+     "w": 1117,
+     "h": 797,
+     "source": "@work/supplementary/parcare-satu-mare/garage-13.webp",
+     "kind": "photo",
+     "dhash": "33626307462e5390",
+     "public": false
+    },
+    {
+     "file": "11",
+     "w": 1387,
+     "h": 710,
+     "source": "@work/supplementary/parcare-satu-mare/garage-14.webp",
+     "kind": "photo",
+     "dhash": "23cf3e374f0f0716",
+     "public": false
+    },
+    {
+     "file": "12",
+     "w": 647,
+     "h": 777,
+     "source": "@work/supplementary/parcare-satu-mare/garage-15.webp",
+     "kind": "photo",
+     "dhash": "e2c2884e4a0a09e6",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "existing-verified",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "ansamblul-mitropolitan-iasi",
+   "name": "Catedrala Mitropolitană din Iași",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Ansamblu Mitropolitan Iasi.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Ansamblu Mitropolitana Iasi",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Ansamblu Mitropolitana Iasi",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Ansamblu Mitropolitana Iasi"
+   ],
+   "mergeNote": null,
+   "photosFound": 19,
+   "photosUnique": 19,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 40,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DJI_0383.jpg",
+     "kind": "drone",
+     "dhash": "af0c95159a9e1f1b",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DJI_0384.jpg",
+     "kind": "drone",
+     "dhash": "66e561716d449369",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DJI_0392.jpg",
+     "kind": "drone",
+     "dhash": "1c3bea4eced6ce4e",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DJI_0394.jpg",
+     "kind": "drone",
+     "dhash": "26ca5a5a7222a7b7",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DJI_0395.jpg",
+     "kind": "drone",
+     "dhash": "6789264323276633",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DJI_0396.jpg",
+     "kind": "drone",
+     "dhash": "13592db99939991b",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DJI_0397.jpg",
+     "kind": "drone",
+     "dhash": "0745444c461223e3",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DSC01461.jpg",
+     "kind": "photo",
+     "dhash": "bfb4b6b1e3d39666",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DSC01464.jpg",
+     "kind": "photo",
+     "dhash": "7f9bd9c8989b3b6b",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DSC01466.jpg",
+     "kind": "photo",
+     "dhash": "6f363b2f5b595d9d",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DSC01468.jpg",
+     "kind": "photo",
+     "dhash": "77ffb332f3333307",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Ansamblu Mitropolitan Iasi/Válogatott AMI/DSC01469.jpg",
+     "kind": "photo",
+     "dhash": "3f5cccd2b25227e4",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "ateneul-roman",
+   "name": "Ateneul Român",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W"
+   ],
+   "sourceFiles": [
+    "_Valogatott referenciak/elZinc/Ateneul Român.jpg",
+    "_Valogatott referenciak/elZinc/Ateneul Român 2.jpg"
+   ],
+   "duplicateFolders": [
+    "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-A4",
+    "2. posztolva/2. posztolva - Ateneul Roman/2022-10-TIF"
+   ],
+   "mergeNote": null,
+   "photosFound": 34,
+   "photosUnique": 34,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 1,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român.jpg",
+     "kind": "photo",
+     "dhash": "21b3f0e42f9b1b1f",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_01.jpg",
+     "kind": "photo",
+     "dhash": "3343713364c48db9",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_02.jpg",
+     "kind": "photo",
+     "dhash": "0c652d193861c1d5",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_03.jpg",
+     "kind": "photo",
+     "dhash": "ccddf46228271f0d",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1103,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_04.jpg",
+     "kind": "photo",
+     "dhash": "61b1b121252cacac",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1113,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_05.jpg",
+     "kind": "photo",
+     "dhash": "793066e360246469",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_06.jpg",
+     "kind": "photo",
+     "dhash": "280fe7b30c9e3b3b",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_07.jpg",
+     "kind": "photo",
+     "dhash": "0b2b17332b1d7f6b",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_08.jpg",
+     "kind": "photo",
+     "dhash": "2b37332b1d770b9f",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_09.jpg",
+     "kind": "photo",
+     "dhash": "52ca937064d1cfd3",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_10.jpg",
+     "kind": "photo",
+     "dhash": "138ba670282806c6",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1137,
+     "source": "2. posztolva/2. posztolva - Ateneul Roman/2022-10-JPG-W/București - Ateneul Român_11.jpg",
+     "kind": "photo",
+     "dhash": "9f890a87a331345b",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biblioteca-academiei-romane",
+   "name": "Biblioteca Academiei Române",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 15,
+   "photosUnique": 15,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4165.jpg",
+     "kind": "photo",
+     "dhash": "3c3c4c1c3f53035b",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4166.jpg",
+     "kind": "photo",
+     "dhash": "136b366563109653",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4167.jpg",
+     "kind": "photo",
+     "dhash": "236223a31f7fb187",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4168.jpg",
+     "kind": "photo",
+     "dhash": "c3c25b17075fadac",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4169.jpg",
+     "kind": "photo",
+     "dhash": "01000909033bc6c6",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4170.jpg",
+     "kind": "photo",
+     "dhash": "6dbb5a44e1cb9a9a",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4171.jpg",
+     "kind": "photo",
+     "dhash": "4f490d03496b4b49",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4172.jpg",
+     "kind": "photo",
+     "dhash": "c6d35a1f1b0b0f0b",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4173.jpg",
+     "kind": "photo",
+     "dhash": "89c51f3f07050b13",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4174.jpg",
+     "kind": "photo",
+     "dhash": "1f1f1b1b9b9a1b7b",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4175.jpg",
+     "kind": "photo",
+     "dhash": "1d1f3b1bbbbe3b63",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Biblioteca Academiei Romane/DSC_4176.jpg",
+     "kind": "photo",
+     "dhash": "1f5bdddf5f9e3737",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biblioteca-centrala-universitara-iasi",
+   "name": "Biblioteca Centrală Universitară „Mihai Eminescu”",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME",
+    "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Biblioteca Centrala Universitara Mihai Eminescu Iasi.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Biblioteca Centrala Universitara Mihai Eminescu",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Biblioteca Centrala Universitara Mihai Eminescu",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Biblioteca Centrala Universitara Mihai Eminescu"
+   ],
+   "mergeNote": null,
+   "photosFound": 28,
+   "photosUnique": 13,
+   "exactDuplicatesInSelection": 15,
+   "archiveCopiesOfSelectedPhotos": 31,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DJI_0372.jpg",
+     "kind": "drone",
+     "dhash": "c96f12c656160636",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DJI_0374.jpg",
+     "kind": "drone",
+     "dhash": "31393b062c0fcb4b",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DJI_0376.jpg",
+     "kind": "drone",
+     "dhash": "ce27274f67adbd1f",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DJI_0377.jpg",
+     "kind": "drone",
+     "dhash": "ab676b43052e2c2f",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DJI_0378.jpg",
+     "kind": "drone",
+     "dhash": "4fe54747934b5b13",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DJI_0379.jpg",
+     "kind": "drone",
+     "dhash": "f99b0715b9a3b330",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DJI_0380.jpg",
+     "kind": "drone",
+     "dhash": "13372d33160e2c2f",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DJI_0381.jpg",
+     "kind": "drone",
+     "dhash": "29354e2e9e12664e",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DSC01456.jpg",
+     "kind": "photo",
+     "dhash": "3810c6d6d6464646",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DSC01457.jpg",
+     "kind": "photo",
+     "dhash": "f0380189b98bab0b",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DSC01458.jpg",
+     "kind": "photo",
+     "dhash": "28781e16d6979797",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Biblioteca Centrala Universitara Mihai Eminescu Iasi/Válogatott BCUME/DSC01460.jpg",
+     "kind": "photo",
+     "dhash": "c218386d796d7c6c",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-pogorarea-duhului-sfant-giroc",
+   "name": "Biserica „Pogorârea Duhului Sfânt”, Giroc",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Giroc.JPG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 11,
+   "photosUnique": 11,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/DJI_0109.JPG",
+     "kind": "drone",
+     "dhash": "69494d5b9b21a1a1",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/DJI_0110.JPG",
+     "kind": "drone",
+     "dhash": "27dc9423497d3a2b",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/DJI_0113.JPG",
+     "kind": "drone",
+     "dhash": "611112983e642c3c",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/DJI_0114.JPG",
+     "kind": "drone",
+     "dhash": "4b41242cc4c65d5a",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/DJI_0115.JPG",
+     "kind": "drone",
+     "dhash": "73c67373b2a6df57",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/DJI_0116.JPG",
+     "kind": "drone",
+     "dhash": "37cd8d86c6252d9b",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/_DSC3059.jpg",
+     "kind": "photo",
+     "dhash": "0000c4ccc8e008fd",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/_DSC3061.jpg",
+     "kind": "photo",
+     "dhash": "0044daf2d2864444",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/_DSC3064.jpg",
+     "kind": "photo",
+     "dhash": "000044c6d1f12f2b",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Biserica „Pogorârea Duhului Sfânt”, Giroc/_DSC3065.jpg",
+     "kind": "photo",
+     "dhash": "20282760d80e3d33",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": false,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "parohia-ortodoxa-giroc",
+   "name": "Biserica Parohiei Ortodoxe Române Giroc",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 8,
+   "photosUnique": 8,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc/DJI_0118.JPG",
+     "kind": "drone",
+     "dhash": "b43419c263494c4c",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc/DJI_0119.JPG",
+     "kind": "drone",
+     "dhash": "c3c92105a5344263",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc/DJI_0120.JPG",
+     "kind": "drone",
+     "dhash": "a38b2b692d95b132",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc/_DSC3066.jpg",
+     "kind": "photo",
+     "dhash": "40504c0f050b9b1b",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc/_DSC3069.jpg",
+     "kind": "photo",
+     "dhash": "e0f0cbf30f0e1735",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc/_DSC3070.jpg",
+     "kind": "photo",
+     "dhash": "0830b0b258a7c964",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc/_DSC3071.jpg",
+     "kind": "photo",
+     "dhash": "fff3f3f3f1fe1e6a",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1200,
+     "h": 1800,
+     "source": "x - Temesvari fotozas/Parohia ortodoxa romana, Giroc/_DSC3074.jpg",
+     "kind": "photo",
+     "dhash": "00103030706672f0",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-amzei",
+   "name": "Biserica Amzei",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Biserica Amzei Bucuresti"
+   ],
+   "sourceFiles": [
+    "_Valogatott referenciak/elZinc/București Biserica Amzei.jpg",
+    "_Valogatott referenciak/elZinc/București Biserica AMzei 2.jpg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 9,
+   "photosUnique": 9,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 1,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Biserica Amzei Bucuresti/București Septembrie 2022 161.jpg",
+     "kind": "photo",
+     "dhash": "392c3c86c4623634",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Biserica Amzei Bucuresti/București Septembrie 2022 162.jpg",
+     "kind": "photo",
+     "dhash": "4e5a1a3331840404",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Biserica Amzei Bucuresti/București Septembrie 2022 164.jpg",
+     "kind": "photo",
+     "dhash": "dc5c1c3de96a2636",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Amzei Bucuresti/București Septembrie 2022 173.jpg",
+     "kind": "photo",
+     "dhash": "0733b3b379f0b7dd",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Biserica Amzei Bucuresti/București Septembrie 2022 176.jpg",
+     "kind": "photo",
+     "dhash": "372321a1ad2b1f5f",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Biserica Amzei Bucuresti/București Septembrie 2022 177.jpg",
+     "kind": "photo",
+     "dhash": "73f3f3f69b33182f",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1090,
+     "source": "2. posztolva/2. posztolva - Biserica Amzei Bucuresti/București Septembrie 2022 187.jpg",
+     "kind": "photo",
+     "dhash": "666f191f3b395953",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-bodogaia",
+   "name": "Biserica din Bodogaia",
+   "status": "pending",
+   "rights": "company-unreviewed",
+   "sourceFolders": [
+    "xxxx nincs kesz - Biserica bodogaia"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 9,
+   "photosUnique": 9,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": "Archive folder marked 'nincs kész' (not finished); register: photos not OK, re-shoot after completion.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "xxxx nincs kesz - Biserica bodogaia/2/DJI_0216.JPG",
+     "kind": "drone",
+     "dhash": "330da74b42f27bb9",
+     "public": false
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "xxxx nincs kesz - Biserica bodogaia/DJI_0179.JPG",
+     "kind": "drone",
+     "dhash": "6ef2e9c4cd6d73d7",
+     "public": false
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "xxxx nincs kesz - Biserica bodogaia/DJI_0180.JPG",
+     "kind": "drone",
+     "dhash": "6c26bb4f2ea1a9b5",
+     "public": false
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "xxxx nincs kesz - Biserica bodogaia/DJI_0181.JPG",
+     "kind": "drone",
+     "dhash": "97db5323cd8dabc3",
+     "public": false
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "xxxx nincs kesz - Biserica bodogaia/DJI_0182.JPG",
+     "kind": "drone",
+     "dhash": "692deca527b61743",
+     "public": false
+    },
+    {
+     "file": "06",
+     "w": 1200,
+     "h": 1800,
+     "source": "xxxx nincs kesz - Biserica bodogaia/_DSC3607.JPG",
+     "kind": "photo",
+     "dhash": "000010f4d4303b72",
+     "public": false
+    },
+    {
+     "file": "07",
+     "w": 1200,
+     "h": 1800,
+     "source": "xxxx nincs kesz - Biserica bodogaia/_DSC3610.JPG",
+     "kind": "photo",
+     "dhash": "3d1953303064a66f",
+     "public": false
+    },
+    {
+     "file": "08",
+     "w": 1200,
+     "h": 1800,
+     "source": "xxxx nincs kesz - Biserica bodogaia/_DSC3613.JPG",
+     "kind": "photo",
+     "dhash": "f0ece82d9c8c8101",
+     "public": false
+    },
+    {
+     "file": "09",
+     "w": 1200,
+     "h": 1800,
+     "source": "xxxx nincs kesz - Biserica bodogaia/_DSC3614.JPG",
+     "kind": "photo",
+     "dhash": "e8a169cdcc0e8c0e",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": false,
+    "identified": false,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": false,
+    "modelStatus": "none",
+    "modelTier": "D",
+    "modelComplete": false,
+    "integrated": false,
+    "published": false,
+    "heldBackReason": "status pending"
+   }
+  },
+  {
+   "id": "biserica-casin",
+   "name": "Biserica Cașin",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Biserica Casin/Valogatott",
+    "2. posztolva/2. posztolva - Biserica Casin"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 70,
+   "photosUnique": 63,
+   "exactDuplicatesInSelection": 7,
+   "archiveCopiesOfSelectedPhotos": 4,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/Valogatott/Biserica Casin.jpg",
+     "kind": "photo",
+     "dhash": "8938ddd3f6ee95b6",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/Valogatott/DSC_4242.jpg",
+     "kind": "photo",
+     "dhash": "1cb2e4700849137f",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/Valogatott/DSC_4284.jpg",
+     "kind": "photo",
+     "dhash": "9ebe300ce4d28b39",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/Valogatott/DSC_4294.jpg",
+     "kind": "photo",
+     "dhash": "525ab970650b5726",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/DSC_4238.jpg",
+     "kind": "photo",
+     "dhash": "66068880848c81e3",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/DSC_4239.jpg",
+     "kind": "photo",
+     "dhash": "46060400020c04f1",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/DSC_4241.jpg",
+     "kind": "photo",
+     "dhash": "e4c4c88c40494246",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/DSC_4243.jpg",
+     "kind": "photo",
+     "dhash": "32306d31321d2901",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/DSC_4244.jpg",
+     "kind": "photo",
+     "dhash": "383c241008142100",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/DSC_4245.jpg",
+     "kind": "photo",
+     "dhash": "342c10121c212000",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/DSC_4246.jpg",
+     "kind": "photo",
+     "dhash": "393c163018242901",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Casin/DSC_4247.jpg",
+     "kind": "photo",
+     "dhash": "382e161818242980",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-romano-catolica-tamasu",
+   "name": "Biserica Romano-Catolică din Tămașu",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Biserica Tamasu"
+   ],
+   "sourceFiles": [
+    "_Valogatott referenciak/KME/Biserica catolica Tamasu.JPG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 10,
+   "photosUnique": 10,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 1,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/DJI_0132.JPG",
+     "kind": "drone",
+     "dhash": "21243c4a494d4c4c",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/DJI_0134.JPG",
+     "kind": "drone",
+     "dhash": "8787b4b30d0c1f8a",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/DJI_0136.JPG",
+     "kind": "drone",
+     "dhash": "e9b4a8acac2c6c2c",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/DJI_0140.JPG",
+     "kind": "drone",
+     "dhash": "24b6351e0e87a5da",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/DJI_0143.JPG",
+     "kind": "drone",
+     "dhash": "acec8ccdcdece8c8",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/_DSC3090.JPG",
+     "kind": "photo",
+     "dhash": "1103072f8787c791",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/_DSC3092.JPG",
+     "kind": "photo",
+     "dhash": "0010073333736363",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/_DSC3093.JPG",
+     "kind": "photo",
+     "dhash": "83838093973f4f0c",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Tamasu/_DSC3094.JPG",
+     "kind": "photo",
+     "dhash": "10001091313333fb",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-romano-catolica-zetea",
+   "name": "Biserica Romano-Catolică din Zetea",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048"
+   ],
+   "sourceFiles": [
+    "_Valogatott referenciak/KME/Biserica Catolica Zetea.jpg"
+   ],
+   "duplicateFolders": [
+    "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom full"
+   ],
+   "mergeNote": null,
+   "photosFound": 33,
+   "photosUnique": 33,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1623.jpg",
+     "kind": "photo",
+     "dhash": "a508482979dccc8c",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1199,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1624.jpg",
+     "kind": "photo",
+     "dhash": "9012d9391a2d2d2f",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1626.jpg",
+     "kind": "photo",
+     "dhash": "5ba3239397998c8f",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1632.jpg",
+     "kind": "photo",
+     "dhash": "1f6f6f6f6f371a2d",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1199,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1634.jpg",
+     "kind": "photo",
+     "dhash": "1b13332b278b8b0b",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1637.jpg",
+     "kind": "photo",
+     "dhash": "0d276766264f4f4f",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1642.jpg",
+     "kind": "photo",
+     "dhash": "1e0e0e4e179f9e9d",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1649.jpg",
+     "kind": "photo",
+     "dhash": "6060cc0c0c046233",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1651.jpg",
+     "kind": "photo",
+     "dhash": "9034251db90f373d",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1657.jpg",
+     "kind": "photo",
+     "dhash": "3030301ab43e3665",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1199,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1659.jpg",
+     "kind": "photo",
+     "dhash": "0008080909091c1c",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1199,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Catolica Zetea/Color Metal zetelaka templom 2048/DSC_1661.jpg",
+     "kind": "photo",
+     "dhash": "1012123978646868",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-domnita-balasa",
+   "name": "Biserica Domnița Bălașa",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott",
+    "2. posztolva/2. posztolva - Biserica Domnita Balasa"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 66,
+   "photosUnique": 57,
+   "exactDuplicatesInSelection": 9,
+   "archiveCopiesOfSelectedPhotos": 2,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott/DSC_4098.jpg",
+     "kind": "photo",
+     "dhash": "0db063ab0b470e19",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott/DSC_4099.jpg",
+     "kind": "photo",
+     "dhash": "018560a4070f1c9a",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott/DSC_4111.jpg",
+     "kind": "photo",
+     "dhash": "2763c1b4d4c9fae3",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott/DSC_4118.jpg",
+     "kind": "photo",
+     "dhash": "d1c53229392c1616",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott/DSC_4139.jpg",
+     "kind": "photo",
+     "dhash": "1e1e0e0626339359",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott/DSC_4145.jpg",
+     "kind": "photo",
+     "dhash": "879b6c523131397c",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1202,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/válogatott/DSC_4147.jpg",
+     "kind": "photo",
+     "dhash": "3211901a13191db3",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/DSC_4096.jpg",
+     "kind": "photo",
+     "dhash": "0c3333cd868e0c9b",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/DSC_4097.jpg",
+     "kind": "photo",
+     "dhash": "5b25232d0e0e0e18",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/DSC_4100.jpg",
+     "kind": "photo",
+     "dhash": "06064a3829261207",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/DSC_4101.jpg",
+     "kind": "photo",
+     "dhash": "137171783931134f",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1202,
+     "source": "2. posztolva/2. posztolva - Biserica Domnita Balasa/DSC_4102.jpg",
+     "kind": "photo",
+     "dhash": "0135b335f4170f07",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-reformata-feliceni",
+   "name": "Biserica Reformată din Feliceni",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024",
+    "2. posztolva/2. posztolva - Biserica reformata Feliceni/Postolni",
+    "2. posztolva/2. posztolva - Biserica reformata Feliceni/régi képek 2021"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Boldogfalva.JPG",
+    "_Valogatott referenciak/KME/Biserica reformata Feliceni.png"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 39,
+   "photosUnique": 35,
+   "exactDuplicatesInSelection": 4,
+   "archiveCopiesOfSelectedPhotos": 4,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/-.jpg",
+     "kind": "photo",
+     "dhash": "bc402d2d2d0c1616",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/DJI_0054.jpg",
+     "kind": "drone",
+     "dhash": "e373194eab194f0f",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/DJI_0060.jpg",
+     "kind": "drone",
+     "dhash": "c35d1d4b292d380c",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/DJI_0062.jpg",
+     "kind": "drone",
+     "dhash": "7717174e1c1eca8b",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/DJI_0063.jpg",
+     "kind": "drone",
+     "dhash": "a93353d95998aa9a",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/Feliceni after 1.jpg",
+     "kind": "photo",
+     "dhash": "d79993b36b56170e",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/Feliceni after 2.jpg",
+     "kind": "photo",
+     "dhash": "cfd551ccce464c28",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/Feliceni after 3.jpg",
+     "kind": "photo",
+     "dhash": "d9e9e3db370e0d3d",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1795,
+     "h": 1197,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/Feliceni before 1.jpg",
+     "kind": "photo",
+     "dhash": "f0d090f171f0f8f1",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1795,
+     "h": 1197,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/Feliceni before 2.jpg",
+     "kind": "photo",
+     "dhash": "21212b29292c1e16",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1795,
+     "h": 1197,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/Feliceni before 3.jpg",
+     "kind": "photo",
+     "dhash": "dfaeae2c6c1f162e",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Biserica reformata Feliceni/Új képek 2024/_DSC2935.jpg",
+     "kind": "photo",
+     "dhash": "271031abc4cd49c8",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "bojdeuca-ion-creanga",
+   "name": "Bojdeuca Ion Creangă",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "Bojdeuca Ion Creanga/Válogatott BIC"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Bojdeuca Ion Creanga.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Bojdeuca Ion Creanga",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Bojdeuca Ion Creanga",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Bojdeuca Ion Creanga"
+   ],
+   "mergeNote": null,
+   "photosFound": 12,
+   "photosUnique": 12,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 26,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DJI_0341.jpg",
+     "kind": "drone",
+     "dhash": "d2d38c2c4e4f2d2e",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DJI_0342.jpg",
+     "kind": "drone",
+     "dhash": "9a958e064ecdcdcd",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DJI_0343.jpg",
+     "kind": "drone",
+     "dhash": "27331b9f3333939f",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DJI_0344.jpg",
+     "kind": "drone",
+     "dhash": "6d4d1d8d8c9d3d8d",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DJI_0345.jpg",
+     "kind": "drone",
+     "dhash": "367616561f174e6e",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DJI_0346.jpg",
+     "kind": "drone",
+     "dhash": "ccb9ac8ecf897963",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1013,
+     "h": 1800,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DSC01419.jpg",
+     "kind": "photo",
+     "dhash": "0307488727253624",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1013,
+     "h": 1800,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DSC01422.jpg",
+     "kind": "photo",
+     "dhash": "4e1b1a30ddadae6e",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DSC01423.jpg",
+     "kind": "photo",
+     "dhash": "100c15129b9b1b03",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DSC01425.jpg",
+     "kind": "photo",
+     "dhash": "0f573330683c3c59",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "Bojdeuca Ion Creanga/Válogatott BIC/DSC01426.jpg",
+     "kind": "photo",
+     "dhash": "17373361d8a8b4d2",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "casa-berthelot-iasi",
+   "name": "Casa General Henri Mathias Berthelot",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Casa General Henri Mathias Bertoldi Iasi.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Casa General Henri Mathias Berthelot din Iasi",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Casa General Henri Mathias Berthelot din Iasi",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Casa General Henri Mathias Berthelot din Iasi"
+   ],
+   "mergeNote": null,
+   "photosFound": 15,
+   "photosUnique": 15,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 32,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DJI_0360.jpg",
+     "kind": "drone",
+     "dhash": "4f8e9e150d0c2c21",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DJI_0361.jpg",
+     "kind": "drone",
+     "dhash": "736b675367078f87",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DJI_0363.jpg",
+     "kind": "drone",
+     "dhash": "b02c140c09164d4e",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DJI_0364.jpg",
+     "kind": "drone",
+     "dhash": "5951051d4296066d",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DJI_0365.jpg",
+     "kind": "drone",
+     "dhash": "5949931b3a3b2927",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DJI_0367.jpg",
+     "kind": "drone",
+     "dhash": "a80d87696cc40e3b",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DJI_0368.jpg",
+     "kind": "drone",
+     "dhash": "737a6b6f6f664607",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1200,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DSC01442.jpg",
+     "kind": "photo",
+     "dhash": "9531289671725d4d",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1013,
+     "h": 1800,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DSC01443.jpg",
+     "kind": "photo",
+     "dhash": "98ac73f9ccaeacb6",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DSC01446.jpg",
+     "kind": "photo",
+     "dhash": "19e6e6f0b39092da",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DSC01448.jpg",
+     "kind": "photo",
+     "dhash": "204978c81d3d5f58",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1013,
+     "source": "Casa General Henri Mathias Berthelot din Iasi/Válogatott CGH/DSC01450.jpg",
+     "kind": "photo",
+     "dhash": "8dc8996c20303a67",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "casa-macca",
+   "name": "Casa Macca",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "x- Bukaresti fotozas Luci 2024/Casa Macca/Valogatott",
+    "x- Bukaresti fotozas Luci 2024/Casa Macca"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 26,
+   "photosUnique": 23,
+   "exactDuplicatesInSelection": 3,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/Valogatott/DSC_4197.jpg",
+     "kind": "photo",
+     "dhash": "97373b4f970f0905",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1202,
+     "h": 1800,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/Valogatott/DSC_4202.jpg",
+     "kind": "photo",
+     "dhash": "070f3b1f163b1939",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/Valogatott/DSC_4208.jpg",
+     "kind": "photo",
+     "dhash": "030b09293919170b",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4186.jpg",
+     "kind": "photo",
+     "dhash": "970f0616371f1f2f",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4187.jpg",
+     "kind": "photo",
+     "dhash": "87078612131f0f27",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4189.jpg",
+     "kind": "photo",
+     "dhash": "d64a69495b7f6d69",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4191.jpg",
+     "kind": "photo",
+     "dhash": "522510018b9e9c5b",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4192.jpg",
+     "kind": "photo",
+     "dhash": "1d5c3226049fb6b5",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4193.jpg",
+     "kind": "photo",
+     "dhash": "0b070e0f2703079e",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4195.jpg",
+     "kind": "photo",
+     "dhash": "3636771f1e070b1f",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4196.jpg",
+     "kind": "photo",
+     "dhash": "3737774f970f0b21",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Casa Macca/DSC_4198.jpg",
+     "kind": "photo",
+     "dhash": "2b1b1d373f876763",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "casa-pogor",
+   "name": "Casa Pogor",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Casa Pogor.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Casa Pogor",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Casa Pogor",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Casa Pogor"
+   ],
+   "mergeNote": null,
+   "photosFound": 13,
+   "photosUnique": 13,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 28,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DJI_0348.jpg",
+     "kind": "drone",
+     "dhash": "6ccc062e0e2f1f2d",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DJI_0349.jpg",
+     "kind": "drone",
+     "dhash": "1d1a0f8c9c0c4c18",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DJI_0351.jpg",
+     "kind": "drone",
+     "dhash": "c78fd7dfd7474f6b",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DJI_0353.jpg",
+     "kind": "drone",
+     "dhash": "93112d0f4f45cd8d",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DJI_0354.jpg",
+     "kind": "drone",
+     "dhash": "4b4d8e97979eccec",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DJI_0355.jpg",
+     "kind": "drone",
+     "dhash": "e7d6bc0b0b8f9731",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DJI_0356.jpg",
+     "kind": "drone",
+     "dhash": "82092b08199bae0e",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DJI_0358.jpg",
+     "kind": "drone",
+     "dhash": "06ae4e0e1e3e1e4b",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DSC01428.jpg",
+     "kind": "photo",
+     "dhash": "870b178e9f3b0832",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DSC01433.jpg",
+     "kind": "photo",
+     "dhash": "5337271717151b17",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DSC01435.jpg",
+     "kind": "photo",
+     "dhash": "564fb2b636b6330b",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Casa Pogor/Válogatott CP/DSC01437.jpg",
+     "kind": "photo",
+     "dhash": "2b33332b3b3b3232",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "catedrala-ortodoxa-satu-mare",
+   "name": "Catedrala Ortodoxă „Adormirea Maicii Domnului” Satu Mare",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Adormirea Maicii Domnului Satu Mare",
+    "2. posztolva/2. posztolva - Catedrala Ortodoxa Satu Mare"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": "Two archive folders ('Adormirea Maicii Domnului Satu Mare' and 'Catedrala Ortodoxa Satu Mare') describe the same building: both post texts name the Orthodox Cathedral 'Adormirea Maicii Domnului' in Satu Mare.",
+   "photosFound": 6,
+   "photosUnique": 6,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 572,
+     "h": 768,
+     "source": "2. posztolva/2. posztolva - Adormirea Maicii Domnului Satu Mare/Adormirea Maicii Domnului Satu Mare.png",
+     "kind": "photo",
+     "dhash": "3032d1e82b17b286",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 780,
+     "h": 470,
+     "source": "2. posztolva/2. posztolva - Adormirea Maicii Domnului Satu Mare/DJI_0096-780x470.png",
+     "kind": "drone",
+     "dhash": "d2326b6b0d8d8c9c",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Adormirea Maicii Domnului Satu Mare/WEBADORM.png",
+     "kind": "photo",
+     "dhash": "3a6b498cce960f37",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-sf-mihail-cluj",
+   "name": "Biserica Romano-Catolică „Sfântul Mihail”",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "Kolozsvár/JPG"
+   ],
+   "sourceFiles": [
+    "_Valogatott referenciak/KME/Catedrala Sf Mihail.jpg",
+    "Referencia fuzetek/Ref fuzet KME/Biserica Sfantul Mihail Cluj Napoca.jfif"
+   ],
+   "duplicateFolders": [
+    "Kolozsvár"
+   ],
+   "mergeNote": null,
+   "photosFound": 10,
+   "photosUnique": 10,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": "Archive folder 'Kolozsvár' (drone DJI_0524–0531) shows St. Michael's Church on Piața Unirii; merged with the register entry 'Catedrala Sf. Mihail'.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "Kolozsvár/JPG/DJI_0524.jpg",
+     "kind": "drone",
+     "dhash": "c88f4c085b693d3e",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "Kolozsvár/JPG/DJI_0526.jpg",
+     "kind": "drone",
+     "dhash": "6c4ad24678caca48",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "Kolozsvár/JPG/DJI_0527.jpg",
+     "kind": "drone",
+     "dhash": "9ab339136f593949",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "Kolozsvár/JPG/DJI_0528.jpg",
+     "kind": "drone",
+     "dhash": "cb2eec2740189c0c",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "Kolozsvár/JPG/DJI_0529.jpg",
+     "kind": "drone",
+     "dhash": "017537fb59d359da",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "Kolozsvár/JPG/DJI_0530.jpg",
+     "kind": "drone",
+     "dhash": "fd23a7ad733155b3",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "Kolozsvár/JPG/DJI_0531.jpg",
+     "kind": "drone",
+     "dhash": "7817f52d331dd2b2",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1024,
+     "h": 1529,
+     "source": "_Valogatott referenciak/KME/Catedrala Sf Mihail.jpg",
+     "kind": "photo",
+     "dhash": "38f9e6df99d94932",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1280,
+     "h": 960,
+     "source": "Referencia fuzetek/Ref fuzet KME/Biserica Sfantul Mihail Cluj Napoca.jfif",
+     "kind": "photo",
+     "dhash": "715848c0d859460f",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "centrul-reformat-noul-mileniu",
+   "name": "Centrul Reformat „Noul Mileniu”",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara",
+    "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/Régi képek 2020"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Uj millenium.JPG",
+    "_Valogatott referenciak/elZinc/Centrul Reformat Noul Mileniu Timisoara.JPG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 71,
+   "photosUnique": 71,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/DJI_0085.JPG",
+     "kind": "drone",
+     "dhash": "8b85299911978f8f",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/DJI_0089.JPG",
+     "kind": "drone",
+     "dhash": "8d1e97a2b193a539",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/DJI_0091.JPG",
+     "kind": "drone",
+     "dhash": "ca936d4c38693929",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/DJI_0092.JPG",
+     "kind": "drone",
+     "dhash": "286a3a38292b134f",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/DJI_0094.JPG",
+     "kind": "drone",
+     "dhash": "46c8c868684c4dec",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/DJI_0095.JPG",
+     "kind": "drone",
+     "dhash": "b1196146562321a1",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/_DSC3005.jpg",
+     "kind": "photo",
+     "dhash": "001a1a181810b2c6",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/_DSC3007.jpg",
+     "kind": "photo",
+     "dhash": "2000040c040a4808",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/_DSC3009.jpg",
+     "kind": "photo",
+     "dhash": "220d31cc9c71c0c4",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/_DSC3013.jpg",
+     "kind": "photo",
+     "dhash": "9080c639599587a1",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/_DSC3016.jpg",
+     "kind": "photo",
+     "dhash": "0808105212784d14",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Centrul Reformat Noul Mileniu/új képek 2024 Centrul Reformat Noul Mileniu, Timisoara/_DSC3018.jpg",
+     "kind": "photo",
+     "dhash": "0001983167566f2f",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "cladire-rezidentiala-odorheiu-secuiesc",
+   "name": "Clădire rezidențială, Odorheiu Secuiesc",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Cladire rezidentiala.jpg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 27,
+   "photosUnique": 27,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0267.jpg",
+     "kind": "drone",
+     "dhash": "ed2c6cdc8d2d1316",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0269.jpg",
+     "kind": "drone",
+     "dhash": "78c99999baae98d9",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0272.jpg",
+     "kind": "drone",
+     "dhash": "8e0a9f5f6f3f3f9f",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0273.jpg",
+     "kind": "drone",
+     "dhash": "482b39b1a2c3c1c3",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0274.jpg",
+     "kind": "drone",
+     "dhash": "edc8b66655ae7efe",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0275.jpg",
+     "kind": "drone",
+     "dhash": "2d87717060c0f0d6",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0276.jpg",
+     "kind": "drone",
+     "dhash": "2b6bc2c5251b6767",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0281.jpg",
+     "kind": "drone",
+     "dhash": "4a07179acbc72333",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0282.jpg",
+     "kind": "drone",
+     "dhash": "10d1194959d3c78b",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0283.jpg",
+     "kind": "drone",
+     "dhash": "94245ed6bc391916",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0284.jpg",
+     "kind": "drone",
+     "dhash": "cf271e5c4e6666b4",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Cladire rezidentiala - Odorheiu Secuiesc str Lejto/DJI_0285.jpg",
+     "kind": "drone",
+     "dhash": "1344065a9a9a9aca",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "clinica-obstetrica-timisoara",
+   "name": "Clinicile de Obstetrică-Ginecologie și Neonatologie Timișoara",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Clinica Ginecologie, Timis"
+   ],
+   "sourceFiles": [
+    "_Valogatott referenciak/Alu/Clinica Ginecologie Timisoara.JPG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 5,
+   "photosUnique": 5,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Clinica Ginecologie, Timis/DJI_0097.JPG",
+     "kind": "drone",
+     "dhash": "63715ac8dad87978",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Clinica Ginecologie, Timis/DJI_0101.JPG",
+     "kind": "drone",
+     "dhash": "af8fafa7a5878785",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Clinica Ginecologie, Timis/_DSC3027.jpg",
+     "kind": "photo",
+     "dhash": "06225988809090d2",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Clinica Ginecologie, Timis/_DSC3033.jpg",
+     "kind": "photo",
+     "dhash": "cfb276f7f7e1f1c8",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "vila-constantin-geblescu",
+   "name": "Vila Constantin Geblescu",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "1. előkészítve - Vila Constantin Geblescu"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 29,
+   "photosUnique": 29,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4209.jpg",
+     "kind": "photo",
+     "dhash": "5f2066f3b70962cd",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4210.jpg",
+     "kind": "photo",
+     "dhash": "fb373697976d2de2",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4211.jpg",
+     "kind": "photo",
+     "dhash": "f3f7d2b1f1d9c08f",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4214.jpg",
+     "kind": "photo",
+     "dhash": "8908909890449049",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4215.jpg",
+     "kind": "photo",
+     "dhash": "4b26ced9f1c73927",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4216.jpg",
+     "kind": "photo",
+     "dhash": "0b478ed9d1877f2b",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4217.jpg",
+     "kind": "photo",
+     "dhash": "a3c3c761696d4142",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4218.jpg",
+     "kind": "photo",
+     "dhash": "6d1b706c68c4cbd3",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4219.jpg",
+     "kind": "photo",
+     "dhash": "2f1b706c6844cfcf",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4220.jpg",
+     "kind": "photo",
+     "dhash": "79794c6c614c6c26",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4221.jpg",
+     "kind": "photo",
+     "dhash": "cbc3b3d969311313",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1202,
+     "source": "1. előkészítve - Vila Constantin Geblescu/DSC_4222.jpg",
+     "kind": "photo",
+     "dhash": "0f61f1d9ec341909",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "intrare-iulius-town-timisoara",
+   "name": "Intrarea Iulius Town Timișoara",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "1. előkészítve - Intrare Iulius Town, Timisoara"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 2,
+   "photosUnique": 2,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1200,
+     "h": 1800,
+     "source": "1. előkészítve - Intrare Iulius Town, Timisoara/_DSC3085.jpg",
+     "kind": "photo",
+     "dhash": "e00c303c96868e70",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1200,
+     "h": 1800,
+     "source": "1. előkészítve - Intrare Iulius Town, Timisoara/_DSC3086.jpg",
+     "kind": "photo",
+     "dhash": "e1cfe6c63e5ebe85",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "liceul-teoretic-ady-endre",
+   "name": "Liceul Teoretic „Ady Endre”",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/Valogatott",
+    "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre"
+   ],
+   "sourceFiles": [
+    "_Valogatott referenciak/elZinc/Liceul Teoretic Ady Endre Bucuresti.jpg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 68,
+   "photosUnique": 58,
+   "exactDuplicatesInSelection": 10,
+   "archiveCopiesOfSelectedPhotos": 6,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/Valogatott/DSC_4039.jpg",
+     "kind": "photo",
+     "dhash": "f1b378dace0b8b9f",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/Valogatott/DSC_4048.jpg",
+     "kind": "photo",
+     "dhash": "2360ef5b9b3777ef",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/Valogatott/DSC_4061.jpg",
+     "kind": "photo",
+     "dhash": "4328aa33151c1b09",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/Valogatott/DSC_4075.jpg",
+     "kind": "photo",
+     "dhash": "cfc321e41b194949",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/Valogatott/DSC_4094.jpg",
+     "kind": "photo",
+     "dhash": "9f71978f4b8b1616",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/DSC_4040.jpg",
+     "kind": "photo",
+     "dhash": "b9b3b178fa8f898f",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/DSC_4041.jpg",
+     "kind": "photo",
+     "dhash": "f997b1f8d6cf1b9b",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/DSC_4042.jpg",
+     "kind": "photo",
+     "dhash": "fd9db3f8dcce0b89",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/DSC_4043.jpg",
+     "kind": "photo",
+     "dhash": "5718bc6dedd8e785",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/DSC_4044.jpg",
+     "kind": "photo",
+     "dhash": "d7503c6ddbdae70d",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/DSC_4045.jpg",
+     "kind": "photo",
+     "dhash": "dbb6e68f3be3c323",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Liceul Teoretic Ady Endre/DSC_4046.jpg",
+     "kind": "photo",
+     "dhash": "736751b87ae7890f",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "manastirea-barnova",
+   "name": "Mănăstirea Bârnova",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "1. előkészítve - Manastirea Barnova/Válogatott MB"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Manastirea Barnova.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Manastirea Barnova",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Manastirea Barnova",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Manastirea Barnova"
+   ],
+   "mergeNote": null,
+   "photosFound": 22,
+   "photosUnique": 22,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 46,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0398.jpg",
+     "kind": "drone",
+     "dhash": "878b0b094b5b96be",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0399.jpg",
+     "kind": "drone",
+     "dhash": "6d1d2f8faf2b89b9",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0400.jpg",
+     "kind": "drone",
+     "dhash": "e1f19bbdb39a0319",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0401.jpg",
+     "kind": "drone",
+     "dhash": "32a36daccdc7cf4b",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0402.jpg",
+     "kind": "drone",
+     "dhash": "cd6e6b256ce72624",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0403.jpg",
+     "kind": "drone",
+     "dhash": "0706961e869e9c6d",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0404.jpg",
+     "kind": "drone",
+     "dhash": "3880c191541c8d0b",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0405.jpg",
+     "kind": "drone",
+     "dhash": "0fffe3022d0d4fae",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0406.jpg",
+     "kind": "drone",
+     "dhash": "07176e332f4743a3",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0407.jpg",
+     "kind": "drone",
+     "dhash": "6606f8e70d4d0f9f",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DJI_0408.jpg",
+     "kind": "drone",
+     "dhash": "9818e11d0b2d2f8f",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Manastirea Barnova/Válogatott MB/DSC01500.jpg",
+     "kind": "photo",
+     "dhash": "c2d485e1ed9fc2d1",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "manastirea-dragomirna",
+   "name": "Mănăstirea Dragomirna",
+   "status": "public",
+   "rights": "third-party",
+   "sourceFolders": [],
+   "sourceFiles": [
+    "_Valogatott referenciak/KME/Manastirea Dragomirna.jpg",
+    "_Valogatott referenciak/KME/mănăstirea_dragomirna (1).webp"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 2,
+   "photosUnique": 2,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 1,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1600,
+     "h": 1067,
+     "source": "_Valogatott referenciak/KME/Manastirea Dragomirna.jpg",
+     "kind": "photo",
+     "dhash": "1f5349233790e027",
+     "public": false
+    },
+    {
+     "file": "02",
+     "w": 1000,
+     "h": 800,
+     "source": "_Valogatott referenciak/KME/mănăstirea_dragomirna (1).webp",
+     "kind": "photo",
+     "dhash": "f5e7cf6d7897ded9",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "manastirea-frumoasa",
+   "name": "Mănăstirea Frumoasa",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "1. előkészítve - Manastirea Frumoasa/Válogatott MF"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Manastirea Frumoasa",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Manastirea Frumoasa",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Manastirea Frumoasa"
+   ],
+   "mergeNote": null,
+   "photosFound": 12,
+   "photosUnique": 12,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 28,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DJI_0409.jpg",
+     "kind": "drone",
+     "dhash": "5739b4364dcfabbe",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DJI_0410.jpg",
+     "kind": "drone",
+     "dhash": "5239b1b1448d8f8b",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DJI_0411.jpg",
+     "kind": "drone",
+     "dhash": "3713128a4c0c26a6",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DJI_0414.jpg",
+     "kind": "drone",
+     "dhash": "072463929cdb4adb",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DJI_0416.jpg",
+     "kind": "drone",
+     "dhash": "2f8b6b2566a79633",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DJI_0417.jpg",
+     "kind": "drone",
+     "dhash": "87cfd8c49e868343",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DJI_0418.jpg",
+     "kind": "drone",
+     "dhash": "1392a53536a69656",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DJI_0420.jpg",
+     "kind": "drone",
+     "dhash": "0392a2174cad8d8f",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DSC01519.jpg",
+     "kind": "photo",
+     "dhash": "691f276dcc0f239d",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DSC01521.jpg",
+     "kind": "photo",
+     "dhash": "686c6ca82a2f4f85",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DSC01522.jpg",
+     "kind": "photo",
+     "dhash": "676c444e6e4e4c4d",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Manastirea Frumoasa/Válogatott MF/DSC01526.jpg",
+     "kind": "photo",
+     "dhash": "070707064f9e1b0f",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "manastirea-putna",
+   "name": "Mănăstirea Putna",
+   "status": "public",
+   "rights": "third-party",
+   "sourceFolders": [],
+   "sourceFiles": [
+    "_Valogatott referenciak/KME/Manastirea Putna.png",
+    "_Valogatott referenciak/KME/Manastirea Putna 2.PNG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 2,
+   "photosUnique": 2,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 2,
+   "register": {
+    "matched": true
+   },
+   "note": "Listed in the KME (copper) reference booklet; register has no material detail.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1022,
+     "h": 796,
+     "source": "_Valogatott referenciak/KME/Manastirea Putna.png",
+     "kind": "photo",
+     "dhash": "493932ce4662a193",
+     "public": false
+    },
+    {
+     "file": "02",
+     "w": 889,
+     "h": 500,
+     "source": "_Valogatott referenciak/KME/Manastirea Putna 2.PNG",
+     "kind": "photo",
+     "dhash": "34341810c31367ef",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "manastirea-tazlau",
+   "name": "Mănăstirea Tazlău",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "1. előkészítve - Manastirea Tazlau/Válogatott MT"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Manastirea Tazlau.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Manastirea Tazlau",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Manastirea Tazlau",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Manastirea Tazlau"
+   ],
+   "mergeNote": null,
+   "photosFound": 20,
+   "photosUnique": 20,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 42,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DJI_0318.jpg",
+     "kind": "drone",
+     "dhash": "fc66c5bd0d353317",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DJI_0320.jpg",
+     "kind": "drone",
+     "dhash": "bd8e8d0907aab227",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DJI_0321.jpg",
+     "kind": "drone",
+     "dhash": "33332eaf8bc99183",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DJI_0322.jpg",
+     "kind": "drone",
+     "dhash": "a6aa368d83476767",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DJI_0323.jpg",
+     "kind": "drone",
+     "dhash": "1b160f074f3b1f46",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DJI_0324.jpg",
+     "kind": "drone",
+     "dhash": "830f968116968aeb",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DSC01395.jpg",
+     "kind": "photo",
+     "dhash": "c2c8cac9cdc9fa97",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DSC01397.jpg",
+     "kind": "photo",
+     "dhash": "92ccd496d2931364",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DSC01399.jpg",
+     "kind": "photo",
+     "dhash": "1b07273363c36767",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DSC01403.jpg",
+     "kind": "photo",
+     "dhash": "001431f09e84f03c",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DSC01405.jpg",
+     "kind": "photo",
+     "dhash": "eff6b3f17174868f",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1013,
+     "h": 1800,
+     "source": "1. előkészítve - Manastirea Tazlau/Válogatott MT/DSC01407.jpg",
+     "kind": "photo",
+     "dhash": "6e33f0c8c99181e3",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "manastirea-tismana",
+   "name": "Mănăstirea Tismana",
+   "status": "public",
+   "rights": "third-party",
+   "sourceFolders": [],
+   "sourceFiles": [
+    "_Valogatott referenciak/KME/Manastirea Tismana.jpg",
+    "_Valogatott referenciak/KME/Manastirea Tismana 2.jpg",
+    "Referencia fuzetek/Ref fuzet KME/Manastirea Tismana 4.jpg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 3,
+   "photosUnique": 3,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 400,
+     "h": 300,
+     "source": "_Valogatott referenciak/KME/Manastirea Tismana.jpg",
+     "kind": "photo",
+     "dhash": "e0c88e39240c5129",
+     "public": false
+    },
+    {
+     "file": "02",
+     "w": 300,
+     "h": 400,
+     "source": "_Valogatott referenciak/KME/Manastirea Tismana 2.jpg",
+     "kind": "photo",
+     "dhash": "bf73d0d19d65259f",
+     "public": false
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1789,
+     "source": "Referencia fuzetek/Ref fuzet KME/Manastirea Tismana 4.jpg",
+     "kind": "photo",
+     "dhash": "129c9e27199b2158",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "muzeul-istorie-arheologie-piatra-neamt",
+   "name": "Muzeul de Istorie și Arheologie Piatra-Neamț",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "Muzeu de Istorie si Arheologie/Válogatott MIA"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Muzeu de istorie si arheologie.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Muzeu de Istorie si Arheologie"
+   ],
+   "mergeNote": null,
+   "photosFound": 9,
+   "photosUnique": 9,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 8,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "Muzeu de Istorie si Arheologie/Válogatott MIA/DJI_0421.jpg",
+     "kind": "drone",
+     "dhash": "67a58585168e4646",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "Muzeu de Istorie si Arheologie/Válogatott MIA/DJI_0423.jpg",
+     "kind": "drone",
+     "dhash": "c88a86968e29280c",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "Muzeu de Istorie si Arheologie/Válogatott MIA/DJI_0424.jpg",
+     "kind": "drone",
+     "dhash": "5809cf4f878a8c44",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "Muzeu de Istorie si Arheologie/Válogatott MIA/DJI_0425.jpg",
+     "kind": "drone",
+     "dhash": "313208ac07a1252d",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "Muzeu de Istorie si Arheologie/Válogatott MIA/DJI_0427.jpg",
+     "kind": "drone",
+     "dhash": "06462b25247c1312",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "Muzeu de Istorie si Arheologie/Válogatott MIA/DJI_0428.jpg",
+     "kind": "drone",
+     "dhash": "8392df1f1e16b232",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "Muzeu de Istorie si Arheologie/Válogatott MIA/DJI_0429.jpg",
+     "kind": "drone",
+     "dhash": "cf0b6933871f960d",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "Muzeu de Istorie si Arheologie/Válogatott MIA/DJI_0430.jpg",
+     "kind": "drone",
+     "dhash": "4a5a0e8689a49449",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "muzeul-apei-timisoara",
+   "name": "Muzeul Apei Timișoara",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Muzeul Apei, Timisoara"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Muzeul apei.JPG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 12,
+   "photosUnique": 12,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/DJI_0102.JPG",
+     "kind": "drone",
+     "dhash": "a96cecd3a9d9d9b5",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/DJI_0104.JPG",
+     "kind": "drone",
+     "dhash": "6c6c4465d5939bc9",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/DJI_0105.JPG",
+     "kind": "drone",
+     "dhash": "74312347c3c56565",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/DJI_0106.JPG",
+     "kind": "drone",
+     "dhash": "3af4c969676765e9",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/_DSC3044.jpg",
+     "kind": "photo",
+     "dhash": "8b18961f23636263",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/_DSC3045.jpg",
+     "kind": "photo",
+     "dhash": "d9c8081fc7f5abab",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/_DSC3047.jpg",
+     "kind": "photo",
+     "dhash": "3f0f009844f20f48",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/_DSC3049.jpg",
+     "kind": "photo",
+     "dhash": "070f8170b6b6c2d7",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/_DSC3050.jpg",
+     "kind": "photo",
+     "dhash": "0e71e8ced0701340",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/_DSC3054.jpg",
+     "kind": "photo",
+     "dhash": "b33967636b03d084",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Muzeul Apei, Timisoara/_DSC3057.jpg",
+     "kind": "photo",
+     "dhash": "a1b33634428331ed",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "observatorul-astronomic-iasi",
+   "name": "Observatorul Astronomic Iași",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "Observator Astronomic/Válogatott OA"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Observator Astronomic.jpg"
+   ],
+   "duplicateFolders": [
+    "x - Moldvai fotózás Sasival - 20250624/Observator Astronomic",
+    "x - Moldvai fotózás Sasival - 20250624/New folder/Observator Astronomic",
+    "x - Moldvai fotózás Sasival - 20250624/Album/Observator Astronomic"
+   ],
+   "mergeNote": null,
+   "photosFound": 9,
+   "photosUnique": 9,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 20,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "Observator Astronomic/Válogatott OA/DJI_0326.jpg",
+     "kind": "drone",
+     "dhash": "970c0c8e8f0f2313",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "Observator Astronomic/Válogatott OA/DJI_0327.jpg",
+     "kind": "drone",
+     "dhash": "4d67df8e262d5ddd",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "Observator Astronomic/Válogatott OA/DJI_0328.jpg",
+     "kind": "drone",
+     "dhash": "fe9bcf4b0b1f4f63",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "Observator Astronomic/Válogatott OA/DJI_0329.jpg",
+     "kind": "drone",
+     "dhash": "694e4e9d9feb5b5f",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "Observator Astronomic/Válogatott OA/DJI_0332.jpg",
+     "kind": "drone",
+     "dhash": "51028799190d1565",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "Observator Astronomic/Válogatott OA/DJI_0334.jpg",
+     "kind": "drone",
+     "dhash": "660e0f0f0e4f8e4e",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "Observator Astronomic/Válogatott OA/DJI_0336.jpg",
+     "kind": "drone",
+     "dhash": "0f2f0f3b1f696936",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "Observator Astronomic/Válogatott OA/DJI_0337.jpg",
+     "kind": "drone",
+     "dhash": "08a4224d8e0c8c4c",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "palatul-cultural-blaj",
+   "name": "Palatul Cultural din Blaj",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Palatul Cultural, BLAJ"
+   ],
+   "sourceFiles": [
+    "xxxx Fenti képek/Palatul cultural Blaj.JPG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 10,
+   "photosUnique": 10,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/DJI_0065.JPG",
+     "kind": "drone",
+     "dhash": "9ae7a45e0c082223",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/DJI_0067.JPG",
+     "kind": "drone",
+     "dhash": "33265686ac1d8d29",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/DJI_0070.JPG",
+     "kind": "drone",
+     "dhash": "154cc6b60e06b636",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/DJI_0071.JPG",
+     "kind": "drone",
+     "dhash": "c68743c3760e89e1",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/DJI_0072.JPG",
+     "kind": "drone",
+     "dhash": "6466128707139333",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/DJI_0075.JPG",
+     "kind": "drone",
+     "dhash": "318dece45331b13f",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/DJI_0076.JPG",
+     "kind": "drone",
+     "dhash": "3a303246a6a96939",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/_DSC2989.jpg",
+     "kind": "photo",
+     "dhash": "ce868785b5b32901",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1200,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Palatul Cultural, BLAJ/_DSC2991.jpg",
+     "kind": "photo",
+     "dhash": "7d87069af3a6ec59",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "palatul-principilor-alba-iulia",
+   "name": "Palatul Principilor, Alba Iulia",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Palatul Principilor, Alba Iulia"
+   ],
+   "sourceFiles": [
+    "Referencia fuzetek/Ref fuzet KME/Palatul Principilor Alba Iulia.JPG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 4,
+   "photosUnique": 4,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Principilor, Alba Iulia/DJI_0077.JPG",
+     "kind": "drone",
+     "dhash": "198c264dcd526b59",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Principilor, Alba Iulia/DJI_0078.JPG",
+     "kind": "drone",
+     "dhash": "899cc45653539c17",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Palatul Principilor, Alba Iulia/DJI_0081.JPG",
+     "kind": "drone",
+     "dhash": "00030585c1693995",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "scoala-95-bucuresti",
+   "name": "Școala Gimnazială nr. 95",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Scoala 95 Bucuresti"
+   ],
+   "sourceFiles": [
+    "Referencia fuzetek/Ref fuzet elZinc/Scoala 95 Bucuresti.jpg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 6,
+   "photosUnique": 6,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1096,
+     "source": "2. posztolva/2. posztolva - Scoala 95 Bucuresti/București Septembrie 2022 057.jpg",
+     "kind": "photo",
+     "dhash": "412c5aa22666a565",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Scoala 95 Bucuresti/București Septembrie 2022 079.jpg",
+     "kind": "photo",
+     "dhash": "d331410699e07577",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Scoala 95 Bucuresti/București Septembrie 2022 081.jpg",
+     "kind": "photo",
+     "dhash": "31461fdbd1c9c8cd",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1093,
+     "source": "2. posztolva/2. posztolva - Scoala 95 Bucuresti/București Septembrie 2022 085.jpg",
+     "kind": "photo",
+     "dhash": "310ca7e5c4d84e4f",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Scoala 95 Bucuresti/București Septembrie 2022 094.jpg",
+     "kind": "photo",
+     "dhash": "0d53d389232638e1",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "bt-arena-cluj",
+   "name": "Sala Polivalentă BT Arena",
+   "status": "public",
+   "rights": "third-party",
+   "sourceFolders": [
+    "BTArena Cluj Napoca"
+   ],
+   "sourceFiles": [
+    "Referencia fuzetek/Ref fuzet Alu/BT Arena - Sala Polivalenta Cluj.jpg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 3,
+   "photosUnique": 3,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": "Register remark: 'nem biztos, hogy a mi képeink' (not sure the photos are ours) — images treated as third-party.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1501,
+     "h": 1000,
+     "source": "BTArena Cluj Napoca/BT Arena.jpg",
+     "kind": "photo",
+     "dhash": "0709197868d0074f",
+     "public": false
+    },
+    {
+     "file": "02",
+     "w": 1024,
+     "h": 576,
+     "source": "Referencia fuzetek/Ref fuzet Alu/BT Arena - Sala Polivalenta Cluj.jpg",
+     "kind": "photo",
+     "dhash": "0d19197068d0a547",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "facultatea-stiinte-politice-bucuresti",
+   "name": "Facultatea de Științe Politice, Universitatea din București",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 8,
+   "photosUnique": 8,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti/DSC_4156.jpg",
+     "kind": "photo",
+     "dhash": "102f338484058999",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti/DSC_4157.jpg",
+     "kind": "photo",
+     "dhash": "0d7be9890c0c0616",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti/DSC_4158.jpg",
+     "kind": "photo",
+     "dhash": "034f39e98d2c0c2e",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti/DSC_4159.jpg",
+     "kind": "photo",
+     "dhash": "73791cd819197939",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti/DSC_4160.jpg",
+     "kind": "photo",
+     "dhash": "1325042b0b0bab3b",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti/DSC_4161.jpg",
+     "kind": "photo",
+     "dhash": "4364144b49491149",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti/DSC_4162.jpg",
+     "kind": "photo",
+     "dhash": "1b37e5e719988d8d",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1202,
+     "source": "x- Bukaresti fotozas Luci 2024/Facultatea de Stiinte Politice a Universitatii din Bucuresti/DSC_4163.jpg",
+     "kind": "photo",
+     "dhash": "0517e5e613988c8d",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "castelul-tisza-geszt",
+   "name": "Castelul Tisza, Geszt",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. Posztolva - Castelul Tisza, Ungaria"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 12,
+   "photosUnique": 12,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1350,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/492313621_1231218815676363_1768643089692724483_n.jpg",
+     "kind": "photo",
+     "dhash": "313c3a3cd8d8526c",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1350,
+     "h": 1800,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/492373054_1231218885676356_4092358469697140393_n.jpg",
+     "kind": "photo",
+     "dhash": "13b393b31b2c1f37",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1350,
+     "h": 1800,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/492408267_1231218719009706_9046647738787278850_n.jpg",
+     "kind": "photo",
+     "dhash": "cf1858b173333517",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1350,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/492434939_1231218689009709_3667895062946528235_n.jpg",
+     "kind": "photo",
+     "dhash": "f37f371b1818163e",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1350,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/492512303_1231219882342923_5634204747096691281_n.jpg",
+     "kind": "photo",
+     "dhash": "ed8d38ee0e4c5874",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1350,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/492541350_1231219919009586_2653311870967473141_n.jpg",
+     "kind": "photo",
+     "dhash": "e2626a926d31395c",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1350,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/492697032_1231219939009584_8341379366274725308_n.jpg",
+     "kind": "photo",
+     "dhash": "3915f474b5d2cc0b",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1350,
+     "h": 1800,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/493143050_1231218529009725_8222591575284679953_n.jpg",
+     "kind": "photo",
+     "dhash": "fbac9527e7933280",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1350,
+     "h": 1800,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/493992374_1231218882343023_1127860656322468741_n.jpg",
+     "kind": "photo",
+     "dhash": "9b80ce6172782834",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1080,
+     "h": 1080,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/elzinc boldizsar.jpg",
+     "kind": "photo",
+     "dhash": "3639161e3f267866",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1200,
+     "h": 630,
+     "source": "2. Posztolva - Castelul Tisza, Ungaria/shieldcraft_elzinc.jpg",
+     "kind": "photo",
+     "dhash": "0200232325250448",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "refugiu-piatra-talharului",
+   "name": "Refugiul montan Piatra Tâlharului",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului",
+    "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/valogatott"
+   ],
+   "sourceFiles": [
+    "Referencia fuzetek/Ref fuzet Alu/DJI_0493.jpg",
+    "Referencia fuzetek/Ref fuzet Alu/DSC04757.jpg",
+    "Referencia fuzetek/Ref fuzet Alu/WhatsApp Image 2025-09-11 at 12.24.20.jpeg",
+    "_Valogatott referenciak/Alu/Refugiu montan la Piatra Talharului.PNG"
+   ],
+   "duplicateFolders": [
+    "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK",
+    "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/Refugiu Szerkesztett",
+    "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/Refugiu befejezett - befedett",
+    "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/Refugiu raw"
+   ],
+   "mergeNote": null,
+   "photosFound": 36,
+   "photosUnique": 29,
+   "exactDuplicatesInSelection": 7,
+   "archiveCopiesOfSelectedPhotos": 23,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DJI_0493.jpg",
+     "kind": "drone",
+     "dhash": "9f1effd111b1178b",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DJI_0498.jpg",
+     "kind": "drone",
+     "dhash": "19a41bd336f6535c",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DJI_0502.jpg",
+     "kind": "drone",
+     "dhash": "0cb232396969626b",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DJI_0507.jpg",
+     "kind": "drone",
+     "dhash": "b171e4cc4e707033",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DJI_0508.jpg",
+     "kind": "drone",
+     "dhash": "106d12909b277039",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DJI_0509.jpg",
+     "kind": "drone",
+     "dhash": "845a9991b5685a5d",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 965,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DJI_0510.jpg",
+     "kind": "drone",
+     "dhash": "89af6c797371b3b7",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DSC04734.jpg",
+     "kind": "photo",
+     "dhash": "000631e8cc37d249",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DSC04735.jpg",
+     "kind": "photo",
+     "dhash": "8db37960ecccb54d",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DSC04738.jpg",
+     "kind": "photo",
+     "dhash": "e6de79d999bab37b",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DSC04740.jpg",
+     "kind": "photo",
+     "dhash": "67f3737069c959d3",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1013,
+     "h": 1800,
+     "source": "2. posztolva/2. posztolva - Refugiu - Piatra Talharului/VÉGLEGESEK/Válogatott - Javított - Refugiu Piatra Talharului/DSC04742.jpg",
+     "kind": "photo",
+     "dhash": "0d0631f0e43d7f6f",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "detailed",
+    "modelTier": "A",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "catedrala-voluntari",
+   "name": "Catedrala din Voluntari",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2. posztolva/2. posztolva - Catedrala din Voluntari"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": "Archive folder 'Catedrala din Voluntari' and register row 'Biserica Sfânta Cuvioasă Parascheva, Voluntari' are the same building: the post text names the patron saints 'Intrarea Domnului în Ierusalim și Sfânta Cuvioasă Parascheva' and the same elZinc Natural material.",
+   "photosFound": 6,
+   "photosUnique": 6,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": null,
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Catedrala din Voluntari/București Septembrie 2022 192.jpg",
+     "kind": "photo",
+     "dhash": "3f3b911999896130",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1163,
+     "source": "2. posztolva/2. posztolva - Catedrala din Voluntari/București Septembrie 2022 202.jpg",
+     "kind": "photo",
+     "dhash": "2b35371737a7eebe",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Catedrala din Voluntari/București Septembrie 2022 207.jpg",
+     "kind": "photo",
+     "dhash": "150925272625a425",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1200,
+     "source": "2. posztolva/2. posztolva - Catedrala din Voluntari/București Septembrie 2022 213.jpg",
+     "kind": "photo",
+     "dhash": "818383c913360707",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1154,
+     "source": "2. posztolva/2. posztolva - Catedrala din Voluntari/București Septembrie 2022 220.jpg",
+     "kind": "photo",
+     "dhash": "000010188c888913",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1128,
+     "source": "2. posztolva/2. posztolva - Catedrala din Voluntari/București Septembrie 2022 242.jpg",
+     "kind": "photo",
+     "dhash": "27039383c1c9e1c8",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "conacul-berenczei-kovats-nisipeni",
+   "name": "Conacul Berenczei-Kováts, Nisipeni",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "Nisipeni - Satu Mare"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 8,
+   "photosUnique": 8,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Not in the register: material and COLOR METAL contribution unconfirmed. Two files are website downloads ('sandorhomok-berenczei-kovats-kuria-technikai-atadas-*') and are third-party.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1080,
+     "h": 1080,
+     "source": "Nisipeni - Satu Mare/0.jpg",
+     "kind": "photo",
+     "dhash": "3638161e5e165876",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1350,
+     "source": "Nisipeni - Satu Mare/1.jpg",
+     "kind": "photo",
+     "dhash": "804069eb6b2f4fd9",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1350,
+     "source": "Nisipeni - Satu Mare/2.jpg",
+     "kind": "photo",
+     "dhash": "54712968e94dcf8f",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1350,
+     "source": "Nisipeni - Satu Mare/3.jpg",
+     "kind": "photo",
+     "dhash": "6828606b4c5953e8",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1086,
+     "h": 1448,
+     "source": "Nisipeni - Satu Mare/a8276c71-3a8f-4e1f-b32d-99618a550213.jpg",
+     "kind": "photo",
+     "dhash": "d1cc82c390cccc9b",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 800,
+     "h": 533,
+     "source": "Nisipeni - Satu Mare/sandorhomok-berenczei-kovats-kuria-technikai-atadas-1-800xa_JPG.jpg",
+     "kind": "photo",
+     "dhash": "c8c8e0e9c8ccc486",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 800,
+     "h": 533,
+     "source": "Nisipeni - Satu Mare/sandorhomok-berenczei-kovats-kuria-technikai-atadas-2-800xa_JPG.jpg",
+     "kind": "photo",
+     "dhash": "82c64e3bb797d2d3",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "csiki-jatekszin",
+   "name": "Teatrul „Csíki Játékszín”, Miercurea Ciuc",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2026 aug csik  szinhaz"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 23,
+   "photosUnique": 23,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Folder '2026 aug csik szinhaz' (Aug 2026 shoot, roof works). Not in the January 2026 register: material and contribution unconfirmed.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08884.jpg",
+     "kind": "photo",
+     "dhash": "0313b2932f1d73c8",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08885.jpg",
+     "kind": "photo",
+     "dhash": "b6b4b423e89b388f",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08886.jpg",
+     "kind": "photo",
+     "dhash": "f024d866914c6311",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08888.jpg",
+     "kind": "photo",
+     "dhash": "6bc9d818e2facdcc",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1013,
+     "h": 1800,
+     "source": "2026 aug csik  szinhaz/DSC08891.jpg",
+     "kind": "photo",
+     "dhash": "801685a4848661e4",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08894.jpg",
+     "kind": "photo",
+     "dhash": "9cd4cdccedce2942",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08897.jpg",
+     "kind": "photo",
+     "dhash": "11114d0626464425",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08898.jpg",
+     "kind": "photo",
+     "dhash": "ceeeeeeedefacb03",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08900.jpg",
+     "kind": "photo",
+     "dhash": "9c9ccb2ea7b4a486",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08907.jpg",
+     "kind": "photo",
+     "dhash": "39c0a0a18c74d510",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08908.jpg",
+     "kind": "photo",
+     "dhash": "48c263431c7cdd00",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug csik  szinhaz/DSC08910.jpg",
+     "kind": "photo",
+     "dhash": "df1f190c142aa592",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-delnita",
+   "name": "Biserica Romano-Catolică „Sf. Ioan Botezătorul”, Delnița",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "2026 aug delne"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 10,
+   "photosUnique": 10,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Folder '2026 aug delne' (Aug 2026 drone + camera shoot). Not in the January 2026 register: material and contribution unconfirmed.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug delne/DJI_0087.jpg",
+     "kind": "drone",
+     "dhash": "533364c4864d7119",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug delne/DJI_0089.jpg",
+     "kind": "drone",
+     "dhash": "b503648c0c0c6939",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug delne/DJI_0091.jpg",
+     "kind": "drone",
+     "dhash": "0c696347cd19b393",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1013,
+     "h": 1800,
+     "source": "2026 aug delne/DSC08874.jpg",
+     "kind": "photo",
+     "dhash": "85032713212d8334",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1013,
+     "h": 1800,
+     "source": "2026 aug delne/DSC08875.jpg",
+     "kind": "photo",
+     "dhash": "ce1eb4333b85e530",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1013,
+     "h": 1800,
+     "source": "2026 aug delne/DSC08876.jpg",
+     "kind": "photo",
+     "dhash": "1b1c1713b5276cfa",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug delne/DSC08877.jpg",
+     "kind": "photo",
+     "dhash": "1a1e8f1d1d7d7ff3",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1013,
+     "h": 1800,
+     "source": "2026 aug delne/DSC08878.jpg",
+     "kind": "photo",
+     "dhash": "7a190f17dffdcae9",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1013,
+     "h": 1800,
+     "source": "2026 aug delne/DSC08880.jpg",
+     "kind": "photo",
+     "dhash": "001233a52726b133",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 aug delne/DSC08881.jpg",
+     "kind": "photo",
+     "dhash": "69e8e88d01121212",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "tiny-house-zenius",
+   "name": "Tiny house Zenius",
+   "status": "pending",
+   "rights": "third-party",
+   "sourceFolders": [
+    "2026 jun tinyhouse zenius"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 16,
+   "photosUnique": 16,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Facebook downloads (June 2026). Location unknown; not a fixed building on a verifiable site.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1012,
+     "h": 1800,
+     "source": "2026 jun tinyhouse zenius/719804444_1323296543113988_2686931967614077918_n.jpg",
+     "kind": "photo",
+     "dhash": "273773688cb4a43a",
+     "public": false
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/719828732_1323296399780669_1946861102441175126_n.jpg",
+     "kind": "photo",
+     "dhash": "4b232725d7d7f81b",
+     "public": false
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/721517496_1323296569780652_4473845549387566566_n.jpg",
+     "kind": "photo",
+     "dhash": "98ba727a387858b8",
+     "public": false
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/722117084_1323296683113974_391411208387445152_n.jpg",
+     "kind": "photo",
+     "dhash": "3a3a0aa385941618",
+     "public": false
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/722132531_1323296289780680_4690397963563910120_n.jpg",
+     "kind": "photo",
+     "dhash": "a6a6acbcf4e6e6e6",
+     "public": false
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/723831485_1323296139780695_7041701558066972241_n.jpg",
+     "kind": "photo",
+     "dhash": "e77777b7c5a5b7a7",
+     "public": false
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/724276019_1323296429780666_6436476541659722065_n.jpg",
+     "kind": "photo",
+     "dhash": "7432b253b3337333",
+     "public": false
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/724282228_1323296479780661_2288847130683230161_n.jpg",
+     "kind": "photo",
+     "dhash": "0cb1a8abbb6effe8",
+     "public": false
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/724640142_1323296456447330_5129023272177366796_n.jpg",
+     "kind": "photo",
+     "dhash": "5353d3d2626257d3",
+     "public": false
+    },
+    {
+     "file": "10",
+     "w": 1012,
+     "h": 1800,
+     "source": "2026 jun tinyhouse zenius/724654267_1323296509780658_3815560317938481495_n.jpg",
+     "kind": "photo",
+     "dhash": "96e4e8aaeaccb232",
+     "public": false
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "2026 jun tinyhouse zenius/724752434_1323296339780675_9220824042610319645_n.jpg",
+     "kind": "photo",
+     "dhash": "0a21e1f3f3763e8f",
+     "public": false
+    },
+    {
+     "file": "12",
+     "w": 1012,
+     "h": 1800,
+     "source": "2026 jun tinyhouse zenius/724824641_1323296626447313_6913180898553906093_n.jpg",
+     "kind": "photo",
+     "dhash": "0160686829296920",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": false,
+    "identified": false,
+    "coordinatesVerified": false,
+    "metadataComplete": false,
+    "mapMarker": false,
+    "modelStatus": "none",
+    "modelTier": "D",
+    "modelComplete": false,
+    "integrated": false,
+    "published": false,
+    "heldBackReason": "status pending"
+   }
+  },
+  {
+   "id": "castelul-bethlen-arcalia",
+   "name": "Castelul Bethlen din Arcalia",
+   "status": "public",
+   "rights": "third-party",
+   "sourceFolders": [
+    "Castel Arcalia"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 1,
+   "photosUnique": 1,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Single partner image 'Castel Arcalia - Bethen - NEDAR.png'. Not in the register: material and contribution unconfirmed.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 974,
+     "h": 652,
+     "source": "Castel Arcalia/Castel Arcalia - Bethen - NEDAR.png",
+     "kind": "photo",
+     "dhash": "0221545471130b2f",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": false,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "casa-de-vacanta-varsag",
+   "name": "Casă de vacanță, Varșag",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [
+    "Varság - Magánház - Aluminium"
+   ],
+   "sourceFiles": [],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 23,
+   "photosUnique": 23,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": true
+   },
+   "note": "Private house: exact address not published; location shown at village level only.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0532.jpg",
+     "kind": "drone",
+     "dhash": "4d0f1f1e364f7f6b",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0533.jpg",
+     "kind": "drone",
+     "dhash": "9d9f272f070f8c44",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0534.jpg",
+     "kind": "drone",
+     "dhash": "2f171f1717161716",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0536.jpg",
+     "kind": "drone",
+     "dhash": "43474fcf86070616",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0537.jpg",
+     "kind": "drone",
+     "dhash": "c98d160e06071696",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0538.jpg",
+     "kind": "drone",
+     "dhash": "2f868e1616260606",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0539.jpg",
+     "kind": "drone",
+     "dhash": "9e1e0f0f0b090b03",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0540.jpg",
+     "kind": "drone",
+     "dhash": "7d0f070f0d10150c",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0541.jpg",
+     "kind": "drone",
+     "dhash": "1589838084848400",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0543.jpg",
+     "kind": "drone",
+     "dhash": "5a27070900010001",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0544.jpg",
+     "kind": "drone",
+     "dhash": "133306070f0f0e1f",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1013,
+     "source": "Varság - Magánház - Aluminium/DJI_0545.jpg",
+     "kind": "drone",
+     "dhash": "272c400301050302",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "preview",
+    "modelTier": "B",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "manejul-carei",
+   "name": "Manejul Castelului Károlyi, Carei",
+   "status": "public",
+   "rights": "third-party",
+   "sourceFolders": [],
+   "sourceFiles": [
+    "_Valogatott referenciak/Alu/Lovarda Nagykároly.PNG"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 1,
+   "photosUnique": 1,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Single image in the aluminium selection ('Lovarda Nagykároly'). Not in the register.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1000,
+     "h": 580,
+     "source": "_Valogatott referenciak/Alu/Lovarda Nagykároly.PNG",
+     "kind": "photo",
+     "dhash": "2e3b1f073f7b61b5",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "refugiu-cheile-bicazului",
+   "name": "Refugiu montan, Cheile Bicazului",
+   "status": "public",
+   "rights": "third-party",
+   "sourceFolders": [],
+   "sourceFiles": [
+    "_Valogatott referenciak/Alu/Refugiu montan la Cheile Bicazului.jpg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 1,
+   "photosUnique": 1,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Single image in the aluminium selection. Exact refuge to be identified.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1800,
+     "h": 900,
+     "source": "_Valogatott referenciak/Alu/Refugiu montan la Cheile Bicazului.jpg",
+     "kind": "photo",
+     "dhash": "9e9ed65444632707",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "biserica-reformata-gherla",
+   "name": "Biserica Reformată din Gherla",
+   "status": "public",
+   "rights": "third-party",
+   "sourceFolders": [],
+   "sourceFiles": [
+    "_Valogatott referenciak/KME/Biserica Reformata Gherla.jpg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 1,
+   "photosUnique": 1,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Single image in the copper (KME) selection. Not in the register.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1200,
+     "h": 1615,
+     "source": "_Valogatott referenciak/KME/Biserica Reformata Gherla.jpg",
+     "kind": "photo",
+     "dhash": "0c24a686df87b191",
+     "public": false
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": false,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  },
+  {
+   "id": "sediu-color-metal",
+   "name": "Sediul COLOR METAL",
+   "status": "public",
+   "rights": "published",
+   "sourceFolders": [],
+   "sourceFiles": [
+    "Referencia fuzetek/Ref fuzet Alu/WhatsApp Image 2025-04-25 at 14.25.55.jpeg"
+   ],
+   "duplicateFolders": [],
+   "mergeNote": null,
+   "photosFound": 1,
+   "photosUnique": 1,
+   "exactDuplicatesInSelection": 0,
+   "archiveCopiesOfSelectedPhotos": 0,
+   "register": {
+    "matched": false
+   },
+   "note": "Company headquarters with green expanded-aluminium façade ('COLOR METAL 20'), included in the aluminium reference booklet.",
+   "photos": [
+    {
+     "file": "01",
+     "w": 1600,
+     "h": 900,
+     "source": "Referencia fuzetek/Ref fuzet Alu/WhatsApp Image 2025-04-25 at 14.25.55.jpeg",
+     "kind": "photo",
+     "dhash": "b6e4e1bc4c0cc083",
+     "public": true
+    }
+   ],
+   "progress": {
+    "discovered": true,
+    "photographsAnalysed": true,
+    "identified": true,
+    "coordinatesVerified": true,
+    "metadataComplete": true,
+    "mapMarker": true,
+    "modelStatus": "reference-limited",
+    "modelTier": "C",
+    "modelComplete": true,
+    "integrated": true,
+    "published": true,
+    "heldBackReason": null
+   }
+  }
+ ],
+ "crossProjectSimilarPhotos": [],
+ "excludedFolders": [
+  {
+   "folder": "xxxx nem referencia",
+   "reason": "Marked 'nem referencia' (not a reference) by COLOR METAL: Biserica din Mosnița, Palatul Neuhausz, Sinagoga din Cetate (Timișoara)."
+  },
+  {
+   "folder": "Expandált labirintus",
+   "reason": "Interior exhibition installation (expanded-metal labyrinth for folk-costume exhibitions in Odorheiu Secuiesc and Boldogfalva) — not a building."
+  },
+  {
+   "folder": "Referencia fuzetek/Referencia fuzetek.rar",
+   "reason": "Archive of booklet images; loose copies already mapped."
+  },
+  {
+   "folder": "x - Moldvai fotózás Sasival - 20250624/Album",
+   "reason": "Album layout copies of the Moldova shoot (duplicates)."
+  },
+  {
+   "folder": "Montaj de referinte",
+   "reason": "Empty."
+  },
+  {
+   "folder": "New folder",
+   "reason": "Empty."
+  },
+  {
+   "folder": "Referencia fuzetek",
+   "reason": "Reference-booklet collection (Alu / KME / elZinc): copies of project photos used in the printed booklets; single-source images are mapped to their projects individually."
+  },
+  {
+   "folder": "_Valogatott referenciak",
+   "reason": "Curated cross-project selection (Alu / KME / elZinc): copies of project photos; single-source images are mapped individually."
+  },
+  {
+   "folder": "x - Moldvai fotózás Sasival - 20250624/New folder",
+   "reason": "'- Copy' folders of the Moldova shoot (duplicates)."
+  }
+ ],
+ "unmappedFolders": [],
+ "progressTotals": {
+  "topLevelFolders": 29,
+  "uniqueProjects": 56,
+  "duplicateFoldersConsolidated": 39,
+  "verifiedCoordinates": 42,
+  "awaitingGeolocationConfirmation": 14,
+  "completedModels": 54,
+  "modelsInDevelopment": 0,
+  "modelsNeedingMorePhotos": 14,
+  "publishedProjects": 54
+ }
+}

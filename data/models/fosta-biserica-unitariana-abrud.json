@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 49.0,
+  "bearingSource": "OSM way 1324187562 long axis 49° (side walls 51.7° / 226.2°); +X points NE to the straight street front on Piața Eroilor with the tower, the rounded (apse) end of the outline lies to the south-west (photos 03–05, drone photo 02)",
+  "cover": null,
+  "photosUsed": 5,
+  "approximations": "The model shows the converted state (cultural centre): the tower, façade and cupola follow the project rendering (01, a rendering, not a photograph), the 2023 photograph of the cupola being lifted (02) and photographs of the ruin (03–05). Heights are estimated (façade entablature ≈ 12.5 m, tower cornice ≈ 22.5 m, cupola top ≈ 30 m), no survey data. The side and rear elevations are hidden by the adjoining houses in every view and are interpreted (tall arched windows, pilaster strips, shallow segmental apse after the OSM outline, whose slight taper is evened out). The new nave roof is interpreted as a gable roof hipped over the apse (≈ 31°). The cupola is shown in elZinc Slate titanium-zinc as photographed in 2023; the nave roof is shown in the same material supplied by COLOR METAL according to its records (which surfaces were covered is not documented).",
+  "note": {
+    "ro": "Machetă a stării după conversie, interpretată după randarea proiectului, fotografii publice ale ruinei și ale montării cupolei (2023) și conturul OSM; înălțimile și fațadele laterale sunt estimate. Cupola și acoperișul navei sunt redate în titan-zinc elZinc Slate, materialul livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "Az átalakítás utáni állapot makettje a projekt látványterve, a romról és a kupola 2023-as elhelyezéséről készült nyilvános fotók, valamint az OSM-körvonal alapján; a magasságok és az oldalhomlokzatok becsültek. A kupola és a hajó teteje elZinc Slate titáncinkkel jelenik meg – a COLOR METAL nyilvántartása szerint szállított anyaggal.",
+    "en": "Scale model of the converted state, interpreted from the project rendering, public photographs of the ruin and of the cupola installation (2023) and the OSM outline; heights and the side elevations are estimated. The cupola and the nave roof are shown in elZinc Slate titanium-zinc, the material supplied by COLOR METAL according to its records."
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 68.0,
+ "bearingSource": "OSM relation 2552618 long axis 68.0°; +X points ENE to the main façade with the tower on Șos. Pavel D. Kiseleff (the 73.6 m straight side of the outline faces the road, OSM road geometry; photo 02 is taken from the Geological Museum across the road), −Z is the Str. Monetăriei side (street sign in photo 04).",
+ "cover": "03",
+ "photosUsed": 4,
+ "approximations": "Perimeter block and courtyard from the OSM multipolygon; the internal division into front range, corner pavilions, side, rear and inner wings and their hipped roofs is inferred. Heights scaled from photo 02 (wing eave ≈ 16.5 m, pavilion eave ≈ 20 m, side and rear wings ≈ 14 m, tower roof ≈ 38 m); roof pitches (30–45°) and eave depth (≈ 1.3 m) estimated. Only the Kiseleff front, the north-east pavilion and parts of the Monetăriei side are photographed: the rear, courtyard and most side elevations repeat an assumed window rhythm. Brick ornament, window tracery, capitals and the curved gable are simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; acoperișurile, inclusiv cel al turnului, sunt redate cu țiglă, așa cum apar în fotografii. Cuprul livrat de COLOR METAL conform evidențelor firmei nu se distinge în fotografii ca învelitoare, de aceea este redat la jgheaburi, burlane, coame și la vârful turnului, unde se folosește de obicei. Fațadele nefotografiate și ornamentația sunt simplificate.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a tetők – a toronysisakot is beleértve – a fotók szerint cserépfedésűek. A COLOR METAL nyilvántartása szerint szállított réz a fotókon nem azonosítható tetőfedésként, ezért az ereszcsatornákon, lefolyókon, gerinc- és élfedéseken, valamint a torony csúcsdíszén jelenik meg, ahol jellemzően alkalmazzák. A nem fényképezett homlokzatok és a díszítés egyszerűsített.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the roofs, including the tower roof, are shown tiled as photographed. The copper supplied by COLOR METAL according to its records cannot be identified as a roof covering in the photographs, so it is shown on the gutters, downpipes, hip and ridge cappings and the tower finial, where such copper is typically used. The unphotographed elevations and the ornament are simplified."
+ }
+}

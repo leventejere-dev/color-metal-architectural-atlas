@@ -1,0 +1,47 @@
+{
+ "projection": {
+  "type": "oblique-stereographic",
+  "lat0": 46.0,
+  "lon0": 25.0,
+  "R": 6371.0,
+  "k0": 0.99975,
+  "units": "km",
+  "axes": "X east, Z south"
+ },
+ "extent": {
+  "x0": -381,
+  "x1": 383,
+  "z0": -269,
+  "z1": 276
+ },
+ "grid": {
+  "nx": 1020,
+  "ny": 728,
+  "spacingKm": 0.7497546614327772,
+  "file": "height.bin",
+  "encoding": "uint16 LE decimetres, row 0 = north (z0)"
+ },
+ "textures": {
+  "nx": 2038,
+  "ny": 1454,
+  "normal": "normal.webp",
+  "shade": "shade.webp",
+  "mask": "mask.webp",
+  "maskScale": 8
+ },
+ "table": {
+  "x0": -1281,
+  "x1": 1283,
+  "z0": -1169,
+  "z1": 1176,
+  "w": 3072,
+  "h": 2809,
+  "file": "table.webp"
+ },
+ "exaggeration": 5.0,
+ "maxElevationM": 2415,
+ "sources": [
+  "Natural Earth 1:10m (public domain)",
+  "AWS Terrain Tiles (Mapzen terrarium), zoom 9 \u2014 see ASSET_LICENSES.md"
+ ]
+}

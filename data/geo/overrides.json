@@ -1,0 +1,156 @@
+{
+ "_doc": "Manual decisions applied on top of the research batches (merged field by field by scripts/build-db.py). Every override states its evidence.",
+ "overrides": {
+  "parohia-ortodoxa-giroc": {
+   "identificationConfidence": "VERIFIED",
+   "verificationNotes": "Archive photos (folder 'Parohia ortodoxa romana, Giroc') show a small baroque hall church with a west tower and onion helm at a road junction — the old Orthodox church Sf. Dimitrie (1759), OSM way 223846005. It is NOT the same building as 'Pogorârea Duhului Sfânt' (large new domed church, separate folder), so the two projects stay separate."
+  },
+  "biserica-pogorarea-duhului-sfant-giroc": {
+   "verificationNotes": "Archive photos show the large new cross-domed church under completion (red-brick/stone body, standing-seam domes and vaults), matching the new church begun 2016 (OSM way 930266394)."
+  },
+  "parcare-satu-mare": {
+   "geographicAccuracy": "building",
+   "identificationConfidence": "VERIFIED",
+   "verificationNotes": "COLOR METAL's project register names the project 'Parcare etajată S+P+2 pe strada Mihail Kogălniceanu nr. 5' (Satu Mare, expanded aluminium, 2025); the OSM address point for Str. Mihail Kogălniceanu 5 (node 12297284580) lies 13 m from the placed site. The drone photo of the finished car park (supplied for the exhibition table) matches satellite imagery of the corner Str. Mihail Kogălniceanu / Str. Retezatului, on the former surface car park next to a large red-roofed building. Exact outline not yet in OSM."
+  },
+  "biblioteca-centrala-universitara-iasi": {
+   "lat": 47.17023,
+   "lon": 27.57775,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "PROBABLE",
+   "footprint": [
+    [
+     47.1704263,
+     27.5778238
+    ],
+    [
+     47.1703677,
+     27.5778239
+    ],
+    [
+     47.1703677,
+     27.5777832
+    ],
+    [
+     47.1701655,
+     27.5777835
+    ],
+    [
+     47.1701654,
+     27.5776496
+    ],
+    [
+     47.1704261,
+     27.5776492
+    ],
+    [
+     47.1704263,
+     27.5778238
+    ]
+   ],
+   "verificationNotes": "The archive photos do not show the historic BCU palace (OSM relation 399264) but a 5-storey block with a corner tower and a green wall beside the Casa de Cultură a Studenților, matching OSM ways 206517206 + 206517209 on Str. Vasile Conta (~170 m from the palace). Position moved to that building; to be confirmed by COLOR METAL."
+  },
+  "bojdeuca-ion-creanga": {
+   "lat": 47.174821,
+   "lon": 27.582962,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "PROBABLE",
+   "footprint": [
+    [
+     47.1748416,
+     27.5828565
+    ],
+    [
+     47.1747496,
+     27.5829316
+    ],
+    [
+     47.1748007,
+     27.5830671
+    ],
+    [
+     47.1748927,
+     27.5829921
+    ],
+    [
+     47.1748416,
+     27.5828565
+    ]
+   ],
+   "verificationNotes": "The memorial house keeps its wooden shingle roof in the photos; the elZinc Slate is on the pyramid roof of the museum pavilion ~28 m south (OSM way 209636002, ~11.7 m square, roof ≈150 m², matching the supplied area). Position moved to the pavilion."
+  },
+  "biblioteca-academiei-romane": {
+   "lat": 44.445287,
+   "lon": 26.088995,
+   "geographicAccuracy": "building",
+   "identificationConfidence": "VERIFIED",
+   "footprint": [
+    [
+     44.4453448,
+     26.0886104
+    ],
+    [
+     44.4451945,
+     26.0887056
+    ],
+    [
+     44.4453022,
+     26.0890343
+    ],
+    [
+     44.4452031,
+     26.0891024
+    ],
+    [
+     44.4451719,
+     26.0890054
+    ],
+    [
+     44.4450749,
+     26.0890681
+    ],
+    [
+     44.4451467,
+     26.0892883
+    ],
+    [
+     44.4453355,
+     26.0891689
+    ],
+    [
+     44.4453467,
+     26.0892037
+    ],
+    [
+     44.4455004,
+     26.0891067
+    ],
+    [
+     44.4454619,
+     26.0889869
+    ],
+    [
+     44.4453592,
+     26.0886549
+    ],
+    [
+     44.4453448,
+     26.0886104
+    ]
+   ],
+   "verificationNotes": "The zinc roofs in the archive photos (taken from the northern block across an ~8 m light court) belong to the central L-shaped courtyard wing of the library, OSM way 405546991 (7 levels), not to the named street wing 405546989; position moved ~35 m to that wing."
+  },
+  "facultatea-stiinte-politice-bucuresti": {
+   "identificationConfidence": "VERIFIED",
+   "verificationNotes": "Photos match Casa P.P. Negulescu, Str. Spiru Haret 8 (OSM way 186600911): the photographed risalit and porch are the two projections of the outline on the street side; standing-seam zinc visible on the low hipped roof and the attic; no ceramic tiles visible (aerial view also shows a metal hip roof)."
+  },
+  "episcopia-buzaului-sitaru": {
+   "exclude": true,
+   "reason": "Not a building (a canopy); location uncertain."
+  },
+  "biserica-pecica-pecica": {
+   "exclude": true,
+   "reason": "Not executed in metal according to COLOR METAL's project records."
+  }
+ }
+}

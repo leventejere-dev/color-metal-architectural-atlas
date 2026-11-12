@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 69.5,
+ "bearingSource": "OSM way 1078580325 long axis 69.5°; +X points to the altar apse (ENE), where the outline shows the lateral-apse lobes and the altar apse; photos 01 and 02 view the east end from the south-east",
+ "cover": "02",
+ "photosUsed": 2,
+ "approximations": "Size follows the published 37 × 11 m, not the OSM outline (46.2 × 20.9 m), which is much larger than the church in the photographs. Heights are scaled from photo 02 (walls ≈ 11.5 m, western ridge ≈ 19.5 m, tower cross ≈ 34 m); the OSM height tag (15 m) is not used. Lateral apse and altar apse sizes, tower stages, buttress, niche and window counts are estimated. The north and west elevations, which neither photograph shows, are interpreted (north mirrored from south). Painted and carved ornament is omitted. Roofs are shown in the grey tone of the photographs; the copper product is not identified. The only available photographs predate the COLOR METAL copper; the roofs are shown in copper as recorded in the reference selection.",
+ "note": {
+  "ro": "Machetă preliminară după două fotografii ale capătului estic și după dimensiunile publicate (cca 37 × 11 m): înălțimile, absidele și turla sunt estimate, iar fațadele nordică și vestică sunt interpretate. Acoperișurile sunt redate în nuanța gri din fotografii. Fotografiile disponibile sunt anterioare lucrării; acoperișurile sunt redate în cupru, conform referinței COLOR METAL.",
+  "hu": "Előzetes makett a keleti végről készült két fotó és a közölt méretek (kb. 37 × 11 m) alapján: a magasságok, az apszisok és a torony becsültek, az északi és nyugati homlokzat értelmezett. A tetők a fotókon látható szürke árnyalatban jelennek meg. A rendelkezésre álló fotók a munkálatok előttiek; a tetők a COLOR METAL referencia szerint rézzel jelenik meg.",
+  "en": "Preliminary scale model based on two photographs of the east end and the published size (about 37 × 11 m): heights, apses and tower are estimated, and the north and west elevations are interpreted. The roofs are shown in the grey tone of the photographs. The available photographs predate the works; the roofs are shown in copper, as recorded in the COLOR METAL reference."
+ }
+}

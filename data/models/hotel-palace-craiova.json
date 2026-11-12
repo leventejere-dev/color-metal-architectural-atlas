@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 85.3,
+ "bearingSource": "OSM way 172692543 long axis 85.3°; +X points east to the party wall with Cinema Jean Negulescu (OSM 172694589), +Z is the Str. A.I. Cuza façade (≈ 175°), −X the Calea Unirii façade; the rounded corner with the dome is the Calea Unirii / A.I. Cuza corner (OSM chamfer, photos 01–03).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "OSM outline 28.8 × 25.4 m used; the rounded corner (radius ≈ 5 m, three window axes) taken from the photographs, the OSM outline only chamfers it. Storey heights (eaves ≈ 18.4 m), mansard height (≈ 3 m) and dome size (≈ 9.2 m diameter, top ≈ 30 m) estimated from the photographs. Window axes counted on photos 01–03 (A.I. Cuza 7, Calea Unirii 6). The courtyard (north) side is not photographed and the east side is a party wall; the mansard is modelled as a closed ring with a low flat top. Stucco ornament, consoles and medallions simplified; the dome and mansard shingles are suggested by horizontal courses.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință; acoperișul mansardat și cupola de colț sunt redate din titan-zinc natural, așa cum apar după reabilitare (2024), material livrat de COLOR METAL conform evidențelor sale. Înălțimile, latura dinspre curte și ornamentația sunt aproximate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett; a manzárdtető és a sarokkupola natúr titáncinkként jelenik meg, ahogyan a felújítás (2024) után látható – a COLOR METAL nyilvántartása szerint általa szállított anyag. A magasságok, az udvari homlokzat és a díszítés közelítő.",
+  "en": "Scale model interpreted from public reference photographs; the mansard roof and the corner dome are shown in natural titanium-zinc as photographed after the rehabilitation (2024), the material supplied by COLOR METAL according to its records. Heights, the courtyard side and the ornament are approximated."
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 73.9,
+  "bearingSource": "OSM way 1095381772 long axis 73.9°; +X points ENE to the rounded altar end of the outline, the west tower and the flat west front at −X (vertical drone photo 03, photos 04 and 06)",
+  "cover": "06",
+  "photosUsed": 12,
+  "approximations": "Plan scaled on the vertical drone photo 03 and the OSM outline (west tower ≈ 9.2 m square centred 5.7 m from the west front, naos tower 25.7 m from it, altar apse r ≈ 5.6 m, shallow lateral apses r ≈ 2.4 m). Heights estimated from photo proportions (walls ≈ 11 m, roof ≈ 38°, west-tower helm top ≈ 24 m, naos-tower helm top ≈ 26 m; OSM tags 13 / 23 / 25 m are unsourced). Bell-helm profiles, the star base of the naos tower and the roof humps over the lateral apses are idealised; niche registers, window and buttress positions simplified; north side mirrored from the south. Copper shown in the dark brown tone of the photographs.",
+  "note": {
+    "ro": "Machetă interpretată după fotografiile cu drona și conturul OSM: planul, turnurile și acoperișurile urmează fotografiile, înălțimile sunt estimate, iar ocnițele, ferestrele și contraforții sunt simplificate; fațada nordică este oglindită după cea sudică.",
+    "hu": "Drónfotók és az OSM-körvonal alapján értelmezett makett: az alaprajz, a tornyok és a tetők a fotókat követik, a magasságok becsültek, a fülkesorok, ablakok és támpillérek egyszerűsítettek; az északi homlokzat a déli tükörképe.",
+    "en": "Scale model interpreted from the drone photographs and the OSM outline: plan, towers and roofs follow the photos, heights are estimated, and the niche friezes, windows and buttresses are simplified; the north side mirrors the south."
+  }
+}

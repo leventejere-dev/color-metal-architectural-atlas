@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 79.7,
+ "bearingSource": "OSM way 216870290 long axis 79.7° (+X ≈ east, along the 48 m base of the A-shaped block); the front with the restaurant podium is taken to face −Z = north, towards the car park, the trunk road and the town (OSM context map). The orientation of the podium relative to the outline could not be confirmed.",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Only two photographs (one drone view of the front, one winter street view). The OSM outline is a T-shaped polygon (53.3 × 42.8 m) that could not be reconciled with the photographs: the model uses its long axis and length for the A-shaped block (48 × 17 m, flat top ≈ 27.6 m, roof planes ≈ 56°) and places the restaurant podium and entrance terrace as photographed, so its depth (≈ 30 m) stays well below the outline's 42.8 m. The slight plan angle between the two halves, the rear façade (mirrored), balconies, windows and the podium are simplified. The green coated aluminium is not clearly visible in the photographs; it is shown on the two big roof planes (with verge flashings and copings) as an assumption.",
+ "note": {
+  "ro": "Machetă simplificată, interpretată după două fotografii de referință publice; amplasarea în plan și înălțimile sunt estimate. Aluminiul vopsit verde furnizat de COLOR METAL conform evidențelor sale nu se distinge clar în fotografii, de aceea cele două mari pante ale acoperișului sunt redate, ca ipoteză, în tablă fălțuită din aluminiu vopsit verde.",
+  "hu": "Két nyilvános referenciafotó alapján értelmezett, egyszerűsített makett; az alaprajzi elrendezés és a magasságok becsültek. A COLOR METAL nyilvántartása szerint általa szállított zöldre festett alumínium a fotókon nem azonosítható egyértelműen, ezért a két nagy tetősík feltételezésként zöld festett alumínium állókorcos fedéssel jelenik meg.",
+  "en": "Simplified scale model interpreted from two public reference photographs; the plan layout and heights are estimated. The green-painted aluminium supplied by COLOR METAL according to its records cannot be clearly identified in the photographs, so the two large roof planes are shown, as an assumption, in green coated aluminium standing seam."
+ }
+}

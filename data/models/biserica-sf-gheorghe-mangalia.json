@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 110.0,
+ "bearingSource": "OSM way 200056166 long axis 110°; +X points to the three-sided altar apse (ESE), the west front with the two belfries and the porch faces the courtyard (photos 01, 03).",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "Plan from the OSM outline (26.4 × 13.6 m, three-sided apse); depth of the pronaos block, the arched N/S gables and the naos layout interpreted from photos 02 and 04 (two further Commons views of the south side consulted). All heights estimated from photo proportions (pronaos cornice ≈ 11 m, naos eaves ≈ 9.5 m, belfry crosses ≈ 24 m, central cross ≈ 25.5 m). Domes modelled as eight-lobed bells with seam ribs and shingle courses instead of the real diamond shingles; mosaics shown as flat coloured panels; south and east details partly inferred.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință realizate după restaurarea din 2021. Domurile, acoperișul pridvorului și acoperișurile joase sunt redate în titan-zinc natural, așa cum apar în fotografii — material livrat de COLOR METAL conform evidențelor sale. Înălțimile sunt estimate, iar solzii romboidali ai domurilor și mozaicurile sunt simplificate.",
+  "hu": "A 2021-es helyreállítás után készült nyilvános referenciafotók alapján értelmezett makett. A kupolák, a tornác teteje és az alacsony tetők natúr titáncinkként jelennek meg, ahogy a fotókon látszanak — a COLOR METAL nyilvántartása szerint általa szállított anyag. A magasságok becsültek, a kupolák rombuszpikkelyes fedése és a mozaikok egyszerűsítettek.",
+  "en": "Scale model interpreted from public reference photographs taken after the 2021 restoration. The domes, the porch roof and the low roofs are shown in natural titanium-zinc as photographed — the material supplied by COLOR METAL according to its records. Heights are estimated; the diamond-shingle dome cladding and the mosaics are simplified."
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "tier": "A",
+ "status": "existing-verified",
+ "photosUsed": "exhibition-table reference set",
+ "note": {
+  "ro": "Model preluat de pe masa expozițională: lungimi, înălțimi și panta acoperișului estimate; fațada nordică, contraforturile și traforul ferestrelor simplificate; coiful baroc aproximat.",
+  "hu": "A kiállítási asztal modellje: hosszak, magasságok és tetőhajlás becsült; az északi homlokzat, a támpillérek és az ablakmérművek egyszerűsítettek; a barokk toronysisak közelítő.",
+  "en": "Exhibition-table model: lengths, heights and roof pitch estimated; north elevation, buttresses and window tracery simplified; baroque helm approximated."
+ },
+ "bearingDeg": 89.2,
+ "bearingSource": "OSM way 407273517 long axis 89.2°; west tower at −X, apse to the east (+X)"
+}

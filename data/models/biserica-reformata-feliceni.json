@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 99.4,
+ "bearingSource": "OSM way 495044763 long axis 99.4°; +X = ESE: 3/8 apse to the east, tower to the west, south porch on +Z (OSM outline; aerial photos 02, 05, 07)",
+ "cover": "08",
+ "photosUsed": 12,
+ "approximations": "Heights estimated from partly conflicting photo proportions (no survey): nave eaves ≈ 6.9 m, roof ≈ 48°, string course of the tower ≈ 12.8 m (medieval part up to ~12 m per hu.wikipedia), tower cornice ≈ 20.5 m, sphere at ≈ 34.6 m. Nave and tower centred on one axis (OSM tower trace ≈ 0.9 m off the nave axis). North side not photographed: buttresses mirrored, windows assumed, no porch. Helm built from chamfered-square and octagonal stations (skirt over arched clock cornice, drum, concave bell, cushion, spire) — profile simplified; buttress tile caps and window reveals simplified; churchyard wall not modelled. Copper shown in its 2024 dark oxidised state (2021 photos 09–11 show it new and bright).",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile cu drona și de la sol, calibrată pe conturul OSM; înălțimile pereților și ale turnului sunt estimate, iar latura nordică este presupusă. Coiful și globul din cupru KME sunt redate cu patina întunecată din 2024 (în fotografiile din 2021 cuprul este nou și strălucitor).",
+  "hu": "A drónos és földi fotók alapján értelmezett, az OSM-alaprajzhoz igazított makett; a falak és a torony magassága becsült, az északi oldal feltételezett. A KME rézzel fedett toronysisak és gömb a 2024-es, sötét patinás állapotában látható (a 2021-es fotókon a réz még új és fényes).",
+  "en": "Scale model interpreted from the drone and ground photographs and calibrated on the OSM outline; wall and tower heights are estimated and the north side is assumed. The KME copper helm and sphere are shown in their darkened 2024 appearance (new and bright in the 2021 photographs)."
+ }
+}

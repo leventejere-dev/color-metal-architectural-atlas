@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 107.3,
+ "bearingSource": "OSM way 200648403 long axis 107.3°; +Z (197.3°) faces Calea Radnei, where the glazed showroom front is (OSM street context, photos 01, 02).",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Coarse 4-node OSM outline (71 × 44.7 m); the split between showroom and workshop, the rear and side elevations, service doors and the PV layout are interpreted; heights estimated from people and cars in the photos. No copper is visible in the photographs and its location is not documented: it is shown, as a plausible interpretation, on the parapet copings and flashings, the cap of the showroom canopy and the downpipes, in the weathered brown tone.",
+ "note": {
+  "ro": "Machetă simplificată, interpretată după fotografii de referință publice și conturul OSM; cuprul livrat de COLOR METAL conform evidențelor sale nu se vede în fotografii, iar amplasarea lui nu este documentată — este redat, ca interpretare, la copertinele aticelor, la bordura copertinei showroomului și la burlane. Împărțirea showroom–service și fațadele din spate sunt aproximate.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett, egyszerűsített makett; a COLOR METAL nyilvántartása szerint szállított réz a fotókon nem látható, helye nem dokumentált — értelmezésként az attikafedéseken, a szalon előtetőjének szegélyén és az ejtőcsöveken ábrázoljuk. A szalon és a szerviz felosztása, valamint a hátsó homlokzatok közelítők.",
+  "en": "Simplified scale model interpreted from public reference photographs and the OSM outline; the copper supplied by COLOR METAL according to its records is not visible in the photographs and its location is not documented — it is shown, as an interpretation, on the parapet copings, the edge of the showroom canopy and the downpipes. The showroom/workshop split and the rear elevations are approximated."
+ }
+}

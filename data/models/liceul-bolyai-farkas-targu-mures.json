@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 44.2,
+  "bearingSource": "Direction of the main (park) façade edge of OSM way 31530698 (44.2°); the bounding-box long axis 57.8° is skewed by the splayed V-shaped plan. +Z (134.2°) = main façade towards the park, as in photos 01–02; +X points to Str. Bolyai.",
+  "cover": null,
+  "photosUsed": 4,
+  "approximations": "V-shaped OSM outline simplified to a main wing (48.4 × 13.1 m, rounded front corners) and two straight arms (south-west ≈ 42.8 × 11.8 m, Str. Bolyai ≈ 34 × 13.4 m); storey heights (eave 16.2 m) and bay widths (≈ 4 m) estimated from photos 01–02; the rear courtyard façades, the round stair projections of the courtyard side and the outer façades of both arms are not photographed and drawn as regular window rows; gable, turret helm and grey Secession ornament simplified. Roof materials as photographed in 2023: red tile on the main wing and south-west arm; natural titanium-zinc standing seam on the Bolyai-street arm, the corner-turret helm, the gable coping and the cornice cappings — the exact extent of the titanium-zinc is not documented.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; fațadele dinspre curte și ale aripilor laterale, înălțimile și ornamentația secession sunt aproximate. Titanul-zinc natural livrat de COLOR METAL conform evidențelor sale este redat, ca în fotografiile din 2023, pe aripa dinspre strada Bolyai, pe coiful turnulețului de colț și pe glafurile cornișelor și ale frontonului.",
+    "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; az udvari és oldalszárnyi homlokzatok, a magasságok és a szecessziós díszítés közelítőek. A COLOR METAL nyilvántartása szerint szállított natúr titáncink a 2023-as fotóknak megfelelően a Bolyai utcai szárny tetején, a saroktornyocska sisakján, valamint a párkányok és az oromzat fedésein látható.",
+    "en": "Scale model interpreted from public reference photographs and the OSM outline; the courtyard and side-arm façades, heights and the Secession ornament are approximated. The natural titanium-zinc supplied by COLOR METAL according to its records is shown, as in the 2023 photographs, on the arm along Str. Bolyai, the corner-turret helm and the cappings of the cornices and the gable."
+  }
+}

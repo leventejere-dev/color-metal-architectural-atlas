@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 87.3,
+ "bearingSource": "OSM way 384192443 long axis 87.3°; +X = east: 3/8 apse to the east, tower projection to the west in the OSM outline (aerial photos 01, 03, 05); sacristy on the north side (photos 01–03)",
+ "cover": "02",
+ "photosUsed": 9,
+ "approximations": "All heights estimated from photo proportions (no survey): eaves ≈ 7.6 m, roof ≈ 50°, tower shaft ≈ 19 m, spire tip ≈ 28.1 m, cross to ≈ 30 m. Tower modelled 4.2 m square and centred on the nave axis (OSM tower trace is ≈ 0.8 m off-centre). North lean-to sacristy is not in the OSM outline — size and position estimated from aerial photos 01–03. South windows largely hidden by trees (rhythm assumed); window joinery, tower cartouches and downpipes omitted. Copper helm built from eight-sided stations (square hood over the arched clock cornices, bulb, lantern drum with flared skirt, cap, spire) with seams on the arrises; flat-tile roofs shown as colour with course lines; grey sheet roofs of the corner annexes simplified to corner pyramids; churchyard wall not modelled.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile cu drona și de la sol, calibrată pe conturul OSM; înălțimile sunt estimate, iar ferestrele sudice și dimensiunile sacristiei sunt aproximative. Coiful turnului este redat în cupru nou, strălucitor, ca în fotografii (tablă și bandă Cu-DHP livrate de COLOR METAL).",
+  "hu": "A drónos és földi fotók alapján értelmezett, az OSM-alaprajzhoz igazított makett; a magasságok becsültek, a déli ablakok és a sekrestye mérete közelítő. A toronysisak a fotók szerint új, fényes rézzel jelenik meg (a Cu-DHP rézlemezt és -szalagot a COLOR METAL szállította).",
+  "en": "Scale model interpreted from the drone and ground photographs and calibrated on the OSM outline; heights are estimated, and the south windows and the sacristy size are approximate. The tower helm is shown in bright new copper as photographed (Cu-DHP copper sheet and strip supplied by COLOR METAL)."
+ }
+}

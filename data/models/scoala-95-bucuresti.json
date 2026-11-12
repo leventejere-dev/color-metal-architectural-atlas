@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 82.6,
+ "bearingSource": "OSM relation 17046698 long axis 82.6°; +X points east, the street front (−X, two raised risalits, photo 01) faces west onto Str. Foișorului, which runs along the west side of the outline (OSM road geometry).",
+ "cover": "01",
+ "photosUsed": 5,
+ "approximations": "Perimeter-block plan from the OSM multipolygon (outer ring ≈ 54 × 35 m + stepped east end, courtyard ≈ 35 × 11 m with a half-round stair); the west front is set square to the long axis although the real façade is skewed by ≈ 6°. Only the street front and the long dormered roofs are photographed: the stepped east end and the courtyard elevations are simplified/inferred. Eave ≈ 9.6 m, risalit eaves ≈ 10.9 / 12.8 m, roof pitch ≈ 34° and overhang ≈ 1.2 m scaled from photo 01; numbers of dormers and chimneys estimated; inscription, portals and Neo-Romanian ornament simplified.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință și conturul OSM; fațada spre stradă și acoperișurile sunt redate după fotografii, iar capătul estic, fațadele spre curte și ornamentația neoromânească sunt simplificate.",
+  "hu": "A referenciafotók és az OSM-körvonal alapján értelmezett makett; az utcai homlokzat és a tetők a fotók alapján készültek, a keleti vég, az udvari homlokzatok és a neoromán díszítés egyszerűsített.",
+  "en": "Scale model interpreted from the reference photographs and the OSM outline; the street front and the roofs follow the photographs, while the east end, the courtyard elevations and the Neo-Romanian ornament are simplified."
+ }
+}

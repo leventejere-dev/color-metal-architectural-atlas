@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 49.3,
+ "bearingSource": "OSM long axis 49.3° (way 175996694), +X towards the NE end; the photographed long façade is assumed to be the straight SE side of the outline (dormers on the SE slope are also visible on aerial imagery)",
+ "cover": "01",
+ "photosUsed": 1,
+ "approximations": "Single photograph of part of the SE façade: NW façade repeated without gate and dormers; the NE end, where the OSM outline narrows to ≈ 10.6 m, modelled as a lower hipped block (not photographed); SW end bay and stepped-gable risalit positions from the photo and aerial imagery; heights scaled from the gate and windows (eave ≈ 6.3 m, ridge ≈ 12.2 m, gable ≈ 13.1 m); bay rhythm 19 × 4.6 m; roof drawn as dark grey coated aluminium small-format roofing (the photograph reads warm dark grey-brown; product not documented)",
+ "note": {
+  "ro": "Machetă preliminară după o singură fotografie a fațadei lungi și conturul OSM; fațada opusă, capetele și dimensiunile sunt aproximate. Acoperișul este redat din aluminiu vopsit, de culoare închisă.",
+  "hu": "Előzetes makett a hosszú homlokzatról készült egyetlen fotó és az OSM-körvonal alapján; a túloldali homlokzat, a végek és a méretek közelítőek. A tető sötét színű, bevonatos alumíniumként jelenik meg.",
+  "en": "Preliminary model from a single photograph of the long façade and the OSM outline; the far façade, the ends and the dimensions are approximated. The roof is shown as dark coated aluminium."
+ }
+}

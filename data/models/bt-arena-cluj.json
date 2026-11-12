@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 236.6,
+ "bearingSource": "OSM way 210654887 long axis 56.6°/236.6° (112.9 × 88 m rectangle). Photos 01/02 show the west corner with the Cluj Arena stadium (NE) beyond the far end of the long face, so the photographed long face with the entrances is the north-west side; it is the model front (+Z, 326.6°), hence +X points south-west (236.6°).",
+ "cover": "01",
+ "photosUsed": 2,
+ "approximations": "Only two web photographs of the west corner. Height ≈ 33 m (base ≈ 7 m, seven 3.7 m frame rows) scaled from the entrance doors; frame module ≈ 3.1 m wide with 36 × 28 bays estimated from the photos; frames modelled as plain folded frusta (the real folds are slightly twisted). The other three sides are assumed to repeat the photographed façade; entrance positions on the unphotographed sides, the steel roof structure behind the screen and the roof form are assumptions — the roof is not visible in the photographs and is modelled as a low vault concealed behind the façade screen.",
+ "note": {
+  "ro": "Machetă după conturul OSM și două fotografii ale colțului de vest: înălțimea, numărul de module ale fațadei din rame de aluminiu pliate și acoperișul (nevizibil în fotografii) sunt estimate; celelalte fațade repetă fațada fotografiată.",
+  "hu": "Makett az OSM-körvonal és a nyugati sarokról készült két fotó alapján: a magasság, a hajtott alumíniumkeretes homlokzat modulszáma és a (fotókon nem látható) tető becsült; a többi homlokzat a fotózott homlokzatot ismétli.",
+  "en": "Model based on the OSM outline and two photographs of the west corner: the height, the module count of the folded aluminium-frame façade and the roof (not visible in the photos) are estimates; the other façades repeat the photographed one."
+ }
+}

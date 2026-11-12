@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "preview",
+ "bearingDeg": 90,
+ "bearingSource": "No OSM outline or mapped building exists for the church; +X (towards the polygonal east end, tower at −X) is assumed to point east (90°), the usual orientation of the Reformed churches of the region. Not verified on imagery.",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "No footprint or survey: all dimensions estimated from the photographs (clock ≈ 1 m and tower ≈ 5.2 m as scale; hall ≈ 19.5 × 11.4 m, eaves ≈ 6.6 m, roof ≈ 46°, tower cornice ≈ 18.3 m, spire top ≈ 33 m), possibly ±15 % or more. Orientation assumed. The west front and north side are not photographed (windows assumed, south porch only). The 2022 copper is assumed to clad the needle spire and its skirt; the clay-tile nave roof is kept as photographed.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice; nu există un contur cadastral sau OSM, astfel încât dimensiunile și orientarea sunt estimate. Fotografiile sunt anterioare lucrărilor din 2022: coiful-ac al turnului este redat din cupru furnizat de COLOR METAL conform evidențelor sale (presupunând că acesta a fost învelit), acoperișul navei rămânând din țiglă, așa cum apare în imagini.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett; alaprajz (OSM vagy felmérés) nem áll rendelkezésre, ezért a méretek és a tájolás becsültek. A fotók a 2022-es munkálatok előttiek: a tűsisak a COLOR METAL nyilvántartása szerint általa szállított rézzel jelenik meg (feltételezve, hogy ezt fedték újra), a hajó tetője a fotók szerinti cserépfedés.",
+  "en": "Scale model interpreted from public reference photographs; no outline (OSM or survey) is available, so dimensions and orientation are estimated. The photographs predate the 2022 works: the needle spire is shown in the copper supplied by COLOR METAL according to its records (assuming this is what was re-clad), while the nave keeps the clay-tile roof seen in the photographs."
+ }
+}

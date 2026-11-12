@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 118.3,
+  "bearingSource": "OSM way 517711588 long axis 118.3°; +X points ESE to the altar (narrower east part of the outline), the porch and stair face west as in photo 02",
+  "cover": null,
+  "photosUsed": 6,
+  "approximations": "Plan after the OSM outline with the side apses made symmetrical (6.6 m wide); heights estimated from photos 01–03 using the 10 m west front as scale (skirt roof 4.4–6.0 m, west eave 7.0 m, ridges ≈ 13.5–14.7 m, belfry 15.5–18 m, spire tip ≈ 30 m); roof pitches, log coursing, carvings, porch arches and windows simplified; the monastery's other buildings, gates and well are not modelled. Copper: the 2025 photographs show all roofs, the belfry and the spire in wooden shingles, so the copper sheet of the register cannot be the church's roof covering; it is shown, weathered, on the plausible sheet-metal details of the church (eave drip edges, the collar where the tower leaves the roof, the drip edge of the belfry roof and the spire-tip cap). This placement is an assumption — the copper may also belong to other monastery buildings.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; înălțimile, pantele acoperișurilor și detaliile sculptate sunt aproximate. Acoperișurile bisericii sunt din șindrilă, ca în fotografii; cuprul livrat de COLOR METAL conform evidențelor sale este redat doar pe detaliile de tablă (picurătorile streșinilor, guler la ieșirea turnului din acoperiș, capacele foișorului și vârfului turlei) — o amplasare presupusă.",
+    "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a magasságok, a tetőhajlások és a faragott részletek közelítőek. A templom tetői a fotóknak megfelelően zsindelyesek; a COLOR METAL nyilvántartása szerint szállított vörösréz csak a bádogos részleteken látható (ereszcsepegtetők, a torony tetőből kilépő gallérja, a harangláb-tető és a toronysisak csúcsának fedése) – ez feltételezett elhelyezés.",
+    "en": "Scale model interpreted from public reference photographs and the OSM outline; heights, roof pitches and the carved details are approximated. The church roofs are wooden shingles as photographed; the copper supplied by COLOR METAL according to its records is shown only on the sheet-metal details (eave drip edges, the collar where the tower leaves the roof, the belfry-roof and spire-tip caps) — an assumed placement."
+  }
+}

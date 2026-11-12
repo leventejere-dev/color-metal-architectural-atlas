@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 74.8,
+ "bearingSource": "OSM way 203267860 long axis 74.8°; +X towards the polygonal altar apse (ENE end of the outline), western portico at −X (photos 02, 03, 06, 08)",
+ "cover": "02",
+ "photosUsed": 7,
+ "approximations": "Socle (3 m), cornice (14.1 m) and pediment heights and the 30° roof pitch estimated; tower profiles measured on the side view (photo 06, ±0.5 m) and their axial positions ±1 m; north elevation assumed to mirror the photographed south side; relief frieze, capitals and window joinery simplified. Photos 04/05 show the separate gate bell tower and 09–12 the precinct — not part of this model.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile aeriene: acoperiș în patru ape din cupru cu cele patru turle bulbate îmbrăcate în tablă, porticul de vest și absida poligonală. Înălțimile pereților, panta acoperișului și profilele turlelor sunt estimate; latura nordică este presupusă identică cu cea sudică, iar friza este simplificată.",
+  "hu": "A drónfotók alapján értelmezett makett: kontyolt réztető a négy fémlemez-borítású hagymatoronnyal, a nyugati portikusz és a sokszögű apszis. A falmagasságok, a tetőhajlás és a toronyprofilok becsültek; az északi oldalt a délivel azonosnak feltételeztük, a fríz egyszerűsített.",
+  "en": "Scale model interpreted from the drone photographs: hipped copper roof with the four sheet-metal bulb towers, western portico and polygonal apse. Wall heights, roof pitch and tower profiles are estimated; the north side is assumed to match the south side and the frieze is simplified."
+ }
+}

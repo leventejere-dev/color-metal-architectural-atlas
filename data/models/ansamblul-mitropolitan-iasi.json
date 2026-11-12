@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 60.2,
+ "bearingSource": "OSM way 203149116 long axis 60.2°; +X towards the hexastyle-portico / fountain end (NE, altar), main entrance with the painted loggia at −X (SW) — from sun shadows in the vertical drone photo 02 and the fountain seen in photos 02 and 12",
+ "cover": "03",
+ "photosUsed": 12,
+ "approximations": "Storey heights (main cornice 21.5 m, belfry 25.4–33.4 m), nave roof pitch (36°) and tower axes (±21.2 / ±11.85 m, ±1 m) estimated from the photographs; overall width 33.8 m taken between the OSM outline (37.6 m) and the published 34.15 m; end-bay roofs behind the attics simplified as hips; reliefs, Corinthian capitals, Vitruvian frieze and dentils simplified; rustication without vertical joints; loggia frescoes shown as a plain painted surface; copper shown aged dark brown (greener on the low aisle strips) as photographed.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință și conturul OSM: patru turnuri cu cupole nervurate din cupru, acoperișul abrupt din cupru al navei cu creasta decorativă, loggia pictată și porticul hexastil. Înălțimile nivelurilor, panta acoperișului și distanța dintre turnuri sunt estimate; reliefurile, capitelurile și bosajul sunt simplificate.",
+  "hu": "A referenciafotók és az OSM-körvonal alapján értelmezett makett: négy torony bordázott rézkupolákkal, a hajó meredek, díszgerinces rézteteje, a festett loggia és a hatoszlopos portikusz. A szintmagasságok, a tetőhajlás és a tornyok távolsága becsült; a domborművek, oszlopfők és a kváderezés egyszerűsítettek.",
+  "en": "Scale model interpreted from the reference photographs and the OSM outline: four towers with ribbed copper domes, the steep copper nave roof with its cresting, the painted loggia and the hexastyle portico. Storey heights, roof pitch and tower spacing are estimated; reliefs, capitals and rustication are simplified."
+ }
+}

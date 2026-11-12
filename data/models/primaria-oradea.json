@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 17.0,
+ "bearingSource": "OSM relation 6481078 long axis 17.0°; +Z (107°) is the Piața Unirii front with the domed central pavilion (photos 01, 02); the river side (+X) carries the clock tower (OSM way 1207602388, photos 03, 04).",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "Plan from the OSM multipolygon (courtyard block, rear annexes, river wing and tower). Heights scaled from photo 03 against the 50 m tower (OSM height): main cornice ≈19 m, pavilion attic ≈25.6 m, lantern finial ≈41 m. Bay counts of the long −X façade and the river side estimated; rear annexes and courtyard elevations not photographed (plain façades and copper roofs assumed); giant orders, statues, balustrades, window pediments and the coat of arms simplified; the tower is turned to the cardinal directions as in OSM.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice și conturul OSM; acoperișurile mansardate, domul pavilionului central și lanterna sunt redate în cupru, materialul livrat de COLOR METAL conform evidențelor sale, în tonul brun fotografiat în 2023–2025. Anexele posterioare și fațadele curții nu sunt fotografiate și sunt simplificate, iar ornamentația este schematizată.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a manzárdtetők, a középrizalit kupolája és lanternája rézből készültek – a COLOR METAL nyilvántartása szerint általa szállított anyag –, a 2023–2025-ös fotókon látható barna árnyalatban. A hátsó szárnyakról és az udvari homlokzatokról nincs fotó, ezek egyszerűsítettek, a díszítés vázlatos.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the mansard roofs, the dome of the central pavilion and its lantern are shown in copper – the material supplied by COLOR METAL according to its records – in the brown tone photographed in 2023–25. The rear annexes and courtyard elevations were not photographed and are simplified; ornament is schematic."
+ }
+}

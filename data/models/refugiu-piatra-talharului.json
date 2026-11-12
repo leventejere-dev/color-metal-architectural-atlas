@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 90,
+ "bearingSource": "No OSM outline (node only). Estimate: the entrance front with the photovoltaic slope and the lantern glazing (+Z) is taken to face south, consistent with the Vlădeasa massif (NNE of the refuge) in the background of front drone photo 01; uncertain by about ±30°.",
+ "cover": "01",
+ "photosUsed": 12,
+ "approximations": "All dimensions scaled from the photographs (door ≈ 2.0 m, four-riser stair, square window ≈ 1.0 m) — about 7.8 × 4.6 m walls, roof 9.6 m long, ≈ 7 m high, ±10 %. The roof (back plane, front PV plane, conical corner fans from the lantern foot, end triangles) is reconstructed from drone views 04/07 and elevations 03/09/12; the eave polyline in plan, lantern section, door recess, porch depth and window sizes are estimated. The photographs show the walls clad in dark-stained timber boards (modelled so); the PREFA anthracite aluminium is the standing-seam roof that reaches down to ≈ 1.1–1.3 m above the floor. Back and right end walls assumed windowless (photos 05, 11, 12). Photo 10 appears to be mirrored and was used only for the porch rafters. PV field simplified to 2 × 5 modules; weather mast and outhouse omitted.",
+ "note": {
+  "ro": "Machetă interpretată după cele 12 fotografii de referință (fără contur OSM): dimensiunile sunt estimate după uși și trepte; acoperișul abrupt din aluminiu PREFA antracit cu fălțuire dublă, evantaiele de la colțuri și luminatorul de coamă sunt reconstituite după fotografiile cu drona, iar pereții din lemn închis la culoare sunt redați așa cum apar în fotografii.",
+  "hu": "A 12 referenciafotó alapján értelmezett makett (OSM-körvonal nélkül): a méretek az ajtók és lépcsők alapján becsültek; a meredek, antracit PREFA alumínium állókorcos tető, a sarkok legyezőszerű lemezelése és a gerincfelülvilágító a drónfotók alapján rekonstruált, a sötét fa homlokzatburkolat a fotók szerint készült.",
+  "en": "Scale model interpreted from the 12 reference photographs (no OSM outline): dimensions are estimated from doors and steps; the steep PREFA anthracite aluminium standing-seam roof, its fanned corners and the ridge lantern are reconstructed from the drone views, and the dark timber walls follow the photographs."
+ }
+}

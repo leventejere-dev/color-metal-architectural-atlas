@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 274.9,
+ "bearingSource": "OSM way 193032540 long axis 94.9° flipped by 180° so that +Z (4.9°, north) is the main façade on Piața Libertății with the risalit and gateway (photos 01–03); the rear wings of the U plan point south (−Z).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "U-shaped plan after OSM. Heights scaled from the frontal photos and the OSM height (15 m): cornice ≈11.2 m, risalit cornice ≈12.6 m, ridge ≈16.8 m, roof pitch ≈32°. Courtyard, rear and side elevations not photographed (regular bays assumed); stucco, lesenes and window surrounds simplified. The photographs (latest Aug 2025) still show tiles; which roof surfaces received titanium-zinc is not documented, so all roofs are shown in it.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice și conturul OSM; acoperișurile sunt redate în titan-zinc natural fălțuit, materialul livrat de COLOR METAL conform evidențelor sale, deoarece fotografiile disponibile arată încă învelitoarea veche de țiglă. Fațadele spre curte și din spate, înălțimile și decorația sunt aproximate.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a tetőket natúr titáncink állókorcos fedéssel ábrázoljuk – a COLOR METAL nyilvántartása szerint általa szállított anyaggal –, mert az elérhető fotókon még a régi cserépfedés látszik. Az udvari és hátsó homlokzatok, a magasságok és a díszítés közelítők.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the roofs are shown in natural titanium-zinc standing seam – the material supplied by COLOR METAL according to its records – because the available photographs still show the old tile covering. Courtyard and rear elevations, heights and decoration are approximated."
+ }
+}

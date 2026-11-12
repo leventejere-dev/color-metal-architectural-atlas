@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 30.6,
+ "bearingSource": "OSM long axis 30.6° (way 545039254); +X points to the main façade on the square (NNE end): the polygonal corner bay of the photos matches the chamfered NW corner of the OSM outline, and the roundabout seen behind the stage end (photos 02, 07) lies south-west of the building",
+ "cover": "03",
+ "photosUsed": 9,
+ "approximations": "OSM outline is coarse (51.9 × 21.8 m kept); the split front block ≈ 9 m / hall ≈ 32 m / stage tower ≈ 12 m and all heights (flanks 11.8 m, central block 15.4 m, hall eave 14.6 m, stage tower 21.2 m + low roof) estimated from photos 01–07; ESE side and rear elevations barely visible — modelled as plain walls with a one-storey annex; corner bay drawn as a regular decagon; the light joint grid on the WNW roof slopes reproduced as strips as photographed; friezes, balcony balustrade and inscription simplified; copper shown as aged dark grey-brown",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile din dronă și de la sol și după conturul OSM; înălțimile, fațadele din spate și dinspre est și ornamentația sunt aproximate. Acoperișurile din cupru îmbătrânit sunt redate închise la culoare, ca în fotografii.",
+  "hu": "A drónos és utcai referenciafotók, valamint az OSM-körvonal alapján értelmezett makett; a magasságok, a hátsó és keleti homlokzatok és a díszítés közelítőek. Az öregedett vörösréz tetők a fotóknak megfelelően sötét tónusúak.",
+  "en": "Scale model interpreted from the drone and street photographs and the OSM outline; heights, the rear and east elevations and the ornament are approximated. The aged copper roofs are shown dark, as photographed."
+ }
+}

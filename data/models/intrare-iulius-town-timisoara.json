@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 0.0,
+ "bearingSource": "Unknown: the photographs do not show which side of the mall the entrance is on (no footprint in data/geo). +X = the passage axis (outside), set to north by convention.",
+ "cover": "01",
+ "photosUsed": 2,
+ "approximations": "Only the copper-clad revolving-door drum is modelled, as an object; the mall façade (glazing and granite band) is excluded. Diameter (≈2.8 m) and heights (doors 2.4 m, crown to ≈2.95 m) are estimated from the door proportions; the two curved walls are assumed to span ≈100° each; door wings simplified, posters omitted. Its location on the mall and its orientation could not be resolved.",
+ "note": {
+  "ro": "Obiect interpretat după două fotografii: ușa rotativă a intrării, cu tamburul și coroana îmbrăcate în tablă de cupru. Dimensiunile sunt estimate, iar poziția intrării pe clădirea mall-ului nu este cunoscută.",
+  "hu": "Két fotó alapján értelmezett objektum: a bejárat forgóajtaja, rézlemez burkolatú dobbal és koronával. A méretek becsültek, a bejárat helye a bevásárlóközpont épületén nem ismert.",
+  "en": "Object interpreted from two photographs: the entrance revolving door with its drum and crown clad in copper sheet. Dimensions are estimated and the position of the entrance on the mall building is not known."
+ }
+}

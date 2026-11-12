@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 45.9,
+  "bearingSource": "OSM way 188099781 long axis 45.9°; +X points north-east to the polygonal (altar) end of the coarse outline, the west porch and steps face the plaza at −X (photo 04)",
+  "cover": "05",
+  "photosUsed": 6,
+  "approximations": "All six photographs are ground-level views of the west front, the south-west corner and tower details; there is no aerial view or plan. Plan depths are interpreted: pronaos ≈ 18 × 30.6 m, cross-in-square naos ≈ 30 × 30 m with four barrel-vaulted arms and four corner towers, east end (barrel-roofed sanctuary with semicircular altar apse, lower prothesis/diaconicon bays with small conch apses) read from photos 02, 05 and 06; the north side and the east end are mirrored/interpreted. Heights scaled from photos 03 and 04 (pronaos cornice ≈ 18 m, naos cornice ≈ 31.5 m, main drum Ø ≈ 11.6 m, cross ≈ 59 m), consistent with the ~60 m of the project text and the 'over 50 m' of the press. The domes are zinc diamond shingles in reality and are modelled smooth with hip ribs; zinc shown in the weathered mid grey of the photographs. Capitals, modillions, mosaics and window frames simplified.",
+  "note": {
+    "ro": "Machetă interpretată după șase fotografii de la nivelul solului: fațada vestică, turlele și proporțiile generale urmează fotografiile, iar adâncimile volumelor, capătul estic și fațada nordică sunt aproximate (nu a existat o vedere aeriană). Cupolele din solzi de zinc sunt redate netede, cu nervuri.",
+    "hu": "Hat földszinti fotó alapján értelmezett makett: a nyugati homlokzat, a tornyok és a fő arányok a fotókat követik, a tömegek mélysége, a keleti rész és az északi homlokzat közelítő (légifotó nem volt). A cinkpikkelyes kupolák simán, bordákkal jelennek meg.",
+    "en": "Scale model interpreted from six ground-level photographs: the west front, the towers and the overall proportions follow the photos, while the depth of the volumes, the east end and the north side are approximated (no aerial view was available). The zinc-shingle domes are shown smooth with ribs."
+  }
+}

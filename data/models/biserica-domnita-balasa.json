@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 111.2,
+ "bearingSource": "OSM way 78564921 long axis 111.2°; the three-faced altar apse is at the ESE end of the outline (+X), the columned entrance porch and main gable at the WNW end (−X), as in photo 06",
+ "cover": "07",
+ "photosUsed": 12,
+ "approximations": "OSM height=40 is unsourced; the proportions of photos 06, 07 and 12 point to a lower cross, ≈ 35 m is used. Five-tower layout, gables, porches and drums from the photos; east end (chancel, polygonal apse with half-hip roof) and south side not photographed — derived from the OSM outline and mirrored from the north. Polychrome stone-and-brick masonry reduced to brick bands; window, oculus and frieze counts approximated; porch ornament and gilded dome crowns simplified. TECU Patina Oslo rendered in the dark teal seen in the photos.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință și conturul OSM; înălțimile sunt estimate din proporțiile fotografiilor, capătul estic și fațada sudică sunt aproximate, iar zidăria policromă este redusă la benzi.",
+  "hu": "A referenciafotók és az OSM-körvonal alapján értelmezett makett; a magasságok a fotók arányaiból becsültek, a keleti vég és a déli homlokzat közelítő, a polikróm falazat sávokra egyszerűsített.",
+  "en": "Scale model interpreted from the reference photographs and the OSM outline; heights are estimated from the photo proportions, the east end and south elevation are approximated, and the polychrome masonry is reduced to bands."
+ }
+}

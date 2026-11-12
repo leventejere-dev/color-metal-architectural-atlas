@@ -1,0 +1,2450 @@
+[
+ {
+  "id": "ateneul-roman",
+  "officialName": "Ateneul Român",
+  "nameHu": "Román Athenaeum",
+  "altNames": [
+   "Romanian Athenaeum",
+   "Román Atheneum"
+  ],
+  "address": "Strada Benjamin Franklin 1-3, Sector 1, 010287 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.441346,
+  "lon": 26.097359,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 16291602,
+   "tags": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "1-3",
+    "addr:postcode": "010287",
+    "addr:street": "Strada Benjamin Franklin",
+    "amenity": "theatre",
+    "building": "civic",
+    "building:levels": "2",
+    "height": "41",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Ateneul Român",
+    "name:en": "Romanian Atheneum",
+    "name:hu": "Román Atheneum",
+    "name:ro": "Ateneul Român",
+    "ref:RO:lmi": "B-II-m-A-18789",
+    "roof:levels": "1",
+    "roof:shape": "mixed",
+    "start_date": "1888",
+    "theatre:genre": "philharmonic",
+    "theatre:type": "concert_hall",
+    "tourism": "attraction",
+    "wheelchair": "no",
+    "wikidata": "Q755457",
+    "wikipedia": "ro:Ateneul Român"
+   }
+  },
+  "footprint": [
+   [
+    44.441403,
+    26.096937
+   ],
+   [
+    44.441311,
+    26.097026
+   ],
+   [
+    44.441267,
+    26.096934
+   ],
+   [
+    44.44107,
+    26.09712
+   ],
+   [
+    44.441115,
+    26.097215
+   ],
+   [
+    44.441033,
+    26.097294
+   ],
+   [
+    44.441069,
+    26.097366
+   ],
+   [
+    44.441196,
+    26.097622
+   ],
+   [
+    44.441278,
+    26.097788
+   ],
+   [
+    44.441703,
+    26.097536
+   ],
+   [
+    44.441563,
+    26.097259
+   ],
+   [
+    44.441539,
+    26.097213
+   ],
+   [
+    44.441438,
+    26.097009
+   ],
+   [
+    44.441421,
+    26.096974
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 67.3,
+   "widthM": 50.2,
+   "bearingDeg": 55.2
+  },
+  "heightHints": "height = 41 m (OSM tag height=41 on way 16291602; Wikidata Q755457 P2048 = 41 m). OSM building:levels=2, roof:levels=1, roof:shape=mixed (central dome).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/16291602",
+   "https://www.wikidata.org/wiki/Q755457",
+   "https://ro.wikipedia.org/wiki/Ateneul_Rom%C3%A2n"
+  ],
+  "verificationNotes": "OSM way 16291602 is explicitly named 'Ateneul Român' (amenity=theatre, building=civic) with ref:RO:lmi=B-II-m-A-18789 and wikidata=Q755457; Wikidata gives the same LMI code, address 'Str. Franklin Benjamin 1-3 sector 1' and coordinates 44.4413, 26.0973 (about 7 m from the outline centroid). Coordinates = centroid of the OSM outline (about 2880 m2, minimum rectangle 67.3 x 50.2 m incl. portico). nameHu: Wikidata Hungarian label 'Román Athenaeum'; OSM name:hu spells it 'Román Atheneum'."
+ },
+ {
+  "id": "biblioteca-academiei-romane",
+  "officialName": "Biblioteca Academiei Române",
+  "nameHu": null,
+  "altNames": [
+   "Library of the Romanian Academy",
+   "BAR"
+  ],
+  "address": "Calea Victoriei 125, Sector 1, 010071 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.445163,
+  "lon": 26.089342,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 405546989,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "125",
+    "addr:postcode": "010071",
+    "addr:street": "Calea Victoriei",
+    "building": "public",
+    "building:levels": "6",
+    "name": "Biblioteca Academiei Române",
+    "roof:shape": "flat",
+    "smoking": "no",
+    "website": "https://biblacad.ro/"
+   }
+  },
+  "footprint": [
+   [
+    44.44535,
+    26.089468
+   ],
+   [
+    44.445437,
+    26.08973
+   ],
+   [
+    44.445394,
+    26.089751
+   ],
+   [
+    44.445341,
+    26.089762
+   ],
+   [
+    44.4453,
+    26.089762
+   ],
+   [
+    44.445255,
+    26.089741
+   ],
+   [
+    44.445217,
+    26.089702
+   ],
+   [
+    44.445186,
+    26.089617
+   ],
+   [
+    44.445084,
+    26.089321
+   ],
+   [
+    44.444876,
+    26.088718
+   ],
+   [
+    44.444958,
+    26.088712
+   ],
+   [
+    44.445075,
+    26.089068
+   ],
+   [
+    44.445147,
+    26.089288
+   ],
+   [
+    44.44524,
+    26.089539
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 99.5,
+   "widthM": 21.6,
+   "bearingDeg": 64.2
+  },
+  "heightHints": "No height found. OSM building:levels=6, roof:shape=flat for the named street wing; adjacent unnamed library wings on the same lot are tagged 7, 8, 11 and 12 levels (ways 405546991, 405546993, 405546995, 405546987, 405546997 – presumably the book depot/tower and the 1964 section). ro.wikipedia: 1927–1928 seven-storey depot, 1936–1938 building (described as a cubist architecture monument), 1964 section.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/405546989",
+   "https://ro.wikipedia.org/wiki/Biblioteca_Academiei_Rom%C3%A2ne",
+   "https://biblacad.ro/"
+  ],
+  "verificationNotes": "OSM way 405546989 is named 'Biblioteca Academiei Române' with addr Calea Victoriei 125 and website biblacad.ro; ro.wikipedia gives the same address and describes the building phases (1927–28 depot, 1936–38 building, 1964 section). The library is a multi-wing complex: the coordinates are the centroid of the named street-front wing (outline 1005 m2; the minimum rectangle 99.5 x 21.6 m reflects an L/irregular plan). the historic Romanian Academy palace (OSM way 75502499, about 140 m north-east, also listed under Calea Victoriei 125) is a separate building and was not chosen. No attested Hungarian name (project's 'Román Akadémia Könyvtára' is a translation)."
+ },
+ {
+  "id": "biserica-amzei",
+  "officialName": "Biserica Amzei",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Ortodoxă „Amzei”",
+   "Church of Amza"
+  ],
+  "address": "Strada Biserica Amzei 12, Sector 1, 010394 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.44441,
+  "lon": 26.093857,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 76915020,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "12",
+    "addr:postcode": "010394",
+    "addr:street": "Strada Biserica Amzei",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2023-11-08",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "name": "Biserica Ortodoxă \"Amzei\"",
+    "religion": "christian",
+    "start_date": "1901",
+    "wheelchair": "no",
+    "wikidata": "Q25461143",
+    "wikipedia": "ro:Biserica Amzei"
+   }
+  },
+  "footprint": [
+   [
+    44.444498,
+    26.09397
+   ],
+   [
+    44.444491,
+    26.093944
+   ],
+   [
+    44.444499,
+    26.093936
+   ],
+   [
+    44.444508,
+    26.093904
+   ],
+   [
+    44.444497,
+    26.09387
+   ],
+   [
+    44.444478,
+    26.093859
+   ],
+   [
+    44.44447,
+    26.093864
+   ],
+   [
+    44.444425,
+    26.093694
+   ],
+   [
+    44.444414,
+    26.093699
+   ],
+   [
+    44.444412,
+    26.093691
+   ],
+   [
+    44.444417,
+    26.093681
+   ],
+   [
+    44.444414,
+    26.093669
+   ],
+   [
+    44.444406,
+    26.093667
+   ],
+   [
+    44.444404,
+    26.09366
+   ],
+   [
+    44.444323,
+    26.0937
+   ],
+   [
+    44.444325,
+    26.093707
+   ],
+   [
+    44.444321,
+    26.093718
+   ],
+   [
+    44.444324,
+    26.093731
+   ],
+   [
+    44.444331,
+    26.093731
+   ],
+   [
+    44.444333,
+    26.093741
+   ],
+   [
+    44.444324,
+    26.093746
+   ],
+   [
+    44.444368,
+    26.093912
+   ],
+   [
+    44.444358,
+    26.093918
+   ],
+   [
+    44.444349,
+    26.093949
+   ],
+   [
+    44.44436,
+    26.093989
+   ],
+   [
+    44.44438,
+    26.094
+   ],
+   [
+    44.44439,
+    26.093994
+   ],
+   [
+    44.444397,
+    26.094022
+   ],
+   [
+    44.444415,
+    26.094013
+   ],
+   [
+    44.444418,
+    26.094025
+   ],
+   [
+    44.44444,
+    26.09404
+   ],
+   [
+    44.444474,
+    26.09402
+   ],
+   [
+    44.444481,
+    26.093991
+   ],
+   [
+    44.444478,
+    26.09398
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.9,
+   "widthM": 17.8,
+   "bearingDeg": 69.1
+  },
+  "heightHints": "No height in OSM or Wikidata. ro.wikipedia: cross/triconch plan, 28.7 m long, 11–15.5 m wide (OSM outline minimum rectangle 29.9 x 17.8 m, consistent).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/76915020",
+   "https://www.wikidata.org/wiki/Q25461143",
+   "https://ro.wikipedia.org/wiki/Biserica_Amzei"
+  ],
+  "verificationNotes": "OSM way 76915020 named 'Biserica Ortodoxă \"Amzei\"' (building=church, wikidata Q25461143, addr Str. Biserica Amzei 12). Wikidata and ro.wikipedia: same address, LMI B-II-m-B-18148, built 1898–1901, architects Alexandru Săvulescu and Siegfrid Kofczinsky. Wikidata point is about 19 m from the outline centroid. No attested Hungarian name (project value 'Amzei-templom' is a translation)."
+ },
+ {
+  "id": "biserica-casin",
+  "officialName": "Biserica Cașin",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Cașin",
+   "Cașin Church",
+   "Biserica „Sfinții Arhangheli Mihail și Gavriil” și „Sfânta Mare Muceniță Ecaterina”"
+  ],
+  "address": "Bulevardul Mărăști 16, Sector 1, 011467 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.467621,
+  "lon": 26.074855,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 88120970,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "16",
+    "addr:postcode": "011467",
+    "addr:street": "Bulevardul Mărăști",
+    "alt_name": "Mănăstirea Cașin",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Cașin",
+    "name:en": "Cașin Church",
+    "name:ro": "Biserica Cașin",
+    "religion": "christian",
+    "service_times": "Mo-Su 08:30-18:30",
+    "start_date": "1938"
+   }
+  },
+  "footprint": [
+   [
+    44.467649,
+    26.07457
+   ],
+   [
+    44.46782,
+    26.074791
+   ],
+   [
+    44.46774,
+    26.074912
+   ],
+   [
+    44.467719,
+    26.074885
+   ],
+   [
+    44.467657,
+    26.074979
+   ],
+   [
+    44.467659,
+    26.074981
+   ],
+   [
+    44.467664,
+    26.074993
+   ],
+   [
+    44.467666,
+    26.075006
+   ],
+   [
+    44.467665,
+    26.075019
+   ],
+   [
+    44.467661,
+    26.075032
+   ],
+   [
+    44.467654,
+    26.075042
+   ],
+   [
+    44.467646,
+    26.075048
+   ],
+   [
+    44.467636,
+    26.075051
+   ],
+   [
+    44.467627,
+    26.075049
+   ],
+   [
+    44.467618,
+    26.075043
+   ],
+   [
+    44.467616,
+    26.075041
+   ],
+   [
+    44.467567,
+    26.075114
+   ],
+   [
+    44.467542,
+    26.075081
+   ],
+   [
+    44.467527,
+    26.075091
+   ],
+   [
+    44.46751,
+    26.075094
+   ],
+   [
+    44.467494,
+    26.075088
+   ],
+   [
+    44.46748,
+    26.075075
+   ],
+   [
+    44.467469,
+    26.075057
+   ],
+   [
+    44.467464,
+    26.075035
+   ],
+   [
+    44.467464,
+    26.075011
+   ],
+   [
+    44.467469,
+    26.07499
+   ],
+   [
+    44.46747,
+    26.074987
+   ],
+   [
+    44.467462,
+    26.074976
+   ],
+   [
+    44.467443,
+    26.074952
+   ],
+   [
+    44.467492,
+    26.074879
+   ],
+   [
+    44.46749,
+    26.074875
+   ],
+   [
+    44.467485,
+    26.074862
+   ],
+   [
+    44.467484,
+    26.074847
+   ],
+   [
+    44.467487,
+    26.074833
+   ],
+   [
+    44.467493,
+    26.07482
+   ],
+   [
+    44.467501,
+    26.074811
+   ],
+   [
+    44.467511,
+    26.074807
+   ],
+   [
+    44.467522,
+    26.074808
+   ],
+   [
+    44.467532,
+    26.074814
+   ],
+   [
+    44.467533,
+    26.074817
+   ],
+   [
+    44.467594,
+    26.074726
+   ],
+   [
+    44.467568,
+    26.074693
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 42.2,
+   "widthM": 25.9,
+   "bearingDeg": 132.7
+  },
+  "heightHints": "ro.wikipedia: main dome about 50 m high; church 42 m long and 29 m wide (OSM outline minimum rectangle 42.2 x 25.9 m). ro.wikipedia also notes copper-sheet roofing in the 2010 exterior renovation.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/88120970",
+   "https://ro.wikipedia.org/wiki/Biserica_Ca%C8%99in"
+  ],
+  "verificationNotes": "OSM way 88120970 named 'Biserica Cașin' (alt_name Mănăstirea Cașin, building=church, addr Bd. Mărăști 16). ro.wikipedia confirms the church on Bd. Mărăști near the Arcul de Triumf, architect Dimitrie Ionescu-Berechet, built 1935–1938 (works continued to 1971), patron saints Archangels Michael and Gabriel and St Catherine, with dimensions matching the OSM outline. House number 16 comes from OSM only. No LMI code found."
+ },
+ {
+  "id": "biserica-domnita-balasa",
+  "officialName": "Biserica „Înălțarea Domnului” – Domnița Bălașa",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Domnița Bălașa",
+   "Domnița Bălașa Church"
+  ],
+  "address": "Strada Sfinții Apostoli 60, București (church website: Sector 4; LMI/Wikidata: Sector 5)",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.428249,
+  "lon": 26.100259,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 78564921,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "60",
+    "addr:postcode": "040091",
+    "addr:street": "Strada Sfinții Apostoli",
+    "amenity": "place_of_worship",
+    "amenity_1": "hram: Înălțarea Domnului",
+    "architect": "Alexandru Orăscu",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "height": "40",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Biserica Domnița Bălașa",
+    "name:en": "Domnița Bălașa Church",
+    "name:ro": "Biserica  Domnița Bălașa",
+    "ref:RO:lmi": "B-II-m-A-19682",
+    "religion": "christian",
+    "start_date": "1895",
+    "website": "https://domnitabalasa.ro/",
+    "wikidata": "Q12721829",
+    "wikipedia": "ro:Biserica Domnița Bălașa"
+   }
+  },
+  "footprint": [
+   [
+    44.428352,
+    26.100131
+   ],
+   [
+    44.428344,
+    26.100157
+   ],
+   [
+    44.428341,
+    26.10017
+   ],
+   [
+    44.428339,
+    26.100176
+   ],
+   [
+    44.428327,
+    26.100216
+   ],
+   [
+    44.428336,
+    26.100221
+   ],
+   [
+    44.428347,
+    26.100227
+   ],
+   [
+    44.428361,
+    26.100235
+   ],
+   [
+    44.428358,
+    26.100245
+   ],
+   [
+    44.428362,
+    26.100248
+   ],
+   [
+    44.428365,
+    26.100256
+   ],
+   [
+    44.428362,
+    26.100266
+   ],
+   [
+    44.428359,
+    26.100276
+   ],
+   [
+    44.428353,
+    26.10028
+   ],
+   [
+    44.428349,
+    26.100277
+   ],
+   [
+    44.428347,
+    26.100286
+   ],
+   [
+    44.428336,
+    26.100315
+   ],
+   [
+    44.428332,
+    26.10033
+   ],
+   [
+    44.42833,
+    26.100337
+   ],
+   [
+    44.428326,
+    26.10035
+   ],
+   [
+    44.428319,
+    26.100384
+   ],
+   [
+    44.428316,
+    26.100393
+   ],
+   [
+    44.42832,
+    26.100396
+   ],
+   [
+    44.428322,
+    26.100404
+   ],
+   [
+    44.42832,
+    26.100414
+   ],
+   [
+    44.428317,
+    26.100424
+   ],
+   [
+    44.428311,
+    26.100428
+   ],
+   [
+    44.428307,
+    26.100425
+   ],
+   [
+    44.428304,
+    26.100435
+   ],
+   [
+    44.428269,
+    26.100416
+   ],
+   [
+    44.428261,
+    26.100445
+   ],
+   [
+    44.428243,
+    26.100435
+   ],
+   [
+    44.428229,
+    26.100463
+   ],
+   [
+    44.42822,
+    26.100469
+   ],
+   [
+    44.428213,
+    26.100473
+   ],
+   [
+    44.428196,
+    26.100464
+   ],
+   [
+    44.428168,
+    26.100449
+   ],
+   [
+    44.428166,
+    26.100439
+   ],
+   [
+    44.428163,
+    26.100426
+   ],
+   [
+    44.428167,
+    26.100394
+   ],
+   [
+    44.428149,
+    26.100384
+   ],
+   [
+    44.428156,
+    26.100357
+   ],
+   [
+    44.428141,
+    26.100349
+   ],
+   [
+    44.428135,
+    26.100346
+   ],
+   [
+    44.428131,
+    26.100344
+   ],
+   [
+    44.428125,
+    26.100328
+   ],
+   [
+    44.428116,
+    26.100324
+   ],
+   [
+    44.428121,
+    26.100306
+   ],
+   [
+    44.428134,
+    26.100296
+   ],
+   [
+    44.428136,
+    26.100287
+   ],
+   [
+    44.428138,
+    26.100288
+   ],
+   [
+    44.428147,
+    26.100256
+   ],
+   [
+    44.428152,
+    26.100237
+   ],
+   [
+    44.428156,
+    26.100223
+   ],
+   [
+    44.428166,
+    26.100189
+   ],
+   [
+    44.428166,
+    26.100178
+   ],
+   [
+    44.428158,
+    26.100174
+   ],
+   [
+    44.42816,
+    26.100168
+   ],
+   [
+    44.428165,
+    26.100148
+   ],
+   [
+    44.428167,
+    26.100142
+   ],
+   [
+    44.428171,
+    26.100144
+   ],
+   [
+    44.428175,
+    26.100146
+   ],
+   [
+    44.428178,
+    26.100137
+   ],
+   [
+    44.428186,
+    26.100141
+   ],
+   [
+    44.428202,
+    26.10015
+   ],
+   [
+    44.428203,
+    26.100151
+   ],
+   [
+    44.428212,
+    26.100156
+   ],
+   [
+    44.428219,
+    26.100131
+   ],
+   [
+    44.428225,
+    26.10011
+   ],
+   [
+    44.428228,
+    26.100098
+   ],
+   [
+    44.428235,
+    26.100071
+   ],
+   [
+    44.428253,
+    26.100074
+   ],
+   [
+    44.428256,
+    26.100064
+   ],
+   [
+    44.428258,
+    26.100054
+   ],
+   [
+    44.428275,
+    26.100024
+   ],
+   [
+    44.428313,
+    26.100045
+   ],
+   [
+    44.428342,
+    26.10006
+   ],
+   [
+    44.428341,
+    26.100096
+   ],
+   [
+    44.428338,
+    26.100107
+   ],
+   [
+    44.428336,
+    26.100116
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 35.8,
+   "widthM": 23.8,
+   "bearingDeg": 111.2
+  },
+  "heightHints": "OSM tag height=40 on way 78564921 (unsourced OSM value, presumably to the top of the main tower). No height given by ro.wikipedia or Wikidata.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/78564921",
+   "https://www.wikidata.org/wiki/Q12721829",
+   "https://ro.wikipedia.org/wiki/Biserica_Domni%C8%9Ba_B%C4%83la%C8%99a",
+   "https://domnitabalasa.ro/"
+  ],
+  "verificationNotes": "OSM way 78564921 named 'Biserica Domnița Bălașa' with ref:RO:lmi=B-II-m-A-19682, wikidata Q12721829, website domnitabalasa.ro. ro.wikipedia: built 1881–1885 (plans by Carol Benisch, with Alexandru Orăscu and F. Hartmann), LMI B-II-m-A-19682 ('Înălțarea Domnului' – Domnița Bălașa); roof and roof structure restored to their original form in the 2018–2022 renovation. Sector discrepancy: the church website says sector 4, LMI/Wikidata say sector 5; street and number agree. Outline 592 m2, minimum rectangle 35.8 x 23.8 m. Wikidata point (44.428369, 26.100269) is about 13 m from the outline centroid."
+ },
+ {
+  "id": "casa-macca",
+  "officialName": "Casa Macca",
+  "nameHu": null,
+  "altNames": [
+   "Macca House",
+   "Institutul de Arheologie „Vasile Pârvan”"
+  ],
+  "address": "Strada Henri Coandă 11, Sector 1, 010668 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.447067,
+  "lon": 26.092439,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 78063229,
+   "tags": {
+    "addr:housenumber": "11",
+    "addr:street": "Strada Henri Coandă",
+    "building": "detached",
+    "building:levels": "2",
+    "name": "Casa Macca",
+    "roof:levels": "0",
+    "wikidata": "Q15733500",
+    "wikipedia": "ro:Casa Macca"
+   }
+  },
+  "footprint": [
+   [
+    44.447121,
+    26.092235
+   ],
+   [
+    44.447175,
+    26.092595
+   ],
+   [
+    44.447014,
+    26.092642
+   ],
+   [
+    44.44696,
+    26.092283
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.2,
+   "widthM": 18.3,
+   "bearingDeg": 78.1
+  },
+  "heightHints": "No height found. OSM building:levels=2, roof:levels=0.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/78063229",
+   "https://www.wikidata.org/wiki/Q15733500",
+   "https://ro.wikipedia.org/wiki/Casa_Macca"
+  ],
+  "verificationNotes": "OSM way 78063229 named 'Casa Macca' (wikidata Q15733500, addr Str. Henri Coandă 11). ro.wikipedia and Wikidata: Str. Henri Coandă 11, sector 1, LMI B-II-m-B-18440, built 1891–1900 for Petre and Elena Macca, architect John-Elisee Berthet, neo-rococo; today seat of the 'Vasile Pârvan' Institute of Archaeology. Wikidata point is about 32 m east of the outline centroid; the outline centroid is used."
+ },
+ {
+  "id": "vila-constantin-geblescu",
+  "officialName": "Vila Constantin Geblescu",
+  "nameHu": null,
+  "altNames": [
+   "Vila Geblescu",
+   "Constantin Geblescu Villa"
+  ],
+  "address": "Strada Polonă 8 (corner of Bulevardul Dacia), Sector 1, 010501 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.44624,
+  "lon": 26.103805,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 162569989,
+   "tags": {
+    "building": "detached",
+    "building:levels": "3",
+    "roof:levels": "1",
+    "roof:shape": "quadruple_saltbox"
+   }
+  },
+  "footprint": [
+   [
+    44.446371,
+    26.103664
+   ],
+   [
+    44.446348,
+    26.104011
+   ],
+   [
+    44.446201,
+    26.103988
+   ],
+   [
+    44.446148,
+    26.103896
+   ],
+   [
+    44.446139,
+    26.103874
+   ],
+   [
+    44.446098,
+    26.103881
+   ],
+   [
+    44.446081,
+    26.103676
+   ],
+   [
+    44.446352,
+    26.103619
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 32.1,
+   "widthM": 30.9,
+   "bearingDeg": 173.3
+  },
+  "heightHints": "No height found. OSM building:levels=3, roof:shape=quadruple_saltbox (mansard), roof:levels=1.",
+  "sourceUrls": [
+   "https://commons.wikimedia.org/wiki/Category:Constantin_Geblescu_Villa,_Bucharest",
+   "https://www.wikidata.org/wiki/Q42769607",
+   "https://www.zf.ro/ziarul-de-duminica/casele-bucurestilor-xi-o-galerie-de-personalitati-politicieni-diplomati-ii-de-dr-alexandru-popescu-14846531",
+   "https://www.openstreetmap.org/node/2462705080",
+   "https://www.openstreetmap.org/way/162569989"
+  ],
+  "verificationNotes": "Identity/address: Wikimedia Commons and Wikidata Q42769607 give Str. Polonă 8, sector 1, LMI B-II-m-B-19427, Beaux-Arts, 1912; ZF 'Casele Bucureștilor (XI)' confirms 'Vila Geblescu', str. Polonă nr. Position: the OSM address node 'Strada Polonă 8' (node 2462705080) lies inside the unnamed OSM building way 162569989 (detached, mansard roof) on the SE corner of Str. Polonă and Bd. Dacia (even numbers on the east side; Polonă 6 = Saudi embassy immediately south). The Wikidata/Commons point (44.446468, 26.103311) lies about 47 m west-northwest, on the odd-numbered side of the street and is treated as approximate. RA-APPS administration not confirmed online. Outline is coarse (8 nodes, 756 m2). PROBABLE because the OSM building itself is unnamed."
+ },
+ {
+  "id": "liceul-teoretic-ady-endre",
+  "officialName": "Liceul Teoretic „Ady Endre”",
+  "nameHu": "Ady Endre Elméleti Líceum",
+  "altNames": [
+   "Ady Endre Líceum",
+   "“Ady Endre” Theoretical High School"
+  ],
+  "address": "Bulevardul Ferdinand I 89, Sector 2, București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.443033,
+  "lon": 26.126742,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 132404249,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "89",
+    "addr:street": "Bulevardul Ferdinand I",
+    "building": "school",
+    "grades": "0-12",
+    "name": "Liceul Teoretic „Ady Endre”",
+    "name:hu": "Ady Endre Elméleti Líceum"
+   }
+  },
+  "footprint": [
+   [
+    44.443061,
+    26.126465
+   ],
+   [
+    44.442847,
+    26.126644
+   ],
+   [
+    44.443005,
+    26.127018
+   ],
+   [
+    44.44322,
+    26.12684
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 34.6,
+   "widthM": 27.7,
+   "bearingDeg": 59.3
+  },
+  "heightHints": "No height or level count found (OSM building has no levels tag).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/132404249",
+   "https://www.openstreetmap.org/way/1173668121",
+   "https://www.bucharest.ro/locations/education-ady-endre-theoretical-high-school-394",
+   "https://adyendrebukarest.ro"
+  ],
+  "verificationNotes": "OSM building way 132404249 is named 'Liceul Teoretic „Ady Endre”' (name:hu 'Ady Endre Elméleti Líceum', addr Bd. Ferdinand I 89) and is the only school building inside the school grounds polygon (way 1173668121, website adyendrebukarest.ro). bucharest.ro confirms the address Bd. Ferdinand I 89, Sector 2. The larger 4-storey building and the gym further east (ways 132404248, 132404250) lie outside the Ady Endre grounds and were not used. The school website (Hungarian) calls it 'Ady Endre Líceum' and mentions the renovated school building (2025 news). nameHu from OSM name:hu; the school itself uses the short form 'Ady Endre Líceum'. Outline 959 m2, minimum rectangle 34.6 x 27.7 m."
+ },
+ {
+  "id": "scoala-95-bucuresti",
+  "officialName": "Școala Gimnazială nr. 95",
+  "nameHu": null,
+  "altNames": [
+   "Școala comercială (LMI name)",
+   "No. 95 School, Strada Foișorului",
+   "Școala Generală nr. 95"
+  ],
+  "address": "Strada Foișorului 111-113, Sector 3, 031176 București (LMI address: Str. Foișorului 106)",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.415755,
+  "lon": 26.123174,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "relation",
+   "id": 17046698,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "111-113",
+    "addr:postcode": "031176",
+    "addr:street": "Strada Foișorului",
+    "building": "school",
+    "building:levels": "2",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "ref:RO:lmi": "B-II-m-B-18755;B-II-m-B-18756",
+    "roof:levels": "1",
+    "start_date": "1893",
+    "type": "multipolygon"
+   }
+  },
+  "footprint": [
+   [
+    44.415927,
+    26.12345
+   ],
+   [
+    44.415896,
+    26.123451
+   ],
+   [
+    44.415896,
+    26.123486
+   ],
+   [
+    44.415863,
+    26.123487
+   ],
+   [
+    44.415864,
+    26.123522
+   ],
+   [
+    44.415828,
+    26.123524
+   ],
+   [
+    44.41583,
+    26.123584
+   ],
+   [
+    44.415701,
+    26.123589
+   ],
+   [
+    44.415699,
+    26.123535
+   ],
+   [
+    44.415663,
+    26.123536
+   ],
+   [
+    44.415662,
+    26.123497
+   ],
+   [
+    44.415614,
+    26.123499
+   ],
+   [
+    44.415612,
+    26.123336
+   ],
+   [
+    44.415607,
+    26.123237
+   ],
+   [
+    44.415599,
+    26.123141
+   ],
+   [
+    44.41558,
+    26.123013
+   ],
+   [
+    44.415556,
+    26.122867
+   ],
+   [
+    44.415864,
+    26.122767
+   ],
+   [
+    44.415889,
+    26.122917
+   ],
+   [
+    44.415909,
+    26.123044
+   ],
+   [
+    44.415918,
+    26.123161
+   ],
+   [
+    44.415925,
+    26.123285
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 63.9,
+   "widthM": 37.2,
+   "bearingDeg": 82.6
+  },
+  "heightHints": "No height found. OSM building:levels=2, roof:levels=1.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/17046698",
+   "https://www.openstreetmap.org/way/79300291",
+   "https://www.wikidata.org/wiki/Q26257274",
+   "https://ro.wikipedia.org/wiki/%C8%98coala_comercial%C4%83_din_Bucure%C8%99ti",
+   "https://commons.wikimedia.org/wiki/Category:No._95_School,_Strada_Foi%C8%99orului",
+   "https://www.bucharest.ro/locations/education-scoala-gimnaziala-nr-95-915",
+   "https://www.primarie3.ro/images/uploads/formulare/Comunicat_de_presa_Lucrari_capitale_de_cresterea_eficientei_energetice_si_modernizare_la_Scoala_Gimnaziala_nr._95_.pdf"
+  ],
+  "verificationNotes": "OSM school grounds way 79300291 is named 'Școala Gimnazială nr. 95' (Str. Foișorului 111-113, website scoala95.ro); the main building is OSM multipolygon relation 17046698 (building=school, same address, start_date 1893, ref:RO:lmi=B-II-m-B-18755;B-II-m-B-18756). LMI B-II-m-B-18756 = 'Școala comercială' (Neo-Romanian, late 19th–early 20th c.), LMI address Str. Foișorului 106, sector 3 (Wikidata Q26257274, ro.wikipedia); B-II-m-B-18755 = 'Cămin cultural' at the same LMI address. Wikimedia Commons files the 'Școala comercială' photos under 'No. 95 School, Strada Foișorului' together with photos of 111-113 Strada Foișorului, linking the monument to the school. Sector 3 city hall press release on energy-efficiency/modernisation works at the school. Outline 2023 m2, minimum rectangle 63.9 x 37.2 m."
+ },
+ {
+  "id": "facultatea-stiinte-politice-bucuresti",
+  "officialName": "Facultatea de Științe Politice a Universității din București – Casa P.P. Negulescu",
+  "nameHu": null,
+  "altNames": [
+   "Sediul FSPUB",
+   "Casa Negulescu",
+   "Spiru Haret 8"
+  ],
+  "address": "Strada Spiru Haret 8, Sector 1, 010175 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.440661,
+  "lon": 26.090497,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 186600911,
+   "tags": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "8",
+    "addr:postcode": "010175",
+    "addr:street": "Strada Spiru Haret",
+    "building": "yes",
+    "building:levels": "2",
+    "historic": "building",
+    "name": "Sediul FSPUB",
+    "roof:shape": "hipped",
+    "source": "https://fsp.unibuc.ro/sedii/"
+   }
+  },
+  "footprint": [
+   [
+    44.440761,
+    26.090516
+   ],
+   [
+    44.440742,
+    26.090418
+   ],
+   [
+    44.440725,
+    26.090424
+   ],
+   [
+    44.440712,
+    26.090355
+   ],
+   [
+    44.44067,
+    26.090371
+   ],
+   [
+    44.440664,
+    26.090338
+   ],
+   [
+    44.440602,
+    26.090362
+   ],
+   [
+    44.440605,
+    26.090378
+   ],
+   [
+    44.440562,
+    26.090394
+   ],
+   [
+    44.440577,
+    26.090472
+   ],
+   [
+    44.440567,
+    26.090476
+   ],
+   [
+    44.440584,
+    26.090563
+   ],
+   [
+    44.440593,
+    26.090559
+   ],
+   [
+    44.44061,
+    26.090643
+   ],
+   [
+    44.440643,
+    26.09063
+   ],
+   [
+    44.440647,
+    26.090649
+   ],
+   [
+    44.44067,
+    26.090661
+   ],
+   [
+    44.440698,
+    26.090648
+   ],
+   [
+    44.440709,
+    26.090621
+   ],
+   [
+    44.440706,
+    26.090607
+   ],
+   [
+    44.440755,
+    26.090588
+   ],
+   [
+    44.440742,
+    26.090523
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 24.9,
+   "widthM": 20.0,
+   "bearingDeg": 74.5
+  },
+  "heightHints": "No height found. OSM building:levels=2, roof:shape=hipped; anuala.ro mentions ground floor and first floor only.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/186600911",
+   "https://unibuc.ro/studii/facultati/facultatea-de-stiinte-politice/?lang=en",
+   "https://fsp.unibuc.ro/sedii/",
+   "https://www.anuala.ro/en/projects/2023/179/"
+  ],
+  "verificationNotes": "The faculty uses several sites: Str. Spiru Haret 8 (Casa P.P. Negulescu, historic monument), Calea Plevnei 59, a secretariat at Bd. M. Kogălniceanu 36-46 and lecture halls at Șos. Panduri 90. Spiru Haret 8 was chosen because it is the faculty's historic own building and was consolidated and restored in 2019/2020–2022 (fsp.unibuc.ro; anuala.ro: 1886 house by Gheorghe Mandrea, architects Polarh Design, roof structure and volume restored), which fits a roofing reference photographed in 2024. OSM way 186600911 is named 'Sediul FSPUB' at Spiru Haret 8 (historic=building, source fsp.unibuc.ro/sedii). flashings, gutters, details) is unclear, and the reference photos could theoretically show another faculty site. LMI code not found. Outline 390 m2, minimum rectangle 24.9 x 20.0 m."
+ },
+ {
+  "id": "catedrala-voluntari",
+  "officialName": "Catedrala Ortodoxă din Voluntari („Intrarea Domnului în Ierusalim” și „Sfânta Cuvioasă Parascheva”)",
+  "nameHu": null,
+  "altNames": [
+   "Catedrala Ortodoxă Voluntari",
+   "Catedrala „Sfânta Parascheva” Voluntari",
+   "Biserica Sfânta Cuvioasă Parascheva, Voluntari"
+  ],
+  "address": "Strada Mihai Viteazu, Voluntari, Ilfov (house number not found)",
+  "city": "Voluntari",
+  "county": "Ilfov",
+  "country": "Romania",
+  "lat": 44.493821,
+  "lon": 26.182895,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 188099781,
+   "tags": {
+    "addr:city": "Voluntari",
+    "addr:street": "Strada Mihai Viteazu",
+    "amenity": "place_of_worship",
+    "building": "cathedral",
+    "check_date": "2024-06-02",
+    "denomination": "romanian_orthodox",
+    "name": "Catedrala Ortodoxă Voluntari",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    44.493702,
+    26.182455
+   ],
+   [
+    44.493505,
+    26.182723
+   ],
+   [
+    44.493908,
+    26.183309
+   ],
+   [
+    44.493921,
+    26.183328
+   ],
+   [
+    44.493977,
+    26.183247
+   ],
+   [
+    44.494036,
+    26.183231
+   ],
+   [
+    44.494082,
+    26.183167
+   ],
+   [
+    44.494093,
+    26.183092
+   ],
+   [
+    44.494128,
+    26.183038
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 70.1,
+   "widthM": 32.5,
+   "bearingDeg": 45.9
+  },
+  "heightHints": "adevarul.ro: height over 50 m (construction report, exact figure not given); capacity about 3,000 seats (ro.wikipedia). OSM outline 2141 m2, minimum rectangle 70.1 x 32.5 m (coarse 9-node outline).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/188099781",
+   "https://ro.wikipedia.org/wiki/Voluntari",
+   "https://hotnews.ro/?p=55124",
+   "https://adevarul.ro/stiri-locale/bucuresti/uriasa-catedrala-din-voluntari-are-o-schela-pe-1378965.html"
+  ],
+  "verificationNotes": "OSM way 188099781 is named 'Catedrala Ortodoxă Voluntari' (building=cathedral, Strada Mihai Viteazu); it is by far the largest Orthodox church outline in Voluntari. Hotnews and adevarul.ro describe the same city-hall-funded 'Sfânta Parascheva' cathedral (chapel consecrated 2008, still under construction in 2023). No street number found; the OSM outline is coarse (9 nodes) and may simplify the apses."
+ },
+ {
+  "id": "manastirea-tismana",
+  "officialName": "Mănăstirea Tismana – Biserica „Adormirea Maicii Domnului” (catholicon)",
+  "nameHu": null,
+  "altNames": [
+   "Tismana Monastery",
+   "Mănăstirea Tismana"
+  ],
+  "address": "Strada Mănăstirii, 217495 Tismana, Gorj",
+  "city": "Tismana",
+  "county": "Gorj",
+  "country": "Romania",
+  "lat": 45.080523,
+  "lon": 22.927124,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 267207998,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "orthodox",
+    "name": "Mănăstirea Tismana",
+    "name:en": "Tismana Monastery",
+    "religion": "christian",
+    "tourism": "attraction",
+    "wikipedia": "ro:Mănăstirea Tismana"
+   }
+  },
+  "footprint": [
+   [
+    45.080536,
+    22.926942
+   ],
+   [
+    45.080457,
+    22.927112
+   ],
+   [
+    45.08044,
+    22.92721
+   ],
+   [
+    45.080431,
+    22.927244
+   ],
+   [
+    45.080431,
+    22.92728
+   ],
+   [
+    45.080444,
+    22.927301
+   ],
+   [
+    45.080465,
+    22.927311
+   ],
+   [
+    45.080484,
+    22.927296
+   ],
+   [
+    45.080496,
+    22.927262
+   ],
+   [
+    45.080557,
+    22.92721
+   ],
+   [
+    45.080635,
+    22.927037
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.1,
+   "widthM": 13.5,
+   "bearingDeg": 123.5
+  },
+  "heightHints": "No church height found. OSM outline of the catholicon 327 m2, minimum rectangle 29.1 x 13.5 m (triconch plan with three towers over the naos per ro.wikipedia). Surrounding precinct wings in OSM carry height 4–9 m, gate/corner towers 12–14 m and roof:material=zinc (OSM values, unsourced).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/267207998",
+   "https://www.wikidata.org/wiki/Q3320345",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Tismana"
+  ],
+  "verificationNotes": "OSM way 267207998 is the only building tagged building=church / amenity=place_of_worship inside the monastery precinct and is named 'Mănăstirea Tismana' (wikipedia ro:Mănăstirea Tismana); it sits in the middle of the walled courtyard, i.e. the catholicon. ro.wikipedia: catholicon 'Adormirea Maicii Domnului', consecrated 1378, rebuilt 1855 (Carol Benesch), triconch Byzantine plan with three towers; ensemble LMI GJ-II-a-A-09413. Wikidata Q3320345 point (45.080572, 22.927) is about 11 m from the outline centroid. the roof scope (church vs. precinct buildings) was not verified."
+ },
+ {
+  "id": "ansamblul-mitropolitan-iasi",
+  "officialName": "Catedrala Mitropolitană din Iași (Ansamblul Mitropoliei Moldovei și Bucovinei)",
+  "nameHu": "jászvásári székesegyház",
+  "altNames": [
+   "Metropolitan Cathedral, Iași",
+   "Ansamblul Mitropolitan Iași"
+  ],
+  "address": "Bulevardul Ștefan cel Mare și Sfânt 16, 700064 Iași",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.161515,
+  "lon": 27.582045,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 203149116,
+   "tags": {
+    "addr:housename": "Catedrala Mitropolitană",
+    "addr:housenumber": "16",
+    "addr:postcode": "700064",
+    "addr:street": "Bulevardul Ștefan cel Mare și Sfânt",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "orthodox",
+    "height": "30",
+    "name": "Catedrala Mitropolitană din Iaşi",
+    "name:en": "Metropolitan Cathedral",
+    "religion": "christian",
+    "start_date": "1887",
+    "wikidata": "Q8273856",
+    "wikipedia": "ro:Catedrala Mitropolitană din Iași"
+   }
+  },
+  "footprint": [
+   [
+    47.161247,
+    27.581853
+   ],
+   [
+    47.161306,
+    27.581999
+   ],
+   [
+    47.161329,
+    27.581979
+   ],
+   [
+    47.161474,
+    27.582338
+   ],
+   [
+    47.161445,
+    27.582363
+   ],
+   [
+    47.161497,
+    27.582491
+   ],
+   [
+    47.161787,
+    27.582238
+   ],
+   [
+    47.161726,
+    27.582088
+   ],
+   [
+    47.161695,
+    27.582115
+   ],
+   [
+    47.161566,
+    27.581796
+   ],
+   [
+    47.161603,
+    27.581764
+   ],
+   [
+    47.161536,
+    27.581599
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 56.4,
+   "widthM": 37.7,
+   "bearingDeg": 60.2
+  },
+  "heightHints": "Towers about 52.92 m (en.wikipedia); OSM models the four corner towers as building:part ways with height=52.9 (ways 211027132-211027135) and the main body with height=30 (OSM, unsourced). en.wikipedia: 56.70 m long, 34.15 m wide (OSM outline minimum rectangle 56.4 x 37.7 m); roof decorated with zinc fleurons.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/203149116",
+   "https://www.wikidata.org/wiki/Q8273856",
+   "https://www.wikidata.org/wiki/Q42986345",
+   "https://ro.wikipedia.org/wiki/Catedrala_Mitropolitan%C4%83_din_Ia%C8%99i",
+   "https://en.wikipedia.org/wiki/Metropolitan_Cathedral,_Ia%C8%99i"
+  ],
+  "verificationNotes": "OSM way 203149116 named 'Catedrala Mitropolitană din Iaşi' (wikidata Q8273856, Bd. Ștefan cel Mare și Sfânt 16, start_date 1887). Wikidata/ro.wikipedia: LMI IS-II-m-A-04069.01 (cathedral) within ensemble IS-II-a-A-04069 'Ansamblul Mitropoliei Moldovei și Bucovinei'; built 1833–1839 and 1880–1887 (Freywald, Bucher, Singurov; completed by Alexandru Orăscu). the ensemble also contains Biserica Sf. Gheorghe – Mitropolia Veche (OSM way 197194514, LMI .02, about 90 m ESE) and the Palatul Mitropolitan (OSM way 203149707, LMI .03, about 65 m S); nameHu = Wikidata Hungarian label (no Hungarian Wikipedia article); project's 'Jászvásári metropolita-katedrális' is a translation. Wikidata point is about 5 m from the outline centroid."
+ },
+ {
+  "id": "biblioteca-centrala-universitara-iasi",
+  "officialName": "Biblioteca Centrală Universitară „Mihai Eminescu” (Palatul Fundațiunii Universitare „Regele Ferdinand I”)",
+  "nameHu": null,
+  "altNames": [
+   "BCU Iași",
+   "Fundațiunea „Regele Ferdinand I”",
+   "“Mihai Eminescu” Central University Library of Iași"
+  ],
+  "address": "Strada Păcurari 4, 700511 Iași",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.170215,
+  "lon": 27.575421,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "relation",
+   "id": 399264,
+   "tags": {
+    "addr:city": "Iași",
+    "addr:housenumber": "4",
+    "addr:postcode": "700511",
+    "addr:street": "Strada Păcurari",
+    "amenity": "library",
+    "building": "yes",
+    "building:levels": "4",
+    "description": "IS-II-m-B-03964",
+    "name": "Biblioteca Centrală Universitară \"Mihai Eminescu\"",
+    "old_name": "Fundațiunea „Regele Ferdinand I”",
+    "opening_hours": "08:30-20:00",
+    "type": "multipolygon",
+    "website": "https://www.bcu-iasi.ro/",
+    "wikidata": "Q4118405",
+    "wikipedia": "ro:Biblioteca Centrală Universitară din Iași"
+   }
+  },
+  "footprint": [
+   [
+    47.170045,
+    27.575184
+   ],
+   [
+    47.169986,
+    27.575716
+   ],
+   [
+    47.17001,
+    27.575802
+   ],
+   [
+    47.17006,
+    27.575856
+   ],
+   [
+    47.170119,
+    27.575848
+   ],
+   [
+    47.170494,
+    27.575544
+   ],
+   [
+    47.17043,
+    27.575321
+   ],
+   [
+    47.170383,
+    27.575278
+   ],
+   [
+    47.170447,
+    27.575175
+   ],
+   [
+    47.17029,
+    27.575012
+   ],
+   [
+    47.170097,
+    27.575004
+   ],
+   [
+    47.170085,
+    27.575184
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 67.0,
+   "widthM": 53.7,
+   "bearingDeg": 99.2
+  },
+  "heightHints": "No height found. OSM building:levels=4.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/399264",
+   "https://www.wikidata.org/wiki/Q4118405",
+   "https://www.wikidata.org/wiki/Q18544089",
+   "https://ro.wikipedia.org/wiki/Biblioteca_Central%C4%83_Universitar%C4%83_din_Ia%C8%99i",
+   "https://en.wikipedia.org/wiki/Central_University_Library_of_Ia%C8%99i",
+   "https://www.bzi.ro/special-biblioteca-centrala-universitara-mihai-eminescu-din-iasi-va-fi-reabilitata-si-restaurata-cu-10-milioane-de-lei-foto-4478924"
+  ],
+  "verificationNotes": "OSM multipolygon relation 399264 named 'Biblioteca Centrală Universitară \"Mihai Eminescu\"' (old_name Fundațiunea „Regele Ferdinand I”, Str. Păcurari 4, wikidata Q4118405, description = LMI code IS-II-m-B-03964). Wikidata Q18544089: LMI IS-II-m-B-03964 'Palatul Fundațiunii Universitare „Regele Ferdinand I”', Str. Păcurari 4. ro.wikipedia: library moved into the Foundation building after WWII. Search results (en.wikipedia/iasi.travel snippets) give 1930–1934, architect Constantin Iotzu (Jotzu), Neoclassical; Outline 2457 m2, minimum rectangle 67.0 x 53.7 m."
+ },
+ {
+  "id": "bojdeuca-ion-creanga",
+  "officialName": "Bojdeuca lui Ion Creangă (Muzeul Literaturii Române Iași)",
+  "nameHu": null,
+  "altNames": [
+   "Bojdeuca Ion Creangă",
+   "Ion Creangă Memorial House"
+  ],
+  "address": "Strada Simion Bărnuțiu 4, 700118 Iași (Țicău)",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.175074,
+  "lon": 27.582988,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 209635969,
+   "tags": {
+    "addr:city": "Iași",
+    "addr:housenumber": "4",
+    "addr:postcode": "700118",
+    "addr:street": "Strada Simion Bărnuțiu",
+    "building": "yes",
+    "codul_entității_muzeale": "6946513.0",
+    "description:en": "It was opened as a memorial museum on the 15th of April 1918 with original exhibits belonging to Ion Creanga. In 1968 was opened a documentary exhibition regarding the life and activity of the writer, and in 1989 the documentary exhibition was organized",
+    "description:ro": "A fost deschisa ca muzeu memorial in 15.04.1918, cu exponate originale apartinand lui Ion Creanga. in 1968 s-a deschis o expozitie documentara privind viata si activitatea scriitorului, iar in 1989 s-a amenajat expozitia documentara intr-o cladire specia",
+    "name": "Bojdeuca lui Ion Creangă",
+    "opening_hours": "10:00-17:00;Mo closed",
+    "SIRUTA:code": "95079",
+    "start_date": "1918",
+    "tourism": "museum",
+    "website": "http://muzeulliteraturiiiasi.ro",
+    "wikidata": "Q12722849",
+    "wikipedia": "ro:Bojdeuca lui Ion Creangă"
+   }
+  },
+  "footprint": [
+   [
+    47.175086,
+    27.582921
+   ],
+   [
+    47.175023,
+    27.582978
+   ],
+   [
+    47.17505,
+    27.583041
+   ],
+   [
+    47.175083,
+    27.583011
+   ],
+   [
+    47.175093,
+    27.583046
+   ],
+   [
+    47.175123,
+    27.583017
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 8.5,
+   "widthM": 8.2,
+   "bearingDeg": 58.2
+  },
+  "heightHints": "No height found;",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/209635969",
+   "https://www.wikidata.org/wiki/Q12722849",
+   "https://ro.wikipedia.org/wiki/Bojdeuca_lui_Ion_Creang%C4%83"
+  ],
+  "verificationNotes": "OSM way 209635969 named 'Bojdeuca lui Ion Creangă' (tourism=museum, Str. Simion Bărnuțiu 4, wikidata Q12722849). Wikidata/ro.wikipedia: Str. Simion Bărnuțiu 4, LMI IS-IV-m-B-04328, museum since 1918; Wikidata point is about 8 m from the outline centroid. Identity and position of the memorial house are certain. flashings) or on an ancillary building, which could not be verified without the reference photos. Hence PROBABLE."
+ },
+ {
+  "id": "casa-berthelot-iasi",
+  "officialName": "Casa General Henri Mathias Berthelot din Iași",
+  "nameHu": null,
+  "altNames": [
+   "Casa „General Henri Mathias Berthelot”",
+   "Casa George Bogdan"
+  ],
+  "address": "Strada General Henri Mathias Berthelot 18, Iași (LMI; OSM tags house number 2)",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.173827,
+  "lon": 27.574347,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 206525143,
+   "tags": {
+    "addr:city": "Iași",
+    "addr:housenumber": "2",
+    "addr:postcode": "507184",
+    "addr:street": "General Berthelot",
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Casa \"General Henri Mathias Berthelot\""
+   }
+  },
+  "footprint": [
+   [
+    47.173871,
+    27.574181
+   ],
+   [
+    47.173734,
+    27.574276
+   ],
+   [
+    47.173755,
+    27.574341
+   ],
+   [
+    47.173728,
+    27.574359
+   ],
+   [
+    47.173755,
+    27.574442
+   ],
+   [
+    47.173785,
+    27.574421
+   ],
+   [
+    47.173811,
+    27.574502
+   ],
+   [
+    47.173938,
+    27.574413
+   ],
+   [
+    47.173915,
+    27.574344
+   ],
+   [
+    47.173876,
+    27.574372
+   ],
+   [
+    47.173853,
+    27.574301
+   ],
+   [
+    47.173899,
+    27.574269
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 20.1,
+   "widthM": 19.1,
+   "bearingDeg": 154.5
+  },
+  "heightHints": "No height found. OSM building:levels=1 (unverified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/206525143",
+   "https://www.wikidata.org/wiki/Q12723531",
+   "https://ro.wikipedia.org/wiki/Casa_General_Henri_Mathias_Berthelot_din_Ia%C8%99i"
+  ],
+  "verificationNotes": "OSM way 206525143 named 'Casa \"General Henri Mathias Berthelot\"' (historic=building). Wikidata Q12723531 / ro.wikipedia: LMI IS-II-m-B-03741, Str. General Berthelot 18 (formerly Strada 40 de Sfinți), early 20th century, house of Prof. George Bogdan where Gen. Berthelot lived 1916–1917; Wikidata point (47.173764, 27.574406) is about 8 m from the outline centroid. Address discrepancy: OSM has addr:housenumber=2 while the LMI gives no. 18; the LMI number is used. Outline 303 m2, minimum rectangle 20.1 x 19.1 m."
+ },
+ {
+  "id": "casa-pogor",
+  "officialName": "Casa Memorială „Vasile Pogor” (Muzeul Literaturii Române Iași)",
+  "nameHu": null,
+  "altNames": [
+   "Casa Pogor",
+   "Muzeul „Vasile Pogor”",
+   "Casa Vasile Pogor"
+  ],
+  "address": "Strada Vasile Pogor 4, 700110 Iași",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.172052,
+  "lon": 27.576269,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 188565584,
+   "tags": {
+    "addr:city": "Iași",
+    "addr:country": "RO",
+    "addr:housename": "Casa Vasile Pogor",
+    "addr:housenumber": "4",
+    "addr:postcode": "700110",
+    "addr:street": "Strada Vasile Pogor",
+    "building": "yes",
+    "building:levels": "1",
+    "museum": "person",
+    "name": "Muzeul „Vasile Pogor“",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "start_date": "1850",
+    "tourism": "museum",
+    "website": "https://muzeulliteraturiiiasi.ro/"
+   }
+  },
+  "footprint": [
+   [
+    47.172082,
+    27.576081
+   ],
+   [
+    47.172113,
+    27.576193
+   ],
+   [
+    47.172141,
+    27.576176
+   ],
+   [
+    47.172161,
+    27.576249
+   ],
+   [
+    47.172129,
+    27.576269
+   ],
+   [
+    47.172159,
+    27.576377
+   ],
+   [
+    47.172016,
+    27.576463
+   ],
+   [
+    47.171935,
+    27.576169
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 23.9,
+   "widthM": 21.0,
+   "bearingDeg": 67.9
+  },
+  "heightHints": "No height found. ro.wikipedia mentions rooms on the ground floor and upper floor (OSM building:levels=1 appears to understate it).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/188565584",
+   "https://www.wikidata.org/wiki/Q18541095",
+   "https://ro.wikipedia.org/wiki/Casa_Pogor"
+  ],
+  "verificationNotes": "OSM way 188565584 named 'Muzeul „Vasile Pogor“' (addr:housename Casa Vasile Pogor, Str. Vasile Pogor 4, start_date 1850). Wikidata Q18541095 / ro.wikipedia: Casa Memorială „Vasile Pogor”, Str. Vasile Pogor 4, LMI IS-II-m-B-04358, built about 1850, now a section of the Museum of Romanian Literature; Wikidata point (47.172048, 27.576257) is about 1 m from the outline centroid. An annex building was inaugurated in 1994 (ro.wikipedia) – not separately identified. Outline 438 m2, minimum rectangle 23.9 x 21.0 m."
+ },
+ {
+  "id": "manastirea-barnova",
+  "officialName": "Mănăstirea Bârnova – Biserica „Sfântul Gheorghe” (catholicon)",
+  "nameHu": null,
+  "altNames": [
+   "Bârnova Monastery",
+   "Biserica Mănăstirii Bârnova"
+  ],
+  "address": "Bârnova village, Bârnova commune, Iași county (OSM: Strada Principală)",
+  "city": "Bârnova",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.0745,
+  "lon": 27.627355,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1095381772,
+   "tags": {
+    "amenity": "place_of_worship",
+    "amenity_1": "hram: Sfântul Mare Mucenic Gheorghe;Tăierea Capului Sfântului Prooroc Ioan Botezătorul",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "height": "13",
+    "name": "Biserica Mănăstirii Bârnova",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.074505,
+    27.62711
+   ],
+   [
+    47.074404,
+    27.62715
+   ],
+   [
+    47.0744,
+    27.627163
+   ],
+   [
+    47.074474,
+    27.627537
+   ],
+   [
+    47.074488,
+    27.627569
+   ],
+   [
+    47.074507,
+    27.627595
+   ],
+   [
+    47.074522,
+    27.627606
+   ],
+   [
+    47.074541,
+    27.627609
+   ],
+   [
+    47.074559,
+    27.627594
+   ],
+   [
+    47.074572,
+    27.627574
+   ],
+   [
+    47.074581,
+    27.627554
+   ],
+   [
+    47.074588,
+    27.627518
+   ],
+   [
+    47.074588,
+    27.62748
+   ],
+   [
+    47.074514,
+    27.627114
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 37.6,
+   "widthM": 13.4,
+   "bearingDeg": 73.9
+  },
+  "heightHints": "OSM (unsourced): church body height=13; tower parts inside the outline height=25 (way 1095381776, naos tower) and 20/23 (ways 1095381775/1095381790, west tower). ro.wikipedia gives no church height; enclosure wall about 5 m high, 102 x 95 m.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1095381772",
+   "https://www.wikidata.org/wiki/Q5004882",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_B%C3%A2rnova"
+  ],
+  "verificationNotes": "OSM way 1095381772 named 'Biserica Mănăstirii Bârnova' (place_of_worship, hram Sf. Mare Mucenic Gheorghe; same phone numbers as the monastery POI node 5542488790). ro.wikipedia: church 'Sfântul Gheorghe', 1626–1629 / completed 1661–1666, LMI IS-II-m-A-04103.01 (ensemble IS-II-a-A-04103); monastery restored 2018–2023; church roof sheeting had been replaced with galvanized sheet in 1968–1970. Wikidata ensemble point (47.0745, 27.6276) is about 19 m from the church centroid. Outline 470 m2, minimum rectangle 37.6 x 13.4 m."
+ },
+ {
+  "id": "manastirea-frumoasa",
+  "officialName": "Mănăstirea Frumoasa – Biserica „Sfinții Voievozi” (catholicon)",
+  "nameHu": null,
+  "altNames": [
+   "Frumoasa Monastery",
+   "Biserica „Sf. Arhangheli Mihail și Gavriil”"
+  ],
+  "address": "Strada Radu Vodă 1, 700679 Iași",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.139277,
+  "lon": 27.587381,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 203267860,
+   "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "700679",
+    "addr:street": "Strada Radu Vodă",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "orthodox",
+    "name": "Mănăstirea Frumoasa",
+    "religion": "christian",
+    "wikidata": "Q5506499",
+    "wikipedia": "ro:Mănăstirea Frumoasa din Iași"
+   }
+  },
+  "footprint": [
+   [
+    47.139286,
+    27.587122
+   ],
+   [
+    47.13928,
+    27.58709
+   ],
+   [
+    47.139171,
+    27.587146
+   ],
+   [
+    47.139178,
+    27.587172
+   ],
+   [
+    47.139162,
+    27.58718
+   ],
+   [
+    47.139243,
+    27.587622
+   ],
+   [
+    47.139263,
+    27.587615
+   ],
+   [
+    47.13927,
+    27.587647
+   ],
+   [
+    47.139296,
+    27.587671
+   ],
+   [
+    47.139337,
+    27.587678
+   ],
+   [
+    47.139365,
+    27.587635
+   ],
+   [
+    47.139375,
+    27.587587
+   ],
+   [
+    47.139369,
+    27.587548
+   ],
+   [
+    47.139384,
+    27.587543
+   ],
+   [
+    47.139306,
+    27.587111
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 44.6,
+   "widthM": 16.9,
+   "bearingDeg": 74.8
+  },
+  "heightHints": "No church height found. ro.wikipedia: the four (false) towers are fully clad in sheet metal; the bell tower has a sheet-metal elongated bulb dome; enclosure wall 4 m high.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/203267860",
+   "https://www.wikidata.org/wiki/Q5506499",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Frumoasa_din_Ia%C8%99i"
+  ],
+  "verificationNotes": "OSM way 203267860 (building=church, place_of_worship) named 'Mănăstirea Frumoasa', Str. Radu Vodă 1, wikidata Q5506499, inside the walled precinct (way 43126873). ro.wikipedia/Wikidata: ensemble LMI IS-II-a-A-04006, church IS-II-m-A-04006.01 (LMI name Biserica 'Sf. Voievozi'), current church built 1836–1839; Wikidata point (47.139272, 27.587369) is about 1 m from the outline centroid. Outline 675 m2, minimum rectangle 44.6 x 16.9 m."
+ },
+ {
+  "id": "observatorul-astronomic-iasi",
+  "officialName": "Observatorul Astronomic al Universității „Alexandru Ioan Cuza” din Iași",
+  "nameHu": null,
+  "altNames": [
+   "Observatorul Astronomic din Copou",
+   "Observator Astronomic (LMI)"
+  ],
+  "address": "Aleea Mihail Sadoveanu 5-7, Iași (Copou hill; OSM access road Strada Camille Flammarion)",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.193101,
+  "lon": 27.555433,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 206867564,
+   "tags": {
+    "building": "yes",
+    "man_made": "observatory",
+    "name": "Observatorul Astronomic"
+   }
+  },
+  "footprint": [
+   [
+    47.193167,
+    27.555389
+   ],
+   [
+    47.193162,
+    27.555571
+   ],
+   [
+    47.193072,
+    27.555564
+   ],
+   [
+    47.193077,
+    27.555558
+   ],
+   [
+    47.19308,
+    27.55555
+   ],
+   [
+    47.193083,
+    27.555541
+   ],
+   [
+    47.193084,
+    27.555531
+   ],
+   [
+    47.193084,
+    27.555522
+   ],
+   [
+    47.193083,
+    27.555513
+   ],
+   [
+    47.193081,
+    27.555505
+   ],
+   [
+    47.193078,
+    27.555497
+   ],
+   [
+    47.193072,
+    27.555488
+   ],
+   [
+    47.193062,
+    27.55548
+   ],
+   [
+    47.193057,
+    27.555477
+   ],
+   [
+    47.193051,
+    27.555476
+   ],
+   [
+    47.193044,
+    27.555477
+   ],
+   [
+    47.193038,
+    27.55548
+   ],
+   [
+    47.193032,
+    27.555485
+   ],
+   [
+    47.193037,
+    27.555303
+   ],
+   [
+    47.193134,
+    27.555309
+   ],
+   [
+    47.193131,
+    27.555386
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 19.6,
+   "widthM": 14.7,
+   "bearingDeg": 92.7
+  },
+  "heightHints": "No height found. Built September 1912 – December 1913 on Copou hill (Agerpres).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/206867564",
+   "https://www.wikidata.org/wiki/Q43001971",
+   "https://agerpres.ro/educatie-stiinta/2023/09/29/iasi-observatorul-astronomic-redeschis-publicului--1178143",
+   "https://www.bzi.ro/o-cladire-celebra-dintr-o-zona-rezidentiala-a-orasului-iasi-transformata-total-imagini-spectaculoase-4525226",
+   "https://www.bzi.ro/e-oficial-la-iasi-demareaza-o-investitie-de-doua-milioane-de-euro-intr-o-cladire-unicat-compania-nationala-de-investitii-a-finalizat-licitatia-pentru-refacerea-faimosului-observator-astronomic-al-4050616"
+  ],
+  "verificationNotes": "Identified as the historic astronomical observatory of 'Alexandru Ioan Cuza' University on Copou hill. OSM way 206867564 named 'Observatorul Astronomic' (man_made=observatory). Wikidata Q43001971: LMI IS-II-m-B-04017 'Observator Astronomic', Strada Mihail Sadoveanu nr. 5, point (47.1930835, 27.5555472) about 9 m from the outline centroid. Agerpres (29 Sep 2023): Aleea Sadoveanu nr. The copper dome itself is not mentioned in the sources found. Outline 231 m2, minimum rectangle 19.6 x 14.7 m; a small adjacent building (way 206867572, 44 m2) is separate."
+ }
+]

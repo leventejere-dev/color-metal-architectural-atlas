@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 281.3,
+ "bearingSource": "OSM way 1054670035 long axis 101.3°; +X points WNW (281.3°) so that the photographed main façade (north, towards Bd. Liviu Rebreanu) faces +Z. Checked with OSM context: the north–south service road and car parks east of the block appear on the left of drone photo 01, and the 3.4 m step of the L outline matches the step between the tree strip and the brown stair core.",
+ "cover": "01",
+ "photosUsed": 4,
+ "approximations": "The photographs match OSM way 1054670035 (new five-level block, L outline 45.1 × 39.3 m with the 3.4 m step in the north façade). Only the north façade and its north-west corner are photographed: the side and rear elevations are generic (white cladding with window bands) and the roof plant is indicative. Storey heights estimated (raised ground floor at 1.5 m, four upper floors ≈3.6 m, roof 19.4 m, frames ≈21.2 m). The perforated-aluminium tree motif and the wave pattern of the cantilevered box are drawn schematically as solid bands; the stripe and window rhythm of the coloured façade is approximate; the canopy inscription is omitted.",
+ "note": {
+  "ro": "Machetă interpretată după cele patru fotografii ale fațadei principale: fâșia de aluminiu perforat cu motiv de copac și caseta în consolă îmbrăcată în aluminiu perforat cu benzi ondulate, cadrul alb, fațada colorată și copertina pe stâlpi colorați. Fațadele laterale și cea posterioară nu au fost fotografiate și sunt redate generic.",
+  "hu": "A főhomlokzatról készült négy fotó alapján értelmezett makett: a perforált alumínium fa-motívumos sáv és a hullámos sávokkal perforált alumíniummal burkolt konzolos doboz, a fehér keret, a színes homlokzat és a színes oszlopokon álló előtető. Az oldal- és hátsó homlokzatokról nincs fotó, ezek általánosan vannak ábrázolva.",
+  "en": "Scale model interpreted from the four photographs of the main façade: the perforated-aluminium strip with its tree motif and the cantilevered box clad in perforated aluminium with wavy bands, the white frame, the coloured façade and the canopy on coloured columns. The side and rear elevations were not photographed and are shown generically."
+ }
+}

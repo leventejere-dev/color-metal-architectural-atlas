@@ -1,0 +1,14 @@
+{
+ "tier": "D",
+ "status": "preview",
+ "bearingDeg": 41.0,
+ "bearingSource": "OSM way 215059133 (contains the town-hall node 1179010110) long axis 41°; +X = north-east along the long wing, the short south-west end (−X, model front) faces Str. Dunării.",
+ "cover": null,
+ "photosUsed": 0,
+ "approximations": "Massing model: no usable photograph found after searching Wikimedia Commons (incl. geotagged Panoramio uploads), the municipality website and local press; the stone-clad building in Commons photos of central Alexandria stands at the WWI heroes monument (Prefecture), not on this plot. Footprint after the OSM L-outline (51.2 × 33.3 m), split after aerial imagery (Esri World Imagery, context only) into a street block with a hipped roof, a narrower north-east wing with a gabled roof and a low flat-roofed courtyard strip. Heights (11.2 / 8.0 / 4.2 m), storeys, window grid, entrance and roof pitches (25°) are assumed. Both pitched roofs shown in natural titanium-zinc per the COLOR METAL records; coverage not documented.",
+ "note": {
+  "ro": "Doar machetă volumetrică: nu s-a găsit nicio fotografie publică utilizabilă a primăriei, de aceea volumele urmează conturul OSM și imaginile aeriene, iar înălțimile, numărul de niveluri și fațadele sunt presupuse. Acoperișurile în pantă sunt redate în titan-zinc natural livrat de COLOR METAL, conform evidențelor firmei.",
+  "hu": "Csak tömegmodell: a városházáról nem található használható nyilvános fénykép, ezért a tömegek az OSM-körvonalat és a légifelvételeket követik, a magasságok, a szintszám és a homlokzatok feltételezettek. A magastetők a COLOR METAL nyilvántartása szerint szállított natúr titáncinkkel jelennek meg.",
+  "en": "Massing model only: no usable public photograph of the town hall was found, so the volumes follow the OSM outline and aerial imagery while heights, storeys and façades are assumed. The pitched roofs are shown in the natural titanium-zinc supplied by COLOR METAL according to its records."
+ }
+}

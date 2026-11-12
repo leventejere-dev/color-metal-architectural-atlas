@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 107,
+  "bearingSource": "OSM way 203170871: the straight north and south walls of the outline run at ≈ 107° (the minimum-rectangle axis 120° in the research record is skewed by the asymmetric apse lobes). +X points ESE to the altar apse, the west front with the entrance and the west tower at −X (photos 01 and 04).",
+  "cover": null,
+  "photosUsed": 4,
+  "approximations": "Plan after the OSM outline (nave 11.9 × 8.1 m, lateral apses projecting ≈ 3.4 m, altar apse as wide as the nave). Heights estimated from the photographs (walls ≈ 9.4 m, west tower cross ≈ 20 m, naos tower cross ≈ 22.6 m). The north side is mirrored from the south; niche and pilaster counts, window frames, the star bases of the naos tower and the roof intersections around the lateral apses are idealised. The photographs (2009–2020) predate the copper works, which are not itemised: the roofs and both tower caps are shown in weathered copper with standing seams.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință: planul urmează conturul OSM, turnurile, ocnițele și proporțiile urmează fotografiile, iar înălțimile și fațada nordică sunt aproximate. Fotografiile disponibile sunt anterioare lucrărilor, de aceea acoperișurile și coifurile turnurilor sunt redate în cuprul livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "Nyilvános referenciafotók alapján értelmezett makett: az alaprajz az OSM-körvonalat, a tornyok, a díszfülkék és az arányok a fotókat követik, a magasságok és az északi homlokzat közelítőek. A fotók a munkálatok előttiek, ezért a tetők és a toronysisakok a COLOR METAL nyilvántartása szerint szállított rézzel jelennek meg.",
+    "en": "Scale model interpreted from public reference photographs: the plan follows the OSM outline, the towers, niches and proportions follow the photos, while heights and the north side are approximated. The available photographs predate the works, so the roofs and tower caps are shown in the copper supplied by COLOR METAL according to its records."
+  }
+}

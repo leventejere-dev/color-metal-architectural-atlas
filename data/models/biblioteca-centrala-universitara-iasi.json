@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 199,
+ "bearingSource": "Provisional. The photographed block is not the outline of OSM relation 399264 (the historic palace with two courtyards, long axis 99.2°). It matches, probably, the coarse OSM traces 206517206 + 206517209 east of the Casa de Cultură a Studenților (≈13 m deep, with the courtyard-side set-back at the far end), with the tower end on Strada Vasile Conta; the long axis is set perpendicular to that street (≈109°), so +X (tower / street end) ≈ 199°. Not verified on site.",
+ "cover": "04",
+ "photosUsed": 12,
+ "approximations": "Building identity: the photos show a five-storey block with a zinc attic roof, corner tower and green-wall block, not the palace mapped in OSM relation 399264; dimensions therefore come from the photos (storey ≈3.5 m, bay counts, drone plan 02): ≈37 × 14 m, eave 18.6 m, ridge 23.9 m, tower tip ≈33.6 m. Roof pitch 38° estimated; junction of the attic, flat-roofed block and tower simplified; fish-scale tower shingles shown as horizontal courses; green wall as a stepped planted slab; party wall at the neighbour end left plain. Which surfaces are elZinc Natural and which elZinc Slate cannot be told from the photos — the standing-seam roof is rendered in the slate-grey tone seen in the photos, the tower shingles darker as photographed.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință, care arată un corp cu cinci niveluri, cu turn de colț și acoperișuri din titan-zinc, nu palatul istoric al bibliotecii; dimensiunile sunt estimate din fotografii, iar șindrila turnului și fațada verde sunt simplificate.",
+  "hu": "A referenciafotók alapján értelmezett makett: a fotók egy ötszintes, saroktornyos, titáncink tetős épületet mutatnak, nem a könyvtár történelmi palotáját; a méretek a fotókból becsültek, a torony zsindelyfedése és a zöldfal egyszerűsített.",
+  "en": "Scale model interpreted from the reference photographs, which show a five-storey block with a corner tower and titanium-zinc roofs rather than the library's historic palace; dimensions are estimated from the photos, the tower shingles and the green wall are simplified."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 36.0,
+ "bearingSource": "Round building: +X = the radial entrance arm. Its direction measured on the vertical drone photo 01 after aligning OSM (Calea Urseni, the museum pavilion way 1199498995 and the hall way 943817976) on the photo (photo up ≈ 48°, arm ≈ 12° left of photo-up after perspective correction) → ≈36° (NE, towards the new pavilion, consistent with photo 02). Uncertainty ±6°.",
+ "cover": "03",
+ "photosUsed": 9,
+ "approximations": "The photographs (03–09) show the round building of OSM way 943810404 — the geolocated building is the one with the new elZinc Natural roofs, no correction needed. Heights estimated from the entrance door (≈2.2 m) and the Ø 14.7 m outline: ring wall 1.6 m, drum to 4.55 m, dome apex ≈8.4 m; seam counts, the windows of the ring wall and drum and the rear side are approximated; the sunken landscaped pit, water channels and benches are not modelled. Photos 10–11 show small zinc details (a door canopy and a polygonal bay roof) on the neighbouring red-tiled historic building, which is not part of this model.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii: clădirea rotundă a fostei stații de pompare, cu cupola, inelul inferior cu luminatoare rotunde și portalul de intrare acoperite cu titan-zinc elZinc Natural. Înălțimile sunt estimate după ușa de intrare; ferestrele și latura din spate sunt simplificate, amenajarea peisagistică nu este modelată.",
+  "hu": "A fotók alapján értelmezett makett: az egykori szivattyúállomás kerek épülete, elZinc Natural titáncink borítású kupolával, kerek bevilágítós alsó gyűrűvel és bejárati portikusszal. A magasságok a bejárati ajtó alapján becsültek; az ablakok és a hátsó oldal egyszerűsítettek, a tereprendezés nincs modellezve.",
+  "en": "Scale model interpreted from the photographs: the round former pumping station with its dome, lower ring roof with round skylights and entrance portal, all clad in elZinc Natural titanium-zinc. Heights are estimated from the entrance door; windows and the rear side are simplified and the landscaping is not modelled."
+ }
+}

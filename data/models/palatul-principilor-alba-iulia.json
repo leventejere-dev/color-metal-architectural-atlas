@@ -1,0 +1,14 @@
+{
+ "tier": "C",
+ "status": "reference-limited",
+ "bearingDeg": 282.0,
+ "bearingSource": "OSM relation 2873706 long axis 102°; +X set to 282° so that +Z is the north side facing the cathedral; orientation checked on photo 03 (cathedral apse and the Mihai Viteazul statue north of the eastern courtyard) and photo 01 (cathedral west front north of the western courtyard)",
+ "cover": "03",
+ "photosUsed": 3,
+ "approximations": "Whole complex modelled from the OSM outer and courtyard rings (wings ≈ 12–17 m deep, small courtyard corner notches simplified); eave heights unified (10 m, central north body 10.6 m), roof pitch ≈ 42°. The photographs show ceramic-tile roof coverings on all bodies; the metal is shown where it is visible: titanium-zinc vent dormers (graphite on the newly tiled eastern-courtyard bodies, natural on the western-courtyard bodies), copper gutters and downpipes, and a natural-zinc standing-seam lean-to in the western courtyard (photo 01). Which bodies COLOR METAL actually roofed (corp A–G) is not documented — this distribution is inferred from the photographs only. Window rhythm, gates, chimney and dormer positions are schematic.",
+ "note": {
+  "ro": "Volumetrie simplificată a întregului complex, după trei fotografii din dronă și conturul OSM. În fotografii acoperișurile sunt din țiglă; elementele metalice redate (lucarne de ventilare din zinc, jgheaburi și burlane din cupru, un acoperiș într-o apă din zinc) sunt amplasate schematic, deoarece corpurile exacte nu sunt documentate.",
+  "hu": "A teljes palotaegyüttes egyszerűsített tömegmodellje három drónfotó és az OSM-körvonal alapján. A tetők a fotókon cserépfedésűek; a megjelenített fémszerkezetek (cink szellőzőablakok, réz ereszcsatornák és lefolyók, egy cink félnyeregtető) sematikusan elhelyezettek, mivel a pontos épületszárnyak nem dokumentáltak.",
+  "en": "Simplified massing of the whole palace complex from three drone photographs and the OSM outline. The roofs are tiled in the photographs; the metal work shown (zinc vent dormers, copper gutters and downpipes, a zinc lean-to roof) is placed schematically, as the exact bodies are not documented."
+ }
+}

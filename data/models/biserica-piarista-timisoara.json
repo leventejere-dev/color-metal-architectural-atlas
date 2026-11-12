@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 348.6,
+ "bearingSource": "The OSM outline (way 98109224) is irregular (tower, turrets, diagonal link stubs), so its minimum-rectangle axis 21.6° runs diagonally through the church; +X is taken from the parallel nave/choir walls of the outline (348.6°, towards the three-sided choir); the tower front faces 168.6° (−X), as in photos 01–05.",
+ "cover": null,
+ "photosUsed": 6,
+ "approximations": "Nave, transept and choir are hidden by the school wings in all photos: their walls, windows and tiled roofs (tiles visible behind the tower in the 2008 photo 06) are interpreted from the outline. Tower ≈41 m to the cross and turret heights scaled from the 6.2 m tower width in photos 03/04; helm profile, corner pinnacles, corbel table and portal simplified; the small rear stair turrets are inferred from photos 05/06 and mirrored; the adjoining Piarist school wings are not modelled (the two-storey link wings are cut at the outline).",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice și conturul OSM; coiful turnului și coifurile turnulețelor sunt redate în titan-zinc natural, materialul livrat de COLOR METAL conform evidențelor sale, așa cum apar în fotografiile din 2019–2023. Nava, transeptul și corul, ascunse de aripile școlii, sunt reconstituite după contur, iar înălțimile și ornamentația sunt aproximate.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a torony sisakja és a fiatornyok kúpjai natúr titáncinkből készültek – a COLOR METAL nyilvántartása szerint általa szállított anyag –, ahogy a 2019–2023-as fotókon látszanak. Az iskolaszárnyak által takart hajó, kereszthajó és szentély a körvonal alapján értelmezett, a magasságok és a díszítés közelítők.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the tower helm and the turret spires are shown in natural titanium-zinc – the material supplied by COLOR METAL according to its records – as seen in the 2019–23 photographs. The nave, transept and choir, hidden by the school wings, are reconstructed from the outline; heights and ornament are approximated."
+ }
+}

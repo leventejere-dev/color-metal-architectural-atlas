@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 132.7,
+ "bearingSource": "OSM way 88120970 long axis 132.7°; the rounded altar-apse end of the outline is at the SE (+X), the wide porch/narthex block at the NW (−X), matching the west façade in photo 02",
+ "cover": "02",
+ "photosUsed": 12,
+ "approximations": "Overall height follows the published ≈ 50 m (model 48.9 m to the cross); drum, dome, corner-tower and arch heights estimated from photos 01, 02 and 08. Layout (central tower + four octagonal corner towers, triconch, porch with five front and two lateral arcades, portico round the altar apse) from the photos and ro.wikipedia. East end, altar-apse portico and east arm not photographed; side rooms of the west block assumed from the OSM outline; main-tower base height, window counts, mosaic and ornament simplified. Copper shown in the two tones photographed: brown on half-domes, barrels and pronaos dome, very dark on the drum domes.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință; înălțimea totală urmează valoarea publicată de cca 50 m, celelalte înălțimi sunt estimate din fotografii, iar capătul estic cu portalul absidei altarului și ornamentația sunt aproximate.",
+  "hu": "A referenciafotók alapján értelmezett makett; a teljes magasság a közölt kb. 50 m-t követi, a többi magasság a fotókból becsült, a keleti vég az oltárapszis körüli árkádos tornáccal és a díszítés közelítő.",
+  "en": "Scale model interpreted from the reference photographs; the overall height follows the published ≈ 50 m, other heights are estimated from the photos, and the east end with the arcaded portico round the altar apse and the ornament are approximated."
+ }
+}

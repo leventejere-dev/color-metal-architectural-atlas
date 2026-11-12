@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 82.1,
+ "bearingSource": "OSM way 1441634148 long axis 82.1°; +X points to the polygonal east apse, the porch-tower stands at the west end (photos 01-04).",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "Plan from the OSM outline (29.1 × 13.2 m): body 10.8 m wide, short polygonal lateral apses, three-sided east apse. Heights scaled on the small south-elevation photo 01 (eaves ≈ 8.6 m, porch-tower ≈ 16.3 m, drum to ≈ 19.2 m, crosses ≈ 19 / 22.4 m). The drum is placed at X ≈ 2.5 m after photo 01 and the lateral-apse bulge (the separate OSM drum polygon is offset eastwards). Photos are small: window counts, cornices, the east apse and the north side are interpreted. Roofs and domes shown in dark weathered copper — the 2023-2024 photos show the renewed roofs very dark with visible seams.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință de mici dimensiuni. Acoperișurile, coiful turnului-clopotniță și bulbul turlei sunt redate în cupru patinat închis la culoare, așa cum apar în fotografiile din 2023-2024 — material livrat de COLOR METAL conform evidențelor sale. Poziția turlei, înălțimile, ferestrele și latura de nord sunt estimate.",
+  "hu": "Kisméretű nyilvános referenciafotók alapján értelmezett makett. A tetők, a bejárati torony sisakja és a dob kupolája sötétre patinásodott rézként jelennek meg, ahogy a 2023–2024-es fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. A dob helyzete, a magasságok, az ablakok és az északi oldal becsültek.",
+  "en": "Scale model interpreted from small public reference photographs. The roofs, the porch-tower cap and the drum dome are shown in dark weathered copper as photographed in 2023-2024 — the material supplied by COLOR METAL according to its records. The drum position, heights, windows and the north side are estimated."
+ }
+}

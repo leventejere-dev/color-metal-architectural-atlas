@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 78.3,
+ "bearingSource": "OSM way 39313892 long axis 78.3°; +X points to the altar (ENE), the pedimented west front faces Bd. Schitu Măgureanu (photos 01, 02).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Cross plan from the OSM outline (straight east end as mapped). West-front widths and heights scaled on the frontal photo 02 (façade ≈ 8.1 m): cornice ≈ 7.4 m, pediment ≈ 10.1 m, west tower cross ≈ 17 m, main tower cross ≈ 18 m; towers hexagonal after the published description. East end and north side not photographed (mirrored / inferred); roof pitches and the transept gables estimated. Roofs, domes, tower bases and the door canopy shown in weathered copper standing seam because the photographs (2018 or earlier) predate the 2021 works and show galvanised sheet.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință. Fotografiile găsite sunt anterioare lucrărilor din 2021, de aceea acoperișurile, turlele și copertina ușii sunt redate în cupru patinat (brun), materialul livrat de COLOR METAL conform evidențelor sale; suprafețele exacte nu sunt documentate. Latura de est, fațada de nord și înălțimile sunt estimate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett. A fellelt fotók a 2021-es munkák előtt készültek, ezért a tetők, a tornyok sisakjai és a bejárati előtető a COLOR METAL nyilvántartása szerint szállított rézzel, barnára patinásodott állapotban jelennek meg; a pontos felületek nem dokumentáltak. A keleti oldal, az északi homlokzat és a magasságok becsültek.",
+  "en": "Scale model interpreted from public reference photographs. The photographs found predate the 2021 works, so the roofs, the tower domes and the door canopy are shown in weathered (brown) copper, the material supplied by COLOR METAL according to its records; the exact surfaces are not documented. The east end, the north side and the heights are estimated."
+ }
+}

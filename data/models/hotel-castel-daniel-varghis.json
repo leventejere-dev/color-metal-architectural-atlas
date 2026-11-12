@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 68.6,
+ "bearingSource": "OSM way 365711775: the outline's bounding-box axis is 62.4°, but the main block's walls run at 68.6°, which is used as +X; the front with the porch faces +Z = 158.6° (SSE) and the courtyard with the gallery lies on −Z, the east wing leaving at 48° towards the courtyard side (OSM outline, photos 01–03).",
+ "cover": null,
+ "photosUsed": 3,
+ "approximations": "Plan from the OSM outline (west block 11 × 17.7 m, main block 11.8 m deep, wing 10.8 m wide). Heights estimated (eaves ≈ 7.6 m, roofs ≈ 45–47°, ridge ≈ 13.5 m). The photographs suggest the porch sits closer to the west end than in the outline; the outline is followed and the window distribution of the long façades is interpreted. Loggia carving, the decorated timber gable, shutters and the courtyard gallery are simplified. The tile roofs are modelled as photographed; the brass is placed on gutters, downpipes, chimney caps, valley flashing and the porch finial as an assumption.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice și conturul OSM; înălțimile și distribuția ferestrelor sunt estimate. Fotografiile arată acoperișuri din țiglă, de aceea acestea sunt redate ca atare, iar tabla de alamă furnizată de COLOR METAL conform evidențelor sale apare doar la detaliile unde este plauzibilă (jgheaburi, burlane, capace de coș, șorțuri și ornamentul pridvorului).",
+  "hu": "Nyilvános referenciafotók és az OSM-alaprajz alapján értelmezett makett; a magasságok és az ablakok elosztása becsült. A fotókon cseréptetők láthatók, ezért ezek így jelennek meg; a COLOR METAL nyilvántartása szerint általa szállított sárgarézlemez csak ott látható, ahol ez valószínű: ereszcsatornák, lefolyók, kéménysapkák, bádogozások és a tornác csúcsdísze.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; heights and the window distribution are estimated. The photographs show clay-tile roofs, which are modelled as seen; the brass sheet supplied by COLOR METAL according to its records is shown only where it plausibly belongs: gutters, downpipes, chimney caps, flashings and the porch finial."
+ }
+}

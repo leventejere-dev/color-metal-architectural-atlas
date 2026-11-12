@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 64.5,
+ "bearingSource": "OSM way 162494375 long axis 64.5°; +X points to the small semicircular east apse of the OSM outline, the tower front faces Str. Luterană (WSW), as in photos 01-04.",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "Plan from the OSM outline (26.6 × 14.4 m + apse); west-front widths and all heights scaled on the frontal photo 02 (portal ≈ 2 m as scale): westwork cornice ≈ 10.4 m, nave eaves ≈ 9.8 m, square belfry to 15.6 m, octagonal stage to 22.9 m, spire to ≈ 29.8 m. Nave bay count, the east elevation and the north side are not photographed and are inferred; roof pitches estimated; corbel arcades, portals and the rose window simplified. Roofs and spire shown in natural titanium-zinc standing seam because all photos predate the 2023 works.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință. Fotografiile disponibile sunt anterioare lucrărilor din 2023, de aceea acoperișurile și coiful turnului sunt redate în titan-zinc natural cu fălțuire, materialul livrat de COLOR METAL conform evidențelor sale; suprafețele exacte refăcute nu sunt documentate. Înălțimile, fațada de est și numărul travéelor sunt estimate.",
+  "hu": "Nyilvános referenciafotók alapján értelmezett makett. A rendelkezésre álló fotók a 2023-as munkák előtt készültek, ezért a tetők és a toronysisak a COLOR METAL nyilvántartása szerint szállított natúr titáncinkkel, állókorcos fedéssel jelennek meg; a pontosan felújított felületek nem dokumentáltak. A magasságok, a keleti homlokzat és a hajószakaszok száma becsült.",
+  "en": "Scale model interpreted from public reference photographs. The available photographs predate the 2023 works, so the roofs and the tower spire are shown in natural titanium-zinc standing seam, the material supplied by COLOR METAL according to its records; exactly which surfaces were renewed is not documented. Heights, the east elevation and the number of nave bays are estimated."
+ }
+}

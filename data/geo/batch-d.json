@@ -1,0 +1,2014 @@
+[
+ {
+  "id": "palatul-nifon-bucuresti",
+  "officialName": "Palatul Nifon Mitropolitul",
+  "nameHu": null,
+  "altNames": [
+   "Palatul Nifon",
+   "Așezămintele Nifon",
+   "Nifon Building",
+   "Clădirea Nifon"
+  ],
+  "category": "historic",
+  "address": "Strada Doamnei 1 (corner of Calea Victoriei), Sector 3, 030051 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.434246,
+  "lon": 26.098666,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "relation",
+   "id": 14862831,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "1",
+    "addr:postcode": "030051",
+    "addr:street": "Strada Doamnei",
+    "building": "yes",
+    "building:levels": "3",
+    "castle_type": "palace",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "historic": "castle",
+    "name": "Palatul Nifon Mitropolitul",
+    "ref:RO:lmi": "B-II-m-B-17929",
+    "roof:levels": "1",
+    "start_date": "1895",
+    "type": "multipolygon"
+   }
+  },
+  "footprint": [
+   [
+    44.4342578,
+    26.0988036
+   ],
+   [
+    44.4343721,
+    26.098855
+   ],
+   [
+    44.4343343,
+    26.0989718
+   ],
+   [
+    44.4340845,
+    26.098919
+   ],
+   [
+    44.4340554,
+    26.0988545
+   ],
+   [
+    44.4341676,
+    26.09841
+   ],
+   [
+    44.4341737,
+    26.0983956
+   ],
+   [
+    44.4341828,
+    26.0983891
+   ],
+   [
+    44.4344046,
+    26.0984025
+   ],
+   [
+    44.4344149,
+    26.0984075
+   ],
+   [
+    44.4344242,
+    26.0984166
+   ],
+   [
+    44.4344301,
+    26.0984341
+   ],
+   [
+    44.4344466,
+    26.0986085
+   ],
+   [
+    44.4344328,
+    26.0986546
+   ],
+   [
+    44.4343104,
+    26.0985971
+   ],
+   [
+    44.434301,
+    26.0986342
+   ],
+   [
+    44.4343097,
+    26.0986411
+   ],
+   [
+    44.4343175,
+    26.0986505
+   ],
+   [
+    44.4343226,
+    26.0986594
+   ],
+   [
+    44.4343271,
+    26.0986706
+   ],
+   [
+    44.4343301,
+    26.0986828
+   ],
+   [
+    44.4343316,
+    26.0986955
+   ],
+   [
+    44.4343315,
+    26.0987071
+   ],
+   [
+    44.43433,
+    26.0987186
+   ],
+   [
+    44.434327,
+    26.0987304
+   ],
+   [
+    44.4343226,
+    26.0987414
+   ],
+   [
+    44.4343167,
+    26.0987513
+   ],
+   [
+    44.4343096,
+    26.0987597
+   ],
+   [
+    44.4343022,
+    26.0987657
+   ],
+   [
+    44.4342924,
+    26.0987706
+   ],
+   [
+    44.4342812,
+    26.0987727
+   ],
+   [
+    44.4342663,
+    26.0987701
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 50.5,
+   "widthM": 34.5,
+   "bearingDeg": 109.5
+  },
+  "heightHints": "OSM: building:levels=3, roof:levels=1 (mansard). Neoclassical palace by Paul Gottereau (1891/1895) with a rounded corner bay crowned by a dome-like mansard on the Calea Victoriei / Str. Doamnei corner. No measured height in OSM/Wikidata; estimate ~20-22 m to cornice from photos (ground floor + mezzanine-like high shop floor + 2 upper floors + mansard).",
+  "photos": 3,
+  "metalVisibleInPhotos": "01 (2011) and 02 (2013) show the pre-restoration state: grey sheet-metal mansard roof and the curved metal-clad corner cupola above the cornice. No street-level photo of the completed new roof was found on Commons.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/14862831",
+   "https://www.wikidata.org/wiki/Q42764274",
+   "https://commons.wikimedia.org/wiki/Category:Nifon_Building",
+   "https://profit.ro/povesti-cu-profit/real-estate-constructii/foto-guvernul-restaureaza-cu-peste-56-milioane-lei-palatul-nifon-mitropolitul-la-cererea-arhiepiscopiei-bucuresti-18652343",
+   "https://www.bursa.ro/investitie-de-56-milioane-lei-pentru-reabilitarea-palatului-nifon-din-bucuresti-01270730",
+   "https://observatornews.ro/eveniment/incendiu-la-palatul-nifon-cladirea-patriarhiei-pentru-care-statul-a-dat-56-de-milioane-de-lei-lucrarile-de-restaurare-la-un-pas-sa-faca-scrum-monumentul-487258.html",
+   "https://www.bucharest.ro/articles/the-history-of-nifon-palace-the-most-beautiful-building-on-calea-victoriei-from-the-inn-of-the-furrier-dedu-to-the-present-day-640"
+  ],
+  "verificationNotes": "Unique name; OSM relation 14862831 is named 'Palatul Nifon Mitropolitul' at Str. Doamnei 1 (historic=castle, heritage LMI). Wikidata Q42764274 ('Așezămintele Nifon', alias 'Palatul Nifon Mitropolitul') gives the same address and coords 44.434205, 26.098544 (≈10 m from the OSM centroid). LMI code differs between sources: OSM ref:RO:lmi=B-II-m-B-17929, Wikidata P1770=B-II-m-B-18583 — not resolved. Observator reported a fire during the restoration works while workers were welding/waterproofing on the roof. Footprint = outer ring of the multipolygon (an inner ring of 47 m² exists).",
+  "registerKeys": [
+   "b20b2db3d7adb57a"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate",
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "primaria-sector-5-bucuresti",
+  "officialName": "Primăria Sectorului 5 (building that received the roof not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Primăria Sector 5",
+   "Consiliul Local Sector 5"
+  ],
+  "category": "historic",
+  "address": "Town-hall seat: Strada Fabrica de Chibrituri 9-11, Sector 5, București (roofed building unknown)",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.415101,
+  "lon": 26.09,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "way",
+   "id": 610656824,
+   "tags": {
+    "name": "Primăria Sectorului 5",
+    "amenity": "townhall",
+    "building": "yes",
+    "addr:street": "Strada Fabrica de Chibrituri",
+    "addr:housenumber": "7-19",
+    "alt_name": "Consiliul Local Sector 5"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/610656824",
+   "https://www.bucharest.ro/locations/city-halls-sector-5-city-hall-334",
+   "https://www.g4media.ro/nicusor-dan-lucrarile-la-imobilul-monument-istoric-de-pe-bulevardul-regina-elisabeta-numarul-29-sunt-aproape-finalizate.html"
+  ],
+  "verificationNotes": "The current seat of the Sector 5 town hall (council documents 2022-2026, bucharest.ro) is Str. Fabrica de Chibrituri 9-11 (OSM way 610656824); the bucharest.ro photo shows a plain modern rendered office block with no visible pitched/standing-seam roof, so it is unlikely to be the roofed object. no public source links a 2020-21 titanium-zinc roof to a specific Sector 5 property (checked news, PMB/sector5.ro documents). A historic monument at Bd. Regina Elisabeta 29 (former Eforia Spitalelor Civile palace) had its roof rebuilt in 2023, but it was announced by the General Mayor (PMB), not Sector 5, so it is NOT assigned here. Coordinates = town-hall seat centroid, for orientation only.",
+  "registerKeys": [
+   "04ec99d7e5aa357c"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-luterana-bucuresti",
+  "officialName": "Biserica Evanghelică C.A. București (Biserica Luterană)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Luterană din București",
+   "Lutheran Church Bucharest",
+   "Evangelische Kirche Bukarest"
+  ],
+  "category": "church",
+  "address": "Strada Luterană 2, Sector 1, București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.440583,
+  "lon": 26.093242,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 162494375,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2026-06-28",
+    "denomination": "protestant",
+    "language:de": "main",
+    "name": "Biserica Luterană",
+    "religion": "christian",
+    "wheelchair": "limited",
+    "wikidata": "Q12721820",
+    "wikipedia": "ro:Biserica luterană din București"
+   }
+  },
+  "footprint": [
+   [
+    44.4405878,
+    26.093044
+   ],
+   [
+    44.4406906,
+    26.0933463
+   ],
+   [
+    44.4406597,
+    26.0933656
+   ],
+   [
+    44.4406604,
+    26.0933951
+   ],
+   [
+    44.4406545,
+    26.0934115
+   ],
+   [
+    44.4406399,
+    26.0934264
+   ],
+   [
+    44.4406237,
+    26.0934289
+   ],
+   [
+    44.4406084,
+    26.0934201
+   ],
+   [
+    44.4405999,
+    26.0934072
+   ],
+   [
+    44.440574,
+    26.0934241
+   ],
+   [
+    44.4404711,
+    26.0931215
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.9,
+   "widthM": 14.4,
+   "bearingDeg": 64.5
+  },
+  "heightHints": "Neo-Romanesque/Gothic-revival church (built 1851-1853) with a single west tower and tall pointed spire; spire visually about twice the nave height. No measured height in OSM/Wikidata; from photos estimate nave eaves ~11-12 m, tower+spire ~40-45 m (estimate, not measured).",
+  "photos": 4,
+  "metalVisibleInPhotos": "All four photos (2012-2018 and undated) predate the 2023 works. The tall west spire is covered in grey sheet metal; the low-pitched nave roof is barely visible behind the corbel-table eaves (03 shows a grey roof edge on the side).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/162494375",
+   "https://www.wikidata.org/wiki/Q12721820",
+   "https://ro.wikipedia.org/wiki/Biserica_luterană_din_București",
+   "https://commons.wikimedia.org/wiki/Category:Lutheran_church_(Bucharest)"
+  ],
+  "verificationNotes": "OSM way 162494375 'Biserica Luterană' (building=church, wikidata Q12721820) at Str. Luterană 2; Wikidata coords 44.4406, 26.0932 match (≈5 m). No public news found about the 2023 roof works (searched RO/DE). Identification certain;",
+  "registerKeys": [
+   "54b3da23b822cec4"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "hotel-bulevard-bucuresti",
+  "officialName": "Grand Hôtel du Boulevard (Corinthia Grand Hotel du Boulevard Bucharest)",
+  "nameHu": null,
+  "altNames": [
+   "Hotel Bulevard",
+   "Grand Hotel du Boulevard",
+   "Corinthia Bucharest"
+  ],
+  "category": "commercial",
+  "address": "Bulevardul Regina Elisabeta 21 (corner of Calea Victoriei), Sector 5, 030167 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.434523,
+  "lon": 26.097818,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 137689140,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "21",
+    "addr:postcode": "030167",
+    "addr:street": "Bulevardul Regina Elisabeta",
+    "architect": "Alexandru Orăscu",
+    "building": "yes",
+    "building:architecture": "neoclassicism",
+    "building:levels": "4",
+    "height": "26",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "internet_access": "yes",
+    "internet_access:fee": "yes",
+    "name": "Corinthia",
+    "official_name": "Corinthia Grand Hotel du Boulevard Bucharest",
+    "ref:RO:lmi": "B-II-m-A-18678",
+    "roof:levels": "1",
+    "rooms": "30",
+    "source:addr:street": "survey",
+    "start_date": "1871",
+    "tourism": "hotel",
+    "website": "https://www.corinthia.com/en-gb/bucharest",
+    "wikidata": "Q3113619",
+    "wikimedia_commons": "Category:Corinthia Grand Hotel du Boulevard Bucharest",
+    "wikipedia": "ro:Corinthia Grand Hotel du Boulevard Bucharest"
+   }
+  },
+  "footprint": [
+   [
+    44.4346258,
+    26.0974326
+   ],
+   [
+    44.4346356,
+    26.098147
+   ],
+   [
+    44.4346311,
+    26.0981666
+   ],
+   [
+    44.4346217,
+    26.098179
+   ],
+   [
+    44.4346108,
+    26.0981878
+   ],
+   [
+    44.4345992,
+    26.0981921
+   ],
+   [
+    44.4344466,
+    26.0982314
+   ],
+   [
+    44.4344303,
+    26.0982307
+   ],
+   [
+    44.4344176,
+    26.0982231
+   ],
+   [
+    44.434407,
+    26.0982068
+   ],
+   [
+    44.4344044,
+    26.098181
+   ],
+   [
+    44.4344035,
+    26.0981174
+   ],
+   [
+    44.4344015,
+    26.0979686
+   ],
+   [
+    44.4344774,
+    26.0979675
+   ],
+   [
+    44.434472,
+    26.0976581
+   ],
+   [
+    44.4343824,
+    26.0976624
+   ],
+   [
+    44.4343785,
+    26.0974405
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 63.0,
+   "widthM": 27.5,
+   "bearingDeg": 88.7
+  },
+  "heightHints": "OSM: height=26 m, building:levels=4, roof:levels=1. Mansard roof with dormers and three dark domed corner/axis cupolas (photos).",
+  "photos": 4,
+  "metalVisibleInPhotos": "01 (May 2026, after reopening as Corinthia) shows the restored dark grey mansard with dormers and dark domes; 02-04 (Dec 2018 / Apr 2021 / undated) show the same roofscape (dark metal mansard, two corner domes and a central dome with lantern).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/137689140",
+   "https://www.wikidata.org/wiki/Q3113619",
+   "https://en.wikipedia.org/wiki/Grand_Hotel_du_Boulevard",
+   "https://commons.wikimedia.org/wiki/Category:Grand_Hôtel_du_Boulevard,_Bucharest",
+   "https://profit.ro/must-read/confirmare-foto-un-lant-hotelier-de-lux-intra-in-romania-punandu-si-numele-pe-unul-dintre-hotelurile-emblema-ale-bucurestiului-deschiderea-va-fi-intr-un-moment-special-18006455"
+  ],
+  "verificationNotes": "'Hotel Bulevard' is the common Romanian name of the Grand Hôtel du Boulevard (Wikidata alias 'Hotel Bulevard din București', LMI B-II-m-A-18678). OSM way 137689140 (tourism=hotel, ref:RO:lmi=B-II-m-A-18678, wikidata Q3113619).",
+  "registerKeys": [
+   "3fe4c61cdc95e515"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Rainbow Brown"
+  ]
+ },
+ {
+  "id": "biserica-schitul-magureanu",
+  "officialName": "Biserica Schitul Măgureanu",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Schitu Măgureanu",
+   "Schitul Măgureanu",
+   "Biserica Văcărescu"
+  ],
+  "category": "church",
+  "address": "Bulevardul Schitu Măgureanu 14, Sector 1, 010186 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.439216,
+  "lon": 26.087345,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 39313892,
+   "tags": {
+    "building": "church"
+   }
+  },
+  "footprint": [
+   [
+    44.4392346,
+    26.087202
+   ],
+   [
+    44.4392541,
+    26.0873343
+   ],
+   [
+    44.4392788,
+    26.0873271
+   ],
+   [
+    44.4392869,
+    26.0873825
+   ],
+   [
+    44.4392609,
+    26.08739
+   ],
+   [
+    44.4392707,
+    26.0874564
+   ],
+   [
+    44.4391972,
+    26.0874776
+   ],
+   [
+    44.4391892,
+    26.0874227
+   ],
+   [
+    44.4391667,
+    26.0874292
+   ],
+   [
+    44.4391564,
+    26.0873596
+   ],
+   [
+    44.4391796,
+    26.0873529
+   ],
+   [
+    44.4391605,
+    26.0872234
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 20.6,
+   "widthM": 13.9,
+   "bearingDeg": 78.3
+  },
+  "heightHints": "Cross-plan church built 1881-1884 (plans by Dumitrache Nicolau) with two hexagonal towers (bucharest.ro). No measured height; small church (footprint ~21 x 14 m) — towers estimated ~20-25 m (estimate).",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded: no free exterior photo found (Commons has only A. Preziosi's 1868 painting of the predecessor church; bucharest.ro uses the same painting).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/39313892",
+   "https://www.openstreetmap.org/node/462347535",
+   "https://doc.pmb.ro/institutii/cgmb/buget/docs/2020/20200730/2.48.1_directia_generala_de_arhitectura_peisagistica_si_monumente_de_for_public.pdf",
+   "https://www.bucharest.ro/articles/famous-boulevard-names-schitul-magureanu-the-vacarescu-family-the-cantacuzino-family-and-the-eternal-monument-of-the-capital-960"
+  ],
+  "verificationNotes": "Unique name. OSM node 462347535 'Biserica Ortodoxă Schitu Măgureanu' (Bd. Schitu Măgureanu 14) sits inside untagged building=church way 39313892 (3 m from centroid) — used as footprint. PMB 2020 budget annex (Direcția Generală de Arhitectură Peisagistică și Monumente de For Public) lists 'Schitul Măgureanu, Bd. Schitul Măgureanu nr. 14, Sector 1 — Consolidarea, reabilitarea bisericii, construire pangar, amenajare incintă, Monument istoric', i.e. LMI code not confirmed.",
+  "registerKeys": [
+   "a8865aebab46013e"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "universitatea-de-muzica-bucuresti",
+  "officialName": "Universitatea Națională de Muzică București — clădirea principală (Corp A), Str. Știrbei Vodă 33",
+  "nameHu": null,
+  "altNames": [
+   "UNMB",
+   "Conservatorul Ciprian Porumbescu",
+   "Conservatorul din București",
+   "National University of Music Bucharest"
+  ],
+  "category": "education",
+  "address": "Strada Știrbei Vodă 33, Sector 1, 010102 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.439413,
+  "lon": 26.090572,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 232297325,
+   "tags": {
+    "building": "university",
+    "building:levels": "2"
+   }
+  },
+  "footprint": [
+   [
+    44.4390087,
+    26.0904455
+   ],
+   [
+    44.4389839,
+    26.0904419
+   ],
+   [
+    44.4389395,
+    26.0905445
+   ],
+   [
+    44.4394073,
+    26.090948
+   ],
+   [
+    44.4394423,
+    26.090943
+   ],
+   [
+    44.4394463,
+    26.0910024
+   ],
+   [
+    44.439602,
+    26.0909712
+   ],
+   [
+    44.4395981,
+    26.0908607
+   ],
+   [
+    44.4396143,
+    26.0908579
+   ],
+   [
+    44.4396129,
+    26.0908286
+   ],
+   [
+    44.4396465,
+    26.0908245
+   ],
+   [
+    44.4396712,
+    26.0907926
+   ],
+   [
+    44.439623,
+    26.090169
+   ],
+   [
+    44.4394761,
+    26.0901791
+   ],
+   [
+    44.4394759,
+    26.0902102
+   ],
+   [
+    44.4393145,
+    26.0902091
+   ],
+   [
+    44.4393122,
+    26.0902765
+   ],
+   [
+    44.4392723,
+    26.0902759
+   ],
+   [
+    44.4392667,
+    26.0904826
+   ],
+   [
+    44.4393058,
+    26.0904855
+   ],
+   [
+    44.4393053,
+    26.0905569
+   ],
+   [
+    44.4394671,
+    26.0905689
+   ],
+   [
+    44.4394709,
+    26.0907754
+   ],
+   [
+    44.4394357,
+    26.0907805
+   ],
+   [
+    44.4390365,
+    26.0904513
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 78.8,
+   "widthM": 64.6,
+   "bearingDeg": 173.8
+  },
+  "heightHints": "OSM building:levels=2 on way 232297325; photos show basement + 3 storeys with a hipped roof and small dormers (≈15-17 m to ridge, estimate).",
+  "photos": 3,
+  "metalVisibleInPhotos": "Photos (2013) show the main façade on Știrbei Vodă with a hipped roof covered in red/orange tiles and small dormers — i.e. the pre-2021 state. The 0.5 mm titanium-zinc sheet (1000 mm coil) suggests flashings, gutters, dormer/eave details of the 2021-22 roof rebuild; not visible in available photos.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/232297325",
+   "https://www.openstreetmap.org/way/36077844",
+   "https://www.wikidata.org/wiki/Q1888128",
+   "https://unmb.ro/raport-activitate-rector-2022",
+   "https://commons.wikimedia.org/wiki/Category:National_University_of_Music_Bucharest"
+  ],
+  "verificationNotes": "Institution certain (only music university in Bucharest; campus OSM way 36077844, Str. Știrbei Vodă 33). 'Corp A' is assumed to be the main historic building on Știrbei Vodă (OSM way 232297325, building=university, 2,595 m² — the large block set back ~30 m behind the front garden); this building-level assignment is an inference, hence PROBABLE. The 2016 report mentions an earlier galvanised-sheet roof on 'corp D'.",
+  "registerKeys": [
+   "4ace26123d03e5d8"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "muzeul-taranului-roman",
+  "officialName": "Muzeul Național al Țăranului Român",
+  "nameHu": null,
+  "altNames": [
+   "Muzeul Țăranului Român",
+   "MȚR",
+   "MNȚR",
+   "National Museum of the Romanian Peasant"
+  ],
+  "category": "museum",
+  "address": "Șoseaua Pavel D. Kiseleff 3, Sector 1, 011341 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.454359,
+  "lon": 26.083589,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "relation",
+   "id": 2552618,
+   "tags": {
+    "building": "yes",
+    "type": "multipolygon"
+   }
+  },
+  "footprint": [
+   [
+    44.4539259,
+    26.0831858
+   ],
+   [
+    44.4539917,
+    26.0834135
+   ],
+   [
+    44.4539557,
+    26.0834339
+   ],
+   [
+    44.4540288,
+    26.0836868
+   ],
+   [
+    44.4540113,
+    26.0836967
+   ],
+   [
+    44.454093,
+    26.0839795
+   ],
+   [
+    44.4541122,
+    26.0839686
+   ],
+   [
+    44.4542066,
+    26.0842951
+   ],
+   [
+    44.4548197,
+    26.0839472
+   ],
+   [
+    44.4547277,
+    26.0836288
+   ],
+   [
+    44.4547472,
+    26.0836177
+   ],
+   [
+    44.4546634,
+    26.0833278
+   ],
+   [
+    44.4546434,
+    26.0833391
+   ],
+   [
+    44.4545721,
+    26.0830925
+   ],
+   [
+    44.4545353,
+    26.0831134
+   ],
+   [
+    44.4544674,
+    26.0828786
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 93.3,
+   "widthM": 78.2,
+   "bearingDeg": 68.0
+  },
+  "heightHints": "Neo-Romanian brick building by N. Ghica-Budești (1912-1941) with a tall square central tower with loggia (estimate ~35-40 m to tower top) and steep hipped roofs with deep eaves over 2-3 storeys (~18-20 m to ridge, estimate). No measured height in OSM.",
+  "photos": 4,
+  "metalVisibleInPhotos": "Steep dark-grey hipped roofs with wide overhanging eaves and the dark tower cap (01-03 April 2021 / Feb 2021; 04 winter 2012). The 2014 tender describes glazed-tile covering for wing C1; the semi-hard copper (Cu-DHP) delivered 2018-2019 was presumably for flashings, gutters, eave and tower details — not distinguishable at photo resolution.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/2552618",
+   "https://www.wikidata.org/wiki/Q623662",
+   "https://media.hotnews.ro/media_server1/document-2014-01-15-16413824-0-licitatie-muzeul-taranului-roman.pdf",
+   "https://profit.ro/povesti-cu-profit/turism/lucrarile-de-consolidare-si-restaurare-la-muzeul-taranului-roman-s-au-incheiat-18119265",
+   "https://commons.wikimedia.org/wiki/Category:Museum_of_the_Romanian_Peasant_-_exterior"
+  ],
+  "verificationNotes": "Unique name. Consolidation/restoration of the historic Kiseleff building (wings C, C1, C2; tender 2014, site works from 2016, old wing reopened 2025/2026) covers the 2018-2019 deliveries. OSM: the museum is a node (2634652844, Wikidata P11693); the building outline is untagged multipolygon relation 2552618 (building=yes, outer ring 6,811 m², ~93 x 78 m) enclosing the node — used as footprint (courtyard inner ring not included in footprint list). Wikidata coords 44.454383, 26.083678 ≈ 3 m from centroid.",
+  "registerKeys": [
+   "30af03543f02f36a"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "spitalul-militar-bucuresti",
+  "officialName": "Spitalul Universitar de Urgență Militar Central „Dr. Carol Davila” (specific building not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Spitalul Militar Central",
+   "Spitalul Militar București",
+   "SUUMC"
+  ],
+  "category": "healthcare",
+  "address": "Calea Plevnei 134 / Str. Mircea Vulcănescu 88, Sector 1, 010825 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.442804,
+  "lon": 26.074905,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 23610101,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "134",
+    "addr:postcode": "010905",
+    "addr:street": "Calea Plevnei",
+    "alt_name": "Spitalul Militar Central",
+    "alt_name:en": "Bucharest Central Military Hospital",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Spitalul Universitar de Urgență Militar Central „Dr. Carol Davila”",
+    "name:en": "Central Military Universitary Emergency Hospital \"Carol Davila\"",
+    "operator:type": "public",
+    "ref:RO:lmi": "B-II-a-A-19408",
+    "short_name": "SUUMC",
+    "source:addr:housenumber": "survey",
+    "source:addr:street": "survey",
+    "start_date": "1831",
+    "website": "https://www.scumc.ro/",
+    "wikidata": "Q18541888",
+    "wikipedia": "ro:Spitalul Universitar de Urgență Militar Central „Dr. Carol Davila”"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded: roofed pavilion unknown; Commons category contains only WWI-era archive photos.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/23610101",
+   "https://www.wikidata.org/wiki/Q18541888"
+  ],
+  "verificationNotes": "In Bucharest 'Spitalul Militar' denotes the Central Military Emergency University Hospital 'Dr. Carol Davila' (OSM alt_name 'Spitalul Militar Central', Wikidata alias 'Spitalul Militar București'); historic ensemble LMI B-II-a-A-19408. The campus (OSM way 23610101, ~8.7 ha) has many pavilions; no public source found for a 2025 titanium-zinc roof on a specific pavilion, so coordinates are the site centroid and no footprint/photos are given. The campus also hosts other units (e.g. INMAS, Str. Mircea Vulcănescu 88), so the exact roofed pavilion is unknown — PROBABLE at site level.",
+  "registerKeys": [
+   "f50b58d70db0fcad"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "palatul-cesianu-racovita",
+  "officialName": "Palatul Cesianu-Racoviță",
+  "nameHu": null,
+  "altNames": [
+   "Palatul Artmark",
+   "Casa Cesianu",
+   "Cesianu-Racoviță Palace"
+  ],
+  "category": "historic",
+  "address": "Strada C. A. Rosetti 5, Sector 1, 010283 București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.440458,
+  "lon": 26.09791,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1171678982,
+   "tags": {
+    "building": "yes",
+    "name": "Palatul Cesianu-Racoviță",
+    "source": "Bing"
+   }
+  },
+  "footprint": [
+   [
+    44.4405138,
+    26.0980191
+   ],
+   [
+    44.4406052,
+    26.0979571
+   ],
+   [
+    44.4405231,
+    26.0977197
+   ],
+   [
+    44.4403115,
+    26.0978632
+   ],
+   [
+    44.4403936,
+    26.0981006
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 26.1,
+   "widthM": 20.9,
+   "bearingDeg": 154.2
+  },
+  "heightHints": "Two-storey eclectic palace (Jules Berthet, 1892-1900) on a raised basement with a richly decorated cornice/attic; roof largely hidden behind the cornice. No measured height; estimate ~13-15 m to cornice.",
+  "photos": 3,
+  "metalVisibleInPhotos": "Roof is essentially not visible from the street — a low roof behind the heavy cornice/attic balustrade; only the cornice line is visible in all three photos (2011-2021).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1171678982",
+   "https://www.wikidata.org/wiki/Q12737406",
+   "https://ro.wikipedia.org/wiki/Palatul_Cesianu-Racoviță",
+   "https://commons.wikimedia.org/wiki/Category:Cesianu-Racoviță_Palace",
+   "https://www.wall-street.ro/articol/Real-Estate/105838/artmark-un-sediu-cu-tablouri-de-5-mil-euro.html"
+  ],
+  "verificationNotes": "Unique name: OSM way 1171678982 'Palatul Cesianu-Racoviță' (source Bing) on Str. C.A. Rosetti; Wikidata Q12737406 address C.A. Rosetti 5, coords 44.440631, 26.098024 (≈20 m from OSM centroid). Seat of the Artmark auction house. No public source found on roof works around 2015.",
+  "registerKeys": [
+   "9518e44f82f62c5c"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-varteju",
+  "officialName": "Biserica „Sfinții Ioachim și Ana” din Vârteju",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Vârteju",
+   "Biserica Sf. Ioachim și Ana, Vârteju"
+  ],
+  "category": "church",
+  "address": "Strada București / Strada Unirii, sat Vârteju, oraș Măgurele, 077129 Ilfov",
+  "city": "Vârteju (Măgurele)",
+  "county": "Ilfov",
+  "country": "Romania",
+  "lat": 44.355804,
+  "lon": 25.989648,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1171542832,
+   "tags": {
+    "addr:city": "Vârteju",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Biserica „Sfinții Ioachim și Ana”",
+    "ref:RO:lmi": "IF-II-m-B-15320",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    44.35569,
+    25.9895489
+   ],
+   [
+    44.3558078,
+    25.9897697
+   ],
+   [
+    44.3558249,
+    25.9897931
+   ],
+   [
+    44.3558395,
+    25.9898074
+   ],
+   [
+    44.3558537,
+    25.9898141
+   ],
+   [
+    44.3558713,
+    25.9898153
+   ],
+   [
+    44.3558871,
+    25.9898042
+   ],
+   [
+    44.3558978,
+    25.9897849
+   ],
+   [
+    44.3559018,
+    25.9897604
+   ],
+   [
+    44.3559016,
+    25.9897385
+   ],
+   [
+    44.3558972,
+    25.9897178
+   ],
+   [
+    44.3558838,
+    25.9896833
+   ],
+   [
+    44.355768,
+    25.9894674
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.4,
+   "widthM": 10.9,
+   "bearingDeg": 53.2
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded: no Commons or press photo of the church found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1171542832"
+  ],
+  "verificationNotes": "Ioachim si Ana., Varteju, IF'). No public news on the 2017 roof found; no Commons photos found.",
+  "registerKeys": [
+   "0c3b920062359824"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "conacul-bolomey",
+  "officialName": "Conacul Bolomey",
+  "nameHu": null,
+  "altNames": [
+   "Ansamblul Conacul Bolomey",
+   "Micul Peleș din Bărăgan"
+  ],
+  "category": "castle",
+  "address": "Șoseaua Slobozia-Țăndărei (DN2A), Cosâmbești, 927090 Ialomița",
+  "city": "Cosâmbești",
+  "county": "Ialomița",
+  "country": "Romania",
+  "lat": 44.55585,
+  "lon": 27.419551,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 369896595,
+   "tags": {
+    "addr:city": "Cosâmbești",
+    "building": "yes",
+    "building:levels": "2",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "historic": "manor",
+    "name": "Conacul Bolomey",
+    "ref:RO:lmi": "IL-II-m-A-14106.01",
+    "start_date": "1898"
+   }
+  },
+  "footprint": [
+   [
+    44.5557639,
+    27.419403
+   ],
+   [
+    44.5557632,
+    27.4196991
+   ],
+   [
+    44.5559078,
+    27.4196998
+   ],
+   [
+    44.5559449,
+    27.4196265
+   ],
+   [
+    44.555945,
+    27.4194694
+   ],
+   [
+    44.5559068,
+    27.4194037
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 23.5,
+   "widthM": 20.2,
+   "bearingDeg": 90.2
+  },
+  "heightHints": "OSM building:levels=2 (way 369896595, 23.5 x 20.2 m). Photos: two storeys on a raised basement, corner turrets with pointed caps, columned porch; estimate ~12-14 m to ridge, turrets higher (estimate).",
+  "photos": 2,
+  "metalVisibleInPhotos": "01 (20 June 2021) shows the manor during restoration, wrapped in scaffolding with the new timber roof structure being built; 02 (2014) shows the ruin before works. No free photo of the finished roof (elZinc Slate, dark grey) was found — the modeller will need the 2021 photo for massing (two-storey block, corner turrets, porch with columns).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/369896595",
+   "https://kohesio.ec.europa.eu/ro/proiecte/Q2743326",
+   "https://www.digi24.ro/trecutul-din-prezent/conacul-bolomey-din-cosambesti-3273295"
+  ],
+  "verificationNotes": "Unique name. OSM way 369896595 'Conacul Bolomey' (historic=manor, ref:RO:lmi=IL-II-m-A-14106.01, start_date 1898) in Cosâmbești. EU-funded project 'Reabilitarea monumentului istoric și de arhitectură Conacul Bolomey' (Kohesio Q2743326, Ialomița County Council); Digi24 describes the recent restoration.",
+  "registerKeys": [
+   "bb0527846b7528fb"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "biserica-sf-gheorghe-mangalia",
+  "officialName": "Biserica „Sfântul Mare Mucenic Gheorghe” din Mangalia",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sfântul Gheorghe Mangalia",
+   "St. George's Church, Mangalia"
+  ],
+  "category": "church",
+  "address": "Strada Mihai Viteazul 7, 905500 Mangalia, Constanța",
+  "city": "Mangalia",
+  "county": "Constanța",
+  "country": "Romania",
+  "lat": 43.812174,
+  "lon": 28.582189,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 200056166,
+   "tags": {
+    "addr:city": "Mangalia",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Biserica „Sfântul Gheorghe\"",
+    "ref:RO:lmi": "CT-II-m-B-02900",
+    "religion": "christian",
+    "start_date": "1929"
+   }
+  },
+  "footprint": [
+   [
+    43.8121545,
+    28.5820112
+   ],
+   [
+    43.8120877,
+    28.582289
+   ],
+   [
+    43.8121062,
+    28.582338
+   ],
+   [
+    43.8121545,
+    28.5823622
+   ],
+   [
+    43.8121964,
+    28.5823382
+   ],
+   [
+    43.8122696,
+    28.5820693
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 26.5,
+   "widthM": 13.6,
+   "bearingDeg": 110.0
+  },
+  "heightHints": "No measured height. Photos: cross-in-square church with two west towers (octagonal/cylindrical drums with domes) and a larger central drum+dome; west towers roughly 2x the eaves height. Estimate eaves ~10 m, west towers ~22-25 m, central dome ~25-28 m to cross (estimates from photos, footprint 26.5 x 13.6 m).",
+  "photos": 4,
+  "metalVisibleInPhotos": "01-03 (Oct 2021, right after the restoration) show the new natural (light/medium grey) titanium-zinc: segmented standing-seam domes on the two west towers and the central tower, a curved standing-seam roof over the west gable arch, and a gabled standing-seam roof on the open porch. 04 (undated, earlier) shows the church from the street with similar grey domes.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/200056166",
+   "https://en.wikipedia.org/wiki/St._George%27s_Church,_Mangalia",
+   "https://kohesio.ec.europa.eu/en/projects/Q2742744",
+   "https://adevarul.ro/stiri-locale/constanta/o-ctitorie-a-regelui-carol-i-va-fi-reabilitata-cu-1923129",
+   "https://commons.wikimedia.org/wiki/Category:Saint_George_church_in_Mangalia"
+  ],
+  "verificationNotes": "OSM way 200056166 'Biserica „Sfântul Gheorghe\"' (Str. Mihai Viteazul, ref:RO:lmi=CT-II-m-B-02900, start 1929). Mare Mucenic Gheorghe' (2020;",
+  "registerKeys": [
+   "20a6e1e544cf4ff2"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "catedrala-turnu-magurele",
+  "officialName": "Catedrala „Sfântul Haralambie” din Turnu Măgurele",
+  "nameHu": null,
+  "altNames": [
+   "Catedrala Turnu Măgurele",
+   "Biserica Sfântul Haralambie"
+  ],
+  "category": "church",
+  "address": "Strada Republicii, 145200 Turnu Măgurele, Teleorman",
+  "city": "Turnu Măgurele",
+  "county": "Teleorman",
+  "country": "Romania",
+  "lat": 43.747073,
+  "lon": 24.870202,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 373743050,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Catedrala Sfântul Haralambie",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    43.7470159,
+    24.869965
+   ],
+   [
+    43.7470334,
+    24.8699999
+   ],
+   [
+    43.7470663,
+    24.8699784
+   ],
+   [
+    43.7470934,
+    24.8699865
+   ],
+   [
+    43.7471053,
+    24.8700035
+   ],
+   [
+    43.7472019,
+    24.8702466
+   ],
+   [
+    43.747208,
+    24.8702932
+   ],
+   [
+    43.7472,
+    24.8703405
+   ],
+   [
+    43.7471826,
+    24.8703861
+   ],
+   [
+    43.7471283,
+    24.8704237
+   ],
+   [
+    43.7470857,
+    24.8704237
+   ],
+   [
+    43.7470489,
+    24.8704129
+   ],
+   [
+    43.7470258,
+    24.8703656
+   ],
+   [
+    43.7469384,
+    24.8701394
+   ],
+   [
+    43.7469347,
+    24.8701135
+   ],
+   [
+    43.7469347,
+    24.8700893
+   ],
+   [
+    43.7469714,
+    24.8700508
+   ],
+   [
+    43.7469602,
+    24.8700111
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 38.6,
+   "widthM": 21.8,
+   "bearingDeg": 61.2
+  },
+  "heightHints": "No measured height. Photos: two tall west towers with onion-like fluted drums and a central drum; estimate towers ~30-35 m to cross, eaves ~10-12 m (estimates from photos; footprint 38.6 x 21.8 m; plan in photo 05).",
+  "photos": 5,
+  "metalVisibleInPhotos": "01 (2006) pre-restoration view (grey metal domes). 02-04 (2024/25, architect's photos after the restoration) show the new natural titanium-zinc: onion-like domes on the two west towers and the central drum clad in grey fish-scale (shingle) zinc, light-grey standing-seam roofs over nave/apses, and glazed strips at roof edges. 05 is the project floor plan (Impex Romcatel) — useful for the footprint.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/373743050",
+   "https://www.municipiulturnumagurele.ro/wp-content/uploads/2023/12/Scurta-descriere-proiect_116469.pdf",
+   "https://www.digi24.ro/trecutul-din-prezent/biserica-sfantul-haralambie-din-turnu-magurele-3399753",
+   "https://www.anuala.ro/en/projects/2025/138/"
+  ],
+  "verificationNotes": "Turnu Măgurele's cathedral is the Sf. Haralambie Cathedral (OSM way 373743050 'Catedrala Sfântul Haralambie').",
+  "registerKeys": [
+   "de088739df0209cd"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "primaria-alexandria",
+  "officialName": "Primăria Municipiului Alexandria",
+  "nameHu": null,
+  "altNames": [
+   "Primăria Alexandria"
+  ],
+  "category": "historic",
+  "address": "Strada Dunării 139, 140030 Alexandria, Teleorman",
+  "city": "Alexandria",
+  "county": "Teleorman",
+  "country": "Romania",
+  "lat": 43.970665,
+  "lon": 25.327702,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 215059133,
+   "tags": {
+    "building": "yes"
+   }
+  },
+  "footprint": [
+   [
+    43.9705835,
+    25.3274016
+   ],
+   [
+    43.9709302,
+    25.3278211
+   ],
+   [
+    43.9708164,
+    25.3280024
+   ],
+   [
+    43.9705546,
+    25.327685
+   ],
+   [
+    43.9704714,
+    25.3278176
+   ],
+   [
+    43.9703867,
+    25.327715
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 51.2,
+   "widthM": 33.3,
+   "bearingDeg": 41.0
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos found/downloaded.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/1179010110",
+   "https://www.openstreetmap.org/way/215059133",
+   "https://infocons.ro/primaria-municipiului-alexandria-si-primarul-victor-dragusin-infocons-te-informeaza/"
+  ],
+  "verificationNotes": "Dunării 139 (official address per municipality contracts/Infocons). OSM has only a townhall node (1179010110, 'Primăria Alexandria', Strada Dunării) which lies inside the untagged building outline way 215059133 (L-shaped, ~1,159 m², 51 x 33 m) — used as footprint. No public news found about a 2022 roof renewal and no free photos found (Commons 'Buildings in Alexandria, Romania' has none of the town hall); PROBABLE.",
+  "registerKeys": [
+   "22026d82d064512e"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biblioteca-carianopol-caracal",
+  "officialName": "Biblioteca Municipală „Virgil Carianopol” Caracal",
+  "nameHu": null,
+  "altNames": [
+   "Biblioteca Carianopol",
+   "Biblioteca Municipală Caracal"
+  ],
+  "category": "library",
+  "address": "Strada Iancu Jianu 18A, 235200 Caracal, Olt",
+  "city": "Caracal",
+  "county": "Olt",
+  "country": "Romania",
+  "lat": 44.10925,
+  "lon": 24.34835,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded (building not located).",
+  "sourceUrls": [
+   "https://bibmunicipala-caracal.webnode.ro/",
+   "https://www.cybo.com/RO/caracal/libraries"
+  ],
+  "verificationNotes": "Caracal's municipal library is named after poet Virgil Carianopol; its own website gives Str. Iancu Jianu nr. 18A. A 2026 article says the library is among the municipality-owned heritage buildings already rehabilitated. The building is not mapped in OSM and Nominatim cannot geocode no. 18A; coordinates are an interpolated point on Str. Iancu Jianu between no. 15 (Casa memorială Iancu Jianu, 44.10907, 24.34889) and no. 26 (Muzeul Romanațiului, 44.10944, 24.34788) — street-level only (±150 m). Identification of the institution is solid; the exact building is not.",
+  "registerKeys": [
+   "d2cf9ccecd2e23c2"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "teatrul-maria-filotti-braila",
+  "officialName": "Teatrul „Maria Filotti” Brăila",
+  "nameHu": null,
+  "altNames": [
+   "Teatrul Maria Filotti",
+   "Teatrul Rally",
+   "Maria Filotti Theatre"
+  ],
+  "category": "cultural",
+  "address": "Strada Mihai Eminescu 2 (Piața Traian), 810026 Brăila",
+  "city": "Brăila",
+  "county": "Brăila",
+  "country": "Romania",
+  "lat": 45.271956,
+  "lon": 27.973228,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 586666594,
+   "tags": {
+    "addr:city": "Brăila",
+    "addr:housenumber": "2",
+    "addr:postcode": "810026",
+    "addr:street": "Strada Mihai Eminescu",
+    "amenity": "theatre",
+    "building": "yes",
+    "building:levels": "3",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Teatrul „Maria Filotti” Brăila",
+    "ref:RO:lmi": "BR-II-m-B-02097",
+    "start_date": "1896",
+    "website": "https://www.tmf.ro/",
+    "wikidata": "Q559230"
+   }
+  },
+  "footprint": [
+   [
+    45.2723011,
+    27.9733516
+   ],
+   [
+    45.2722827,
+    27.9736508
+   ],
+   [
+    45.2722768,
+    27.9737478
+   ],
+   [
+    45.2720791,
+    27.9737864
+   ],
+   [
+    45.272072,
+    27.9734337
+   ],
+   [
+    45.2716136,
+    27.9734407
+   ],
+   [
+    45.2716175,
+    27.9729071
+   ],
+   [
+    45.2717396,
+    27.9729099
+   ],
+   [
+    45.271739,
+    27.9728208
+   ],
+   [
+    45.2719083,
+    27.9727318
+   ],
+   [
+    45.2719827,
+    27.9728219
+   ],
+   [
+    45.271981,
+    27.9729024
+   ],
+   [
+    45.272144,
+    27.9729066
+   ],
+   [
+    45.2721447,
+    27.9730367
+   ],
+   [
+    45.2721789,
+    27.9730379
+   ],
+   [
+    45.272178,
+    27.973148
+   ],
+   [
+    45.2722099,
+    27.973149
+   ],
+   [
+    45.2722098,
+    27.9731997
+   ],
+   [
+    45.2722506,
+    27.973199
+   ],
+   [
+    45.2722497,
+    27.9733524
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 95.4,
+   "widthM": 64.4,
+   "bearingDeg": 27.6
+  },
+  "heightHints": "OSM building:levels=3. Neoclassical theatre (1896) with fly tower and slate-style roofs.",
+  "photos": 3,
+  "metalVisibleInPhotos": "01 (May 2016, night, just after the restoration) shows the full Piața Traian façade; the roof is only a dark silhouette. 02 (2006, pre-restoration) clearly shows the roofscape to model: a large curved (segmental) mansard/dome over the auditorium clad in light-grey diamond/square shingles, plus lower mansards over the side wings with round dormer windows. no free post-2016 daytime roof photo was found. 03 (2011) façade detail.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/586666594",
+   "https://www.wikidata.org/wiki/Q559230",
+   "https://en.wikipedia.org/wiki/Maria_Filotti_Theatre",
+   "https://startupcafe.ro/bani-europeni/reabilitare-teatrul-maria-filotti-fonduri-europene-euroimpact.htm",
+   "https://trends.archiexpo.com/asturiana-laminados/project-126061-248327.html",
+   "https://commons.wikimedia.org/wiki/Category:Maria_Filotti_Theatre"
+  ],
+  "verificationNotes": "OSM way 586666594 (amenity=theatre, ref:RO:lmi=BR-II-m-B-02097, wikidata Q559230). the theatre's production director states the roof is titanium-zinc;",
+  "registerKeys": [
+   "ab2561efeff53a35"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "manastirea-nucet",
+  "officialName": "Mănăstirea Nucet — biserica mănăstirii",
+  "nameHu": null,
+  "altNames": [
+   "Sfânta Mănăstire Nucet",
+   "Nucet Monastery"
+  ],
+  "category": "monastery",
+  "address": "DC57, sat Nucet, comuna Nucet, 137335 Dâmbovița",
+  "city": "Nucet",
+  "county": "Dâmbovița",
+  "country": "Romania",
+  "lat": 44.782858,
+  "lon": 25.541198,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1441634148,
+   "tags": {
+    "building": "yes",
+    "building:levels": "1"
+   }
+  },
+  "footprint": [
+   [
+    44.7828124,
+    25.5412009
+   ],
+   [
+    44.7827978,
+    25.5412149
+   ],
+   [
+    44.7828051,
+    25.5412887
+   ],
+   [
+    44.7828462,
+    25.5413718
+   ],
+   [
+    44.7828814,
+    25.5413924
+   ],
+   [
+    44.7829032,
+    25.5413531
+   ],
+   [
+    44.7829152,
+    25.5413102
+   ],
+   [
+    44.7829165,
+    25.5412
+   ],
+   [
+    44.782889,
+    25.5410184
+   ],
+   [
+    44.7827903,
+    25.5410472
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.1,
+   "widthM": 13.2,
+   "bearingDeg": 82.1
+  },
+  "heightHints": "OSM building:levels=1 on the church outline (29 x 13 m); the separate 7 m polygonal part (way 1441634147, levels=2) in the middle is the tower/drum. No photos/heights found.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos downloaded: no free exterior photo of the church found (Commons set 'Victor Ponta la Nucet, Dâmbovița – 25.04.2014' shows only people/interior; Agerpres 2026 photo shows the holy-well shelter).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/1316063083",
+   "https://www.openstreetmap.org/way/1441634148",
+   "https://ro.wikipedia.org/wiki/Comuna_Nucet,_Dâmbovița",
+   "https://www.puterea.ro/?p=130660",
+   "https://agerpres.ro/culte/2026/04/17/dambovita-sarbatoarea-izvorul-tamaduirii-la-nucet-si-procesiune-la-fantana-de-leac--1547383"
+  ],
+  "verificationNotes": "Only one Nucet monastery in Dâmbovița (OSM node 1316063083 'Mănăstirea Nucet'). The church outline is untagged OSM way 1441634148 (29 x 13 m, E-W) right at the node (7 m), with an inner polygonal tower part 1441634147; the larger 65 x 38 m outline 1441634154 is the cells/precinct. Church founded late 15th c. (Gherghina Pârcălab), rebuilt 1840, damaged by earthquakes (ro.wikipedia commune article). Agerpres (2026) says the monastic ensemble underwent extensive restoration at the archbishop's initiative and was re-consecrated in 2004; no public source found on the 2015 copper roof itself; a January 2022 fire hit the cells' roof, not the church.",
+  "registerKeys": [
+   "2a5b59b3f2658f3a"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-sfanta-vineri-pitesti",
+  "officialName": "Biserica „Sfânta Vineri” din Pitești",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sfânta Vineri Pitești",
+   "Biserica Cuvioasa Paraschiva"
+  ],
+  "category": "church",
+  "address": "Strada Sfânta Vineri 44, 110036 Pitești, Argeș",
+  "city": "Pitești",
+  "county": "Argeș",
+  "country": "Romania",
+  "lat": 44.858425,
+  "lon": 24.880441,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 319485731,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Biserica -Sfânta Vineri",
+    "religion": "christian",
+    "wikidata": "Q42748190",
+    "wikipedia": "ro:Biserica Sfânta Vineri din Pitești"
+   }
+  },
+  "footprint": [
+   [
+    44.8584604,
+    24.8803236
+   ],
+   [
+    44.8584889,
+    24.8803102
+   ],
+   [
+    44.858487,
+    24.8802673
+   ],
+   [
+    44.8584699,
+    24.8802324
+   ],
+   [
+    44.858449,
+    24.8802297
+   ],
+   [
+    44.8583939,
+    24.8802485
+   ],
+   [
+    44.8583311,
+    24.88027
+   ],
+   [
+    44.8583216,
+    24.8803021
+   ],
+   [
+    44.8583292,
+    24.8803343
+   ],
+   [
+    44.8583418,
+    24.88035
+   ],
+   [
+    44.8583589,
+    24.8803527
+   ],
+   [
+    44.8583691,
+    24.8804363
+   ],
+   [
+    44.8583558,
+    24.8804631
+   ],
+   [
+    44.8583482,
+    24.880514
+   ],
+   [
+    44.8583577,
+    24.8805623
+   ],
+   [
+    44.8583806,
+    24.8805918
+   ],
+   [
+    44.8583939,
+    24.8806052
+   ],
+   [
+    44.8584064,
+    24.8806477
+   ],
+   [
+    44.8584338,
+    24.8806669
+   ],
+   [
+    44.8584596,
+    24.8806665
+   ],
+   [
+    44.8584794,
+    24.8806455
+   ],
+   [
+    44.8584851,
+    24.880616
+   ],
+   [
+    44.8584851,
+    24.8805623
+   ],
+   [
+    44.8585117,
+    24.8805382
+   ],
+   [
+    44.8585231,
+    24.8804845
+   ],
+   [
+    44.8585136,
+    24.8804416
+   ],
+   [
+    44.8584984,
+    24.8804282
+   ],
+   [
+    44.8584737,
+    24.8804094
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 33.8,
+   "widthM": 19.5,
+   "bearingDeg": 76.8
+  },
+  "heightHints": "No measured height. Photos: two west towers + central dome (Byzantine-revival, 1904-08); estimate eaves ~10 m, towers/dome ~25-30 m (estimate; footprint 33.8 x 19.5 m).",
+  "photos": 1,
+  "metalVisibleInPhotos": "01 (Jan 2010, before the 2013-2015 rehabilitation) shows the west front with the two towers and the central dome — all roofs and domes clad in grey sheet metal. The KME copper roof from the 2015 works is not documented in free photos found (expect bright/brown copper domes).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/319485731",
+   "https://www.wikidata.org/wiki/Q42748190",
+   "https://ro.wikipedia.org/wiki/Biserica_Sfânta_Vineri_din_Pitești"
+  ],
+  "verificationNotes": "OSM way 319485731 'Biserica -Sfânta Vineri' (wikidata Q42748190). ro.wikipedia: church built 1904-1908 (arch. Ion N. Socolescu), Str. Sfânta Vineri 44, LMI AG-II-m-B-13440.01;",
+  "registerKeys": [
+   "8eed07dbbc06a084"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "KME copper"
+  ]
+ },
+ {
+  "id": "muzeul-judetean-arges",
+  "officialName": "Muzeul Județean Argeș (fostul Palat Administrativ / Prefectura Argeș)",
+  "nameHu": null,
+  "altNames": [
+   "Muzeul Județean Argeș",
+   "Ansamblul vechii Prefecturi",
+   "Palatul Administrativ Pitești"
+  ],
+  "category": "museum",
+  "address": "Strada Armand Călinescu 44, 110047 Pitești, Argeș",
+  "city": "Pitești",
+  "county": "Argeș",
+  "country": "Romania",
+  "lat": 44.855392,
+  "lon": 24.870834,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 136267182,
+   "tags": {
+    "building": "yes",
+    "building:levels": "4",
+    "name": "Muzeul Judetean Arges"
+   }
+  },
+  "footprint": [
+   [
+    44.8554439,
+    24.8704937
+   ],
+   [
+    44.8556079,
+    24.8707553
+   ],
+   [
+    44.8553002,
+    24.871139
+   ],
+   [
+    44.8551526,
+    24.8709034
+   ],
+   [
+    44.8552256,
+    24.8708124
+   ],
+   [
+    44.8552747,
+    24.8708908
+   ],
+   [
+    44.8554282,
+    24.8706994
+   ],
+   [
+    44.8553627,
+    24.8705949
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 45.7,
+   "widthM": 27.5,
+   "bearingDeg": 138.5
+  },
+  "heightHints": "OSM building:levels=4 (way 136267182).",
+  "photos": 3,
+  "metalVisibleInPhotos": "01-02 (2011, before the 2018-2025 restoration) show the long neoclassical façade with a low roof largely hidden behind the attic/cornice; the central pavilion has a higher roof. 03 (Oct 2025, CJ Argeș via Agerpres) shows the restored building from the park at dusk (distant).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/136267182",
+   "https://agerpres.ro/cultura-media/2025/10/03/arges-sediul-muzeului-judetean-reabilitat-printr-un-proiect-cu-finantare-europeana-de-peste-28-de-mi--1489972",
+   "https://www.cjarges.ro/documents/10865/609969/Comunicat_de_presa_31.01.2018_Reastaurare_Muzeu.pdf/cb7a6ca9-846f-46a7-b8cb-b1d67998ce69"
+  ],
+  "verificationNotes": "The Argeș County Museum occupies the former Administrative Palace (1898-1899, LMI class A); OSM way 136267182 'Muzeul Judetean Arges' contains the museum node 2634652181 (Str. Armand Călinescu 44).",
+  "registerKeys": [
+   "5daf5e90c822d741"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ }
+]

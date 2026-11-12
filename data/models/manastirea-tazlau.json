@@ -1,0 +1,14 @@
+{
+  "tier": "A",
+  "status": "detailed",
+  "bearingDeg": 102.3,
+  "bearingSource": "OSM way 1147932372 long axis 102.3°; +X points to the altar apse (east), which the outline and the drone photos 01, 02 place next to the lateral-apse lobes; the long western body is at −X",
+  "cover": "09",
+  "photosUsed": 9,
+  "approximations": "Heights (walls ≈ 10.4 m, western ridge ≈ 17.9 m, tower cross ≈ 32 m) scaled from photo proportions, with no survey; western roof width 11.5 m against 10.3 m in the OSM outline (the drone top view 02 shows a wider roof); apse facet counts, niche and ceramic-disc counts and window positions estimated; north elevation mirrored from the south; the composite east roof (lateral lobes, naos hip, altar cone) is approximated by intersecting flared surfaces; copper shown with standing seams about 0.5 m apart; snow guards omitted; photos 08, 11 and 12 show the precinct towers and were used only for colour reference.",
+  "note": {
+    "ro": "Machetă interpretată după fotografiile de referință (dronă și vederi de la sol): înălțimile sunt estimate din proporțiile fotografiilor, iar numărul ocnițelor, al discurilor ceramice și al ferestrelor este aproximat. Acoperișurile din cupru KME TECU® Patina Oslo sunt redate în nuanța turcoaz vizibilă în fotografii; latura nordică este considerată simetrică cu cea sudică.",
+    "hu": "A referenciafotók (drón- és földi felvételek) alapján értelmezett makett: a magasságok a fotók arányaiból becsültek, a vakfülkék, kerámiakorongok és ablakok száma közelítő. A KME TECU® Patina Oslo rézfedés a fotókon látható türkiz árnyalatban jelenik meg; az északi oldal a délivel szimmetrikusnak feltételezett.",
+    "en": "Scale model interpreted from the reference photographs (drone and ground views): heights are estimated from photo proportions, and the numbers of niches, ceramic discs and windows are approximate. The KME TECU® Patina Oslo copper roofs are shown in the teal tone seen in the photos; the north side is assumed to match the south side."
+  }
+}

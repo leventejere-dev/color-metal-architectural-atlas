@@ -1,0 +1,12 @@
+{
+ "tier": "A",
+ "status": "existing-verified",
+ "photosUsed": 18,
+ "note": {
+  "ro": "Model preluat de pe masa expozițională: amprentă (~50 × 33 m), înălțime (~14 m) și raza colțului estimate din fotografii; ochiul plasei expandate este desenat de ~2× pentru lizibilitate.",
+  "hu": "A kiállítási asztal modellje: alapterület (~50 × 33 m), magasság (~14 m) és saroksugár fotók alapján becsült; a nyújtott háló szeme a láthatóság kedvéért ~2× nagyobb.",
+  "en": "Exhibition-table model: footprint (~50 × 33 m), height (~14 m) and corner radius estimated from photographs; the expanded-metal diamond is drawn ~2× real size for legibility."
+ },
+ "bearingDeg": 115.0,
+ "bearingSource": "approximate: long façade aligned with the diagonal street of the corner site (satellite imagery); which end carries the rounded corner is not verified"
+}

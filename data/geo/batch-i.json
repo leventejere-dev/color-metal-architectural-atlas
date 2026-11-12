@@ -1,0 +1,1192 @@
+[
+ {
+  "id": "biserica-sibiciu-sibiciu",
+  "officialName": "Biserica din Sibiciu (building not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Sibiciu de Jos / Sibiciu de Sus (Buzău)"
+  ],
+  "category": "church",
+  "address": "Sibiciu de Jos, comuna Pănătău, jud. Buzău",
+  "city": "Sibiciu de Jos",
+  "county": "Buzău",
+  "country": "Romania",
+  "lat": 45.318179,
+  "lon": 26.377212,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 447935308,
+   "tags": {
+    "place": "village",
+    "name": "Sibiciu de Jos",
+    "wikidata": "Q12159242"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/447935308",
+   "https://www.openstreetmap.org/node/1600045907",
+   "https://www.openstreetmap.org/way/133402684",
+   "https://www.openstreetmap.org/node/10245436712",
+   "https://www.openstreetmap.org/node/2098621358"
+  ],
+  "verificationNotes": "There is no locality called just 'Sibiciu': Sibiciu de Jos (comuna Pănătău, the point used here) and Sibiciu de Sus (oraș Pătârlagele) lie 2.5 km apart. OSM shows several Orthodox churches in and next to them: Sf. Ilie Tezviteanul, Str. Păcii, Sibiciu de Jos (node 1600045907 / unnamed building way 1547627294, 45.31857, 26.37602); Buna Vestire (way 133402684, 45.31458, 26.36235); Sf. Arhangheli Mihail și Gavril Plăișor (node 10245436712); Adormirea Maicii Domnului, Sibiciu de Sus (node 2098621358). No news or parish source about a 2020 titanium-zinc roof was found (web search budget ran out before more queries could be made), so the church cannot be chosen. UNRESOLVED. Lat/lon = Sibiciu de Jos village point.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "cladire-administrativa-a-bisericii-ramnicu-sarat-ramnicu-sarat",
+  "officialName": "Clădire administrativă a unei biserici din Râmnicu Sărat (building not identified)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Râmnicu Sărat, jud. Buzău",
+  "city": "Râmnicu Sărat",
+  "county": "Buzău",
+  "country": "Romania",
+  "lat": 45.385446,
+  "lon": 27.041701,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "relation",
+   "id": 10698244,
+   "tags": {
+    "place": "city",
+    "name": "Râmnicu Sărat"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/10698244"
+  ],
+  "verificationNotes": "The town has at least 10 Orthodox parish churches in OSM (e.g. Adormirea Maicii Domnului way 97152343, Sfinții Voievozi-Câța way 1189812457, Nașterea Maicii Domnului way 1189812456, Sf. Dumitru-Bagdat way 1189812461, Sf. Ioan Botezătorul, Sf. Nicolae, Cuvioasa Paraschiva, Sf. Constantin și Elena, Sf. No public source found. UNRESOLVED; lat/lon = town centre. Category kept as 'church' (church-owned building) for want of a better class.",
+  "registerKeys": [
+   "80f88b2fa827b62b"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "schit-berca-berca",
+  "officialName": "Schitul Berca – Biserica «Sfinții Arhangheli Mihail și Gavriil» (fosta mănăstire Berca)",
+  "nameHu": null,
+  "altNames": [
+   "Schitul Sfinții Arhangheli Mihail și Gavril, Berca",
+   "Fosta mănăstire Berca",
+   "Mănăstirea Berca"
+  ],
+  "category": "monastery",
+  "address": "Strada Bisericii, sat Berca, comuna Berca, jud. Buzău (LMI BZ-II-a-A-02363)",
+  "city": "Berca",
+  "county": "Buzău",
+  "country": "Romania",
+  "lat": 45.2895001,
+  "lon": 26.6800617,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 217354519,
+   "tags": {
+    "addr:city": "Berca",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "ref:RO:lmi": "BZ-II-m-A-02363.01",
+    "ref:RO:ran": "45110.02.01",
+    "religion": "christian",
+    "start_date": "1694"
+   }
+  },
+  "footprint": [
+   [
+    45.289544,
+    26.6799144
+   ],
+   [
+    45.2895357,
+    26.6800468
+   ],
+   [
+    45.2895508,
+    26.6800736
+   ],
+   [
+    45.2895489,
+    26.6801192
+   ],
+   [
+    45.2895338,
+    26.6801728
+   ],
+   [
+    45.2895112,
+    26.6802158
+   ],
+   [
+    45.2894866,
+    26.6802158
+   ],
+   [
+    45.2894696,
+    26.6801997
+   ],
+   [
+    45.2894454,
+    26.6801026
+   ],
+   [
+    45.2894451,
+    26.6800682
+   ],
+   [
+    45.289464,
+    26.680036
+   ],
+   [
+    45.2894722,
+    26.6799053
+   ],
+   [
+    45.289544,
+    26.6799144
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 24.2,
+   "widthM": 11.7,
+   "bearingDeg": 93.4
+  },
+  "heightHints": "Single-nave church (trefoil plan) with one octagonal tower on a square base over the naos; low hipped roof over nave/apses. No measured height; from photos the eaves are roughly one storey above a tall plinth and the tower is about 2-2.5x eaves height (estimate only).",
+  "photos": 5,
+  "metalVisibleInPhotos": "Commons photos are from 2014-2016, i.e. BEFORE the 2020 elZinc Slate purchase: they show a grey sheet-metal (probably galvanised) roof and tower cap. The new pre-weathered slate-grey zinc roof is not documented in the saved photos; geometry is what matters for the model.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/217354519",
+   "https://www.openstreetmap.org/way/1191315180",
+   "https://commons.wikimedia.org/wiki/Category:Archangels_church_in_Berca,_Buz%C4%83u",
+   "https://commons.wikimedia.org/wiki/Category:Former_monastery_in_Berca,_Buz%C4%83u",
+   "https://www.pelerinaj.ro/rezervari/pelerinaj-la-schitul-berca-jud-buzau-09-mai-20-iunie-26-septembrie-2026/?print=pdf"
+  ],
+  "verificationNotes": "company says it has photos (not available to us). In Berca village the only skete is Schitul Sfinții Arhangheli Mihail și Gavriil ('Schitul Berca', former Berca monastery founded by stolnic Mihalcea Cândescu, 17th c.; LMI BZ-II-a-A-02363, church BZ-II-m-A-02363.01), OSM precinct way 1191315180 (amenity=monastery) and church way 217354519 (MRR 24.2 x 11.7 m, 207 m2). Alternative in the same commune: Mănăstirea Rătești (village Mânăstirea Rătești, OSM way 711952312, 5 km NW), but it is a 'mănăstire', not a 'schit', and was badly damaged by the 2014 landslide. Roof works of 2020 not confirmed by any public source; it is also possible the zinc went on an annex (cells) rather than the church. PROBABLE.",
+  "registerKeys": [
+   "690195d5930f06a3"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "biserica-urziceni-urziceni",
+  "officialName": "Biserica din Urziceni (building not identified)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Urziceni, jud. Ialomița",
+  "city": "Urziceni",
+  "county": "Ialomița",
+  "country": "Romania",
+  "lat": 44.717002,
+  "lon": 26.632407,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "relation",
+   "id": 10698171,
+   "tags": {
+    "place": "city",
+    "name": "Urziceni"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/10698171",
+   "https://www.openstreetmap.org/way/1286047249",
+   "https://www.openstreetmap.org/node/9587297318",
+   "https://www.openstreetmap.org/way/1163749825"
+  ],
+  "verificationNotes": "Urziceni has several Orthodox churches in OSM (Sfinții Împărați Constantin și Elena, Str. Revoluției - way 1286047249; Sfânta Treime, Str. Regele Ferdinand - node 9587297318; unnamed Orthodox church way 1163749825; others) plus a Catholic church. No public source found linking any of them to a copper roof/bell tower in 2020-2022. UNRESOLVED; lat/lon = town centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-snagov-snagov",
+  "officialName": "Biserica din comuna Snagov (building not identified)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "comuna Snagov, jud. Ilfov",
+  "city": "Snagov",
+  "county": "Ilfov",
+  "country": "Romania",
+  "lat": 44.707498,
+  "lon": 26.172866,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "relation",
+   "id": 9883484,
+   "tags": {
+    "place": "municipality",
+    "name": "Snagov"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/9883484",
+   "https://www.openstreetmap.org/way/821525655",
+   "https://www.openstreetmap.org/way/1172094922",
+   "https://www.openstreetmap.org/way/1172094923"
+  ],
+  "verificationNotes": "The given point is the centroid of Snagov COMMUNE, which has many Orthodox churches: Buna Vestire, Str. Florilor, Snagov village (way 821525655); Sf. Nicolae, Str. Călugăreni 45 (way 1172094922); Sf. Nicolae Ciofliceni; Sf. Împărați Tâncăbești; Nașterea Maicii Domnului Siliștea Snagovului/Turbați; others in Vlădiceasca and Ghermănești. No public source on a 2021 copper roof found. UNRESOLVED; lat/lon = commune centroid.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-in-incinta-spitalului-colentina-bucuresti",
+  "officialName": "Biserica «Izvorul Tămăduirii» din incinta Spitalului Clinic Colentina",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Spitalului Colentina"
+  ],
+  "category": "church",
+  "address": "Șoseaua Ștefan cel Mare 19-21 (incinta Spitalului Clinic Colentina), Sector 2, București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.4530512,
+  "lon": 26.1147349,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1190042275,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "19-21",
+    "addr:street": "Șoseaua Ștefan cel Mare",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "name": "Biserica \"Izvorul Tămăduirii\"",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    44.4531271,
+    26.1146029
+   ],
+   [
+    44.4530031,
+    26.1145811
+   ],
+   [
+    44.4530014,
+    26.1146
+   ],
+   [
+    44.452978,
+    26.1145959
+   ],
+   [
+    44.4529701,
+    26.1146849
+   ],
+   [
+    44.4529909,
+    26.1146885
+   ],
+   [
+    44.4529738,
+    26.1148808
+   ],
+   [
+    44.4531016,
+    26.1149032
+   ],
+   [
+    44.4531188,
+    26.1147106
+   ],
+   [
+    44.4531363,
+    26.1147136
+   ],
+   [
+    44.4531444,
+    26.1146234
+   ],
+   [
+    44.4531255,
+    26.1146201
+   ],
+   [
+    44.4531271,
+    26.1146029
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 24.0,
+   "widthM": 18.5,
+   "bearingDeg": 97.2
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no freely reusable photo of this hospital church was found (Commons has no category for it; web search budget exhausted).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1190042275"
+  ],
+  "verificationNotes": "OSM maps exactly one church in the grounds of Spitalul Clinic Colentina: way 1190042275, building=church, name 'Biserica \"Izvorul Tămăduirii\"', addr Șoseaua Ștefan cel Mare 19-21 (the hospital's address), MRR 24.0 x 18.5 m (cross-in-square-like footprint). Not to be confused with the old 'Sf. Pantelimon' church/hospital (demolished 1986) or the Sf. Dumitru-Colentina parish church. The 2019 copper roofing itself is not confirmed by a public source. PROBABLE.",
+  "registerKeys": [
+   "ba5b6e066510164f"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "hotel-indigo-bucuresti-bucuresti",
+  "officialName": "One Plaza Athénée – clădirea nefinalizată din Str. Georges Clemenceau 8-10 (proiectul Hotel Indigo București, 2018-2019)",
+  "nameHu": null,
+  "altNames": [
+   "Hotel Indigo Bucharest (IHG project announced 2018, never opened)",
+   "The Vendôme Palace & Galerie (2009-2010 hotel project on the same site)",
+   "One Plaza Athénée (One United Properties, 5-star hotel project from 2022)"
+  ],
+  "category": "commercial",
+  "address": "Strada Georges Clemenceau 8-10, Sector 1, București (next to the Athénée Palace hotel and the Romanian Athenaeum)",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.44252,
+  "lon": 26.0965657,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1229725852,
+   "tags": {
+    "building": "yes",
+    "name": "One Plaza Athénée"
+   }
+  },
+  "footprint": [
+   [
+    44.4422981,
+    26.0966626
+   ],
+   [
+    44.4422894,
+    26.0965348
+   ],
+   [
+    44.44228,
+    26.0965348
+   ],
+   [
+    44.4422757,
+    26.0964851
+   ],
+   [
+    44.4422844,
+    26.0964841
+   ],
+   [
+    44.4422813,
+    26.0964403
+   ],
+   [
+    44.4422837,
+    26.0964301
+   ],
+   [
+    44.4423119,
+    26.0964283
+   ],
+   [
+    44.4423191,
+    26.0964405
+   ],
+   [
+    44.4426622,
+    26.0964385
+   ],
+   [
+    44.4426738,
+    26.0964273
+   ],
+   [
+    44.4426912,
+    26.0964243
+   ],
+   [
+    44.4427071,
+    26.0964304
+   ],
+   [
+    44.4427201,
+    26.0964395
+   ],
+   [
+    44.4427288,
+    26.0964527
+   ],
+   [
+    44.4427353,
+    26.096473
+   ],
+   [
+    44.4427368,
+    26.0964912
+   ],
+   [
+    44.4427426,
+    26.0965054
+   ],
+   [
+    44.4427534,
+    26.0964953
+   ],
+   [
+    44.4428048,
+    26.0965911
+   ],
+   [
+    44.4427375,
+    26.0966514
+   ],
+   [
+    44.4426049,
+    26.0966528
+   ],
+   [
+    44.4426046,
+    26.0967059
+   ],
+   [
+    44.4425365,
+    26.0967177
+   ],
+   [
+    44.4424177,
+    26.0967381
+   ],
+   [
+    44.4423899,
+    26.0967429
+   ],
+   [
+    44.442387,
+    26.0966627
+   ],
+   [
+    44.4422981,
+    26.0966626
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 58.4,
+   "widthM": 25.1,
+   "bearingDeg": 179.6
+  },
+  "heightHints": "Reported as 5 above-ground floors + 3 basements (Profit.ro, Jan 2018: structure already erected, facade replicating a 19th-century building that stood on the site); 10,154 m2 gross, of which 6,410 m2 above ground, plot 1,361 m2 (Capital.ro/Profit.ro, Dec 2022).",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: only marketing renders of the One Plaza Athénée project were found (copyrighted, not the as-built state).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1229725852",
+   "https://profit.ro/must-read/exclusiv-lantul-intercontinental-intra-in-romania-cu-primul-hotel-sub-brandul-indigo-17572623",
+   "https://www.capital.ro/one-plaza-athenee-o-cladire-abandonata-din-centrul-capitalei-devine-hotel-lifestyle-de-5-stele.html",
+   "https://profit.ro/povesti-cu-profit/turism/foto-one-united-properties-achizitioneaza-o-cladire-langa-ateneu-si-hotelul-lui-copos-pentru-a-o-transforma-in-hotel-tot-acolo-vrea-apartamente-de-lux-20958256",
+   "https://www.romania-insider.com/one-united-abandoned-building-center-bucharest-hotel-project",
+   "https://chambers.com/articles/stratulat-albulescu-advises-keys-reim-on-the-sale-of-a-building-in-the-historic-centre-of-bucharest",
+   "https://www.pressport.com/uk/news/pressreleases/brand-management-opportunity-for-new-build-luxury-hotel-in-bucharest-8530"
+  ],
+  "verificationNotes": "No Hotel Indigo ever opened in Bucharest (IHG's first Romanian Indigo is Satu Mare). Chain of evidence: (1) Profit.ro 10 Jan 2018: IHG to open Romania's first Hotel Indigo (~100 rooms, 4*+) in central Bucharest near the Athenaeum, on the site prepared for 'The Vendôme Palace & Galerie' (halted by the 2008 crisis); structure already up, 5 floors + 3 basements, facade replicating a 19th-c. building. (2) 2009-2010 press (PressPort/The Diplomat): Vendôme Palace & Galerie = new-build luxury hotel next to the Athénée Palace Hilton at Str. Georges Clemenceau 8-10. (3) Dec 2022: One United Properties bought the 'unfinished, abandoned building' at Str. Georges Clemenceau 8-10 (3 basements, 10,154 m2) from Keys MS Clemenceau (Keys REIM) for EUR 13.5 m, to complete it as the 5-star 'One Plaza Athénée'. OSM way 1229725852 'One Plaza Athénée' (MRR 58.4 x 25.1 m, bearing ~180°) is the building next to the address node Str. Georges Clemenceau 8. So the 2019 zinc was very probably for the roof/mansard of this shell. Whether the roof was actually installed, and whether One United kept it, is not confirmed. PROBABLE.",
+  "registerKeys": [
+   "7f3699db4ef04e57"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-aparatorii-patriei-bucuresti",
+  "officialName": "Biserica Parohiei Apărătorii Patriei I",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Ortodoxă Apărătorii Patriei I",
+   "Biserica Apărătorii Patriei"
+  ],
+  "category": "church",
+  "address": "Strada Panselelor 31, Sector 4, București (cartierul Apărătorii Patriei)",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.3841464,
+  "lon": 26.1364168,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 80540040,
+   "tags": {
+    "addr:city": "București",
+    "addr:housenumber": "31",
+    "addr:postcode": "042063",
+    "addr:street": "Strada Panselelor",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Ortodoxă Apărătorii Patriei I",
+    "religion": "christian",
+    "start_date": "1935"
+   }
+  },
+  "footprint": [
+   [
+    44.3842343,
+    26.1363028
+   ],
+   [
+    44.3841789,
+    26.1365527
+   ],
+   [
+    44.3841691,
+    26.1365484
+   ],
+   [
+    44.3841308,
+    26.136579
+   ],
+   [
+    44.3840896,
+    26.1365629
+   ],
+   [
+    44.384075,
+    26.1365129
+   ],
+   [
+    44.384064,
+    26.1365081
+   ],
+   [
+    44.3841204,
+    26.1362534
+   ],
+   [
+    44.3842343,
+    26.1363028
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 24.5,
+   "widthM": 13.2,
+   "bearingDeg": 107.1
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: the only photo found is a copyrighted Basilica.ro (Mircea Florescu) image of the 2019 re-consecration; no free exterior photo located.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/80540040",
+   "https://orthodoxtimes.com/patriarch-daniel-re-consecrates-bucharest-church-where-village-and-city-gather-in-joy-of-communion/",
+   "https://www.pravmir.com/?p=286448",
+   "https://basilica.ro/en/?p=252617",
+   "https://www.openstreetmap.org/way/313039909"
+  ],
+  "verificationNotes": "Patriarch Daniel re-consecrated the church of the Apărătorii Patriei neighbourhood on 22 Sep 2019 (Basilica.ro / Orthodox Times / Pravmir, 22-23 Sep 2019) - a re-consecration normally follows major renovation, which matches the 2019 zinc purchase - and the reports say the church was founded by First World War veterans who settled there. Of the two Orthodox churches named after the district in OSM, 'Biserica Ortodoxă Apărătorii Patriei I', Str. Panselelor 31 (way 80540040, start_date 1935, MRR 24.5 x 13.2 m) fits the veterans' interwar foundation; the other, 'Sf. Ambrozie - Apărătorii Patriei', Str. Lunca Bârzești 3 (way 313039909) dates from 1948. The articles do not name the parish or mention the roof, so the link is inferred. PROBABLE.",
+  "registerKeys": [
+   "f8da61341dbaaeea"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "cladirea-administrativa-arhiepiscopia-buzaului-buzau",
+  "officialName": "Clădirea administrativă a Arhiepiscopiei Buzăului și Vrancei (building within the compound not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Ansamblul Episcopiei Buzăului (LMI BZ-II-a-A-02324)"
+  ],
+  "category": "church",
+  "address": "Aleea Episcopiei 3, Buzău (incinta Arhiepiscopiei Buzăului și Vrancei)",
+  "city": "Buzău",
+  "county": "Buzău",
+  "country": "Romania",
+  "lat": 45.1574091,
+  "lon": 26.8195518,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1189741935,
+   "tags": {
+    "denomination": "romanian_orthodox",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "landuse": "religious",
+    "name": "Arhiepiscopia Buzăului și Vrancei",
+    "ref:RO:lmi": "BZ-II-a-A-02324",
+    "ref:RO:ran": "44827.14",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: the specific administrative building is not identified.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1189741935",
+   "https://www.openstreetmap.org/way/1189741936",
+   "https://www.openstreetmap.org/way/181341806"
+  ],
+  "verificationNotes": "The institution and site are certain: the Archdiocese of Buzău and Vrancea compound on Aleea Episcopiei (OSM landuse=religious way 1189741935, LMI ensemble BZ-II-a-A-02324; lat/lon = its centroid). Which building is 'the administrative building' is not documented publicly. Candidates inside the compound: Palatul Episcopal (way 1189741936, 2 storeys, LMI BZ-II-m-A-02324.03, MRR 34.8 x 28.3 m), 'Seminarul vechi' (way 181341806, 1838, LMI .04), and several unnamed 2-3 storey annexes (ways 181341815, 181341822, 181341816). Site-level PROBABLE; building UNRESOLVED.",
+  "registerKeys": [
+   "b404b3c3233006c4"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "clopotnita-urziceni-urziceni",
+  "officialName": "Clopotnița unei biserici din Urziceni (building not identified)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Urziceni, jud. Ialomița",
+  "city": "Urziceni",
+  "county": "Ialomița",
+  "country": "Romania",
+  "lat": 44.717002,
+  "lon": 26.632407,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "relation",
+   "id": 10698171,
+   "tags": {
+    "place": "city",
+    "name": "Urziceni"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/10698171"
+  ],
+  "verificationNotes": "Very probably the same parish as the 'Biserica, Urziceni' copper orders of 2020/2022 (record biserica-urziceni-urziceni), but the church is not identified (several Orthodox churches in town) and a bell tower is a separate structure, so not merged. UNRESOLVED; lat/lon = town centre.",
+  "registerKeys": [
+   "0d84d14fd2d6ef37"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "parohia-barbatesu-vechi-bucuresti",
+  "officialName": "Parohia «Bărbătescu Vechi» – Biserica «Sfântul Ierarh Nicolae» (old church or new parish church, not determined)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Bărbătescu Vechi",
+   "Parohia Bărbătescu Vechi"
+  ],
+  "category": "church",
+  "address": "Strada Bărbătescu Vechi 1, Sector 5 (Rahova), București",
+  "city": "București",
+  "county": "București",
+  "country": "Romania",
+  "lat": 44.41605,
+  "lon": 26.08028,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 79113568,
+   "tags": {
+    "addr:city": "București",
+    "addr:country": "RO",
+    "addr:housenumber": "1",
+    "addr:interpolation": "odd",
+    "addr:postcode": "052069",
+    "addr:street": "Strada Bărbătescu Vechi",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "is_in:city": "București",
+    "name": "Biserica Ortodoxă \"Bărbătescu Vechi\"",
+    "religion": "christian",
+    "start_date": "1764"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: it is not determined which of the two churches got the zinc roof, and no free photo was found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/79113568",
+   "https://www.openstreetmap.org/way/1411381962"
+  ],
+  "verificationNotes": "The parish is certain: Str. Bărbătescu Vechi 1, Rahova, Sector 5 (patron Sf. Ierarh Nicolae; per a 2023 church-press snippet its chapel is in the basement of the NEW parish church). OSM has two churches 25 m apart on the site: (a) 'Biserica Ortodoxă Bărbătescu Vechi', way 79113568, start_date 1764, small (MRR 15.9 x 8.5 m, bearing 54°) - the historic church; (b) unnamed place_of_worship way 1411381962, MRR 24.0 x 18.1 m (cross plan, 30 nodes) - most likely the new parish church. A 2022 zinc order fits either a new-church roof or a re-roofing of the old one; no public source decides it. Site-level PROBABLE; lat/lon = midpoint of the two churches; no footprint given to avoid modelling the wrong one. (A building with LMI code B-II-m-B-19514 - way 1151202101 - stands 60 m north; not checked.)",
+  "registerKeys": [
+   "b0d03f34a403b15c"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "manastirea-sitaru-sitaru",
+  "officialName": "Mănăstirea Sitaru (Balamuci) – Biserica «Sfântul Nicolae»",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Balamuci",
+   "Mânăstirea Sf. Nicolae Sitaru"
+  ],
+  "category": "monastery",
+  "address": "Sat Sitaru, comuna Grădiștea, jud. Ilfov (LMI IF-II-a-A-15263)",
+  "city": "Sitaru",
+  "county": "Ilfov",
+  "country": "Romania",
+  "lat": 44.6799078,
+  "lon": 26.3176884,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1108116335,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Biserica „Sfântul Nicolae”",
+    "ref:RO:lmi": "IF-II-m-A-15263.01",
+    "religion": "christian",
+    "start_date": "1631"
+   }
+  },
+  "footprint": [
+   [
+    44.6799072,
+    26.317522
+   ],
+   [
+    44.6799869,
+    26.3177354
+   ],
+   [
+    44.6799875,
+    26.3178029
+   ],
+   [
+    44.67996,
+    26.3178364
+   ],
+   [
+    44.6799216,
+    26.3178467
+   ],
+   [
+    44.6798905,
+    26.3178055
+   ],
+   [
+    44.6798111,
+    26.317593
+   ],
+   [
+    44.6799072,
+    26.317522
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 24.8,
+   "widthM": 12.0,
+   "bearingDeg": 62.4
+  },
+  "heightHints": "Brâncovenesc-style church with two octagonal towers (taller one over the naos, second over the pronaos), open columned porch (pridvor) at the west end on a high plinth; deep eaves. No measured height in OSM.",
+  "photos": 5,
+  "metalVisibleInPhotos": "Photos 01-04 (Commons, 18 Apr 2023) show the freshly restored church with a new, still-bright brown copper standing-seam roof, copper tower caps/domes and copper gutters and downpipes (scaffolding still in the porch); 05 (Jan 2015) shows the pre-restoration state for comparison.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1108116335",
+   "https://www.openstreetmap.org/way/985504088",
+   "https://commons.wikimedia.org/wiki/Category:Sitaru_Monastery",
+   "https://www.orthodoxianewsagency.gr/pdf.php?id=43280"
+  ],
+  "verificationNotes": "Building: the monastery church Sf. Nicolae of Mănăstirea Sitaru/Balamuci (founded by Papa Greceanu; LMI IF-II-a-A-15263, church IF-II-m-A-15263.01), OSM way 1108116335 (MRR 24.8 x 12.0 m, bearing 62°) inside precinct way 985504088. Commons photos dated 18 Apr 2023 show the restoration just completed with a new copper roof and copper rainwater goods, consistent with the 2022 copper purchase. VERIFIED (roof works confirmed photographically + EU restoration documented; Note: the Commons file names say 'Sitaru, Ialomița' - wrong county, the monastery is in Ilfov. The other building roofs in the precinct (cells) look like older galvanised sheet.",
+  "registerKeys": [
+   "25a0d3c6aa6b958d"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "episcopia-buzaului-sitaru",
+  "officialName": "Copertină în incinta sediului Episcopiei/Arhiepiscopiei Buzăului (structure not identified)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Register location: Sitaru, jud. Ilfov (conflicts with the name, see notes)",
+  "city": "Sitaru",
+  "county": "Ilfov",
+  "country": "Romania",
+  "lat": 44.66889,
+  "lon": 26.328204,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "node",
+   "id": 462212945,
+   "tags": {
+    "place": "village",
+    "name": "Sitaru"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/462212945",
+   "https://www.openstreetmap.org/way/1189741935"
+  ],
+  "verificationNotes": "a canopy (copertină) inside the precinct of the bishopric's seat, not a building. The material line is identical to the adjacent 'Manastirea Sitaru' line, and Sitaru monastery belongs to the Archdiocese of Bucharest, not to Buzău, so the location was very likely copied from the previous line; the seat of the (Arch)diocese of Buzău is the compound on Aleea Episcopiei, Buzău (OSM way 1189741935). Neither the canopy nor its true location can be confirmed. UNRESOLVED; A canopy is not a meaningful map/model object; consider dropping or attaching to the Buzău archdiocese site.",
+  "registerKeys": [
+   "42b93a917604a13d"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-brebu-brebu",
+  "officialName": "Biserica din comuna Brebu, Prahova (building not identified)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "comuna Brebu, jud. Prahova",
+  "city": "Brebu",
+  "county": "Prahova",
+  "country": "Romania",
+  "lat": 45.18252,
+  "lon": 25.769463,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "way",
+   "id": 74663464,
+   "tags": {
+    "place": "village",
+    "name": "Brebu Mânăstirei"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/773612212",
+   "https://www.openstreetmap.org/node/2094345243",
+   "https://www.openstreetmap.org/node/9532030233",
+   "https://commons.wikimedia.org/wiki/Category:Brebu_Monastery"
+  ],
+  "verificationNotes": "Brebu commune has several villages (Brebu Mânăstirei, Brebu Megieșesc, Pietriceaua, Podu Cheii) and several churches; around the given point OSM shows the former Brebu monastery church 'Sf. Arhangheli Mihail, Gavriil și Rafail' (way 773612212, 17th c., Matei Basarab / Brâncoveanu, LMI) plus at least two other Orthodox places of worship (node 2094345243 'Biserica', 45.18149, 25.76293; node 9532030233, 45.17670, 25.77043). No public source found. UNRESOLVED;",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-incinta-centrul-de-odihna-si-meditatie-pantelimon-l-pantelimon",
+  "officialName": "Biserica Centrului Cultural-Misionar «Familia» (Complexul Lebăda, Pantelimon)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica din incinta Centrului de odihnă și meditație Pantelimon «Lebăda»",
+   "Centrul Cultural-Misionar «Familia» – Casa «Sfântul Pantelimon»"
+  ],
+  "category": "church",
+  "address": "Bulevardul Biruinței, insula Lebăda pe Lacul Pantelimon, oraș Pantelimon, jud. Ilfov",
+  "city": "Pantelimon",
+  "county": "Ilfov",
+  "country": "Romania",
+  "lat": 44.4453953,
+  "lon": 26.2059455,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1309357327,
+   "tags": {
+    "building": "church"
+   }
+  },
+  "footprint": [
+   [
+    44.4453595,
+    26.205759
+   ],
+   [
+    44.4452664,
+    26.205877
+   ],
+   [
+    44.4454175,
+    26.206111
+   ],
+   [
+    44.4454548,
+    26.2061054
+   ],
+   [
+    44.4454859,
+    26.2060864
+   ],
+   [
+    44.4455048,
+    26.2060416
+   ],
+   [
+    44.4455106,
+    26.2059931
+   ],
+   [
+    44.4453595,
+    26.205759
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 28.7,
+   "widthM": 13.9,
+   "bearingDeg": 48.1
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: the church is new (2022-2026) and no freely licensed photo was found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1309357327",
+   "https://www.openstreetmap.org/way/581467283",
+   "https://basilica.ro/en/blessing-of-family-cultural-missionary-centre-within-saint-pantelimon-house-county-of-ilfov/",
+   "https://www.stiripesurse.ro/scandal-imens-in-biserica-ortodoxa-nu-au-bani-de-catedrala-dar-si-au-tras-hotel-de-lux_1147509.html"
+  ],
+  "verificationNotes": "The former Lebăda hotel complex on the island in Lake Pantelimon (site of the old Sf. Pantelimon monastery/hospital) belongs to the Romanian Patriarchate and became the Cultural-Missionary Centre 'Familia' (blessed 28 Oct 2014, when a chapel 'nearby' was hoped for). OSM: centre building way 581467283 and, 120 m NE of it on the island, a single building=church way 1309357327 (recently mapped, MRR 28.7 x 13.9 m, bearing 48°); a Basilica.ro report of July 2026 (seen only as a search snippet) mentions a Te Deum in the 'new church' of the Familia centre. roof material not confirmed by a public source. PROBABLE.",
+  "registerKeys": [
+   "e3b74ef7d23ab718"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-rusetu-rusetu",
+  "officialName": "Biserica «Sfântul Ierarh Nicolae» din Rușețu",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Strada Brăilei, sat Rușețu, comuna Rușețu, jud. Buzău, 127520",
+  "city": "Rușețu",
+  "county": "Buzău",
+  "country": "Romania",
+  "lat": 44.9650561,
+  "lon": 27.2242237,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 3725031198,
+   "tags": {
+    "addr:city": "Rușețu",
+    "addr:postcode": "127520",
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Biserica Sfântul Ierarh Nicolae",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no freely licensed photo found (Commons has no category for the village).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/3725031198",
+   "https://www.openstreetmap.org/node/3627105725",
+   "https://en.wikipedia.org/wiki/Ru%C8%99e%C8%9Bu"
+  ],
+  "verificationNotes": "Rușețu commune has two villages (Rușețu and Sergent Ionel Ștefan). Inside Rușețu village OSM has exactly one church, Biserica Sf. Ierarh Nicolae, Str. Brăilei (node 3725031198; no outline mapped, so no footprint); the other church of the commune is in Sergent Ionel Ștefan, 4.6 km south (node 3627105725). Single church of the named village -> PROBABLE; roof works not confirmed by a public source. Note the research point given (44.957557, 27.218079) was the commune centroid; lat/lon here is the church node.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "imobil-in-incinta-arhiepiscopiei-buzaului-si-vrancei-buzau",
+  "officialName": "Imobil în incinta Arhiepiscopiei Buzăului și Vrancei (building within the compound not identified)",
+  "nameHu": null,
+  "altNames": [
+   "Ansamblul Episcopiei Buzăului (LMI BZ-II-a-A-02324)"
+  ],
+  "category": "church",
+  "address": "Aleea Episcopiei 3, Buzău (incinta Arhiepiscopiei Buzăului și Vrancei)",
+  "city": "Buzău",
+  "county": "Buzău",
+  "country": "Romania",
+  "lat": 45.1574091,
+  "lon": 26.8195518,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1189741935,
+   "tags": {
+    "denomination": "romanian_orthodox",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "landuse": "religious",
+    "name": "Arhiepiscopia Buzăului și Vrancei",
+    "ref:RO:lmi": "BZ-II-a-A-02324",
+    "ref:RO:ran": "44827.14",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: the specific building is not identified.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1189741935",
+   "https://www.openstreetmap.org/way/1189741936"
+  ],
+  "verificationNotes": "Site certain (archdiocesan compound, Aleea Episcopiei, OSM way 1189741935, LMI BZ-II-a-A-02324; lat/lon = centroid); the building is not identified - same candidate list as record cladirea-administrativa-arhiepiscopia-buzaului-buzau (Palatul Episcopal way 1189741936, Seminarul vechi way 181341806, unnamed annexes). It may be the same building as the 2021 'administrative building' (continuation) or another one; kept separate. Site-level PROBABLE; building UNRESOLVED.",
+  "registerKeys": [
+   "e3c70049803812e8"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-maracineni-maracineni",
+  "officialName": "Biserica din Mărăcineni, Buzău (building not identified)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "comuna Mărăcineni, jud. Buzău",
+  "city": "Mărăcineni",
+  "county": "Buzău",
+  "country": "Romania",
+  "lat": 45.176857,
+  "lon": 26.824638,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": {
+   "type": "relation",
+   "id": 14700805,
+   "tags": {
+    "place": "municipality",
+    "name": "Mărăcineni"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/14700805",
+   "https://www.openstreetmap.org/way/1064130672",
+   "https://www.openstreetmap.org/way/1198132998",
+   "https://www.openstreetmap.org/way/672278594"
+  ],
+  "verificationNotes": "Mărăcineni village alone has two Orthodox churches in OSM - Sf. Arhangheli Mihail și Gavriil (way 1064130672, start_date 2003) and Sf. Nicolae (way 1198132998, start_date 1801) - and the commune (villages Mărăcineni, Căpățânești, Potoceni, Recea, Moșești) has more, plus Sf. Trei Ierarhi (way 672278594) at its southern edge. No public source on a 2023 zinc roof found. UNRESOLVED; lat/lon = commune centroid as given.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ }
+]

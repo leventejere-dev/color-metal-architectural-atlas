@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 71.6,
+  "bearingSource": "OSM way 214696098 long axis 71.6°; +X points ENE to the narrow apse end of the outline, the open porch with the main entrance faces −X/WSW (photos 01–03)",
+  "cover": null,
+  "photosUsed": 4,
+  "approximations": "Four Commons photographs (west front, oblique porch view, distant view from the road). Heights estimated from the frontal photographs (porch walls ≈ 8.9 m, body eave ≈ 11.6 m, crosses ≈ 22.5–24 m), no survey data. The east end and the north side are not photographed: lateral conchs and the polygonal apse follow the OSM outline, the north side mirrors the south. The broad flared eaves with their arched west edges, the carved ornament (archivolts, rosettes, blind-arch friezes, parapets) and the tower drums are simplified. The photographs (2011–2018) show grey sheet roofs; roofs, eaves and domes are shown in new copper because copper was supplied by COLOR METAL for the monastery according to its records — which building and surfaces received it is not documented.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; înălțimile, capătul estic și latura nordică sunt estimate. Fotografiile disponibile sunt anterioare lucrărilor, de aceea acoperișurile și turlele sunt redate în cupru, materialul livrat de COLOR METAL conform evidențelor sale; suprafețele exacte nu sunt documentate.",
+    "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a magasságok, a keleti vég és az északi oldal becsültek. Az elérhető fotók a munkák előttiek, ezért a tetők és a tornyok rézzel jelennek meg – a COLOR METAL nyilvántartása szerint szállított anyaggal; a pontos felületek nincsenek dokumentálva.",
+    "en": "Scale model interpreted from public reference photographs and the OSM outline; heights, the east end and the north side are estimated. The available photographs predate the works, so the roofs and towers are shown in copper, the material supplied by COLOR METAL according to its records; the exact surfaces are not documented."
+  }
+}

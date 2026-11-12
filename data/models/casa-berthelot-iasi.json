@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 154.5,
+ "bearingSource": "OSM way 206525143 long axis 154.5°; +X points to the street front with the central risalit and the double stair (OSM projection on that side; photos 03, 07).",
+ "cover": "04",
+ "photosUsed": 12,
+ "approximations": "Plan after the OSM outline (19.0 m wide); the lower rear wing on the −Z side (≈6.5 m beyond the OSM outline) added after drone photos 01, 02 and 07. Heights estimated (cornice 6.9 m, mansard curb 9.8 m, central pavilion ≈12.4 m, tower spire ≈16.3 m). Window rhythm of the +Z side and the rear partly inferred; ox-eye dormer count per side estimated; stucco ornament reduced to blocks, scrolls and discs; dome profiles approximated; diamond zinc shingles shown as a diagonal grid.",
+ "note": {
+  "ro": "Machetă interpretată după fotografiile de referință și conturul OSM; ornamentația din stuc, numărul ferestrelor de pe fațadele laterale și posterioară și profilul domurilor sunt simplificate, iar șindrila romboidală din zinc este redată ca rețea diagonală.",
+  "hu": "A referenciafotók és az OSM-körvonal alapján értelmezett makett; a stukkódíszek, az oldal- és hátsó homlokzatok ablakszáma és a kupolák profilja egyszerűsített, a rombusz alakú cinkzsindely átlós hálóként jelenik meg.",
+  "en": "Scale model interpreted from the reference photographs and the OSM outline; stucco ornament, window counts on the side and rear elevations and the dome profiles are simplified, and the diamond-shaped zinc shingles are shown as a diagonal grid."
+ }
+}

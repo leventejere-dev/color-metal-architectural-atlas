@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 61.2,
+ "bearingSource": "OSM way 373743050 long axis 61.2°; +X points to the polygonal altar apse (ENE) as on the restoration floor plan (photo 05: rear façade east, main façade with the porch west).",
+ "cover": null,
+ "photosUsed": 5,
+ "approximations": "Plan taken from the restoration floor plan (photo 05, axis dimensions) and checked against the OSM outline; heights are not documented and were estimated from photos 01-04 (outer cornices ≈ 13 m, raised nave and arms ≈ 16 m, west crosses ≈ 29 m, central cross ≈ 30.5 m). Spiral drums simplified to twelve helical ribs and four twisted slits; fish-scale dome cladding shown as shingle courses with a cresting ring; carved cornices, window surrounds and porch ornament simplified; north and east window counts inferred from the plan.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință și după planul de restaurare publicat. Domurile cu solzi și acoperișurile cu fălțuire sunt redate în titan-zinc natural, așa cum apar în fotografiile de după restaurare — material livrat de COLOR METAL conform evidențelor sale. Înălțimile sunt estimate, iar ornamentația sculptată și turlele răsucite sunt simplificate.",
+  "hu": "Nyilvános referenciafotók és a közzétett helyreállítási alaprajz alapján értelmezett makett. A pikkelyes kupolák és az állókorcos tetők natúr titáncinkként jelennek meg, ahogy a helyreállítás utáni fotókon — a COLOR METAL nyilvántartása szerint általa szállított anyag. A magasságok becsültek, a faragott díszítés és a csavart dobok egyszerűsítettek.",
+  "en": "Scale model interpreted from public reference photographs and the published restoration floor plan. The fish-scale domes and the standing-seam roofs are shown in natural titanium-zinc as photographed after the restoration — the material supplied by COLOR METAL according to its records. Heights are estimated; the carved ornament and the twisted drums are simplified."
+ }
+}

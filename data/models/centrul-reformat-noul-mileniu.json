@@ -1,0 +1,14 @@
+{
+ "tier": "A",
+ "status": "detailed",
+ "bearingDeg": 60.0,
+ "bearingSource": "Symmetry axis of the composition, not the OSM long axis (17.1° is the long axis of the merged church + centre outline). +X points from the community-centre corner through the courtyard and the church to the twin-tower façade. 60° = bisector of the two wings in the merged OSM outline (≈15° and ≈105°), checked by overlaying the outline on the vertical drone photo 02 (wings, courtyard notch and north dome blob match); the dome positions (photo 02) give 59°, the perspective-corrected tower bases 68° (±8°).",
+ "cover": "01",
+ "photosUsed": 12,
+ "approximations": "No published dimensions: all heights estimated from the drone views (towers ≈33 m to the star, glass spike ≈29 m, petal tips ≈21.5 m, wing eaves 6.4 m, dome eaves 5.6–6 m). The bud is reduced to six petals of one construction (eave 5.6–8 m, rear lower) around a hexagonal glass spike; the spike's timber lattice, the star crowns/lanterns of the domes and the eyebrow vaults of the copper dome are simplified; the flat roofs linking the bud to the domes, the rear courtyard façade, the courtyard stair and the colonnade are indicative; window positions are schematic. The tower skirts are shown as weathered timber (photos 07, 10, 11) under graphite spires; the copper dome is shown aged brown with new-copper eyebrow vaults (photo 01); the community-centre wings are roofed in natural slate per the photographs (not part of the metal scope). The north side of the copper dome and the far ends of the wings are only seen from above.",
+ "note": {
+  "ro": "Machetă interpretată după cele 12 fotografii (5 aeriene): „mugurele” bisericii din șase petale de titan-zinc elZinc Graphite în jurul vârfului de sticlă, cele două turnuri cu coifuri, cupola de cupru și cupola de titan-zinc, aripile centrului comunitar. Înălțimile sunt estimate, iar lanternele cupolelor, rețeaua vârfului de sticlă și curtea interioară sunt simplificate.",
+  "hu": "A 12 referenciafotó (köztük 5 drónfelvétel) alapján értelmezett makett: a templom hat elZinc Graphite titáncink szirmából álló „bimbója” az üvegcsúcs körül, a két sisakos torony, a rézkupola és a titáncink kupola, valamint a közösségi központ szárnyai. A magasságok becsültek, a kupolák lanternái, az üvegcsúcs rácsozata és a belső udvar egyszerűsített.",
+  "en": "Scale model interpreted from the 12 reference photographs (5 drone views): the church's 'bud' of six elZinc Graphite titanium-zinc petals around the glass spike, the two spired towers, the copper dome and the titanium-zinc dome, and the wings of the community centre. Heights are estimated; the dome lanterns, the spike lattice and the courtyard are simplified."
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 331,
+ "bearingSource": "OSM way 209636002 (≈11.7 m square, sides at 61°/151°/241°/331°, ≈28 m south of the memorial house) taken as the museum pavilion's roof outline; +X (roof-terrace end) set to 331° because the memorial house (OSM way 209635969) appears beyond the terrace / entrance corner in photos 02–04 and 06. Not verified on site.",
+ "cover": "02",
+ "photosUsed": 11,
+ "approximations": "Modelled building: the museum pavilion of the memorial site — the only titanium-zinc (elZinc Slate) roof in the photos; the historic memorial house (OSM 209635969) keeps its wooden shingle roof in photos 02–04 and 06 and is not modelled. Sloping site levelled (the entrance side is about one storey higher in reality, so all three levels are exposed in the model); pavilion roof ≈11.5 m square, consistent with OSM way 209636002; other dimensions estimated from the photos; downhill and end elevations partly inferred; zinc shingles shown as horizontal courses; exterior stairs, amphitheatre and landscaping omitted.",
+ "note": {
+  "ro": "Machetă a pavilionului muzeal din incinta memorială, al cărui acoperiș piramidal este învelit cu șindrilă elZinc Slate; bojdeuca istorică, acoperită cu șindrilă de lemn, nu este modelată. Terenul în pantă este nivelat, iar dimensiunile sunt estimate din fotografii.",
+  "hu": "Az emlékhely múzeumpavilonjának makettje, amelynek gúlatetejét elZinc Slate zsindely fedi; a fazsindelyes történelmi emlékház nincs modellezve. A lejtős terep kiegyenlítve, a méretek a fotókból becsültek.",
+  "en": "Scale model of the museum pavilion of the memorial site, whose pyramid roof is covered with elZinc Slate shingles; the historic, wood-shingled memorial house is not modelled. The sloping site is levelled and dimensions are estimated from the photographs."
+ }
+}

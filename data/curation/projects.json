@@ -1,0 +1,527 @@
+{
+  "_doc": "Public, verified project metadata. Sources: the internal register 'Referinte Sol Arh' (material actually supplied — product line only, no quantities/clients/prices), COLOR METAL's own published post texts (docx in the archive) and the exhibition-table brief. 'application' is filled only where a company text states it. 'bearingDeg' (optional) overrides the OSM long-axis bearing for the model's +X axis. 'tier'/'status' describe the 3D model; 'module' is detected automatically from src/models.",
+  "projects": {
+    "sepsi-osk-arena": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Rainbow Gold",
+        "elZinc® Graphite"
+      ],
+      "application": "facade",
+      "contributionSource": "docx",
+      "tier": "A",
+      "status": "existing-verified"
+    },
+    "biserica-reformata-tasnad": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [
+        "PREFA (anthracite)"
+      ],
+      "application": "roof",
+      "contributionSource": "exhibition",
+      "tier": "A",
+      "status": "existing-verified"
+    },
+    "castelul-banffy-rascruci": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Copper sheet & strip",
+        "Copper rainwater system"
+      ],
+      "application": "roof",
+      "contributionSource": "docx",
+      "tier": "A",
+      "status": "existing-verified"
+    },
+    "parcare-satu-mare": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [
+        "Expanded aluminium, gold-painted"
+      ],
+      "application": "facade",
+      "contributionSource": "exhibition",
+      "tier": "A",
+      "status": "existing-verified"
+    },
+    "ansamblul-mitropolitan-iasi": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "KME copper"
+      ],
+      "application": "roof",
+      "contributionSource": "docx"
+    },
+    "ateneul-roman": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "Titanium-zinc, natural"
+      ],
+      "contributionSource": "register"
+    },
+    "biblioteca-academiei-romane": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "Titanium-zinc"
+      ],
+      "contributionSource": "register"
+    },
+    "biblioteca-centrala-universitara-iasi": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Natural",
+        "elZinc® Slate"
+      ],
+      "contributionSource": "docx"
+    },
+    "biserica-pogorarea-duhului-sfant-giroc": {
+      "metals": [],
+      "products": [],
+      "contributionSource": null
+    },
+    "parohia-ortodoxa-giroc": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Copper sheet & strip"
+      ],
+      "contributionSource": "register"
+    },
+    "biserica-amzei": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Natural"
+      ],
+      "application": "roof",
+      "contributionSource": "docx"
+    },
+    "biserica-bodogaia": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Slate"
+      ],
+      "contributionSource": "register"
+    },
+    "biserica-casin": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Copper sheet"
+      ],
+      "contributionSource": "docx"
+    },
+    "biserica-romano-catolica-tamasu": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Cu-DHP copper sheet & strip"
+      ],
+      "application": "tower",
+      "contributionSource": "docx"
+    },
+    "biserica-romano-catolica-zetea": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "KME copper, natural"
+      ],
+      "contributionSource": "register"
+    },
+    "biserica-domnita-balasa": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "KME TECU® Patina Oslo",
+        "Copper rainwater system"
+      ],
+      "contributionSource": "docx"
+    },
+    "biserica-reformata-feliceni": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "KME copper"
+      ],
+      "application": "tower",
+      "contributionSource": "docx"
+    },
+    "bojdeuca-ion-creanga": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Slate"
+      ],
+      "contributionSource": "register"
+    },
+    "casa-berthelot-iasi": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Slate"
+      ],
+      "contributionSource": "register"
+    },
+    "casa-macca": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "Titanium-zinc, natural"
+      ],
+      "contributionSource": "register"
+    },
+    "casa-pogor": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Slate"
+      ],
+      "contributionSource": "register"
+    },
+    "catedrala-ortodoxa-satu-mare": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Copper"
+      ],
+      "contributionSource": "docx"
+    },
+    "biserica-sf-mihail-cluj": {
+      "metals": [
+        "copper",
+        "titanium-zinc"
+      ],
+      "products": [
+        "Copper sheet",
+        "elZinc® Natural"
+      ],
+      "contributionSource": "register"
+    },
+    "centrul-reformat-noul-mileniu": {
+      "metals": [
+        "titanium-zinc",
+        "copper"
+      ],
+      "products": [
+        "elZinc® Graphite",
+        "Cu-DHP copper strip"
+      ],
+      "application": "roof",
+      "contributionSource": "docx"
+    },
+    "cladire-rezidentiala-odorheiu-secuiesc": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [
+        "Aluminium"
+      ],
+      "contributionSource": "register"
+    },
+    "clinica-obstetrica-timisoara": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [
+        "Aluminium 5754 sheet",
+        "Expanded aluminium"
+      ],
+      "application": "facade",
+      "contributionSource": "docx"
+    },
+    "vila-constantin-geblescu": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Oliva"
+      ],
+      "contributionSource": "docx"
+    },
+    "intrare-iulius-town-timisoara": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Cu-DHP copper sheet"
+      ],
+      "application": "entrance",
+      "contributionSource": "docx"
+    },
+    "liceul-teoretic-ady-endre": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Graphite",
+        "Rainwater system"
+      ],
+      "contributionSource": "register"
+    },
+    "manastirea-barnova": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "KME copper"
+      ],
+      "contributionSource": "docx"
+    },
+    "manastirea-dragomirna": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Copper sheet"
+      ],
+      "contributionSource": "register"
+    },
+    "manastirea-frumoasa": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "KME copper"
+      ],
+      "contributionSource": "docx"
+    },
+    "manastirea-putna": {
+      "metals": [
+        "copper"
+      ],
+      "products": [],
+      "contributionSource": "booklet"
+    },
+    "manastirea-tazlau": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "KME TECU® Patina Oslo",
+        "Copper snow guards"
+      ],
+      "contributionSource": "docx"
+    },
+    "manastirea-tismana": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Copper",
+        "Copper snow guards"
+      ],
+      "contributionSource": "register"
+    },
+    "muzeul-istorie-arheologie-piatra-neamt": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "Titanium-zinc, natural"
+      ],
+      "contributionSource": "register"
+    },
+    "muzeul-apei-timisoara": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Natural"
+      ],
+      "application": "roof",
+      "contributionSource": "docx"
+    },
+    "observatorul-astronomic-iasi": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Copper",
+        "Copper rainwater system"
+      ],
+      "contributionSource": "register"
+    },
+    "palatul-cultural-blaj": {
+      "metals": [
+        "copper"
+      ],
+      "products": [
+        "Copper"
+      ],
+      "application": "roof",
+      "contributionSource": "docx"
+    },
+    "palatul-principilor-alba-iulia": {
+      "metals": [
+        "copper",
+        "titanium-zinc"
+      ],
+      "products": [
+        "Natural copper strip",
+        "elZinc® Graphite",
+        "elZinc® Natural"
+      ],
+      "application": "roof",
+      "contributionSource": "docx"
+    },
+    "scoala-95-bucuresti": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Slate"
+      ],
+      "application": "roof",
+      "contributionSource": "docx"
+    },
+    "bt-arena-cluj": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [
+        "Aluminium façade profiles"
+      ],
+      "application": "facade",
+      "contributionSource": "register"
+    },
+    "facultatea-stiinte-politice-bucuresti": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Oliva"
+      ],
+      "contributionSource": "register"
+    },
+    "castelul-tisza-geszt": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Graphite"
+      ],
+      "contributionSource": "register"
+    },
+    "refugiu-piatra-talharului": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [
+        "PREFA (anthracite)"
+      ],
+      "contributionSource": "register"
+    },
+    "catedrala-voluntari": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Natural"
+      ],
+      "application": "roof",
+      "contributionSource": "docx"
+    },
+    "conacul-berenczei-kovats-nisipeni": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Natural"
+      ],
+      "contributionSource": "register",
+      "_evidence": "COLOR METAL product card for elZinc natural titanium-zinc strip in the archive folder Nisipeni - Satu Mare; zinc visible on spire, dome, flashings and gutters"
+    },
+    "csiki-jatekszin": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Natural"
+      ],
+      "contributionSource": "register"
+    },
+    "biserica-delnita": {
+      "metals": [
+        "titanium-zinc"
+      ],
+      "products": [
+        "elZinc® Natural"
+      ],
+      "contributionSource": "register"
+    },
+    "castelul-bethlen-arcalia": {
+      "metals": [],
+      "products": [],
+      "contributionSource": null
+    },
+    "casa-de-vacanta-varsag": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [
+        "PREFA (bronze)"
+      ],
+      "contributionSource": "register"
+    },
+    "manejul-carei": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [],
+      "contributionSource": "booklet"
+    },
+    "refugiu-cheile-bicazului": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [],
+      "contributionSource": "booklet"
+    },
+    "biserica-reformata-gherla": {
+      "metals": [
+        "copper"
+      ],
+      "products": [],
+      "contributionSource": "booklet"
+    },
+    "sediu-color-metal": {
+      "metals": [
+        "aluminium"
+      ],
+      "products": [
+        "Expanded aluminium, green"
+      ],
+      "application": "facade",
+      "contributionSource": "booklet"
+    }
+  }
+}

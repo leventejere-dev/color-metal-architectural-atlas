@@ -1,0 +1,484 @@
+[
+ {
+  "id": "biserica-obirsia-closani-obirsia-closani",
+  "officialName": "Biserica „Sfântul Mare Mucenic Teodor Tiron” din Obârșia-Cloșani",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sf. Teodor Tiron Obârșia-Cloșani",
+   "Saint Theodore church in Obârșia-Cloșani"
+  ],
+  "category": "church",
+  "address": "Obârșia-Cloșani village, comuna Obârșia-Cloșani, Mehedinți (exact position not mapped)",
+  "city": "Obârșia-Cloșani",
+  "county": "Mehedinți",
+  "country": "Romania",
+  "lat": 45.023417,
+  "lon": 22.683438,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Masonry Orthodox church built 1936-1946 (consecrated 15.09.1946), single-storey nave with hipped roof, enclosed three-arch porch on the side facing the road; two towers: a taller square tower (windows on each face, domed cap, cross) at the west end and a smaller polygonal drum with domed cap over the nave (Commons photos 2010). Tower roughly 2.5x eaves height; no measured height found.",
+  "photos": 2,
+  "metalVisibleInPhotos": "Commons photos (June 2010, near-identical views) predate the 2020 copper supply: roofs and tower domes are grey sheet metal with a dark eaves fascia. The new copper roof is not documented in any photo found.",
+  "sourceUrls": [
+   "https://ro.wikipedia.org/wiki/Biserica_Sf%C3%A2ntul_Mare_Mucenic_Teodor_Tiron_din_Ob%C3%A2r%C8%99ia-Clo%C8%99ani",
+   "https://www.wikidata.org/wiki/Q18538044",
+   "https://commons.wikimedia.org/wiki/Category:Saint_Theodore_church_in_Ob%C3%A2r%C8%99ia-Clo%C8%99ani,_Mehedin%C8%9Bi",
+   "https://promehedinti.ro/en/obarsia-closani/",
+   "https://www.openstreetmap.org/way/74512558"
+  ],
+  "verificationNotes": "The commune has two villages (Obârșia-Cloșani and Godeanu); ro.wikipedia states the old wooden church of Obârșia-Cloșani was given to Godeanu in 1946, leaving the masonry St Theodore Tiron church (1936-46) as the only church of Obârșia-Cloșani village (Pro-Mehedinți also lists only this church). Hence PROBABLE. No news of the 2020 copper re-roofing was found. The church is not mapped in OSM (no place_of_worship inside village area way 74512558) and Wikidata Q18538044 has no coordinates, so lat/lon = village centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "anexa-a-bisericii-caransebes",
+  "officialName": "Clădire anexă a unei biserici (neidentificată), lângă Caransebeș",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "near Caransebeș (register: 'langa Caransebes'); exact locality unknown",
+  "city": "Caransebeș (vicinity)",
+  "county": "Caraș-Severin",
+  "country": "Romania",
+  "lat": 45.410611,
+  "lon": 22.218223,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos (unresolved).",
+  "sourceUrls": [],
+  "verificationNotes": "Neither the church nor the village is named, and there are dozens of parishes and several monastic sites around Caransebeș (e.g. Teiuș monastery, the episcopal metoc Sf. Pantelimon), so no building can be singled out. No public report of a copper-roofed church annex near Caransebeș in 2020 was found. Lat/lon = Caransebeș town centre.",
+  "registerKeys": [
+   "9dd460721b911ec8"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "parohia-sf-mucenic-sebastian-oradea",
+  "officialName": "Biserica Ortodoxă „Sfântul Mucenic Sebastian” (Parohia Sf. Mucenic Sebastian), Oradea",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sf. Sebastian",
+   "Biserica Sfântul Mucenic Sebastian"
+  ],
+  "category": "church",
+  "address": "Calea Aradului 56, 410223 Oradea",
+  "city": "Oradea",
+  "county": "Bihor",
+  "country": "Romania",
+  "lat": 47.054711,
+  "lon": 21.91268,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 544489782,
+   "tags": {
+    "addr:city": "Oradea",
+    "addr:housenumber": "56",
+    "addr:postcode": "410223",
+    "addr:street": "Calea Aradului",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Biserica Sf. Sebastian",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.054707,
+    21.912486
+   ],
+   [
+    47.054612,
+    21.912562
+   ],
+   [
+    47.05469,
+    21.912846
+   ],
+   [
+    47.054762,
+    21.912848
+   ],
+   [
+    47.054792,
+    21.912817
+   ],
+   [
+    47.054802,
+    21.912738
+   ],
+   [
+    47.054707,
+    21.912486
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 27.0,
+   "widthM": 14.7,
+   "bearingDeg": 61.4
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: no freely available or official photo of this church was found (none on Wikimedia Commons; the web-search budget ran out before parish/news pages with photos could be found).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/544489782",
+   "https://www.bzi.ro/biserica-ii-terorizeaza-cu-boxele-pe-enoriasii-din-oradea-oamenii-asteapta-cu-groaza-zilele-de-sarbatoare-4477616"
+  ],
+  "verificationNotes": "Mucenic Sebastian', Oradea, 2019, copper). OSM has a single matching building: way 544489782 'Biserica Sf. Sebastian', amenity=place_of_worship, denomination=orthodox, Calea Aradului 56 (Calea Aradului district, NW Oradea); press (BZI, 2022) confirms an Orthodox 'Biserica Sfântul Mucenic Sebastian' in the Calea Aradului neighbourhood. Building identification is strong, but the 2019 copper roof works are not confirmed by any source, hence PROBABLE. OSM outline ~27 x 15 m (341 m2).",
+  "registerKeys": [
+   "d241fd5141338b38"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-borosteni-borosteni",
+  "officialName": "Biserica Ortodoxă „Sfânta Cuvioasă Parascheva” din Boroșteni (Parohia Boroșteni)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica din Boroșteni"
+  ],
+  "category": "church",
+  "address": "Sat Boroșteni, comuna Peștișani, jud. Gorj (exact position not mapped)",
+  "city": "Boroșteni (comuna Peștișani)",
+  "county": "Gorj",
+  "country": "Romania",
+  "lat": 45.097106,
+  "lon": 23.028056,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No exterior photo found (the only parish photos online are interior shots from 2019).",
+  "sourceUrls": [
+   "https://mitropoliaolteniei.ro/2019/10/15/15-10-2019-activitate-a-proiectului-bunicii-comunitatii-in-parohia-borosteni-gorj/",
+   "https://mitropoliaolteniei.ro/2019/11/09/proiectul-bunicii-comunitatii-desfasurat-in-parohia-borosteni-filia-gureni-judetul-gorj/",
+   "https://ro.wikipedia.org/wiki/Comuna_Pe%C8%99ti%C8%99ani,_Gorj",
+   "https://www.openstreetmap.org/way/74658796"
+  ],
+  "verificationNotes": "The Archdiocese of Craiova site shows one parish in the village, Parohia Boroșteni (Protoieria Târgu-Jiu Nord), whose church is dedicated to St Parascheva (hram 14 October, also the village feast); its only other church is the filia in the neighbouring village Gureni (Archangels). Boroșteni is a ~450-inhabitant village, so this parish church is very likely the only church in the village, hence PROBABLE. The 2021 titanium-zinc roofing itself is not documented online. The church is not mapped in OSM (no place_of_worship in or near village area way 74658796), so lat/lon = village centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-arcani-arcani",
+  "officialName": "Biserică neidentificată, comuna Arcani",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Comuna Arcani, jud. Gorj (register: 'Comuna Arcani, GJ')",
+  "city": "Arcani",
+  "county": "Gorj",
+  "country": "Romania",
+  "lat": 45.073253,
+  "lon": 23.13543,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos (unresolved).",
+  "sourceUrls": [
+   "https://ro.wikipedia.org/wiki/Comuna_Arcani,_Gorj",
+   "https://mitropoliaolteniei.ro/2023/03/10/mitropolitul-olteniei-noi-demersuri-pentru-repararea-bisericilor-avem-nevoie-de-ajutorul-celor-din-jurul-nostru/",
+   "https://mitropoliaolteniei.ro/2024/03/28/noi-activitati-in-parohiile-din-protoieria-targu-jiu-nord-din-judetul-gorj/",
+   "https://www.openstreetmap.org/node/2460321058"
+  ],
+  "verificationNotes": "The commune has four villages (Arcani, Câmpofeni, Sănătești, Stroiești), each with its own church, and Arcani village itself has two parishes (Arcani I and Arcani II); the Metropolis of Oltenia reported in March 2023 that 'the two places of worship' of Arcani commune were badly damaged by the February 2023 earthquakes. One photo in that report shows a church tower whose square base is clad in fairly new copper sheet, but the photo is uncaptioned (the visit also covered Brădiceni) and cannot be tied to a specific Arcani church or position. OSM maps only one unnamed Orthodox place_of_worship node in Arcani village (node 2460321058, 45.071516/23.133636). With several candidates and no direct evidence, UNRESOLVED; lat/lon = Arcani village centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "schitul-sf-apostoli-petru-si-pavel-cornereva",
+  "officialName": "Schitul „Sfinții Apostoli Petru și Pavel” Bogâltin",
+  "nameHu": null,
+  "altNames": [
+   "Schitul Bogâltin",
+   "Bogâltin Skete"
+  ],
+  "category": "monastery",
+  "address": "Sat Bogâltin, comuna Cornereva, jud. Caraș-Severin (in the Cornereva mountains; exact position not mapped)",
+  "city": "Bogâltin (comuna Cornereva)",
+  "county": "Caraș-Severin",
+  "country": "Romania",
+  "lat": 45.03889,
+  "lon": 22.41472,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Small mountain skete in a narrow wooded valley: church built 1949-1959, an open timber summer altar (pavilion) with a hipped brown tile roof and a small wooden bell turret, a white single-storey cell building, and a new small paraclis (Sf. Iosif cel Nou de la Partoș, blessed June 2026) with a dark gabled roof and bell gable. All single-storey; no heights published.",
+  "photos": 2,
+  "metalVisibleInPhotos": "Diocese press photos (June 2022, June 2026) show the summer-altar pavilion (brown roof tiles), a white building with a weathered reddish-brown sheet-metal roof behind it, and the new paraclis with a dark roof. No bright or patinated copper roof can be identified with certainty; where the 2022 copper band (0.4 mm) was used is not documented.",
+  "sourceUrls": [
+   "https://www.episcopiacaransebesului.ro/categories/manastiri/",
+   "https://www.episcopiacaransebesului.ro/schitul-sfintii-apostoli-petru-si-pavel-bogaltin/",
+   "https://www.episcopiacaransebesului.ro/stiri/cotidian/2022/06/schitul-bogaltin-si-a-cinstit-ocrotitorii-3/",
+   "https://www.episcopiacaransebesului.ro/stiri/2024/06/sfintii-apostoli-petru-si-pavel-cinstiti-la-schitul-bogaltin/",
+   "https://www.episcopiacaransebesului.ro/stiri/2026/06/bucurie-duhovniceasca-la-schitul-bogaltin-in-ziua-hramului/",
+   "https://ro.wikipedia.org/wiki/Bog%C3%A2ltin,_Cara%C8%99-Severin"
+  ],
+  "verificationNotes": "The Caransebeș Diocese's list of monasteries contains exactly one 'Schitul Sfinții Apostoli Petru și Pavel' in Cornereva commune: the skete at Bogâltin (foundation 1949, consecrated 8 July 1959; closed 1959, revived after 1994; nuns 2008-2020, monks again since November 2020; the diocese reported 'several renovation and beautification works under way' in June 2022, the year of the copper band purchase). The name match is exact, so PROBABLE; the roof works themselves are not confirmed. The skete is not mapped in OSM: the only place_of_worship near Bogâltin (OSM node 281599510, 45.039051/22.415176, unnamed) is most likely the village parish church of St Elijah (1854), not the skete, so lat/lon = Bogâltin village (Wikipedia coordinates). The diocese describes the skete as being 'in the Cornereva mountains' with a difficult access road, i.e. outside the village core.",
+  "registerKeys": [
+   "312ebed79b0498c1"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-pecica-pecica",
+  "officialName": "Biserică neidentificată, Pecica",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Pecica, jud. Arad",
+  "city": "Pecica",
+  "county": "Arad",
+  "country": "Romania",
+  "lat": 46.166679,
+  "lon": 21.066681,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos (unresolved).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/437262729",
+   "https://www.openstreetmap.org/way/770608028",
+   "https://www.openstreetmap.org/way/553314986",
+   "https://commons.wikimedia.org/wiki/Category:Churches_in_Pecica"
+  ],
+  "verificationNotes": "Pecica has many churches (OSM: Roman Catholic Holy Trinity way 437262729, Romanian Orthodox Pecica I way 770608028 and Pecica II way 553314986, Serbian Orthodox St Michael, Pentecostal and other places of worship), and no report of a 2022 church re-roofing was found; the latest Commons photos (2021) predate the works. UNRESOLVED; lat/lon = town centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-isvarna-pocruia",
+  "officialName": "Biserica „Sfântul Mare Mucenic Gheorghe” din Isvarna (filie a Parohiei Pocruia)",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Isvarna",
+   "Biserica Izvarna"
+  ],
+  "category": "church",
+  "address": "Sat Isvarna, oraș Tismana, jud. Gorj (Parohia Pocruia); exact position not mapped",
+  "city": "Isvarna (Tismana)",
+  "county": "Gorj",
+  "country": "Romania",
+  "lat": 45.032724,
+  "lon": 22.908334,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "Masonry Orthodox church consecrated 30 October 1899 (replacing a small wooden church), restored and re-consecrated 23 September 2012. No dimensions or photos available.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved: the two 2012 photos of the church on the Metropolis of Oltenia site are no longer online (HTTP 404) and none exist on Wikimedia Commons.",
+  "sourceUrls": [
+   "https://mitropoliaolteniei.ro/2012/09/24/24-09-2012-activitati-liturgice-si-culturale-in-mitropolia-olteniei-resfintiri-de-bisirici-la-isvarna-si-cocorasti/",
+   "https://mitropoliaolteniei.ro/2012/09/22/22-09-2012-slujiri-ale-ierarhilor-din-mitropolia-olteniei-in-duminica-a-18-a-dupa-rusalii/",
+   "https://ro.wikipedia.org/wiki/Isvarna,_Gorj",
+   "https://www.openstreetmap.org/node/460201143"
+  ],
+  "verificationNotes": "Isvarna and Pocruia are adjacent villages of the town of Tismana (Gorj, on the Mehedinți border; The Metropolis of Oltenia reports that the church 'Sf. it replaced the village's wooden church, so it is the only church of Isvarna. Hence PROBABLE (strong match); the 2022 copper roof is not documented online. Not to be confused with Isverna commune (Mehedinți) or with the wooden church of Pocruia (Sf. Andrei, LMI GJ-II-m-B-09354). The church is not mapped in OSM; lat/lon = Isvarna village node 460201143.",
+  "registerKeys": [
+   "22d4167f986ca663"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-hateg-hateg",
+  "officialName": "Biserică neidentificată, Hațeg",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Hațeg, jud. Hunedoara",
+  "city": "Hațeg",
+  "county": "Hunedoara",
+  "country": "Romania",
+  "lat": 45.610447,
+  "lon": 22.949396,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos (unresolved).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/222427413",
+   "https://www.openstreetmap.org/way/222553004",
+   "https://www.openstreetmap.org/way/314770040",
+   "https://commons.wikimedia.org/wiki/Category:Churches_in_Ha%C8%9Beg"
+  ],
+  "verificationNotes": "Hațeg has at least six churches in OSM (Orthodox St Nicholas way 222427413, Orthodox Holy Trinity way 222553004, Reformed way 222653842, Greek-Catholic way 313481830, Baptist way 313481838, Roman Catholic St John the Baptist way 314770040) plus others in its component villages; no report or recent photo of a 2023 copper re-roofing was found (Commons has no Hațeg church photo after 2012). UNRESOLVED; lat/lon = town centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-ortodoxa-sohodol-sohodol",
+  "officialName": "Biserica ortodoxă din Sohodol (neidentificată cu certitudine; candidat: Biserica „Sfinții Voievozi”, Parohia Sohodol)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Sohodol, jud. Gorj (village of the town of Tismana assumed); exact position not mapped",
+  "city": "Sohodol (Tismana)",
+  "county": "Gorj",
+  "country": "Romania",
+  "lat": 45.055313,
+  "lon": 22.881939,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos (unresolved).",
+  "sourceUrls": [
+   "https://mitropoliaolteniei.ro/2022/10/03/inaltpreasfintitul-parinte-mitropolit-irineu-a-resfintit-biserica-sfintilor-voievozi-din-parohia-sohodol-gorj/",
+   "https://ro.wikipedia.org/wiki/Sohodol,_Gorj",
+   "https://ro.wikipedia.org/wiki/Biserica_de_lemn_din_Sohodol,_Gorj"
+  ],
+  "verificationNotes": "Two places in Gorj are called Sohodol: the village of Tismana town (752 inh., used for the town-level lat/lon) and a former village now absorbed into Baia de Fier (its LMI wooden church of 1809, GJ-II-m-B-09382, was dismantled in 2009). The Metropolis of Oltenia reports that the church 'Sfinții Voievozi' of Parohia Sohodol (Protoieria Târgu Jiu Nord), founded 121 years earlier, was renovated and re-consecrated on 2 October 2022; it is the most likely recipient, but the article does not name the commune, the roof works are not mentioned, and no church is mapped in OSM in either Sohodol. Left UNRESOLVED; no photos downloaded.",
+  "registerKeys": [
+   "ddfca21d4eca72dd"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-glodeni-glodeni",
+  "officialName": "Biserică neidentificată, Glodeni (comuna Bălănești)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Sat Glodeni, comuna Bălănești, jud. Gorj",
+  "city": "Glodeni (comuna Bălănești)",
+  "county": "Gorj",
+  "country": "Romania",
+  "lat": 45.081678,
+  "lon": 23.462682,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos (unresolved).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/3612836312",
+   "https://www.openstreetmap.org/way/1351565755",
+   "https://ro.wikipedia.org/wiki/Biserica_de_lemn_din_Glodeni,_Gorj",
+   "https://ro.wikipedia.org/wiki/Lista_monumentelor_istorice_din_jude%C8%9Bul_Gorj"
+  ],
+  "verificationNotes": "Glodeni (Bălănești commune) has at least three churches: the shingle-roofed wooden church 'Cuvioasa Paraschiva' (c.1728, LMI GJ-II-m-A-09305, hamlet Bâșneci; OSM way 1351565755), the wooden church 'Sf. Gheorghe' (1772, LMI GJ-II-m-B-09304, hamlet Ciorești) and an unnamed Orthodox church building mapped as OSM node 3612836312 (45.084352/23.469601). The masonry/parish church is the more plausible recipient of a copper roof than the listed wooden churches, but no source confirms which church was re-roofed. UNRESOLVED; lat/lon = village centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-nadlac-nadlac",
+  "officialName": "Biserică neidentificată, Nădlac",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Nădlac, jud. Arad",
+  "city": "Nădlac",
+  "county": "Arad",
+  "country": "Romania",
+  "lat": 46.166681,
+  "lon": 20.749992,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos (unresolved).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/435602506",
+   "https://www.openstreetmap.org/way/538376318",
+   "https://www.openstreetmap.org/way/538284198",
+   "https://commons.wikimedia.org/wiki/Category:Churches_in_N%C4%83dlac"
+  ],
+  "verificationNotes": "one sizeable zinc roofing job, building not named. Nădlac has at least six churches in OSM (Slovak Evangelical-Lutheran way 435602506, Roman Catholic way 538284198, Romanian Orthodox St Nicholas way 538376318, Greek-Catholic way 538376319, Serbian Orthodox way 538376320, another church building way 605683677); no report or post-2023 photo identifying a new zinc roof was found (latest Commons photos 2018). UNRESOLVED; lat/lon = town centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ }
+]

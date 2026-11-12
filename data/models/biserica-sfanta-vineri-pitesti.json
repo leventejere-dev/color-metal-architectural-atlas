@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 76.8,
+ "bearingSource": "OSM way 319485731 long axis 76.8°; +X points to the altar apse (east-north-east), the west front with the two towers and the porch faces −X (photos 01, 02, 04).",
+ "cover": null,
+ "photosUsed": 4,
+ "approximations": "Plan after the OSM outline (west block 7.1 × 16.8 m, crossing with lateral conches r ≈ 4.2 m, altar apse); the porch (≈ 2.6 m) is taken as outside the traced outline, total length ≈ 36 m. Heights scaled from the frontal photos and the postcard (west tower crosses ≈ 26.5 m, central cross ≈ 29.7 m; upper parts foreshortened in the photos). North side and east end not photographed (mirrored / assumed). Barrel and half-dome geometry, dome profiles, window tracery and the grey-blue ornament simplified. All photographs (2010–2011, postcard) predate the 2013–2015 rehabilitation: roofs, half-domes, tower and central domes shown in weathered copper per the COLOR METAL records; which surfaces were re-covered is not documented.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință (2010–2011 și o carte poștală de la începutul secolului XX); înălțimile, latura de nord și capătul estic sunt aproximative, iar ornamentația este simplificată. Fotografiile disponibile sunt anterioare reabilitării din 2013–2015, de aceea acoperișurile, semicalotele și turlele sunt redate în cuprul livrat de COLOR METAL, conform evidențelor firmei.",
+  "hu": "Nyilvános referenciafotók (2010–2011, valamint egy 20. század eleji képeslap) alapján értelmezett makett; a magasságok, az északi oldal és a keleti vég közelítőek, a díszítés egyszerűsített. A rendelkezésre álló fotók a 2013–2015-ös felújítás előttiek, ezért a tetők, a félkupolák és a kupolák a COLOR METAL nyilvántartása szerint szállított rézzel jelennek meg.",
+  "en": "Scale model interpreted from public reference photographs (2010–2011 and an early-20th-century postcard); heights, the north side and the east end are approximate and the ornament is simplified. The available photographs predate the 2013–2015 rehabilitation, so the roofs, half-domes and domes are shown in the copper supplied by COLOR METAL according to its records."
+ }
+}

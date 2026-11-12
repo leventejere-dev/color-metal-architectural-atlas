@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 353.8,
+ "bearingSource": "OSM way 232297325 long axis 173.8°, flipped to 353.8° so that +X points north to the photographed main façade facing Str. Știrbei Vodă (the straight 49.9 m north edge of the outline, set back behind the front garden; OSM road geometry); +Z (83.8°) is east, where the outline's diagonal wing starts.",
+ "cover": "01",
+ "photosUsed": 3,
+ "approximations": "Only the Știrbei Vodă façade is photographed (2013). Heights scaled from the arched ground-floor windows (raised basement ≈ 3 m, eave ≈ 15.4 m, roof pitch ≈ 30°, ridge ≈ 20 m); five bays per wing and the three-bay centre with its four-column portico follow photos 01–03. The rear L-shaped part, the east annex and the 60 m diagonal wing are plain massing on the OSM outline with assumed heights, window rhythms and hip-like roofs; the narrow slivers of the outline at the east end are simplified. Which block is corp A is inferred (the historic main building); dormer positions estimated; ornament simplified; trees, fence and the front garden omitted.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii publice de referință și conturul OSM; fotografiile din 2013 arată vechea învelitoare de țiglă, anterioară refacerii acoperișului corpului A din 2021–2022, de aceea acoperișul acestuia este redat în tabla de titan-zinc natural livrată de COLOR METAL conform evidențelor firmei. Corpurile din spate și aripa diagonală sunt simplificate, aceasta din urmă păstrând țigla.",
+  "hu": "Nyilvános referenciafotók és az OSM-körvonal alapján értelmezett makett; a 2013-as fotók még az A épület 2021–2022-es tetőfelújítása előtti cserépfedést mutatják, ezért a tető a COLOR METAL nyilvántartása szerint szállított natúr titáncink lemezzel jelenik meg. A hátsó épületrészek és az átlós szárny egyszerűsítettek, ez utóbbi cserépfedéssel.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; the 2013 photographs show the old tile covering from before the 2021–22 rebuilding of the corp A roof, so that roof is shown in the natural titanium-zinc supplied by COLOR METAL according to its records. The rear parts and the diagonal wing are simplified, the latter keeping a tile roof."
+ }
+}

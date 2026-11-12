@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 106.3,
+  "bearingSource": "OSM long axis 106.3° (crude 4-point outline); +X points to the apse, assumed east-south-east per Orthodox convention; the portico and the apse lie at opposite ends of the long axis in photos 02–03",
+  "cover": "01",
+  "photosUsed": 3,
+  "approximations": "Plan dimensions from the crude OSM rectangle (31.6 × 19.3 m) and photo ratios (main block ~22.4 × 19.2 m, portico ~4.2 m, apse ~4 m); heights from the raised view of the west front (photo 01): cornice ~14 m, corner domes ~28 m, central cross ~44 m; arched gables drawn semicircular; the east elevation and apse are not photographed and are interpreted; mosaics, dome patterns and ornament simplified; the north façade mirrored from the south.",
+  "note": {
+    "ro": "Machetă interpretată după trei fotografii (fațada de vest și două imagini aeriene): planul este estimat din conturul OSM aproximativ și din proporțiile fotografiilor, iar absida și fațada de est nu sunt fotografiate. Acoperișurile și domurile din cupru sunt redate după fotografii; mozaicurile și ornamentele sunt simplificate.",
+    "hu": "Három fotó (nyugati homlokzat és két légifelvétel) alapján értelmezett makett: az alaprajz a durva OSM-körvonalból és a fotók arányaiból becsült, az apszis és a keleti homlokzat nem szerepel a fotókon. A réztetők és kupolák a fotók szerint jelennek meg; a mozaikok és díszítések egyszerűsítettek.",
+    "en": "Scale model interpreted from three photographs (west front and two aerial views): the plan is estimated from the coarse OSM outline and photo proportions, and the apse and east elevation are not photographed. The copper roofs and domes follow the photographs; mosaics and ornament are simplified."
+  }
+}

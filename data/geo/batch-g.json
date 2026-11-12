@@ -1,0 +1,2324 @@
+[
+ {
+  "id": "liceul-tamasi-aron-odorhei",
+  "officialName": "Liceul Teoretic „Tamási Áron” (campus)",
+  "nameHu": "Tamási Áron Gimnázium",
+  "altNames": [
+   "Fostul gimnaziu catolic",
+   "Tamási Áron High School"
+  ],
+  "category": "education",
+  "address": "Strada Baróti Szabó Dávid 32 (OSM) / Str. Budai Nagy Antal 32 (LMI), 535600 Odorheiu Secuiesc",
+  "city": "Odorheiu Secuiesc",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.30158,
+  "lon": 25.295638,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "relation",
+   "id": 7157640,
+   "tags": {
+    "addr:city": "Odorheiu Secuiesc",
+    "addr:housenumber": "32",
+    "addr:postcode": "535600",
+    "addr:street": "Strada Baróti Szabó Dávid",
+    "amenity": "school",
+    "name": "Liceul Teoretic Tamási Áron",
+    "name:hu": "Tamási Áron Gimnázium",
+    "name:ro": "Liceul Teoretic Tamási Áron",
+    "school": "secondary",
+    "type": "multipolygon",
+    "website": "http://www.gimi.ro/",
+    "wikipedia": "hu:Tamási_Áron_Gimnázium"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "The 1912 main building (OSM way 207351538 'Főépület', LMI HR-II-m-B-12897) has red ceramic-tile roofs in a 2022 Commons photo, so it is probably not the zinc roof.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/7157640",
+   "https://www.wikidata.org/wiki/Q1316498",
+   "https://uh.ro/mi-tortenik-a-kicsi-gimivel/",
+   "https://transtelex.ro/kozelet/2024/09/05/tamasi-aron-gimnazium-bentlakas-helyzetkep",
+   "https://szekelyhon.ro/aktualis/eltakaritottak-a-romokat-elkeszult-az-ideiglenes-teto-a-gimnazium-bentlakasanal",
+   "https://commons.wikimedia.org/wiki/Category:Tam%C3%A1si_%C3%81ron_High_School,_Odorheiu_Secuiesc"
+  ],
+  "verificationNotes": "Institution certain: OSM relation 7157640 (amenity=school, name 'Liceul Teoretic Tamási Áron', hu 'Tamási Áron Gimnázium', multipolygon campus ~6,500 m2) and Wikidata Q1316498 (LMI HR-II-m-B-12897, 1912, arch. Pápai Sándor). Which campus building got the 2024 elZinc Slate roof is UNRESOLVED; lat/lon is the campus centroid, no building footprint given. Candidates: (a) the 'kicsi gimi' general-school building (former Roman Catholic girls' institute, 1879–80, corner of Márton Áron tér), being rebuilt Feb 2021–Feb 2024 with most of its roof demolished (uh.ro, 2021); (b) the dormitory/'Kollégium' (OSM way 207351534) that partly collapsed on 18 Dec 2023, whose damaged roof was dismantled and given a temporary roof in early 2024; Transtelex (Sept 2024) says no permanent rebuild had started, so (b) is less likely for July 2024. The main building (way 207351538) was renovated 2018–2020 and shows tile roofs in 2022. no photos downloaded for this reason.",
+  "registerKeys": [
+   "0c5d50ee6aca566d"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "biserica-catolica-ciumani",
+  "officialName": "Biserica romano-catolică „Sfinții Apostoli Petru și Pavel” din Ciumani",
+  "nameHu": "Gyergyócsomafalvi Szent Péter és Pál apostolok templom",
+  "altNames": [
+   "Szent Péter és Pál apostolok templom",
+   "Biserica Catolică \"Sfinții Petru și Pavel\" Ciumani"
+  ],
+  "category": "church",
+  "address": "Strada Principală, 537050 Ciumani (parish office: Ciumani 260)",
+  "city": "Ciumani",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.679548,
+  "lon": 25.516368,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 379749108,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "name": "Szent Péter és Pál apostolok templom",
+    "religion": "christian",
+    "url:miserend": "http://miserend.hu/?templom=3579"
+   }
+  },
+  "footprint": [
+   [
+    46.679445,
+    25.516103
+   ],
+   [
+    46.679598,
+    25.516073
+   ],
+   [
+    46.679612,
+    25.516229
+   ],
+   [
+    46.679642,
+    25.516223
+   ],
+   [
+    46.679657,
+    25.516381
+   ],
+   [
+    46.679627,
+    25.516387
+   ],
+   [
+    46.679641,
+    25.516537
+   ],
+   [
+    46.679623,
+    25.51654
+   ],
+   [
+    46.679632,
+    25.516638
+   ],
+   [
+    46.679612,
+    25.516679
+   ],
+   [
+    46.679576,
+    25.516697
+   ],
+   [
+    46.67954,
+    25.516696
+   ],
+   [
+    46.679515,
+    25.516662
+   ],
+   [
+    46.679505,
+    25.516564
+   ],
+   [
+    46.679489,
+    25.516567
+   ],
+   [
+    46.679474,
+    25.516417
+   ],
+   [
+    46.67945,
+    25.516422
+   ],
+   [
+    46.679435,
+    25.516267
+   ],
+   [
+    46.67946,
+    25.516262
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 47.0,
+   "widthM": 23.2,
+   "bearingDeg": 82.3
+  },
+  "heightHints": "No published height. Neo-Gothic hall church (built 1875–78, consecrated 1878) with a single tall west tower and spire, from the miserend.hu photos.",
+  "photos": 2,
+  "metalVisibleInPhotos": "Older miserend.hu photos (before the 2025–26 works) show pinkish-yellow neo-Gothic walls, a tall west clock tower with a red-brown pointed spire, and a dark reddish-brown nave roof (material not identifiable). The new titanium-zinc (elZinc Slate plus natural) roof is not shown in any public photo found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/379749108",
+   "https://miserend.hu/templom/3579"
+  ],
+  "verificationNotes": "OSM way 379749108 is named 'Szent Péter és Pál apostolok templom' (building=church, roman_catholic, url:miserend=3579) in the centre of Ciumani. miserend.hu (parish 537050 Ciumani 260) gives 46.67955, 25.51639 (same spot), says the church was built 1875–78 and consecrated 16 June 1878, and notes a second church (1993) in the Szászfalu quarter, which is not this one. The church is not on the LMI list. No Wikimedia Commons photos of the church were found, so the 2 saved photos come from miserend.hu: reference only, licence unknown, and 02 is low resolution (240x320).",
+  "registerKeys": [
+   "5f3204899e8426de"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "pavilion-parc-central-miercurea-ciuc",
+  "officialName": "Pavilion în Parcul Central, Miercurea Ciuc (pavilion de apă potabilă / forrásház)",
+  "nameHu": null,
+  "altNames": [
+   "Construire pavilion în Parcul Central",
+   "ivóvízpavilon a csíkszeredai központi parkban",
+   "forrásház (Központi park, Csíkszereda)"
+  ],
+  "category": "cultural",
+  "address": "Parcul Central (Központi park), Miercurea Ciuc (CF nr. 53235)",
+  "city": "Miercurea Ciuc",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.358854,
+  "lon": 25.802378,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 1223823422,
+   "tags": {
+    "access": "yes",
+    "building": "yes",
+    "building:levels": "1",
+    "drinking_water": "yes",
+    "height": "3",
+    "man_made": "water_well",
+    "pump": "powered"
+   }
+  },
+  "footprint": [
+   [
+    46.358866,
+    25.80236
+   ],
+   [
+    46.358862,
+    25.802355
+   ],
+   [
+    46.358856,
+    25.802353
+   ],
+   [
+    46.358851,
+    25.802353
+   ],
+   [
+    46.358845,
+    25.802355
+   ],
+   [
+    46.358841,
+    25.80236
+   ],
+   [
+    46.358838,
+    25.802367
+   ],
+   [
+    46.358836,
+    25.802375
+   ],
+   [
+    46.358836,
+    25.802383
+   ],
+   [
+    46.358838,
+    25.802391
+   ],
+   [
+    46.358842,
+    25.802398
+   ],
+   [
+    46.358847,
+    25.802403
+   ],
+   [
+    46.358854,
+    25.802404
+   ],
+   [
+    46.35886,
+    25.802403
+   ],
+   [
+    46.358865,
+    25.802398
+   ],
+   [
+    46.358869,
+    25.802392
+   ],
+   [
+    46.358871,
+    25.802383
+   ],
+   [
+    46.358871,
+    25.802374
+   ],
+   [
+    46.35887,
+    25.802367
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 4.0,
+   "widthM": 3.9,
+   "bearingDeg": 71.6
+  },
+  "heightHints": "OSM height=3 (likely eaves). From photos: round pavilion about 4–5 m across with a domed roof and a tall lantern finial, total height roughly 6–7 m (estimate). The 2022 article gives ~20 m2 footprint (OSM outline 12 m2).",
+  "photos": 3,
+  "metalVisibleInPhotos": "Oct 2023 site photo: dome with beaver-tail clay tiles between dark brown/anthracite metal ribs, a dark metal eaves band with pointed scallops, and a dark metal lantern/crown on top. This matches pre-oxidised TECU Oxid copper on the ribs, eaves and lantern. Underneath are wood-and-steel Y-columns and decorative steel gates.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1223823422",
+   "https://maszol.ro/belfold/Hamarosan-atadjak-a-Csikszereda-kozponti-parkjaban-epult-pavilont",
+   "https://szekelyhon.ro/aktualis/oszre-kesz-lehet-a-forrashaz-a-csikszeredai-kozponti-parkban",
+   "https://www.openstreetmap.org/relation/17223093"
+  ],
+  "verificationNotes": "The building-site board in the maszol.ro photo (Oct 2023) reads 'CONSTRUIRE PAVILION ÎN PARCUL CENTRAL, MIERCUREA CIUC, CF nr. 53235'. start 05.04.2022; 6-month term. It is a round drinking-water (spring) pavilion of about 20 m2 with a columned dome (szekelyhon.ro, Apr 2022), handed over in late 2023 (maszol.ro, 9 Oct 2023). OSM way 1223823422 inside Parcul Central (relation 17223093) is a 19-node round building tagged man_made=water_well, drinking_water=yes, pump=powered, height=3. This is the only such structure in the park, next to the playground and fitness station, so it was taken as the pavilion. Copper (TECU Oxid) is not named in the press. The design called for tiles, so the copper is presumably the ribs, eaves band and lantern. Photos 02–03 are 2019 architect renderings (Equartis), not as-built.",
+  "registerKeys": [
+   "0e5f359a8f4f8349"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "KME TECU® Oxid"
+  ]
+ },
+ {
+  "id": "hotel-tusnad",
+  "officialName": "Hotel Tușnad",
+  "nameHu": null,
+  "altNames": [
+   "Hotel Tușnad ***",
+   "Tusnad SA hotel"
+  ],
+  "category": "commercial",
+  "address": "Strada Oltului 87, 535100 Băile Tușnad",
+  "city": "Băile Tușnad",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.144252,
+  "lon": 25.859442,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 216870290,
+   "tags": {
+    "addr:city": "Băile Tușnad",
+    "addr:housenumber": "87",
+    "addr:postcode": "535100",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Oltului",
+    "building": "hotel",
+    "is_in:country": "România",
+    "name": "Hotel Tușnad",
+    "source": "survey",
+    "tourism": "hotel"
+   }
+  },
+  "footprint": [
+   [
+    46.144233,
+    25.859037
+   ],
+   [
+    46.144142,
+    25.859081
+   ],
+   [
+    46.144166,
+    25.859202
+   ],
+   [
+    46.144078,
+    25.859247
+   ],
+   [
+    46.144158,
+    25.859558
+   ],
+   [
+    46.144123,
+    25.859676
+   ],
+   [
+    46.144165,
+    25.859708
+   ],
+   [
+    46.144219,
+    25.859744
+   ],
+   [
+    46.144244,
+    25.859655
+   ],
+   [
+    46.144487,
+    25.859674
+   ],
+   [
+    46.144496,
+    25.859516
+   ],
+   [
+    46.144329,
+    25.859499
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 53.3,
+   "widthM": 42.8,
+   "bearingDeg": 79.7
+  },
+  "heightHints": "No published height. Photos show an A-frame-shaped block with steep pitched side roofs running down the facade wings, about 9 storeys at the central slab (estimate from photo) and a 2-storey restaurant/podium at the front.",
+  "photos": 2,
+  "metalVisibleInPhotos": "The visitharghita.com photo shows the big sloping side roofs in brown/terracotta (left wing). it may be on another roof face or added later. Commons 02 is a winter shot with snow on the roofs.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/216870290",
+   "https://visitharghita.com/en/places/hotel-tusnad",
+   "https://commons.wikimedia.org/wiki/File:B%C4%83ile_Tu%C5%9Fnad_centru.jpg"
+  ],
+  "verificationNotes": "OSM way 216870290 is named 'Hotel Tușnad' (tourism=hotel, building=hotel, Strada Oltului 87). visitharghita.com gives the same address and a photo of the A-frame building with the 'HOTEL TUSNAD ***' sign. The hotel belongs to Tușnad SA (about 216 rooms, per profit.ro). Băile Tușnad has only one hotel of this name, so identification is certain. Which roof faces got the green aluminium is not confirmed. 01 is the hotel's promotional photo (reference only).",
+  "registerKeys": [
+   "ece00980a743fe3f"
+  ],
+  "registerMetals": [
+   "aluminium"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "hotel-castel-daniel-varghis",
+  "officialName": "Castelul Daniel din Tălișoara – Castle Hotel Daniel",
+  "nameHu": "Daniel-kastély (Olasztelek)",
+  "altNames": [
+   "Castle Hotel Daniel",
+   "Hotel Castel Daniel",
+   "Dániel kastély",
+   "Castelul Daniel, Tălișoara"
+  ],
+  "category": "castle",
+  "address": "Tălișoara 215, comuna Brăduț, 527058 Covasna (DJ131)",
+  "city": "Tălișoara",
+  "county": "Covasna",
+  "country": "Romania",
+  "lat": 46.10385,
+  "lon": 25.586485,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 365711775,
+   "tags": {
+    "addr:city": "Tălișoara",
+    "building": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Dániel kastély",
+    "smoking": "dedicated",
+    "stars": "3",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+   }
+  },
+  "footprint": [
+   [
+    46.103982,
+    25.586748
+   ],
+   [
+    46.104015,
+    25.586616
+   ],
+   [
+    46.103905,
+    25.586558
+   ],
+   [
+    46.103853,
+    25.586368
+   ],
+   [
+    46.103902,
+    25.586339
+   ],
+   [
+    46.103866,
+    25.586206
+   ],
+   [
+    46.103717,
+    25.586292
+   ],
+   [
+    46.103764,
+    25.586463
+   ],
+   [
+    46.103738,
+    25.586478
+   ],
+   [
+    46.103757,
+    25.586548
+   ],
+   [
+    46.103784,
+    25.586532
+   ],
+   [
+    46.103819,
+    25.586662
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 44.8,
+   "widthM": 22.9,
+   "bearingDeg": 62.4
+  },
+  "heightHints": "Two-storey manor (main block) with tall hipped clay-tile roofs and dormers (photos). No published height.",
+  "photos": 3,
+  "metalVisibleInPhotos": "Commons photos (2015 panoramas) show red/orange ceramic-tile roofs, a carved timber loggia and plain gutters. No brass roofing is visible. The KME brass (2017) was presumably used on details (flashings, small canopy roofs or the later annex/spa building), which none of these photos shows.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/365711775",
+   "https://www.wikidata.org/wiki/Q18572815",
+   "https://www.wikidata.org/wiki/Q42890039",
+   "https://www.regent-holidays.co.uk/holiday/romania/castle-daniel",
+   "https://visitcovasna.com/en/places/cellarium-slow-down-spa",
+   "https://commons.wikimedia.org/wiki/Category:Daniel_Castle_in_V%C3%A2rghi%C8%99"
+  ],
+  "verificationNotes": "The castle hotel run under that name ('Castle Hotel Daniel 4*', opened Aug 2014) is the Daniel castle in Tălișoara/Olasztelek (Brăduț commune, COVASNA county), LMI CV-II-m-A-13271 (1669, modif. 1884), OSM way 365711775 'Dániel kastély' tourism=hotel. The family's other castle in Vârghiș itself (LMI CV-II-m-B-13316, OSM way 793420026, 46.1196/25.5628) is not a hotel and was excluded, though it is a secondary candidate. Both are in Covasna, not Harghita. Per regent-holidays, the hotel later renovated an additional building (12 rooms plus the 'Cellarium' cellar spa) a few dozen metres from the main block; the brass may belong to that phase. Footprint is the main castle block, used as the representative model. Commons category 'Daniel Castle in Vârghiș' mixes photos of both castles: 01–02 (Castle Hotel Daniel panoramas) and 03 (Tălișoara panoramio) show the Tălișoara hotel.",
+  "registerKeys": [
+   "6fa3343877e440c2"
+  ],
+  "registerMetals": [
+   "brass"
+  ],
+  "registerProducts": [
+   "KME copper"
+  ]
+ },
+ {
+  "id": "biserica-catolica-tarnovita",
+  "officialName": "Biserica romano-catolică „Sfântul Ladislau” din Târnovița",
+  "nameHu": "Küküllőkeményfalvi Szent László-templom",
+  "altNames": [
+   "Szent László templom",
+   "Biserica Romano-Catolică Târnovița"
+  ],
+  "category": "church",
+  "address": "Târnovița (Küküllőkeményfalva), comuna Brădești, 537027 Harghita",
+  "city": "Târnovița",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.371565,
+  "lon": 25.359664,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 606021762,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "name": "Biserica Romano-Catolică",
+    "name:hu": "Szent László templom",
+    "religion": "christian",
+    "url:miserend": "https://miserend.hu/templom/3611"
+   }
+  },
+  "footprint": [
+   [
+    46.371646,
+    25.359667
+   ],
+   [
+    46.371655,
+    25.359715
+   ],
+   [
+    46.371634,
+    25.359761
+   ],
+   [
+    46.3716,
+    25.359773
+   ],
+   [
+    46.371474,
+    25.359659
+   ],
+   [
+    46.371484,
+    25.359636
+   ],
+   [
+    46.371465,
+    25.359619
+   ],
+   [
+    46.371489,
+    25.359562
+   ],
+   [
+    46.371508,
+    25.359579
+   ],
+   [
+    46.371519,
+    25.359553
+   ],
+   [
+    46.371598,
+    25.359624
+   ],
+   [
+    46.371604,
+    25.359609
+   ],
+   [
+    46.371653,
+    25.359652
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 21.8,
+   "widthM": 11.0,
+   "bearingDeg": 32.0
+  },
+  "heightHints": "No published height. Small single-nave church with a west tower topped by a slender onion/lantern spire (photos).",
+  "photos": 4,
+  "metalVisibleInPhotos": "Aug 2021 photos: the tower carries a dark brown, onion-shaped spire with a lantern and cross, consistent with weathered copper (likely the KME copper, with brass details). The nave roofs are red clay tile.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/606021762",
+   "https://www.wikidata.org/wiki/Q739369",
+   "https://commons.wikimedia.org/wiki/Category:Roman_Catholic_church_in_T%C3%A2rnovi%C8%9Ba",
+   "https://miserend.hu/templom/3611"
+  ],
+  "verificationNotes": "Târnovița (hu Küküllőkeményfalva, Brădești commune, Harghita; Wikidata Q739369). OSM way 606021762 is the 'Biserica Romano-Catolică' (name:hu 'Szent László templom', roman_catholic, miserend 3611) about 15 m from the village node, and it is the only church in the village. The façade lettering on Commons photos reads 'Szent László templom, Anno 2002'. Copper surfaces taken from photos (spire).",
+  "registerKeys": [
+   "5a29604287be7d88"
+  ],
+  "registerMetals": [
+   "copper",
+   "brass"
+  ],
+  "registerProducts": [
+   "KME copper"
+  ]
+ },
+ {
+  "id": "biserica-reformata-taureni",
+  "officialName": "Biserica reformată din Tăureni",
+  "nameHu": "Bikafalvi református templom",
+  "altNames": [
+   "Reformed church in Tăureni",
+   "Parohia Reformată Tăureni"
+  ],
+  "category": "church",
+  "address": "Tăureni 103, comuna Feliceni, 537104 Harghita",
+  "city": "Tăureni",
+  "county": "Harghita",
+  "country": "Romania",
+  "lat": 46.2672823,
+  "lon": 25.259063,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": "No published height. West tower from 1776 with a tall, slender octagonal needle spire (photos).",
+  "photos": 3,
+  "metalVisibleInPhotos": "2017 photos (before the 2022 copper purchase) show a tall, slender needle spire clad in silver-grey sheet metal on the white west tower; the nave roof is red clay tile. Not confirmed, and no post-2022 photo found.",
+  "sourceUrls": [
+   "https://ro.wikipedia.org/wiki/Biserica_reformat%C4%83_din_T%C4%83ureni",
+   "https://ro.wikipedia.org/wiki/T%C4%83ureni,_Harghita",
+   "https://www.wikidata.org/wiki/Q42943599",
+   "https://commons.wikimedia.org/wiki/Category:Reformed_church_in_T%C4%83ureni",
+   "https://www.openstreetmap.org/node/262440817"
+  ],
+  "verificationNotes": "Tăureni (hu Bikafalva) is a village of Feliceni commune, Harghita. It has one Reformed church: LMI HR-II-m-B-12985, address 'Tăureni 103', built 1680/1684, rebuilt after fires in 1814 and 1848 (1851), tower 1776 (ro.wikipedia, Wikidata Q42943599). Do NOT confuse with the Felsőboldogfalva/Feliceni Reformed church (OSM way 495044763, already in batch-b), which Nominatim wrongly labels as being in 'Tăureni'. No church outline or building is mapped in OSM around Tăureni, and LMI/Wikidata have no coordinates. lat/lon is the OSM village node (262440817), accuracy locality. Find the church (no. 103, on the main road) on imagery before modelling.",
+  "registerKeys": [
+   "1b44fbdb3e5ef851"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-sf-ilie-suceava",
+  "officialName": null,
+  "nameHu": null,
+  "altNames": [
+   "Parohia Sf. Ilie Suceava (register)"
+  ],
+  "category": "church",
+  "address": null,
+  "city": "Suceava",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.647001,
+  "lon": 26.25226,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://ro.wikipedia.org/wiki/Biserica_Sf%C3%A2ntul_Ilie_din_Sf%C3%A2ntu_Ilie",
+   "https://www.ceeol.com/search/article-detail?id=1007559",
+   "https://www.digi24.ro/stiri/actualitate/incendiu-puternic-la-o-manastire-din-suceava-focul-risca-sa-se-extinda-si-la-cladirile-din-jur-3909709"
+  ],
+  "verificationNotes": "No Orthodox parish church dedicated to Sf. Ilie could be found inside Suceava city (OSM/Nominatim return only a Pentecostal 'Biserica Penticostală Sfântul Ilie', Str. Main candidate: the 1488 Stephen the Great church 'Sf. Ilie' in Sfântu Ilie village (Șcheia commune), on the edge of Suceava, often called 'Biserica Sf. Ilie din Suceava'. LMI ensemble SV-II-a-A-05638 (church SV-II-m-A-05638.01, bell tower .02, enclosure wall .03), LMI coordinates 47.637092, 26.217122. It was a parish church from 1785 but is now run as 'Mănăstirea Sfântul Ilie': re-consecrated in July 2022 after a restoration (Caietele restaurării 2021: 'at the end of the restoration project'). 'Parohia' versus 'Mănăstirea', plus the tile roof, make the match uncertain. lat/lon is the Nominatim point for Suceava municipality (relation 10495794), locality only.",
+  "registerKeys": [
+   "75aed2fe5abf71b1"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "catedrala-nasterea-domnului-suceava",
+  "officialName": "Catedrala „Nașterea Domnului” din Suceava",
+  "nameHu": null,
+  "altNames": [
+   "Catedrala Sucevei",
+   "Cathedral of the Nativity, Suceava"
+  ],
+  "category": "church",
+  "address": "Strada Grigore Ureche / Piața Mărășești, 720214 Suceava (Burdujeni-Obcini)",
+  "city": "Suceava",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.646997,
+  "lon": 26.249277,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 233214641,
+   "tags": {
+    "addr:city": "Suceava",
+    "addr:postcode": "720214",
+    "addr:street": "Strada Grigore Ureche",
+    "amenity": "place_of_worship",
+    "building": "cathedral",
+    "building:colour": "#f0f8ff",
+    "building:levels": "3",
+    "denomination": "romanian_orthodox",
+    "name": "Catedrala Sucevei",
+    "religion": "christian",
+    "roof:colour": "#000",
+    "roof:shape": "hipped",
+    "wikidata": "Q28922469",
+    "wikipedia": "ro:Catedrala Nașterea Domnului din Suceava"
+   }
+  },
+  "footprint": [
+   [
+    47.647024,
+    26.248776
+   ],
+   [
+    47.647105,
+    26.24885
+   ],
+   [
+    47.647121,
+    26.249324
+   ],
+   [
+    47.647178,
+    26.249401
+   ],
+   [
+    47.647189,
+    26.249484
+   ],
+   [
+    47.64718,
+    26.249569
+   ],
+   [
+    47.647116,
+    26.249619
+   ],
+   [
+    47.647075,
+    26.24967
+   ],
+   [
+    47.647066,
+    26.249739
+   ],
+   [
+    47.647044,
+    26.249766
+   ],
+   [
+    47.64701,
+    26.249773
+   ],
+   [
+    47.646984,
+    26.249766
+   ],
+   [
+    47.646966,
+    26.249746
+   ],
+   [
+    47.646957,
+    26.249678
+   ],
+   [
+    47.6469,
+    26.249631
+   ],
+   [
+    47.646835,
+    26.249588
+   ],
+   [
+    47.646815,
+    26.249515
+   ],
+   [
+    47.646822,
+    26.249432
+   ],
+   [
+    47.646874,
+    26.249354
+   ],
+   [
+    47.646861,
+    26.248898
+   ],
+   [
+    47.646906,
+    26.248793
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 74.5,
+   "widthM": 40.9,
+   "bearingDeg": 96.3
+  },
+  "heightHints": "Height 80 m (Wikidata Q28922469 P2048). OSM building:levels=3, roof:shape=hipped, roof:colour=#000. Construction began 1990; consecrated 4 Oct 2015.",
+  "photos": 4,
+  "metalVisibleInPhotos": "2026 drone photos: all roofs, the tall conical main spire, the corner turrets and the lower domes are dark charcoal/black with white trim bands on the drums. The surface reads as dark (patinated or coated) metal. The copper strip and Zambelli copper gutters from 2022 are not distinguishable at this distance.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/233214641",
+   "https://www.wikidata.org/wiki/Q28922469",
+   "https://en.wikipedia.org/wiki/Cathedral_of_the_Nativity,_Suceava",
+   "https://commons.wikimedia.org/wiki/Category:Views_of_Cathedral_of_the_Nativity_in_Suceava"
+  ],
+  "verificationNotes": "OSM way 233214641 is named 'Catedrala Sucevei' (building=cathedral, romanian_orthodox, wikidata Q28922469, wikipedia ro:Catedrala Nașterea Domnului din Suceava). The Wikidata point (47.6470028, 26.2493027) is within 2 m of the outline centroid. Do not confuse with 'Catedrala Nașterea Maicii Domnului' in Gura Humorului (Nominatim's first hit). Outline MRR 74.5 x 40.9 m. No press source on the 2022 copper works was found. All 4 photos are aerial (Ionel Curcan, June 2026); no recent ground-level Commons photo was found.",
+  "registerKeys": [
+   "51e805cb45aa280d"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-sucevita",
+  "officialName": "Mănăstirea Sucevița – Biserica „Învierea Domnului”",
+  "nameHu": "Sucevițai kolostor",
+  "altNames": [
+   "Sucevița Monastery",
+   "Biserica Mănăstirii Sucevița"
+  ],
+  "category": "monastery",
+  "address": "DN17A nr. 169, 727510 Sucevița",
+  "city": "Sucevița",
+  "county": "Suceava",
+  "country": "Romania",
+  "lat": 47.778174,
+  "lon": 25.711131,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1168504528,
+   "tags": {
+    "addr:city": "Sucevița",
+    "amenity": "place_of_worship",
+    "amenity_1": "Hram: Învierea Domnului",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica Mănăstirii Suceviţa",
+    "religion": "christian",
+    "wikidata": "Q611070"
+   }
+  },
+  "footprint": [
+   [
+    47.778156,
+    25.710831
+   ],
+   [
+    47.778122,
+    25.710856
+   ],
+   [
+    47.778058,
+    25.710905
+   ],
+   [
+    47.778023,
+    25.710932
+   ],
+   [
+    47.778039,
+    25.710978
+   ],
+   [
+    47.778036,
+    25.71098
+   ],
+   [
+    47.778019,
+    25.710993
+   ],
+   [
+    47.778013,
+    25.710998
+   ],
+   [
+    47.777999,
+    25.711008
+   ],
+   [
+    47.778023,
+    25.711076
+   ],
+   [
+    47.778037,
+    25.711064
+   ],
+   [
+    47.778044,
+    25.711059
+   ],
+   [
+    47.77806,
+    25.711047
+   ],
+   [
+    47.778062,
+    25.711044
+   ],
+   [
+    47.778129,
+    25.711238
+   ],
+   [
+    47.778124,
+    25.711247
+   ],
+   [
+    47.778118,
+    25.711265
+   ],
+   [
+    47.778117,
+    25.711286
+   ],
+   [
+    47.778121,
+    25.711306
+   ],
+   [
+    47.778128,
+    25.711322
+   ],
+   [
+    47.778138,
+    25.711334
+   ],
+   [
+    47.778151,
+    25.711341
+   ],
+   [
+    47.778164,
+    25.711341
+   ],
+   [
+    47.77819,
+    25.711399
+   ],
+   [
+    47.77821,
+    25.711417
+   ],
+   [
+    47.778233,
+    25.711426
+   ],
+   [
+    47.778238,
+    25.711425
+   ],
+   [
+    47.778256,
+    25.711423
+   ],
+   [
+    47.778278,
+    25.711409
+   ],
+   [
+    47.778296,
+    25.711387
+   ],
+   [
+    47.778301,
+    25.711374
+   ],
+   [
+    47.778308,
+    25.711357
+   ],
+   [
+    47.778313,
+    25.711323
+   ],
+   [
+    47.77831,
+    25.711288
+   ],
+   [
+    47.778292,
+    25.711231
+   ],
+   [
+    47.778298,
+    25.711219
+   ],
+   [
+    47.778301,
+    25.7112
+   ],
+   [
+    47.778301,
+    25.71118
+   ],
+   [
+    47.778296,
+    25.711161
+   ],
+   [
+    47.778287,
+    25.711145
+   ],
+   [
+    47.778275,
+    25.711135
+   ],
+   [
+    47.778262,
+    25.711131
+   ],
+   [
+    47.778258,
+    25.711132
+   ],
+   [
+    47.778202,
+    25.710968
+   ],
+   [
+    47.778217,
+    25.710957
+   ],
+   [
+    47.778208,
+    25.710934
+   ],
+   [
+    47.778224,
+    25.710922
+   ],
+   [
+    47.778203,
+    25.710861
+   ],
+   [
+    47.778174,
+    25.710883
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 44.7,
+   "widthM": 25.1,
+   "bearingDeg": 62.7
+  },
+  "heightHints": "OSM building parts: tower part way 1168504529 height=20 m; main roof parts height 9.7 m (ways 1167892297/1167896059), 14 m (1168535285). Outline 44.7 x 25.1 m appears to include the wide eaves.",
+  "photos": 5,
+  "metalVisibleInPhotos": "2021–2024 photos: the church has its typical steep, wide-eaved dark roof (shingle-like grey-brown) and a dark octagonal tower helm. No bright copper is visible. Not confirmed.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1168504528",
+   "https://www.wikidata.org/wiki/Q611070",
+   "https://muzeulbucovinei.ro/portal-mnb/uploads/2026/03/Raport-II-din-2025-privind-Monitorizarea-Monumentelor-UNESCO.pdf",
+   "https://commons.wikimedia.org/wiki/Category:Church_of_the_Resurrection_of_Christ_at_Suceva%C8%9Ba_monastery"
+  ],
+  "verificationNotes": "The monastery is unambiguous (LMI SV-II-a-A-05651, Wikidata Q611070, UNESCO painted church). OSM way 1168504528 'Biserica Mănăstirii Suceviţa' (hram 'Învierea Domnului', wikidata Q611070) is the church inside the fortified precinct, about 45 m from the Wikidata point. The 2025 UNESCO monitoring report of the Bukovina Museum notes the church roof was replaced as part of the restoration project and that the bell tower was under restoration, without naming the material. The church is used as the representative model, hence PROBABLE/site. Copper could also be on the enclosure towers or the bell tower;",
+  "registerKeys": [
+   "c18daa3b475809f4"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-secu",
+  "officialName": "Mănăstirea Secu – Biserica „Tăierea Capului Sf. Ioan Botezătorul”",
+  "nameHu": null,
+  "altNames": [
+   "Secu Monastery",
+   "Mânăstirea Secu"
+  ],
+  "category": "monastery",
+  "address": "Str. Secu 1496 / Strada Mănăstirilor, sat Vânători-Neamț, comuna Vânători-Neamț, Neamț",
+  "city": "Vânători-Neamț",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 47.200338,
+  "lon": 26.184792,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 218412862,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Mănăstirea Secu - Taierea Capului Sfântul Ioan Botezătorul",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.200327,
+    26.184561
+   ],
+   [
+    47.20042,
+    26.184893
+   ],
+   [
+    47.200418,
+    26.184988
+   ],
+   [
+    47.200395,
+    26.185011
+   ],
+   [
+    47.200353,
+    26.185011
+   ],
+   [
+    47.20032,
+    26.184938
+   ],
+   [
+    47.20024,
+    26.184611
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 34.4,
+   "widthM": 11.5,
+   "bearingDeg": 68.5
+  },
+  "heightHints": null,
+  "photos": 5,
+  "metalVisibleInPhotos": "Oct 2025 photos: the church has very dark charcoal/near-black metal roofs on the nave, the wide eaves, the porch and both tower helms (main tower with bulbous cap, west tower with spire), consistent with darkened copper sheet and seam. The fortress walls and cells have grey metal roofs.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/218412862",
+   "https://www.wikidata.org/wiki/Q18547806",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Secu",
+   "https://commons.wikimedia.org/wiki/Category:Secu_Monastery"
+  ],
+  "verificationNotes": "Monastery unambiguous: LMI NT-II-a-A-10735, Wikidata Q18547806, address Str. Church = OSM way 218412862 'Mănăstirea Secu - Taierea Capului Sfântul Ioan Botezătorul', 34.4 x 11.5 m. OSM relation 7322058 is wrongly tagged building=church but covers the whole ~8,300 m2 precinct, so it was not used. Photos 01–05 (Ionel Curcan, Oct 2025) post-date the works.",
+  "registerKeys": [
+   "cee3fb7843d67277"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-varatec",
+  "officialName": "Mănăstirea Văratec – Biserica „Adormirea Maicii Domnului”",
+  "nameHu": "Vărateci kolostor",
+  "altNames": [
+   "Văratec Monastery"
+  ],
+  "category": "monastery",
+  "address": "Strada Cuvios Iosif, Văratec, comuna Agapia, 617013 Neamț",
+  "city": "Văratec",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 47.139756,
+  "lon": 26.268342,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 267206319,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Biserica Adormirea Maicii Domnului - Mănăstirea Văratec",
+    "name:en": "Văratec Monastery",
+    "religion": "christian",
+    "wikidata": "Q909262",
+    "wikipedia": "en:Văratec Monastery"
+   }
+  },
+  "footprint": [
+   [
+    47.139646,
+    26.268179
+   ],
+   [
+    47.139711,
+    26.26851
+   ],
+   [
+    47.139747,
+    26.268551
+   ],
+   [
+    47.139782,
+    26.268562
+   ],
+   [
+    47.139822,
+    26.268544
+   ],
+   [
+    47.139847,
+    26.268498
+   ],
+   [
+    47.13986,
+    26.268439
+   ],
+   [
+    47.139779,
+    26.26811
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 32.6,
+   "widthM": 17.3,
+   "bearingDeg": 70.5
+  },
+  "heightHints": null,
+  "photos": 4,
+  "metalVisibleInPhotos": "2006–2009 photos (before 2023) show dark grey metal roofs and onion-bulb tower caps on the white church, plus grey metal roofs on the large two-storey cells/entrance building with its gate tower. The 2023 natural titanium-zinc (light grey, matt) re-roof is not shown in any photo found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/267206319",
+   "https://www.wikidata.org/wiki/Q909262",
+   "https://www.digi24.ro/stiri/externe/ue/manastirile-lui-stefan-cel-mare-se-impaca-bine-cu-bruxelles-ul-1602361",
+   "https://commons.wikimedia.org/wiki/Category:V%C4%83ratec_Monastery"
+  ],
+  "verificationNotes": "Monastery unambiguous (LMI NT-II-a-A-10732, Wikidata Q909262). OSM way 267206319 'Biserica Adormirea Maicii Domnului - Mănăstirea Văratec' (wikidata Q909262) is the main church, 32.6 x 17.3 m. That is more than the church roof alone, so the zinc may cover the church and/or the large cells/entrance block (photo 04) or other buildings of this EU-funded restoration (Digi24). Main church used as representative model, hence PROBABLE/site. Confirm the roofed buildings.",
+  "registerKeys": [
+   "9f879097f5b0b94b"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "manastirea-almas",
+  "officialName": "Mănăstirea Almaș",
+  "nameHu": null,
+  "altNames": [
+   "Almaș Monastery"
+  ],
+  "category": "monastery",
+  "address": "Strada Almașului, Almaș, comuna Gârcina, 617201 Neamț",
+  "city": "Almaș (Gârcina)",
+  "county": "Neamț",
+  "country": "Romania",
+  "lat": 47.013016,
+  "lon": 26.33047,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 688423052,
+   "tags": {
+    "building": "church"
+   }
+  },
+  "footprint": [
+   [
+    47.013058,
+    26.33025
+   ],
+   [
+    47.012996,
+    26.330243
+   ],
+   [
+    47.012993,
+    26.330314
+   ],
+   [
+    47.012971,
+    26.33034
+   ],
+   [
+    47.01296,
+    26.330534
+   ],
+   [
+    47.012938,
+    26.33055
+   ],
+   [
+    47.012935,
+    26.330634
+   ],
+   [
+    47.013082,
+    26.330643
+   ],
+   [
+    47.013084,
+    26.330561
+   ],
+   [
+    47.013062,
+    26.330534
+   ],
+   [
+    47.013073,
+    26.330362
+   ],
+   [
+    47.013058,
+    26.330324
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.9,
+   "widthM": 16.2,
+   "bearingDeg": 92.4
+  },
+  "heightHints": null,
+  "photos": 4,
+  "metalVisibleInPhotos": "Oct 2020 photos (before 2023): the white main church has brown roofs and three slim drums with brown onion caps; the gate tower has a dark pyramidal roof; the new cells building has a grey standing-seam roof. The 2023 copper (0.4 mm sheets) is not shown; likely the church domes/roof or the gate-tower spire (unconfirmed).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/688423052",
+   "https://www.wikidata.org/wiki/Q18537361",
+   "https://commons.wikimedia.org/wiki/Category:Alma%C8%99_Monastery"
+  ],
+  "verificationNotes": "Monastery unambiguous: LMI NT-II-a-B-10585, Wikidata Q18537361 (47.01299, 26.33044), OSM precinct way 1544838519 'Mănăstirea Almaș'. Main church = OSM way 688423052 (building=church, 29.9 x 16.2 m), within 10 m of the Wikidata point.",
+  "registerKeys": [
+   "f9d2d23afd01d99b"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-sf-teodori-iasi",
+  "officialName": "Biserica „Sfinții Teodori” din Iași",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sf. Teodor",
+   "Saints Theodore Church, Iași"
+  ],
+  "category": "church",
+  "address": "Strada Sfântul Teodor 14, 700115 Iași",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.167147,
+  "lon": 27.587627,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 203170871,
+   "tags": {
+    "addr:housenumber": "14",
+    "addr:postcode": "700115",
+    "addr:street": "Strada Sfântul Teodor",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2024-07-17",
+    "denomination": "orthodox",
+    "name": "Biserica Sfinții Teodori",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    47.167205,
+    27.587488
+   ],
+   [
+    47.167156,
+    27.587461
+   ],
+   [
+    47.167152,
+    27.587475
+   ],
+   [
+    47.167142,
+    27.587468
+   ],
+   [
+    47.167113,
+    27.587606
+   ],
+   [
+    47.16709,
+    27.587615
+   ],
+   [
+    47.167071,
+    27.587646
+   ],
+   [
+    47.167077,
+    27.587689
+   ],
+   [
+    47.167094,
+    27.587709
+   ],
+   [
+    47.167092,
+    27.587725
+   ],
+   [
+    47.167104,
+    27.587755
+   ],
+   [
+    47.167126,
+    27.587773
+   ],
+   [
+    47.167146,
+    27.587769
+   ],
+   [
+    47.16716,
+    27.587756
+   ],
+   [
+    47.167166,
+    27.587736
+   ],
+   [
+    47.167188,
+    27.587724
+   ],
+   [
+    47.167201,
+    27.587699
+   ],
+   [
+    47.167199,
+    27.587659
+   ],
+   [
+    47.167185,
+    27.587636
+   ],
+   [
+    47.16721,
+    27.587508
+   ],
+   [
+    47.167202,
+    27.587503
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 23.0,
+   "widthM": 14.4,
+   "bearingDeg": 120.0
+  },
+  "heightHints": null,
+  "photos": 4,
+  "metalVisibleInPhotos": "Sept 2020 photos: two octagonal towers (west and over the naos) with bell-shaped caps clad in brown/orange, weathered copper-coloured sheet; the main roof is grey-brown sheet.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/203170871",
+   "https://commons.wikimedia.org/wiki/File:Biserica_%E2%80%9ESf._Teodor%E2%80%9D_(1).jpg"
+  ],
+  "verificationNotes": "OSM way 203170871 is named 'Biserica Sfinții Teodori' (building=church, orthodox, Strada Sfântul Teodor 14). It is the only church with this dedication in Iași found in OSM, and Commons photos titled 'Biserica Sf Teodori Iași' / 'Saint Theodore Church in Iași' show this building. Teodori, Iasi, 2022' matches. LMI code not retrieved (the ro.wikipedia Iași-city list could not be downloaded).",
+  "registerKeys": [
+   "5f402d99fe947007"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "umf-iasi",
+  "officialName": "Universitatea de Medicină și Farmacie „Grigore T. Popa” Iași – building not identified",
+  "nameHu": null,
+  "altNames": [
+   "UMF Iași"
+  ],
+  "category": "education",
+  "address": "Strada Universității 16, 700115 Iași (university seat; actual building unknown)",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.168363,
+  "lon": 27.584467,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (building not identified).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/961059",
+   "https://www.bzi.ro/umf-iasi-a-lansat-o-licitatie-de-peste-56-milioane-de-lei-pentru-renovarea-policlinicii-stomatologice-la-bolta-5027149"
+  ],
+  "verificationNotes": "UMF Iași owns many buildings across Iași: main seat (OSM relation 961059, Str. Universității 16), the 'Nicolae Leon' building, dormitories (e.g. Căminul 1 Mai), the 'La Boltă' dental polyclinic, and others. No source ties a 2022 elZinc Slate roof to a specific UMF building. The La Boltă tender specifies ceramic tile with zinc rainwater goods, so it does not match. lat/lon is the main seat, used only as a city-level anchor.",
+  "registerKeys": [
+   "847122b5d03572b4"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "turnul-barboi-iasi",
+  "officialName": "Turnul-clopotniță al Bisericii Bărboi, Iași",
+  "nameHu": null,
+  "altNames": [
+   "Turnul Bisericii Bărboi",
+   "Bell tower of Bărboi church",
+   "Mănăstirea Bărboi – clopotnița"
+  ],
+  "category": "church",
+  "address": "Stradela Bărboi 12, 700072 Iași",
+  "city": "Iași",
+  "county": "Iași",
+  "country": "Romania",
+  "lat": 47.162588,
+  "lon": 27.593036,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 207239229,
+   "tags": {
+    "building": "yes"
+   }
+  },
+  "footprint": [
+   [
+    47.162633,
+    27.593054
+   ],
+   [
+    47.162579,
+    27.593102
+   ],
+   [
+    47.162544,
+    27.593017
+   ],
+   [
+    47.162597,
+    27.592969
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 7.6,
+   "widthM": 6.9,
+   "bearingDeg": 58.9
+  },
+  "heightHints": "No published height. Gate bell tower with a tall arched passage, three storeys of belfry and a clock stage, topped by a bell-shaped dome and a lantern with a small cupola (photos). Roughly 30–35 m by eye (estimate).",
+  "photos": 3,
+  "metalVisibleInPhotos": "2012 and 2018 photos: the tower dome and the small lantern cupola are clad in green (painted or patinated) sheet metal, with a cross on top;",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/207239229",
+   "https://www.openstreetmap.org/way/203154274",
+   "https://www.wikidata.org/wiki/Q5005430",
+   "https://commons.wikimedia.org/wiki/Category:Bell_tower_of_B%C4%83rboi_church_in_Ia%C8%99i"
+  ],
+  "verificationNotes": "Bărboi church: OSM way 203154274 (start_date 1844, designation IS-II-a-B-03730), Wikidata Q5005430 (LMI IS-II-m-B-03730 / IS-II-a-A-03730), Commons sub-category 'Bell tower of Bărboi church in Iași'. The tower is unique, so the identity is certain. a 12 m2 round way 207239227 sits inside it, probably an upper stage. Check this attribution on imagery. Year and material are unknown (copper is likely, given the green dome).",
+  "registerKeys": [
+   "2dd33b113a011a45"
+  ]
+ },
+ {
+  "id": "biserica-abagerilor-barlad",
+  "officialName": "Biserica „Sf. Gheorghe” a breslei abagerilor din Bârlad",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sfântul Gheorghe, Bârlad",
+   "Ansamblul bisericii Sf. Gheorghe a breslei abagerilor"
+  ],
+  "category": "church",
+  "address": "Strada Popa Șapcă 11, Bârlad",
+  "city": "Bârlad",
+  "county": "Vaslui",
+  "country": "Romania",
+  "lat": 46.22269,
+  "lon": 27.670751,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 226737067,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Biserica Sfântul Gheorghe",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    46.222765,
+    27.670574
+   ],
+   [
+    46.22274,
+    27.670946
+   ],
+   [
+    46.222616,
+    27.670928
+   ],
+   [
+    46.222641,
+    27.670557
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 28.8,
+   "widthM": 13.8,
+   "bearingDeg": 95.5
+  },
+  "heightHints": "No published height. Church with three slim drums (two west, one east), each with a bulbous cap and spire, plus a separate 4-storey gate bell tower with a pyramidal cap (photos).",
+  "photos": 2,
+  "metalVisibleInPhotos": "2011/2013 photos (before 2021): the three church drums and onion caps and the nave roof are clad in grey (galvanised or painted) sheet; the gate tower has a dark pyramidal roof.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/226737067",
+   "https://ro.wikipedia.org/wiki/Lista_monumentelor_istorice_din_jude%C8%9Bul_Vaslui",
+   "https://commons.wikimedia.org/wiki/File:Barlad_biserica_sf_ghe_str_popa_sapca.jpg",
+   "https://commons.wikimedia.org/wiki/File:Clopotni%C5%A3%C4%83_B%C3%A2rlad.jpg"
+  ],
+  "verificationNotes": "LMI (Vaslui list): 'Ansamblul bisericii Sf. Gheorghe a breslei abagerilor', Str. Popa Șapcă 11, Bârlad. Church VS-II-m-B-06750.01 (1817–1825), gate tower and bell tower VS-II-m-B-06750.02. OSM way 226737067 'Biserica Sfântul Gheorghe' (orthodox) is about 100 m from the Str. Popa Șapcă geometry. The Commons photo 'Barlad biserica sf ghe str popa sapca' and the 'Clopotniţă Bârlad' photo show the same church with its gate tower. The OSM outline is a crude 4-node rectangle (28.8 x 13.8 m), so redraw from imagery if precision matters.",
+  "registerKeys": [
+   "c12a24b70d9cc735"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "catedrala-inaltarea-domnului-bacau",
+  "officialName": "Biserica (Catedrala) „Înălțarea Domnului” din Bacău",
+  "nameHu": null,
+  "altNames": [
+   "Catedrala Înălțarea Domnului",
+   "Cathedral of the Lord's Ascension, Bacău"
+  ],
+  "category": "church",
+  "address": "Bulevardul Unirii / Strada Nicolae Bălcescu, 600192 Bacău",
+  "city": "Bacău",
+  "county": "Bacău",
+  "country": "Romania",
+  "lat": 46.570115,
+  "lon": 26.91073,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 164832003,
+   "tags": {
+    "addr:postcode": "600192",
+    "addr:street": "Bulevardul Unirii",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "loc_name": "Catedrala „Înălțarea Domnului\"",
+    "name": "Biserica „Înălțarea Domnului\"",
+    "name:en": "Chuch of the Lord's Ascension",
+    "name:ro": "Biserica „Înălțarea Domnului\" din Bacău",
+    "religion": "christian",
+    "wikidata": "Q18538764",
+    "wikipedia": "ro:Biserica Înălțarea Domnului din Bacău"
+   }
+  },
+  "footprint": [
+   [
+    46.570315,
+    26.911067
+   ],
+   [
+    46.570341,
+    26.911059
+   ],
+   [
+    46.570329,
+    26.910988
+   ],
+   [
+    46.570303,
+    26.910997
+   ],
+   [
+    46.570295,
+    26.910946
+   ],
+   [
+    46.570302,
+    26.910944
+   ],
+   [
+    46.570319,
+    26.91093
+   ],
+   [
+    46.570331,
+    26.910909
+   ],
+   [
+    46.570338,
+    26.910883
+   ],
+   [
+    46.57034,
+    26.910856
+   ],
+   [
+    46.570335,
+    26.910829
+   ],
+   [
+    46.570324,
+    26.910806
+   ],
+   [
+    46.570309,
+    26.910789
+   ],
+   [
+    46.570291,
+    26.91078
+   ],
+   [
+    46.570272,
+    26.91078
+   ],
+   [
+    46.570269,
+    26.910781
+   ],
+   [
+    46.570261,
+    26.910737
+   ],
+   [
+    46.570281,
+    26.91073
+   ],
+   [
+    46.570225,
+    26.910381
+   ],
+   [
+    46.570206,
+    26.910388
+   ],
+   [
+    46.5702,
+    26.910352
+   ],
+   [
+    46.570186,
+    26.910356
+   ],
+   [
+    46.570169,
+    26.910244
+   ],
+   [
+    46.570123,
+    26.910257
+   ],
+   [
+    46.570117,
+    26.91022
+   ],
+   [
+    46.569965,
+    26.910271
+   ],
+   [
+    46.569971,
+    26.910308
+   ],
+   [
+    46.569919,
+    26.910326
+   ],
+   [
+    46.569928,
+    26.910383
+   ],
+   [
+    46.569937,
+    26.91044
+   ],
+   [
+    46.569925,
+    26.910445
+   ],
+   [
+    46.569931,
+    26.91048
+   ],
+   [
+    46.569907,
+    26.910488
+   ],
+   [
+    46.569963,
+    26.910837
+   ],
+   [
+    46.569987,
+    26.910829
+   ],
+   [
+    46.569995,
+    26.910875
+   ],
+   [
+    46.569981,
+    26.910882
+   ],
+   [
+    46.569972,
+    26.910892
+   ],
+   [
+    46.569965,
+    26.910899
+   ],
+   [
+    46.569955,
+    26.910923
+   ],
+   [
+    46.56995,
+    26.910951
+   ],
+   [
+    46.569952,
+    26.91098
+   ],
+   [
+    46.56996,
+    26.911006
+   ],
+   [
+    46.569974,
+    26.911027
+   ],
+   [
+    46.569991,
+    26.911039
+   ],
+   [
+    46.570011,
+    26.911043
+   ],
+   [
+    46.570021,
+    26.91104
+   ],
+   [
+    46.570029,
+    26.911088
+   ],
+   [
+    46.570006,
+    26.911096
+   ],
+   [
+    46.570019,
+    26.911166
+   ],
+   [
+    46.57004,
+    26.91116
+   ],
+   [
+    46.570044,
+    26.911182
+   ],
+   [
+    46.570049,
+    26.911212
+   ],
+   [
+    46.570088,
+    26.9112
+   ],
+   [
+    46.570083,
+    26.911169
+   ],
+   [
+    46.570117,
+    26.911157
+   ],
+   [
+    46.570126,
+    26.911185
+   ],
+   [
+    46.570139,
+    26.911206
+   ],
+   [
+    46.570157,
+    26.911219
+   ],
+   [
+    46.570177,
+    26.911222
+   ],
+   [
+    46.570195,
+    26.911216
+   ],
+   [
+    46.570212,
+    26.911203
+   ],
+   [
+    46.570224,
+    26.911182
+   ],
+   [
+    46.570231,
+    26.911156
+   ],
+   [
+    46.570231,
+    26.911119
+   ],
+   [
+    46.570282,
+    26.911102
+   ],
+   [
+    46.570287,
+    26.911133
+   ],
+   [
+    46.570323,
+    26.91112
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 76.2,
+   "widthM": 43.9,
+   "bearingDeg": 76.9
+  },
+  "heightHints": "ro.wikipedia: footprint 1,706 m2, length 70 m, width 38 m, max height 70 m (63 m to the base of the 7 m main cross); arch. Constantin Amaiei; built 1991–2018. OSM outline MRR 76.2 x 43.9 m (includes steps/porches).",
+  "photos": 1,
+  "metalVisibleInPhotos": "The only Commons photo (taken during construction, around 2008 per ro.wikipedia caption) shows a cream Byzantine-style cathedral with a large central dome and two west towers capped by grey-blue/metal domes. The copper (2015) is not identifiable in it.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/164832003",
+   "https://www.wikidata.org/wiki/Q18538764",
+   "https://ro.wikipedia.org/wiki/Biserica_%C3%8En%C4%83l%C8%9Barea_Domnului_din_Bac%C4%83u",
+   "https://zdbc.ro/catedrala-inaltarea-domnului-din-bacau-va-avea-usi-de-peste-25-000-de-euro-bucata-edificiul-va-fi-sfintit-cu-ocazia-centenarului-marii-uniri/"
+  ],
+  "verificationNotes": "OSM way 164832003 'Biserica „Înălțarea Domnului”' (loc_name 'Catedrala „Înălțarea Domnului”', wikidata Q18538764, Bulevardul Unirii) is the large Orthodox church locals call the 'cathedral'. ro.wikipedia notes it is not formally a cathedral (the see is in Roman) and that it is Romania's third-largest church. The Wikidata point (46.57, 26.91056) is within 15 m of the centroid. Only one (construction-era) Commons photo exists; get a recent photo showing the finished copper domes before modelling.",
+  "registerKeys": [
+   "0cb0e223d3c21fcf"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "catedrala-focsani",
+  "officialName": "Catedrala Ortodoxă „Sfânta Cuvioasa Parascheva” din Focșani",
+  "nameHu": null,
+  "altNames": [
+   "Catedrala \"Sfânta Parascheva\" Focșani",
+   "Catedrala ortodoxă din Focșani"
+  ],
+  "category": "church",
+  "address": "Strada Republicii, 620012 Focșani",
+  "city": "Focșani",
+  "county": "Vrancea",
+  "country": "Romania",
+  "lat": 45.699812,
+  "lon": 27.183065,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1143659827,
+   "tags": {
+    "addr:city": "Focșani",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "check_date": "2025-06-19",
+    "denomination": "romanian_orthodox",
+    "name": "Catedrala \"Sfânta Parascheva\"",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.699921,
+    27.182788
+   ],
+   [
+    45.699873,
+    27.182786
+   ],
+   [
+    45.699873,
+    27.182717
+   ],
+   [
+    45.699734,
+    27.182706
+   ],
+   [
+    45.699734,
+    27.182776
+   ],
+   [
+    45.699701,
+    27.182775
+   ],
+   [
+    45.6997,
+    27.183055
+   ],
+   [
+    45.699669,
+    27.183078
+   ],
+   [
+    45.699651,
+    27.183119
+   ],
+   [
+    45.699644,
+    27.18317
+   ],
+   [
+    45.699661,
+    27.183225
+   ],
+   [
+    45.69968,
+    27.183259
+   ],
+   [
+    45.699707,
+    27.183271
+   ],
+   [
+    45.699725,
+    27.183345
+   ],
+   [
+    45.699745,
+    27.183383
+   ],
+   [
+    45.699783,
+    27.183396
+   ],
+   [
+    45.699816,
+    27.1834
+   ],
+   [
+    45.699863,
+    27.183387
+   ],
+   [
+    45.699887,
+    27.183347
+   ],
+   [
+    45.6999,
+    27.183286
+   ],
+   [
+    45.699943,
+    27.183272
+   ],
+   [
+    45.699973,
+    27.183238
+   ],
+   [
+    45.699992,
+    27.183175
+   ],
+   [
+    45.699983,
+    27.183126
+   ],
+   [
+    45.699955,
+    27.183084
+   ],
+   [
+    45.699925,
+    27.183057
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 53.7,
+   "widthM": 37.8,
+   "bearingDeg": 101.8
+  },
+  "heightHints": "No published height. Large brick cross-in-square church with tall steel-framed towers (photo).",
+  "photos": 1,
+  "metalVisibleInPhotos": "The only photo found is an older construction-stage shot (Adevărul): bare brick walls and two tall open steel-lattice towers with copper-coloured caps. The finished copper cladding (2021) is not shown.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1143659827",
+   "https://adevarul.ro/stiri-locale/focsani/foto-catedrala-ortodoxa-din-focsani-mai-creste-cu-1572762.html",
+   "https://adevarul.ro/stiri-locale/focsani/viitoarea-catedrala-ortodoxa-din-focsani-va-fi-1419848.html",
+   "https://adevarul.ro/stiri-locale/focsani/darnicia-autoritatilor-din-focsani-fata-de-2024749.html"
+  ],
+  "verificationNotes": "Focșani has no historic cathedral on the LMI list. The building known as the cathedral is the new Orthodox Cathedral 'Sf. Cuvioasa Parascheva' (OSM way 1143659827 'Catedrala \"Sfânta Parascheva\"', 53.7 x 37.8 m), built from the 2000s by General Construct with state and local funding. Photo 01 is a construction-stage news photo (reference only).",
+  "registerKeys": [
+   "54729003eb020b70"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-ciolanu",
+  "officialName": "Mănăstirea Ciolanu",
+  "nameHu": null,
+  "altNames": [
+   "Ciolanu Monastery"
+  ],
+  "category": "monastery",
+  "address": "DJ203G, sat Haleș, comuna Tisău, Buzău",
+  "city": "Tisău (Haleș)",
+  "county": "Buzău",
+  "country": "Romania",
+  "lat": 45.2355227,
+  "lon": 26.5472297,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "node",
+   "id": 265749967,
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "orthodox",
+    "name": "Mănăstirea Ciolanu",
+    "religion": "christian"
+   }
+  },
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 4,
+  "metalVisibleInPhotos": "The main church (arcaded porch, two front towers) had red metal roofs in 2008/2018; a 2020 photo shows the towers and roof in grey. The cells/houses have grey metal roofs. Which roof is the 2021/2023 natural titanium-zinc is not identifiable.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/265749967",
+   "https://www.wikidata.org/wiki/Q3320269",
+   "https://commons.wikimedia.org/wiki/Category:Ciolanu_Monastery"
+  ],
+  "verificationNotes": "Neither names the building, so site-level only, no footprint. Candidate outlines: way 183224244 (30.7 x 19 m, beside the place_of_worship node; probably the main church) and way 183224245 (21.7 x 15.9 m, near node 'Biserica Sf. Gheorghe'). Many unnamed cell buildings (ways 1832242xx) surround them. Photos show the church and the cells for context.",
+  "registerKeys": [
+   "cdccd7be7b795ab8"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "manastirea-negru-voda-campulung",
+  "officialName": "Mănăstirea Negru Vodă – Biserica domnească „Adormirea Maicii Domnului”, Câmpulung",
+  "nameHu": null,
+  "altNames": [
+   "Negru Vodă monastery",
+   "Biserica Domnească Câmpulung"
+  ],
+  "category": "monastery",
+  "address": "Strada Negru Vodă 64, 115100 Câmpulung",
+  "city": "Câmpulung",
+  "county": "Argeș",
+  "country": "Romania",
+  "lat": 45.263822,
+  "lon": 25.040306,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 381801793,
+   "tags": {
+    "addr:city": "Câmpulung Muscel",
+    "addr:housenumber": "64",
+    "addr:street": "Negru Vodă",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "religion": "christian",
+    "website": "https://vatra-mcp.ro/artisti-si-patrimoniu/manastirile-romaniei/arges/manastirea-negru-voda-campulung-muscel-arges-datata-din-1215/"
+   }
+  },
+  "footprint": [
+   [
+    45.263894,
+    25.040145
+   ],
+   [
+    45.263873,
+    25.040437
+   ],
+   [
+    45.263849,
+    25.040482
+   ],
+   [
+    45.26381,
+    25.040495
+   ],
+   [
+    45.263773,
+    25.040475
+   ],
+   [
+    45.263753,
+    25.040419
+   ],
+   [
+    45.263774,
+    25.040128
+   ],
+   [
+    45.263839,
+    25.040137
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 28.2,
+   "widthM": 13.3,
+   "bearingDeg": 95.9
+  },
+  "heightHints": null,
+  "photos": 4,
+  "metalVisibleInPhotos": "the tall gate bell tower has a green dome cap. Other precinct buildings have grey sheet or tile roofs. The 2020 copper (sheets and rolls) presumably renewed these domes/roofs (unconfirmed).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/381801793",
+   "https://www.wikidata.org/wiki/Q12736249",
+   "https://commons.wikimedia.org/wiki/Category:Assumption_of_Mary_church_of_Negru_Vod%C4%83_monastery",
+   "https://commons.wikimedia.org/wiki/Category:Bell_tower_of_Negru_Vod%C4%83_monastery"
+  ],
+  "verificationNotes": "Monastery unambiguous: LMI AG-II-a-A-13547, Wikidata Q12736249 (45.26361, 25.04056), Str. Negru Vodă 64, on the site of the old princely court. Main church = OSM way 381801793 (place_of_worship, addr Negru Vodă 64, 28.2 x 13.3 m), within 5 m of the Wikidata point. Also in the precinct: bell tower way 1540774112 ('Clopotniță', 11.2 x 10.2 m) and a smaller church, way 1052950083 (14.2 x 9.6 m, Sf. Ioan Botezătorul on Commons). The bell tower is a strong alternative.",
+  "registerKeys": [
+   "b2281b4ec9e6ad2c"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ }
+]

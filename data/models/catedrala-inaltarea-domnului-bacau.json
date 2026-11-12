@@ -1,0 +1,14 @@
+{
+  "tier": "B",
+  "status": "preview",
+  "bearingDeg": 76.9,
+  "bearingSource": "OSM way 164832003 long axis 76.9°; +X points ENE to the semicircular altar apse at the rounded end of the outline, the west porch and the two bell towers at −X; the south side (+Z) with the lateral exedra is the side seen in photos 01–03.",
+  "cover": null,
+  "photosUsed": 3,
+  "approximations": "Photo 01 (2026, captioned elsewhere as a construction-era view but showing the finished building), photo 02 (2019) and photo 03 (press photo) all show the south and south-east sides; the west front and the north side are not photographed (north mirrored, west porch interpreted). The plan follows the OSM outline; the upper volumes (nave clerestory and aisle roofs, barrel-vaulted arms with semicircular glazed gables, crossing base, narthex dome) are interpreted from the photos. Heights are scaled with the published total of 70 m to the top of the 7 m main cross: lower cornice ≈ 19 m, gables ≈ 29 m, crossing base ≈ 37 m, drum ≈ 48 m, dome ≈ 60 m, west-tower crosses ≈ 45 m. Window rhythm, balconies and cladding courses are simplified. The copper domes and roofs appear dark brown to near-black in the photographs and are shown in that oxidised tone.",
+  "note": {
+    "ro": "Machetă interpretată după fotografii publice de referință: volumele, turnurile și cupolele urmează fotografiile laturilor sudică și sud-estică, înălțimile sunt raportate la înălțimea totală publicată, iar fațada vestică și latura nordică sunt aproximate. Cupolele și acoperișurile sunt din cuprul livrat de COLOR METAL conform evidențelor sale, redat în tonul închis, oxidat, din fotografii.",
+    "hu": "Nyilvános referenciafotók alapján értelmezett makett: a tömegek, a tornyok és a kupolák a déli és délkeleti oldalról készült fotókat követik, a magasságok a közzétett teljes magassághoz igazodnak, a nyugati homlokzat és az északi oldal közelítő. A kupolák és a tetők a COLOR METAL nyilvántartása szerint szállított rézből készültek, a fotókon látható sötét, oxidált színben.",
+    "en": "Scale model interpreted from public reference photographs: the volumes, towers and domes follow photographs of the south and south-east sides, heights are scaled to the published overall height, and the west front and north side are approximated. The domes and roofs are of the copper supplied by COLOR METAL according to its records, shown in the dark oxidised tone seen in the photographs."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "tier": "C",
+  "status": "reference-limited",
+  "bearingDeg": 0,
+  "bearingSource": "unknown — the guesthouse has no OSM outline and is located only at village level; the model is shown with its long axis east–west (+X = 0° placeholder, no orientation claim)",
+  "cover": null,
+  "photosUsed": 2,
+  "approximations": "Only two small listing photographs (undated). Main volume ≈ 12 × 8 m, eave ≈ 4.4 m, ridge ≈ 8.8 m and roof pitch 45° scaled from the entrance door; the rear elevation, the second gable, window positions there and the small annexes beside the house are inferred or omitted; orientation unknown. The listing photographs show a red tile roof, so they predate the works or show an earlier state; following the register the roof is shown in elZinc Slate titanium-zinc standing seam.",
+  "note": {
+    "ro": "Machetă preliminară, interpretată după două fotografii publice de prezentare; dimensiunile, fațadele nevăzute și orientarea sunt aproximate. Fotografiile arată încă un acoperiș de țiglă, de aceea acoperișul este redat în titan-zinc elZinc Slate, livrat de COLOR METAL conform evidențelor sale.",
+    "hu": "Előzetes makett két nyilvános bemutató fotó alapján; a méretek, a nem látható homlokzatok és a tájolás közelítőek. A fotókon még cserépfedés látható, ezért a tető a COLOR METAL nyilvántartása szerint szállított elZinc Slate titáncinkkel jelenik meg.",
+    "en": "Preliminary model interpreted from two public listing photographs; dimensions, the unseen elevations and the orientation are approximated. The photographs still show a tile roof, so the roof is shown in the elZinc Slate titanium-zinc supplied by COLOR METAL according to its records."
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "tier": "B",
+ "status": "preview",
+ "bearingDeg": 82.3,
+ "bearingSource": "OSM way 379749108 long axis 82.3°; +X = east towards the four-sided apse (OSM outline), west front and tower at −X; the main (road) side with the portal risalit faces +Z = south (photo 01).",
+ "cover": null,
+ "photosUsed": 2,
+ "approximations": "Plan from the OSM outline (nave 35.7 × 17 m, 12 m side risalits, choir and apse). Heights from photo 01 with the risalit as scale (eaves ≈ 14.5 m, tower cornice ≈ 26 m, cross ≈ 36 m); the roof pitch (≈ 44°) is chosen so that the belfry clears the nave roof as in photo 02. The west front block depth (≈ 5 m) and the tower position are interpreted (OSM shows a flat west end); the north side and the west front are hardly visible in the two small photographs, so the north risalit mirrors the south one with a window instead of the portal. Tracery, pinnacles, corbel-table frieze and stepped gables are simplified. Which roof surfaces received Slate and which natural titanium-zinc is not documented: Slate is shown on all roofs, natural zinc on the tower crown, spire, turret caps, ridges, valleys and gutters.",
+ "note": {
+  "ro": "Machetă interpretată după fotografii de referință publice și conturul OSM; înălțimile sunt estimate, iar fațada de vest și latura nordică sunt în mare parte presupuse. Fotografiile disponibile sunt anterioare lucrărilor din 2025–2026, de aceea acoperișurile sunt redate din titan-zinc elZinc Slate, iar coroana turnului, săgeata și capacele turnulețelor din titan-zinc natural, materiale furnizate de COLOR METAL conform evidențelor sale.",
+  "hu": "Nyilvános referenciafotók és az OSM-alaprajz alapján értelmezett makett; a magasságok becsültek, a nyugati homlokzat és az északi oldal nagyrészt feltételezett. A rendelkezésre álló fotók a 2025–2026-os munkálatok előttiek, ezért a tetők elZinc Slate, a toronykorona, a toronysisak és a fiatornyok sisakjai natúr titáncink fedéssel jelennek meg — a COLOR METAL nyilvántartása szerint általa szállított anyagokból.",
+  "en": "Scale model interpreted from public reference photographs and the OSM outline; heights are estimated and the west front and north side are largely assumed. The available photographs predate the 2025–26 works, so the roofs are shown in elZinc Slate titanium-zinc and the tower crown, spire and turret caps in natural titanium-zinc, the materials supplied by COLOR METAL according to its records."
+ }
+}

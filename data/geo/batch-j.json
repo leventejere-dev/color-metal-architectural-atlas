@@ -1,0 +1,1208 @@
+[
+ {
+  "id": "casa-dianu-craiova",
+  "officialName": "Casa Dianu (Muzeul Cărții și Exilului Românesc)",
+  "nameHu": null,
+  "altNames": [
+   "Muzeul Cărții și Exilului Românesc",
+   "Dianu House"
+  ],
+  "category": "museum",
+  "address": "Strada 24 Ianuarie 4, 200381 Craiova",
+  "city": "Craiova",
+  "county": "Dolj",
+  "country": "Romania",
+  "lat": 44.314195,
+  "lon": 23.7984318,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 746340895,
+   "tags": {
+    "addr:city": "Craiova",
+    "addr:housenumber": "4",
+    "addr:street": "Strada 24 Ianuarie",
+    "building": "yes",
+    "building:levels": "2",
+    "historic": "building",
+    "name": "Casa Dianu"
+   }
+  },
+  "footprint": [
+   [
+    44.314306,
+    23.7983541
+   ],
+   [
+    44.3142581,
+    23.7985874
+   ],
+   [
+    44.314093,
+    23.7985211
+   ],
+   [
+    44.3141199,
+    23.7983904
+   ],
+   [
+    44.3140976,
+    23.7983815
+   ],
+   [
+    44.3141186,
+    23.7982789
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 21.7,
+   "widthM": 19.3,
+   "bearingDeg": 16.0
+  },
+  "heightHints": "Semi-basement + ground floor + attic (mansard) per Agerpres; OSM building:levels=2. Corner pavilions with fish-scale zinc domes/cupolas, central mansard roofs with cresting.",
+  "photos": 2,
+  "metalVisibleInPhotos": "01.jpg (2026, after restoration): natural titanium-zinc roofs clearly visible – fish-scale domes on the corner tower and the two pavilions, standing-seam mansards, zinc cresting/ornaments. 02.jpg (Aug 2019, before/at start of works) shows the old grey metal domes with the POR site board.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/746340895",
+   "https://agerpres.ro/english/2022/10/29/houses-with-memories-casa-dianu-in-craiova-to-house-first-museum-of-romanian-exile-in-the-country--1004427",
+   "https://kohesio.ec.europa.eu/en/projects/Q2743739",
+   "https://ghidulmuzeelor.cimec.ro/idEN.asp?k=2138",
+   "https://commons.wikimedia.org/wiki/File:Casa_Dianu.png"
+  ],
+  "verificationNotes": "Unique named building: Casa Dianu, historic monument LMI DJ-II-m-B-07926, built c.1906 for magistrate Dumitru 'Tache' Dianu, bought by Dolj County Council in 2013 and restored/consolidated with POR 2014-2020 funds (contract 2017) to house the Museum of the Book and Romanian Exile (cIMeC museum guide address: Str. 24 Ianuarie 4). OSM way 746340895 (historic=building, name 'Casa Dianu', 24 Ianuarie 4) used for footprint. Note: OSM also has an unrelated way 746406494 named 'Casa Dianu' at Str. Alexandru Ioan Cuza 6 (building=house) – not the museum.",
+  "registerKeys": [
+   "2143cf615d14ece8"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-sf-gheorghe-manastirea-viforata-viforata",
+  "officialName": "Biserica „Nașterea Maicii Domnului” și „Sf. Mare Mucenic Gheorghe” a Mănăstirii Viforâta",
+  "nameHu": null,
+  "altNames": [
+   "Mănăstirea Viforâta",
+   "Viforâta Monastery church"
+  ],
+  "category": "monastery",
+  "address": "Mănăstirea Viforâta, Strada Crucea Onoii, sat Viforâta, comuna Aninoasa, 137007 Dâmbovița",
+  "city": "Viforâta",
+  "county": "Dâmbovița",
+  "country": "Romania",
+  "lat": 44.9736773,
+  "lon": 25.4656819,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "VERIFIED",
+  "osm": {
+   "type": "way",
+   "id": 259073456,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    44.9737238,
+    25.4655398
+   ],
+   [
+    44.9737246,
+    25.4656554
+   ],
+   [
+    44.9737416,
+    25.4656816
+   ],
+   [
+    44.9737439,
+    25.4657254
+   ],
+   [
+    44.9737253,
+    25.4657593
+   ],
+   [
+    44.9737176,
+    25.4657921
+   ],
+   [
+    44.9737068,
+    25.4658216
+   ],
+   [
+    44.9736952,
+    25.4658326
+   ],
+   [
+    44.9736766,
+    25.4658358
+   ],
+   [
+    44.9736627,
+    25.4658293
+   ],
+   [
+    44.9736464,
+    25.4658129
+   ],
+   [
+    44.9736348,
+    25.4657866
+   ],
+   [
+    44.9736309,
+    25.4657647
+   ],
+   [
+    44.9736131,
+    25.4657429
+   ],
+   [
+    44.9736116,
+    25.4656969
+   ],
+   [
+    44.9736302,
+    25.4656652
+   ],
+   [
+    44.9736271,
+    25.4655427
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 23.2,
+   "widthM": 14.7,
+   "bearingDeg": 88.8
+  },
+  "heightHints": "Single-nave trefoil church with two slender octagonal/cylindrical towers (naos + pronaos) topped by copper domes; porch (pridvor) on the west; ~23 x 15 m footprint. Monastery precinct with chilii ranges on three sides.",
+  "photos": 5,
+  "metalVisibleInPhotos": "All five photos (official monastery website, post-restoration) show the new bright copper roof: hipped/conical copper roof over the trefoil body and copper bell-shaped domes on both towers; the surrounding chilii have brown/bronze sheet roofs (not necessarily copper).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/259073456",
+   "https://www.manastireaviforata.ro/Proiect%20european.html",
+   "https://www.manastireaviforata.ro/incinta.html",
+   "https://www.stiripesurse.ro/foto-manastirea-viforata-a-fost-restaurata-si-va-fi-resfintita-pe-30-octombrie_2619755.html",
+   "https://ro.wikipedia.org/wiki/M%C4%83n%C4%83stirea_Vifor%C3%A2ta",
+   "https://www.wikidata.org/wiki/Q12736317"
+  ],
+  "verificationNotes": "church re-consecrated 30 Oct 2022 after restoration (stiripesurse.ro). The 2021 copper supply falls inside the works; post-restoration photos on the monastery site show a new copper roof and copper tower domes, hence VERIFIED. Monastery ensemble LMI DB-II-a-A-17760 (Wikidata Q12736317). OSM: monastery node 1316063068 'Mănăstirea Viforâta' sits on way 259073456 (place_of_worship, ~252 m2) = main church; way 1015326343 nearby (153 m2) is probably the cemetery church 'Sf.",
+  "registerKeys": [
+   "8d7b71a412c2a912"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-manastirea-manastirea",
+  "officialName": "Biserica „Sf. Dumitru și Sf. Nestor” din Mânăstirea",
+  "nameHu": null,
+  "altNames": [
+   "Biserica „Sfântul Dimitrie”, „Sfântul Nestor”",
+   "Biserica lui Matei Basarab din Mânăstirea (fosta mănăstire Cornățel)"
+  ],
+  "category": "church",
+  "address": "Strada Matei Basarab (intersecția DN31 / DJ303), sat Mânăstirea, comuna Mânăstirea, Călărași",
+  "city": "Mânăstirea",
+  "county": "Călărași",
+  "country": "Romania",
+  "lat": 44.2113806,
+  "lon": 26.9035065,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 483774044,
+   "tags": {
+    "addr:city": "Mânăstirea",
+    "addr:street": "Strada Matei Basarab",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Biserica „Sfântul Dimitrie\", „Sfântul Nestor\"",
+    "ref:RO:lmi": "CL-II-m-A-14691",
+    "religion": "christian",
+    "start_date": "1660"
+   }
+  },
+  "footprint": [
+   [
+    44.2114718,
+    26.9036558
+   ],
+   [
+    44.2114213,
+    26.9036868
+   ],
+   [
+    44.211377,
+    26.9036573
+   ],
+   [
+    44.2112655,
+    26.9034025
+   ],
+   [
+    44.2113674,
+    26.903314
+   ],
+   [
+    44.2114809,
+    26.9035822
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.3,
+   "widthM": 13.3,
+   "bearingDeg": 58.6
+  },
+  "heightHints": "Large single-nave church (~29 x 13 m) with one tall octagonal bell tower over the pronaos/west end crowned by a bell-shaped cupola; 1648–1660 (Matei Basarab).",
+  "photos": 3,
+  "metalVisibleInPhotos": "Commons photos are from Sept 2014 (Wiki Loves Monuments), i.e. before the 2021–2022 elZinc Slate supply: they show the earlier grey sheet-metal roof and tower cupola, useful for geometry only. No post-2022 photo found.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/483774044",
+   "https://www.wikidata.org/wiki/Q20432566",
+   "https://ro.wikipedia.org/wiki/Comuna_M%C3%A2n%C4%83stirea,_C%C4%83l%C4%83ra%C8%99i",
+   "https://commons.wikimedia.org/wiki/Category:Saint_Demetrius%27_and_Saint_Nestor%27s_church_in_M%C4%83n%C4%83stirea,_C%C4%83l%C4%83ra%C8%99i"
+  ],
+  "verificationNotes": "OSM (bbox ±3 km) shows only one place of worship inside Mânăstirea village: the historic church 'Sf. Dumitru și Sf. Nestor' (LMI CL-II-m-A-14691, 1648–1660, national-importance monument per ro.wikipedia; Wikidata Q20432566). The other mapped church (way 1169103458, 'Adormirea Maicii Domnului', LMI) lies ~3.3 km NE, outside the village. Roof works not confirmed by a news source (web search budget exhausted), hence PROBABLE.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "elZinc® Slate"
+  ]
+ },
+ {
+  "id": "biserica-neptun-neptun",
+  "officialName": "Biserica „Adormirea Maicii Domnului” din Neptun",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Strada Trandafirilor, Neptun (municipiul Mangalia), Constanța",
+  "city": "Neptun",
+  "county": "Constanța",
+  "country": "Romania",
+  "lat": 43.8631855,
+  "lon": 28.5983065,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 358120845,
+   "tags": {
+    "addr:city": "Neptun",
+    "addr:street": "Strada Trandafirilor",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica „Adormirea Maicii Domnului”",
+    "religion": "christian",
+    "source": "survey"
+   }
+  },
+  "footprint": [
+   [
+    43.8632327,
+    28.5981307
+   ],
+   [
+    43.8632359,
+    28.5982469
+   ],
+   [
+    43.8632423,
+    28.5984767
+   ],
+   [
+    43.8631383,
+    28.5984822
+   ],
+   [
+    43.8631288,
+    28.5981362
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 27.8,
+   "widthM": 11.6,
+   "bearingDeg": 87.8
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no Commons images of the church found; web search budget exhausted).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/358120845"
+  ],
+  "verificationNotes": "OSM (bbox ~±3 km around the resort) contains a single place of worship in Neptun: Romanian Orthodox church 'Adormirea Maicii Domnului' on Strada Trandafirilor (way 358120845, source=survey). Only-church-in-locality rule → PROBABLE; roof works not confirmed by a source.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "aluminium"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-vartop-vartop",
+  "officialName": "Biserica „Nașterea Maicii Domnului” din Vârtop",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "sat Vârtop, Constanța",
+  "city": "Vârtop",
+  "county": "Constanța",
+  "country": "Romania",
+  "lat": 43.8176001,
+  "lon": 28.3857169,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 288611805,
+   "tags": {
+    "addr:city": "Vârtop",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "name": "Biserica „Nașterea Maicii Domnului”",
+    "religion": "christian",
+    "start_date": "1947"
+   }
+  },
+  "footprint": [
+   [
+    43.8176283,
+    28.3855978
+   ],
+   [
+    43.8175518,
+    28.385608
+   ],
+   [
+    43.8175665,
+    28.3858055
+   ],
+   [
+    43.8175833,
+    28.3858345
+   ],
+   [
+    43.8176105,
+    28.3858389
+   ],
+   [
+    43.8176315,
+    28.3858302
+   ],
+   [
+    43.817644,
+    28.3858098
+   ],
+   [
+    43.8176472,
+    28.3857779
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 19.1,
+   "widthM": 9.2,
+   "bearingDeg": 84.1
+  },
+  "heightHints": "OSM start_date 1947.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no Commons images found; web search budget exhausted).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/288611805"
+  ],
+  "verificationNotes": "OSM shows one place of worship in Vârtop: Romanian Orthodox church 'Nașterea Maicii Domnului' (way 288611805, building=church, start_date 1947). Only church of the village → PROBABLE; roof works not confirmed by a source.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "aluminium"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-dragalina-dragalina",
+  "officialName": "Biserica „Sfinții Arhangheli Mihail și Gavriil” din Dragalina",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Strada General Ion Dragalina 40, Dragalina, Călărași",
+  "city": "Dragalina",
+  "county": "Călărași",
+  "country": "Romania",
+  "lat": 44.4344918,
+  "lon": 27.3332078,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 1169292260,
+   "tags": {
+    "addr:city": "Dragalina",
+    "addr:housenumber": "40",
+    "addr:street": "Strada General Ion Dragalina",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "orthodox",
+    "name": "Biserica „Sfinții Arhangheli Mihail și Gavriil\"",
+    "religion": "christian",
+    "start_date": "1978"
+   }
+  },
+  "footprint": [
+   [
+    44.4344036,
+    27.3330458
+   ],
+   [
+    44.4344628,
+    27.3332519
+   ],
+   [
+    44.4344483,
+    27.3333017
+   ],
+   [
+    44.4344696,
+    27.3333542
+   ],
+   [
+    44.4345481,
+    27.3333784
+   ],
+   [
+    44.4345821,
+    27.3332651
+   ],
+   [
+    44.434566,
+    27.3332245
+   ],
+   [
+    44.4345288,
+    27.3332002
+   ],
+   [
+    44.4344731,
+    27.3330066
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 30.9,
+   "widthM": 14.4,
+   "bearingDeg": 60.4
+  },
+  "heightHints": "OSM start_date 1978; footprint ~31 x 14 m.",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no Commons images found; web search budget exhausted).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1169292260",
+   "https://ro.wikipedia.org/wiki/Comuna_Dragalina,_C%C4%83l%C4%83ra%C8%99i"
+  ],
+  "verificationNotes": "2023: 0.5 mm sheets) – probably the same church roofed in stages. OSM (bbox ~±3 km) shows a single place of worship in Dragalina village: Romanian Orthodox church 'Sfinții Arhangheli Mihail și Gavriil', Str. General Ion Dragalina 40, start_date 1978 (way 1169292260).",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "manastirea-tariceni-calarasi",
+  "officialName": "Schitul (Mănăstirea) Tăriceni – Biserica „Sf. Ierarh Nicolae”",
+  "nameHu": null,
+  "altNames": [
+   "Schitul Tăriceni",
+   "Mănăstirea Țăriceni",
+   "Biserica „Sfântul Nicolae” (Tăriceni)"
+  ],
+  "category": "monastery",
+  "address": "sat Tăriceni, comuna Frăsinet, Călărași",
+  "city": "Tăriceni",
+  "county": "Călărași",
+  "country": "Romania",
+  "lat": 44.2999975,
+  "lon": 26.8271399,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 529004187,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "romanian_orthodox",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "name": "Biserica „Sfântul Nicolae”",
+    "ref:RO:lmi": "CL-II-m-B-14722",
+    "religion": "christian",
+    "start_date": "1830"
+   }
+  },
+  "footprint": [
+   [
+    44.2999878,
+    26.8270002
+   ],
+   [
+    44.2999129,
+    26.8270833
+   ],
+   [
+    44.2999801,
+    26.8272469
+   ],
+   [
+    44.3000031,
+    26.8272577
+   ],
+   [
+    44.3000358,
+    26.827255
+   ],
+   [
+    44.3000569,
+    26.8272335
+   ],
+   [
+    44.3000723,
+    26.8272013
+   ],
+   [
+    44.3000742,
+    26.8271611
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 19.5,
+   "widthM": 12.5,
+   "bearingDeg": 53.1
+  },
+  "heightHints": "Church dated 1830 (OSM start_date, LMI CL-II-m-B-14722).",
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no Commons/Wikidata image; web search budget exhausted).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/529004187",
+   "https://www.openstreetmap.org/way/1169932487",
+   "https://www.wikidata.org/wiki/Q42872135",
+   "https://adevarul.ro/stiri-locale/calarasi/exclusiv-manastirea-tariceni-reinvie-dupa-1258633.html"
+  ],
+  "verificationNotes": "the monastery is in Tăriceni village, Frăsinet commune, Călărași county (not the city). OSM: monastery precinct 'Schitul Tăriceni' (way 1169932487, ~1.8 ha) containing the church 'Sfântul Nicolae' (way 529004187, LMI CL-II-m-B-14722, 1830; Wikidata Q42872135 'Biserica „Sf. Ierarh Nicolae”'). Adevărul reports the monastery being revived by the Diocese of Slobozia and Călărași after an earlier scandal and thefts. The 2019 copper sheets plausibly went to the church roof, but which building got the copper is not confirmed → PROBABLE. lat/lon = church centroid.",
+  "registerKeys": [
+   "2c09189021e10d23"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-chilia-veche-chilia-veche",
+  "officialName": "Biserică (neidentificată) – Chilia Veche",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Chilia Veche, Tulcea",
+  "city": "Chilia Veche",
+  "county": "Tulcea",
+  "country": "Romania",
+  "lat": 45.4141658,
+  "lon": 29.2891938,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/342506461",
+   "https://www.openstreetmap.org/way/342516388",
+   "https://www.wikidata.org/wiki/Q43135262",
+   "https://ro.wikipedia.org/wiki/Chilia_Veche,_Tulcea",
+   "https://commons.wikimedia.org/wiki/File:ChiliaVeche.jpg"
+  ],
+  "verificationNotes": "Two places of worship are mapped in Chilia Veche village: (1) Romanian Orthodox church 'Sfinții Arhangheli Mihail și Gavriil' / 'Sfinții Voievozi' (OSM way 342506461, ~34 x 23 m, LMI TL-II-m-A-21029, Wikidata Q43135262), 19th c., twin west towers ~45 m with onion domes – the village landmark (on the commune coat of arms); an older Commons photo shows its metal domes rusting, so it is the most plausible recipient of the 0.5 mm copper strip; (2) an unnamed place_of_worship (way 342516388, ~20 x 8 m, ~700 m SSW, denomination unknown). No news/parish source could be checked (web search budget exhausted), so per the several-churches rule this stays UNRESOLVED; lat/lon = village centre (OSM place node 267339334; the wave-2 coordinates 45.3247/29.3367 were the commune-boundary centroid in the delta). Best candidate if later confirmed: way 342506461, centroid 45.42176, 29.28576.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-parohia-sfantul-ioan-botezatorul-ramnicu-valcea",
+  "officialName": "Biserica Parohiei „Sfântul Ioan Botezătorul” din Râmnicu Vâlcea",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sfântul Ioan Botezătorul"
+  ],
+  "category": "church",
+  "address": "Calea lui Traian 100 (corner Strada Dacia), 1 Mai, Râmnicu Vâlcea",
+  "city": "Râmnicu Vâlcea",
+  "county": "Vâlcea",
+  "country": "Romania",
+  "lat": 45.097887,
+  "lon": 24.3634087,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 342286925,
+   "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "check_date": "2023-12-30",
+    "denomination": "orthodox",
+    "name": "Biserica Sfântul Ioan Botezătorul",
+    "religion": "christian"
+   }
+  },
+  "footprint": [
+   [
+    45.0979832,
+    24.3632624
+   ],
+   [
+    45.0978677,
+    24.3632088
+   ],
+   [
+    45.0978085,
+    24.3634638
+   ],
+   [
+    45.0978014,
+    24.3635038
+   ],
+   [
+    45.0978032,
+    24.3635477
+   ],
+   [
+    45.097823,
+    24.3635826
+   ],
+   [
+    45.0978618,
+    24.3636024
+   ],
+   [
+    45.0978938,
+    24.3635944
+   ],
+   [
+    45.0979158,
+    24.3635624
+   ],
+   [
+    45.0979302,
+    24.3635156
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 29.6,
+   "widthM": 14.1,
+   "bearingDeg": 108.1
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no Commons images found; web search budget exhausted).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/342286925",
+   "https://www.openstreetmap.org/node/2675756475"
+  ],
+  "verificationNotes": "Named parish. Nominatim/OSM return a single church of this dedication in Râmnicu Vâlcea: Orthodox 'Biserica Sfântul Ioan Botezătorul' (way 342286925, building=church, ~30 x 14 m; POI node 2675756475 with addr Calea lui Traian 100). It is not in Wikidata/LMI within 1 km, i.e. apparently not a listed monument. Strong name match → PROBABLE; the 2023 copper roof works are not confirmed by a source.",
+  "registerKeys": [
+   "e7cb251dc08077c3"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "casa-armatei-constanta",
+  "officialName": "Cercul Militar Constanța (fosta Prefectură a județului Constanța)",
+  "nameHu": null,
+  "altNames": [
+   "Casa Armatei Constanța",
+   "Military House of Constanța",
+   "Cazarma 2500"
+  ],
+  "category": "historic",
+  "address": "Strada Traian 29, 900743 Constanța (Peninsula / Centrul Vechi)",
+  "city": "Constanța",
+  "county": "Constanța",
+  "country": "Romania",
+  "lat": 44.1752078,
+  "lon": 28.6542861,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "relation",
+   "id": 3071358,
+   "tags": {
+    "addr:city": "Constanța",
+    "addr:housenumber": "29",
+    "addr:postcode": "900743",
+    "addr:postcode:source": "Date de la Poșta Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la http://date.gov.ro/organization/posta-romana",
+    "addr:street": "Strada Traian",
+    "building": "yes",
+    "heritage": "2",
+    "heritage:operator": "lmi",
+    "military": "office",
+    "name": "Cercul Militar Constanța",
+    "operator": "Ministerul Apărării Naționale",
+    "ref": "Cazarma 2500",
+    "ref:RO:lmi": "CT-II-m-A-02856",
+    "start_date": "1912",
+    "type": "multipolygon"
+   }
+  },
+  "footprint": [
+   [
+    44.1750836,
+    28.6540547
+   ],
+   [
+    44.1753878,
+    28.6541427
+   ],
+   [
+    44.1753319,
+    28.6545176
+   ],
+   [
+    44.1750278,
+    28.6544295
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 34.5,
+   "widthM": 30.5,
+   "bearingDeg": 11.7
+  },
+  "heightHints": "Two storeys on a raised basement (early-20th-c. postcard), hipped/mansard roof with small dormers, tall chimneys; OSM start_date 1912; footprint ~34.5 x 30.5 m (≈1,055 m2).",
+  "photos": 1,
+  "metalVisibleInPhotos": "Only an early-20th-century public-domain postcard (Praefektur) is available: it shows the original hipped roof with dormers and chimneys (sheet-metal look), not the 2018–2019 zinc works. No recent exterior photo found on Commons.",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/relation/3071358",
+   "https://www.wikidata.org/wiki/Q18538854",
+   "https://commons.wikimedia.org/wiki/Category:Military_House_of_Constan%C8%9Ba"
+  ],
+  "verificationNotes": "Constanța's army house is the Cercul Militar (Military Circle/House), Str. Traian 29 – OSM relation 3071358 (military=office, operator MApN, ref 'Cazarma 2500', LMI CT-II-m-A-02856, start_date 1912); Wikidata Q18538854 'Cercul militar Constanța', whose Commons category is 'Military House of Constanța' (= Casa Armatei); the building is the former county Prefecture. Name/function match is strong but roof works are not confirmed by a source → PROBABLE.",
+  "registerKeys": [
+   "66bf259810109e6a"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "centrul-de-varstnici-turnu-magurele",
+  "officialName": "Centrul Recreativ pentru Persoane Vârstnice Turnu Măgurele (fostul imobil „Centru Administrativ”)",
+  "nameHu": null,
+  "altNames": [
+   "Centrul de vârstnici",
+   "Centrul Recreativ pentru Vârstnici"
+  ],
+  "category": "cultural",
+  "address": "lângă Parcul Independenței / Primăria (Str. Republicii 2), Turnu Măgurele, Teleorman",
+  "city": "Turnu Măgurele",
+  "county": "Teleorman",
+  "country": "Romania",
+  "lat": 43.74567,
+  "lon": 24.86646,
+  "geographicAccuracy": "site",
+  "identificationConfidence": "PROBABLE",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (none found; web search budget exhausted).",
+  "sourceUrls": [
+   "https://www.municipiulturnumagurele.ro/wp-content/uploads/2024/04/Scurta-descriere-proiect_125207.pdf",
+   "https://www.openstreetmap.org/way/589398156",
+   "https://en.wikipedia.org/wiki/Turnu_M%C4%83gurele_Courthouse"
+  ],
+  "verificationNotes": "Institution identified: POR 2014-2020 project SMIS 125207 'Îmbunătățirea calității vieții persoanelor vârstnice cu sprijinul Centrului Recreativ și mediul aferent în municipiul Turnu Măgurele' (01.05.2018–30.06.2024) rehabilitates the 'imobil Centru Administrativ' (counted as a rehabilitated monument) into the Recreation Centre for Elderly People and re-landscapes Parcul Independenței – timing matches the 2022-2023 natural titanium-zinc order. The project's Stereo 70 points for the centre (N 249522.411 / E 489390.249 and N 249497.051 / E 489365.056) convert (Krasovsky + 7-param towgs84) to 43.74567, 24.86646 and 43.74544, 24.86614 – just W of the town hall, next to the courthouse; conversion checked against the youth-centre point (Casa Prefectului) ≈30–50 m off. The first point falls inside OSM way 589398156 (~31 x 18.5 m, tagged building=apartments, untagged otherwise) – a plausible but unconfirmed match, so no footprint is given; lat/lon = converted point 1 (site accuracy).",
+  "registerKeys": [
+   "d41617423cd9643a"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "oficiul-de-cadastru-braila",
+  "officialName": "Oficiul de Cadastru și Publicitate Imobiliară Brăila (OCPI Brăila)",
+  "nameHu": null,
+  "altNames": [
+   "Oficiul de Cadastru Brăila",
+   "OCPI Brăila"
+  ],
+  "category": "commercial",
+  "address": "Calea Călărașilor (house number not in OSM), Centru, 810017 Brăila",
+  "city": "Brăila",
+  "county": "Brăila",
+  "country": "Romania",
+  "lat": 45.2677335,
+  "lon": 27.9732125,
+  "geographicAccuracy": "building",
+  "identificationConfidence": "PROBABLE",
+  "osm": {
+   "type": "way",
+   "id": 209242641,
+   "tags": {
+    "building": "yes",
+    "government": "cadaster",
+    "name": "Oficiul de Cadastru Brăila",
+    "office": "government"
+   }
+  },
+  "footprint": [
+   [
+    45.2678348,
+    27.9732374
+   ],
+   [
+    45.267768,
+    27.9733502
+   ],
+   [
+    45.2676321,
+    27.9731877
+   ],
+   [
+    45.2676989,
+    27.9730749
+   ]
+  ],
+  "footprintDims": {
+   "lengthM": 19.8,
+   "widthM": 11.5,
+   "bearingDeg": 40.1
+  },
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (no Commons images of the building; web search budget exhausted).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/209242641"
+  ],
+  "verificationNotes": "OSM has exactly one matching object: way 209242641 'Oficiul de Cadastru Brăila' (office=government, government=cadaster, building, ~20 x 11.5 m, Calea Călărașilor, Brăila historic centre). Name match → PROBABLE; the zinc roof works and the official OCPI street number were not confirmed (ANCPI contact pages unreachable). Category set to commercial (office building; no office category exists).",
+  "registerKeys": [
+   "3c92fb410160ddfe"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "fostul-spital-orasenesc-muzeu-segarcea",
+  "officialName": "Fostul spital orășenesc transformat în muzeu (neidentificat) – Segarcea",
+  "nameHu": null,
+  "altNames": [],
+  "category": "museum",
+  "address": "Segarcea, Dolj",
+  "city": "Segarcea",
+  "county": "Dolj",
+  "country": "Romania",
+  "lat": 44.093048,
+  "lon": 23.746887,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [
+   "https://betacity.eu/generate-pdf/416",
+   "https://primariasegarcea.ro/oras/turism/",
+   "https://www.openstreetmap.org/way/310636141"
+  ],
+  "verificationNotes": "No museum in a former hospital building could be found in Segarcea (town-hall tourism page lists none; OSM has no museum). Best candidate, not matching the 'museum' wording: the Spitalul Orășenesc Segarcea complex, Str. Unirii 50 (OSM way 310636141, centre ≈44.0995, 23.7428), whose historic core is the former Royal Palace (arch. Alexandru Baucher, late 19th c.; hospital since 1956, now Pavilionul Ambulatoriu), destroyed by fire on 1 Jan 2015 and rebuilt/extended by Getrix SA (arch. The 2021 natural-zinc order fits that timeline, but the palace's main roofs look dark (slate-like) in the award photos; zinc would only fit canopies/flashings. Which hospital building (OSM ways 310636143/144/157/161 are unnamed) is the palace was not established. Left UNRESOLVED; lat/lon = town centre.",
+  "registerKeys": [
+   "81e5a539a5de2122"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-grumazesti-gurbanesti",
+  "officialName": "Biserica „Grumăzești” (neidentificată) – Gurbănești",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Gurbănești, Călărași (per register location)",
+  "city": "Gurbănești",
+  "county": "Călărași",
+  "country": "Romania",
+  "lat": 44.379553,
+  "lon": 26.692303,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/1170885697",
+   "https://www.openstreetmap.org/way/1170885685"
+  ],
+  "verificationNotes": "If Gurbănești is right: OSM shows one church in Gurbănești village – Orthodox 'Adormirea Maicii Domnului', Str. Bisericii 3, start_date 1996 (way 1170885697, ~27 x 16 m) – plus 'Sf. Nicolae' (1881) in neighbouring Coțofanca (way 1170885685). Not resolvable without a news/parish source (web search budget exhausted); lat/lon = Gurbănești per wave-2 data.",
+  "registerKeys": [
+   "4a46dfa3fba4445e"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "episcopia-sloboziei-si-calarasilor-calarasi",
+  "officialName": "Episcopia Sloboziei și Călărașilor (clădire neidentificată)",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Călărași (per register); diocesan seat: Strada Episcopiei 2, Slobozia, Ialomița",
+  "city": "Călărași",
+  "county": "Călărași",
+  "country": "Romania",
+  "lat": 44.196165,
+  "lon": 27.331323,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/256545387",
+   "https://www.openstreetmap.org/way/1573397785",
+   "https://www.openstreetmap.org/way/194289288",
+   "https://en.wikipedia.org/wiki/Diocese_of_Slobozia_and_C%C4%83l%C4%83ra%C8%99i"
+  ],
+  "verificationNotes": "The diocese's seat is in Slobozia (Ialomița): OSM way 256545387 'Episcopia Sloboziei și Călărașilor', Str. Episcopiei 2, with the 'Centrul Eparhial' building (way 1573397785) and the episcopal cathedral 'Înălțarea Domnului'. In Călărași city the main candidate is 'Catedrala Ortodoxă Călărași' (way 194289288, ~31 x 17.5 m). The diocese also coordinates works at its monasteries (e.g. Which building received the copper could not be established → UNRESOLVED;",
+  "registerKeys": [
+   "d4900e573deb8e17"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "foisor-in-parcul-tineretului-turnu-magurele",
+  "officialName": "Foișor în Parcul Tineretului (neidentificat) – Turnu Măgurele",
+  "nameHu": null,
+  "altNames": [],
+  "category": "cultural",
+  "address": "Turnu Măgurele, Teleorman",
+  "city": "Turnu Măgurele",
+  "county": "Teleorman",
+  "country": "Romania",
+  "lat": 43.751831,
+  "lon": 24.869172,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [
+   "https://municipiulturnumagurele.ro/wp-content/uploads/2023/12/Scurta-descriere-proiect_124772.pdf",
+   "https://www.openstreetmap.org/way/1383961078",
+   "https://www.openstreetmap.org/way/1383961079"
+  ],
+  "verificationNotes": "No park named 'Parcul Tineretului' exists in OSM for Turnu Măgurele, and no gazebo is mapped. Hypothesis (unconfirmed): the garden of the new Youth Centre ('Centru de Tineret și grădina adiacentă', POR SMIS 124772, 2018–2023) in the listed Casa Prefectului, Calea Dunării 1 (LMI TR-II-m-B-14490) – OSM park way 1383961078 (~0.3 ha, centre 43.74592, 24.86961) beside 'Centrul de tineret' (way 1383961079). A gazebo there would fit the 2022 natural-zinc + snow-guard order, but nothing confirms it → UNRESOLVED; lat/lon = town centre.",
+  "registerKeys": [
+   "b6d2d56db50eb2c7"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-lumina-lumina",
+  "officialName": "Biserică (neidentificată) – Lumina",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Lumina, Constanța",
+  "city": "Lumina",
+  "county": "Constanța",
+  "country": "Romania",
+  "lat": 44.2939229,
+  "lon": 28.5663032,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/430787570",
+   "https://www.openstreetmap.org/way/1181882180",
+   "https://www.openstreetmap.org/way/1181882184"
+  ],
+  "verificationNotes": "Lumina village has three mapped places of worship: Orthodox 'Sfinții Apostoli Petru și Pavel' (way 430787570, start_date 2009, ~23 x 17 m – a recent church, the multi-year 2020–2023 copper supply would fit a church still being finished); an unnamed Orthodox place of worship (way 1181882180, ~22.5 x 9.6 m, ~600 m S); and the Roman Catholic 'Sfinții Apostoli Petru și Pavel' (way 1181882184, 2015). Oituz village of the same commune also has two churches. With several candidates and no news source checked (web search budget exhausted) → UNRESOLVED. lat/lon = Lumina village node (the wave-2 coordinates 44.3257/28.5347 were the commune-boundary centroid). Best candidate: way 430787570 (44.29377, 28.56687).",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ },
+ {
+  "id": "biserica-costesti-costesti",
+  "officialName": "Biserică (neidentificată) – Costești",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Costești (county not given in the register; wave-2 assumed Argeș)",
+  "city": "Costești",
+  "county": "Argeș",
+  "country": "Romania",
+  "lat": 44.662023,
+  "lon": 24.87701,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [],
+  "verificationNotes": null,
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": [
+   "Cu-DHP copper"
+  ]
+ },
+ {
+  "id": "biserica-draganesti-vlasca-draganesti-vlasca",
+  "officialName": "Biserică (neidentificată) – Drăgănești-Vlașca",
+  "nameHu": null,
+  "altNames": [],
+  "category": "church",
+  "address": "Drăgănești-Vlașca, Teleorman",
+  "city": "Drăgănești-Vlașca",
+  "county": "Teleorman",
+  "country": "Romania",
+  "lat": 44.102052,
+  "lon": 25.599404,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/way/216416442",
+   "https://www.openstreetmap.org/way/1503979936",
+   "https://manastirea-pantocrator.ro/"
+  ],
+  "verificationNotes": "Several Orthodox candidates in Drăgănești-Vlașca: parish church 'Sf. Nicolae' in the village centre (way 216416442, ~28 x 13 m) and the new Mănăstirea Pantocrator on Șos. Videle/DJ503 (founded 2012; church building way 1503979936, ~31 x 19 m – a large recent church, plausible for a 2022 zinc roof), plus an Adventist church. The monastery website gives no construction/roof details; no other source could be checked (web search budget exhausted) → UNRESOLVED; lat/lon = locality centre.",
+  "registerKeys": [
+   "8230104eb3c4a9ae"
+  ],
+  "registerMetals": [
+   "titanium-zinc"
+  ],
+  "registerProducts": [
+   "Titanium-zinc, natural"
+  ]
+ },
+ {
+  "id": "biserica-sf-achim-si-ana-stefanesti",
+  "officialName": "Biserica „Sfinții Ioachim și Ana” (neidentificată) – Ștefănești, Ilfov",
+  "nameHu": null,
+  "altNames": [
+   "Biserica Sf. Ioachim și Ana"
+  ],
+  "category": "church",
+  "address": "Ștefăneștii de Jos / Ștefăneștii de Sus, Ilfov (register: 'Stefanesti IF')",
+  "city": "Ștefăneștii de Jos",
+  "county": "Ilfov",
+  "country": "Romania",
+  "lat": 44.5331416,
+  "lon": 26.2029838,
+  "geographicAccuracy": "locality",
+  "identificationConfidence": "UNRESOLVED",
+  "osm": null,
+  "footprint": null,
+  "footprintDims": null,
+  "heightHints": null,
+  "photos": 0,
+  "metalVisibleInPhotos": "No photos saved (UNRESOLVED).",
+  "sourceUrls": [
+   "https://www.openstreetmap.org/node/8014205638",
+   "https://www.openstreetmap.org/way/1171542832"
+  ],
+  "verificationNotes": "The Ștefăneștii de Jos / Ștefăneștii de Sus area (Ilfov) has several mapped Orthodox churches – 'Sf. Arhangheli Mihail și Gavriil' (way 859822778), 'Sf. Nicolae' (LMI IF-II-m-B-15314, way 1172405286), 'Sf. Împărați Constantin și Elena, Sf. Nicolae' (LMI IF-II-m-B-15278), 'Sf. Gheorghe și Sf. Fotini' (way 1114831458) and an undedicated 'Biserica Ortodoxă Ștefăneștii de Sus' (node 8014205638) – none tagged 'Sf. Ioachim și Ana'. The only Ilfov church with that dedication in OSM is in Vârteju (Măgurele town; Not resolvable → UNRESOLVED; lat/lon = Ștefăneștii de Jos commune centroid.",
+  "registerKeys": [
+   "ca9c2423cd4e1dbb"
+  ],
+  "registerMetals": [
+   "copper"
+  ],
+  "registerProducts": []
+ }
+]
