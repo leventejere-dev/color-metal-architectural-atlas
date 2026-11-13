@@ -88,6 +88,9 @@ interface State {
   /** walk-around mode: a true-scale figure explores the selected building from outside */
   walk: { active: boolean; eye: boolean; run?: boolean; car?: boolean }
   setWalk: (w: Partial<{ active: boolean; eye: boolean; run: boolean; car: boolean }>) => void
+  /** driving: a building picked (list, search, drive bar) → the truck travels there */
+  driveTo: string | null
+  setDriveTo: (id: string | null) => void
   /** colour theme of the interface and the scene background */
   theme: 'light' | 'dark'
   setTheme: (t: 'light' | 'dark') => void
@@ -158,6 +161,8 @@ export const useStore = create<State>((set, get) => ({
   setAutoOrbit: (autoOrbit) => set({ autoOrbit }),
   walk: { active: false, eye: false },
   setWalk: (w) => set({ walk: { ...get().walk, ...w }, autoOrbit: false }),
+  driveTo: null,
+  setDriveTo: (driveTo) => set({ driveTo }),
   tour: { active: false, playing: false, ids: [], index: 0, route: 'all' },
   startTour: (ids, route) => set({ tour: { active: true, playing: true, ids, index: 0, route } }),
   stopTour: () => set({ tour: { ...get().tour, active: false, playing: false } }),
@@ -170,6 +175,11 @@ export const useStore = create<State>((set, get) => ({
   },
   select: (id, opts = {}) => {
     const { fly = true, inspect = false, instant = false } = opts
+    // driving: picking a building (list, search, drive bar) sends the truck there instead
+    if (id && get().walk.active && get().walk.car) {
+      set({ driveTo: id })
+      return
+    }
     if (id === null) {
       set({ selectedId: null, mode: 'map', context: 'geo', autoOrbit: false, walk: { active: false, eye: false }, gallery: { open: false, index: 0, compare: false } })
       return

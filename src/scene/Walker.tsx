@@ -1,27 +1,25 @@
 /**
- * Walk-around (on foot) and drive (COLOR METAL flatbed truck) modes.
+ * Walk-around (on foot) and drive (COLOR METAL flatbed truck) modes — always at true scale (1:1);
+ * while walking or driving every building on the map stands at its real size too.
  *
- * On foot: a 1.75 m figure at true scale (1:1) around the selected building — click / tap to
- * walk there, W A S D / arrows (Shift or the run toggle = run), drag to look around, optional
- * eye level. No invisible limits: off the levelled plateau the figure follows the terrain.
+ * On foot: a 1.75 m figure around the selected building — click / tap to walk there, W A S D /
+ * arrows (Shift or the run toggle = run), drag to look around, optional eye level. No invisible
+ * limits: off the levelled plateau the figure follows the terrain.
  *
- * By truck: across the whole country, from reference building to reference building.
- * W / S throttle · brake / reverse, A / D steer, Space = handbrake (drift), Shift = turbo,
- * wheel or + / − = travel scale, click / tap = drive there; chase or cab view.
- * The travel scale follows the chase distance with the same rule as the miniatures: close
- * up the truck is at true scale (1:1) beside true-scale buildings; zoomed out it becomes a
- * symbolic map vehicle that crosses Romania in well under a minute. The only boundary is the
- * visible edge of the relief.
+ * By truck: anywhere on the relief (the slab edge is the only boundary). W / S throttle · brake /
+ * reverse, A / D steer, Space = handbrake (drift), Shift = turbo, click / tap the ground = drive
+ * there. Camera: the wheel (or pinch, or + / −) zooms onto the truck, dragging orbits around it,
+ * chase or cab view. Long distances: pick a building in the list / search or in the drive bar and
+ * the truck makes a fast hyperlapse drive to it, arriving beside its main façade.
  *
- * Collisions: near a building the model is sliced at 0.4 m and 1.2 m into a 20 cm occupancy
- * grid (figure and truck bounce off walls instead of passing through); far symbolic
- * miniatures are round obstacles.
+ * Collisions: near a building the model is sliced at 0.4 m and 1.2 m into a 20 cm occupancy grid,
+ * so the figure and the truck bounce off walls instead of passing through.
  */
 import { useEffect, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
 import { useStore } from '../state/store'
-import { allMinis, getMini, symbolicPx, trueCentre, type Mini } from './Miniatures'
+import { allMinis, getMini, trueCentre, type Mini } from './Miniatures'
 import { groundY, runtime } from './runtime'
 import { makeFigure, type Figure } from './figure'
 import { makeCar, CAR_DIMS, CAR_EYE, type Car } from './car'
@@ -32,7 +30,7 @@ const WALK = 1.4 // m/s
 const RUN = 6.5 // m/s (fast run)
 const HEAD = 1.62 // m (camera target)
 
-// truck (arcade bicycle model, car-space metres and m/s; the world step is scaled by the travel scale)
+// truck (arcade bicycle model, metres and m/s)
 const V_MAX = 30 // m/s ≈ 108 km/h
 const V_TURBO = 46 // m/s ≈ 165 km/h
 const ACC = 9
@@ -40,8 +38,10 @@ const ACC_TURBO = 16
 const BRAKE = 18
 const REV = 7
 const SKIDS = 1600
-const CHASE_D = 0.017 // km behind the truck at true scale (travel zoom 1)
-const ZOOM_MAX = 4000
+const K = 0.001 // km per metre
+/** chase distance (km) at zoom 1, and the zoom range: ≈ 6 m … 600 m from the truck */
+const CHASE_D = 0.0125
+export const DRIVE_ZOOM = { min: 0.5, max: 48 }
 
 interface Grid {
   n: number
@@ -135,6 +135,14 @@ function truckPts(): [number, number][] {
   ]
 }
 
+/** turn-local (model metres, at true scale) → world km */
+function localToWorld(m: Mini, lx: number, lz: number) {
+  const th = m.turn.rotation.y
+  return new THREE.Vector2(m.tx + (lx * Math.cos(th) + lz * Math.sin(th)) * K, m.tz + (-lx * Math.sin(th) + lz * Math.cos(th)) * K)
+}
+
+const angDiff = (a: number, b: number) => Math.atan2(Math.sin(a - b), Math.cos(a - b))
+
 interface FootState {
   kind: 'foot'
   m: Mini
@@ -149,6 +157,17 @@ interface FootState {
   phase: number
   speed: number
 }
+interface Hyperlapse {
+  id: string
+  from: THREE.Vector2
+  to: THREE.Vector2
+  yaw0: number
+  yaw1: number
+  t: number
+  dur: number
+  /** camera distance (km) at mid-route: a following drone shot */
+  dMid: number
+}
 interface TruckState {
   kind: 'car'
   group: THREE.Group
@@ -158,7 +177,7 @@ interface TruckState {
   /** world km (x, z); yaw: forward = (sin yaw, cos yaw) */
   pos: THREE.Vector2
   yaw: number
-  /** car-space velocity (m/s) in world directions */
+  /** velocity (m/s) in world directions */
   vel: THREE.Vector2
   vF0: number
   vL0: number
@@ -166,15 +185,18 @@ interface TruckState {
   spin: number
   pitch: number
   roll: number
-  /** chase distance (km) and travel scale */
+  /** chase distance (km), camera heading (smoothed) and the user's orbit offsets */
   dCam: number
-  S: number
-  cam: THREE.Vector3 | null
+  camYaw: number
+  orbitYaw: number
+  orbitPitch: number
+  dragT: number
   target: THREE.Vector2 | null
   skids: THREE.InstancedMesh
   skidN: number
   skidT: number
   grids: Map<string, Grid>
+  auto: Hyperlapse | null
   /** selection when the drive started (a new selection on exit means a flight is already under way) */
   selAtStart: string | null
 }
@@ -190,12 +212,13 @@ export function Walker() {
   const eye = useStore((s) => s.walk.eye)
   const carMode = useStore((s) => !!s.walk.car)
   const selectedId = useStore((s) => s.selectedId)
-  const { camera, gl, scene, size } = useThree()
+  const { camera, gl, scene } = useThree()
   const st = useRef<State | null>(null)
   const keys = useRef(new Set<string>())
   const pending = useRef(false)
+  const dragging = useRef(false)
 
-  // keyboard (+ / − set the truck's travel scale)
+  // keyboard (+ / − zoom onto the truck)
   useEffect(() => {
     if (!active) return
     const isTyping = (e: KeyboardEvent) => (e.target as HTMLElement)?.closest?.('input, textarea, select')
@@ -204,8 +227,8 @@ export function Walker() {
       keys.current.add(e.code)
       if (e.code.startsWith('Arrow') || e.code === 'Space') e.preventDefault()
       if (useStore.getState().walk.car) {
-        if (e.code === 'Equal' || e.code === 'NumpadAdd') runtime.driveZoom = Math.max(1, runtime.driveZoom / 1.6)
-        if (e.code === 'Minus' || e.code === 'NumpadSubtract') runtime.driveZoom = Math.min(ZOOM_MAX, runtime.driveZoom * 1.6)
+        if (e.code === 'Equal' || e.code === 'NumpadAdd') runtime.driveZoom = Math.max(DRIVE_ZOOM.min, runtime.driveZoom / 1.5)
+        if (e.code === 'Minus' || e.code === 'NumpadSubtract') runtime.driveZoom = Math.min(DRIVE_ZOOM.max, runtime.driveZoom * 1.5)
       }
     }
     const up = (e: KeyboardEvent) => keys.current.delete(e.code)
@@ -246,19 +269,19 @@ export function Walker() {
       st.current = null
       runtime.flatSite = null
       runtime.driveNear = null
-      runtime.driveScale = 1
+      runtime.driveAuto = null
       const store = useStore.getState()
       if (store.walk.active) return // switching to foot
       if (store.selectedId && store.selectedId !== s.selAtStart) return // opened another building: its flight is under way
       // back at the selected building → its model view; anywhere else → the map above the truck
       const sel = getMini(store.selectedId)
-      const near = sel && Math.hypot(sel.tx - s.pos.x, sel.tz - s.pos.y) < 0.35 && s.S < 2
+      const near = sel && Math.hypot(sel.tx - s.pos.x, sel.tz - s.pos.y) < 0.35
       if (near) store.command({ kind: 'preset', preset: 'reset' })
       else {
         if (store.selectedId) store.select(null, { fly: false })
         const c = runtime.controls
         if (c) {
-          const d = Math.max(2.6, s.dCam * 3)
+          const d = 2.6
           const gy = groundY(s.pos.x, s.pos.y) ?? 0
           const az = c.azimuthAngle
           const pol = 0.85
@@ -268,13 +291,16 @@ export function Walker() {
     }
   }, [active, selectedId, carMode, scene])
 
-  // pointer: hover ring + click / tap to walk or drive there; wheel = travel scale
+  // pointer: hover ring + click / tap to walk or drive there; truck: drag = orbit, wheel / pinch = zoom
   useEffect(() => {
     if (!active) return
     const el = gl.domElement
     const ray = new THREE.Raycaster()
     const ndc = new THREE.Vector2()
+    const pointers = new Map<number, { x: number; y: number }>()
     let downAt: [number, number] | null = null
+    let pinch0 = 0
+    let zoom0 = 1
     const groundHit = (e: PointerEvent) => {
       const s = st.current
       if (!s) return null
@@ -290,25 +316,58 @@ export function Walker() {
       const hit = ray.ray.intersectPlane(plane, new THREE.Vector3())
       return hit ? s.m.turn.worldToLocal(hit) : null
     }
+    const pinchDist = () => {
+      const [a, b] = [...pointers.values()]
+      return Math.hypot(a.x - b.x, a.y - b.y)
+    }
     const move = (e: PointerEvent) => {
       const s = st.current
-      if (!s || e.buttons) return
+      if (!s) return
+      const prev = pointers.get(e.pointerId)
+      if (s.kind === 'car' && prev) {
+        const dx = e.clientX - prev.x
+        const dy = e.clientY - prev.y
+        pointers.set(e.pointerId, { x: e.clientX, y: e.clientY })
+        if (pointers.size >= 2) {
+          const d = pinchDist()
+          if (pinch0 > 0 && d > 0) runtime.driveZoom = THREE.MathUtils.clamp((zoom0 * pinch0) / d, DRIVE_ZOOM.min, DRIVE_ZOOM.max)
+        } else if (downAt && Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 4) {
+          dragging.current = true
+          s.orbitYaw -= dx * 0.0065
+          s.orbitPitch = THREE.MathUtils.clamp(s.orbitPitch + dy * 0.0045, -0.24, 1.15)
+          s.dragT = 0
+        }
+        return
+      }
+      if (e.buttons) return
       const p = groundHit(e)
       s.ring.visible = !!p
       if (!p) return
       if (s.kind === 'car') {
-        s.ring.position.set(p.x, p.y + 0.00004 * s.S, p.z)
-        s.ring.scale.setScalar(0.001 * s.S)
+        s.ring.position.set(p.x, p.y + 0.00004, p.z)
+        s.ring.scale.setScalar(K)
       } else s.ring.position.set(p.x, 0.03, p.z)
     }
-    const down = (e: PointerEvent) => (downAt = [e.clientX, e.clientY])
+    const down = (e: PointerEvent) => {
+      downAt = [e.clientX, e.clientY]
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY })
+      if (pointers.size === 2) {
+        pinch0 = pinchDist()
+        zoom0 = runtime.driveZoom
+      }
+    }
     const upH = (e: PointerEvent) => {
-      if (!downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 6) return
+      pointers.delete(e.pointerId)
+      if (pointers.size < 2) pinch0 = 0
+      const wasDrag = dragging.current
+      dragging.current = false
+      if (wasDrag || !downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 6) return
       const p = groundHit(e)
       const s = st.current
       if (!p || !s) return
-      if (s.kind === 'car') s.target = new THREE.Vector2(p.x, p.z)
-      else if (!blocked(s.grid, p.x, p.z)) {
+      if (s.kind === 'car') {
+        if (!s.auto) s.target = new THREE.Vector2(p.x, p.z)
+      } else if (!blocked(s.grid, p.x, p.z)) {
         s.target = new THREE.Vector2(p.x, p.z)
         s.stuck = 0
       }
@@ -316,16 +375,18 @@ export function Walker() {
     const wheel = (e: WheelEvent) => {
       if (!useStore.getState().walk.car) return
       e.preventDefault()
-      runtime.driveZoom = THREE.MathUtils.clamp(runtime.driveZoom * Math.exp(e.deltaY * 0.0016), 1, ZOOM_MAX)
+      runtime.driveZoom = THREE.MathUtils.clamp(runtime.driveZoom * Math.exp(e.deltaY * 0.0015), DRIVE_ZOOM.min, DRIVE_ZOOM.max)
     }
     el.addEventListener('pointermove', move)
     el.addEventListener('pointerdown', down)
     el.addEventListener('pointerup', upH)
+    el.addEventListener('pointercancel', upH)
     el.addEventListener('wheel', wheel, { passive: false })
     return () => {
       el.removeEventListener('pointermove', move)
       el.removeEventListener('pointerdown', down)
       el.removeEventListener('pointerup', upH)
+      el.removeEventListener('pointercancel', upH)
       el.removeEventListener('wheel', wheel)
     }
   }, [active, camera, gl])
@@ -335,13 +396,19 @@ export function Walker() {
     const c = runtime.controls
     if (!active || !c) return
     if (pending.current && !st.current) {
-      if (carMode) startTruck(c)
+      if (carMode) startTruck()
       else startFoot(c)
     }
     const s = st.current
     if (!s) return
-    if (s.kind === 'car') driveFrame(s, dt, c)
-    else walkFrame(s, dt, c)
+    if (s.kind === 'car') {
+      const to = useStore.getState().driveTo
+      if (to) {
+        useStore.getState().setDriveTo(null)
+        startHyperlapse(s, to)
+      }
+      driveFrame(s, dt, c, Math.min(dtRaw, 0.25))
+    } else walkFrame(s, dt, c)
   })
 
   function startFoot(c: NonNullable<typeof runtime.controls>) {
@@ -379,41 +446,61 @@ export function Walker() {
     pending.current = false
   }
 
-  function startTruck(c: NonNullable<typeof runtime.controls>) {
+  /** frame the truck together with the building beside it: look past the truck at the building */
+  function showBuilding(s: TruckState, m: Mini) {
+    const c = trueCentre(m)
+    const h = Math.atan2(c.x - s.pos.x, c.z - s.pos.y)
+    s.orbitYaw = angDiff(h, s.yaw)
+    s.camYaw = s.yaw
+    s.orbitPitch = 0.12
+    s.dragT = -4 // keep this view a few seconds even when driving off
+    const sizeM = Math.max(m.size.x, m.size.z, m.size.y * 1.4)
+    runtime.driveZoom = THREE.MathUtils.clamp((sizeM * 1.15) / (CHASE_D * 1000), 1, 14)
+  }
+
+  /** a free spot beside a building's main façade (true scale), the truck tangential to it */
+  function besideFacade(m: Mini, pts: [number, number][], grids: Map<string, Grid>) {
+    const [fx, fz] = m.mod?.front ?? [0, 1]
+    const fl = Math.hypot(fx, fz) || 1
+    for (let k = 0; k < 96; k++) {
+      const ang = Math.atan2(fz / fl, fx / fl) + (k % 2 ? 1 : -1) * Math.ceil(k / 2) * 0.17
+      const r = Math.max(m.size.x, m.size.z) / 2 + 10 + Math.floor(k / 24) * 9
+      const lx = Math.cos(ang) * r
+      const lz = Math.sin(ang) * r
+      const w = localToWorld(m, lx, lz)
+      const yaw = Math.atan2(-lx, -lz) + Math.PI / 2 + m.turn.rotation.y
+      if (!truckHits(w.x, w.y, yaw, pts, grids)) return { pos: w, yaw }
+    }
+    return null
+  }
+
+  function startTruck() {
     const t = runtime.terrain
-    if (!t) return
+    const c = runtime.controls
+    if (!t || !c) return
     const pts = truckPts()
     const grids = new Map<string, Grid>()
-    let pos: THREE.Vector2 | null = null
-    let yaw = 0
-    const m = getMini(selectedId)
-    if (m && m.state === 'ready' && useStore.getState().mode === 'inspect') {
-      if (m.s > 1.05) return // wait for the true-scale model view
-      // beside the main façade, tangential, ready to drive around the building
-      runtime.driveZoom = 1
-      const [fx, fz] = m.mod?.front ?? [0, 1]
-      const fl = Math.hypot(fx, fz) || 1
-      m.root.updateMatrixWorld(true)
-      for (let k = 0; k < 72 && !pos; k++) {
-        const ang = Math.atan2(fz / fl, fx / fl) + (k % 2 ? 1 : -1) * Math.ceil(k / 2) * 0.18
-        const r = Math.max(m.size.x, m.size.z) / 2 + 9 + Math.floor(k / 24) * 8
-        const local = new THREE.Vector3(Math.cos(ang) * r, 0, Math.sin(ang) * r)
-        const w = m.turn.localToWorld(local.clone())
-        const yawW = Math.atan2(-local.x, -local.z) + Math.PI / 2 + m.turn.rotation.y
-        if (!truckHits(w.x, w.z, yawW, 1, pts, grids)) {
-          pos = new THREE.Vector2(w.x, w.z)
-          yaw = yawW
+    // beside the selected building, or (from the map) beside the building nearest the view centre
+    let m = getMini(selectedId)
+    if (!m || m.state !== 'ready') {
+      const tg = c.getTarget(new THREE.Vector3())
+      let bd = Infinity
+      for (const x of allMinis()) {
+        if (x.state !== 'ready' || x.hidden) continue
+        const d = Math.hypot(x.tx - tg.x, x.tz - tg.z)
+        if (d < bd) {
+          bd = d
+          m = x
         }
       }
     }
-    if (!pos) {
-      // from the map: at the centre of the view, facing away from the camera
-      const tg = c.getTarget(new THREE.Vector3())
-      runtime.driveZoom = THREE.MathUtils.clamp(c.distance / 6 / CHASE_D, 1, 1200)
-      pos = new THREE.Vector2(tg.x, tg.z)
-      if (!t.inside(pos.x, pos.y)) pos.set(6, 34)
-      yaw = c.azimuthAngle + Math.PI
-    }
+    if (!m || m.state !== 'ready') return
+    // everything is at real size while driving: wait until this building has settled to 1:1
+    if (m.s > 1.02) return
+    const spot = besideFacade(m, pts, grids)
+    const pos = spot?.pos ?? new THREE.Vector2(m.tx, m.tz + 0.03)
+    const yaw = spot?.yaw ?? 0
+    runtime.driveZoom = 1
     const car = makeCar()
     const group = new THREE.Group()
     group.add(car.root)
@@ -429,7 +516,7 @@ export function Walker() {
     const ring = new THREE.Mesh(new THREE.RingGeometry(1.1, 1.4, 48).rotateX(-Math.PI / 2), new THREE.MeshBasicMaterial({ color: '#c1a163', transparent: true, opacity: 0.9, depthWrite: false }))
     ring.visible = false
     scene.add(group, ring, skids)
-    const dCam = CHASE_D * runtime.driveZoom
+    runtime.flatSite = { id: m.p.id, center: trueCentre(m), sizeKm: Math.max(m.size.x, m.size.z) / 1000 }
     st.current = {
       kind: 'car',
       group,
@@ -445,48 +532,72 @@ export function Walker() {
       spin: 0,
       pitch: 0,
       roll: 0,
-      dCam,
-      S: 1,
-      cam: null,
+      dCam: CHASE_D,
+      camYaw: yaw,
+      orbitYaw: 0,
+      orbitPitch: 0,
+      dragT: 99,
       target: null,
       skids,
       skidN: 0,
       skidT: 0,
       grids,
+      auto: null,
       selAtStart: useStore.getState().selectedId,
     }
+    showBuilding(st.current as TruckState, m)
     pending.current = false
   }
 
-  /** does the truck (world km, yaw, travel scale S) hit the relief edge or a building? */
-  function truckHits(x: number, z: number, yaw: number, S: number, pts: [number, number][], grids: Map<string, Grid>) {
+  /** fast drive (hyperlapse) to a building picked in the list / search / drive bar */
+  function startHyperlapse(s: TruckState, id: string) {
+    const m = getMini(id)
+    if (!m || m.state !== 'ready') return
+    const spot = besideFacade(m, s.pts, s.grids)
+    const to = spot?.pos ?? new THREE.Vector2(m.tx, m.tz + 0.03)
+    const dist = to.distanceTo(s.pos)
+    s.auto = {
+      id,
+      from: s.pos.clone(),
+      to,
+      yaw0: s.yaw,
+      yaw1: spot?.yaw ?? s.yaw,
+      t: 0,
+      dur: THREE.MathUtils.clamp(1.8 + Math.sqrt(dist) * 0.7, 2.2, 9),
+      dMid: THREE.MathUtils.clamp(dist * 0.035, 0.15, 3),
+    }
+    s.vel.set(0, 0)
+    s.target = null
+    s.orbitYaw = 0
+    s.orbitPitch = 0
+    runtime.driveAuto = id
+  }
+
+  /** does the truck (world km, yaw) hit the relief edge or a building? */
+  function truckHits(x: number, z: number, yaw: number, pts: [number, number][], grids: Map<string, Grid>) {
     const t = runtime.terrain!
-    const k = 0.001 * S
     const sn = Math.sin(yaw)
     const cs = Math.cos(yaw)
-    const world = pts.map(([lx, lz]) => [x + (lx * cs + lz * sn) * k, z + (-lx * sn + lz * cs) * k] as const)
+    const world = pts.map(([lx, lz]) => [x + (lx * cs + lz * sn) * K, z + (-lx * sn + lz * cs) * K] as const)
     for (const [wx, wz] of world) if (!t.inside(wx, wz)) return true
-    const carR = (CAR_DIMS.length / 2) * k
+    const carR = (CAR_DIMS.length / 2) * K
     for (const m of allMinis()) {
-      if (m.hidden || !m.shown || !m.root.visible) continue
+      if (m.hidden || m.state !== 'ready') continue
       const rKm = (m.rFoot / 1000) * m.s
-      const fx = m.tx + m.foot.x * 0.001 * m.s
-      const fz = m.tz + m.foot.y * 0.001 * m.s
-      const d = Math.hypot(x - fx, z - fz)
-      if (d > rKm + carR) continue
-      if (m.s < 3) {
-        // precise: the building's occupancy grid (its own frame, any presentation scale)
-        let g = grids.get(m.p.id)
-        if (!g) {
-          g = buildGrid(m, m.rFoot + 3)
-          grids.set(m.p.id, g)
-        }
-        m.root.updateMatrixWorld(true)
-        for (const [wx, wz] of world) {
-          const l = m.turn.worldToLocal(v3.set(wx, m.root.position.y, wz))
-          if (cellBlocked(g, l.x, l.z)) return true
-        }
-      } else if (d < rKm * 0.7 + carR * 0.5) return true
+      const fx = m.px + m.foot.x * K * m.s
+      const fz = m.pz + m.foot.y * K * m.s
+      if (Math.hypot(x - fx, z - fz) > rKm + carR) continue
+      // the building's occupancy grid (its own frame, any presentation scale)
+      let g = grids.get(m.p.id)
+      if (!g) {
+        g = buildGrid(m, m.rFoot + 3)
+        grids.set(m.p.id, g)
+      }
+      m.root.updateMatrixWorld(true)
+      for (const [wx, wz] of world) {
+        const l = m.turn.worldToLocal(v3.set(wx, m.root.position.y, wz))
+        if (cellBlocked(g, l.x, l.z)) return true
+      }
     }
     return false
   }
@@ -556,7 +667,7 @@ export function Walker() {
     c.moveTo(head.x, head.y, head.z, false)
   }
 
-  function driveFrame(s: TruckState, dt: number, c: NonNullable<typeof runtime.controls>) {
+  function driveFrame(s: TruckState, dt: number, c: NonNullable<typeof runtime.controls>, dtWall: number) {
     const { car } = s
     const t = runtime.terrain!
     const k = keys.current
@@ -564,89 +675,125 @@ export function Walker() {
     let steerIn = (k.has('KeyA') || k.has('ArrowLeft') ? 1 : 0) - (k.has('KeyD') || k.has('ArrowRight') ? 1 : 0)
     const hb = k.has('Space')
     const turbo = k.has('ShiftLeft') || k.has('ShiftRight') || !!useStore.getState().walk.run
-    const fwd = new THREE.Vector2(Math.sin(s.yaw), Math.cos(s.yaw))
-    const left = new THREE.Vector2(Math.cos(s.yaw), -Math.sin(s.yaw))
-
-    // travel scale: chase distance (wheel / ± / speed) → the same symbolic rule as the miniatures
-    const cam = camera as THREE.PerspectiveCamera
-    const speedAbs = s.vel.length()
-    const spd = Math.min(1, speedAbs / V_MAX)
-    const dWant = CHASE_D * runtime.driveZoom * (1 + 0.45 * Math.pow(spd, 1.5))
-    s.dCam += (dWant - s.dCam) * (1 - Math.exp(-dt * 2.2))
-    const wpp = (2 * s.dCam * Math.tan(THREE.MathUtils.degToRad(cam.fov / 2))) / size.height
-    s.S = Math.max(1, (0.9 * symbolicPx(s.dCam) * wpp) / (CAR_DIMS.length / 1000))
-    runtime.driveScale = s.S
-    const kS = 0.001 * s.S
-
-    // tap / click: drive there
-    if (thr || steerIn) s.target = null
-    else if (s.target) {
-      const to = s.target.clone().sub(s.pos).divideScalar(kS) // car-space metres
-      const dist = to.length()
-      if (dist < 5) s.target = null
-      else {
-        const ang = Math.atan2(to.dot(left), to.dot(fwd))
-        steerIn = THREE.MathUtils.clamp(ang * 2, -1, 1)
-        thr = dist > 12 ? 1 : 0.4
-      }
-    }
-    let vF = s.vel.dot(fwd)
-    let vL = s.vel.dot(left)
-    // longitudinal
-    if (thr > 0) vF += (turbo ? ACC_TURBO : ACC) * thr * dt
-    else if (thr < 0) vF -= (vF > 0.5 ? BRAKE : REV) * dt
-    else vF -= Math.sign(vF) * Math.min(Math.abs(vF), 2.4 * dt)
-    if (hb) vF -= Math.sign(vF) * Math.min(Math.abs(vF), 7 * dt)
-    vF = THREE.MathUtils.clamp(vF, -9, turbo ? V_TURBO : Math.max(V_MAX, Math.min(vF, V_TURBO) - 6 * dt))
-    // steering: tighter at low speed, calmer at high speed
-    const maxSteer = 0.6 / (1 + Math.abs(vF) / 22)
-    s.steer += (steerIn * maxSteer - s.steer) * Math.min(1, dt * 7)
-    // lateral grip: the handbrake or hard steering at speed lets the rear step out (drift)
-    let grip = 8
-    if (hb) grip = 0.8
-    else if (Math.abs(vF) > 15 && Math.abs(s.steer) > 0.13 && thr > 0) grip = 1.9
-    vL *= Math.exp(-grip * dt)
-    s.vel.copy(fwd).multiplyScalar(vF).addScaledVector(left, vL)
-    let yawRate = (vF * Math.tan(s.steer)) / CAR_DIMS.wheelbase
-    if (hb) yawRate *= 1.7
-
-    // move (world step scaled by the travel scale) with collision response
+    let fwd = new THREE.Vector2(Math.sin(s.yaw), Math.cos(s.yaw))
+    let left = new THREE.Vector2(Math.cos(s.yaw), -Math.sin(s.yaw))
+    let vF = 0
+    let vL = 0
+    let yawRate = 0
     let impact = 0
-    const next = s.pos.clone().addScaledVector(s.vel, kS * dt)
-    const nextYaw = s.yaw + yawRate * dt
-    if (!truckHits(next.x, next.y, nextYaw, s.S, s.pts, s.grids)) {
-      s.pos.copy(next)
-      s.yaw = nextYaw
+    let speedVis = 0
+
+    if (s.auto) {
+      // hyperlapse: the real-size truck races along the route to the picked building
+      const a = s.auto
+      const prev = s.pos.clone()
+      const prevYaw = s.yaw
+      a.t = Math.min(1, a.t + dtWall / a.dur) // fixed duration in real time, whatever the frame rate
+      const e = a.t * a.t * a.t * (a.t * (a.t * 6 - 15) + 10) // smootherstep
+      s.pos.lerpVectors(a.from, a.to, e)
+      const route = a.to.clone().sub(a.from)
+      const yawRoute = route.lengthSq() > 1e-12 ? Math.atan2(route.x, route.y) : a.yaw1
+      const into = THREE.MathUtils.smoothstep(a.t, 0, 0.12)
+      const outOf = THREE.MathUtils.smoothstep(a.t, 0.86, 1)
+      const yawA = a.yaw0 + angDiff(yawRoute, a.yaw0) * into
+      s.yaw = yawA + angDiff(a.yaw1, yawA) * outOf
+      speedVis = Math.min(46, s.pos.distanceTo(prev) / K / Math.max(dt, 1e-3))
+      vF = speedVis
+      yawRate = angDiff(s.yaw, prevYaw) / Math.max(dt, 1e-3)
+      if (a.t >= 1) {
+        s.auto = null
+        runtime.driveAuto = null
+        s.vel.set(0, 0)
+        vF = 0
+        const m = getMini(a.id)
+        if (m) showBuilding(s, m)
+      }
+      fwd = new THREE.Vector2(Math.sin(s.yaw), Math.cos(s.yaw))
+      left = new THREE.Vector2(Math.cos(s.yaw), -Math.sin(s.yaw))
     } else {
-      impact = speedAbs * 1.25
-      if (!truckHits(s.pos.x, s.pos.y, nextYaw, s.S, s.pts, s.grids)) s.yaw = nextYaw
-      s.vel.multiplyScalar(-0.25)
+      // tap / click: drive there
+      if (thr || steerIn) s.target = null
+      else if (s.target) {
+        const to = s.target.clone().sub(s.pos).divideScalar(K) // metres
+        const dist = to.length()
+        if (dist < 5) s.target = null
+        else {
+          const ang = Math.atan2(to.dot(left), to.dot(fwd))
+          steerIn = THREE.MathUtils.clamp(ang * 2, -1, 1)
+          thr = dist > 12 ? 1 : 0.4
+        }
+      }
       vF = s.vel.dot(fwd)
       vL = s.vel.dot(left)
+      // longitudinal
+      if (thr > 0) vF += (turbo ? ACC_TURBO : ACC) * thr * dt
+      else if (thr < 0) vF -= (vF > 0.5 ? BRAKE : REV) * dt
+      else vF -= Math.sign(vF) * Math.min(Math.abs(vF), 2.4 * dt)
+      if (hb) vF -= Math.sign(vF) * Math.min(Math.abs(vF), 7 * dt)
+      vF = THREE.MathUtils.clamp(vF, -9, turbo ? V_TURBO : Math.max(V_MAX, Math.min(vF, V_TURBO) - 6 * dt))
+      // steering: tighter at low speed, calmer at high speed
+      const maxSteer = 0.6 / (1 + Math.abs(vF) / 22)
+      s.steer += (steerIn * maxSteer - s.steer) * Math.min(1, dt * 7)
+      // lateral grip: the handbrake or hard steering at speed lets the rear step out (drift)
+      let grip = 8
+      if (hb) grip = 0.8
+      else if (Math.abs(vF) > 15 && Math.abs(s.steer) > 0.13 && thr > 0) grip = 1.9
+      vL *= Math.exp(-grip * dt)
+      s.vel.copy(fwd).multiplyScalar(vF).addScaledVector(left, vL)
+      yawRate = (vF * Math.tan(s.steer)) / CAR_DIMS.wheelbase
+      if (hb) yawRate *= 1.7
+      // move with collision response
+      const speedAbs = s.vel.length()
+      const next = s.pos.clone().addScaledVector(s.vel, K * dt)
+      const nextYaw = s.yaw + yawRate * dt
+      if (!truckHits(next.x, next.y, nextYaw, s.pts, s.grids)) {
+        s.pos.copy(next)
+        s.yaw = nextYaw
+      } else {
+        impact = speedAbs * 1.25
+        if (!truckHits(s.pos.x, s.pos.y, nextYaw, s.pts, s.grids)) s.yaw = nextYaw
+        s.vel.multiplyScalar(-0.25)
+        vF = s.vel.dot(fwd)
+        vL = s.vel.dot(left)
+        s.target = null
+      }
+      speedVis = Math.abs(vF)
+      if (!t.inside(s.pos.x, s.pos.y)) s.vel.set(0, 0)
     }
-    if (s.target && impact) s.target = null
 
-    // the building nearest the truck: levelled ground (when close to true scale) and the HUD
+    // the building nearest the truck: levelled ground and the drive bar (distance, direction)
     let near: Mini | null = null
     let nd = Infinity
     for (const m of allMinis()) {
       if (m.hidden || m.state !== 'ready') continue
-      const d = Math.hypot(m.tx - s.pos.x, m.tz - s.pos.y) - (m.rFoot / 1000) * m.s
+      const d = Math.hypot(m.tx + m.foot.x * K - s.pos.x, m.tz + m.foot.y * K - s.pos.y) - m.rFoot * K
       if (d < nd) {
         nd = d
         near = m
       }
     }
-    const nearOk = near && nd < Math.max(0.3, s.dCam * 6)
-    runtime.driveNear = nearOk ? { id: near!.p.id, distM: Math.max(0, nd * 1000) } : null
-    if (nearOk && s.S < 4 && near!.s < 1.6 && nd < 0.6) {
-      if (runtime.flatSite?.id !== near!.p.id) runtime.flatSite = { id: near!.p.id, center: trueCentre(near!), sizeKm: Math.max(near!.size.x, near!.size.z) / 1000 }
-    } else if (runtime.flatSite && (s.S > 6 || nd > 1.2)) runtime.flatSite = null
+    if (near) {
+      const cp = camera.position
+      const look = c.getTarget(v3)
+      const fx = look.x - cp.x
+      const fz = look.z - cp.z
+      const fl = Math.hypot(fx, fz) || 1
+      const dx = near.tx - s.pos.x
+      const dz = near.tz - s.pos.y
+      const bearing = Math.atan2(dx * (-fz / fl) + dz * (fx / fl), dx * (fx / fl) + dz * (fz / fl))
+      runtime.driveNear = { id: near.p.id, distM: Math.max(0, nd * 1000), bearing }
+    } else runtime.driveNear = null
+    if (near && nd < 0.6 && !s.auto) {
+      if (runtime.flatSite?.id !== near.p.id) runtime.flatSite = { id: near.p.id, center: trueCentre(near), sizeKm: Math.max(near.size.x, near.size.z) / 1000 }
+    } else if (s.auto && s.auto.t > 0.8) {
+      const m = getMini(s.auto.id)
+      if (m && runtime.flatSite?.id !== m.p.id) runtime.flatSite = { id: m.p.id, center: trueCentre(m), sizeKm: Math.max(m.size.x, m.size.z) / 1000 }
+    } else if (runtime.flatSite && nd > 1.2) runtime.flatSite = null
 
-    // ground, pitch and roll from the rendered relief under the (scaled) wheels
+    // ground, pitch and roll from the rendered relief under the wheels
     const gy = groundY(s.pos.x, s.pos.y) ?? s.group.position.y
-    const hl = CAR_DIMS.wheelbase * 0.5 * kS
-    const hw = CAR_DIMS.trackHalf * kS
+    const hl = CAR_DIMS.wheelbase * 0.5 * K
+    const hw = CAR_DIMS.trackHalf * K
     const g = (dx: number, dz: number) => groundY(s.pos.x + dx, s.pos.y + dz) ?? gy
     const hf = g(fwd.x * hl, fwd.y * hl)
     const hbk = g(-fwd.x * hl, -fwd.y * hl)
@@ -658,19 +805,18 @@ export function Walker() {
     s.roll += (rollT - s.roll) * Math.min(1, dt * 10)
 
     // skid marks while sliding
-    const slide = Math.abs(vL) > 2.4 || (hb && Math.abs(vF) > 4)
+    const slide = !s.auto && (Math.abs(vL) > 2.4 || (hb && Math.abs(vF) > 4))
     s.skidT += dt
     if (slide && s.skidT > 0.018) {
       s.skidT = 0
       const sn = Math.sin(s.yaw)
       const cs = Math.cos(s.yaw)
-      const ang = Math.atan2(s.vel.x, s.vel.y)
-      quat.setFromAxisAngle(UP, ang)
+      quat.setFromAxisAngle(UP, Math.atan2(s.vel.x, s.vel.y))
       for (const lx of [CAR_DIMS.trackHalf, -CAR_DIMS.trackHalf]) {
-        const wx = s.pos.x + (lx * cs + CAR_DIMS.rearAxleZ * sn) * kS
-        const wz = s.pos.y + (-lx * sn + CAR_DIMS.rearAxleZ * cs) * kS
-        const wy = (groundY(wx, wz) ?? gy) + 0.00002 * s.S
-        mtx.compose(v3.set(wx, wy, wz), quat, new THREE.Vector3(kS, kS, kS))
+        const wx = s.pos.x + (lx * cs + CAR_DIMS.rearAxleZ * sn) * K
+        const wz = s.pos.y + (-lx * sn + CAR_DIMS.rearAxleZ * cs) * K
+        const wy = (groundY(wx, wz) ?? gy) + 0.00002
+        mtx.compose(v3.set(wx, wy, wz), quat, new THREE.Vector3(K, K, K))
         s.skids.setMatrixAt(s.skidN % SKIDS, mtx)
         s.skidN++
       }
@@ -679,40 +825,55 @@ export function Walker() {
 
     // truck pose + cargo dynamics (car-frame velocity changes; the cargo model adds the turn's own
     // pull from yawRate × speed itself)
-    const aLong = (vF - s.vF0) / Math.max(dt, 1e-3)
-    const aLat = (vL - s.vL0) / Math.max(dt, 1e-3)
+    const aLong = s.auto ? 0 : (vF - s.vF0) / Math.max(dt, 1e-3)
+    const aLat = s.auto ? 0 : (vL - s.vL0) / Math.max(dt, 1e-3)
     s.vF0 = vF
     s.vL0 = vL
     s.spin += (vF * dt) / CAR_DIMS.wheelR
-    car.update(s.steer, s.spin, thr < 0 && vF > 0.5, { aLong: THREE.MathUtils.clamp(aLong, -40, 40), aLat: THREE.MathUtils.clamp(aLat, -40, 40), yawRate, speed: vF, dt, impact })
+    car.update(s.steer, s.spin, !s.auto && thr < 0 && vF > 0.5, {
+      aLong: THREE.MathUtils.clamp(aLong, -40, 40),
+      aLat: THREE.MathUtils.clamp(aLat, -40, 40),
+      yawRate: s.auto ? 0 : yawRate,
+      speed: s.auto ? Math.min(speedVis, 20) : vF,
+      dt,
+      impact,
+    })
     s.group.position.set(s.pos.x, gy, s.pos.y)
     s.group.rotation.set(-s.pitch, s.yaw, s.roll + THREE.MathUtils.clamp(-vL * 0.006, -0.05, 0.05))
-    s.group.scale.setScalar(kS)
+    s.group.scale.setScalar(K)
     car.root.visible = !eye
 
-    // camera: chase (or cab), following the heading with a little lag
-    const sn = Math.sin(s.yaw)
-    const cs = Math.cos(s.yaw)
+    // camera: orbit around the truck (drag), zoom (wheel / pinch / ± ), following its heading
+    s.dragT += dt
+    if (!dragging.current && s.dragT > 2.5 && speedVis > 3) {
+      // driving on after looking around: the camera eases back behind the truck
+      s.orbitYaw *= Math.exp(-dt * 1.4)
+      s.orbitPitch *= Math.exp(-dt * 1.4)
+    }
+    const spd = Math.min(1, speedVis / V_MAX)
+    const lift = s.auto ? Math.sin(Math.PI * s.auto.t) : 0
+    const dBase = CHASE_D * runtime.driveZoom * (1 + 0.25 * Math.pow(spd, 1.5))
+    const dWant = s.auto ? THREE.MathUtils.lerp(dBase, Math.max(dBase, s.auto.dMid), lift) : dBase
+    s.dCam += (dWant - s.dCam) * (1 - Math.exp(-dt * (s.auto ? 8 : 5)))
+    s.camYaw += angDiff(s.yaw, s.camYaw) * (1 - Math.exp(-dt * (s.auto ? 3 : 4)))
     let camW: THREE.Vector3
     let lookW: THREE.Vector3
     if (eye) {
       s.group.updateMatrixWorld(true)
       camW = s.group.localToWorld(new THREE.Vector3(CAR_EYE.x, CAR_EYE.y, CAR_EYE.z))
-      lookW = s.group.localToWorld(new THREE.Vector3(CAR_EYE.x * 0.5, CAR_EYE.y - 0.3, 40))
-      s.cam = camW.clone()
+      lookW = s.group.localToWorld(new THREE.Vector3(CAR_EYE.x + Math.sin(s.orbitYaw) * 40, CAR_EYE.y - 0.3 - s.orbitPitch * 20, Math.cos(s.orbitYaw) * 40))
     } else {
-      const elev = THREE.MathUtils.lerp(0.3, 0.62, THREE.MathUtils.smoothstep(Math.log(runtime.driveZoom), 0, Math.log(500)))
-      const want = new THREE.Vector3(s.pos.x - sn * s.dCam * Math.cos(elev), gy + s.dCam * Math.sin(elev), s.pos.y - cs * s.dCam * Math.cos(elev))
-      if (!s.cam) s.cam = want.clone()
-      s.cam.lerp(want, 1 - Math.exp(-dt * 4.5))
-      const cg = groundY(s.cam.x, s.cam.z)
-      const clear = Math.max(0.0015, s.dCam * 0.08)
-      if (cg !== null && s.cam.y < cg + clear) s.cam.y = cg + clear
-      camW = s.cam
-      lookW = new THREE.Vector3(s.pos.x + sn * s.dCam * 0.18, gy + 1.3 * kS, s.pos.y + cs * s.dCam * 0.18)
+      const heading = s.camYaw + s.orbitYaw
+      const elev = THREE.MathUtils.clamp(0.3 + s.orbitPitch + lift * 0.45, 0.05, 1.45)
+      const ly = gy + 1.4 * K
+      camW = new THREE.Vector3(s.pos.x - Math.sin(heading) * s.dCam * Math.cos(elev), ly + s.dCam * Math.sin(elev), s.pos.y - Math.cos(heading) * s.dCam * Math.cos(elev))
+      const cg = groundY(camW.x, camW.z)
+      const clear = Math.max(0.0012, s.dCam * 0.06)
+      if (cg !== null && camW.y < cg + clear) camW.y = cg + clear
+      const ahead = Math.abs(s.orbitYaw) < 0.4 ? s.dCam * 0.12 : 0
+      lookW = new THREE.Vector3(s.pos.x + Math.sin(s.yaw) * ahead, ly, s.pos.y + Math.cos(s.yaw) * ahead)
     }
     c.setLookAt(camW.x, camW.y, camW.z, lookW.x, lookW.y, lookW.z, false)
-    if (!t.inside(s.pos.x, s.pos.y)) s.vel.set(0, 0)
   }
 
   return null

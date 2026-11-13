@@ -28,11 +28,12 @@ export const runtime = {
   terrainStride: 1,
   /** while driving: the building whose ground is levelled (overrides the selected model) */
   flatSite: null as null | { id: string; center: THREE.Vector3; sizeKm: number },
-  /** driving: chase-distance multiplier (wheel / zoom buttons) — sets the truck's travel scale */
+  /** driving: chase-distance multiplier (wheel / pinch / zoom buttons) */
   driveZoom: 1,
-  /** driving: the building nearest the truck (for the HUD), and the truck's current travel scale */
-  driveNear: null as null | { id: string; distM: number },
-  driveScale: 1,
+  /** driving: the building nearest the truck (drive bar: distance, direction relative to the view) */
+  driveNear: null as null | { id: string; distM: number; bearing: number },
+  /** driving: the building the truck is racing to (hyperlapse) */
+  driveAuto: null as null | string,
   /** "+N" badges: shown miniatures that stand for overlapping neighbours */
   miniClusters: [] as { id: string; ids: string[]; anchor: THREE.Vector3; rPx: number }[],
 }

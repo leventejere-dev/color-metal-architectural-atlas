@@ -1669,6 +1669,27 @@ dd {
 .map-controls .drive-map {
   color: var(--brass);
 }
+.drive-hud.muted {
+  color: var(--ink-3);
+}
+.drive-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--brass);
+  color: #17150f;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 0.15s linear;
+}
+.drive-dist {
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
 
 .scale-notes .credit {
   font-size: 9.5px;

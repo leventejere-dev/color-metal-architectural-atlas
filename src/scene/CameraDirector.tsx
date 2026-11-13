@@ -14,6 +14,7 @@ import * as THREE from 'three'
 import { projectById, useStore, type CameraCommand, type ViewPreset } from '../state/store'
 import { exaggerationFor, groundY, projectPosition, rotationFor, runtime } from './runtime'
 import { BG } from './TerrainModel'
+import { DRIVE_ZOOM } from './Walker'
 
 const { ACTION } = CameraControlsImpl
 const DEG = Math.PI / 180
@@ -190,12 +191,23 @@ export function CameraDirector() {
   // input mapping per mode
   useEffect(() => {
     const c = ref.current
+    if (walking && carMode) {
+      // driving: the truck handles drag (orbit), wheel and pinch (zoom) itself
+      c.mouseButtons.left = ACTION.NONE
+      c.mouseButtons.right = ACTION.NONE
+      c.mouseButtons.middle = ACTION.NONE
+      c.mouseButtons.wheel = ACTION.NONE
+      c.touches.one = ACTION.NONE
+      c.touches.two = ACTION.NONE
+      c.touches.three = ACTION.NONE
+      c.dollyToCursor = false
+      return
+    }
     if (walking) {
       // walk-around: drag looks around the figure, wheel/pinch sets the camera distance
-      // (driving: the truck handles the wheel itself — it sets the travel scale)
       c.mouseButtons.left = ACTION.ROTATE
       c.mouseButtons.right = ACTION.ROTATE
-      c.mouseButtons.wheel = useStore.getState().walk.car ? ACTION.NONE : ACTION.DOLLY
+      c.mouseButtons.wheel = ACTION.DOLLY
       c.touches.one = ACTION.TOUCH_ROTATE
       c.touches.two = ACTION.TOUCH_DOLLY_ROTATE
       c.touches.three = ACTION.NONE
@@ -358,7 +370,7 @@ export function CameraDirector() {
       }
       case 'zoom':
         // while driving, the zoom buttons set the chase distance (the truck's travel scale)
-        if (useStore.getState().walk.active && useStore.getState().walk.car) runtime.driveZoom = THREE.MathUtils.clamp(runtime.driveZoom * (1 - command.factor), 1, 4000)
+        if (useStore.getState().walk.active && useStore.getState().walk.car) runtime.driveZoom = THREE.MathUtils.clamp(runtime.driveZoom * (1 - command.factor), DRIVE_ZOOM.min, DRIVE_ZOOM.max)
         else c.dolly(c.distance * command.factor, !useStore.getState().reducedMotion)
         break
       case 'north':
@@ -448,9 +460,9 @@ export function CameraDirector() {
     }
     const studio = st.context === 'studio'
     if (st.walk.active && st.walk.car) {
-      // the truck's travel scale grows with the chase distance: so does the visible country
-      fog.current.near = studio ? 1e7 : 0.25 + d * 9
-      fog.current.far = studio ? 2e7 : 2.4 + d * 70
+      // real-size driving: the next village stays visible on the horizon
+      fog.current.near = studio ? 1e7 : 0.8 + d * 8
+      fog.current.far = studio ? 2e7 : 7 + d * 60
     } else if (st.walk.active) {
       fog.current.near = studio ? 1e7 : 0.09
       fog.current.far = studio ? 2e7 : 1.1

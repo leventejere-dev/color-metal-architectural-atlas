@@ -3,39 +3,54 @@ import { displayName, projectById, useStore, useT, type ViewPreset } from '../st
 import { runtime } from '../scene/runtime'
 import { Icon } from './icons'
 
-/** While driving: the reference building nearest the truck (open its model view) and the travel scale. */
+const fmtDist = (m: number) => (m < 950 ? `${Math.max(0, Math.round(m / 10) * 10)} m` : `${(m / 1000).toLocaleString('ro-RO', { maximumFractionDigits: m < 9500 ? 1 : 0 })} km`)
+
+/** While driving: the reference building nearest the truck — direction, distance, open it or drive there. */
 function DriveHud() {
   const t = useT()
   const lang = useStore((s) => s.lang)
-  const [near, setNear] = useState<{ id: string; distM: number } | null>(null)
-  const [scale, setScale] = useState(1)
+  const [near, setNear] = useState<{ id: string; distM: number; bearing: number } | null>(null)
+  const [auto, setAuto] = useState<string | null>(null)
   useEffect(() => {
     const iv = setInterval(() => {
       const n = runtime.driveNear
-      setNear((o) => (o?.id === n?.id ? o : n ? { ...n } : null))
-      const s = Math.round(runtime.driveScale)
-      setScale((o) => (Math.abs(o - s) / Math.max(1, s) > 0.08 || (s === 1) !== (o === 1) ? s : o))
-    }, 250)
+      setNear((o) => (!n ? null : o && o.id === n.id && Math.abs(o.distM - n.distM) < 5 && Math.abs(o.bearing - n.bearing) < 0.05 ? o : { ...n }))
+      setAuto(runtime.driveAuto)
+    }, 150)
     return () => clearInterval(iv)
   }, [])
+  const target = projectById(auto)
+  if (target)
+    return (
+      <span className="drive-hud">
+        <span className="drive-near">
+          {t.drivingTo}: <b>{displayName(target, lang)}</b>
+        </span>
+      </span>
+    )
   const p = projectById(near?.id ?? null)
+  if (!p || !near) return <span className="drive-hud muted">{t.drivePick}</span>
+  const close = near.distM < 400
   return (
     <span className="drive-hud">
-      <span className="drive-scale">{t.travelScale(scale)}</span>
-      {p && (
-        <span className="drive-near">
-          {t.driveNear}: <b>{displayName(p, lang)}</b>
-          <button
-            onClick={() => {
-              const st = useStore.getState()
+      <span className="drive-near">
+        <span className="drive-arrow" style={{ transform: `rotate(${near.bearing}rad)` }} aria-hidden="true">
+          ↑
+        </span>
+        <b>{displayName(p, lang)}</b>
+        <span className="drive-dist">{fmtDist(near.distM)}</span>
+        <button
+          onClick={() => {
+            const st = useStore.getState()
+            if (close) {
               st.setWalk({ active: false, eye: false, run: false, car: false })
               st.select(p.id, { inspect: true })
-            }}
-          >
-            {t.openModel}
-          </button>
-        </span>
-      )}
+            } else st.setDriveTo(p.id)
+          }}
+        >
+          {close ? t.openModel : t.goThere}
+        </button>
+      </span>
     </span>
   )
 }

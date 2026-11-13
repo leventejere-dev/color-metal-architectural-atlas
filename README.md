@@ -17,17 +17,19 @@ model, with the company's photographs and the verified material information.
   the neighbouring countries; county boundaries, rivers, cities, regions. Relief exaggeration ×5
   nationally, easing to ×1.25 locally (shown on screen).
 * **Architectural models everywhere** — every reference building (≈150, each with photographs) is a
-  3D model standing directly on the satellite map, readable from the national view and growing as you
-  approach until it stands at true 1:1 scale on its real site. Buildings never move: where they would
-  overlap on screen, the more important one stays and carries a "+N" badge (click → zoom in). Monastery
-  and palace ensembles include the ancillary buildings that carry the same metal.
+  3D model standing directly on the satellite map, all of them visible at every zoom (no counters):
+  where enlarged miniatures would overlap they are arranged in a tidy honeycomb around their town,
+  each with a fine brass line to its real site; the arrangement only reflows between zoom steps
+  (never while panning), and close to the ground every building stands at 1:1 on its own site.
+  Monastery and palace ensembles include the ancillary buildings that carry the same metal.
 * **Click to open** — a click on a building opens its model view; the map itself stops at a sensible
   zoom instead of diving into the blurred ground.
 * **Walk & drive** — a lifelike 1.76 m figure in a COLOR METAL jacket (walk / fast run, eye level)
   around the selected building, or a COLOR METAL flatbed truck loaded with copper and aluminium bars
-  that shift on the bed (throttle, brake, turbo, handbrake drift with skid marks, chase or cab view)
-  across the whole country, from building to building: true scale up close, a symbolic map vehicle
-  when zoomed out (wheel / + −); walls block the way, no invisible limits.
+  that shift on the bed (throttle, brake, turbo, handbrake drift with skid marks, chase or cab view).
+  Everything stays at real size; the wheel zooms onto the truck and dragging orbits around it; it
+  drives anywhere on the relief, and a building picked from the list is reached by a fast hyperlapse
+  drive. The drive bar shows the nearest building with distance and direction.
 * **Fly-to** — smooth zoom-out/travel/zoom-in camera path, interruptible, reduced-motion aware.
 * **Inspection** — orbit, zoom, reset / top / roof / façade / material views, ambient-occlusion
   close-ups, geographic or isolated studio context, model ↔ reality comparison next to the photographs.

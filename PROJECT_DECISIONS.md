@@ -136,17 +136,22 @@
   list / search); the map's closest zoom is 2.2 km so it never dives into the blurred ground. The
   camera frames the building's true-scale site (not its enlarged map miniature), and a safety net keeps
   it above the rendered ground — this fixes the empty/black model views of the second round.
-* **No plinths, no swarming**: miniatures stand directly on the satellite ground with a soft contact
-  shadow. They never move: where they would overlap on screen, the more important one (exhibition
-  models, then published photographs, then tier) stays and carries a "+N" badge for the others
-  (click → zoom closer); hysteresis and a short fade keep the decision calm.
-* **Flatbed truck across the country**: the drive mode uses a COLOR METAL flatbed pickup loaded with
+* **No plinths, no counters, no swarming**: miniatures stand directly on the satellite ground with a
+  soft contact shadow, and every building is always drawn. Where enlarged miniatures would overlap,
+  they are arranged on a hex grid around their town — the most important first, each in the free cell
+  nearest its real site, dense towns drawn proportionally smaller so they stay compact — with a fine
+  brass leader line and a dot on the true location. The arrangement depends only on the zoom step
+  (×1.3 steps with hysteresis), never on panning or rotating; it reflows smoothly between steps. The
+  enlargement fades out near the ground, so neighbours a few hundred metres apart separate. (An
+  intermediate "+N" badge version was withdrawn at the client's request.)
+* **Flatbed truck, real size**: the drive mode uses a COLOR METAL flatbed pickup (5.9 m) loaded with
   copper and aluminium bars, tubes and sheet offcuts that slide, roll and knock against the sides under
-  acceleration, braking, cornering and drifts. It drives anywhere on the relief (the slab edge is the
-  only boundary) and collides with the buildings. Its travel scale follows the chase distance with the
-  miniatures' own rule: true scale beside true-scale buildings up close, a symbolic map vehicle when
-  zoomed out (wheel / + −), so Romania is crossed in well under a minute. The building nearest the
-  truck stands on levelled ground and can be opened from the drive bar. Walking has no invisible limit
-  either (off the plateau the figure follows the terrain).
+  acceleration, braking, cornering and drifts. Truck and buildings always stay at 1:1 while driving
+  (an intermediate "travel scale" that enlarged the truck was withdrawn at the client's request). The
+  wheel / pinch zooms the camera onto the truck (≈6–600 m), dragging orbits around it. It drives
+  anywhere on the relief (the slab edge is the only boundary) and collides with the buildings; for long
+  distances a building picked in the list / search or the drive bar is reached by a fast hyperlapse
+  drive (2–9 s, the camera rising like a following drone), arriving beside its main façade. The drive
+  bar shows the nearest building with distance and direction. Walking has no invisible limit either.
 * **Sepsi Arena**: the opposite long stand is plain — dark cladding on exposed steel frames with a
   white base and gates — as photographed; the gold-tone elZinc landmarks stay on the main side.
