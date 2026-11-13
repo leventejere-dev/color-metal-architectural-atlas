@@ -2,9 +2,11 @@
  * Sediul COLOR METAL — Str. Nicolae Bălcescu 95, Odorheiu Secuiesc (jud. Harghita).
  *
  * COLOR METAL's own headquarters: a two-storey office block wrapped in GREEN
- * EXPANDED ALUMINIUM (verified product) in front of a 145 m warehouse hall, and
- * a second, separate building (the "Divizia Soluții Arhitecturale" training
- * centre) whose street end is wrapped in the same green mesh.
+ * EXPANDED ALUMINIUM (verified product) in front of a 145 m warehouse hall, a
+ * second, separate building (the "Divizia Soluții Arhitecturale" training
+ * centre) whose street end is wrapped in the same green mesh, and a third,
+ * dark-grey hall with green canopies behind it (confirmed by COLOR METAL as part
+ * of the headquarters, 13 Nov 2026).
  *
  * Sources: COLOR METAL's own photographs (folder "COLOR METAL HEADQUARTER
  * BUILDING PHOTOS"): drone views DJI_0550–0557 (Nov 2025; the Drón2 set are
@@ -12,8 +14,12 @@
  * 1–3.jpeg (spring 2026) and DSC04951–04965 (second building, Nov 2025).
  * Footprint and orientation: OSM way 1360982485 (29.8 × 145 m, whole complex,
  * long axis 163.4°). Plan positions of the office depth, the second building, the
- * roof PV field and the site features were measured on the near-vertical drone
- * photo DJI_0556 with a homography fitted to the four OSM corners of the hall roof.
+ * third hall, the roof PV field and the site features were measured on the
+ * near-vertical drone photo DJI_0556 with a homography fitted to the four OSM
+ * corners of the hall roof plus the four roof corners of the blue-roofed
+ * neighbouring building as located on the Esri World Imagery mosaic (older than
+ * the second building and the third hall, used only as control points west of
+ * the hall); DJI_0550 and the ground photos DSC04951/04961 were used as checks.
  *
  * Modelling specification (real metres). Frame F used below: x = along the street
  * front from the hall's west wall (0 … 29.8), z = towards the street (0 = front
@@ -21,7 +27,8 @@
  * the project's geo point (plus code 8894+QR), which lies 10.6 m east of the west
  * wall and 2.3 m in front of the OSM front edge; +X = 73.4° (ENE), +Z = street
  * front (163.4°, SSE). The composition is NOT re-centred: the hall runs 145 m
- * behind the geo point and the second building stands west of it, as on site.
+ * behind the geo point, the second building and the third hall stand west of
+ * it, as on site.
  *  - Office block: full hall width × ≈ 20 m deep, flat roof with skylight domes.
  *    Dark inner wall with window bands, veiled by the green mesh hung 0.3 m in
  *    front on a visible grid of green profiles (≈ 1.45 m verticals, ≈ 0.95 m
@@ -45,24 +52,36 @@
  *    loading docks on both long sides (the west one wider in its middle third),
  *    sectional doors, racks with stock under the west canopy, white roof membrane
  *    with walkway bands and the PV field on the north third (≈ 12 × 48 m).
- *  - Second building: ≈ 14.7 × 38.2 m, ≈ 7.6 m, dark grey panels with window rows
- *    and a sectional door; its street end is wrapped in green mesh on green
- *    profiles 0.6 m off the wall (returns ≈ 2 m along both sides), silver mesh
- *    screen with a chamfered top, glazed entrance under a green corrugated canopy,
- *    sign board. Yard barrier beside it.
+ *  - Second building: ≈ 14.2 × 38.2 m, ≈ 7.6 m, 15 m west of the hall and 14 m
+ *    behind the office front; dark grey panels with window rows and a sectional
+ *    door; its street end is wrapped in green mesh on green profiles 0.6 m off
+ *    the wall (returns ≈ 2 m along both sides), silver mesh screen with a
+ *    chamfered top, glazed entrance under a green corrugated canopy, sign board.
+ *    Yard barrier beside it.
+ *  - Third hall: ≈ 12.5 × 47 m, ≈ 7.8 m to the parapet, 29 m behind the second
+ *    building (x −27 … −14.5, z −128.5 … −81.5), parallel to the main hall; dark
+ *    grey panels with panel joints, a row of high windows on the east side, a
+ *    green-fascia canopy (≈ 5.4 m high) along the whole west side and across the
+ *    south end, sectional doors (south end, east side, under the west canopy),
+ *    racks with stock under the west canopy, white roof with a walkway band
+ *    (DJI_0556, DJI_0550, DSC04951).
  *  - Site (light touch): paved forecourt and side yards, planted beds with
  *    ornamental grasses along the office front, the central planted island with
  *    low pines, a planted strip in the car park, a lawn with the white pergola,
  *    eight ball-shaped trees.
  * Approximations: heights scaled from the frontal ground photos (front width =
- *   OSM 29.8 m); the office depth (17–22 m on the drone homography → 20 m), the
- *   second building's size and position and the site outlines are drone-photo
- *   measurements (± 1–2 m); whether the lettering corner is really taller or only
+ *   OSM 29.8 m); the office depth (17–22 m on the drone homography → 20 m) and
+ *   the site outlines are drone-photo measurements (± 1–2 m); the positions of
+ *   the second building and the third hall are uncertain by ≈ 2–3 m (the oblique
+ *   DJI_0550 places them up to ≈ 4 m further east, the hall-only DJI_0556 fit ≈ 3 m
+ *   further west, a resection of the ground photo DSC04951 puts the third hall
+ *   ≈ 2 m further west); the third hall's height (≈ 7.8 m) and canopy height
+ *   (≈ 5.4 m) are scaled from DJI_0550 and DSC04951; whether the lettering corner is really taller or only
  *   nearer the camera cannot be separated in the photos; window positions behind
- *   the mesh, the hall's north end, door and rack counts and the canopy steps are
- *   estimates; cars, the transformer kiosk, fences, signs and yard furniture are
- *   omitted. A third dark-grey hall behind the second building (ownership not
- *   documented) and the neighbouring premises are not modelled.
+ *   the mesh, the hall's north end, the third hall's west and north sides, door
+ *   and rack counts and the canopy steps are estimates; cars, the transformer
+ *   kiosk, fences, signs and yard furniture are omitted. The neighbouring
+ *   premises are not modelled.
  */
 import * as THREE from 'three'
 import { Builder, V, mat, metricBox, facet, prismOutline } from '../kit'
@@ -90,7 +109,9 @@ const GEO = { x: 10.6, z: 2.3 }
 /** hall */
 const HALL = { z0: -L, z1: -OD, h: 8.1, par: 0.35 }
 /** second building (walls) */
-const SB = { x0: -32.6, x1: -17.9, z0: -52.4, z1: -14.2, h: 7.3, par: 0.3, mesh: 7.7, off: 0.6, ret: 2.0 }
+const SB = { x0: -29.2, x1: -15.0, z0: -52.4, z1: -14.2, h: 7.3, par: 0.3, mesh: 7.7, off: 0.6, ret: 2.0 }
+/** third hall (walls) behind the second building; can = height of its canopies */
+const H3 = { x0: -27.0, x1: -14.5, z0: -128.5, z1: -81.5, h: 7.4, par: 0.4, can: 5.4 }
 
 /* ---------------- path helpers (mesh skins follow a rounded outline) ---------------- */
 interface PathPt {
@@ -689,27 +710,28 @@ function secondBuilding(b: Builder) {
   glazing(b, '+x', x1, -35.6, -36.6, 0, 2.3, 1, 'frameDark', 'frameGrey')
   glazing(b, '-z', z0, xc + 1, xc - 0.1, 0, 2.3, 1, 'frameDark', 'frameGrey')
 
-  // street end behind the mesh: windows and the glazed entrance
+  // street end behind the mesh: windows and the glazed entrance (positions from the west wall, photo DSC04961)
+  const sx = (o: number) => x0 + (o * w) / 14.7
   for (const [a, c] of [
-    [-31.3, -29.0],
-    [-27.0, -24.0],
-    [-22.6, -19.3],
+    [1.3, 3.6],
+    [5.6, 8.6],
+    [10.0, 13.3],
   ] as P2[])
-    glazing(b, '+z', z1, a, c, 4.4, 5.8, 2)
+    glazing(b, '+z', z1, sx(a), sx(c), 4.4, 5.8, 2)
   for (const [a, c] of [
-    [-31.3, -29.0],
-    [-21.6, -19.3],
+    [1.3, 3.6],
+    [11.0, 13.3],
   ] as P2[])
-    glazing(b, '+z', z1, a, c, 1.0, 2.4, 2)
-  glazing(b, '+z', z1, -27.0, -24.6, 0, 2.7, 2, 'glassC', 'frameDark')
+    glazing(b, '+z', z1, sx(a), sx(c), 1.0, 2.4, 2)
+  glazing(b, '+z', z1, sx(5.6), sx(8.0), 0, 2.7, 2, 'glassC', 'frameDark')
   // green corrugated canopy over the entrance (through the mesh)
   const zf = z1 + SB.off
-  b.block('greenSheet', 5.4, 0.6, 2.4, -26.0, 2.95, z1 + 1.2)
-  for (let x = -28.6; x < -23.3; x += 0.25) b.block('greenSheet', 0.04, 0.6, 0.05, x, 2.95, z1 + 2.42)
+  b.block('greenSheet', 5.4, 0.6, 2.4, sx(6.6), 2.95, z1 + 1.2)
+  for (let x = sx(4.0); x < sx(9.3); x += 0.25) b.block('greenSheet', 0.04, 0.6, 0.05, x, 2.95, z1 + 2.42)
   // sign board on the mesh
-  b.block('signBoard', 1.45, 0.92, 0.03, -23.6, 1.7, zf + 0.06)
-  label(b, 'div1', 1.15, 0.14, mat(-23.6, 2.28, zf + 0.085))
-  label(b, 'div2', 1.15, 0.13, mat(-23.6, 2.08, zf + 0.085))
+  b.block('signBoard', 1.45, 0.92, 0.03, sx(9.0), 1.7, zf + 0.06)
+  label(b, 'div1', 1.15, 0.14, mat(sx(9.0), 2.28, zf + 0.085))
+  label(b, 'div2', 1.15, 0.13, mat(sx(9.0), 2.08, zf + 0.085))
 
   // mesh skin on the street end with returns along both sides; silver screen with a chamfered top
   const path = roundedPath(
@@ -726,10 +748,75 @@ function secondBuilding(b: Builder) {
   screen(b, path, SB.mesh, 0.6, 0.38, 1.6)
 }
 
+/** Third hall behind the second building (drone photos DJI_0556 / DJI_0550, ground photo DSC04951). */
+function thirdHall(b: Builder) {
+  const { x0, x1, z0, z1, h, par, can } = H3
+  const xc = (x0 + x1) / 2
+  const zc = (z0 + z1) / 2
+  const w = x1 - x0
+  const d = z1 - z0
+  b.block('darkPanel', w, h, d, xc, 0, zc)
+  b.block('concrete', w + 0.06, 0.4, d + 0.06, xc, 0, zc)
+  for (const [ww, dd, x, z] of [
+    [w, 0.3, xc, z0 + 0.15],
+    [w, 0.3, xc, z1 - 0.15],
+    [0.3, d, x0 + 0.15, zc],
+    [0.3, d, x1 - 0.15, zc],
+  ] as [number, number, number, number][]) {
+    b.block('darkPanel', ww, par, dd, x, h, z)
+    b.block('coping', ww + 0.06, 0.05, dd + 0.06, x, h + par, z)
+  }
+  b.block('roofMembrane', w - 0.6, 0.04, d - 0.6, xc, h, zc)
+  b.block('roofBand', 0.6, 0.02, d - 1.5, x0 + 0.55 * w, h + 0.04, zc)
+  // panel joints on all four walls
+  for (const [x, s] of [
+    [x0, -1],
+    [x1, 1],
+  ] as [number, number][]) {
+    b.block('panelJoint', 0.03, 0.04, d, x + s * 0.01, 3.9, zc)
+    for (let z = z1 - 4.3; z > z0 + 1; z -= 4.3) b.block('panelJoint', 0.03, h - 0.4, 0.05, x + s * 0.01, 0.4, z)
+  }
+  for (const [z, s] of [
+    [z0, -1],
+    [z1, 1],
+  ] as [number, number][]) {
+    b.block('panelJoint', w, 0.04, 0.03, xc, 3.9, z + s * 0.01)
+    for (let x = x0 + 4.2; x < x1 - 1; x += 4.2) b.block('panelJoint', 0.05, h - 0.4, 0.03, x, 0.4, z + s * 0.01)
+  }
+  // east side: a row of high windows, a sectional door and a personnel door
+  for (let z = z1 - 6; z > z0 + 3; z -= 6) glazing(b, '+x', x1, z + 0.6, z - 0.6, 5.1, 6.0, 1, 'glassC', 'frameGrey')
+  b.add('shutterGrey', new THREE.PlaneGeometry(3.8, 4.2), mat(x1 + 0.02, 2.5, -96, Math.PI / 2))
+  glazing(b, '+x', x1, -85.4, -86.4, 0.4, 2.7, 1, 'frameDark', 'frameGrey')
+  // south end under the canopy: a large sectional door and a personnel door
+  b.add('shutterGrey', new THREE.PlaneGeometry(4.4, 4.2), mat(xc + 1.6, 2.5, z1 + 0.02))
+  glazing(b, '+z', z1, x0 + 2.2, x0 + 3.2, 0.4, 2.7, 1, 'frameDark', 'frameGrey')
+  // west side under the canopy: two sectional doors and racks with stock (DJI_0556)
+  for (const z of [-99, -114]) b.add('shutterGrey', new THREE.PlaneGeometry(3.8, 4.2), mat(x0 - 0.02, 2.5, z, -Math.PI / 2))
+  for (const [z, l] of [
+    [-89, 6],
+    [-106, 5],
+    [-121, 7],
+  ] as P2[])
+    b.block('rack', 1.4, 3.0, l, x0 - 1.4, 0, z)
+
+  /* ---------- canopies (green fascias): the whole west side and the south end ---------- */
+  const cw = 3.0 // west canopy depth
+  const cs = 2.5 // south canopy depth
+  b.block('canopyTop', cw, 0.18, d + cs, x0 - cw / 2, can, zc + cs / 2)
+  b.block('canopyTop', w, 0.18, cs, xc, can, z1 + cs / 2)
+  b.block('greenSheet', 0.12, 0.55, d + cs + 0.12, x0 - cw - 0.06, can - 0.12, zc + cs / 2)
+  b.block('greenSheet', w + cw + 0.12, 0.55, 0.12, xc - cw / 2, can - 0.12, z1 + cs + 0.06)
+  b.block('greenSheet', cw, 0.55, 0.1, x0 - cw / 2, can - 0.12, z0)
+  b.block('greenSheet', 0.1, 0.55, cs, x1 - 0.05, can - 0.12, z1 + cs / 2)
+  for (let z = z0 + 0.3; z < z1 + cs; z += 7.5) b.block('frameGrey', 0.16, can, 0.16, x0 - cw + 0.15, 0, z)
+}
+
 function site(b: Builder) {
-  // paving: forecourt, west yard (between the second building and the hall), east yard
+  // paving: forecourt, west yard (between the second building and the hall), the
+  // yard round the third hall, east yard
   b.block('hqPaving', 76, 0.06, 44, 4, -0.04, 8)
-  b.block('hqPaving', 18.2, 0.06, 132, -8.9, -0.04, -80)
+  b.block('hqPaving', 15.7, 0.06, 132, -7.65, -0.04, -80)
+  b.block('hqPaving', 15, 0.06, 80, -23, -0.04, -93)
   b.block('hqPaving', 11.8, 0.06, 132, 35.6, -0.04, -80)
   const bed = (outline: P2[], h = 0.1) => prismOutline(b, 'hqLawn', outline, 0, h)
   const rect = (xa: number, za: number, xb: number, zb: number): P2[] => [
@@ -781,7 +868,7 @@ function site(b: Builder) {
   // planted strip in the car park, bed in front of the second building, lawn with the pergola
   bed(rect(-27, 19.6, -6, 22), 0.12)
   for (let x = -25; x < -7; x += 3) b.add('shrub', new THREE.SphereGeometry(0.6, 7, 5), mat(x, 0.25, 20.8, x, 0, 0, 1.05, 0.6, 0.9))
-  bed(rect(-33, -13.2, -27.6, -10.8))
+  bed(rect(-29.6, -13.2, -24.2, -10.8))
   bed(rect(34.5, 6, 41.5, 29.5), 0.08)
   // white pergola (bicycle shelter)
   b.block('white', 3.4, 0.16, 8.4, 38.9, 2.55, 16.8)
@@ -799,8 +886,8 @@ function site(b: Builder) {
   ] as P2[])
     ballTree(b, x, z)
   // yard barrier beside the second building
-  b.block('barrier', 0.35, 1.05, 0.3, -10.8, 0, -13.4)
-  b.beam('white', V(-10.9, 0.95, -13.4), V(-17.2, 0.95, -13.4), 0.08, 0.08)
+  b.block('barrier', 0.35, 1.05, 0.3, -8.6, 0, -13.4)
+  b.beam('white', V(-8.7, 0.95, -13.4), V(-14.3, 0.95, -13.4), 0.08, 0.08)
 }
 
 function build(): Builder {
@@ -809,6 +896,7 @@ function build(): Builder {
   office(b)
   hall(b)
   secondBuilding(b)
+  thirdHall(b)
   site(b)
   // frame F → model frame (origin = the project's geo point)
   return out.merge(b, mat(-GEO.x, 0, -GEO.z))
@@ -878,6 +966,6 @@ const model: ModelModule = {
     }
   },
   notes:
-    'Whole headquarters site: the office block in green expanded aluminium with the bronze loggia and the lettering, the 145 m warehouse hall with its dock canopies and PV field, the second building with its green-mesh street end, and a light paved site. Measured from COLOR METAL drone and ground photos on the OSM outline; heights and hidden details estimated.',
+    'Whole headquarters site: the office block in green expanded aluminium with the bronze loggia and the lettering, the 145 m warehouse hall with its dock canopies and PV field, the second building with its green-mesh street end, the third hall with its green canopies, and a light paved site. Measured from COLOR METAL drone and ground photos on the OSM outline; heights and hidden details estimated.',
 }
 export default model
