@@ -98,11 +98,11 @@ function prioOf(p: Project) {
 
 /**
  * On-screen footprint diameter (px) of a symbolic miniature with the camera `dist` km away.
- * Close to the ground the enlargement fades out so neighbours come apart at nearly real size.
+ * It only ever grows as the camera approaches (zooming in never makes a building smaller); once
+ * the building's real size on screen is larger, the real size takes over.
  */
 export function symbolicPx(dist: number) {
-  const px = THREE.MathUtils.clamp(TARGET_PX * Math.pow(1250 / Math.max(dist, 1e-3), 0.33), TARGET_PX, MAX_PX)
-  return px * (0.2 + 0.8 * THREE.MathUtils.smoothstep(dist, 1.2, 14))
+  return THREE.MathUtils.clamp(TARGET_PX * Math.pow(1250 / Math.max(dist, 1e-3), 0.33), TARGET_PX, MAX_PX)
 }
 
 /* ---------------- honeycomb arrangement ---------------- */
@@ -473,18 +473,20 @@ export function Miniatures({ projects }: { projects: Project[] }) {
     const d = Math.max(runtime.distance, 1e-3)
     const stepNow = Math.log(d) / Math.log(STEP)
     const real = studio || walking
-    const key = (real ? 'real|' : '') + [...active].length + '|' + (selectedId ?? '') + '|' + list.map((m) => (m.hidden ? 0 : 1)).join('')
+    // the building whose model view is open stands at 1:1 on its own site
+    const opened = st.mode === 'inspect' ? selectedId : null
+    const key = (real ? 'real|' : '') + [...active].length + '|' + (selectedId ?? '') + '|' + (opened ?? '') + '|' + list.map((m) => (m.hidden ? 0 : 1)).join('')
     if (key !== layout.key || Number.isNaN(layout.step) || Math.abs(stepNow - layout.step) > STEP_HYST) {
       layout.step = Math.round(stepNow)
       layout.key = key
       const dStep = Math.pow(STEP, layout.step)
       // footprint radius (km) of a symbolic miniature at this step
       layout.R = real ? 0 : (symbolicPx(dStep) * ((2 * dStep * Math.tan(THREE.MathUtils.degToRad(15))) / Math.max(H, 1))) / 2
-      const shownList = list.filter((m) => !m.hidden)
+      const shownList = list.filter((m) => !m.hidden && m.p.id !== opened)
       for (const m of list) {
         m.lx = m.tx
         m.lz = m.tz
-        m.sL = real ? 1 : Math.max(1, layout.R / (m.rFoot / 1000))
+        m.sL = real || m.p.id === opened ? 1 : Math.max(1, layout.R / (m.rFoot / 1000))
       }
       if (!real && layout.R > 0) {
         // buildings already larger than the symbolic size keep their own (real) footprint in the arrangement
