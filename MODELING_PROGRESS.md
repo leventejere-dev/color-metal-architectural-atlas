@@ -76,7 +76,7 @@ Tiers: **A** premium detailed · **B** recognisable · **C** preliminary (few ph
 | `manejul-carei` | Manejul Castelului Károlyi, Carei | C | reference-limited | manejul-carei | 0 | 1 |
 | `refugiu-cheile-bicazului` | Refugiu montan, Cheile Bicazului | C | reference-limited | refugiu-cheile-bicazului | 0 | 1 |
 | `biserica-reformata-gherla` | Biserica Reformată din Gherla | C | reference-limited | biserica-reformata-gherla | 0 | 1 |
-| `sediu-color-metal` | Sediul COLOR METAL | C | reference-limited | sediu-color-metal | 1 | 1 |
+| `sediu-color-metal` | Sediul COLOR METAL | A | detailed | sediu-color-metal | 17 | 26 |
 | `palatul-nifon-bucuresti` | Palatul Nifon Mitropolitul | B | preview | palatul-nifon-bucuresti | 0 | 3 |
 | `biserica-luterana-bucuresti` | Biserica Evanghelică C.A. București (Biserica Luterană) | B | preview | biserica-luterana-bucuresti | 0 | 4 |
 | `hotel-bulevard-bucuresti` | Grand Hôtel du Boulevard (Corinthia Grand Hotel du Boulevard Bucharest) | B | preview | hotel-bulevard-bucuresti | 0 | 4 |

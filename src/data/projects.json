@@ -8715,7 +8715,7 @@
    "geographicAccuracy": "building",
    "identificationConfidence": "VERIFIED",
    "bearingDeg": 73.4,
-   "bearingSource": "OSM way 1360982485 (whole hall, rough) has its long axis at 163.4°; the office block stands across its south end, so its street front (+Z) is taken to face 163.4° (SSE) and +X runs along the front towards ≈73° (ENE). The single photo is taken from the south-west (street front + west end, hall visible behind to the west). Not verified on site.",
+   "bearingSource": "OSM way 1360982485 (the whole hall + office complex, 29.8 × 145 m): front edge 73.45°, long sides 163.3° — checked 13 Nov 2026 against the OSM API, no change needed. The drone photos (DJI_0550–0557) confirm that the office block with the green mesh stands across the south end of the hall, its street front facing 163.4° (SSE, +Z), with the second building and the car park to the west (−X) and the field fence to the east. Model origin = the project's geo point (plus code 8894+QR), 10.6 m east of the hall's west wall and 2.3 m in front of the OSM front edge; the composition is placed on the OSM outline, not re-centred.",
    "category": "commercial",
    "metals": [
     "aluminium"
@@ -8735,22 +8735,118 @@
    },
    "photos": [
     {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "kind": "photo"
+    },
+    {
      "file": "01",
      "w": 1600,
      "h": 900,
      "kind": "photo"
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "kind": "photo"
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "kind": "photo"
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "kind": "photo"
+    },
+    {
+     "file": "06",
+     "w": 1600,
+     "h": 900,
+     "kind": "photo"
+    },
+    {
+     "file": "07",
+     "w": 1600,
+     "h": 900,
+     "kind": "photo"
+    },
+    {
+     "file": "08",
+     "w": 1672,
+     "h": 941,
+     "kind": "drone"
+    },
+    {
+     "file": "09",
+     "w": 1672,
+     "h": 941,
+     "kind": "drone"
+    },
+    {
+     "file": "10",
+     "w": 1672,
+     "h": 941,
+     "kind": "drone"
+    },
+    {
+     "file": "11",
+     "w": 1672,
+     "h": 941,
+     "kind": "drone"
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1013,
+     "kind": "drone"
+    },
+    {
+     "file": "13",
+     "w": 1800,
+     "h": 1013,
+     "kind": "drone"
+    },
+    {
+     "file": "14",
+     "w": 1800,
+     "h": 1013,
+     "kind": "photo"
+    },
+    {
+     "file": "15",
+     "w": 1800,
+     "h": 1013,
+     "kind": "photo"
+    },
+    {
+     "file": "16",
+     "w": 1800,
+     "h": 1013,
+     "kind": "photo"
+    },
+    {
+     "file": "17",
+     "w": 1800,
+     "h": 1013,
+     "kind": "photo"
     }
    ],
    "photoStatus": "published",
-   "cover": "01",
+   "cover": "02",
    "model": {
-    "tier": "C",
-    "status": "reference-limited",
+    "tier": "A",
+    "status": "detailed",
     "module": "sediu-color-metal",
     "note": {
-     "ro": "Machetă preliminară după o singură fotografie: blocul de birouri îmbrăcat în plasă expandată de aluminiu verde, cu colțuri rotunjite, paravan de acoperiș argintiu și loggie cu placaj bronz; dimensiunile sunt estimate din perspectivă, iar din hală este redată doar porțiunea alăturată.",
-     "hu": "Egyetlen fotó alapján készült előzetes makett: a zöld expandált alumíniumhálóval burkolt, lekerekített sarkú irodatömb ezüst tetőparavánnal és bronzburkolatú loggiával; a méretek a perspektíva alapján becsültek, a csarnokból csak a csatlakozó rész látható.",
-     "en": "Preliminary model from a single photograph: the office block wrapped in green expanded aluminium mesh with rounded corners, a silver roof screen and a bronze-clad loggia; dimensions are estimated from the perspective, and only the adjoining part of the warehouse hall is shown."
+     "ro": "Machetă a întregului sediu, realizată după fotografiile COLOR METAL (vederi cu drona și de la sol) pe conturul OpenStreetMap: blocul de birouri îmbrăcat în plasă expandată de aluminiu verde, cu colțuri rotunjite, paravan de acoperiș argintiu, loggie cu placaj bronz și inscripția COLOR METAL, hala de depozitare de 145 m cu copertinele rampelor și panourile fotovoltaice, a doua clădire cu capătul spre stradă în aceeași plasă verde, precum și curtea cu spațiile verzi. Înălțimile și pozițiile sunt măsurate din fotografii, iar ferestrele din spatele plasei și detaliile curții sunt aproximate.",
+     "hu": "A teljes székház makettje a COLOR METAL drón- és földi felvételei alapján, az OpenStreetMap-körvonalra illesztve: a zöld expandált alumíniumhálóval burkolt, lekerekített sarkú irodaépület ezüst tetőparavánnal, bronzburkolatú loggiával és COLOR METAL felirattal, a 145 m-es raktárcsarnok a rámpák előtetőivel és a napelemekkel, az utca felőli végén ugyanilyen zöld hálóval burkolt második épület, valamint az udvar a zöldfelületekkel. A magasságok és helyzetek a fotókból mértek, a háló mögötti ablakok és az udvar részletei közelítők.",
+     "en": "Model of the whole headquarters, built from COLOR METAL's drone and ground photographs on the OpenStreetMap outline: the office block wrapped in green expanded aluminium mesh with rounded corners, a silver roof screen, the bronze-clad loggia and the COLOR METAL lettering; the 145 m warehouse hall with its loading-dock canopies and solar panels; the second building, whose street end is wrapped in the same green mesh; and the yard with its planted areas. Heights and positions are measured from the photos; windows behind the mesh and yard details are approximate."
     }
    },
    "sourceUrls": [

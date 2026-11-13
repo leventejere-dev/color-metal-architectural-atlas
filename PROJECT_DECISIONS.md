@@ -155,3 +155,17 @@
   bar shows the nearest building with distance and direction. Walking has no invisible limit either.
 * **Sepsi Arena**: the opposite long stand is plain — dark cladding on exposed steel frames with a
   white base and gates — as photographed; the gold-tone elZinc landmarks stay on the main side.
+
+## COLOR METAL headquarters — whole site (13 Nov 2026)
+
+* At the client's request the headquarters (`sediu-color-metal`) shows the whole site, not only the
+  office block: the green expanded-aluminium office with its loggia and lettering, the 145 m warehouse
+  hall (dock canopies, PV field), the second building with the green-mesh street end, and a light yard
+  (paving, planted beds and island, ball trees, pergola, barrier). Modelled from the company's 26
+  photographs (drone + ground) on the OSM outline (way 1360982485); bearing 73.4° confirmed by OSM.
+* Unlike other single buildings the model is not re-centred: its origin is the project's geo point at the
+  office front and the hall and second building sit at their measured positions (the atlas frames the
+  whole composition as for ensembles).
+* Its gallery comes from the marketing share via `extraFolders` (curated copies in
+  `work/supplementary/sediu-color-metal`, duplicates and grey originals of the re-graded drone shots
+  left out); cover = the frontal view of the office (photo 02).

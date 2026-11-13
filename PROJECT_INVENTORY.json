@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T14:21:52",
+ "generated": "2026-11-13T10:12:22",
  "archiveRoot": "M:/05_Arhitectura/Refernciák befrissítve",
  "totals": {
   "archiveFiles": 2508,
@@ -6375,14 +6375,14 @@
    ],
    "duplicateFolders": [],
    "mergeNote": null,
-   "photosFound": 1,
-   "photosUnique": 1,
+   "photosFound": 17,
+   "photosUnique": 17,
    "exactDuplicatesInSelection": 0,
-   "archiveCopiesOfSelectedPhotos": 0,
+   "archiveCopiesOfSelectedPhotos": -16,
    "register": {
     "matched": false
    },
-   "note": "Company headquarters with green expanded-aluminium façade ('COLOR METAL 20'), included in the aluminium reference booklet.",
+   "note": "Company headquarters with green expanded-aluminium façade ('COLOR METAL 20'), included in the aluminium reference booklet. Photographs supplied by COLOR METAL for the whole site (13 Nov 2026, marketing share 'M:/COLOR METAL HEADQUARTER BUILDING PHOTOS', 26 files): copies of a curated selection are kept in work/supplementary/sediu-color-metal (1-office: ground photos 3.jpg, 2.jpg, 1.jpg, 4.jpg of Aug 2026 and 3.jpeg, 1.jpeg of spring 2026; 2-drone: the re-graded Drón2/2, 4, 1, 3 and DJI_0557, DJI_0554 of Nov 2025; 3-second-building: DSC04961, 04951, 04957, 04963). Left out as duplicates: 2.jpeg (= the booklet photo above), 4.jpeg (= 1.jpeg), DJI_0550–0553/0555/0556 (grey originals of the Drón2 re-grades or near-identical views), DSC04956/04965 (near-identical to 04951/04963).",
    "photos": [
     {
      "file": "01",
@@ -6391,6 +6391,150 @@
      "source": "Referencia fuzetek/Ref fuzet Alu/WhatsApp Image 2025-04-25 at 14.25.55.jpeg",
      "kind": "photo",
      "dhash": "b6e4e1bc4c0cc083",
+     "public": true
+    },
+    {
+     "file": "02",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/1-office/01_3.jpg",
+     "kind": "photo",
+     "dhash": "f8b09af030f8f01f",
+     "public": true
+    },
+    {
+     "file": "03",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/1-office/02_2.jpg",
+     "kind": "photo",
+     "dhash": "c02099b8b2a9ac1b",
+     "public": true
+    },
+    {
+     "file": "04",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/1-office/03_1.jpg",
+     "kind": "photo",
+     "dhash": "c090d98c989894c6",
+     "public": true
+    },
+    {
+     "file": "05",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/1-office/04_4.jpg",
+     "kind": "photo",
+     "dhash": "c8c4cee8ec4c0dce",
+     "public": true
+    },
+    {
+     "file": "06",
+     "w": 1600,
+     "h": 900,
+     "source": "@work/supplementary/sediu-color-metal/1-office/05_3.jpeg",
+     "kind": "photo",
+     "dhash": "2767ce484c387849",
+     "public": true
+    },
+    {
+     "file": "07",
+     "w": 1600,
+     "h": 900,
+     "source": "@work/supplementary/sediu-color-metal/1-office/06_1.jpeg",
+     "kind": "photo",
+     "dhash": "df64dcd494d4dc98",
+     "public": true
+    },
+    {
+     "file": "08",
+     "w": 1672,
+     "h": 941,
+     "source": "@work/supplementary/sediu-color-metal/2-drone/DJI_d1_Dron2-2.jpg",
+     "kind": "drone",
+     "dhash": "0e1ecbe6534f426e",
+     "public": true
+    },
+    {
+     "file": "09",
+     "w": 1672,
+     "h": 941,
+     "source": "@work/supplementary/sediu-color-metal/2-drone/DJI_d2_Dron2-4.jpg",
+     "kind": "drone",
+     "dhash": "07cf6cd7594ed282",
+     "public": true
+    },
+    {
+     "file": "10",
+     "w": 1672,
+     "h": 941,
+     "source": "@work/supplementary/sediu-color-metal/2-drone/DJI_d3_Dron2-1.jpg",
+     "kind": "drone",
+     "dhash": "990f96861b87cb1b",
+     "public": true
+    },
+    {
+     "file": "11",
+     "w": 1672,
+     "h": 941,
+     "source": "@work/supplementary/sediu-color-metal/2-drone/DJI_d4_Dron2-3.jpg",
+     "kind": "drone",
+     "dhash": "b69bcc462245d9db",
+     "public": true
+    },
+    {
+     "file": "12",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/2-drone/DJI_d5_0557.jpg",
+     "kind": "drone",
+     "dhash": "050d56c68e168ece",
+     "public": true
+    },
+    {
+     "file": "13",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/2-drone/DJI_d6_0554.jpg",
+     "kind": "drone",
+     "dhash": "8c5b4f664b63261d",
+     "public": true
+    },
+    {
+     "file": "14",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/3-second-building/01_DSC04961.jpg",
+     "kind": "photo",
+     "dhash": "1bf8ecdc746c0605",
+     "public": true
+    },
+    {
+     "file": "15",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/3-second-building/02_DSC04951.jpg",
+     "kind": "photo",
+     "dhash": "ebbbf9f8ecac0902",
+     "public": true
+    },
+    {
+     "file": "16",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/3-second-building/03_DSC04957.jpg",
+     "kind": "photo",
+     "dhash": "dcc6c0d8c4dad202",
+     "public": true
+    },
+    {
+     "file": "17",
+     "w": 1800,
+     "h": 1013,
+     "source": "@work/supplementary/sediu-color-metal/3-second-building/04_DSC04963.jpg",
+     "kind": "photo",
+     "dhash": "363f9c96962c3c8e",
      "public": true
     }
    ],
@@ -6401,8 +6545,8 @@
     "coordinatesVerified": true,
     "metadataComplete": true,
     "mapMarker": true,
-    "modelStatus": "reference-limited",
-    "modelTier": "C",
+    "modelStatus": "detailed",
+    "modelTier": "A",
     "modelComplete": true,
     "integrated": true,
     "published": true,
@@ -6458,7 +6602,7 @@
   "awaitingGeolocationConfirmation": 14,
   "completedModels": 54,
   "modelsInDevelopment": 0,
-  "modelsNeedingMorePhotos": 14,
+  "modelsNeedingMorePhotos": 13,
   "publishedProjects": 54
  }
 }
