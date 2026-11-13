@@ -476,7 +476,11 @@ export function Miniatures({ projects }: { projects: Project[] }) {
     // the building whose model view is open stands at 1:1 on its own site
     const opened = st.mode === 'inspect' ? selectedId : null
     const key = (real ? 'real|' : '') + [...active].length + '|' + (selectedId ?? '') + '|' + (opened ?? '') + '|' + list.map((m) => (m.hidden ? 0 : 1)).join('')
-    if (key !== layout.key || Number.isNaN(layout.step) || Math.abs(stepNow - layout.step) > STEP_HYST) {
+    // while the user is zooming the buildings stay put (they simply grow with the zoom); the arrangement
+    // follows once the camera comes to rest (or immediately after a large jump)
+    const resting = !(runtime.controls?.active ?? false) || st.flying
+    const stepGap = Math.abs(stepNow - layout.step)
+    if (key !== layout.key || Number.isNaN(layout.step) || (stepGap > STEP_HYST && (resting || stepGap > 5))) {
       layout.step = Math.round(stepNow)
       layout.key = key
       const dStep = Math.pow(STEP, layout.step)

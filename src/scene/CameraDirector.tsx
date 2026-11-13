@@ -14,6 +14,7 @@ import * as THREE from 'three'
 import { projectById, useStore, type CameraCommand, type ViewPreset } from '../state/store'
 import { exaggerationFor, groundY, projectPosition, rotationFor, runtime } from './runtime'
 import { BG } from './TerrainModel'
+import { SLAB } from '../geo/terrain'
 import { DRIVE_ZOOM } from './Walker'
 
 const { ACTION } = CameraControlsImpl
@@ -22,6 +23,10 @@ const RHO = 1.35
 /** closest map zoom (km): the buildings open with a click, the map itself is not zoomed into the ground */
 const MAP_MIN_D = 2.2
 const camTmp = new THREE.Vector3()
+const camTmp2 = new THREE.Vector3()
+const rayDir = new THREE.Vector3()
+const zoomRay = new THREE.Raycaster()
+const zoomP = new THREE.Vector3()
 
 interface View {
   target: THREE.Vector3
@@ -122,7 +127,7 @@ function presetView(preset: ViewPreset): View | null {
 
 export function CameraDirector() {
   const ref = useRef<CameraControlsImpl>(null!)
-  const { camera, scene, size } = useThree()
+  const { camera, scene, size, gl } = useThree()
   const flight = useRef<Flight | null>(null)
   const cmd = useStore((s) => s.cameraCommand)
   const mode = useStore((s) => s.mode)
@@ -134,6 +139,41 @@ export function CameraDirector() {
   const eye = useStore((s) => s.walk.eye)
   const fog = useRef(new THREE.Fog(BG, 1e6, 2e6))
   const settle = useRef<{ id: string; until: number } | null>(null)
+
+  // map: precise zoom to the ground point under the cursor. (camera-controls' own dolly-to-cursor
+  // ignores the view offset of the side panels and works on a plane through the pivot, so the map
+  // slid away from the cursor.) Each wheel step scales camera and pivot about that ground point,
+  // which therefore stays exactly under the cursor.
+  // (the zoom itself is applied frame by frame in useFrame, always about the ground point under the
+  // cursor at that moment — so it stays put even while the relief exaggeration changes)
+  const zoomReq = useRef({ log: 0, ndc: new THREE.Vector2() })
+  useEffect(() => {
+    if (mode !== 'map' || walking) return
+    const el = gl.domElement
+    const onWheel = (e: WheelEvent) => {
+      const c = ref.current
+      if (!c || useStore.getState().walk.active) return
+      // the map, or a place / building label floating over it (labels must not swallow the zoom)
+      const target = e.target as HTMLElement | null
+      if (target !== el && !target?.closest?.('.labels')) return
+      e.preventDefault()
+      if (flight.current) {
+        flight.current = null
+        useStore.getState().setFlying(false)
+      }
+      const t = useStore.getState().tour
+      if (t.active && t.playing) useStore.getState().setTour({ playing: false })
+      const r = el.getBoundingClientRect()
+      zoomReq.current.ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1)
+      const dy = e.deltaMode === 1 ? e.deltaY * 33 : e.deltaMode === 2 ? e.deltaY * 400 : e.deltaY
+      zoomReq.current.log = THREE.MathUtils.clamp(zoomReq.current.log + THREE.MathUtils.clamp(dy, -400, 400) * 0.0016, -3, 3)
+    }
+    window.addEventListener('wheel', onWheel, { passive: false })
+    return () => {
+      window.removeEventListener('wheel', onWheel)
+      zoomReq.current.log = 0
+    }
+  }, [mode, walking, gl, camera])
 
   // keep the projection centred in the free area between the side panels
   useEffect(() => {
@@ -215,14 +255,15 @@ export function CameraDirector() {
       return
     }
     if (mode === 'map') {
-      // map-like panning across the ground plane (camera-controls 3: SCREEN_PAN)
+      // map-like panning across the ground plane (camera-controls 3: SCREEN_PAN); the wheel is handled
+      // above (precise zoom to the ground under the cursor); pinch zooms about the view centre
       c.mouseButtons.left = ACTION.SCREEN_PAN
       c.mouseButtons.right = ACTION.ROTATE
-      c.mouseButtons.wheel = ACTION.DOLLY
+      c.mouseButtons.wheel = ACTION.NONE
       c.touches.one = ACTION.TOUCH_SCREEN_PAN
       c.touches.two = ACTION.TOUCH_DOLLY_SCREEN_PAN as unknown as typeof ACTION.TOUCH_DOLLY_TRUCK
       c.touches.three = ACTION.TOUCH_ROTATE
-      c.dollyToCursor = true
+      c.dollyToCursor = false
     } else {
       c.mouseButtons.left = ACTION.ROTATE
       c.mouseButtons.right = ACTION.TRUCK
@@ -418,13 +459,56 @@ export function CameraDirector() {
       }
     }
 
+    // map wheel zoom, frame by frame: scale camera and pivot about the ground point under the cursor
+    const st0 = useStore.getState()
+    const zr = zoomReq.current
+    if (Math.abs(zr.log) > 1e-4 && st0.mode === 'map' && !st0.walk.active && !f) {
+      const step = zr.log * (1 - Math.exp(-Math.min(dt, 0.1) * 14))
+      zr.log -= step
+      const d0 = c.distance
+      const d1 = THREE.MathUtils.clamp(d0 * Math.exp(step), c.minDistance, c.maxDistance)
+      const k = d1 / Math.max(d0, 1e-6)
+      if (Math.abs(k - 1) < 1e-6) zr.log = 0
+      else {
+        camera.updateMatrixWorld()
+        zoomRay.setFromCamera(zr.ndc, camera)
+        c.getPosition(camTmp2)
+        c.getTarget(camTmp)
+        const o = zoomRay.ray.origin
+        const dir = zoomRay.ray.direction
+        zoomP.copy(camTmp)
+        if (dir.y < -0.01) {
+          let gy = groundY(camTmp.x, camTmp.z) ?? -SLAB * runtime.yScale
+          let t = 0
+          for (let i = 0; i < 6; i++) {
+            t = (gy - o.y) / dir.y
+            gy = groundY(o.x + dir.x * t, o.z + dir.z * t) ?? -SLAB * runtime.yScale
+          }
+          if (t > 0 && Number.isFinite(t)) zoomP.set(o.x + dir.x * t, gy, o.z + dir.z * t)
+        }
+        camTmp2.sub(zoomP).multiplyScalar(k).add(zoomP)
+        camTmp.sub(zoomP).multiplyScalar(k).add(zoomP)
+        c.setLookAt(camTmp2.x, camTmp2.y, camTmp2.z, camTmp.x, camTmp.y, camTmp.z, false)
+      }
+    }
+
     // per-frame LOD state
     const d = c.distance
     runtime.distance = d
     const E = exaggerationFor(d, runtime.terrain?.exag ?? 5)
     runtime.exaggeration = E
+    const prevYS = runtime.yScale
     runtime.yScale = E / (runtime.terrain?.exag ?? 5)
     const st = useStore.getState()
+    // the relief flattens as the camera comes down (×5 nationally → ×1.25 locally): on the map the
+    // camera sinks with the ground under the pivot, so what is under the cursor stays under it
+    if (st.mode === 'map' && !flight.current && !st.walk.active && runtime.terrain && Math.abs(runtime.yScale - prevYS) > 1e-6) {
+      c.getTarget(camTmp)
+      c.getPosition(camTmp2)
+      const hb = runtime.terrain.inside(camTmp.x, camTmp.z) ? runtime.terrain.meshY(camTmp.x, camTmp.z, runtime.terrainStride) : -SLAB
+      const dy = hb * (runtime.yScale - prevYS)
+      if (Math.abs(dy) > 1e-7) c.setLookAt(camTmp2.x, camTmp2.y + dy, camTmp2.z, camTmp.x, camTmp.y + dy, camTmp.z, false)
+    }
     if (Math.abs(st.camDistance - d) / Math.max(d, 1e-3) > 0.04) st.setCamDistance(d)
 
     // after arriving at a building: follow its settling site (target and camera move together)
@@ -435,6 +519,33 @@ export function CameraDirector() {
         const vf = projectView(se.id)
         const tg = c.getTarget(camTmp)
         if (vf && tg.distanceTo(vf.target) > 0.0004) c.moveTo(vf.target.x, vf.target.y, vf.target.z, !st.reducedMotion)
+      }
+    }
+
+    // map: keep the orbit / zoom pivot on the ground. Zoom-to-cursor moves the pivot towards the
+    // cursor in screen space, which lifts it off the terrain (kilometres up after a few wheel turns:
+    // the closest zoom then stops high in the air). Move it back down along the same line of sight —
+    // the view does not change, only the pivot and the distance do.
+    if (st.mode === 'map' && !flight.current && !st.walk.active && !st.tour.active) {
+      const tg = c.getTarget(camTmp)
+      const gT = groundY(tg.x, tg.z) ?? -SLAB * runtime.yScale
+      const drift = tg.y - gT
+      if (Math.abs(drift) > Math.max(0.03, d * 0.03) && (!c.active || Math.abs(drift) > d * 0.35)) {
+        const pos = c.getPosition(camTmp2)
+        rayDir.subVectors(tg, pos).normalize()
+        if (rayDir.y < -0.02) {
+          let gy = gT
+          let t = 0
+          for (let i = 0; i < 4; i++) {
+            t = (gy - pos.y) / rayDir.y
+            const hx = pos.x + rayDir.x * t
+            const hz = pos.z + rayDir.z * t
+            gy = groundY(hx, hz) ?? -SLAB * runtime.yScale
+          }
+          // (not when the grounded pivot would be closer than the closest zoom: the controls would then
+          // push the camera back about the pivot and the view would slide)
+          if (t >= c.minDistance && t < d * 12 + 50) c.setTarget(pos.x + rayDir.x * t, gy, pos.z + rayDir.z * t, false)
+        }
       }
     }
 

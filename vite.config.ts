@@ -6,7 +6,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: './',
   plugins: [react()],
-  server: { port: 5174 },
+  // work/ holds research, caches and QA output — never part of the app (and busy files there must not crash the watcher)
+  server: { port: 5174, watch: { ignored: ['**/work/**', '**/dist/**'] } },
   build: {
     target: 'es2020',
     chunkSizeWarningLimit: 1600,
