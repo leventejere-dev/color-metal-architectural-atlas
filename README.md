@@ -17,14 +17,17 @@ model, with the company's photographs and the verified material information.
   the neighbouring countries; county boundaries, rivers, cities, regions. Relief exaggeration ×5
   nationally, easing to ×1.25 locally (shown on screen).
 * **Architectural models everywhere** — every reference building (≈150, each with photographs) is a
-  3D model on the map, readable from the national view and growing as you approach until it stands
-  at true 1:1 scale on its real site; important models keep their size in dense areas. Monastery and
-  palace ensembles include the ancillary buildings that carry the same metal.
-* **Zoom like a map** — zooming in on a building switches to its model view (like entering Street
-  View); zooming back out returns to the map.
-* **Walk & drive** — a lifelike 1.76 m figure in a COLOR METAL jacket (walk / fast run, eye level) or a
-  COLOR METAL car (throttle, brake, turbo, handbrake drift with skid marks, chase or cockpit view)
-  around the selected building at true scale; walls block the way.
+  3D model standing directly on the satellite map, readable from the national view and growing as you
+  approach until it stands at true 1:1 scale on its real site. Buildings never move: where they would
+  overlap on screen, the more important one stays and carries a "+N" badge (click → zoom in). Monastery
+  and palace ensembles include the ancillary buildings that carry the same metal.
+* **Click to open** — a click on a building opens its model view; the map itself stops at a sensible
+  zoom instead of diving into the blurred ground.
+* **Walk & drive** — a lifelike 1.76 m figure in a COLOR METAL jacket (walk / fast run, eye level)
+  around the selected building, or a COLOR METAL flatbed truck loaded with copper and aluminium bars
+  that shift on the bed (throttle, brake, turbo, handbrake drift with skid marks, chase or cab view)
+  across the whole country, from building to building: true scale up close, a symbolic map vehicle
+  when zoomed out (wheel / + −); walls block the way, no invisible limits.
 * **Fly-to** — smooth zoom-out/travel/zoom-in camera path, interruptible, reduced-motion aware.
 * **Inspection** — orbit, zoom, reset / top / roof / façade / material views, ambient-occlusion
   close-ups, geographic or isolated studio context, model ↔ reality comparison next to the photographs.

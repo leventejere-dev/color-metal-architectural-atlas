@@ -108,50 +108,37 @@ export function projectLabels(camera: THREE.Camera, width: number, height: numbe
   }
   st.dirtySize = false
 
-  // ---- clustering of project markers at small scales ----
-  const clusters: { ids: string[]; sx: number; sy: number }[] = []
-  const clustered = new Set<string>()
-  if (false) {
-    const R = 30
-    const pts = projPts.filter((p) => st.activeProjects.has(p.item.projectId!))
-    for (let i = 0; i < pts.length; i++) {
-      const a = pts[i]
-      if (clustered.has(a.item.projectId!)) continue
-      const members = [a]
-      for (let j = i + 1; j < pts.length; j++) {
-        const b = pts[j]
-        if (clustered.has(b.item.projectId!)) continue
-        if (Math.hypot(a.sx - b.sx, a.sy - b.sy) < R) members.push(b)
-      }
-      if (members.length > 1) {
-        for (const m of members) clustered.add(m.item.projectId!)
-        clusters.push({ ids: members.map((m) => m.item.projectId!), sx: members.reduce((s, m) => s + m.sx, 0) / members.length, sy: members.reduce((s, m) => s + m.sy, 0) / members.length })
-      }
-    }
-  }
-  st.clusters = clusters.map((c) => c.ids)
-  st.clusterEls.forEach((el, i) => {
-    const c = clusters[i]
+  // ---- "+N" badges: a miniature standing for neighbours that would overlap it on screen ----
+  const clusters = useStore.getState().walk.active ? [] : runtime.miniClusters
+  const shownClusters: string[][] = []
+  st.clusterEls.forEach((el) => {
+    const c = clusters[shownClusters.length]
     if (!c) {
       el.classList.remove('on')
       return
     }
-    el.dataset.n = String(c.ids.length)
+    v.copy(c.anchor).project(camera)
+    if (v.z > 1 || v.z < -1) {
+      el.classList.remove('on')
+      shownClusters.push([])
+      return
+    }
+    const sx = (v.x * 0.5 + 0.5) * width + Math.min(c.rPx * 0.55, 46)
+    const sy = (-v.y * 0.5 + 0.5) * height + 6
+    const label = '+' + (c.ids.length - 1)
     const span = el.firstElementChild as HTMLElement | null
-    if (span && span.textContent !== String(c.ids.length)) span.textContent = String(c.ids.length)
-    el.style.transform = `translate3d(${c.sx.toFixed(1)}px, ${(c.sy - 34).toFixed(1)}px, 0) translate(-50%, -50%)`
+    if (span && span.textContent !== label) span.textContent = label
+    el.style.transform = `translate3d(${sx.toFixed(1)}px, ${sy.toFixed(1)}px, 0) translate(-50%, -50%)`
     el.classList.add('on')
-    placed.push({ x0: c.sx - 16, y0: c.sy - 50, x1: c.sx + 16, y1: c.sy - 18 })
+    shownClusters.push(c.ids)
+    placed.push({ x0: sx - 18, y0: sy - 12, x1: sx + 18, y1: sy + 12 })
   })
+  st.clusters = shownClusters
 
   // ---- greedy placement by priority ----
   visibleCandidates.sort((a, b) => a.prio - b.prio)
   for (const c of visibleCandidates) {
     const it = c.item
-    if (it.kind === 'project' && clustered.has(it.projectId!) && c.prio > -10) {
-      hide(it)
-      continue
-    }
     const offY = it.kind === 'project' ? -it.h - 4 : -it.h / 2
     const x0 = it.kind === 'city' ? c.sx + 8 : c.sx - it.w / 2
     const y0 = c.sy + offY

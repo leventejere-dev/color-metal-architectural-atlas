@@ -26,6 +26,7 @@ export function MapControls() {
   const context = useStore((s) => s.context)
   const introDone = useStore((s) => s.introDone)
   const tourActive = useStore((s) => s.tour.active)
+  const walking = useStore((s) => s.walk.active)
   const stats = useStats()
   const E = exaggerationFor(d)
   const showStats = !selectedId && d > 500 && introDone && !tourActive
@@ -33,6 +34,11 @@ export function MapControls() {
   return (
     <>
       <div className={`map-controls ${mode === 'inspect' ? 'inspecting' : ''}`}>
+        {mode === 'map' && !walking && introDone && !tourActive && (
+          <button className="drive-map" onClick={() => useStore.getState().setWalk({ active: true, eye: false, run: false, car: true })} aria-label={t.driveFromMap} title={t.driveFromMap}>
+            <Icon.car />
+          </button>
+        )}
         <button onClick={() => useStore.getState().command({ kind: 'zoom', factor: 0.5 })} aria-label={t.zoomIn} title={t.zoomIn}>
           <Icon.plus />
         </button>

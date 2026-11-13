@@ -989,18 +989,28 @@ dd {
   position: absolute;
   left: 0;
   top: 0;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: var(--ink);
-  color: var(--c-f3ead6);
-  font-size: 12px;
+  min-width: 30px;
+  height: 22px;
+  padding: 0 7px;
+  border-radius: 11px;
+  border: 1px solid rgba(201, 173, 116, 0.85);
+  background: rgba(24, 23, 21, 0.86);
+  color: #f3ead6;
+  font-size: 11.5px;
   font-weight: 600;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
   display: none;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 0 3px rgba(201, 173, 116, 0.55), 0 4px 14px rgba(40, 34, 25, 0.25);
+  box-shadow: 0 3px 10px rgba(20, 17, 12, 0.3);
+  backdrop-filter: blur(4px);
+  cursor: pointer;
   pointer-events: auto;
+}
+.cluster:hover {
+  background: rgba(185, 154, 94, 0.95);
+  color: #17150f;
 }
 .cluster.on {
   display: flex;
@@ -1616,6 +1626,48 @@ dd {
   .walk-hint {
     max-width: calc(100vw - 16px);
   }
+}
+.drive-hud {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  margin-top: 3px;
+  font-size: 11px;
+}
+.drive-scale {
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.drive-near {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink-2);
+}
+.drive-near b {
+  color: var(--ink);
+  font-weight: 600;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.drive-near button {
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--brass);
+  color: var(--ink);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.drive-near button:hover {
+  background: var(--brass);
+  color: #17150f;
+}
+.map-controls .drive-map {
+  color: var(--brass);
 }
 
 .scale-notes .credit {

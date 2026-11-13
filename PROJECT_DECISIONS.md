@@ -32,8 +32,8 @@
 
 ## Miniatures instead of pins (client decision, 12 Nov 2026)
 
-* Every project stands on the map as its own architectural miniature on a small ivory plinth
-  with a brass ring — from the national overview down to true scale. Far away each miniature
+* Every project stands on the map as its own architectural miniature (third round: directly on the
+  ground, no plinth — see below) — from the national overview down to true scale. Far away each miniature
   keeps a readable on-screen size (it is symbolically enlarged; the factor is shown on screen);
   as the camera approaches it grows on screen and then settles at its real 1:1 size on its site.
 * Cartographic priority instead of clusters: where enlarged miniatures would collide (Bucharest,
@@ -41,7 +41,7 @@
   with published photographs, then other models — and the others stand compact on their own sites;
   small residual overlaps are pushed apart (≤ 1.6 radii, fine leader lines to the true site). Every
   miniature therefore stays at its town; as the camera approaches, the conflicts disappear and all
-  grow to full size. No cluster badges.
+  grow to full size. (Third round: replaced by "+N" badges and fixed positions — see below.)
 * Level of detail: a light far version of every model (thin parts such as seams, mullions and
   small ornaments dropped) is built progressively after the intro; the full model is built for the
   selected building and for miniatures that are large on screen (LRU cache of 6).
@@ -118,15 +118,35 @@
   Sentinel-2, CC BY 4.0 — the only commercially usable year of that mosaic) on the slab and the
   context table, with the baked normal map keeping the sculpted relief lighting; map labels use light
   text with a dark halo. The ivory print stays as a fallback when no satellite texture is baked.
-* **Zoom-driven mode switch** (like Street View): near a building the map enters its model view;
-  zooming out beyond ≈2.6× the model view distance returns to the map (with hysteresis).
+* ~~Zoom-driven mode switch~~ — withdrawn in the third round (see below).
 * **Drive mode**: a COLOR METAL car (arcade bicycle model, handbrake drift, turbo, skid marks) next to
   the walking figure; while walking/driving the building stands on the levelled ground without its
   base, and the terrain levelling covers whole mesh cells so nothing sinks into the relief.
 * **Only modelled buildings with photographs are shown**; no placeholder markers.
 * **Romanian-only interface**, hideable project list, light/dark mode (follows the system on first
   visit), no slogan in the header.
-* **Sepsi Arena complete**: the exhibition half-section plus its mirror image (opposite stand
-  approximated as symmetric).
+* **Sepsi Arena complete** — third round: the opposite long stand is plain (dark cladding on exposed
+  steel frames, like the end stands), not a mirror of the zinc-clad main side.
 * **Ensembles**: ancillary buildings with the same metal are modelled with the main building
   (e.g. Tazlău, Văratec, Rohia, Secu); base and camera centre on the whole composition.
+
+## Client decisions of 13 Nov 2026 (third round)
+
+* **Click to open, no zoom-driven switch**: a building's model view opens only on a click (or from the
+  list / search); the map's closest zoom is 2.2 km so it never dives into the blurred ground. The
+  camera frames the building's true-scale site (not its enlarged map miniature), and a safety net keeps
+  it above the rendered ground — this fixes the empty/black model views of the second round.
+* **No plinths, no swarming**: miniatures stand directly on the satellite ground with a soft contact
+  shadow. They never move: where they would overlap on screen, the more important one (exhibition
+  models, then published photographs, then tier) stays and carries a "+N" badge for the others
+  (click → zoom closer); hysteresis and a short fade keep the decision calm.
+* **Flatbed truck across the country**: the drive mode uses a COLOR METAL flatbed pickup loaded with
+  copper and aluminium bars, tubes and sheet offcuts that slide, roll and knock against the sides under
+  acceleration, braking, cornering and drifts. It drives anywhere on the relief (the slab edge is the
+  only boundary) and collides with the buildings. Its travel scale follows the chase distance with the
+  miniatures' own rule: true scale beside true-scale buildings up close, a symbolic map vehicle when
+  zoomed out (wheel / + −), so Romania is crossed in well under a minute. The building nearest the
+  truck stands on levelled ground and can be opened from the drive bar. Walking has no invisible limit
+  either (off the plateau the figure follows the terrain).
+* **Sepsi Arena**: the opposite long stand is plain — dark cladding on exposed steel frames with a
+  white base and gates — as photographed; the gold-tone elZinc landmarks stay on the main side.

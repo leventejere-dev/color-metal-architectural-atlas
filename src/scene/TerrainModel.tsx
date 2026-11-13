@@ -272,19 +272,40 @@ export function TerrainModel({ terrain, quality }: { terrain: Terrain; quality: 
 
   useFrame(() => {
     group.current.scale.y = runtime.yScale
-    // level a small plateau under the selected model so it sits on a true base
+    // level a small plateau under the selected model (or, while driving, the building nearest
+    // the truck) so it sits on a true base
+    const stride = quality === 'high' ? 1 : 2
+    runtime.terrainStride = stride
+    const fs = runtime.flatSite
     const m = runtime.model
-    const target = m && runtime.distance < 60 ? 1 : 0
-    uniforms.uFlat.value += (target - uniforms.uFlat.value) * 0.08
-    if (m) {
-      site.current.set(m.center.x, terrain.y(m.center.x, m.center.z), m.center.z)
-      uniforms.uSite.value.copy(site.current)
+    const src = fs
+      ? { cx: fs.center.x, cz: fs.center.z, sizeKm: fs.sizeKm }
+      : m
+        ? { cx: m.center.x, cz: m.center.z, sizeKm: (Math.max(m.sizeM.x, m.sizeM.z) / 1000) * Math.min(m.scale, 1.5) }
+        : null
+    const target = src && (fs || runtime.distance < 60) ? 1 : 0
+    if (src) {
       // the plateau must cover whole mesh cells around the site, otherwise the rendered (linearly
       // interpolated) slope stays above the site height and buries the building / the walking figure
-      const cell = terrain.meta.grid.spacingKm * (quality === 'high' ? 1 : 2)
-      const r = Math.max(0.12, (Math.max(m.sizeM.x, m.sizeM.z) / 1000) * m.scale * 1.1, cell * 2.2)
-      uniforms.uFlatR.value.set(r, r + cell * 2.5)
-    }
+      const cell = terrain.meta.grid.spacingKm * stride
+      const r = Math.max(0.12, src.sizeKm * 1.1, cell * 2.2)
+      const moved = Math.hypot(site.current.x - src.cx, site.current.z - src.cz) > 1e-6
+      // a new site while the old plateau is still raised: lower it first, then move it
+      if (moved && uniforms.uFlat.value > 0.02) uniforms.uFlat.value = Math.max(0, uniforms.uFlat.value - 0.25)
+      else {
+        site.current.set(src.cx, terrain.meshY(src.cx, src.cz, stride), src.cz)
+        uniforms.uSite.value.copy(site.current)
+        uniforms.uFlatR.value.set(r, r + cell * 2.5)
+        uniforms.uFlat.value += (target - uniforms.uFlat.value) * 0.08
+      }
+    } else uniforms.uFlat.value += (0 - uniforms.uFlat.value) * 0.08
+    const f = runtime.flat
+    f.x = uniforms.uSite.value.x
+    f.y = uniforms.uSite.value.y
+    f.z = uniforms.uSite.value.z
+    f.k = uniforms.uFlat.value
+    f.r0 = uniforms.uFlatR.value.x
+    f.r1 = uniforms.uFlatR.value.y
   })
 
   const visible = context === 'geo'

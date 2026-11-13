@@ -179,7 +179,14 @@ function eaveBand(
   return arc
 }
 
-export function buildStadium(): Builder {
+/**
+ * `full`: the atlas version — the whole stadium (full pitch, full end stands and the plain
+ * opposite long stand with its dark cladding and exposed steel frames, as photographed);
+ * the zinc-clad pavilion and the landmarks stay on the main side. Origin = pitch centre.
+ * Without options the exhibition half-section is built unchanged.
+ */
+export function buildStadium(opts: { full?: boolean } = {}): Builder {
+  const full = !!opts.full
   const b = new Builder()
   const px = PITCH.w / 2
   const pz = PITCH.d / 2
@@ -189,13 +196,18 @@ export function buildStadium(): Builder {
    * (z = 0); only the half carrying the main stand and the zinc facade is
    * modelled. The cut faces sit against the presentation backdrop.
    */
-  b.block('concrete', 150, 0.6, 71.5, 0, -0.6, 35.25)
-  const pitchGeo = new THREE.PlaneGeometry(PITCH.w, PITCH.d / 2)
-  const puv = pitchGeo.attributes.uv as THREE.BufferAttribute
-  for (let i = 0; i < puv.count; i++) puv.setY(i, puv.getY(i) * 0.5)
-  b.add('pitch', pitchGeo, mat(0, 0.05, PITCH.d / 4, 0, -Math.PI / 2))
-  // section face of the ground slab at the cut
-  b.box('stadDark', PITCH.w + 30, 0.6, 0.05, 0, -0.3, -0.48)
+  if (full) {
+    b.block('concrete', 150, 0.6, 143, 0, -0.6, 0)
+    b.add('pitch', new THREE.PlaneGeometry(PITCH.w, PITCH.d), mat(0, 0.05, 0, 0, -Math.PI / 2))
+  } else {
+    b.block('concrete', 150, 0.6, 71.5, 0, -0.6, 35.25)
+    const pitchGeo = new THREE.PlaneGeometry(PITCH.w, PITCH.d / 2)
+    const puv = pitchGeo.attributes.uv as THREE.BufferAttribute
+    for (let i = 0; i < puv.count; i++) puv.setY(i, puv.getY(i) * 0.5)
+    b.add('pitch', pitchGeo, mat(0, 0.05, PITCH.d / 4, 0, -Math.PI / 2))
+    // section face of the ground slab at the cut
+    b.box('stadDark', PITCH.w + 30, 0.6, 0.05, 0, -0.3, -0.48)
+  }
 
   /* ---------------- stands ---------------- */
   // profile in (outward distance s, height y): front wall, seating rake, back.
@@ -290,8 +302,15 @@ export function buildStadium(): Builder {
   // main long side (+z) complete; the two end stands are cut at the pitch centre line (world z = 0)
   const halfEnd = (PITCH.d - 2) / 2
   stand(-(PITCH.w + 2) / 2, (PITCH.w + 2) / 2, 15, 13, 19.5, 0, pz, true)
-  stand(-halfEnd, 0, 12.5, 11, 17.8, Math.PI / 2, px, false)
-  stand(0, halfEnd, 12.5, 11, 17.8, -Math.PI / 2, px, false)
+  if (full) {
+    stand(-halfEnd, halfEnd, 12.5, 11, 17.8, Math.PI / 2, px, false)
+    stand(-halfEnd, halfEnd, 12.5, 11, 17.8, -Math.PI / 2, px, false)
+    // opposite long stand: plain — dark cladding on exposed steel frames, white base with gates
+    stand(-(PITCH.w + 2) / 2, (PITCH.w + 2) / 2, 15, 13, 19.5, Math.PI, pz, false)
+  } else {
+    stand(-halfEnd, 0, 12.5, 11, 17.8, Math.PI / 2, px, false)
+    stand(0, halfEnd, 12.5, 11, 17.8, -Math.PI / 2, px, false)
+  }
 
   // upper zinc band on top of the main stand facade (sloped, like the eave band)
   const upperY = 19.5 - 3.2
@@ -365,6 +384,7 @@ export function buildStadium(): Builder {
   /* ---------------- "SEPSI" red lettering on the side piers (hint only) ---------------- */
   // (omitted at model scale — letters would be ~5 mm)
 
+  if (full) return b
   // keep the footprint centred: the half-section spans z ≈ [-0.5, 71] → shift by -35.25
   const out = new Builder()
   out.merge(b, mat(0, 0, -35.25))

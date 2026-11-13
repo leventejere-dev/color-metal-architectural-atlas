@@ -3,9 +3,9 @@
  "status": "existing-verified",
  "photosUsed": "exhibition-table reference set",
  "note": {
-  "ro": "Model preluat de pe masa expozițională COLOR METAL și completat la stadionul întreg: tribuna principală cu pavilionul placat cu titan-zinc a fost oglindită pentru tribuna opusă (aproximare). Dimensiunile, adâncimea tribunelor și înălțimile acoperișului sunt estimate.",
-  "hu": "A COLOR METAL kiállítási asztal modellje teljes stadionná kiegészítve: a titáncink burkolatú pavilonnal ellátott főlelátó tükrözve adja a szemközti lelátót (közelítés). A méretek, a lelátók mélysége és a tetőmagasságok becsültek.",
-  "en": "Exhibition-table model completed to the whole stadium: the main stand with the titanium-zinc clad pavilion is mirrored for the opposite stand (approximation). Dimensions, stand depths and roof heights are estimated."
+  "ro": "Model preluat de pe masa expozițională COLOR METAL și completat la stadionul întreg: tribuna principală cu pavilionul placat cu titan-zinc, iar tribuna opusă simplă — placaj închis la culoare pe cadre metalice aparente, ca tribunele de capăt (fotografii). Dimensiunile, adâncimea tribunelor și înălțimile acoperișului sunt estimate.",
+  "hu": "A COLOR METAL kiállítási asztal modellje teljes stadionná kiegészítve: a főlelátó a titáncink burkolatú pavilonnal, a szemközti lelátó egyszerű — sötét burkolat látszó acélkereteken, mint a végelátók (fotók). A méretek, a lelátók mélysége és a tetőmagasságok becsültek.",
+  "en": "Exhibition-table model completed to the whole stadium: the main stand with the titanium-zinc clad pavilion and a plain opposite stand — dark cladding on exposed steel frames, like the end stands (photographs). Dimensions, stand depths and roof heights are estimated."
  },
  "bearingDeg": 24.2,
  "bearingSource": "OSM way 763941868 long axis 24.2° (pitch axis); which long side carries the main stand with the zinc pavilion is not verified"

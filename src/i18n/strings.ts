@@ -9,11 +9,15 @@ const ro = {
   darkMode: 'Mod întunecat',
   lightMode: 'Mod luminos',
   run: 'Fugă',
-  drive: 'Mașină',
-  driveTitle: 'Cu mașina în jurul clădirii',
-  driveHint: 'W / S accelerează · frânează, A / D virează, Space = frână de mână (drift), Shift = turbo · click pe teren: conduce acolo',
-  driveHintTouch: 'Atinge terenul pentru a conduce acolo · Turbo pentru viteză mai mare',
-  carNote: 'Mașină de 4,7 m — scară reală 1:1',
+  drive: 'Camion',
+  driveTitle: 'Cu camionul prin țară',
+  driveHint: 'W / S accelerează · frânează, A / D virează, Space = frână de mână (drift), Shift = turbo, rotița sau + / − = scara de călătorie · click pe teren: conduce acolo',
+  driveHintTouch: 'Atinge terenul pentru a conduce acolo · + / − = scara de călătorie',
+  carNote: 'Camion cu platformă încărcat cu bare de cupru și aluminiu — la scară reală de aproape, mărit simbolic când te depărtezi',
+  driveFromMap: 'Cu camionul prin țară',
+  driveNear: 'Aproape',
+  openModel: 'Deschide modelul',
+  travelScale: (n: number) => (n <= 1 ? 'Scară reală 1:1' : `Camion mărit ×${n} pentru călătorie`),
   chaseView: 'Din spate',
   cockpit: 'Din cabină',
   turbo: 'Turbo',
@@ -132,6 +136,7 @@ const ro = {
 type Strings = typeof ro
 
 const hu: Strings = {
+  ...ro,
   atlas: 'Építészeti atlasz',
   darkMode: 'Sötét mód',
   lightMode: 'Világos mód',
@@ -257,6 +262,7 @@ const hu: Strings = {
 }
 
 const en: Strings = {
+  ...ro,
   atlas: 'Architectural Atlas',
   darkMode: 'Dark mode',
   lightMode: 'Light mode',

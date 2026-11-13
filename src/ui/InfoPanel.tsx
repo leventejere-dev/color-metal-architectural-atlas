@@ -31,8 +31,10 @@ export function InfoPanel() {
   const modelState = useStore((s) => s.modelState)
   const tourActive = useStore((s) => s.tour.active)
   const [sheet, setSheet] = useState<'peek' | 'full'>('peek')
+  const driving = useStore((s) => s.walk.active && !!s.walk.car)
   const p = projectById(selectedId)
-  if (!p) return null
+  // while driving across the country the card steps aside (the drive bar names the nearest building)
+  if (!p || driving) return null
 
   const name = displayName(p, lang)
   const desc = pick(p.description, lang)

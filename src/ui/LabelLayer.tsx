@@ -80,16 +80,17 @@ export function LabelLayer({ vectors }: { vectors: Vectors }) {
           {text(it)}
         </div>
       ))}
-      {Array.from({ length: 14 }).map((_, i) => (
+      {Array.from({ length: 48 }).map((_, i) => (
         <button
           key={'cl' + i}
           className="cluster"
+          aria-label="zoom"
           ref={(el) => {
             if (el) labelState.clusterEls[i] = el
           }}
           onClick={() => {
             const ids = labelState.clusters[i]
-            if (ids) useStore.getState().command({ kind: 'fit', ids })
+            if (ids?.length) useStore.getState().command({ kind: 'fit', ids })
           }}
         >
           <span />

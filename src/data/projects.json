@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "projects": [
   {
    "id": "sepsi-osk-arena",
@@ -118,9 +118,9 @@
     "status": "existing-verified",
     "module": "exhibition:stadium-full",
     "note": {
-     "ro": "Model preluat de pe masa expozițională COLOR METAL și completat la stadionul întreg: tribuna principală cu pavilionul placat cu titan-zinc a fost oglindită pentru tribuna opusă (aproximare). Dimensiunile, adâncimea tribunelor și înălțimile acoperișului sunt estimate.",
-     "hu": "A COLOR METAL kiállítási asztal modellje teljes stadionná kiegészítve: a titáncink burkolatú pavilonnal ellátott főlelátó tükrözve adja a szemközti lelátót (közelítés). A méretek, a lelátók mélysége és a tetőmagasságok becsültek.",
-     "en": "Exhibition-table model completed to the whole stadium: the main stand with the titanium-zinc clad pavilion is mirrored for the opposite stand (approximation). Dimensions, stand depths and roof heights are estimated."
+     "ro": "Model preluat de pe masa expozițională COLOR METAL și completat la stadionul întreg: tribuna principală cu pavilionul placat cu titan-zinc, iar tribuna opusă simplă — placaj închis la culoare pe cadre metalice aparente, ca tribunele de capăt (fotografii). Dimensiunile, adâncimea tribunelor și înălțimile acoperișului sunt estimate.",
+     "hu": "A COLOR METAL kiállítási asztal modellje teljes stadionná kiegészítve: a főlelátó a titáncink burkolatú pavilonnal, a szemközti lelátó egyszerű — sötét burkolat látszó acélkereteken, mint a végelátók (fotók). A méretek, a lelátók mélysége és a tetőmagasságok becsültek.",
+     "en": "Exhibition-table model completed to the whole stadium: the main stand with the titanium-zinc clad pavilion and a plain opposite stand — dark cladding on exposed steel frames, like the end stands (photographs). Dimensions, stand depths and roof heights are estimated."
     }
    },
    "sourceUrls": [
@@ -213,7 +213,7 @@
      -57.94
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-reformata-tasnad",
@@ -328,7 +328,7 @@
      -6.97
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "castelul-banffy-rascruci",
@@ -518,7 +518,7 @@
      8.4
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "parcare-satu-mare",
@@ -616,7 +616,7 @@
     "https://www.gazetanord-vest.ro/2026/11/158-de-locuri-noi-de-parcare-in-centrul-vechi-al-municipiului-satu-mare-viceprimarul-raul-babtan-anunta-tarifele/",
     "https://www.presasm.ro/s-a-semnat-contractul-pentru-a-doua-parcare-multietajata-din-satu-mare/"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "ansamblul-mitropolitan-iasi",
@@ -797,7 +797,7 @@
      2.32
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "ateneul-roman",
@@ -975,7 +975,7 @@
      8.29
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biblioteca-academiei-romane",
@@ -1148,7 +1148,7 @@
      6.39
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biblioteca-centrala-universitara-iasi",
@@ -1304,7 +1304,7 @@
      21.71
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-pogorarea-duhului-sfant-giroc",
@@ -1485,7 +1485,7 @@
      -14.37
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "parohia-ortodoxa-giroc",
@@ -1600,7 +1600,7 @@
      3.21
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-amzei",
@@ -1835,7 +1835,7 @@
      7.52
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-casin",
@@ -2126,7 +2126,7 @@
      -5.86
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-romano-catolica-tamasu",
@@ -2286,7 +2286,7 @@
      -5.75
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-romano-catolica-zetea",
@@ -2468,7 +2468,7 @@
      18.47
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-domnita-balasa",
@@ -2914,7 +2914,7 @@
      9.62
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-reformata-feliceni",
@@ -3110,7 +3110,7 @@
      -4.31
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "bojdeuca-ion-creanga",
@@ -3245,7 +3245,7 @@
      2.28
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "casa-berthelot-iasi",
@@ -3414,7 +3414,7 @@
      7.96
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "casa-macca",
@@ -3551,7 +3551,7 @@
      -11.83
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "casa-pogor",
@@ -3704,7 +3704,7 @@
      -12.94
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "catedrala-ortodoxa-satu-mare",
@@ -3789,7 +3789,7 @@
      4.75
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-sf-mihail-cluj",
@@ -4078,7 +4078,7 @@
      -19.46
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "centrul-reformat-noul-mileniu",
@@ -4352,7 +4352,7 @@
      -11.28
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "cladire-rezidentiala-odorheiu-secuiesc",
@@ -4471,7 +4471,7 @@
     "https://www.openstreetmap.org/way/163595888",
     "https://www.openstreetmap.org/way/713007397"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "clinica-obstetrica-timisoara",
@@ -4595,7 +4595,7 @@
      3.43
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "vila-constantin-geblescu",
@@ -4753,7 +4753,7 @@
      12.38
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "intrare-iulius-town-timisoara",
@@ -4820,7 +4820,7 @@
     "https://www.romania-insider.com/business/iulius-town-opens-timisoara-romania",
     "https://www.wall-street.ro/articol/Real-Estate/290211/iulius-a-ajuns-la-un-pol-de-business-de-80-000-metri-patrati-in-proiectul-de-regenerare-urbana-de-442-mil-euro-din-timisoara.html"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "liceul-teoretic-ady-endre",
@@ -4960,7 +4960,7 @@
      20.68
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-barnova",
@@ -5140,7 +5140,7 @@
      1.55
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-dragomirna",
@@ -5242,7 +5242,7 @@
      3.65
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-frumoasa",
@@ -5426,7 +5426,7 @@
      3.21
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-putna",
@@ -5602,7 +5602,7 @@
      2.65
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-tazlau",
@@ -5816,7 +5816,7 @@
      8.85
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-tismana",
@@ -5909,7 +5909,7 @@
      12.38
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "muzeul-istorie-arheologie-piatra-neamt",
@@ -6199,7 +6199,7 @@
      -18.8
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "muzeul-apei-timisoara",
@@ -6401,7 +6401,7 @@
      0.0
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "observatorul-astronomic-iasi",
@@ -6585,7 +6585,7 @@
      3.32
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "palatul-cultural-blaj",
@@ -6721,7 +6721,7 @@
      17.91
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "palatul-principilor-alba-iulia",
@@ -6861,7 +6861,7 @@
      44.67
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "scoala-95-bucuresti",
@@ -7040,7 +7040,7 @@
      18.8
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "bt-arena-cluj",
@@ -7113,7 +7113,7 @@
      35.83
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "facultatea-stiinte-politice-bucuresti",
@@ -7299,7 +7299,7 @@
      8.96
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "castelul-tisza-geszt",
@@ -7439,7 +7439,7 @@
      -20.9
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "refugiu-piatra-talharului",
@@ -7559,7 +7559,7 @@
     "https://www.radiocluj.ro/2025/09/25/refugiul-montan-piatra-talharului-a-fost-inaugurat/",
     "https://cluj24.ro/video-foto-refugiul-piatra-talharului-noua-oaza-montana-din-apuseni-deschisa-drumetilor-263827.html"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "catedrala-voluntari",
@@ -7689,7 +7689,7 @@
      33.95
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "conacul-berenczei-kovats-nisipeni",
@@ -7814,7 +7814,7 @@
      9.29
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "csiki-jatekszin",
@@ -8014,7 +8014,7 @@
      7.3
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-delnita",
@@ -8210,7 +8210,7 @@
      -5.86
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "castelul-bethlen-arcalia",
@@ -8385,7 +8385,7 @@
      11.5
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "casa-de-vacanta-varsag",
@@ -8503,7 +8503,7 @@
     "https://www.openstreetmap.org/node/460204180",
     "https://www.openstreetmap.org/relation/13673225"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manejul-carei",
@@ -8573,7 +8573,7 @@
      36.27
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "refugiu-cheile-bicazului",
@@ -8621,7 +8621,7 @@
     "https://www.digi24.ro/stiri/externe/ue/o-priveliste-care-iti-taie-respiratia-si-un-proiect-unic-in-romania-refugii-panoramice-pe-stanca-1626537",
     "https://www.stiripesurse.ro/refugii-montane-panoramice-amplasate-in-premiera-in-romania-in-parcul-national-cheile-bicazului-hasmas_1850024.html"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-reformata-gherla",
@@ -8700,7 +8700,7 @@
      1.55
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "sediu-color-metal",
@@ -8784,7 +8784,7 @@
      138.11
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "palatul-nifon-bucuresti",
@@ -8963,7 +8963,7 @@
      2.24
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-luterana-bucuresti",
@@ -9054,7 +9054,7 @@
      -12.37
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "hotel-bulevard-bucuresti",
@@ -9170,7 +9170,7 @@
      -15.98
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-schitul-magureanu",
@@ -9263,7 +9263,7 @@
      -6.14
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "universitatea-de-muzica-bucuresti",
@@ -9409,7 +9409,7 @@
      -41.63
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "muzeul-taranului-roman",
@@ -9521,7 +9521,7 @@
      11.99
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "palatul-cesianu-racovita",
@@ -9589,7 +9589,7 @@
      -7.12
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-varteju",
@@ -9685,7 +9685,7 @@
      -3.98
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "conacul-bolomey",
@@ -9755,7 +9755,7 @@
      6.28
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-sf-gheorghe-mangalia",
@@ -9827,7 +9827,7 @@
      10.57
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "catedrala-turnu-magurele",
@@ -9946,7 +9946,7 @@
      -12.47
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biblioteca-carianopol-caracal",
@@ -9989,7 +9989,7 @@
     "https://bibmunicipala-caracal.webnode.ro/",
     "https://www.cybo.com/RO/caracal/libraries"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "teatrul-maria-filotti-braila",
@@ -10118,7 +10118,7 @@
      32.48
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-nucet",
@@ -10204,7 +10204,7 @@
      -7.49
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-sfanta-vineri-pitesti",
@@ -10362,7 +10362,7 @@
      5.38
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "muzeul-judetean-arges",
@@ -10440,7 +10440,7 @@
      -3.24
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-madona-dudu-craiova",
@@ -10547,7 +10547,7 @@
      1.99
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "hotel-palace-craiova",
@@ -10619,7 +10619,7 @@
      13.71
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "primaria-craiova",
@@ -10713,7 +10713,7 @@
      -16.25
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biblioteca-franceza-omnia-craiova",
@@ -10777,7 +10777,7 @@
      6.86
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-sf-gheorghe-vechi-craiova",
@@ -10923,7 +10923,7 @@
      3.76
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-hurezi",
@@ -11152,7 +11152,7 @@
      6.08
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "primaria-oradea",
@@ -11302,7 +11302,7 @@
      28.75
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "spitalul-municipal-oradea",
@@ -11438,7 +11438,7 @@
      49.87
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "fosta-biserica-unitariana-abrud",
@@ -11522,7 +11522,7 @@
      4.64
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-piarista-timisoara",
@@ -11685,7 +11685,7 @@
      -5.31
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "cazarma-piata-libertatii-timisoara",
@@ -11808,7 +11808,7 @@
      16.03
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "auto-schunn-arad",
@@ -11867,7 +11867,7 @@
      -10.73
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-lainici",
@@ -12005,7 +12005,7 @@
      5.97
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-hodos-bodrog",
@@ -12048,7 +12048,7 @@
     "https://en.wikipedia.org/wiki/Hodo%C8%99-Bodrog_Monastery",
     "https://commons.wikimedia.org/wiki/Category:Hodoș-Bodrog_Monastery"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-gai-arad",
@@ -12193,7 +12193,7 @@
      -14.26
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-sfanta-cruce-studina",
@@ -12235,7 +12235,7 @@
     "https://www.openstreetmap.org/node/1316062897",
     "https://www.openstreetmap.org/way/610986292"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-calvaria-cluj",
@@ -12348,7 +12348,7 @@
      10.62
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "muzeul-de-arta-cluj",
@@ -12480,7 +12480,7 @@
      -21.45
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "liceul-bolyai-farkas-targu-mures",
@@ -12710,7 +12710,7 @@
      -23.99
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "pensiunea-aster-campu-cetatii",
@@ -12754,7 +12754,7 @@
     "https://m.hotele.pl/en/romania/cimpu-cetatii/aster-panzio",
     "https://www.openstreetmap.org/node/345720918"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "catedrala-evanghelica-sibiu",
@@ -12950,7 +12950,7 @@
      -5.31
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "sediu-sts-sibiu",
@@ -12996,7 +12996,7 @@
     "https://www.openstreetmap.org/node/5847933257",
     "https://www.openstreetmap.org/node/599292677"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-evanghelica-codlea",
@@ -13137,7 +13137,7 @@
      -5.64
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-evanghelica-maghiara-brasov",
@@ -13225,7 +13225,7 @@
      12.05
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "prefectura-maramures",
@@ -13368,7 +13368,7 @@
      -16.48
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-sf-treime-baia-mare",
@@ -13443,7 +13443,7 @@
      13.16
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-rohia",
@@ -13529,7 +13529,7 @@
      5.2
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-borsa-pietroasa",
@@ -13625,7 +13625,7 @@
      10.28
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "hotel-victoria-satu-mare",
@@ -13714,7 +13714,7 @@
      -16.92
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-catolica-ciumani",
@@ -13836,7 +13836,7 @@
      -9.73
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "pavilion-parc-central-miercurea-ciuc",
@@ -13959,7 +13959,7 @@
      1.77
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "hotel-tusnad",
@@ -14051,7 +14051,7 @@
      8.51
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "hotel-castel-daniel-varghis",
@@ -14149,7 +14149,7 @@
      -3.43
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-catolica-tarnovita",
@@ -14250,7 +14250,7 @@
      9.73
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-reformata-taureni",
@@ -14297,7 +14297,7 @@
     "https://commons.wikimedia.org/wiki/Category:Reformed_church_in_T%C4%83ureni",
     "https://www.openstreetmap.org/node/262440817"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "catedrala-nasterea-domnului-suceava",
@@ -14426,7 +14426,7 @@
      -10.06
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-sucevita",
@@ -14668,7 +14668,7 @@
      0.0
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-secu",
@@ -14741,7 +14741,7 @@
      -10.84
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-varatec",
@@ -14821,7 +14821,7 @@
      2.54
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-almas",
@@ -14913,7 +14913,7 @@
      4.64
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-sf-teodori-iasi",
@@ -15040,7 +15040,7 @@
      6.08
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "turnul-barboi-iasi",
@@ -15094,7 +15094,7 @@
      1.0
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-abagerilor-barlad",
@@ -15155,7 +15155,7 @@
      -5.42
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "catedrala-inaltarea-domnului-bacau",
@@ -15472,7 +15472,7 @@
      23.0
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "catedrala-focsani",
@@ -15621,7 +15621,7 @@
      12.49
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-ciolanu",
@@ -15665,7 +15665,7 @@
     "https://www.wikidata.org/wiki/Q3320269",
     "https://commons.wikimedia.org/wiki/Category:Ciolanu_Monastery"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-negru-voda-campulung",
@@ -15742,7 +15742,7 @@
      1.88
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "parohia-nasterii-maicii-domnului-campulung-moldovenesc",
@@ -15945,7 +15945,7 @@
      6.79
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-sfantul-stefan-iasi",
@@ -16039,7 +16039,7 @@
      2.11
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "schit-berca-berca",
@@ -16139,7 +16139,7 @@
      4.85
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "hotel-indigo-bucuresti-bucuresti",
@@ -16299,7 +16299,7 @@
      -24.54
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-aparatorii-patriei-bucuresti",
@@ -16381,7 +16381,7 @@
      9.72
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-sitaru-sitaru",
@@ -16458,7 +16458,7 @@
      -0.07
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-incinta-centrul-de-odihna-si-meditatie-pantelimon-l-pantelimon",
@@ -16535,7 +16535,7 @@
      -3.96
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "casa-dianu-craiova",
@@ -16607,7 +16607,7 @@
      -8.45
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-sf-gheorghe-manastirea-viforata-viforata",
@@ -16722,7 +16722,7 @@
      -5.55
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-manastirea-manastirea",
@@ -16793,7 +16793,7 @@
      11.09
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-neptun-neptun",
@@ -16855,7 +16855,7 @@
      -6.27
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-vartop-vartop",
@@ -16929,7 +16929,7 @@
      5.21
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-tariceni-calarasi",
@@ -17006,7 +17006,7 @@
      8.48
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "casa-armatei-constanta",
@@ -17066,7 +17066,7 @@
      -19.9
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-balint-balint",
@@ -17112,7 +17112,7 @@
     "https://commons.wikimedia.org/wiki/File:BalintTM_(2).JPG",
     "https://ro.wikipedia.org/wiki/Balin%C8%9B,_Timi%C8%99"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-jdioara-jdioara",
@@ -17194,7 +17194,7 @@
      -12.59
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-mosnita-veche-mosnita-veche",
@@ -17284,7 +17284,7 @@
      0.96
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "parohia-ortodoxa-romana-sag-sag",
@@ -17407,7 +17407,7 @@
      5.17
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "parohia-ortodoxa-romana-timisoara-plopi-timisoara",
@@ -17498,7 +17498,7 @@
      2.1
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-tormac-tormac",
@@ -17575,7 +17575,7 @@
      10.96
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-iecea-mare-iecea-mare",
@@ -17619,7 +17619,7 @@
     "https://www.openstreetmap.org/node/12900464401",
     "https://ro.wikipedia.org/wiki/Iecea_Mare,_Timi%C8%99"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-obirsia-closani-obirsia-closani",
@@ -17663,7 +17663,7 @@
     "https://promehedinti.ro/en/obarsia-closani/",
     "https://www.openstreetmap.org/way/74512558"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-sf-ioan-iacob-hozevitul-piatra-craiului",
@@ -17707,7 +17707,7 @@
     "https://actualdecluj.ro/doi-trimisi-in-judecata-pentru-furtul-cutiei-milei-de-la-manastirea-piatra-craiului-lacasul-de-cult-e-tinta-repetata-a-hotilor/",
     "https://www.openstreetmap.org/node/1316063333"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-sfanta-treime-farau",
@@ -17796,7 +17796,7 @@
      -3.76
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "parohia-buna-vestire-bistrita",
@@ -17867,7 +17867,7 @@
      15.76
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "corp-manastirea-ponor-ponor",
@@ -17910,7 +17910,7 @@
     "https://www.openstreetmap.org/node/5012454856",
     "https://www.openstreetmap.org/way/368471048"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-buna-vestire-zlatna",
@@ -17990,7 +17990,7 @@
      -2.26
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-romano-catolica-foieni",
@@ -18101,7 +18101,7 @@
      -10.31
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "manastirea-oasa-sugag",
@@ -18319,7 +18319,7 @@
      7.72
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "parohia-ortodoxa-romana-sadu-i-sadu",
@@ -18428,7 +18428,7 @@
      8.02
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-ortodoxa-stramtura-stramtura",
@@ -18576,7 +18576,7 @@
      13.1
     ]
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   },
   {
    "id": "biserica-reformata-din-apahida-apahida",
@@ -18622,7 +18622,7 @@
     "https://reformatus.ro/hirek/felhivas-gyujtes-az-apahidai-reformatus-misszioi-egyhazkozseg-templomanak-felepitesere",
     "https://www.youtube.com/watch?v=tZdTbemgaX4"
    ],
-   "lastUpdated": "2026-11-12"
+   "lastUpdated": "2026-11-13"
   }
  ]
 }

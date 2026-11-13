@@ -11,6 +11,7 @@ import { Walker } from './Walker'
 import { PostFX } from './PostFX'
 import { TerrainModel, BG } from './TerrainModel'
 import { labelState, projectLabels } from './labels'
+import { groundY, runtime } from './runtime'
 
 const STUDIO_BG = new THREE.Color('#efece6')
 const MAP_BG = new THREE.Color(BG)
@@ -40,7 +41,7 @@ function Background() {
 function ReadyHandle() {
   const three = useThree()
   useEffect(() => {
-    if (import.meta.env.DEV) Object.assign(window, { __three: three, __store: useStore, __labels: labelState })
+    if (import.meta.env.DEV) Object.assign(window, { __three: three, __store: useStore, __labels: labelState, __runtime: runtime, __groundY: groundY })
   }, [three])
   return null
 }

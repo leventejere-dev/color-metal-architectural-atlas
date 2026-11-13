@@ -12,16 +12,15 @@ import { useFrame, useThree } from '@react-three/fiber'
 import { CameraControls, CameraControlsImpl } from '@react-three/drei'
 import * as THREE from 'three'
 import { projectById, useStore, type CameraCommand, type ViewPreset } from '../state/store'
-import { exaggerationFor, projectPosition, rotationFor, runtime } from './runtime'
+import { exaggerationFor, groundY, projectPosition, rotationFor, runtime } from './runtime'
 import { BG } from './TerrainModel'
-import { nearestMini } from './Miniatures'
-
-/** Google-Maps-like switching between the map and a building's model view, driven by the zoom. */
-const auto = { blockedUntilD: 0, tmp: new THREE.Vector3() }
 
 const { ACTION } = CameraControlsImpl
 const DEG = Math.PI / 180
 const RHO = 1.35
+/** closest map zoom (km): the buildings open with a click, the map itself is not zoomed into the ground */
+const MAP_MIN_D = 2.2
+const camTmp = new THREE.Vector3()
 
 interface View {
   target: THREE.Vector3
@@ -81,12 +80,15 @@ export function projectView(id: string): View | null {
   const front = m?.front ?? [0, 1]
   const hM = m ? m.sizeM.y : 15
   target.y += (hM * 0.3) / 1000
-  // frame the whole composition (ensembles extend beyond the main building's site)
+  // frame the whole composition (ensembles extend beyond the main building's site), on the ground the
+  // building really stands on (levelled site — in a gorge the smoothed terrain estimate can be far off)
   if (m) {
     target.x = m.center.x
     target.z = m.center.z
+    target.y = m.center.y + (hM * 0.3) / 1000
   }
-  return { target, d: THREE.MathUtils.clamp((sizeM / 1000) * 2.9, 0.06, 1.6), az: frontAzimuth(rotY, front) + 38 * DEG, pol: 64 * DEG }
+  // small objects (an entrance drum, a canopy) are framed close too
+  return { target, d: THREE.MathUtils.clamp((sizeM / 1000) * 2.9, 0.014, 1.6), az: frontAzimuth(rotY, front) + 38 * DEG, pol: 64 * DEG }
 }
 
 function presetView(preset: ViewPreset): View | null {
@@ -127,22 +129,24 @@ export function CameraDirector() {
   const selectedId = useStore((s) => s.selectedId)
   const comparing = useStore((s) => s.gallery.open && s.gallery.compare)
   const walking = useStore((s) => s.walk.active)
+  const carMode = useStore((s) => !!s.walk.car)
   const eye = useStore((s) => s.walk.eye)
   const fog = useRef(new THREE.Fog(BG, 1e6, 2e6))
+  const settle = useRef<{ id: string; until: number } | null>(null)
 
   // keep the projection centred in the free area between the side panels
   useEffect(() => {
     const cam = camera as THREE.PerspectiveCamera
     const desktop = size.width > 900
     const left = comparing ? (desktop ? size.width / 2 : 0) : desktop && listOpen ? 372 : 0
-    const right = comparing ? 0 : desktop && selectedId ? 420 : 0
+    const right = comparing ? 0 : desktop && selectedId && !(walking && carMode) ? 420 : 0
     // on phones the compare photo takes the top half: centre the model in the lower half
     const shiftY = comparing && !desktop ? size.height / 4 : 0
     const shift = (left - right) / 2
     if (shift || shiftY) cam.setViewOffset(size.width, size.height, -shift, -shiftY, size.width, size.height)
     else cam.clearViewOffset()
     cam.updateProjectionMatrix()
-  }, [camera, size, listOpen, selectedId, comparing])
+  }, [camera, size, listOpen, selectedId, comparing, walking, carMode])
 
   useEffect(() => {
     scene.fog = fog.current
@@ -188,9 +192,10 @@ export function CameraDirector() {
     const c = ref.current
     if (walking) {
       // walk-around: drag looks around the figure, wheel/pinch sets the camera distance
+      // (driving: the truck handles the wheel itself — it sets the travel scale)
       c.mouseButtons.left = ACTION.ROTATE
       c.mouseButtons.right = ACTION.ROTATE
-      c.mouseButtons.wheel = ACTION.DOLLY
+      c.mouseButtons.wheel = useStore.getState().walk.car ? ACTION.NONE : ACTION.DOLLY
       c.touches.one = ACTION.TOUCH_ROTATE
       c.touches.two = ACTION.TOUCH_DOLLY_ROTATE
       c.touches.three = ACTION.NONE
@@ -215,7 +220,7 @@ export function CameraDirector() {
       c.touches.three = ACTION.TOUCH_TRUCK
       c.dollyToCursor = false
     }
-  }, [mode, walking])
+  }, [mode, walking, carMode])
 
   // a wider, street-view-like lens while walking
   useEffect(() => {
@@ -227,10 +232,10 @@ export function CameraDirector() {
   // eye level vs. third person
   useEffect(() => {
     const c = ref.current
-    if (!walking) return
+    if (!walking || carMode) return
     // only when switching view while walking (the walker places the camera on entry)
     if (eye || c.distance < 0.003) c.dollyTo(eye ? 0.00045 : 0.0049, !useStore.getState().reducedMotion)
-  }, [walking, eye])
+  }, [walking, eye, carMode])
 
   const current = (): View => {
     const c = ref.current
@@ -297,7 +302,12 @@ export function CameraDirector() {
         if (!v) break
         const done = () => {
           const st = useStore.getState()
-          if (st.selectedId === id && projectById(id)?.model.module) st.enterInspectQuiet()
+          if (st.selectedId === id && projectById(id)?.model.module) {
+            st.enterInspectQuiet()
+            // the relief exaggeration and the levelled site settle only on arrival: keep re-aiming
+            // at where the building really stands for a moment
+            settle.current = { id, until: performance.now() + 2500 }
+          }
         }
         if (command.instant) apply(v)
         else flyTo(v, done, false, id)
@@ -331,8 +341,10 @@ export function CameraDirector() {
         if (!pts.length) break
         const box = new THREE.Box3().setFromPoints(pts)
         const ctr = box.getCenter(new THREE.Vector3())
-        const ext = Math.max(box.max.x - box.min.x, box.max.z - box.min.z, 6)
-        flyTo({ target: ctr, d: ext * 2.4, az: c.azimuthAngle, pol: 42 * DEG }, undefined, true)
+        const ext = Math.max(box.max.x - box.min.x, box.max.z - box.min.z, 0.4)
+        // always a real step closer (a "+N" badge of very close neighbours must keep opening up)
+        const d = Math.max(MAP_MIN_D, Math.min(ext * 2.6, c.distance * 0.4))
+        flyTo({ target: ctr, d, az: c.azimuthAngle, pol: 42 * DEG }, undefined, true)
         break
       }
       case 'preset': {
@@ -345,7 +357,9 @@ export function CameraDirector() {
         break
       }
       case 'zoom':
-        c.dolly(c.distance * command.factor, !useStore.getState().reducedMotion)
+        // while driving, the zoom buttons set the chase distance (the truck's travel scale)
+        if (useStore.getState().walk.active && useStore.getState().walk.car) runtime.driveZoom = THREE.MathUtils.clamp(runtime.driveZoom * (1 - command.factor), 1, 4000)
+        else c.dolly(c.distance * command.factor, !useStore.getState().reducedMotion)
         break
       case 'north':
         c.rotateAzimuthTo(0, !useStore.getState().reducedMotion)
@@ -400,25 +414,27 @@ export function CameraDirector() {
     runtime.yScale = E / (runtime.terrain?.exag ?? 5)
     const st = useStore.getState()
     if (Math.abs(st.camDistance - d) / Math.max(d, 1e-3) > 0.04) st.setCamDistance(d)
-    // zoom-driven mode switch (like Street View): close to a building → its model view;
-    // zooming back out of a model view → the map. Hysteresis: after an automatic exit the
-    // camera must first move out further before another automatic entry.
-    if (!flight.current && !st.walk.active && !st.tour.active && st.introDone) {
-      if (st.mode === 'map') {
-        if (d > auto.blockedUntilD) auto.blockedUntilD = 0
-        const tgt = c.getTarget(auto.tmp)
-        const near = auto.blockedUntilD === 0 ? nearestMini(tgt.x, tgt.z) : null
-        if (near) {
-          const enterD = THREE.MathUtils.clamp(near.sizeKm * 5, 0.15, 1.0)
-          if (d < enterD && near.distKm < Math.max(near.sizeKm * 1.5, d * 0.5)) st.select(near.id, { inspect: true })
-        }
-      } else if (st.mode === 'inspect' && st.selectedId) {
-        const v = projectView(st.selectedId)
-        const exitD = Math.max((v?.d ?? 0.2) * 2.6, 0.45)
-        if (d > exitD) {
-          auto.blockedUntilD = exitD * 1.4
-          st.select(null)
-        }
+
+    // after arriving at a building: follow its settling site (target and camera move together)
+    const se = settle.current
+    if (se) {
+      if (performance.now() > se.until || st.selectedId !== se.id || st.walk.active) settle.current = null
+      else if (!flight.current && runtime.model?.id === se.id) {
+        const vf = projectView(se.id)
+        const tg = c.getTarget(camTmp)
+        if (vf && tg.distanceTo(vf.target) > 0.0004) c.moveTo(vf.target.x, vf.target.y, vf.target.z, !st.reducedMotion)
+      }
+    }
+
+    // safety net: the camera never goes below the rendered ground (a wrong framing or a steep
+    // valley would otherwise leave the view black from inside the hill)
+    if (!st.walk.active) {
+      const cp = camera.position
+      const gy = groundY(cp.x, cp.z)
+      const clear = Math.max(0.0025, d * 0.04)
+      if (gy !== null && cp.y < gy + clear) {
+        c.getPosition(camTmp)
+        c.setPosition(camTmp.x, gy + clear, camTmp.z, false)
       }
     }
 
@@ -431,7 +447,11 @@ export function CameraDirector() {
       cam.updateProjectionMatrix()
     }
     const studio = st.context === 'studio'
-    if (st.walk.active) {
+    if (st.walk.active && st.walk.car) {
+      // the truck's travel scale grows with the chase distance: so does the visible country
+      fog.current.near = studio ? 1e7 : 0.25 + d * 9
+      fog.current.far = studio ? 2e7 : 2.4 + d * 70
+    } else if (st.walk.active) {
       fog.current.near = studio ? 1e7 : 0.09
       fog.current.far = studio ? 2e7 : 1.1
     } else if (studio || d > 80) {
@@ -441,18 +461,26 @@ export function CameraDirector() {
       fog.current.near = d * 5.5
       fog.current.far = d * 48
     }
-    if (st.walk.active) {
+    if (st.walk.active && st.walk.car) {
+      // the truck sets the camera itself (chase / cockpit) at any travel scale
+      c.maxPolarAngle = 179 * DEG
+      c.minDistance = 0.0001
+      c.maxDistance = 3400
+    } else if (st.walk.active) {
       c.maxPolarAngle = (st.walk.eye ? 118 : 88) * DEG
       c.minDistance = st.walk.eye ? 0.0002 : 0.0015
       c.maxDistance = 0.04
     } else {
       c.maxDistance = 3400
       c.maxPolarAngle = (d < 4 ? 86 : 78) * DEG
-      // inspection: never closer than ~0.7 × the building's largest dimension (keeps the camera outside it)
+      // inspection: never closer than ~0.7 × the building's largest dimension (keeps the camera outside it);
+      // map: not into the blurred ground — a building opens with a click
       c.minDistance =
         st.mode === 'inspect' && runtime.model
           ? Math.max(0.012, (Math.max(runtime.model.sizeM.x, runtime.model.sizeM.y, runtime.model.sizeM.z) / 1000) * 0.7)
-          : 0.1
+          : flight.current || st.selectedId || st.tour.active
+            ? 0.01
+            : MAP_MIN_D
     }
   })
 

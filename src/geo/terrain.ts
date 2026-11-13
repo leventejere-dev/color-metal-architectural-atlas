@@ -67,6 +67,32 @@ export class Terrain {
     return (this.elevation(x, z) / 1000) * this.exag
   }
 
+  /**
+   * Scene height (km, exaggerated) exactly on the rendered triangle mesh (grid every `stride`
+   * samples, cells split along the (i+1, j)–(i, j+1) diagonal like buildTerrainGeometry).
+   */
+  meshY(x: number, z: number, stride = 1): number {
+    const { extent, grid } = this.meta
+    const nx = Math.floor((grid.nx - 1) / stride) + 1
+    const ny = Math.floor((grid.ny - 1) / stride) + 1
+    const fx = ((x - extent.x0) / (extent.x1 - extent.x0)) * ((grid.nx - 1) / stride)
+    const fy = ((z - extent.z0) / (extent.z1 - extent.z0)) * ((grid.ny - 1) / stride)
+    const cx = Math.min(Math.max(fx, 0), nx - 1.001)
+    const cy = Math.min(Math.max(fy, 0), ny - 1.001)
+    const i = Math.floor(cx)
+    const j = Math.floor(cy)
+    const tx = cx - i
+    const ty = cy - j
+    const h = this.heights
+    const H = (ii: number, jj: number) => h[Math.min(jj * stride, grid.ny - 1) * grid.nx + Math.min(ii * stride, grid.nx - 1)]
+    const a = H(i, j)
+    const b = H(i + 1, j)
+    const c = H(i, j + 1)
+    const d = H(i + 1, j + 1)
+    const e = tx + ty <= 1 ? a + (b - a) * tx + (c - a) * ty : d + (c - d) * (1 - tx) + (b - d) * (1 - ty)
+    return (e / 1000) * this.exag
+  }
+
   toScene(lat: number, lon: number, target = new THREE.Vector3()) {
     const p = project(lat, lon)
     return target.set(p.x, this.inside(p.x, p.z) ? this.y(p.x, p.z) : -SLAB, p.z)
